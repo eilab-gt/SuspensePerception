@@ -25,10 +25,7 @@ def process_and_save_results(results, output_dir):
             {
                 "story_id": result["story_id"],
                 "question_id": result["question_id"],
-                "character": quantitative_info["character"],
-                "emotion": quantitative_info["emotion"],
-                "intensity": quantitative_info["intensity"],
-                "explanation": result["parsed_response"].get("Explanation", ""),
+                "answer": result["parsed_response"].get("Answer", ""),
             }
         )
 
@@ -45,14 +42,8 @@ def process_and_save_results(results, output_dir):
 
 def extract_quantitative_info(parsed_response):
     quantitative_info = {
-        "character": parsed_response.get("Character", ""),
-        "emotion": parsed_response.get("Emotion", ""),
-        "intensity": parsed_response.get("Intensity", ""),
+        "question_id": parsed_response.get("Question", ""),
+        "answer": parsed_response.get("Answer", ""),
     }
-
-    try:
-        quantitative_info["intensity"] = float(quantitative_info["intensity"])
-    except ValueError:
-        pass
-
+    
     return quantitative_info

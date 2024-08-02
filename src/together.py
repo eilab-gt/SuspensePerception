@@ -15,7 +15,7 @@ def generate_response(messages, model_config):
             top_k=model_config["top_k"],
             top_p=model_config["top_p"],
             repetition_penalty=model_config["repetition_penalty"],
-            stop=["Human:", "Assistant:"],
+            # stop=["Human:", "Assistant:"],
         )
         return output["output"]["choices"][0]["message"]["content"]
     except Exception as e:

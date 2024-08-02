@@ -27,6 +27,7 @@ def main(args: Namespace):
         }
 
     # Setup Together API
+    # TODO: Store and load the API key from the .secrets file not a YAML
     setup_together_api(config["api"]["key"])
 
     # Run the experiment
