@@ -2,7 +2,7 @@ import yaml
 from argparse import Namespace
 from .together import setup_together_api
 from .utils import load_config, save_raw_api_output, process_and_save_results
-from .gerrig import run_experiment
+from .misc import run_experiment
 
 
 def main(args: Namespace):
