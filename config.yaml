@@ -1,0 +1,15 @@
+
+model:
+  name: 'meta-llama/Llama-2-7b-chat-hf'
+  max_tokens: 100
+  temperature: 1
+  top_k: 50
+  top_p: 0.7
+  repetition_penalty: 1
+
+api:
+  key: 'fa12a40c9ee86b002d11b0f348c884bb04780563335f17e7491bf3b006dc302d'
+
+experiment:
+  story_file: 'gerrig'
+  output_dir: 'results'
