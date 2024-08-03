@@ -45,5 +45,5 @@ def extract_quantitative_info(parsed_response):
         "question_id": parsed_response.get("Question", ""),
         "answer": parsed_response.get("Answer", ""),
     }
-    
+
     return quantitative_info
