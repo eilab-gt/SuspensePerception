@@ -1,6 +1,6 @@
 import pytest
 
-from src.gerrig import (
+from src.thriller.gerrig import (
     alternative_substitutions,
     apply_substitutions,
     default_substitutions,

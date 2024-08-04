@@ -4,7 +4,7 @@ import together
 import pytest
 from unittest.mock import patch
 import requests_mock
-from src.api import generate_response, setup_openai_api
+from src.thriller.api import generate_response, setup_openai_api
 
 
 def test_generate_response_openai(mock_openai):

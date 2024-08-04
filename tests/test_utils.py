@@ -8,7 +8,7 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
-from src.utils import save_raw_api_output, process_and_save_results, load_config
+from src.thriller.utils import save_raw_api_output, process_and_save_results, load_config
 
 
 def test_load_config():
