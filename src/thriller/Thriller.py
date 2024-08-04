@@ -4,13 +4,13 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 
-from src.thriller.gerrig import (
+from gerrig import (
     alternative_substitutions,
     default_substitutions,
     generate_experiment_texts,
 )
-from src.thriller.misc import run_experiment
-from src.thriller.utils import load_config, process_and_save_results
+from misc import run_experiment
+from utils import load_config, process_and_save_results
 
 
 def main(args):
@@ -57,8 +57,8 @@ def main(args):
         }
     )
     experiment_config.update({
-        "experiment_series": args.experiment_series or config.get("experiment_series"),
-        "output_dir": args.output_dir or config.get("output_dir"),
+        "experiment_series": args.experiment_series or experiment_config.get("experiment_series"),
+        "output_dir": args.output_dir or experiment_config.get("output_dir"),
     })
 
     # Ensure output directory exists
@@ -105,7 +105,6 @@ def parse_arguments():
     parser.add_argument(
         "--experiment_series",
         type=str,
-        required=True,
         help="Name of the experiment series to run",
     )
     parser.add_argument("--output_dir", type=str, help="Directory for output files")
@@ -114,7 +113,6 @@ def parse_arguments():
         action="store_true",
         help="Use alternative names and titles",
     )
-
     return parser.parse_args()
 
 
