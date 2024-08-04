@@ -1,7 +1,8 @@
 import json
 from pathlib import Path
-import yaml
+
 import pandas as pd
+import yaml
 
 
 def load_config(config_path):

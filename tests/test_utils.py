@@ -1,14 +1,19 @@
 import json
-import pytest
-from unittest.mock import patch, mock_open, call
-import yaml
-import pandas as pd
 import sys
 from pathlib import Path
+from unittest.mock import call, mock_open, patch
+
+import pandas as pd
+import pytest
+import yaml
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
-from src.thriller.utils import save_raw_api_output, process_and_save_results, load_config
+from src.thriller.utils import (
+    load_config,
+    process_and_save_results,
+    save_raw_api_output,
+)
 
 
 def test_load_config():

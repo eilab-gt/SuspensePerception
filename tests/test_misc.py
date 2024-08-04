@@ -1,11 +1,12 @@
-import pytest
-from unittest.mock import patch, MagicMock
 import sys
 from pathlib import Path
+from unittest.mock import MagicMock, patch
 
-sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
+import pytest
 
-from misc import parse_response, run_experiment
+from src.thriller.misc import parse_response, run_experiment
+
+# sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
 
 def test_parse_response():
@@ -25,10 +26,10 @@ def test_parse_response():
 
 
 @patch(
-    "misc.generate_response",
+    "src.thriller.misc.generate_response",
     return_value="Character: James Bond\nEmotion: Determined\nIntensity: High\nExplanation: Bond is focused on escaping.",
 )
-@patch("misc.save_raw_api_output")
+@patch("src.thriller.misc.save_raw_api_output")
 def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
     experiment_series = "gerrig"
     model_config = {

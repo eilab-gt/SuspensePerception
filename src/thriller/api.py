@@ -1,4 +1,5 @@
 import os
+
 import openai
 from together import Together
 
@@ -9,7 +10,8 @@ def setup_openai_api(api_key):
 
 
 def generate_response(messages, model_config):
-    if model_config["api_type"] == "openai":
+    api_type = model_config.get("api_type", "together")
+    if api_type == "openai":
         response = openai.ChatCompletion.create(
             model=model_config["name"],
             messages=messages,
@@ -17,7 +19,7 @@ def generate_response(messages, model_config):
             temperature=model_config["temperature"],
         )
         return response["choices"][0]["message"]["content"]
-    elif model_config["api_type"] == "together":
+    elif api_type == "together":
         client = Together(api_key=model_config["api_key"])
         response = client.chat.completions.create(
             model=model_config["name"],
@@ -27,4 +29,4 @@ def generate_response(messages, model_config):
         )
         return response.choices[0].message.content
     else:
-        raise ValueError(f"Unsupported API type: {model_config['api_type']}")
+        raise ValueError(f"Unsupported API type: {api_type}")

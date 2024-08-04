@@ -1,6 +1,6 @@
 from src.thriller.api import generate_response
-from src.thriller.utils import save_raw_api_output
 from src.thriller.gerrig import generate_experiment_texts
+from src.thriller.utils import save_raw_api_output
 
 
 def parse_response(response):

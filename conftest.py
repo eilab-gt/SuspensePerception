@@ -1,6 +1,7 @@
-import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
+
 import openai
+import pytest
 from together import Together
 
 
