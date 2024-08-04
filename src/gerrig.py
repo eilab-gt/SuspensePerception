@@ -45,26 +45,26 @@ Use the passage above to answer the following questions:
 ***Question 1: "How likely is it that {hero_lastname} will escape from {villain}?"***
 1. Not very likely
 2. Somewhat likely
-3. Moderately likely
-4. Likely
-5. Quite likely
+3. Slightly likely
+4. Neutral or Uncertain
+5. Moderately likely
 6. Very likely
 7. Extremely likely
 
 ***Question 2: "How suspenseful do you find this passage to be?"***
 1. Not very suspenseful
 2. Somewhat suspenseful
-3. Moderately suspenseful
-4. Suspenseful
-5. Quite suspenseful
+3. Slightly suspenseful
+4. Neutral or Uncertain
+5. Moderately suspenseful
 6. Very suspenseful
 7. Extremely suspenseful
 
-Answer the questions. At end of your response you must re-state your answer choices in the format:
-'''
-Q1: [1-7]
-Q2: [1-7]
-'''
+Answer Question 1, and then answer Question 2. At end of your generated response you must re-state your answer in the format:
+```
+Question 1: [1-7] 'Text of answer choice'
+Question 2: [1-7] 'Text of answer choice'
+```
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
@@ -125,7 +125,7 @@ def generate_experiment_texts(substitutions):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "in which he took great pride",
-            "ending": "said, “Come my dear friend. Let’s not waste time.”",
+            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
         },
     )
     experiment_A_pen_mentioned_removed = apply_substitutions(
@@ -134,7 +134,7 @@ def generate_experiment_texts(substitutions):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "that he hoped went unnoticed, moved his fountain pen deeper into his breast pocket",
-            "ending": "snatched away {hero_lastname}’s fountain pen. “Come my dear friend,” said {villain}. “Let’s not waste time.”",
+            "ending": f"snatched away {substitutions['hero_lastname']}’s fountain pen. “Come my dear friend,” said {substitutions['villain_A']}. “Let’s not waste time.”",
         },
     )
     experiment_A_pen_mentioned_not_removed = apply_substitutions(
@@ -143,7 +143,7 @@ def generate_experiment_texts(substitutions):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "that he hoped went unnoticed, moved his fountain pen deeper into his breast pocket",
-            "ending": "said, “Come my dear friend. Let’s not waste time.”",
+            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
         },
     )
 
@@ -152,7 +152,7 @@ def generate_experiment_texts(substitutions):
         {
             **substitutions,
             "villain": substitutions["villain_A"],
-            "grooming_action": "He noticed that he had a white thread on his lapel, and removed it. {hero_lastname} smiled at the elegant figure he presented.",
+            "grooming_action": f"He noticed that he had a white thread on his lapel, and removed it. {substitutions['hero_lastname']} smiled at the elegant figure he presented.",
         },
     )
     experiment_B_used_comb = apply_substitutions(
@@ -160,7 +160,7 @@ def generate_experiment_texts(substitutions):
         {
             **substitutions,
             "villain": substitutions["villain_A"],
-            "grooming_action": "He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
+            "grooming_action": f"He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
         },
     )
 
@@ -169,7 +169,7 @@ def generate_experiment_texts(substitutions):
         {
             **substitutions,
             "villain": substitutions["villain_C"],
-            "ending": "My dear Mr. {hero_lastname}. You came here as my guest and now I find you going through my personal belongings. I don’t think you have behaved very well. I will leave you here with Mr. Crushak to contemplate your rude behavior.",
+            "ending": f"My dear Mr. {substitutions['hero_lastname']}. You came here as my guest and now I find you going through my personal belongings. I don’t think you have behaved very well. I will leave you here with Mr. Crushak to contemplate your rude behavior.",
         },
     )
     experiment_C_prior_solution_mentioned_and_removed = apply_substitutions(
@@ -177,7 +177,7 @@ def generate_experiment_texts(substitutions):
         {
             **substitutions,
             "villain": substitutions["villain_C"],
-            "ending": "My dear Mr. {hero_lastname}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
+            "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
@@ -185,7 +185,7 @@ def generate_experiment_texts(substitutions):
         {
             **substitutions,
             "villain": substitutions["villain_C"],
-            "ending": "My dear Mr. {hero_lastname}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time.",
+            "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time.",
         },
     )
 
