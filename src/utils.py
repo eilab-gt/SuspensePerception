@@ -1,6 +1,6 @@
-import yaml
 import json
 from pathlib import Path
+import yaml
 import pandas as pd
 
 
@@ -18,32 +18,22 @@ def save_raw_api_output(output, filename, output_dir):
 
 
 def process_and_save_results(results, output_dir):
+    output_path = Path(output_dir)
+    output_path.mkdir(parents=True, exist_ok=True)
+
     data = []
     for result in results:
-        quantitative_info = extract_quantitative_info(result["parsed_response"])
+        parsed_response = result["parsed_response"]
         data.append(
             {
-                "story_id": result["story_id"],
-                "question_id": result["question_id"],
-                "answer": result["parsed_response"].get("Answer", ""),
+                "experiment_name": result["experiment_name"],
+                "version": result["version"],
+                "response": parsed_response,
             }
         )
 
     df = pd.DataFrame(data)
-
-    output_path = Path(output_dir)
-    output_path.mkdir(parents=True, exist_ok=True)
-
     df.to_csv(output_path / "results.csv", index=False)
     df.to_parquet(output_path / "results.parquet", index=False)
 
     return df
-
-
-def extract_quantitative_info(parsed_response):
-    quantitative_info = {
-        "question_id": parsed_response.get("Question", ""),
-        "answer": parsed_response.get("Answer", ""),
-    }
-
-    return quantitative_info
