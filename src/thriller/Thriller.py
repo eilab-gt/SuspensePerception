@@ -16,13 +16,37 @@ from src.thriller.utils import load_config, process_and_save_results
 def main(args):
     # Load configuration if provided
     config = load_config(args.config) if args.config else {}
-
-    # Override config with command-line arguments if they are provided
+    # Load model and experiment configurations from the configuration file
     model_config = config.get("model", {})
+    experiment_config = config.get("experiment", {})
+    if model_config is None:
+        raise ValueError("Model configuration not found in the configuration file")
+    if experiment_config is None:
+        raise ValueError("Experiment configuration not found in the configuration file")
+    # Load API type and key from the configuration
+    api_type = model_config.get("api_type")
+    if not api_type:
+        raise ValueError("API type not specified in the configuration")
+    # Load API key from secret .env file
+    if api_type == "together":
+        api_key = os.getenv("TOGETHER_API_KEY")
+        if not api_key:
+            raise ValueError("API key for TogetherAI must be provided in the .env file")
+    elif api_type == "openai":
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("API key for OpenAI must be provided in the .env file")
+    elif api_type == "anthropic":
+        api_key = os.getenv("ANTHROPIC_API_KEY")
+        if not api_key:
+            raise ValueError("API key for Anthropic must be provided in the .env file")
+    else:
+        raise ValueError("API type must be provided in the configuration file")
+    # Override config with command-line arguments if they are provided
     model_config.update(
         {
-            "api_type": model_config.get("api_type", "together"),
-            "api_key": model_config.get("api_key") or os.getenv("TOGETHER_API_KEY"),
+            "api_type": model_config.get("api_type"),
+            "api_key": api_key,
             "name": args.model or model_config.get("name"),
             "max_tokens": args.max_tokens or model_config.get("max_tokens"),
             "temperature": args.temperature or model_config.get("temperature"),
@@ -32,17 +56,10 @@ def main(args):
             or model_config.get("repetition_penalty"),
         }
     )
-
-    api_key = args.api_key or os.getenv("TOGETHER_API_KEY")
-    if not api_key:
-        raise ValueError("API key for TogetherAI must be provided")
-
-    experiment_config = config.get("experiment", {})
-    experiment_config.update(
-        {
-            "output_dir": args.output_dir or experiment_config.get("output_dir"),
-        }
-    )
+    experiment_config.update({
+        "experiment_series": args.experiment_series or config.get("experiment_series"),
+        "output_dir": args.output_dir or config.get("output_dir"),
+    })
 
     # Ensure output directory exists
     output_path = Path(experiment_config["output_dir"])
@@ -70,8 +87,8 @@ def parse_arguments():
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
     )
+    parser.add_argument("--api_type", type=str, help="API Type, engine to use e.g. together, openai, anthropic")
     parser.add_argument("--model", type=str, help="Model name")
-    parser.add_argument("--api_key", type=str, help="Together API key")
     parser.add_argument(
         "--max_tokens", type=int, help="Maximum number of tokens for text generation"
     )

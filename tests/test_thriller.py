@@ -11,27 +11,38 @@ from src.thriller.Thriller import parse_arguments
 
 @patch("src.thriller.misc.run_experiment")
 @patch("src.thriller.utils.process_and_save_results")
-@patch("src.thriller.utils.load_config", return_value={})
-@patch("os.getenv", return_value="dummy_api_key")
+@patch("src.thriller.utils.load_config")
+@patch("os.getenv")
 def test_thriller(
     mock_getenv,
     mock_load_config,
     mock_process_and_save_results,
     mock_run_experiment,
 ):
+    # Mock the API key in the environment
+    mock_getenv.return_value = "TOGETHER_API_KEY"
     mock_config = {
-        "api_type": "together",
-        "api_key": "dummy_api_key",
-        "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-        "max_tokens": 50,
-        "temperature": 0.7,
-        "top_k": 50,
-        "top_p": 0.9,
-        "repetition_penalty": 1.0,
+        "model": {
+            "api_type": "together",
+            "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            "max_tokens": 50,
+            "temperature": 0.7,
+            "top_k": 50,
+            "top_p": 0.9,
+            "repetition_penalty": 1.0
+        },
+        "experiment": {
+    "experiment_series": "gerrig",
+    "output_dir": "./outputs/gerrig_experiment"
+    }
     }
     mock_load_config.return_value = mock_config
 
     test_args = [
+        "--config",
+        "config.yaml",
+        "--api_type",
+        "together",
         "--model",
         "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
         "--max_tokens",
@@ -65,7 +76,7 @@ def test_thriller(
     # mock_run_experiment.assert_called_once()
     # call_args = mock_run_experiment.call_args[1]
     # assert 'model_config' in call_args
-    # assert call_args['model_config']['api_key'] == "dummy_api_key"
+    # assert call_args['model_config']['api_key'] == "TOGETHER_API_KEY"
     # assert call_args['model_config']['api_type'] == "together"
     # mock_process_and_save_results.assert_called_once()
 
@@ -73,7 +84,7 @@ def test_thriller(
 def test_parse_arguments():
     test_args = [
         "--model",
-        "gpt-3",
+        "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
         "--max_tokens",
         "50",
         "--temperature",
@@ -93,7 +104,7 @@ def test_parse_arguments():
     with patch("sys.argv", ["pytest"] + test_args):
         args = parse_arguments()
 
-    assert args.model == "gpt-3"
+    assert args.model == "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
     assert args.max_tokens == 50
     assert args.temperature == 0.7
     assert args.top_k == 50

@@ -1,18 +1,11 @@
-api:
-  key: "TOGETHER_API_KEY"
-
 model:
   api_type: "together"
-  api_key: "TOGETHER_API_KEY"
   name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
   max_tokens: 50
   temperature: 0.7
   top_k: 50
   top_p: 0.9
   repetition_penalty: 1.0
-  experiment_series: "gerrig"
-  output_dir: "./outputs"
-
-experiment:
-  # story_file: "stories/casino_royale.txt"
-  output_dir: "./outputs/gerrig_experiment"
+# experiment:
+experiment_series: "gerrig"
+output_dir: "./outputs/gerrig_experiment"

@@ -10,7 +10,7 @@ def setup_openai_api(api_key):
 
 
 def generate_response(messages, model_config):
-    api_type = model_config.get("api_type", "together")
+    api_type = model_config.get("api_type", None)
     if api_type == "openai":
         response = openai.ChatCompletion.create(
             model=model_config["name"],
