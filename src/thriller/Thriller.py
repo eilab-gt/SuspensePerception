@@ -1,16 +1,22 @@
 import argparse
 import os
+import sys
 from pathlib import Path
 
 from dotenv import load_dotenv
 
-from gerrig import (
+# Add the project root directory to Python path
+project_root = str(Path(__file__).resolve().parent.parent.parent)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+from src.thriller.gerrig import (
     alternative_substitutions,
     default_substitutions,
     generate_experiment_texts,
 )
-from misc import run_experiment
-from utils import load_config, process_and_save_results
+from src.thriller.misc import run_experiment
+from src.thriller.utils import load_config, process_and_save_results
 
 
 def main(args):
@@ -56,10 +62,13 @@ def main(args):
             or model_config.get("repetition_penalty"),
         }
     )
-    experiment_config.update({
-        "experiment_series": args.experiment_series or experiment_config.get("experiment_series"),
-        "output_dir": args.output_dir or experiment_config.get("output_dir"),
-    })
+    experiment_config.update(
+        {
+            "experiment_series": args.experiment_series
+            or experiment_config.get("experiment_series"),
+            "output_dir": args.output_dir or experiment_config.get("output_dir"),
+        }
+    )
 
     # Ensure output directory exists
     output_path = Path(experiment_config["output_dir"])
@@ -75,7 +84,11 @@ def main(args):
 
     # Run the experiment
     results = run_experiment(
-        args.experiment_series, model_config, prompts, version_prompts
+        output_path=output_path,
+        #  experiment_series=args.experiment_series,
+        model_config=model_config,
+        prompts=prompts,
+        version_prompts=version_prompts,
     )
 
     # Process and save results
@@ -87,7 +100,11 @@ def parse_arguments():
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
     )
-    parser.add_argument("--api_type", type=str, help="API Type, engine to use e.g. together, openai, anthropic")
+    parser.add_argument(
+        "--api_type",
+        type=str,
+        help="API Type, engine to use e.g. together, openai, anthropic",
+    )
     parser.add_argument("--model", type=str, help="Model name")
     parser.add_argument(
         "--max_tokens", type=int, help="Maximum number of tokens for text generation"

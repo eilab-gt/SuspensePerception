@@ -10,16 +10,16 @@ def load_config(config_path):
         return yaml.safe_load(f)
 
 
-def save_raw_api_output(output, filename, output_dir):
-    raw_output_dir = Path(output_dir) / "raw_outputs"
+def save_raw_api_output(output, filename, output_path: Path):
+    raw_output_dir = Path(output_path) / "raw_outputs"
     raw_output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(raw_output_dir / filename, "w") as f:
         json.dump(output, f, indent=2)
 
 
-def process_and_save_results(results, output_dir):
-    output_path = Path(output_dir)
+def process_and_save_results(results, output_path:Path):
+    output_path = Path(output_path)
     output_path.mkdir(parents=True, exist_ok=True)
 
     data = []

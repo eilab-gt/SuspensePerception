@@ -1,6 +1,14 @@
-from api import generate_response
-from gerrig import generate_experiment_texts
-from utils import save_raw_api_output
+import sys
+from pathlib import Path
+
+from src.thriller.api import generate_response
+from src.thriller.gerrig import generate_experiment_texts
+from src.thriller.utils import save_raw_api_output
+
+# Add the project root directory to Python path
+project_root = str(Path(__file__).resolve().parent.parent.parent)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
 
 def parse_response(response):
@@ -23,7 +31,13 @@ def format_user_message(message):
     return {"role": "user", "content": message}
 
 
-def run_experiment(experiment_series, model_config, prompts, version_prompts):
+def run_experiment(
+    output_path: Path,
+    #    experiment_series,
+    model_config,
+    prompts,
+    version_prompts,
+):
     results = []
 
     for exp_name, prompt in prompts.items():
@@ -45,7 +59,9 @@ def run_experiment(experiment_series, model_config, prompts, version_prompts):
                 results.append(result)
 
                 save_raw_api_output(
-                    raw_response, f"{exp_name}_version_{i}.json", experiment_series
+                    output=raw_response,
+                    filename=f"{exp_name}_version_{i}.json",
+                    output_path=output_path,
                 )
             else:
                 print(f"Failed to get response for {exp_name} version {i}")
