@@ -1,15 +1,16 @@
 import argparse
 import os
 from pathlib import Path
+
 from dotenv import load_dotenv
 
+from src.thriller.gerrig import (
+    alternative_substitutions,
+    default_substitutions,
+    generate_experiment_texts,
+)
 from src.thriller.misc import run_experiment
 from src.thriller.utils import load_config, process_and_save_results
-from src.thriller.gerrig import (
-    generate_experiment_texts,
-    default_substitutions,
-    alternative_substitutions,
-)
 
 
 def main(args):
@@ -20,6 +21,8 @@ def main(args):
     model_config = config.get("model", {})
     model_config.update(
         {
+            "api_type": model_config.get("api_type", "together"),
+            "api_key": model_config.get("api_key") or os.getenv("TOGETHER_API_KEY"),
             "name": args.model or model_config.get("name"),
             "max_tokens": args.max_tokens or model_config.get("max_tokens"),
             "temperature": args.temperature or model_config.get("temperature"),
