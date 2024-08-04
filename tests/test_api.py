@@ -6,12 +6,10 @@ import pytest
 import requests_mock
 import together
 
-from src.thriller.api import generate_response, setup_openai_api
+from src.thriller.api import generate_response
 
 
 def test_generate_response_openai(mock_openai):
-    setup_openai_api("test_api_key")
-
     messages = [{"role": "user", "content": "Hello, how are you?"}]
     model_config = {
         "api_type": "openai",

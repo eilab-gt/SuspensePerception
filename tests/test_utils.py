@@ -73,7 +73,7 @@ def test_process_and_save_results(mock_to_parquet, mock_to_csv):
             "parsed_response": "Response A1",
         },
     ]
-    df = process_and_save_results(results=results, output_path="./outputs/gerrig_experiment")
+    df = process_and_save_results(results=results, output_path="./outputs/")
     assert isinstance(df, pd.DataFrame)
-    mock_to_csv.assert_called_once_with(Path("output/results.csv"), index=False)
-    mock_to_parquet.assert_called_once_with(Path("output/results.parquet"), index=False)
+    mock_to_csv.assert_called_once_with(Path("outputs/results.csv"), index=False)
+    mock_to_parquet.assert_called_once_with(Path("outputs/results.parquet"), index=False)
