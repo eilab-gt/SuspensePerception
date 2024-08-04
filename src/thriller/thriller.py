@@ -3,9 +3,9 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
-from misc import run_experiment
-from utils import load_config, process_and_save_results
-from gerrig import (
+from src.thriller.misc import run_experiment
+from src.thriller.utils import load_config, process_and_save_results
+from src.thriller.gerrig import (
     generate_experiment_texts,
     default_substitutions,
     alternative_substitutions,
