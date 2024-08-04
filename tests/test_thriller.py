@@ -29,12 +29,12 @@ def test_thriller(
             "temperature": 0.7,
             "top_k": 50,
             "top_p": 0.9,
-            "repetition_penalty": 1.0
+            "repetition_penalty": 1.0,
         },
         "experiment": {
-    "experiment_series": "gerrig",
-    "output_dir": "./outputs/gerrig_experiment"
-    }
+            "experiment_series": "gerrig",
+            "output_dir": "./outputs/gerrig_experiment",
+        },
     }
     mock_load_config.return_value = mock_config
 
@@ -58,7 +58,7 @@ def test_thriller(
         "--experiment_series",
         "gerrig",
         "--output_dir",
-        "./output",
+        "./outputs/gerrig_experiment",
     ]
 
     with patch("sys.argv", ["pytest"] + test_args):
@@ -98,7 +98,7 @@ def test_parse_arguments():
         "--experiment_series",
         "gerrig",
         "--output_dir",
-        "./output",
+        "./outputs/gerrig_experiment",
     ]
 
     with patch("sys.argv", ["pytest"] + test_args):
@@ -111,4 +111,4 @@ def test_parse_arguments():
     assert args.top_p == 0.9
     assert args.repetition_penalty == 1.0
     assert args.experiment_series == "gerrig"
-    assert args.output_dir == "./output"
+    assert args.output_dir == "./output/gerrig_experiment"

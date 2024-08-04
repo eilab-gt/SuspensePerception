@@ -35,7 +35,7 @@ def test_load_config():
 @patch("pathlib.Path.mkdir")
 def test_save_raw_api_output(mock_mkdir, mock_file):
     output = {"response": "test"}
-    save_raw_api_output(output, "test.json", "output")
+    save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
 
     # The write method is called multiple times; verify each call
     expected_calls = [
@@ -73,7 +73,7 @@ def test_process_and_save_results(mock_to_parquet, mock_to_csv):
             "parsed_response": "Response A1",
         },
     ]
-    df = process_and_save_results(results, "output")
+    df = process_and_save_results(results=results, output_path="./outputs/gerrig_experiment")
     assert isinstance(df, pd.DataFrame)
     mock_to_csv.assert_called_once_with(Path("output/results.csv"), index=False)
     mock_to_parquet.assert_called_once_with(Path("output/results.parquet"), index=False)
