@@ -1,9 +1,0 @@
-experiment_name,version,response
-Experiment A,0,"{'***Question 1': '""How likely is it that Bond will escape from Le Chiffre?""***'}"
-Experiment A,1,{'***Answer 1': '*** 1. Not very likely'}
-Experiment A,2,"{'***Question 1': '""How likely is it that Bond will escape from Le Chiffre?""***'}"
-Experiment B,0,"{'***Question 1': '""How likely is it that Bond will escape from Le Chiffre?""***'}"
-Experiment B,1,"{'***Question 1': '""How likely is it that Bond will escape from Le Chiffre?""***'}"
-Experiment C,0,"{'Based on the passage, here are my answers': '', '***Question 1': '""How likely is it that Bond will escape from Blofeld?""***'}"
-Experiment C,1,"{'Based on the passage, here are my answers to the questions': '', '***Question 1': '""How likely is it that Bond will escape from Blofeld?""***'}"
-Experiment C,2,"{'***Question 1': '""How likely is it that Bond will escape from Blofeld?""***'}"
