@@ -11,15 +11,16 @@ if project_root not in sys.path:
 
 
 def parse_response(response):
-    if not response:
-        return {}
-    lines = response.split("\n")
-    parsed = {}
-    for line in lines:
-        if ":" in line:
-            key, value = line.split(":", 1)
-            parsed[key.strip()] = value.strip()
-    return parsed
+    pass
+    # if not response:
+    # return {}
+    # lines = response.split("\n")
+    # parsed = {}
+    # for line in lines:
+    #     if ":" in line:
+    #         key, value = line.split(":", 1)
+    #         parsed[key.strip()] = value.strip()
+    # return parsed
 
 
 def format_system_message(message):
