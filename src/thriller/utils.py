@@ -18,7 +18,7 @@ def save_raw_api_output(output, filename, output_path: Path):
         json.dump(output, f, indent=2)
 
 
-def process_and_save_results(results, output_path:Path):
+def process_and_save_results(results, output_path: Path):
     output_path = Path(output_path)
     output_path.mkdir(parents=True, exist_ok=True)
 

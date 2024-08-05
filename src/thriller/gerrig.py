@@ -197,15 +197,18 @@ def generate_experiment_texts(substitutions):
 
     version_prompts = {
         "Experiment A": [
-            experiment_A_pen_not_mentioned,
-            experiment_A_pen_mentioned_removed,
-            experiment_A_pen_mentioned_not_removed,
+            ("Pen Not Mentioned", experiment_A_pen_not_mentioned),
+            ("Pen Mentioned Removed", experiment_A_pen_mentioned_removed),
+            ("Pen Mentioned Not Removed", experiment_A_pen_mentioned_not_removed),
         ],
-        "Experiment B": [experiment_B_unused_comb, experiment_B_used_comb],
+        "Experiment B": [
+            ("Unused Comb", experiment_B_unused_comb),
+            ("Used Comb", experiment_B_used_comb),
+        ],
         "Experiment C": [
-            experiment_C_prior_solution_not_mentioned,
-            experiment_C_prior_solution_mentioned_and_removed,
-            experiment_C_prior_solution_mentioned_not_removed,
+            ("Prior Solution Not Mentioned", experiment_C_prior_solution_not_mentioned),
+            ("Prior Solution Mentioned and Removed", experiment_C_prior_solution_mentioned_and_removed),
+            ("Prior Solution Mentioned Not Removed", experiment_C_prior_solution_mentioned_not_removed),
         ],
     }
 

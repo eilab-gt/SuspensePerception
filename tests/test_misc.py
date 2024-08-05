@@ -41,18 +41,26 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         "repetition_penalty": 1.0,
     }
     prompts = {"Experiment A": "Prompt A"}
-    version_prompts = {"Experiment A": ["Version A1", "Version A2"]}
-
-    results = run_experiment(experiment_series, model_config, prompts, version_prompts)
-
-    assert len(results) == 2
-    assert results[0]["experiment_name"] == "Experiment A"
-    assert results[0]["version"] == 0
-    assert results[0]["parsed_response"] == {
-        "Character": "James Bond",
-        "Emotion": "Determined",
-        "Intensity": "High",
-        "Explanation": "Bond is focused on escaping.",
+    version_prompts = {
+        "Experiment A": [
+            ("Version A1 Name", "Version A1 Text"),
+            ("Version A2 Name", "Version A2 Text")
+        ]
     }
 
-    mock_save_raw_api_output.assert_called()
+    results = run_experiment(Path(experiment_series), model_config, prompts, version_prompts)
+
+    assert len(results) == 2
+    for result in results:
+        assert result["experiment_name"] == "Experiment A"
+        assert result["version"] in ["Version A1 Name", "Version A2 Name"]
+        assert result["raw_response"] == "Character: James Bond\nEmotion: Determined\nIntensity: High\nExplanation: Bond is focused on escaping."
+        assert result["parsed_response"] == {
+            "Character": "James Bond",
+            "Emotion": "Determined",
+            "Intensity": "High",
+            "Explanation": "Bond is focused on escaping."
+        }
+
+    assert mock_generate_response.call_count == 2
+    assert mock_save_raw_api_output.call_count == 2
