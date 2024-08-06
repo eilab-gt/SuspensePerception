@@ -6,6 +6,9 @@ model:
   top_k: 50
   top_p: 0.9
   repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
 experiment:
   experiment_series: "gerrig"
   output_dir: "./outputs/gerrig_experiment"
+  

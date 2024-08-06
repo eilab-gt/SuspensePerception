@@ -1,8 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+Thriller experiment driver
+"""
+
 import argparse
 import os
 import sys
 from pathlib import Path
-
 from dotenv import load_dotenv
 
 # Add the project root directory to Python path
@@ -10,11 +15,7 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from src.thriller.gerrig import (
-    alternative_substitutions,
-    default_substitutions,
-    generate_experiment_texts,
-)
+import src.thriller.gerrig as gerrig
 from src.thriller.misc import run_experiment
 from src.thriller.utils import load_config, process_and_save_results
 
@@ -22,6 +23,7 @@ from src.thriller.utils import load_config, process_and_save_results
 def main(args):
     # Load configuration if provided
     config = load_config(args.config) if args.config else {}
+
     # Load model and experiment configurations from the configuration file
     model_config = config.get("model", {})
     experiment_config = config.get("experiment", {})
@@ -29,10 +31,12 @@ def main(args):
         raise ValueError("Model configuration not found in the configuration file")
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
+    
     # Load API type and key from the configuration
     api_type = model_config.get("api_type")
     if not api_type:
         raise ValueError("API type not specified in the configuration")
+    
     # Load API key from secret .env file
     if api_type == "together":
         api_key = os.getenv("TOGETHER_API_KEY")
@@ -48,6 +52,7 @@ def main(args):
             raise ValueError("API key for Anthropic must be provided in the .env file")
     else:
         raise ValueError("API type must be provided in the configuration file")
+    
     # Override config with command-line arguments if they are provided
     model_config.update(
         {
@@ -58,14 +63,12 @@ def main(args):
             "temperature": args.temperature or model_config.get("temperature"),
             "top_k": args.top_k or model_config.get("top_k"),
             "top_p": args.top_p or model_config.get("top_p"),
-            "repetition_penalty": args.repetition_penalty
-            or model_config.get("repetition_penalty"),
+            "repetition_penalty": args.repetition_penalty or model_config.get("repetition_penalty"),
         }
     )
     experiment_config.update(
         {
-            "experiment_series": args.experiment_series
-            or experiment_config.get("experiment_series"),
+            "experiment_series": args.experiment_series or experiment_config.get("experiment_series"),
             "output_dir": args.output_dir or experiment_config.get("output_dir"),
         }
     )
@@ -76,11 +79,11 @@ def main(args):
 
     # Determine which substitutions to use
     substitutions = (
-        alternative_substitutions if args.use_alternative else default_substitutions
+        gerrig.alternative_substitutions if args.use_alternative else gerrig.default_substitutions
     )
 
     # Generate experiment texts
-    prompts, version_prompts = generate_experiment_texts(substitutions)
+    prompts, version_prompts = gerrig.generate_experiment_texts(substitutions)
 
     # Run the experiment
     results = run_experiment(
@@ -96,40 +99,51 @@ def main(args):
 
 
 def parse_arguments():
+    def list_of_strings(arg):
+        return arg.split(",")
+
     parser = argparse.ArgumentParser(description="Run the Gerrig experiments")
+
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
     )
     parser.add_argument(
-        "--api_type",
-        type=str,
-        help="API Type, engine to use e.g. together, openai, anthropic",
+        "--api_type", type=str, help="API Type, engine to use e.g. together, openai, anthropic",
     )
-    parser.add_argument("--model", type=str, help="Model name")
+    parser.add_argument(
+        "--model", type=str, help="Model name"
+    )
     parser.add_argument(
         "--max_tokens", type=int, help="Maximum number of tokens for text generation"
     )
     parser.add_argument(
         "--temperature", type=float, help="Temperature for text generation"
     )
-    parser.add_argument("--top_k", type=int, help="Top-k for text generation")
-    parser.add_argument("--top_p", type=float, help="Top-p for text generation")
     parser.add_argument(
-        "--repetition_penalty",
-        type=float,
-        help="Repetition penalty for text generation",
+        "--top_p", type=float, help="Top-p for text generation"
     )
     parser.add_argument(
-        "--experiment_series",
-        type=str,
-        help="Name of the experiment series to run",
+        "--top_k", type=int, help="Top-k for text generation"
     )
-    parser.add_argument("--output_dir", type=str, help="Directory for output files")
     parser.add_argument(
-        "--use_alternative",
-        action="store_true",
-        help="Use alternative names and titles",
+        "--repetition_penalty", type=float, help="Repetition penalty for text generation",
     )
+    parser.add_argument(
+        "--stop", type=list_of_strings, help="List of strings at which to stop generation"
+    )
+    parser.add_argument(
+        "--stream", type=bool, help="Flag indicating whether to stream the generated completions"
+    )
+    parser.add_argument(
+        "--experiment_series", type=str, help="Name of the experiment series to run",
+    )
+    parser.add_argument(
+        "--output_dir", type=str, help="Directory for output files"
+    )
+    parser.add_argument(
+        "--use_alternative", action="store_true", help="Use alternative names and titles",
+    )
+    
     return parser.parse_args()
 
 
