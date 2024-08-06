@@ -92,10 +92,18 @@ Crushak grunted to indicate that he was done. {villain} said, “{ending}”
 """
 
 
-def generate_experiment_texts(substitutions: dict[str, str]):
+def generate_experiment_texts(use_alternative: bool):
     """
     Generate prompts and experiment texts
+    Args:
+        use_alternative: whether to apply substitutions in the text
+    Return:
+        Experiment prompts and version prompts
     """
+    substitutions = (
+        alternative_substitutions if use_alternative else default_substitutions
+    )
+
     experiment_A_prompt = apply_substitutions(
         common_prompt_template,
         {
