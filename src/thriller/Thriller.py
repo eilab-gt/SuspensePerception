@@ -18,9 +18,10 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-import src.thriller.gerrig as gerrig
 from src.thriller.misc import run_experiment
 from src.thriller.utils import load_config, process_and_save_results
+
+import src.thriller.gerrig as gerrig
 
 
 def main(args):
@@ -77,6 +78,10 @@ def main(args):
         }
     )
 
+    # Ensure output directory exists
+    output_path = Path(experiment_config["output_dir"])
+    output_path.mkdir(parents=True, exist_ok=True)
+
     # Determine experiment series
     experiment = None
     if experiment_config["experiment_series"] == "gerrig":
@@ -84,17 +89,8 @@ def main(args):
     if not experiment:
         raise ValueError("Valid experiment series not found (must be gerrig, )")
 
-    # Ensure output directory exists
-    output_path = Path(experiment_config["output_dir"])
-    output_path.mkdir(parents=True, exist_ok=True)
-
-    # Determine which substitutions to use
-    substitutions = (
-        experiment.alternative_substitutions if experiment_config["use_alternative"] else experiment.default_substitutions
-    )
-
     # Generate experiment texts
-    prompts, version_prompts = experiment.generate_experiment_texts(substitutions)
+    prompts, version_prompts = experiment.generate_experiment_texts(experiment_config["use_alternative"])
 
     # Run the experiment
     results = run_experiment(
