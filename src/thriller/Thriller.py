@@ -73,6 +73,7 @@ def main(args):
         {
             "experiment_series": args.experiment_series or experiment_config.get("experiment_series"),
             "output_dir": args.output_dir or experiment_config.get("output_dir"),
+            "use_alternative": args.use_alternative or experiment_config.get("use_alternative"),
         }
     )
 
@@ -82,7 +83,7 @@ def main(args):
 
     # Determine which substitutions to use
     substitutions = (
-        gerrig.alternative_substitutions if args.use_alternative else gerrig.default_substitutions
+        gerrig.alternative_substitutions if experiment_config["use_alternative"] else gerrig.default_substitutions
     )
 
     # Generate experiment texts
@@ -144,7 +145,7 @@ def parse_arguments():
         "--output_dir", type=str, help="Directory for output files"
     )
     parser.add_argument(
-        "--use_alternative", action="store_true", help="Use alternative names and titles",
+        "--use_alternative", action=bool, help="Use alternative names and titles",
     )
     
     return parser.parse_args()

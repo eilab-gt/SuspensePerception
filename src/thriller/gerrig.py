@@ -92,7 +92,7 @@ Crushak grunted to indicate that he was done. {villain} said, “{ending}”
 """
 
 
-def generate_experiment_texts(substitutions):
+def generate_experiment_texts(substitutions: dict[str, str]):
     """
     Generate prompts and experiment texts
     """
@@ -132,6 +132,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"said, “Come my dear friend. Let’s not waste time.”",
         },
     )
+
     experiment_A_pen_mentioned_removed = apply_substitutions(
         common_experiment_A_template,
         {
@@ -141,6 +142,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"snatched away {substitutions['hero_lastname']}’s fountain pen. “Come my dear friend,” said {substitutions['villain_A']}. “Let’s not waste time.”",
         },
     )
+
     experiment_A_pen_mentioned_not_removed = apply_substitutions(
         common_experiment_A_template,
         {
@@ -159,6 +161,7 @@ def generate_experiment_texts(substitutions):
             "grooming_action": f"He noticed that he had a white thread on his lapel, and removed it. {substitutions['hero_lastname']} smiled at the elegant figure he presented.",
         },
     )
+
     experiment_B_used_comb = apply_substitutions(
         common_experiment_B_template,
         {
@@ -176,6 +179,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. You came here as my guest and now I find you going through my personal belongings. I don’t think you have behaved very well. I will leave you here with Mr. Crushak to contemplate your rude behavior.",
         },
     )
+
     experiment_C_prior_solution_mentioned_and_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -184,6 +188,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
+    
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
         common_experiment_C_template,
         {
