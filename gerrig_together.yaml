@@ -11,4 +11,5 @@ model:
 experiment:
   experiment_series: "gerrig"
   output_dir: "./outputs/gerrig_experiment"
+  use_alternative: false
   
