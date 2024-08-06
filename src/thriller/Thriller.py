@@ -2,6 +2,9 @@
 
 """
 Thriller experiment driver
+
+Use Example:
+> python ./src/thriller/Thriller.py -c config.yaml
 """
 
 import argparse
