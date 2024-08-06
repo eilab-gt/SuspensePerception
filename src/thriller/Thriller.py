@@ -145,7 +145,7 @@ def parse_arguments():
         "--output_dir", type=str, help="Directory for output files"
     )
     parser.add_argument(
-        "--use_alternative", action=bool, help="Use alternative names and titles",
+        "--use_alternative", type=bool, help="Use alternative names and titles",
     )
     
     return parser.parse_args()
