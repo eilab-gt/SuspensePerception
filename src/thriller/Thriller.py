@@ -77,22 +77,28 @@ def main(args):
         }
     )
 
+    # Determine experiment series
+    experiment = None
+    if experiment_config["experiment_series"] == "gerrig":
+        experiment = gerrig
+    if not experiment:
+        raise ValueError("Valid experiment series not found (must be gerrig, )")
+
     # Ensure output directory exists
     output_path = Path(experiment_config["output_dir"])
     output_path.mkdir(parents=True, exist_ok=True)
 
     # Determine which substitutions to use
     substitutions = (
-        gerrig.alternative_substitutions if experiment_config["use_alternative"] else gerrig.default_substitutions
+        experiment.alternative_substitutions if experiment_config["use_alternative"] else experiment.default_substitutions
     )
 
     # Generate experiment texts
-    prompts, version_prompts = gerrig.generate_experiment_texts(substitutions)
+    prompts, version_prompts = experiment.generate_experiment_texts(substitutions)
 
     # Run the experiment
     results = run_experiment(
         output_path=output_path,
-        #  experiment_series=args.experiment_series,
         model_config=model_config,
         prompts=prompts,
         version_prompts=version_prompts,
