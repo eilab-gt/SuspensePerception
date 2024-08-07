@@ -5,9 +5,22 @@ import pandas as pd
 import yaml
 
 
+def save_test_output(test_name, output):
+    output_dir = Path("Thriller/tests/outputs")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / f"{test_name}.json", "w") as f:
+        json.dump(output, f, indent=2)
+
+
 def load_config(config_path):
-    with open(config_path, "r") as f:
-        return yaml.safe_load(f)
+    try:
+        with open(config_path, "r") as f:
+            return yaml.safe_load(f)
+    except FileNotFoundError:
+        print(
+            f"Config file {config_path} not found. Using default empty configuration."
+        )
+        return {}
 
 
 def save_raw_api_output(output, filename, output_path: Path):
