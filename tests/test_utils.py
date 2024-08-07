@@ -9,11 +9,8 @@ import yaml
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
-from src.thriller.utils import (
-    load_config,
-    process_and_save_results,
-    save_raw_api_output,
-)
+from src.thriller.utils import (load_config, process_and_save_results,
+                                save_raw_api_output, save_test_output)
 
 
 def test_load_config():
@@ -34,6 +31,7 @@ def test_load_config():
 @patch("builtins.open", new_callable=mock_open)
 @patch("pathlib.Path.mkdir")
 def test_save_raw_api_output(mock_mkdir, mock_file):
+    save_test_output("test_save_raw_api_output_input", {"output": {"response": "test"}, "filename": "test.json", "output_path": "./outputs/"})
     output = {"response": "test"}
     save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
 
@@ -56,23 +54,13 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     ]
 
     mock_file().write.assert_has_calls(actual_calls, any_order=True)
+from tests.test_gerrig import expected_results
 
 
 @patch("pandas.DataFrame.to_csv")
 @patch("pandas.DataFrame.to_parquet")
 def test_process_and_save_results(mock_to_parquet, mock_to_csv):
-    results = [
-        {
-            "experiment_name": "Experiment A",
-            "version": 0,
-            "parsed_response": "Response A0",
-        },
-        {
-            "experiment_name": "Experiment A",
-            "version": 1,
-            "parsed_response": "Response A1",
-        },
-    ]
+    results = 
     df = process_and_save_results(results=results, output_path="./outputs/")
     assert isinstance(df, pd.DataFrame)
     mock_to_csv.assert_called_once_with(Path("outputs/results.csv"), index=False)
