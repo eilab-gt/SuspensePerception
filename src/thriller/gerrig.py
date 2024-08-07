@@ -4,6 +4,7 @@ Define Gerrig experiments
 
 from src.thriller.misc import apply_substitutions
 
+
 # Define substitution dictionaries
 default_substitutions = {
     "author_firstname": "Ian",
@@ -30,10 +31,6 @@ alternative_substitutions = {
 
 # Store common templates
 common_prompt_template = """The following is an excerpt from {author_firstname} {author_lastname}'s {book_title}. In this book, {hero_firstname} {hero_lastname} has been assigned to ‘ruin’ a criminal figure named {villain} by, as it happens, causing {villain} to lose a considerable amount of money gambling. Along the way, {hero_lastname} has acquired a lady interest named Vesper. Although {hero_lastname} has, in fact, brought about the gambling losses, {villain} has laid a successful trap for {hero_lastname}. {hero_lastname} and Vesper are now the prisoners of {villain} and his two gunmen.
-
-\"\"\"
-{STORY}
-\"\"\"
 
 Use the passage above to answer the following questions:
 
