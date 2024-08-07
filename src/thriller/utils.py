@@ -38,7 +38,7 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
 
 def process_and_save_results(results: list[dict[str, str]], output_path: Path) -> pd.DataFrame:
     """
-    Save data to a dataframe and save as parquet
+    Save data to a dataframe and save as .csv and .parquet
     Args:
         results: data to save
         output_path: path to the output directory
