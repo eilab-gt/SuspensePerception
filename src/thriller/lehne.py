@@ -2,11 +2,11 @@
 Define Lehne experiments
 """
 
-def generate_experiment_texts(use_alternative: bool):
+def generate_experiment_texts(settings_config: dict[str, str]):
     """
     Generate prompts and experiment texts
     Args:
-        use_alternative: whether to apply substitutions in the text
+        settings_config: settings to use in this experiment
     Return:
         Experiment prompts and version prompts
     """
