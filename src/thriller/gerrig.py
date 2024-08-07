@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
+"""
+Define Gerrig experiments
+"""
 
-import argparse
+from src.thriller.misc import apply_substitutions
+
 
 # Define substitution dictionaries
 default_substitutions = {
@@ -26,19 +29,8 @@ alternative_substitutions = {
 }
 
 
-# Function to apply substitutions
-def apply_substitutions(template, substitutions):
-    for key, value in substitutions.items():
-        template = template.replace(f"{{{key}}}", value)
-    return template
-
-
 # Store common templates
 common_prompt_template = """The following is an excerpt from {author_firstname} {author_lastname}'s {book_title}. In this book, {hero_firstname} {hero_lastname} has been assigned to ‘ruin’ a criminal figure named {villain} by, as it happens, causing {villain} to lose a considerable amount of money gambling. Along the way, {hero_lastname} has acquired a lady interest named Vesper. Although {hero_lastname} has, in fact, brought about the gambling losses, {villain} has laid a successful trap for {hero_lastname}. {hero_lastname} and Vesper are now the prisoners of {villain} and his two gunmen.
-
-\"\"\"
-{STORY}
-\"\"\"
 
 Use the passage above to answer the following questions:
 
@@ -90,8 +82,18 @@ Crushak forced {hero_lastname} into a wooden arm chair and carefully pinned {her
 Crushak grunted to indicate that he was done. {villain} said, “{ending}”"""
 
 
-# Function to generate prompts and experiment texts
-def generate_experiment_texts(substitutions):
+def generate_experiment_texts(settings_config: dict[str, str]):
+    """
+    Generate prompts and experiment texts
+    Args:
+        settings_config: settings to use in this experiment
+    Return:
+        Experiment prompts and version prompts
+    """
+    substitutions = (
+        alternative_substitutions if settings_config["use_alternative"] else default_substitutions
+    )
+
     experiment_A_prompt = apply_substitutions(
         common_prompt_template,
         {
@@ -128,6 +130,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"said, “Come my dear friend. Let’s not waste time.”",
         },
     )
+
     experiment_A_pen_mentioned_removed = apply_substitutions(
         common_experiment_A_template,
         {
@@ -137,6 +140,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"snatched away {substitutions['hero_lastname']}’s fountain pen. “Come my dear friend,” said {substitutions['villain_A']}. “Let’s not waste time.”",
         },
     )
+
     experiment_A_pen_mentioned_not_removed = apply_substitutions(
         common_experiment_A_template,
         {
@@ -155,6 +159,7 @@ def generate_experiment_texts(substitutions):
             "grooming_action": f"He noticed that he had a white thread on his lapel, and removed it. {substitutions['hero_lastname']} smiled at the elegant figure he presented.",
         },
     )
+
     experiment_B_used_comb = apply_substitutions(
         common_experiment_B_template,
         {
@@ -172,6 +177,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. You came here as my guest and now I find you going through my personal belongings. I don’t think you have behaved very well. I will leave you here with Mr. Crushak to contemplate your rude behavior.",
         },
     )
+
     experiment_C_prior_solution_mentioned_and_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -180,6 +186,7 @@ def generate_experiment_texts(substitutions):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
+    
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -213,47 +220,3 @@ def generate_experiment_texts(substitutions):
     }
 
     return prompts, version_prompts
-
-
-# Define the function to save prompts to a file
-def save_prompts_to_file(prompts, version_prompts, filename):
-    with open(filename, "w") as f:
-        for exp, prompt in prompts.items():
-            f.write(f"# {exp} Prompt\n\n")
-            f.write(prompt + "\n\n")
-
-        for exp, versions in version_prompts.items():
-            f.write(f"## {exp} Versions\n\n")
-            for idx, version in enumerate(versions):
-                f.write(f"### Version {idx + 1}\n\n")
-                f.write(version + "\n\n")
-
-
-# Set up argument parsing
-def main():
-    parser = argparse.ArgumentParser(
-        description="Generate and save experiment prompts."
-    )
-    parser.add_argument(
-        "output_file", type=str, help="The output file to save the prompts."
-    )
-    parser.add_argument(
-        "--use-alternative",
-        action="store_true",
-        help="Use alternative names and titles.",
-    )
-
-    args = parser.parse_args()
-
-    # Generate texts based on the selected flag
-    if args.use_alternative:
-        prompts, version_prompts = generate_experiment_texts(alternative_substitutions)
-    else:
-        prompts, version_prompts = generate_experiment_texts(default_substitutions)
-
-    # Save the prompts to the specified file
-    save_prompts_to_file(prompts, version_prompts, args.output_file)
-
-
-if __name__ == "__main__":
-    main()
