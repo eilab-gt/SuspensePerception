@@ -1,5 +1,7 @@
 """
-File IO, loading configuration files and saving output files
+`utils.py`
+Functions related to file I/O
+e.g. loading configuration files and saving output files
 """
 
 import json
@@ -7,6 +9,14 @@ from pathlib import Path
 import pandas as pd
 import yaml
 import io
+
+
+def save_test_output(test_name, output):
+    output_dir = Path("Thriller/tests/outputs")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / f"{test_name}.json", "w") as f:
+        json.dump(output, f, indent=2)
+
 
 
 def load_config(config_path: str) -> io.TextIOWrapper:
