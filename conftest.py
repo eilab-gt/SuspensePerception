@@ -4,12 +4,17 @@ import openai
 import pytest
 from together import Together
 
+mock_response = "This is a mocked response."
+
+@pytest.fixture
+def response():
+    return mock_response
 
 @pytest.fixture(scope="session")
 def mock_openai():
     with patch("openai.ChatCompletion.create") as mock_create:
         mock_create.return_value = {
-            "choices": [{"message": {"content": "This is a mocked response."}}]
+            "choices": [{"message": {"content": response()}}]
         }
         yield mock_create
 
@@ -18,7 +23,7 @@ def mock_openai():
 def mock_together():
     mock_response = MagicMock()
     mock_response.choices = [
-        MagicMock(message=MagicMock(content="This is a mocked response."))
+        MagicMock(message=MagicMock(content=mock_response))
     ]
 
     mock_client = MagicMock()
@@ -30,11 +35,10 @@ def mock_together():
     #     choices=[
     #         MagicMock(
     #             message=MagicMock(
-    #                 content="This is a mocked response."
+    #                 content=mock_response
     #             )
     #         )
     #     ]
     # )
-
     # with patch('together.Together', return_value=mock_client) as mock_together:
     #     yield mock_together

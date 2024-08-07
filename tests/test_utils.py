@@ -60,7 +60,18 @@ from tests.test_gerrig import expected_results
 @patch("pandas.DataFrame.to_csv")
 @patch("pandas.DataFrame.to_parquet")
 def test_process_and_save_results(mock_to_parquet, mock_to_csv):
-    results = 
+    results = [
+        {
+            "experiment_name": "Experiment A",
+            "version": 0,
+            "parsed_response": "Response A0",
+        },
+        {
+            "experiment_name": "Experiment A",
+            "version": 1,
+            "parsed_response": "Response A1",
+        },
+    ]
     df = process_and_save_results(results=results, output_path="./outputs/")
     assert isinstance(df, pd.DataFrame)
     mock_to_csv.assert_called_once_with(Path("outputs/results.csv"), index=False)
