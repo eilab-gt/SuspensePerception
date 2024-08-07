@@ -8,19 +8,24 @@ from together.error import AuthenticationError
 from src.thriller.Thriller import main as main_func
 from src.thriller.Thriller import parse_arguments
 from src.thriller.utils import save_test_output
+from unittest.mock import patch, MagicMock
 
-
+@patch("together.Together")
 @patch("src.thriller.misc.run_experiment")
 @patch("src.thriller.utils.process_and_save_results")
 @patch("src.thriller.utils.load_config")
 @patch("os.getenv")
 def test_thriller(
+    mock_together,
     mock_getenv,
     mock_load_config,
     mock_process_and_save_results,
     mock_run_experiment,
 ):
     # Mock the API key in the environment
+    mock_together_instance = MagicMock()
+    mock_together.return_value = mock_together_instance
+    mock_together_instance.chat.completions.create.return_value = MagicMock(choices=[MagicMock(message=MagicMock(content="This is a mocked response."))])
     mock_getenv.return_value = "TOGETHER_API_KEY"
     mock_config = {
         "model": {

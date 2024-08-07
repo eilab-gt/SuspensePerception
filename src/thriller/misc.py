@@ -11,6 +11,9 @@ if project_root not in sys.path:
 
 
 def parse_response(response):
+    if response.startswith("Response: "):
+        return {"Response": response[10:]}
+    return None
     pass
     # if not response:
     # return {}
