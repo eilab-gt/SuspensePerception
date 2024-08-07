@@ -32,6 +32,7 @@ def main(args):
     # Load model and experiment configurations from the configuration file
     model_config = config.get("model", {})
     experiment_config = config.get("experiment", {})
+    settings_config = config.get("settings", {})
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if experiment_config is None:
@@ -63,19 +64,19 @@ def main(args):
         {
             "api_type": model_config.get("api_type"),
             "api_key": api_key,
-            "name": args.model or model_config.get("name"),
-            "max_tokens": args.max_tokens or model_config.get("max_tokens"),
-            "temperature": args.temperature or model_config.get("temperature"),
-            "top_k": args.top_k or model_config.get("top_k"),
-            "top_p": args.top_p or model_config.get("top_p"),
-            "repetition_penalty": args.repetition_penalty or model_config.get("repetition_penalty"),
+            "name": model_config.get("name"),
+            "max_tokens": model_config.get("max_tokens"),
+            "temperature": model_config.get("temperature"),
+            "top_k": model_config.get("top_k"),
+            "top_p": model_config.get("top_p"),
+            "repetition_penalty": model_config.get("repetition_penalty"),
         }
     )
     experiment_config.update(
         {
-            "experiment_series": args.experiment_series or experiment_config.get("experiment_series"),
-            "output_dir": args.output_dir or experiment_config.get("output_dir"),
-            "use_alternative": args.use_alternative or experiment_config.get("use_alternative"),
+            "experiment_series": experiment_config.get("experiment_series"),
+            "output_dir": experiment_config.get("output_dir"),
+            # "use_alternative": experiment_config.get("use_alternative"),
         }
     )
 
@@ -94,7 +95,7 @@ def main(args):
         raise ValueError("Valid experiment series not found (must be gerrig, )")
 
     # Generate experiment texts
-    prompts, version_prompts = experiment.generate_experiment_texts(experiment_config["use_alternative"])
+    prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
 
     # Run the experiment
     results = run_experiment(
@@ -109,49 +110,10 @@ def main(args):
 
 
 def parse_arguments():
-    def list_of_strings(arg):
-        return arg.split(",")
-
     parser = argparse.ArgumentParser(description="Run the Gerrig experiments")
 
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
-    )
-    parser.add_argument(
-        "--api_type", type=str, help="API Type, engine to use e.g. together, openai, anthropic",
-    )
-    parser.add_argument(
-        "--model", type=str, help="Model name"
-    )
-    parser.add_argument(
-        "--max_tokens", type=int, help="Maximum number of tokens for text generation"
-    )
-    parser.add_argument(
-        "--temperature", type=float, help="Temperature for text generation"
-    )
-    parser.add_argument(
-        "--top_p", type=float, help="Top-p for text generation"
-    )
-    parser.add_argument(
-        "--top_k", type=int, help="Top-k for text generation"
-    )
-    parser.add_argument(
-        "--repetition_penalty", type=float, help="Repetition penalty for text generation",
-    )
-    parser.add_argument(
-        "--stop", type=list_of_strings, help="List of strings at which to stop generation"
-    )
-    parser.add_argument(
-        "--stream", type=bool, help="Flag indicating whether to stream the generated completions"
-    )
-    parser.add_argument(
-        "--experiment_series", type=str, help="Name of the experiment series to run",
-    )
-    parser.add_argument(
-        "--output_dir", type=str, help="Directory for output files"
-    )
-    parser.add_argument(
-        "--use_alternative", type=bool, help="Use alternative names and titles",
     )
     
     return parser.parse_args()

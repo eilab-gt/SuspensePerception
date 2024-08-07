@@ -9,8 +9,6 @@ model:
   stop: ["<|eot_id|>"]
   stream: true
 experiment:
-  experiment_series: "gerrig"
-  output_dir: "./outputs/gerrig_experiment"
-settings:
-  use_alternative: false
+  experiment_series: "lehne"
+  output_dir: "./outputs/lehne_experiment"
   
