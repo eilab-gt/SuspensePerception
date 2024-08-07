@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from unittest.mock import patch
 
@@ -10,6 +11,12 @@ from src.thriller.gerrig import (
     generate_experiment_texts,
 )
 from src.thriller.misc import run_experiment
+
+def save_test_output(test_name, output):
+    output_dir = Path('Thriller/tests/outputs')
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / f"{test_name}.json", 'w') as f:
+        json.dump(output, f, indent=2)
 
 
 def test_apply_substitutions():
@@ -27,6 +34,11 @@ def test_generate_default_experiment_texts():
     assert "Bond" in prompts["Experiment A"]
     assert "Le Chiffre" in prompts["Experiment A"]
     assert "Casino Royale" in prompts["Experiment A"]
+    
+    save_test_output("test_generate_default_experiment_texts", {
+        "prompts": prompts,
+        "version_prompts": version_prompts
+    })
 
 
 def test_generate_alternative_experiment_texts():
@@ -37,6 +49,11 @@ def test_generate_alternative_experiment_texts():
     assert "Mers" in prompts["Experiment A"]
     assert "Chifrex" in prompts["Experiment A"]
     assert "Meeting at Midnight" in prompts["Experiment A"]
+    
+    save_test_output("test_generate_alternative_experiment_texts", {
+        "prompts": prompts,
+        "version_prompts": version_prompts
+    })
 
 
 def test_version_prompts_default():
@@ -97,31 +114,7 @@ mock_responses = {
     ("Experiment C", "Prior Solution Mentioned Not Removed"): "Response for Experiment C version 3",
 }
 
-def mock_generate_response(messages, model_config):
-    exp_name = messages[0]["content"].split(" prompt")[0].strip()
-    version_text = messages[1]["content"]
-    for version_name, v_text in version_prompts[exp_name]:
-        if v_text == version_text:
-            response = mock_responses.get((exp_name, version_name), "")
-            return f"Response: {response}"  # Add a key that can be parsed
-    return ""
-
-@patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
-@patch("src.thriller.misc.save_raw_api_output")
-def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
-    model_config = {
-        "name": "gpt-3",
-        "max_tokens": 50,
-        "temperature": 0.7,
-        "top_k": 50,
-        "top_p": 0.9,
-        "repetition_penalty": 1.0,
-    }
-    output_path = Path("/fake/path")
-
-    results = run_experiment(output_path, model_config, prompts, version_prompts)
-
-    expected_results = [
+expected_results = [
         {
             "experiment_name": "Experiment A",
             "version": "Pen Not Mentioned",
@@ -172,9 +165,41 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         },
     ]
 
+def mock_generate_response(messages, model_config):
+    exp_name = messages[0]["content"].split(" prompt")[0].strip()
+    version_text = messages[1]["content"]
+    for version_name, v_text in version_prompts[exp_name]:
+        if v_text == version_text:
+            response = mock_responses.get((exp_name, version_name), "")
+            return f"Response: {response}"  # Add a key that can be parsed
+    return ""
+
+@patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
+@patch("src.thriller.misc.save_raw_api_output")
+def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
+    model_config = {
+        "name": "gpt-3",
+        "max_tokens": 50,
+        "temperature": 0.7,
+        "top_k": 50,
+        "top_p": 0.9,
+        "repetition_penalty": 1.0,
+    }
+    output_path = Path("/fake/path")
+
+    results = run_experiment(output_path, model_config, prompts, version_prompts)
+
     assert results == expected_results
     assert mock_generate_response.call_count == 8
     assert mock_save_raw_api_output.call_count == 8
+
+    save_test_output("test_run_experiment", {
+        "model_config": model_config,
+        "prompts": prompts,
+        "version_prompts": version_prompts,
+        "results": results,
+        "expected_results": expected_results,
+    })
     
 if __name__ == "__main__":
     pytest.main([__file__])

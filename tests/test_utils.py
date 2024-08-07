@@ -9,11 +9,8 @@ import yaml
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
-from src.thriller.utils import (
-    load_config,
-    process_and_save_results,
-    save_raw_api_output,
-)
+from src.thriller.utils import (load_config, process_and_save_results,
+                                save_raw_api_output, save_test_output)
 
 
 def test_load_config():
@@ -34,6 +31,7 @@ def test_load_config():
 @patch("builtins.open", new_callable=mock_open)
 @patch("pathlib.Path.mkdir")
 def test_save_raw_api_output(mock_mkdir, mock_file):
+    save_test_output("test_save_raw_api_output_input", {"output": {"response": "test"}, "filename": "test.json", "output_path": "./outputs/"})
     output = {"response": "test"}
     save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
 
@@ -56,6 +54,7 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     ]
 
     mock_file().write.assert_has_calls(actual_calls, any_order=True)
+from tests.test_gerrig import expected_results
 
 
 @patch("pandas.DataFrame.to_csv")
