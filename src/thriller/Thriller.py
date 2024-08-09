@@ -23,6 +23,7 @@ from src.thriller.utils import load_config, process_and_save_results
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
+import src.thriller.brewer as brewer
 
 
 def main(args):
@@ -91,6 +92,8 @@ def main(args):
         experiment = gerrig
     elif experiment_series == "lehne":
         experiment = lehne
+    elif experiment_series == "brewer":
+        experiment = brewer
     if not experiment:
         raise ValueError("Valid experiment series not found (must be gerrig, )")
 
