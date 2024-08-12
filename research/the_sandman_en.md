@@ -1,9 +1,3 @@
-# TEXT IS TAKEN FROM https://shortstoryproject.com/stories/the-sandman/
-# Note that Lehne was conducted in German. Lehne also shortened the story from 12,232 to 6,859 words
-# Lehne divided story into 65 segments (M = 105.5 words per segment; SD = 26.1 words)
-
-
-
 NATHANIEL TO LOTHAIRE.
 Certainly you must all be uneasy that I have not written for so long—so very long. My mother, I am sure, is angry, and Clara will believe that I am passing my time in dissipation, entirely forgetful of the fair angel-image that is so deeply imprinted in my heart and mind. Such, however, is not the case. Daily and hourly I think of you all, and in my sweet dreams the kindly form of my lovely Clara passes before me, and smiles upon me with her bright eyes as she was wont when I appeared among you. Alas, how could I write to you in the distracted mood which has hitherto disturbed my every thought! Something horrible has crossed my path of life. Dark forebodings of a cruel, threatening, fate spread themselves over me like dark clouds, which no friendly sunbeam can penetrate. Now will I tell you what has befallen me. I must do so, that I plainly see—but if I only think of it, it will laugh out of me like mad. Ah, my dear Lothaire, how shall I begin it? How shall I make you in any way sensible that that which occurred to me a few days ago could really have such a fatal effect on my life? If you were here you could see for yourself, but now you will certainly take me for a crazy ghost-seer. In a word, the horrible thing which happened to me, and the painful impression of which I in vain endeavour to escape, is nothing more than this; that some days ago, namely on the 30th of October, at twelve o’clock at noon, a barometer-dealer came into my room and offered me his wares. I bought nothing, and threatened to throw him down stairs, upon which he took himself off of his own accord.
 

@@ -51,12 +51,6 @@ Use the passage above to answer the following questions:
 5. Moderately suspenseful
 6. Very suspenseful
 7. Extremely suspenseful
-
-Answer Question 1, and then answer Question 2. At end of your generated response you must re-state your answer in the format:
-```
-Question 1: [1-7] 'Text of answer choice'
-Question 2: [1-7] 'Text of answer choice'
-```
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
