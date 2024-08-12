@@ -5,11 +5,7 @@ Define Lehne experiments
 
 common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
 
-After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful". State your answer in the format:
-```
-Paragraph 1: [1-10]
-Paragraph 2: [1-10]
-```
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """
 
 
