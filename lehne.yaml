@@ -11,4 +11,3 @@ model:
 experiment:
   experiment_series: "lehne"
   output_dir: "./outputs/lehne_experiment"
-  
