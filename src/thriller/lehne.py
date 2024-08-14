@@ -3,13 +3,13 @@ Define Lehne experiments
 """
 
 
-common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
+experiment_prompt = """The following is E. T. A. Hoffmann's "The Sandman". 
 
 After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """
 
 
-common_experiment_A_template = """
+experiment_text = """
 1 Nathanael to Lothar: Surely you are all full of unrest that I haven't written for so long. Mother is probably angry, and Klara may think that I have completely forgotten my lovely angel image. – But that is not the case; I remember you all daily and hourly. – Oh, how I was able to write to you in the torn mood of my mind that had previously disturbed all my thoughts! – Something terrible has come into my life! Dark premonitions of a terrible fate threatening me spread over me like black cloud shadows.
 
 2 Now let me tell you what happened to me. In short, the terrible thing that happened to me was nothing other than that a few days ago a barometer dealer came into my room and offered me his goods. I didn't buy anything and threatened to throw him down the stairs, but he walked away on his own. You suspect that only my own relationships that have a deep impact on my life can give this incident meaning. That's how it is indeed. With all my strength, I will pull myself together to calmly and patiently tell you so much about my early youth that everything will appear clearly and vividly in bright images to your active mind. - Now let's get down to business!
@@ -157,18 +157,16 @@ def generate_experiment_texts(settings_config: dict[str, str]):
     Return:
         Experiment prompts and version prompts
     """
-    experiment_A_prompt = common_prompt_template
-
-    experiment_A = common_experiment_A_template
-
+    # Get experiment prompts
     prompts = {
-        "Experiment A": experiment_A_prompt,
+        "Experiment": experiment_prompt,
     }
 
-    version_prompts = {
-        "Experiment A": [
-            ("Normal", experiment_A),
+    # Get experiment texts
+    texts = {
+        "Experiment": [
+            ("Normal", experiment_text),
         ],
     }
 
-    return prompts, version_prompts
+    return prompts, texts
