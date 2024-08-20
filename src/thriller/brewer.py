@@ -46,12 +46,6 @@ After each paragraph, answer these questions:
 5. Moderate irony
 6. Much irony
 7. Extreme irony
-
-State your answer in the format:
-```
-Paragraph 1: [1-7]
-Paragraph 2: [1-7]
-```
 """
 common_prompt_template_final = """
 The passage you have been reading is now over. Please answer the following questions:
@@ -192,14 +186,6 @@ If you thought there may have been a point, briefly tell us what it may have bee
 ***Question 16: "Have you ever either read this passage, or read or seen a story based on it, before?"***
 1. No
 2. Yes
-
-State your answer in the format:
-```
-Question 1: [1-7]
-Question 2: [1-7]
-....
-Question 16: [1-2]
-```
 """
 common_passage_chunks_american_story_1 = """
 1   Old Henry Reifsneider and his wife Phoebe had lived together for forty-eight years. They had lived three miles from a small town whose population was steadily falling. This part of the country was not as wealthy as it used to be. It wasn't thickly settled, either. Perhaps there was a house every mile or so, with fields in between. Their own house had been built by Henry's grandfather many years ago. A new part had been added to the original log cabin when Henry married Phoebe. The new part was now weather-beaten. Wind whistled through cracks in the boards. Large, lovely trees surrounded the house. But they made it seem a little damp inside. The furniture like the house, was old. There was a tall cupboard of cherry-wood and a large, old-fashioned bed. The chest of drawers was also high and wide and solidly built. But it had faded, and smelled damp. The carpet that lay under the strong, lasting furniture had been made by Phoebe herself, fifteen years before she died. Now it was worn and faded to a dull grey and pink. The frame that she had made the carpet on was still here. It stood like a dusty, bony skeleton in the East room. All short of broken-down furniture lay around the place. There was a doorless clothes-cupboard. A broken mirror hung in an old cherry-wood frame. It had fallen from a nail and cracked three days before their youngest son, Jerry, died. There was a hat-stand whose china knobs had broken off. And an old-fashioned sewing machine.
@@ -212,72 +198,7 @@ common_passage_chunks_american_story_1 = """
 
 5   If she wanted a pail of water, he complained, but it gave him pleasure to bring it. If she rose first to build the fire, he made sure the wood was cut and placed within easy reach. So they divided this simple world nicely between them. In the spring of her sixty-fourth year, Phoebe become sick. Old Henry drove to town and brought back the doctor, But because of her age, her sickness was not curable, and one cold night she died. Henry could have gone to live with his youngest daughter. But it was really too much trouble. He was too weary and used to his home. He wanted to remain near where they had put his Phoebe. His neighbors invited him to stay with them. But he didn't want to. So his friends left him with advice and offers of help. They sent supplies of coffee and bacon and bread. He tried to interest himself in farming to keep himself busy. But it was sad to come into the house in the evening. He could find no shadow of Phoebe, although everything in the house suggested her. At night he read the newspapers that friends had left for him. Or he read in his Bible, which he had forgotten about for years. But he could get little comfort from these things. Mostly he sat and wondered where Phoebe had gone, and how soon he would die. He made coffee every morning and fried himself some bacon at night. But he wasn't hungry. His house was empty; its shadows saddened him. So he lived quite unhappily for five long months. And then a change began.
 """
-common_passage__american_story_1 = """Old Henry Reifsneider and his wife Phoebe had lived together for forty-eight 
-years. They had lived three miles from a small town whose population was steadily falling. This part of the country 
-was not as wealthy as it used to be. It wasn't thickly settled, either. Perhaps there was a house every mile or so, 
-with fields in between. Their own house had been built by Henry's grandfather many years ago. A new part had been 
-added to the original log cabin when Henry married Phoebe. The new part was now weather-beaten. Wind whistled through 
-cracks in the boards. Large, lovely trees surrounded the house. But they made it seem a little damp inside. The 
-furniture like the house, was old. There was a tall cupboard of cherry-wood and a large, old-fashioned bed. The chest 
-of drawers was also high and wide and solidly built. But it had faded, and smelled damp. The carpet that lay under 
-the strong, lasting furniture had been made by Phoebe herself, fifteen years before she died. Now it was worn and 
-faded to a dull grey and pink. The frame that she had made the carpet on was still here. It stood like a dusty, 
-bony skeleton in the East room. All short of broken-down furniture lay around the place. There was a doorless 
-clothes-cupboard. A broken mirror hung in an old cherry-wood frame. It had fallen from a nail and cracked three days 
-before their youngest son, Jerry, died. There was a hat-stand whose china knobs had broken off. And an old-fashioned 
-sewing machine.mThe orchard to the east of the house was full of rotting apple trees. Their twisted branches were 
-covered with greenish-white moss which looked sad and ghostly in the moonlight. Besides the orchard, several low 
-buildings surrounded the house. They had once housed chickens, a horse or two, a cow, and several pigs. The same 
-grey-green moss covered their roofs. They had not been painted for so long that they had turned a greyish-black. In 
-fact, everything on the farm had aged and faded along with Old Henry and his wife Phoebe. They had lived here, 
-these two, since their marriage forty-eight years before. And Henry had lived here as a child. His father and mother 
-had been old when Henry married. They had invited him to bring his wife to the farm. They had all lived together for 
-ten years before his mother and father died. After that Henry and Phoebe were left alone with their four children. 
-But all sorts of things had happened since then. They had had seven children, but three had died. One girl had gone 
-to Kansas. One boy had gone to Sioux Falls and was never even heard from again. Another boy had gone to Washington. 
-The last girl lived five counties away in the same state. She had so many problems of her own, however, 
-that she rarely gave her parents a thought. Their very ordinary home life had never been attractive to the children. 
-So time had drawn them away. Wherever they were, they gave little thought to their father and mother. Old Henry 
-Reifsneider and his wife Phoebe were a loving couple. You perhaps know how it is with such simple people. They fasten 
-themselves like moss on stones, until they and their circumstances are worn away. The larger world has no call to 
-them; or if it does, they don't hear it. The orchard, the fields, the pigpen and the chicken house measure the range 
-of their human activities. When the wheat is ripe, it is harvested. When the corn is full, it is cut. After that 
-comes winter. The grain is taken to market, the wood is cut for the fires. The work is simple: fire-building, 
-meal-getting, occasional repairing, visiting. There are also changes in the weather—the snow, the rains, and the fair 
-days. Beyond these things, nothing else means very much. All the rest of life is a far-off dream. It shines, 
-far away, like starlight. It sounds as faint as cowbells in the distance. Old Henry and his wife Phoebe were as fond 
-of each other as it is possible for two old people who have nothing else in this life to be fond of. He was a thin 
-old man, seventy when she died. He was a strange, moody person with thick, uncombed grey-black hair and beard. He 
-looked at you out of dull, fish-like, watery eyes. His clothes, like the clothes of many farmers, were old and 
-ill-fitting. They were too large at the neck. The knees and elbows were stretched and worn. Phoebe was thin and 
-shapeless. She looked like an umbrella, dressed in black. As time had passed they had only themselves to look after. 
-Their activities had become fewer and fewer. The herd of pigs was reduced to one.The sleepy horse Henry still kept 
-was neither very clean nor well-fed. Almost all the chickens had disappeared. They had been killed by animals or 
-disease. The once healthy vegetable garden was now only a memory of itself. The flower beds were overgrown. A will 
-had been made which divided the small property equally among the remaining four children. It was so small that it was 
-really of no interest to any of them. Yet Henry and Phoebe lived together in peace and sympathy. Once in a while Old 
-Henry would become moody and annoyed. He would complain that something unimportant had been lost. "Phoebe, 
-where's my corn knife? You never leave my things alone." "Now you be quiet, Henry," his wife would answer in her old 
-cracked voice. "If you don't, I'll leave you I’ll get up and walk out of here one day. Then where would you be? You 
-don't have anybody but me to look after you, so just behave yourself. Your corn knife is in the cupboard where it's 
-always been, unless you put it somewhere else." Old Henry knew his wife would never leave him. But, sometimes he 
-wondered what he would do if she died. That was the one leaving he was afraid of. Every night he wound the old clock 
-and went to lock the doors, and it comforted him to know Phoebe was in bed. If he moved in his sleep she would be 
-there to ask him what he wanted. "Now, Henry, do lie still! You're as restless as a chicken." "Well, I can't sleep, 
-Phoebe." "Well, you don't have to roll over so much. You can let me sleep." This would usually put him to sleep. If 
-she wanted a pail of water, he complained, but it gave him pleasure to bring it. If she rose first to build the fire, 
-he made sure the wood was cut and placed within easy reach. So they divided this simple world nicely between them. In 
-the spring of her sixty-fourth year, Phoebe become sick. Old Henry drove to town and brought back the doctor, 
-But because of her age, her sickness was not curable, and one cold night she died. Henry could have gone to live with 
-his youngest daughter. But it was really too much trouble. He was too weary and used to his home. He wanted to remain 
-near where they had put his Phoebe. His neighbors invited him to stay with them. But he didn't want to. So his 
-friends left him with advice and offers of help. They sent supplies of coffee and bacon and bread. He tried to 
-interest himself in farming to keep himself busy. But it was sad to come into the house in the evening. He could find 
-no shadow of Phoebe, although everything in the house suggested her. At night he read the newspapers that friends had 
-left for him. Or he read in his Bible, which he had forgotten about for years. But he could get little comfort from 
-these things. Mostly he sat and wondered where Phoebe had gone, and how soon he would die. He made coffee every 
-morning and fried himself some bacon at night. But he wasn't hungry. His house was empty; its shadows saddened him. 
-So he lived quite unhappily for five long months. And then a change began. """
+common_passage__american_story_1 = """Old Henry Reifsneider and his wife Phoebe had lived together for forty-eight years. They had lived three miles from a small town whose population was steadily falling. This part of the country was not as wealthy as it used to be. It wasn't thickly settled, either. Perhaps there was a house every mile or so, with fields in between. Their own house had been built by Henry's grandfather many years ago. A new part had been added to the original log cabin when Henry married Phoebe. The new part was now weather-beaten. Wind whistled through cracks in the boards. Large, lovely trees surrounded the house. But they made it seem a little damp inside. The furniture like the house, was old. There was a tall cupboard of cherry-wood and a large, old-fashioned bed. The chest of drawers was also high and wide and solidly built. But it had faded, and smelled damp. The carpet that lay under the strong, lasting furniture had been made by Phoebe herself, fifteen years before she died. Now it was worn and faded to a dull grey and pink. The frame that she had made the carpet on was still here. It stood like a dusty, bony skeleton in the East room. All short of broken-down furniture lay around the place. There was a doorless clothes-cupboard. A broken mirror hung in an old cherry-wood frame. It had fallen from a nail and cracked three days before their youngest son, Jerry, died. There was a hat-stand whose china knobs had broken off. And an old-fashioned sewing machine. The orchard to the east of the house was full of rotting apple trees. Their twisted branches were covered with greenish-white moss which looked sad and ghostly in the moonlight. Besides the orchard, several low buildings surrounded the house. They had once housed chickens, a horse or two, a cow, and several pigs. The same grey-green moss covered their roofs. They had not been painted for so long that they had turned a greyish-black. In fact, everything on the farm had aged and faded along with Old Henry and his wife Phoebe. They had lived here, these two, since their marriage forty-eight years before. And Henry had lived here as a child. His father and mother had been old when Henry married. They had invited him to bring his wife to the farm. They had all lived together for ten years before his mother and father died. After that Henry and Phoebe were left alone with their four children. But all sorts of things had happened since then. They had had seven children, but three had died. One girl had gone to Kansas. One boy had gone to Sioux Falls and was never even heard from again. Another boy had gone to Washington. The last girl lived five counties away in the same state. She had so many problems of her own, however, that she rarely gave her parents a thought. Their very ordinary home life had never been attractive to the children. So time had drawn them away. Wherever they were, they gave little thought to their father and mother. Old Henry Reifsneider and his wife Phoebe were a loving couple. You perhaps know how it is with such simple people. They fasten themselves like moss on stones, until they and their circumstances are worn away. The larger world has no call to them; or if it does, they don't hear it. The orchard, the fields, the pigpen and the chicken house measure the range of their human activities. When the wheat is ripe, it is harvested. When the corn is full, it is cut. After that comes winter. The grain is taken to market, the wood is cut for the fires. The work is simple: fire-building, meal-getting, occasional repairing, visiting. There are also changes in the weather—the snow, the rains, and the fair days. Beyond these things, nothing else means very much. All the rest of life is a far-off dream. It shines, far away, like starlight. It sounds as faint as cowbells in the distance. Old Henry and his wife Phoebe were as fond of each other as it is possible for two old people who have nothing else in this life to be fond of. He was a thin old man, seventy when she died. He was a strange, moody person with thick, uncombed grey-black hair and beard. He looked at you out of dull, fish-like, watery eyes. His clothes, like the clothes of many farmers, were old and ill-fitting. They were too large at the neck. The knees and elbows were stretched and worn. Phoebe was thin and shapeless. She looked like an umbrella, dressed in black. As time had passed they had only themselves to look after. Their activities had become fewer and fewer. The herd of pigs was reduced to one. The sleepy horse Henry still kept was neither very clean nor well-fed. Almost all the chickens had disappeared. They had been killed by animals or disease. The once healthy vegetable garden was now only a memory of itself. The flower beds were overgrown. A will had been made which divided the small property equally among the remaining four children. It was so small that it was really of no interest to any of them. Yet Henry and Phoebe lived together in peace and sympathy. Once in a while Old Henry would become moody and annoyed. He would complain that something unimportant had been lost. 'Phoebe, where's my corn knife? You never leave my things alone.' 'Now you be quiet, Henry,' his wife would answer in her old cracked voice. 'If you don't, I'll leave you. I’ll get up and walk out of here one day. Then where would you be? You don't have anybody but me to look after you, so just behave yourself. Your corn knife is in the cupboard where it's always been, unless you put it somewhere else.' Old Henry knew his wife would never leave him. But, sometimes he wondered what he would do if she died. That was the one leaving he was afraid of. Every night he wound the old clock and went to lock the doors, and it comforted him to know Phoebe was in bed. If he moved in his sleep she would be there to ask him what he wanted. 'Now, Henry, do lie still! You're as restless as a chicken.' 'Well, I can't sleep, Phoebe.' 'Well, you don't have to roll over so much. You can let me sleep.' This would usually put him to sleep. If she wanted a pail of water, he complained, but it gave him pleasure to bring it. If she rose first to build the fire, he made sure the wood was cut and placed within easy reach. So they divided this simple world nicely between them. In the spring of her sixty-fourth year, Phoebe become sick. Old Henry drove to town and brought back the doctor, But because of her age, her sickness was not curable, and one cold night she died. Henry could have gone to live with his youngest daughter. But it was really too much trouble. He was too weary and used to his home. He wanted to remain near where they had put his Phoebe. His neighbors invited him to stay with them. But he didn't want to. So his friends left him with advice and offers of help. They sent supplies of coffee and bacon and bread. He tried to interest himself in farming to keep himself busy. But it was sad to come into the house in the evening. He could find no shadow of Phoebe, although everything in the house suggested her. At night he read the newspapers that friends had left for him. Or he read in his Bible, which he had forgotten about for years. But he could get little comfort from these things. Mostly he sat and wondered where Phoebe had gone, and how soon he would die. He made coffee every morning and fried himself some bacon at night. But he wasn't hungry. His house was empty; its shadows saddened him. So he lived quite unhappily for five long months. And then a change began."""
 
 def generate_experiment_texts(settings_config: dict[str, str]):
     """
