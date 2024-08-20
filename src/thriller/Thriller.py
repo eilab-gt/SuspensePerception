@@ -110,7 +110,7 @@ def main(args):
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Run the Gerrig experiments")
+    parser = argparse.ArgumentParser(description="Run the given experiment")
 
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
