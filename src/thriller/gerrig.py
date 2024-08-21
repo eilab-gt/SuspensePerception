@@ -88,6 +88,8 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         alternative_substitutions if settings_config["use_alternative"] else default_substitutions
     )
 
+    # Get experiment prompts
+
     experiment_A_prompt = apply_substitutions(
         common_prompt_template,
         {
@@ -114,6 +116,14 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "villain": substitutions["villain_C"],
         },
     )
+
+    prompts = {
+        "Experiment A": experiment_A_prompt,
+        "Experiment B": experiment_B_prompt,
+        "Experiment C": experiment_C_prompt,
+    }
+
+    # Get experiment texts
 
     experiment_A_pen_not_mentioned = apply_substitutions(
         common_experiment_A_template,
@@ -190,13 +200,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         },
     )
 
-    prompts = {
-        "Experiment A": experiment_A_prompt,
-        "Experiment B": experiment_B_prompt,
-        "Experiment C": experiment_C_prompt,
-    }
-
-    version_prompts = {
+    texts = {
         "Experiment A": [
             ("Pen Not Mentioned", experiment_A_pen_not_mentioned),
             ("Pen Mentioned Removed", experiment_A_pen_mentioned_removed),
@@ -213,4 +217,4 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         ],
     }
 
-    return prompts, version_prompts
+    return prompts, texts
