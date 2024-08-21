@@ -23,6 +23,7 @@ from src.thriller.utils import load_config, process_and_save_results
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
+import src.thriller.delatorre as delatorre
 
 
 def main(args):
@@ -91,8 +92,10 @@ def main(args):
         experiment = gerrig
     elif experiment_series == "lehne":
         experiment = lehne
+    elif experiment_series == "delatorre":
+        experiment = delatorre
     if not experiment:
-        raise ValueError("Valid experiment series not found (must be gerrig, )")
+        raise ValueError("Valid experiment series not found (must be gerrig, lehne, or delatorre)")
 
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
