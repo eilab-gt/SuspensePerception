@@ -7,6 +7,8 @@ from pathlib import Path
 import typing
 from src.thriller.api import generate_response
 from src.thriller.utils import save_raw_api_output
+import openai
+from together import Together
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -14,22 +16,73 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 
-def parse_response(response: str) -> dict[str, str]:
+def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[str, str]:
     """
     Process a LLM response into a key value pair
     Args:
         response: LLM model's response (see src.thriller.api.generate_response())
+        model_config: Dictionary of model parameters.
+                      Mandatory parameters are `api_type`, `name`, `max_tokens`, `temperature`
     Return:
         The response split as a dictionary between question-answer pairs
     """
-    if not response:
+    api_type = model_config.get("api_type", None)
+
+    prompt = """The following is a series of question and answers. For each question, extract only the number
+                answer given and none of the text. Structure your response in the following format:
+                ```
+                Q1: number
+                Q2: number
+                ```
+             """
+
+    messages = [
+        {"role": "system", "content": prompt},
+        {"role": "user", "content": response}
+    ]
+
+    content = ""
+
+    if api_type == "openai":
+        parsed_response = openai.ChatCompletion.create(
+            model=model_config["name"],
+            messages=messages,
+            max_tokens=model_config["max_tokens"],
+            temperature=model_config["temperature"],
+            top_p=model_config["top_p"],
+            top_k=model_config["top_k"],
+            repetition_penalty=model_config["repetition_penalty"],
+        )
+        
+        content = parsed_response["choices"][0]["message"]["content"]
+    
+    elif api_type == "together":
+        client = Together(api_key=model_config["api_key"])
+        parsed_response = client.chat.completions.create(
+            model=model_config["name"],
+            messages=messages,
+            max_tokens=model_config["max_tokens"],
+            temperature=model_config["temperature"],
+            top_p=model_config["top_p"],
+            top_k=model_config["top_k"],
+            repetition_penalty=model_config["repetition_penalty"],
+            stop=model_config["stop"],
+            stream=model_config["stream"],
+        )
+
+        for chunk in parsed_response:
+            content += chunk.choices[0].delta.content or ""
+    
+    else:
+        raise ValueError(f"Unsupported API type: {api_type}")
+
+    if not content:
         return {}
-    lines = response.split("\n")
+    lines = content.splitlines()
     parsed = {}
     for line in lines:
-        if ":" in line:
-            key, value = line.split(":", 1)
-            parsed[key.strip()] = value.strip()
+        key, value = line.split(":")
+        parsed[key.strip()] = value.strip()
     return parsed
 
 
@@ -91,7 +144,7 @@ def run_experiment(output_path: Path, model_config: dict[str, typing.Any], promp
 
             raw_response = generate_response(messages, model_config)
             if raw_response:
-                parsed_response = parse_response(raw_response)
+                parsed_response = parse_response(raw_response, model_config)
 
                 result = {
                     "experiment_name": exp_name,
