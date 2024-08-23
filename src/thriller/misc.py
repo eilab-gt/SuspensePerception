@@ -135,7 +135,7 @@ def run_experiment(output_path: Path,
     results = []
 
     for exp_name, prompt in prompts.items():
-        print(f"Running experiment: {exp_name}")
+        print(f"Running experiment {exp_name} with {model_config.get('name')}")
         for version_name, version_text in version_prompts[exp_name]:
             messages = [
                 {"role": "system", "content": prompt},

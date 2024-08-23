@@ -31,12 +31,14 @@ def main(args):
     config = load_config(args.config) if args.config else {}
 
     # Load model and experiment configurations from the configuration file
-    model_config = config.get("model", {})
-    experiment_config = config.get("experiment", {})
-    parse_model_config = config.get("parse_model", {})
-    settings_config = config.get("settings", {})
+    model_config = config.get("model", None)
+    experiment_config = config.get("experiment", None)
+    parse_model_config = config.get("parse_model", None)
+    settings_config = config.get("settings", None)
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
+    if parse_model_config is None:
+        raise ValueError("Parse model configuration not found in the configuration file")
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
     
@@ -59,20 +61,7 @@ def main(args):
             raise ValueError("API key for Anthropic must be provided in the .env file")
     else:
         raise ValueError("API type must be provided in the configuration file")
-    
-    # Add API key for model
-    model_config.update(
-        {
-            "api_type": model_config.get("api_type"),
-            "api_key": model_api_key,
-            "name": model_config.get("name"),
-            "max_tokens": model_config.get("max_tokens"),
-            "temperature": model_config.get("temperature"),
-            "top_k": model_config.get("top_k"),
-            "top_p": model_config.get("top_p"),
-            "repetition_penalty": model_config.get("repetition_penalty"),
-        }
-    )
+    model_config["api_key"] = model_api_key
 
     # Load API key from secret .env file for parse model
     parse_model_api_key = ""
@@ -91,21 +80,7 @@ def main(args):
             raise ValueError("API key for Anthropic must be provided in the .env file")
     else:
         raise ValueError("API type must be provided in the configuration file")
-
-    # Add API key for parse model
-    parse_model_config.update(
-        {
-            "api_type": parse_model_config.get("api_type"),
-            "api_key": parse_model_api_key,
-            "name": parse_model_config.get("name"),
-            "prompt": parse_model_config.get("prompt"),
-            "max_tokens": parse_model_config.get("max_tokens"),
-            "temperature": parse_model_config.get("temperature"),
-            "top_k": parse_model_config.get("top_k"),
-            "top_p": parse_model_config.get("top_p"),
-            "repetition_penalty": parse_model_config.get("repetition_penalty"),
-        }
-    )
+    parse_model_config["api_key"] = parse_model_api_key
 
     # Ensure output directory exists
     output_path = Path(experiment_config["output_dir"])
@@ -127,16 +102,23 @@ def main(args):
     prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
 
     # Run the experiment
-    results = run_experiment(
-        output_path=output_path,
-        model_config=model_config,
-        parse_model_config=parse_model_config,
-        prompts=prompts,
-        version_prompts=version_prompts,
-    )
+    model_names = model_config.get("name")
+    for model_name in model_names:
+        cur_model_config = model_config.copy()
+        cur_model_config["name"] = model_name
 
-    # Process and save results
-    process_and_save_results(results, experiment_config["output_dir"])
+        cur_output_path = f"{output_path}/{model_name.replace('/', '_')}"
+
+        results = run_experiment(
+            output_path=cur_output_path,
+            model_config=cur_model_config,
+            parse_model_config=parse_model_config,
+            prompts=prompts,
+            version_prompts=version_prompts,
+        )
+
+        # Process and save results
+        process_and_save_results(results, cur_output_path)
 
 
 def parse_arguments():
