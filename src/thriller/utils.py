@@ -11,12 +11,17 @@ import yaml
 import io
 
 
-def save_test_output(test_name, output):
+def save_test_output(test_name: str, output: str) -> None:
+    """
+    Save output from tests
+    Args:
+        test_name: name of the test and file to save to
+        output: test output
+    """
     output_dir = Path("Thriller/tests/outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
     with open(output_dir / f"{test_name}.json", "w") as f:
         json.dump(output, f, indent=2)
-
 
 
 def load_config(config_path: str) -> io.TextIOWrapper:
