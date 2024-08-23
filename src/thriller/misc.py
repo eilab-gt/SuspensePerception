@@ -74,8 +74,8 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
     if not content:
         return {}
     
-    pairs = re.findall(r"(Q\d+): (\d+)", content)
-    parsed = {key: int(value) for key, value in pairs}
+    values = re.findall(r"(\w+): (\d+)", content)
+    parsed = {key: int(value) for key, value in values}
 
     return parsed
 
