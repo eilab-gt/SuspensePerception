@@ -9,6 +9,7 @@ from src.thriller.api import generate_response
 from src.thriller.utils import save_raw_api_output
 import openai
 from together import Together
+import re
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -28,13 +29,7 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
     """
     api_type = model_config.get("api_type", None)
 
-    prompt = """The following is a series of question and answers. For each question, extract only the number
-                answer given and none of the text. Structure your response in the following format:
-                ```
-                Q1: number
-                Q2: number
-                ```
-             """
+    prompt = model_config.get("prompt")
 
     messages = [
         {"role": "system", "content": prompt},
@@ -78,11 +73,10 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
 
     if not content:
         return {}
-    lines = content.splitlines()
-    parsed = {}
-    for line in lines:
-        key, value = line.split(":")
-        parsed[key.strip()] = value.strip()
+    
+    pairs = re.findall(r"(Q\d+): (\d+)", content)
+    parsed = {key: int(value) for key, value in pairs}
+
     return parsed
 
 
@@ -120,13 +114,19 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     return template
 
 
-def run_experiment(output_path: Path, model_config: dict[str, typing.Any], prompts: dict[str, str], version_prompts: dict[str, str]) -> list[dict[str, str]]:
+def run_experiment(output_path: Path,
+                   model_config: dict[str, typing.Any],
+                   parse_model_config: dict[str, typing.Any],
+                   prompts: dict[str, str],
+                   version_prompts: dict[str, str]) -> list[dict[str, str]]:
     """
     Run the experiment with the given configuration and save the results
     Args:
         output_path: path to the output directory
         model_config: Dictionary of model parameters.
                       Mandatory parameters are `api_type`, `name`, `max_tokens`, `temperature`
+        parse_model_config: Dictionary of parsing model parameters.
+                            Mandatory parameters are `api_type`, `name`, `max_tokens`, `temperature`
         prompts: system LLM messages for message formatting
         version_prompts: experiment LLM messages
     Return:
@@ -144,7 +144,7 @@ def run_experiment(output_path: Path, model_config: dict[str, typing.Any], promp
 
             raw_response = generate_response(messages, model_config)
             if raw_response:
-                parsed_response = parse_response(raw_response, model_config)
+                parsed_response = parse_response(raw_response, parse_model_config)
 
                 result = {
                     "experiment_name": exp_name,
