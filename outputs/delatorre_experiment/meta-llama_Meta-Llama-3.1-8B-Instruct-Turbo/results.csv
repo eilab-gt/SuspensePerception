@@ -1,0 +1,9 @@
+experiment_name,version,response
+Experiment,Journalistic Good Not Revealed,"{'Q1': 1, 'Q2': 1, 'Q3': 1, 'Q4': 3, 'Q5': 6, 'Q6': 8, 'Q7': 6, 'Q8': 1, 'Q9': 6, 'Q10': 1, 'Q11': 4, 'Q12': 1}"
+Experiment,Journalistic Good Revealed,"{'Q1': 2, 'Q2': 3, 'Q3': 2, 'Q4': 1, 'Q5': 4, 'Q6': 8, 'Q7': 6, 'Q8': 5, 'Q9': 9, 'Q10': 7, 'Q11': 6, 'Q12': 9}"
+Experiment,Journalistic Bad Not Revealed,"{'Q1': 2, 'Q2': 1, 'Q3': 1, 'Q4': 2, 'Q5': 3, 'Q6': 8, 'Q7': 6, 'Q8': 4, 'Q9': 7, 'Q10': 5, 'Q11': 6, 'Q12': 9}"
+Experiment,Journalistic Bad Revealed,"{'Q1': 2, 'Q2': 2, 'Q3': 2, 'Q4': 3, 'Q5': 4, 'Q6': 7, 'Q7': 6, 'Q8': 5, 'Q9': 8, 'Q10': 6, 'Q11': 7, 'Q12': 9}"
+Experiment,Novel Good Not Revealed,"{'Q1': 2, 'Q2': 3, 'Q3': 5, 'Q4': 1, 'Q5': 4, 'Q6': 8, 'Q7': 9, 'Q8': 6, 'Q9': 8, 'Q10': 7, 'Q11': 8, 'Q12': 9}"
+Experiment,Novel Good Revealed,"{'Q1': 2, 'Q2': 3, 'Q3': 4, 'Q4': 1, 'Q5': 2, 'Q6': 6, 'Q7': 8, 'Q8': 9, 'Q9': 9, 'Q10': 7, 'Q11': 8, 'Q12': 9}"
+Experiment,Novel Bad Not Revealed,"{'Q1': 2, 'Q2': 3, 'Q3': 5, 'Q4': 1, 'Q5': 4, 'Q6': 8, 'Q7': 9, 'Q8': 8, 'Q9': 9, 'Q10': 6, 'Q11': 7, 'Q12': 9}"
+Experiment,Novel Bad Revealed,"{'Q1': 2, 'Q2': 3, 'Q3': 5, 'Q4': 1, 'Q5': 4, 'Q6': 8, 'Q7': 9, 'Q8': 8, 'Q9': 9, 'Q10': 6, 'Q11': 8, 'Q12': 9}"

@@ -102,16 +102,23 @@ def main(args):
     prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
 
     # Run the experiment
-    results = run_experiment(
-        output_path=output_path,
-        model_config=model_config,
-        parse_model_config=parse_model_config,
-        prompts=prompts,
-        version_prompts=version_prompts,
-    )
+    model_names = model_config.get("name")
+    for model_name in model_names:
+        cur_model_config = model_config.copy()
+        cur_model_config["name"] = model_name
 
-    # Process and save results
-    process_and_save_results(results, experiment_config["output_dir"])
+        cur_output_path = f"{output_path}/{model_name.replace('/', '_')}"
+
+        results = run_experiment(
+            output_path=cur_output_path,
+            model_config=cur_model_config,
+            parse_model_config=parse_model_config,
+            prompts=prompts,
+            version_prompts=version_prompts,
+        )
+
+        # Process and save results
+        process_and_save_results(results, cur_output_path)
 
 
 def parse_arguments():
