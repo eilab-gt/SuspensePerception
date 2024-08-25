@@ -46,8 +46,8 @@ def parse_response(
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config["top_p"],
-            top_k=model_config["top_k"],
+            top_p=model_config.get("top_p", None),
+            top_k=model_config.get("top_k", None),
             repetition_penalty=model_config["repetition_penalty"],
         )
 
@@ -60,8 +60,8 @@ def parse_response(
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config["top_p"],
-            top_k=model_config["top_k"],
+            top_p=model_config.get("top_p", None),
+            top_k=model_config.get("top_k", None),
             repetition_penalty=model_config["repetition_penalty"],
             stop=model_config["stop"],
             stream=model_config["stream"],
