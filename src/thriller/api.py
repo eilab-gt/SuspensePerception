@@ -1,13 +1,17 @@
 """
-API communication files
+Helper functions for generating responses from LLMs using APIs
 """
+
+import typing
+from pathlib import Path
 
 import openai
 from together import Together
-import typing
 
 
-def generate_response(messages: list[dict[str, str]], model_config: dict[str, typing.Any]) -> str:
+def generate_response(
+    messages: list[dict[str, str]], model_config: dict[str, typing.Any]
+) -> str:
     """
     Probe a given LLM model for a response.
     Args:
@@ -32,9 +36,9 @@ def generate_response(messages: list[dict[str, str]], model_config: dict[str, ty
             top_k=model_config["top_k"],
             repetition_penalty=model_config["repetition_penalty"],
         )
-        
+
         return response["choices"][0]["message"]["content"]
-    
+
     elif api_type == "together":
         client = Together(api_key=model_config["api_key"])
         response = client.chat.completions.create(
@@ -53,6 +57,21 @@ def generate_response(messages: list[dict[str, str]], model_config: dict[str, ty
         for chunk in response:
             content += chunk.choices[0].delta.content or ""
         return content
-    
+
     else:
         raise ValueError(f"Unsupported API type: {api_type}")
+
+
+def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
+    """
+    Save text to a JSON file
+    Args:
+        output: data to save
+        filename: name of the output JSON file
+        output_path: path to the output directory
+    """
+    raw_output_dir = Path(output_path) / "raw_outputs"
+    raw_output_dir.mkdir(parents=True, exist_ok=True)
+
+    with open(raw_output_dir / filename, "w") as f:
+        json.dump(output, f, indent=2)

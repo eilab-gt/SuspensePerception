@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Thriller experiment driver
-
+Main entrypoint for running the Thriller experiments
 Use Example:
 > python ./src/thriller/Thriller.py -c config.yaml
 """
@@ -11,6 +10,7 @@ import argparse
 import os
 import sys
 from pathlib import Path
+
 from dotenv import load_dotenv
 
 # Add the project root directory to Python path
@@ -18,11 +18,10 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from src.thriller.misc import run_experiment
-from src.thriller.utils import load_config, process_and_save_results
-
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
+from src.thriller.misc import run_experiment
+from src.thriller.utils import load_config, process_and_save_results
 
 
 def main(args):
@@ -37,12 +36,12 @@ def main(args):
         raise ValueError("Model configuration not found in the configuration file")
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
-    
+
     # Load API type and key from the configuration
     api_type = model_config.get("api_type")
     if not api_type:
         raise ValueError("API type not specified in the configuration")
-    
+
     # Load API key from secret .env file
     if api_type == "together":
         api_key = os.getenv("TOGETHER_API_KEY")
@@ -58,7 +57,7 @@ def main(args):
             raise ValueError("API key for Anthropic must be provided in the .env file")
     else:
         raise ValueError("API type must be provided in the configuration file")
-    
+
     # Override config with command-line arguments if they are provided
     model_config.update(
         {
@@ -115,7 +114,7 @@ def parse_arguments():
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
     )
-    
+
     return parser.parse_args()
 
 

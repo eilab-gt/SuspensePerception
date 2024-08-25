@@ -1,15 +1,13 @@
 """
-Define Lehne experiments
+Define experiments from Lehne, M. and Koelsch, S. 2015. Toward a general psychological model of tension and suspense. Frontiers in psychology. 6, (Feb. 2015). DOI:https://doi.org/10.3389/fpsyg.2015.00079.
 """
 
+# TODO: Translate Lehne to English
+# TODO: Create an alternative version of the names of the characters and the title
 
 common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
 
-After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful". State your answer in the format:
-```
-Paragraph 1: [1-10]
-Paragraph 2: [1-10]
-```
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """
 
 

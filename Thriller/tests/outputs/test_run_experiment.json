@@ -1,0 +1,187 @@
+{
+  "model_config": {
+    "name": "gpt-3",
+    "max_tokens": 50,
+    "temperature": 0.7,
+    "top_k": 50,
+    "top_p": 0.9,
+    "repetition_penalty": 1.0
+  },
+  "prompts": {
+    "Experiment A": "Experiment A prompt",
+    "Experiment B": "Experiment B prompt",
+    "Experiment C": "Experiment C prompt"
+  },
+  "version_prompts": {
+    "Experiment A": [
+      [
+        "Pen Not Mentioned",
+        "Experiment A version 1"
+      ],
+      [
+        "Pen Mentioned Removed",
+        "Experiment A version 2"
+      ],
+      [
+        "Pen Mentioned Not Removed",
+        "Experiment A version 3"
+      ]
+    ],
+    "Experiment B": [
+      [
+        "Unused Comb",
+        "Experiment B version 1"
+      ],
+      [
+        "Used Comb",
+        "Experiment B version 2"
+      ]
+    ],
+    "Experiment C": [
+      [
+        "Prior Solution Not Mentioned",
+        "Experiment C version 1"
+      ],
+      [
+        "Prior Solution Mentioned and Removed",
+        "Experiment C version 2"
+      ],
+      [
+        "Prior Solution Mentioned Not Removed",
+        "Experiment C version 3"
+      ]
+    ]
+  },
+  "results": [
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Not Mentioned",
+      "raw_response": "Response: Response for Experiment A version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Mentioned Removed",
+      "raw_response": "Response: Response for Experiment A version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Mentioned Not Removed",
+      "raw_response": "Response: Response for Experiment A version 3",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 3"
+      }
+    },
+    {
+      "experiment_name": "Experiment B",
+      "version": "Unused Comb",
+      "raw_response": "Response: Response for Experiment B version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment B version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment B",
+      "version": "Used Comb",
+      "raw_response": "Response: Response for Experiment B version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment B version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Not Mentioned",
+      "raw_response": "Response: Response for Experiment C version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Mentioned and Removed",
+      "raw_response": "Response: Response for Experiment C version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Mentioned Not Removed",
+      "raw_response": "Response: Response for Experiment C version 3",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 3"
+      }
+    }
+  ],
+  "expected_results": [
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Not Mentioned",
+      "raw_response": "Response: Response for Experiment A version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Mentioned Removed",
+      "raw_response": "Response: Response for Experiment A version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment A",
+      "version": "Pen Mentioned Not Removed",
+      "raw_response": "Response: Response for Experiment A version 3",
+      "parsed_response": {
+        "Response": "Response for Experiment A version 3"
+      }
+    },
+    {
+      "experiment_name": "Experiment B",
+      "version": "Unused Comb",
+      "raw_response": "Response: Response for Experiment B version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment B version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment B",
+      "version": "Used Comb",
+      "raw_response": "Response: Response for Experiment B version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment B version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Not Mentioned",
+      "raw_response": "Response: Response for Experiment C version 1",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 1"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Mentioned and Removed",
+      "raw_response": "Response: Response for Experiment C version 2",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 2"
+      }
+    },
+    {
+      "experiment_name": "Experiment C",
+      "version": "Prior Solution Mentioned Not Removed",
+      "raw_response": "Response: Response for Experiment C version 3",
+      "parsed_response": {
+        "Response": "Response for Experiment C version 3"
+      }
+    }
+  ]
+}

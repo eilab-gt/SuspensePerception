@@ -1,12 +1,12 @@
 """
-Experiment running and parsing
+Helper functions for running experiments
 """
 
 import sys
-from pathlib import Path
 import typing
-from src.thriller.api import generate_response
-from src.thriller.utils import save_raw_api_output
+from pathlib import Path
+
+from src.thriller.api import generate_response, save_raw_api_output
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -14,43 +14,43 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 
-def parse_response(response: str) -> dict[str, str]:
-    """
-    Process a LLM response into a key value pair
-    Args:
-        response: LLM model's response (see src.thriller.api.generate_response())
-    Return:
-        The response split as a dictionary between question-answer pairs
-    """
-    if not response:
-        return {}
-    lines = response.split("\n")
-    parsed = {}
-    for line in lines:
-        if ":" in line:
-            key, value = line.split(":", 1)
-            parsed[key.strip()] = value.strip()
-    return parsed
+# def parse_response(response: str) -> dict[str, str]:
+#     """
+#     Process a LLM response into a key value pair
+#     Args:
+#         response: LLM model's response (see src.thriller.api.generate_response())
+#     Return:
+#         The response split as a dictionary between question-answer pairs
+#     """
+#     if not response:
+#         return {}
+#     lines = response.split("\n")
+#     parsed = {}
+#     for line in lines:
+#         if ":" in line:
+#             key, value = line.split(":", 1)
+#             parsed[key.strip()] = value.strip()
+#     return parsed
 
 
-def format_system_message(message: str) -> dict[str, str]:
-    """
-    Args:
-        message: the system message
-    Return:
-        Format for system messages
-    """
-    return {"role": "system", "content": message}
+# def format_system_message(message: str) -> dict[str, str]:
+#     """
+#     Args:
+#         message: the system message
+#     Return:
+#         Format for system messages
+#     """
+#     return {"role": "system", "content": message}
 
 
-def format_user_message(message: str) -> dict[str, str]:
-    """
-    Args:
-        message: the user message
-    Return:
-        Format for user messages
-    """
-    return {"role": "user", "content": message}
+# def format_user_message(message: str) -> dict[str, str]:
+#     """
+#     Args:
+#         message: the user message
+#     Return:
+#         Format for user messages
+#     """
+#     return {"role": "user", "content": message}
 
 
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
@@ -58,7 +58,7 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     Apply substitutions to a given template
     Args:
         template: the template to replace
-        substitutions: the substitutions to use 
+        substitutions: the substitutions to use
     Return:
         The template with substitutions
     """
@@ -67,7 +67,12 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     return template
 
 
-def run_experiment(output_path: Path, model_config: dict[str, typing.Any], prompts: dict[str, str], version_prompts: dict[str, str]) -> list[dict[str, str]]:
+def run_experiment(
+    output_path: Path,
+    model_config: dict[str, typing.Any],
+    prompts: dict[str, str],
+    version_prompts: dict[str, str],
+) -> list[dict[str, str]]:
     """
     Run the experiment with the given configuration and save the results
     Args:
@@ -86,7 +91,7 @@ def run_experiment(output_path: Path, model_config: dict[str, typing.Any], promp
         for version_name, version_text in version_prompts[exp_name]:
             messages = [
                 {"role": "system", "content": prompt},
-                {"role": "user", "content": version_text}
+                {"role": "user", "content": version_text},
             ]
 
             raw_response = generate_response(messages, model_config)
