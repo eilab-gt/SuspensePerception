@@ -9,6 +9,8 @@ from pathlib import Path
 import pandas as pd
 import yaml
 import io
+from datetime import datetime
+import uuid
 
 
 def save_test_output(test_name: str, output: str) -> None:
@@ -55,7 +57,7 @@ def process_and_save_results(
     results: list[dict[str, str]], output_path: Path
 ) -> pd.DataFrame:
     """
-    Save data to a dataframe and save as .csv and .parquet
+    Save data to a dataframe and save as .csv
     Args:
         results: data to save
         output_path: path to the output directory
@@ -78,6 +80,16 @@ def process_and_save_results(
 
     df = pd.DataFrame(data)
     df.to_csv(output_path / "results.csv", index=False)
-    df.to_parquet(output_path / "results.parquet", index=False)
+    # df.to_parquet(output_path / "results.parquet", index=False)
 
     return df
+
+
+def generate_experiment_id() -> str:
+    """
+    Generate a unique experiment ID for each model run.
+
+    Returns:
+        str: A unique experiment ID combining timestamp and UUID.
+    """
+    return f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"

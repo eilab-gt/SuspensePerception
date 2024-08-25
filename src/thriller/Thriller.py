@@ -13,13 +13,18 @@ import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
+
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 from src.thriller.misc import run_experiment
-from src.thriller.utils import load_config, process_and_save_results
+from src.thriller.utils import (
+    load_config,
+    process_and_save_results,
+    generate_experiment_id,
+)
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
@@ -111,7 +116,12 @@ def main(args):
         cur_model_config = model_config.copy()
         cur_model_config["name"] = model_name
 
-        cur_output_path = f"{output_path}/{model_name.replace('/', '_')}"
+        # Generate a unique experiment ID for each model run
+        experiment_id = generate_experiment_id()
+
+        # Create a subfolder structure: model_name/experiment_id
+        cur_output_path = output_path / model_name.replace("/", "_") / experiment_id
+        cur_output_path.mkdir(parents=True, exist_ok=True)
 
         results = run_experiment(
             output_path=cur_output_path,
