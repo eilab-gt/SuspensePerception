@@ -41,10 +41,10 @@ model:
 experiment:
   experiment_series: "gerrig"
   # todo: would it be possible to run multiple experiments if we used a list similar to how we did it for models?
-  use_alternative: true
+  use_alternative: false
   # todo: make this a sub item under experiments for gerrig b/c this field is only used for that one
   # decoding_strategy: "creative"
-  output_dir: "./outputs/gerrig_experiment/alternative/general/"
+  output_dir: "./outputs/gerrig_experiment/standard/general/"
 parse_model:
 # TODO: the prompt for the parser should be determined by the experiment
   api_type: "together"
