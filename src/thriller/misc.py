@@ -1,5 +1,5 @@
 """
-Experiment running and parsing
+Code that is explicitly related to the execution and parsing of API calls for experiments
 """
 
 import sys
