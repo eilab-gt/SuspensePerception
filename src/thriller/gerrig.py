@@ -76,17 +76,17 @@ Crushak forced {hero_lastname} into a wooden arm chair and carefully pinned {her
 Crushak grunted to indicate that he was done. {villain} said, “{ending}”"""
 
 
-def generate_experiment_texts(settings_config: dict[str, str]):
+def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     Generate prompts and experiment texts
     Args:
-        settings_config: settings to use in this experiment
+        experiment_config: settings to use in this experiment
     Return:
         Experiment prompts and version prompts
     """
     substitutions = (
         alternative_substitutions
-        if settings_config["use_alternative"]
+        if experiment_config["use_alternative"]
         else default_substitutions
     )
 

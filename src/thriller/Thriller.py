@@ -39,7 +39,6 @@ def main(args):
     model_config = config.get("model", None)
     experiment_config = config.get("experiment", None)
     parse_model_config = config.get("parse_model", None)
-    settings_config = config.get("settings", None)
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
@@ -108,7 +107,7 @@ def main(args):
         )
 
     # Generate experiment texts
-    prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
+    prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
 
     # Run the experiment
     model_names = model_config.get("name")

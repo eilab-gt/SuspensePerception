@@ -148,11 +148,11 @@ experiment_text = """
 """
 
 
-def generate_experiment_texts(settings_config: dict[str, str]):
+def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     Generate prompts and experiment texts
     Args:
-        settings_config: settings to use in this experiment
+        experiment_config: settings to use in this experiment
     Return:
         Experiment prompts and version prompts
     """
