@@ -3,7 +3,7 @@ Define Lehne experiments
 """
 
 
-experiment_prompt = """The following is E. T. A. Hoffmann's "The Sandman". 
+experiment_prompt = """The following is E. T. A. Hoffmann's "The Sandman".
 
 After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """

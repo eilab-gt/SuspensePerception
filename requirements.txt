@@ -2,3 +2,4 @@ together
 ruff
 pytest
 pandas
+pre-commit

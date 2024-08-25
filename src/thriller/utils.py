@@ -40,7 +40,7 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
     """
     Save text to a JSON file
     Args:
-        output: data to save 
+        output: data to save
         filename: name of the output JSON file
         output_path: path to the output directory
     """
@@ -51,7 +51,9 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
         json.dump(output, f, indent=2)
 
 
-def process_and_save_results(results: list[dict[str, str]], output_path: Path) -> pd.DataFrame:
+def process_and_save_results(
+    results: list[dict[str, str]], output_path: Path
+) -> pd.DataFrame:
     """
     Save data to a dataframe and save as .csv and .parquet
     Args:

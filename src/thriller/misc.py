@@ -17,7 +17,9 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 
-def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[str, str]:
+def parse_response(
+    response: str, model_config: dict[str, typing.Any]
+) -> dict[str, str]:
     """
     Process a LLM response into a key value pair
     Args:
@@ -33,7 +35,7 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
 
     messages = [
         {"role": "system", "content": prompt},
-        {"role": "user", "content": response}
+        {"role": "user", "content": response},
     ]
 
     content = ""
@@ -48,9 +50,9 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
             top_k=model_config["top_k"],
             repetition_penalty=model_config["repetition_penalty"],
         )
-        
+
         content = parsed_response["choices"][0]["message"]["content"]
-    
+
     elif api_type == "together":
         client = Together(api_key=model_config["api_key"])
         parsed_response = client.chat.completions.create(
@@ -67,13 +69,13 @@ def parse_response(response: str, model_config: dict[str, typing.Any]) -> dict[s
 
         for chunk in parsed_response:
             content += chunk.choices[0].delta.content or ""
-    
+
     else:
         raise ValueError(f"Unsupported API type: {api_type}")
 
     if not content:
         return {}
-    
+
     values = re.findall(r"(\w+): (\d+)", content)
     parsed = {key: int(value) for key, value in values}
 
@@ -105,7 +107,7 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     Apply substitutions to a given template
     Args:
         template: the template to replace
-        substitutions: the substitutions to use 
+        substitutions: the substitutions to use
     Return:
         The template with substitutions
     """
@@ -114,11 +116,13 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     return template
 
 
-def run_experiment(output_path: Path,
-                   model_config: dict[str, typing.Any],
-                   parse_model_config: dict[str, typing.Any],
-                   prompts: dict[str, str],
-                   version_prompts: dict[str, str]) -> list[dict[str, str]]:
+def run_experiment(
+    output_path: Path,
+    model_config: dict[str, typing.Any],
+    parse_model_config: dict[str, typing.Any],
+    prompts: dict[str, str],
+    version_prompts: dict[str, str],
+) -> list[dict[str, str]]:
     """
     Run the experiment with the given configuration and save the results
     Args:
@@ -139,7 +143,7 @@ def run_experiment(output_path: Path,
         for version_name, version_text in version_prompts[exp_name]:
             messages = [
                 {"role": "system", "content": prompt},
-                {"role": "user", "content": version_text}
+                {"role": "user", "content": version_text},
             ]
 
             raw_response = generate_response(messages, model_config)
