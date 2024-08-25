@@ -19,8 +19,7 @@ def test_load_config():
     model:
       name: gpt-3
       max_tokens: 50
-      temperature: 0.7
-      top_k: 50
+      temperature: 0.0
       top_p: 0.9
       repetition_penalty: 1.0
     """

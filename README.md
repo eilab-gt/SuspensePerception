@@ -1,3 +1,6 @@
+# TODOs
+need to add a config setting in yaml for deterministic/standard/creative rather than editing the decoding parameters manually
+
 # This is Thriller?
 
 ## Project Setup
@@ -12,10 +15,12 @@ https://pre-commit.com/
 
 Configure your API keys in an `.env` file using the provided `.env.sample` template.
 
-## Experiment Configuration
+## Running Experiments
+
+### Experiment Configuration
 
 Configure your experiemnt config files, e.g. `config.yaml`
 
-## Data Collection
+### Data Collection
 
 > python ./src/thriller/Thriller.py -c config.yaml
