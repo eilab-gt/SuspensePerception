@@ -1,18 +1,18 @@
 model:
   api_type: "together"
   name: [
-    # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-    # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-    # "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
-    # "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
-    # "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
-    # "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-    # "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
-    # "meta-llama/Llama-3-8b-chat-hf",
-    # "meta-llama/Llama-3-70b-chat-hf",
-    # "meta-llama/Llama-2-7b-chat-hf",
-    # "meta-llama/Llama-2-13b-chat-hf",
-    # "meta-llama/Llama-2-70b-chat-hf",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "meta-llama/Llama-3-8b-chat-hf",
+    "meta-llama/Llama-3-70b-chat-hf",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Llama-2-70b-chat-hf",
     "google/gemma-2-27b-it",
     "google/gemma-2-9b-it",
     "google/gemma-2b-it",
@@ -43,13 +43,13 @@ parse_model:
   name: "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
   prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
   max_tokens: 250
-  temperature: 0.0
+  temperature: 1.0
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
   stream: true
 experiment:
   experiment_series: "gerrig"
-  output_dir: "./outputs/gerrig_experiment/standard/deterministic/"
+  output_dir: "./outputs/gerrig_experiment/standard/creative/"
 settings:
   use_alternative: false
