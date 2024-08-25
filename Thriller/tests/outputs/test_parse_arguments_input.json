@@ -1,0 +1,20 @@
+{
+  "test_args": [
+    "--model",
+    "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "--max_tokens",
+    "50",
+    "--temperature",
+    "0.7",
+    "--top_k",
+    "50",
+    "--top_p",
+    "0.9",
+    "--repetition_penalty",
+    "1.0",
+    "--experiment_series",
+    "gerrig",
+    "--output_dir",
+    "./outputs/"
+  ]
+}

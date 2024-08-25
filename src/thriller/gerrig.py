@@ -1,9 +1,8 @@
 """
-Define Gerrig experiments
+Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as problem-solvers in the experience of suspense. Poetics (Hague, Netherlands). 22, 6 (Dec. 1994), 459–472. DOI:https://doi.org/10.1016/0304-422x(94)90021-3.
 """
 
 from src.thriller.misc import apply_substitutions
-
 
 # Define substitution dictionaries
 default_substitutions = {
@@ -52,11 +51,7 @@ Use the passage above to answer the following questions:
 6. Very suspenseful
 7. Extremely suspenseful
 
-Answer Question 1, and then answer Question 2. At end of your generated response you must re-state your answer in the format:
-```
-Question 1: [1-7] 'Text of answer choice'
-Question 2: [1-7] 'Text of answer choice'
-```
+Answer Question 1, and then answer Question 2.
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
@@ -91,7 +86,9 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         Experiment prompts and version prompts
     """
     substitutions = (
-        alternative_substitutions if settings_config["use_alternative"] else default_substitutions
+        alternative_substitutions
+        if settings_config["use_alternative"]
+        else default_substitutions
     )
 
     experiment_A_prompt = apply_substitutions(
@@ -186,7 +183,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
-    
+
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -214,8 +211,14 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         ],
         "Experiment C": [
             ("Prior Solution Not Mentioned", experiment_C_prior_solution_not_mentioned),
-            ("Prior Solution Mentioned and Removed", experiment_C_prior_solution_mentioned_and_removed),
-            ("Prior Solution Mentioned Not Removed", experiment_C_prior_solution_mentioned_not_removed),
+            (
+                "Prior Solution Mentioned and Removed",
+                experiment_C_prior_solution_mentioned_and_removed,
+            ),
+            (
+                "Prior Solution Mentioned Not Removed",
+                experiment_C_prior_solution_mentioned_not_removed,
+            ),
         ],
     }
 
