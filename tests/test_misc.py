@@ -1,12 +1,9 @@
-import sys
 import json
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
-import pytest
 
 from src.thriller.misc import parse_response, run_experiment
-from tests.test_gerrig import mock_responses
 
 def save_test_output(test_name, output):
     output_dir = Path('Thriller/tests/outputs')

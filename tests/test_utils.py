@@ -1,11 +1,8 @@
-import json
 import sys
 from pathlib import Path
 from unittest.mock import call, mock_open, patch
 
 import pandas as pd
-import pytest
-import yaml
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
@@ -54,7 +51,6 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     ]
 
     mock_file().write.assert_has_calls(actual_calls, any_order=True)
-from tests.test_gerrig import expected_results
 
 
 @patch("pandas.DataFrame.to_csv")

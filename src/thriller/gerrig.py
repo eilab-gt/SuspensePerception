@@ -131,7 +131,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "in which he took great pride",
-            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
+            "ending": "said, “Come my dear friend. Let’s not waste time.”",
         },
     )
 
@@ -151,7 +151,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "that he hoped went unnoticed, moved his fountain pen deeper into his breast pocket",
-            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
+            "ending": "said, “Come my dear friend. Let’s not waste time.”",
         },
     )
 
@@ -169,7 +169,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         {
             **substitutions,
             "villain": substitutions["villain_A"],
-            "grooming_action": f"He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
+            "grooming_action": "He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
         },
     )
 
