@@ -1,11 +1,8 @@
-import os
 import json
 from pathlib import Path
 from unittest.mock import patch
 
-import openai
 import pytest
-import requests_mock
 import together
 
 from src.thriller.api import generate_response

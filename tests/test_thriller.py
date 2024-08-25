@@ -1,14 +1,9 @@
-import sys
-from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-import pytest
-from together.error import AuthenticationError
 
 from src.thriller.Thriller import main as main_func
 from src.thriller.Thriller import parse_arguments
 from src.thriller.utils import save_test_output
-from unittest.mock import patch, MagicMock
 
 @patch("together.Together")
 @patch("src.thriller.misc.run_experiment")
