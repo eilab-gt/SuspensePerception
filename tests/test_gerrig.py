@@ -12,10 +12,11 @@ from src.thriller.gerrig import (
 )
 from src.thriller.misc import run_experiment
 
+
 def save_test_output(test_name, output):
-    output_dir = Path('Thriller/tests/outputs')
+    output_dir = Path("Thriller/tests/outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
-    with open(output_dir / f"{test_name}.json", 'w') as f:
+    with open(output_dir / f"{test_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
 
@@ -34,11 +35,11 @@ def test_generate_default_experiment_texts():
     assert "Bond" in prompts["Experiment A"]
     assert "Le Chiffre" in prompts["Experiment A"]
     assert "Casino Royale" in prompts["Experiment A"]
-    
-    save_test_output("test_generate_default_experiment_texts", {
-        "prompts": prompts,
-        "version_prompts": version_prompts
-    })
+
+    save_test_output(
+        "test_generate_default_experiment_texts",
+        {"prompts": prompts, "version_prompts": version_prompts},
+    )
 
 
 def test_generate_alternative_experiment_texts():
@@ -49,11 +50,11 @@ def test_generate_alternative_experiment_texts():
     assert "Mers" in prompts["Experiment A"]
     assert "Chifrex" in prompts["Experiment A"]
     assert "Meeting at Midnight" in prompts["Experiment A"]
-    
-    save_test_output("test_generate_alternative_experiment_texts", {
-        "prompts": prompts,
-        "version_prompts": version_prompts
-    })
+
+    save_test_output(
+        "test_generate_alternative_experiment_texts",
+        {"prompts": prompts, "version_prompts": version_prompts},
+    )
 
 
 def test_version_prompts_default():
@@ -65,6 +66,7 @@ def test_version_prompts_default():
             assert "{villain}" not in version_text
             assert "Bond" in version_text or "James" in version_text
             assert "Le Chiffre" in version_text or "Blofeld" in version_text
+
 
 def test_version_prompts_alternative():
     prompts, version_prompts = generate_experiment_texts(alternative_substitutions)
@@ -106,64 +108,77 @@ version_prompts = {
 mock_responses = {
     ("Experiment A", "Pen Not Mentioned"): "Response for Experiment A version 1",
     ("Experiment A", "Pen Mentioned Removed"): "Response for Experiment A version 2",
-    ("Experiment A", "Pen Mentioned Not Removed"): "Response for Experiment A version 3",
+    (
+        "Experiment A",
+        "Pen Mentioned Not Removed",
+    ): "Response for Experiment A version 3",
     ("Experiment B", "Unused Comb"): "Response for Experiment B version 1",
     ("Experiment B", "Used Comb"): "Response for Experiment B version 2",
-    ("Experiment C", "Prior Solution Not Mentioned"): "Response for Experiment C version 1",
-    ("Experiment C", "Prior Solution Mentioned and Removed"): "Response for Experiment C version 2",
-    ("Experiment C", "Prior Solution Mentioned Not Removed"): "Response for Experiment C version 3",
+    (
+        "Experiment C",
+        "Prior Solution Not Mentioned",
+    ): "Response for Experiment C version 1",
+    (
+        "Experiment C",
+        "Prior Solution Mentioned and Removed",
+    ): "Response for Experiment C version 2",
+    (
+        "Experiment C",
+        "Prior Solution Mentioned Not Removed",
+    ): "Response for Experiment C version 3",
 }
 
 expected_results = [
-        {
-            "experiment_name": "Experiment A",
-            "version": "Pen Not Mentioned",
-            "raw_response": "Response: Response for Experiment A version 1",
-            "parsed_response": {"Response": "Response for Experiment A version 1"},
-        },
-        {
-            "experiment_name": "Experiment A",
-            "version": "Pen Mentioned Removed",
-            "raw_response": "Response: Response for Experiment A version 2",
-            "parsed_response": {"Response": "Response for Experiment A version 2"},
-        },
-        {
-            "experiment_name": "Experiment A",
-            "version": "Pen Mentioned Not Removed",
-            "raw_response": "Response: Response for Experiment A version 3",
-            "parsed_response": {"Response": "Response for Experiment A version 3"},
-        },
-        {
-            "experiment_name": "Experiment B",
-            "version": "Unused Comb",
-            "raw_response": "Response: Response for Experiment B version 1",
-            "parsed_response": {"Response": "Response for Experiment B version 1"},
-        },
-        {
-            "experiment_name": "Experiment B",
-            "version": "Used Comb",
-            "raw_response": "Response: Response for Experiment B version 2",
-            "parsed_response": {"Response": "Response for Experiment B version 2"},
-        },
-        {
-            "experiment_name": "Experiment C",
-            "version": "Prior Solution Not Mentioned",
-            "raw_response": "Response: Response for Experiment C version 1",
-            "parsed_response": {"Response": "Response for Experiment C version 1"},
-        },
-        {
-            "experiment_name": "Experiment C",
-            "version": "Prior Solution Mentioned and Removed",
-            "raw_response": "Response: Response for Experiment C version 2",
-            "parsed_response": {"Response": "Response for Experiment C version 2"},
-        },
-        {
-            "experiment_name": "Experiment C",
-            "version": "Prior Solution Mentioned Not Removed",
-            "raw_response": "Response: Response for Experiment C version 3",
-            "parsed_response": {"Response": "Response for Experiment C version 3"},
-        },
-    ]
+    {
+        "experiment_name": "Experiment A",
+        "version": "Pen Not Mentioned",
+        "raw_response": "Response: Response for Experiment A version 1",
+        "parsed_response": {"Response": "Response for Experiment A version 1"},
+    },
+    {
+        "experiment_name": "Experiment A",
+        "version": "Pen Mentioned Removed",
+        "raw_response": "Response: Response for Experiment A version 2",
+        "parsed_response": {"Response": "Response for Experiment A version 2"},
+    },
+    {
+        "experiment_name": "Experiment A",
+        "version": "Pen Mentioned Not Removed",
+        "raw_response": "Response: Response for Experiment A version 3",
+        "parsed_response": {"Response": "Response for Experiment A version 3"},
+    },
+    {
+        "experiment_name": "Experiment B",
+        "version": "Unused Comb",
+        "raw_response": "Response: Response for Experiment B version 1",
+        "parsed_response": {"Response": "Response for Experiment B version 1"},
+    },
+    {
+        "experiment_name": "Experiment B",
+        "version": "Used Comb",
+        "raw_response": "Response: Response for Experiment B version 2",
+        "parsed_response": {"Response": "Response for Experiment B version 2"},
+    },
+    {
+        "experiment_name": "Experiment C",
+        "version": "Prior Solution Not Mentioned",
+        "raw_response": "Response: Response for Experiment C version 1",
+        "parsed_response": {"Response": "Response for Experiment C version 1"},
+    },
+    {
+        "experiment_name": "Experiment C",
+        "version": "Prior Solution Mentioned and Removed",
+        "raw_response": "Response: Response for Experiment C version 2",
+        "parsed_response": {"Response": "Response for Experiment C version 2"},
+    },
+    {
+        "experiment_name": "Experiment C",
+        "version": "Prior Solution Mentioned Not Removed",
+        "raw_response": "Response: Response for Experiment C version 3",
+        "parsed_response": {"Response": "Response for Experiment C version 3"},
+    },
+]
+
 
 def mock_generate_response(messages, model_config):
     exp_name = messages[0]["content"].split(" prompt")[0].strip()
@@ -173,6 +188,7 @@ def mock_generate_response(messages, model_config):
             response = mock_responses.get((exp_name, version_name), "")
             return f"Response: {response}"  # Add a key that can be parsed
     return ""
+
 
 @patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
 @patch("src.thriller.misc.save_raw_api_output")
@@ -193,13 +209,17 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
     assert mock_generate_response.call_count == 8
     assert mock_save_raw_api_output.call_count == 8
 
-    save_test_output("test_run_experiment", {
-        "model_config": model_config,
-        "prompts": prompts,
-        "version_prompts": version_prompts,
-        "results": results,
-        "expected_results": expected_results,
-    })
-    
+    save_test_output(
+        "test_run_experiment",
+        {
+            "model_config": model_config,
+            "prompts": prompts,
+            "version_prompts": version_prompts,
+            "results": results,
+            "expected_results": expected_results,
+        },
+    )
+
+
 if __name__ == "__main__":
     pytest.main([__file__])

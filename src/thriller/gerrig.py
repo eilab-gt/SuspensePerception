@@ -85,7 +85,9 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         Experiment prompts and version prompts
     """
     substitutions = (
-        alternative_substitutions if settings_config["use_alternative"] else default_substitutions
+        alternative_substitutions
+        if settings_config["use_alternative"]
+        else default_substitutions
     )
 
     # Get experiment prompts
@@ -190,7 +192,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
-    
+
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -212,8 +214,14 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         ],
         "Experiment C": [
             ("Prior Solution Not Mentioned", experiment_C_prior_solution_not_mentioned),
-            ("Prior Solution Mentioned and Removed", experiment_C_prior_solution_mentioned_and_removed),
-            ("Prior Solution Mentioned Not Removed", experiment_C_prior_solution_mentioned_not_removed),
+            (
+                "Prior Solution Mentioned and Removed",
+                experiment_C_prior_solution_mentioned_and_removed,
+            ),
+            (
+                "Prior Solution Mentioned Not Removed",
+                experiment_C_prior_solution_mentioned_not_removed,
+            ),
         ],
     }
 

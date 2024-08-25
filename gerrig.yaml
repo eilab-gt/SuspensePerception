@@ -25,4 +25,3 @@ experiment:
   output_dir: "./outputs/gerrig_experiment"
 settings:
   use_alternative: false
-  

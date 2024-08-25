@@ -58,6 +58,7 @@ novel_template = """1 What you are about to read is the story of a real event th
 12 {ending_12}
 """
 
+
 def generate_experiment_texts(settings_config: dict[str, str]):
     """
     Generate prompts and experiment texts
@@ -79,7 +80,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "",
             "ending_11": "The analysis showed that it had withstood the impact and it was possible to use the organ for the transplant.",
             "ending_12": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit.",
-        }
+        },
     )
 
     journalistic_good_revealed = apply_substitutions(
@@ -88,7 +89,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit. ",
             "ending_11": "The analysis showed that it had withstood the impact and it was possible to use the organ for the transplant.",
             "ending_12": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit.",
-        }
+        },
     )
 
     journalistic_bad_notrevealed = apply_substitutions(
@@ -97,7 +98,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "",
             "ending_11": "The analysis showed that it had not withstood the impact and it was impossible to use the organ for the transplant.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit.",
-        }
+        },
     )
 
     journalistic_bad_revealed = apply_substitutions(
@@ -106,7 +107,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit. ",
             "ending_11": "The analysis showed that it had not withstood the impact and it was impossible to use the organ for the transplant.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit.",
-        }
+        },
     )
 
     novel_good_notrevealed = apply_substitutions(
@@ -115,7 +116,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "",
             "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate gave cause for optimism: the organ had not been damaged by the impact.",
             "ending_12": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit.",
-        }
+        },
     )
 
     novel_good_revealed = apply_substitutions(
@@ -124,7 +125,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit. ",
             "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate gave cause for optimism: the organ had not been damaged by the impact.",
             "ending_12": "Finally, at 21:26, the medical team verified that Robert Bent’s newly transplanted liver was functioning correctly, and had not been affected by the damage that it sustained in transit.",
-        }
+        },
     )
 
     novel_bad_notrevealed = apply_substitutions(
@@ -133,7 +134,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "",
             "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit",
-        }
+        },
     )
 
     novel_bad_revealed = apply_substitutions(
@@ -142,7 +143,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "reveal": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit. ",
             "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit",
-        }
+        },
     )
 
     texts = {
