@@ -1,11 +1,3 @@
-# TODOs
-- can we also save the FULL raw output, or at least make sure our JSON contains the actual metadata? Ideally we would be able to have an unstructured data lake of json returns with the meta data present there  needed to parse and extract
-- need to add a config setting in yaml for deterministic/standard/creative rather than editing the decoding parameters manually
-- `visualize.ipynb` needs to become code files
-- need to get the PDFs of the research papers into the repo
-- we need to add a "failed to answer" option for when the model could not handle the quesiton
-- make the output dir depend on the config itself i.e. ./outputs/`experiment_series`/`text_version`/`decoding_strategy`/
-
 # This is Thriller?
 
 ## Project Setup
