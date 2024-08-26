@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Thriller experiment driver
-
+Main entrypoint for running the Thriller experiments
 Use Example:
 > python ./src/thriller/Thriller.py -c config.yaml
 """
@@ -11,6 +10,7 @@ import argparse
 import os
 import sys
 from pathlib import Path
+
 from dotenv import load_dotenv
 
 
@@ -19,6 +19,8 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
+import src.thriller.gerrig as gerrig
+import src.thriller.lehne as lehne
 from src.thriller.misc import run_experiment
 from src.thriller.utils import (
     load_config,

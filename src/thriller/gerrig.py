@@ -1,9 +1,8 @@
 """
-Define Gerrig experiments
+Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as problem-solvers in the experience of suspense. Poetics (Hague, Netherlands). 22, 6 (Dec. 1994), 459–472. DOI:https://doi.org/10.1016/0304-422x(94)90021-3.
 """
 
 from src.thriller.misc import apply_substitutions
-
 
 # Define substitution dictionaries
 default_substitutions = {
@@ -51,6 +50,8 @@ Use the passage above to answer the following questions:
 5. Moderately suspenseful
 6. Very suspenseful
 7. Extremely suspenseful
+
+Answer Question 1, and then answer Question 2.
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
@@ -86,7 +87,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     substitutions = (
         alternative_substitutions
-        if experiment_config["use_alternative"]
+        if settings_config["use_alternative"]
         else default_substitutions
     )
 

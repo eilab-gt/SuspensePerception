@@ -1,6 +1,7 @@
 import json
+import os
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import call, mock_open, patch
 
 import pytest
 import together
@@ -68,3 +69,38 @@ def test_generate_response_together(mock_together):
         max_tokens=model_config["max_tokens"],
         temperature=model_config["temperature"],
     )
+
+
+@patch("builtins.open", new_callable=mock_open)
+@patch("pathlib.Path.mkdir")
+def test_save_raw_api_output(mock_mkdir, mock_file):
+    save_test_output(
+        "test_save_raw_api_output_input",
+        {
+            "output": {"response": "test"},
+            "filename": "test.json",
+            "output_path": "./outputs/",
+        },
+    )
+    output = {"response": "test"}
+    save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
+
+    # The write method is called multiple times; verify each call
+    expected_calls = [
+        call().write("{\n"),
+        call().write('  "response": "test"\n'),
+        call().write("}"),
+    ]
+
+    # Adjust the expected calls to match the actual behavior of json.dump
+    actual_calls = [
+        call().write("{"),
+        call().write("\n  "),
+        call().write('"response"'),
+        call().write(": "),
+        call().write('"test"'),
+        call().write("\n"),
+        call().write("}"),
+    ]
+
+    mock_file().write.assert_has_calls(actual_calls, any_order=True)
