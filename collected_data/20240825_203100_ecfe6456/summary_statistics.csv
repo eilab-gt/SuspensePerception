@@ -1,0 +1,1441 @@
+experiment_name_,experiment_type_,decoding_strategy_,model_name_,experiment_version_,Q1_mean,Q1_median,Q1_std,Q1_min,Q1_max,Q1_count,Q2_mean,Q2_median,Q2_std,Q2_min,Q2_max,Q2_count,FOLLOWED_INSTRUCTIONS_mean,FOLLOWED_INSTRUCTIONS_count
+Experiment A,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-27b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-27b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-9b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-9b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2-9b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2b-it,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-2b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment A,alternative,creative,google_gemma-7b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-7b-it,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,google_gemma-7b-it,Pen Not Mentioned,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,7.0,7.0,,7.0,7.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-27b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-27b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-9b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-9b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2-9b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-2b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,alternative,deterministic,google_gemma-7b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-7b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,google_gemma-7b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-27b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-27b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-9b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-9b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2-9b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-2b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment A,alternative,general,google_gemma-2b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment A,alternative,general,google_gemma-2b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment A,alternative,general,google_gemma-7b-it,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,google_gemma-7b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment A,alternative,general,google_gemma-7b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,7.0,7.0,,7.0,7.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,,,,,,0,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-27b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-27b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-9b-it,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-9b-it,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2-9b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-2b-it,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,creative,google_gemma-2b-it,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,standard,creative,google_gemma-2b-it,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-7b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-7b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,google_gemma-7b-it,Pen Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,,,,,,0,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-27b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-27b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-9b-it,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-9b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2-9b-it,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2b-it,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-2b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-7b-it,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-7b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,google_gemma-7b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-0.5B-Chat,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-0.5B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-1.8B-Chat,Pen Mentioned Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-1.8B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-110B-Chat,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-110B-Chat,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-14B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-14B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-32B-Chat,Pen Mentioned Removed,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-32B-Chat,Pen Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-4B-Chat,Pen Mentioned Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-4B-Chat,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-72B-Chat,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-72B-Chat,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-7B-Chat,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen1.5-7B-Chat,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen2-72B-Instruct,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen2-72B-Instruct,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,Qwen_Qwen2-72B-Instruct,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-27b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-27b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-27b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-9b-it,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-9b-it,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2-9b-it,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2b-it,Pen Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment A,standard,general,google_gemma-2b-it,Pen Mentioned Removed,7.0,7.0,,7.0,7.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,google_gemma-2b-it,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment A,standard,general,google_gemma-7b-it,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-7b-it,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,google_gemma-7b-it,Pen Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-13b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-13b-chat-hf,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-70b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-70b-chat-hf,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-7b-chat-hf,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-2-7b-chat-hf,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-70b-chat-hf,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-70b-chat-hf,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-8b-chat-hf,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Llama-3-8b-chat-hf,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Mentioned Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Mentioned Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Pen Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Not Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Pen Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Mentioned Removed,7.0,7.0,,7.0,7.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Pen Not Mentioned,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Mentioned Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Pen Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Mentioned Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment A,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Pen Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,2.0,2.0,,2.0,2.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-110B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-110B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-14B-Chat,Used Comb,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-32B-Chat,Unused Comb,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-32B-Chat,Used Comb,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-4B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-4B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-72B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-72B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen2-72B-Instruct,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,Qwen_Qwen2-72B-Instruct,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-2-27b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-2-9b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-2-9b-it,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-2b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment B,alternative,creative,google_gemma-2b-it,Used Comb,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-7b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,google_gemma-7b-it,Used Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Unused Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Used Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Unused Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Used Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2-27b-it,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2-9b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2-9b-it,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-2b-it,Used Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-7b-it,Unused Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,google_gemma-7b-it,Used Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Used Comb,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Used Comb,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-110B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-110B-Chat,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-14B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-32B-Chat,Unused Comb,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-32B-Chat,Used Comb,4.0,4.0,,4.0,4.0,1,,,,,,0,0.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-4B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-4B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-72B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-72B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen2-72B-Instruct,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,Qwen_Qwen2-72B-Instruct,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-2-27b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-2-9b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-2-9b-it,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-2b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment B,alternative,general,google_gemma-2b-it,Used Comb,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment B,alternative,general,google_gemma-7b-it,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,google_gemma-7b-it,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-13b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-13b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-70b-chat-hf,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-7b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-2-7b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-3-70b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-3-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,6.0,6.0,,6.0,6.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-110B-Chat,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-110B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-14B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-32B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-32B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-4B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-4B-Chat,Used Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-72B-Chat,Unused Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-72B-Chat,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen2-72B-Instruct,Unused Comb,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,Qwen_Qwen2-72B-Instruct,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-2-27b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-2-9b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-2-9b-it,Used Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-2b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,standard,creative,google_gemma-2b-it,Used Comb,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,standard,creative,google_gemma-7b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,creative,google_gemma-7b-it,Used Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-13b-chat-hf,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-13b-chat-hf,Used Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-70b-chat-hf,Unused Comb,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-70b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-7b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-2-7b-chat-hf,Used Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,standard,creative,meta-llama_Llama-3-70b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-3-70b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Used Comb,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Unused Comb,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Unused Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Used Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen2-72B-Instruct,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,deterministic,Qwen_Qwen2-72B-Instruct,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2-27b-it,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2-9b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2-9b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-2b-it,Used Comb,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-7b-it,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,google_gemma-7b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Used Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Used Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,7.0,7.0,,7.0,7.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-0.5B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-0.5B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-1.8B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-1.8B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-110B-Chat,Unused Comb,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-110B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-14B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-14B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-32B-Chat,Unused Comb,,,,,,0,,,,,,0,0.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-32B-Chat,Used Comb,6.0,6.0,,6.0,6.0,1,,,,,,0,0.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-4B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-4B-Chat,Used Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-72B-Chat,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-72B-Chat,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-7B-Chat,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen1.5-7B-Chat,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen2-72B-Instruct,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,Qwen_Qwen2-72B-Instruct,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2-27b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2-27b-it,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2-9b-it,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2-9b-it,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2b-it,Unused Comb,7.0,7.0,,7.0,7.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-2b-it,Used Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment B,standard,general,google_gemma-7b-it,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,google_gemma-7b-it,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-13b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-13b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-70b-chat-hf,Unused Comb,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-70b-chat-hf,Used Comb,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-7b-chat-hf,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-2-7b-chat-hf,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-3-70b-chat-hf,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-3-70b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-3-8b-chat-hf,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Llama-3-8b-chat-hf,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Used Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Unused Comb,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Unused Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Used Comb,3.0,3.0,,3.0,3.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Unused Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Used Comb,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Unused Comb,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Used Comb,7.0,7.0,,7.0,7.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Unused Comb,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Used Comb,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Unused Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Used Comb,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Unused Comb,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment B,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Used Comb,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-27b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2-9b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-2b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,alternative,creative,google_gemma-2b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment C,alternative,creative,google_gemma-7b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-7b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment C,alternative,creative,google_gemma-7b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,7.0,7.0,,7.0,7.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,,,,,,0,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-27b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2-9b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,alternative,deterministic,google_gemma-2b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-2b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,alternative,deterministic,google_gemma-7b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-7b-it,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,google_gemma-7b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-27b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2-9b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-2b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment C,alternative,general,google_gemma-2b-it,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-7b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-7b-it,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,google_gemma-7b-it,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,alternative,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,4.0,4.0,,4.0,4.0,1,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,7.0,7.0,,7.0,7.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-27b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2-9b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-2b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,standard,creative,google_gemma-2b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-7b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,google_gemma-7b-it,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,creative,google_gemma-7b-it,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,creative,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,creative,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,4.0,4.0,,4.0,4.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,,,,,,0,6.0,6.0,,6.0,6.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,3.0,3.0,,3.0,3.0,1,0.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-27b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2-9b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2b-it,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,1.0,1.0,,1.0,1.0,1,0.0,1
+Experiment C,standard,deterministic,google_gemma-2b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-2b-it,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-7b-it,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-7b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,google_gemma-7b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,2.0,2.0,,2.0,2.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,deterministic,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-0.5B-Chat,Prior Solution Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-1.8B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-110B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-14B-Chat,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned Not Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-32B-Chat,Prior Solution Not Mentioned,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-4B-Chat,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-72B-Chat,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen1.5-7B-Chat,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen2-72B-Instruct,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,Qwen_Qwen2-72B-Instruct,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-27b-it,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-27b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-27b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-9b-it,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-9b-it,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2-9b-it,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2b-it,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,google_gemma-2b-it,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,5.0,5.0,,5.0,5.0,1,0.0,1
+Experiment C,standard,general,google_gemma-2b-it,Prior Solution Not Mentioned,7.0,7.0,,7.0,7.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,general,google_gemma-7b-it,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,google_gemma-7b-it,Prior Solution Mentioned and Removed,,,,,,0,,,,,,0,0.0,1
+Experiment C,standard,general,google_gemma-7b-it,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-13b-chat-hf,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-70b-chat-hf,Prior Solution Not Mentioned,6.0,6.0,,6.0,6.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned Not Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-2-7b-chat-hf,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-70b-chat-hf,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Llama-3-8b-chat-hf,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Lite,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-70B-Instruct-Turbo,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Lite,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo,Prior Solution Not Mentioned,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned Not Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Mentioned and Removed,2.0,2.0,,2.0,2.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo,Prior Solution Not Mentioned,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,7.0,7.0,,7.0,7.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,meta-llama_Meta-Llama-3.1-8B-Instruct-Turbo,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Mentioned and Removed,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.1,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned Not Removed,6.0,6.0,,6.0,6.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,1.0,1.0,,1.0,1.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.2,Prior Solution Not Mentioned,1.0,1.0,,1.0,1.0,1,5.0,5.0,,5.0,5.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Mentioned and Removed,5.0,5.0,,5.0,5.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mistral-7B-Instruct-v0.3,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned Not Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Mentioned and Removed,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x22B-Instruct-v0.1,Prior Solution Not Mentioned,4.0,4.0,,4.0,4.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned Not Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Mentioned and Removed,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
+Experiment C,standard,general,mistralai_Mixtral-8x7B-Instruct-v0.1,Prior Solution Not Mentioned,3.0,3.0,,3.0,3.0,1,6.0,6.0,,6.0,6.0,1,1.0,1
