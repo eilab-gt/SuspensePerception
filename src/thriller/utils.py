@@ -8,9 +8,18 @@ from pathlib import Path
 
 import pandas as pd
 import yaml
+import io
+from datetime import datetime
+import uuid
 
 
-def save_test_output(test_name, output):
+def save_test_output(test_name: str, output: str) -> None:
+    """
+    Save output from tests
+    Args:
+        test_name: name of the test and file to save to
+        output: test output
+    """
     output_dir = Path("Thriller/tests/outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
     with open(output_dir / f"{test_name}.json", "w") as f:
@@ -29,11 +38,26 @@ def load_config(config_path: str) -> io.TextIOWrapper:
         return yaml.safe_load(f)
 
 
+def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
+    """
+    Save text to a JSON file
+    Args:
+        output: data to save
+        filename: name of the output JSON file
+        output_path: path to the output directory
+    """
+    raw_output_dir = Path(output_path) / "raw_outputs"
+    raw_output_dir.mkdir(parents=True, exist_ok=True)
+
+    with open(raw_output_dir / filename, "w") as f:
+        json.dump(output, f, indent=2)
+
+
 def process_and_save_results(
     results: list[dict[str, str]], output_path: Path
 ) -> pd.DataFrame:
     """
-    Save data to a dataframe and save as .csv and .parquet
+    Save data to a dataframe and save as .csv
     Args:
         results: data to save
         output_path: path to the output directory
@@ -56,6 +80,16 @@ def process_and_save_results(
 
     df = pd.DataFrame(data)
     df.to_csv(output_path / "results.csv", index=False)
-    df.to_parquet(output_path / "results.parquet", index=False)
+    # df.to_parquet(output_path / "results.parquet", index=False)
 
     return df
+
+
+def generate_experiment_id() -> str:
+    """
+    Generate a unique experiment ID for each model run.
+
+    Returns:
+        str: A unique experiment ID combining timestamp and UUID.
+    """
+    return f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"

@@ -1,8 +1,6 @@
 from unittest.mock import MagicMock, patch
 
-import openai
 import pytest
-from together import Together
 
 mock_response = "This is a mocked response."
 
