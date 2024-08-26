@@ -181,4 +181,3 @@ As Mers’s eyes grew accustomed to the dark of the office, he hurried toward th
 Kalweitz picked himself up off the ground and said, “I am not amused by your antics Mr. Mers. I hope you understand that my good friend here, Mr. Crushak, is devoted to eliminating such irritations from my life.” At this, the large man contorted his face into what he might have intended as a smile. It made him look no less ugly. Kalweitz continued, “Tie up Mr. Mers.”
 Crushak forced Mers into a wooden arm chair and carefully pinned Mers in place by wrapping a piece of piano wire around each of the chair’s corners and Mers’s arms. Each subsequent twist of the wire bit more painfully into Mers’s flesh.
 Crushak grunted to indicate that he was done. Kalweitz said, “My dear Mr. Mers. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time.”
-

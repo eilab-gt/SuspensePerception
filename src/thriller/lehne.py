@@ -2,8 +2,7 @@
 Define Lehne experiments
 """
 
-
-experiment_prompt = """The following is E. T. A. Hoffmann's "The Sandman". 
+experiment_prompt = """The following is E. T. A. Hoffmann's "The Sandman".
 
 After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """
@@ -149,11 +148,11 @@ experiment_text = """
 """
 
 
-def generate_experiment_texts(settings_config: dict[str, str]):
+def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     Generate prompts and experiment texts
     Args:
-        settings_config: settings to use in this experiment
+        experiment_config: settings to use in this experiment
     Return:
         Experiment prompts and version prompts
     """

@@ -1,16 +1,17 @@
-import json
 import sys
 from pathlib import Path
 from unittest.mock import call, mock_open, patch
 
 import pandas as pd
-import pytest
-import yaml
 
 sys.path.append(str(Path(__file__).resolve().parent.parent) + "/src")
 
-from src.thriller.utils import (load_config, process_and_save_results,
-                                save_raw_api_output, save_test_output)
+from src.thriller.utils import (
+    load_config,
+    process_and_save_results,
+    save_raw_api_output,
+    save_test_output,
+)
 
 
 def test_load_config():
@@ -18,8 +19,7 @@ def test_load_config():
     model:
       name: gpt-3
       max_tokens: 50
-      temperature: 0.7
-      top_k: 50
+      temperature: 0.0
       top_p: 0.9
       repetition_penalty: 1.0
     """
@@ -31,16 +31,23 @@ def test_load_config():
 @patch("builtins.open", new_callable=mock_open)
 @patch("pathlib.Path.mkdir")
 def test_save_raw_api_output(mock_mkdir, mock_file):
-    save_test_output("test_save_raw_api_output_input", {"output": {"response": "test"}, "filename": "test.json", "output_path": "./outputs/"})
+    save_test_output(
+        "test_save_raw_api_output_input",
+        {
+            "output": {"response": "test"},
+            "filename": "test.json",
+            "output_path": "./outputs/",
+        },
+    )
     output = {"response": "test"}
     save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
 
     # The write method is called multiple times; verify each call
-    expected_calls = [
-        call().write("{\n"),
-        call().write('  "response": "test"\n'),
-        call().write("}"),
-    ]
+    # expected_calls = [
+    #     call().write("{\n"),
+    #     call().write('  "response": "test"\n'),
+    #     call().write("}"),
+    # ]
 
     # Adjust the expected calls to match the actual behavior of json.dump
     actual_calls = [
@@ -54,7 +61,6 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     ]
 
     mock_file().write.assert_has_calls(actual_calls, any_order=True)
-from tests.test_gerrig import expected_results
 
 
 @patch("pandas.DataFrame.to_csv")

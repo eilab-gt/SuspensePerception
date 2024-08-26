@@ -7,7 +7,9 @@ from together import Together
 import typing
 
 
-def generate_response(messages: list[dict[str, str]], model_config: dict[str, typing.Any]) -> str:
+def generate_response(
+    messages: list[dict[str, str]], model_config: dict[str, typing.Any]
+) -> str:
     """
     Probe a given LLM model for a response.
     Args:
@@ -28,13 +30,13 @@ def generate_response(messages: list[dict[str, str]], model_config: dict[str, ty
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config["top_p"],
-            top_k=model_config["top_k"],
+            top_p=model_config.get("top_p", None),
+            top_k=model_config.get("top_k", None),
             repetition_penalty=model_config["repetition_penalty"],
         )
-        
+
         return response["choices"][0]["message"]["content"]
-    
+
     elif api_type == "together":
         client = Together(api_key=model_config["api_key"])
         response = client.chat.completions.create(
@@ -42,8 +44,8 @@ def generate_response(messages: list[dict[str, str]], model_config: dict[str, ty
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config["top_p"],
-            top_k=model_config["top_k"],
+            top_p=model_config.get("top_p", None),
+            top_k=model_config.get("top_k", None),
             repetition_penalty=model_config["repetition_penalty"],
             stop=model_config["stop"],
             stream=model_config["stream"],
@@ -53,6 +55,6 @@ def generate_response(messages: list[dict[str, str]], model_config: dict[str, ty
         for chunk in response:
             content += chunk.choices[0].delta.content or ""
         return content
-    
+
     else:
         raise ValueError(f"Unsupported API type: {api_type}")

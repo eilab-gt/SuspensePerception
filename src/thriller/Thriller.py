@@ -13,13 +13,18 @@ import sys
 from pathlib import Path
 from dotenv import load_dotenv
 
+
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 from src.thriller.misc import run_experiment
-from src.thriller.utils import load_config, process_and_save_results
+from src.thriller.utils import (
+    load_config,
+    process_and_save_results,
+    generate_experiment_id,
+)
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
@@ -34,14 +39,15 @@ def main(args):
     model_config = config.get("model", None)
     experiment_config = config.get("experiment", None)
     parse_model_config = config.get("parse_model", None)
-    settings_config = config.get("settings", None)
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
-        raise ValueError("Parse model configuration not found in the configuration file")
+        raise ValueError(
+            "Parse model configuration not found in the configuration file"
+        )
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
-    
+
     # Load API key from secret .env file for model
     model_api_key = ""
     model_api_type = model_config.get("api_type")
@@ -96,10 +102,12 @@ def main(args):
     elif experiment_series == "delatorre":
         experiment = delatorre
     if not experiment:
-        raise ValueError("Valid experiment series not found (must be gerrig, lehne, or delatorre)")
+        raise ValueError(
+            "Valid experiment series not found (must be gerrig, lehne, or delatorre)"
+        )
 
     # Generate experiment texts
-    prompts, version_prompts = experiment.generate_experiment_texts(settings_config)
+    prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
 
     # Run the experiment
     model_names = model_config.get("name")
@@ -107,7 +115,12 @@ def main(args):
         cur_model_config = model_config.copy()
         cur_model_config["name"] = model_name
 
-        cur_output_path = f"{output_path}/{model_name.replace('/', '_')}"
+        # Generate a unique experiment ID for each model run
+        experiment_id = generate_experiment_id()
+
+        # Create a subfolder structure: model_name/experiment_id
+        cur_output_path = output_path / model_name.replace("/", "_") / experiment_id
+        cur_output_path.mkdir(parents=True, exist_ok=True)
 
         results = run_experiment(
             output_path=cur_output_path,
@@ -127,7 +140,7 @@ def parse_arguments():
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
     )
-    
+
     return parser.parse_args()
 
 
