@@ -28,6 +28,7 @@ from src.thriller.utils import (
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
+import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
 
 
@@ -99,6 +100,8 @@ def main(args):
         experiment = gerrig
     elif experiment_series == "lehne":
         experiment = lehne
+    elif experiment_series == "brewer":
+        experiment = brewer
     elif experiment_series == "delatorre":
         experiment = delatorre
     if not experiment:
