@@ -159,7 +159,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     # Get experiment prompts
     prompts = {
-        "Experiment": experiment_prompt,
+        "Experiment": common_prompt_template,
     }
 
     # Get experiment texts

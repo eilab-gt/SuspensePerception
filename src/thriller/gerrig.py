@@ -87,7 +87,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     substitutions = (
         alternative_substitutions
-        if settings_config["use_alternative"]
+        if experiment_config["use_alternative"]
         else default_substitutions
     )
 

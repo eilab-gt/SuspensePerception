@@ -4,7 +4,7 @@ Helper functions for generating responses from LLMs using APIs
 
 import typing
 from pathlib import Path
-
+import json
 import openai
 from together import Together
 
@@ -26,40 +26,45 @@ def generate_response(
     """
     api_type = model_config.get("api_type", None)
 
-    if api_type == "openai":
-        response = openai.ChatCompletion.create(
-            model=model_config["name"],
-            messages=messages,
-            max_tokens=model_config["max_tokens"],
-            temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-        )
+    try:
 
-        return response["choices"][0]["message"]["content"]
+        if api_type == "openai":
+            response = openai.ChatCompletion.create(
+                model=model_config["name"],
+                messages=messages,
+                max_tokens=model_config["max_tokens"],
+                temperature=model_config["temperature"],
+                top_p=model_config.get("top_p", None),
+                top_k=model_config.get("top_k", None),
+                repetition_penalty=model_config["repetition_penalty"],
+            )
 
-    elif api_type == "together":
-        client = Together(api_key=model_config["api_key"])
-        response = client.chat.completions.create(
-            model=model_config["name"],
-            messages=messages,
-            max_tokens=model_config["max_tokens"],
-            temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-            stop=model_config["stop"],
-            stream=model_config["stream"],
-        )
+            return response["choices"][0]["message"]["content"]
 
-        content = ""
-        for chunk in response:
-            content += chunk.choices[0].delta.content or ""
-        return content
+        elif api_type == "together":
+            client = Together(api_key=model_config["api_key"])
+            response = client.chat.completions.create(
+                model=model_config["name"],
+                messages=messages,
+                max_tokens=model_config["max_tokens"],
+                temperature=model_config["temperature"],
+                top_p=model_config.get("top_p", None),
+                top_k=model_config.get("top_k", None),
+                repetition_penalty=model_config["repetition_penalty"],
+                stop=model_config["stop"],
+                stream=model_config["stream"],
+            )
 
-    else:
-        raise ValueError(f"Unsupported API type: {api_type}")
+            content = ""
+            for chunk in response:
+                content += chunk.choices[0].delta.content or ""
+            return content
+
+        else:
+            raise ValueError(f"Unsupported API type: {api_type}")
+        
+    except:
+        print("Failed. Continuing...")
 
 
 def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:

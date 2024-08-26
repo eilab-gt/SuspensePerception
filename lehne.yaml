@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment/standard/general/"
+  output_dir: "./outputs/lehne_experiment/standard/deterministic/"
 model:
   api_type: "together"
   name: [
@@ -47,7 +47,7 @@ parse_model:
   name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
   # TODO: add answer keys inside of prompt for parser so it can reconstruct malformed responses
   prompt: >
-    The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```{Q1: number\nQ2: number}```
+    The following is a series of suspense scores. For each segment, extract only the number answer given and none of the text. Structure your response in the following format: ```{1: score\n2: score}```
   max_tokens: 500
   temperature: 0.0 # Parser should be deterministic
   # top_k: 50
