@@ -2,43 +2,56 @@
 
 ## Project Setup
 
-### venv
+### venv or conda?
+
+pick one
+
+need to merge env.yaml / requirements.txt
+
 How to create venv?
- - `pip install foo`
+
+- `pip install foo`
 
 ### precommit
+
 What is precommit?
+
 - https://pre-commit.com/
 
 ### API keys
+
 API Keys?
+
 - lorem ipsum
-How to configure your API keys?
+  How to configure your API keys?
 - Determine API keys using an `.env` file using the provided `.env.sample` template.
 
 ## Running Experiments
 
 ### Experiment Configuration
+
 Configure your experiemnt config files, e.g. `config.yaml`
 
 ### Data Collection
-> python ./src/thriller/Thriller.py -c config.yaml
 
+> python ./src/thriller/Thriller.py -c config.yaml
 
 ### decoding strategies used
 
 #### deterministic
+
   temperature: 0.0
   top_p: 0.9
   repetition_penalty: 1.0
 
 #### average
+
   temperature: 0.5
   top_p: 0.9
   repetition_penalty: 1.0
 
 #### creative
+
   temperature: 1.0
   top_p: 0.9
   repetition_penalty: 1.0
-
