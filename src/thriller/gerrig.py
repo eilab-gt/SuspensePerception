@@ -51,12 +51,6 @@ Use the passage above to answer the following questions:
 5. Moderately suspenseful
 6. Very suspenseful
 7. Extremely suspenseful
-
-Answer Question 1, and then answer Question 2. At end of your generated response you must re-state your answer in the format:
-```
-Question 1: [1-7] 'Text of answer choice'
-Question 2: [1-7] 'Text of answer choice'
-```
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
@@ -82,17 +76,21 @@ Crushak forced {hero_lastname} into a wooden arm chair and carefully pinned {her
 Crushak grunted to indicate that he was done. {villain} said, “{ending}”"""
 
 
-def generate_experiment_texts(settings_config: dict[str, str]):
+def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     Generate prompts and experiment texts
     Args:
-        settings_config: settings to use in this experiment
+        experiment_config: settings to use in this experiment
     Return:
         Experiment prompts and version prompts
     """
     substitutions = (
-        alternative_substitutions if settings_config["use_alternative"] else default_substitutions
+        alternative_substitutions
+        if experiment_config["use_alternative"]
+        else default_substitutions
     )
+
+    # Get experiment prompts
 
     experiment_A_prompt = apply_substitutions(
         common_prompt_template,
@@ -121,13 +119,21 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         },
     )
 
+    prompts = {
+        "Experiment A": experiment_A_prompt,
+        "Experiment B": experiment_B_prompt,
+        "Experiment C": experiment_C_prompt,
+    }
+
+    # Get experiment texts
+
     experiment_A_pen_not_mentioned = apply_substitutions(
         common_experiment_A_template,
         {
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "in which he took great pride",
-            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
+            "ending": "said, “Come my dear friend. Let’s not waste time.”",
         },
     )
 
@@ -147,7 +153,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             **substitutions,
             "villain": substitutions["villain_A"],
             "action": "that he hoped went unnoticed, moved his fountain pen deeper into his breast pocket",
-            "ending": f"said, “Come my dear friend. Let’s not waste time.”",
+            "ending": "said, “Come my dear friend. Let’s not waste time.”",
         },
     )
 
@@ -165,7 +171,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         {
             **substitutions,
             "villain": substitutions["villain_A"],
-            "grooming_action": f"He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
+            "grooming_action": "He noticed that his hair was just the least bit mussed, so he extracted his comb from his pocket and smoothed his wandering locks back into place.",
         },
     )
 
@@ -186,7 +192,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
             "ending": f"My dear Mr. {substitutions['hero_lastname']}. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident. Poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.",
         },
     )
-    
+
     experiment_C_prior_solution_mentioned_not_removed = apply_substitutions(
         common_experiment_C_template,
         {
@@ -196,13 +202,7 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         },
     )
 
-    prompts = {
-        "Experiment A": experiment_A_prompt,
-        "Experiment B": experiment_B_prompt,
-        "Experiment C": experiment_C_prompt,
-    }
-
-    version_prompts = {
+    texts = {
         "Experiment A": [
             ("Pen Not Mentioned", experiment_A_pen_not_mentioned),
             ("Pen Mentioned Removed", experiment_A_pen_mentioned_removed),
@@ -214,9 +214,15 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         ],
         "Experiment C": [
             ("Prior Solution Not Mentioned", experiment_C_prior_solution_not_mentioned),
-            ("Prior Solution Mentioned and Removed", experiment_C_prior_solution_mentioned_and_removed),
-            ("Prior Solution Mentioned Not Removed", experiment_C_prior_solution_mentioned_not_removed),
+            (
+                "Prior Solution Mentioned and Removed",
+                experiment_C_prior_solution_mentioned_and_removed,
+            ),
+            (
+                "Prior Solution Mentioned Not Removed",
+                experiment_C_prior_solution_mentioned_not_removed,
+            ),
         ],
     }
 
-    return prompts, version_prompts
+    return prompts, texts

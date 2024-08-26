@@ -1,10 +1,10 @@
-# Moderating Readers’ Experiences of Suspense by Manipulating Availability of Solutions 
+# Moderating Readers’ Experiences of Suspense by Manipulating Availability of Solutions
 
-**Richard J. Gerrig**, *Allan B. I. Bernardo*  
-*Yale University, Department of Psychology, P. O. Box 208205, New Haven, CT 06520-8205, USA*  
+**Richard J. Gerrig**, *Allan B. I. Bernardo*
+*Yale University, Department of Psychology, P. O. Box 208205, New Haven, CT 06520-8205, USA*
 *Department of Psychology, University of the Philippines, Palma Hall Annex, Diliman, Quezon City 1101, Philippines*
 
-**PII: 0304-422X(94)90021-3**  
+**PII: 0304-422X(94)90021-3**
 *Poetics 22 (1994) 459-472*
 
 ## Abstract
@@ -15,7 +15,7 @@ We suggest that readers’ reports of suspense are moderated by their perception
 
 In *Casino Royale*, James Bond finds himself in a rather thorny situation. Bond is poised to bankrupt the villain Le Chiffre at the baccarat table when a man in the crowd surrounding the table presses a gun to his back and whispers, "Withdraw your bet before I count ten. If you call for help I shall fire" (p. 83). As the text unfolds, the gunman begins to count - "un", "deux", "trois...". Between each pair of numbers, Bond searches desperately for a means of escape (p. 84):
 
-> *Trois.*  
+> *Trois.*
 > Bond looked over at Vesper and Felix Leiter. They were smiling and talking to each other. The fools. Where was Mathis? Where were those famous men of his?
 > And the other spectators. This crowd of jabbering idiots. Couldn’t someone see what was happening? The chef de partie, the croupier, the huissier?
 
@@ -108,19 +108,19 @@ After reading one of the two versions, subjects provided the same pair of rating
 
 ***Table 3 Excerpts for Experiment 3***
 > Blofeld smiled and said, “We must stop meeting like this. Mr. Bond. I grow weary of pointing a gun at you.”
-> 
+>
 > Before Bond could reply, a large bird crashed into the wall of glass that made up one side of Blofeld’s large office. Bond took advantage of the distraction to pull up one corner of the rug on which Blofeld stood. Blofeld stumbled backwards and his gun shot up into the air, knocking out the large light that had illuminated the room.
-> 
+>
 > As Bond’s eyes grew accustomed to the dark of the office, he hurried toward the door. He was met there, however, by a very large and very ugly man. Light from the hall spilled in, revealing another gun pointing at his chest.
-> 
+>
 > Blofeld picked himself up off the ground and said, “I am not amused by your antics Mr. Bond. I hope you understand that by good friend here, Mr. Crushak, is devoted to eliminating such irritations from my life.” At this, the large man contorted his face into what he might have intended as a smile. It made him look no less ugly. Blofeld continued. “Tie up Mr. Bond.”
-> 
+>
 > Crushak forced Bond into a wooden arm chair, and carefully pinned Bond in place by wrapping a piece of piano wire around each of the chair’s arms and Bond’s arms. Each subsequent twist of the wire bit more painfully into Bond’s flesh.
-> 
+>
 > (Crushak grunted to indicate that he was done. Blofeld said, “My dear Mr. Bond. You came here as my guest and now I find you going through my personal belongings. I don’t think you have behaved very well. I will leave you here with Mr. Crushak to contemplate your rude behavior.”)
-> 
+>
 > {Crushak grunted to indicate that he was done. Blofeld said, “My dear Mr. Bond. The last time I held you in captivity, you were able to outwit my guard. He died soon after that in an automobile accident, poor fellow. Crushak here will be responsible for you this time. He has orders to shoot you if you even attempt to speak to him.”}
-> 
+>
 > Blofeld left the room with his shoulders set in an attitude of triumph.
 
 **Note:** The No Mention version of the excerpt included the material in parentheses. The Prior Solution Removed version included the material in curly brackets. The rest of the text was shared by both versions.
@@ -177,17 +177,17 @@ Here is the extracted text from the provided image, formatted in Markdown:
 
 ## References
 
-Brewer, W.F. and E.H. Lichtenstein. 1981. Event schemas, story schemas, and story grammars. In: J. Long and A. Baddeley (eds.), *Attention and performance IX*, 363-379. Hillsdale, NJ: Erlbaum.  
+Brewer, W.F. and E.H. Lichtenstein. 1981. Event schemas, story schemas, and story grammars. In: J. Long and A. Baddeley (eds.), *Attention and performance IX*, 363-379. Hillsdale, NJ: Erlbaum.
 Brewer, W.F. and E.H. Lichtenstein. 1982. Stories are to entertain: A structural-affect theory of stories. *Journal of Pragmatics* 6, 473-486.
-Brewer, W.F. and K. Ohtsuka. 1988a. Story structure, characterization, just world organization, and reader affect in American and Hungarian short stories. *Poetics* 17, 395-415.  
-Brewer, W.F. and K. Ohtsuka. 1988b. Story structure and reader affect in American and Hungarian short stories. In: C. Martindale (ed.), *Psychological approaches to the study of literary narratives*, 133-158. Hamburg: Buske.  
-Duncker, K. 1945. On problem solving. *Psychological Monographs* 58, whole no. 270.  
-Fleming, Ian. 1954. *Casino Royale*. New York: Macmillan.  
-Gerrig, R.J., 1993. *Experiencing narrative worlds*. New Haven, CT: Yale University Press.  
-Gerrig, R.J. and D.W. Allbritton, 1990. The construction of literary character: A view from cognitive psychology. *Style* 24, 380-391.  
-Greeno, J.G., 1978. Natures of problem solving abilities. In: W.K. Estes (ed.), *Handbook of learning and cognitive processes, Vol. 5*, 239-270. Hillsdale, NJ: Erlbaum.  
-Kotovsky, K. J.R. Hayes and H.A. Simon, 1985. Why are some problems hard?: Evidence from tower of hanoi. *Cognitive Psychology* 17, 248-294.  
-Kotovsky, K. and H.A. Simon, 1990. What makes some problems really hard: Explorations in the problem space of difficulty. *Cognitive Psychology* 22, 143-183.  
-Luchins, A.S., 1942. Mechanization in problem solving. *Psychological Monographs* 54, whole no. 248.  
-Newell, A. and H.A. Simon, 1972. *Human problem solving*. Englewood Cliffs, NJ: Prentice-Hall.  
+Brewer, W.F. and K. Ohtsuka. 1988a. Story structure, characterization, just world organization, and reader affect in American and Hungarian short stories. *Poetics* 17, 395-415.
+Brewer, W.F. and K. Ohtsuka. 1988b. Story structure and reader affect in American and Hungarian short stories. In: C. Martindale (ed.), *Psychological approaches to the study of literary narratives*, 133-158. Hamburg: Buske.
+Duncker, K. 1945. On problem solving. *Psychological Monographs* 58, whole no. 270.
+Fleming, Ian. 1954. *Casino Royale*. New York: Macmillan.
+Gerrig, R.J., 1993. *Experiencing narrative worlds*. New Haven, CT: Yale University Press.
+Gerrig, R.J. and D.W. Allbritton, 1990. The construction of literary character: A view from cognitive psychology. *Style* 24, 380-391.
+Greeno, J.G., 1978. Natures of problem solving abilities. In: W.K. Estes (ed.), *Handbook of learning and cognitive processes, Vol. 5*, 239-270. Hillsdale, NJ: Erlbaum.
+Kotovsky, K. J.R. Hayes and H.A. Simon, 1985. Why are some problems hard?: Evidence from tower of hanoi. *Cognitive Psychology* 17, 248-294.
+Kotovsky, K. and H.A. Simon, 1990. What makes some problems really hard: Explorations in the problem space of difficulty. *Cognitive Psychology* 22, 143-183.
+Luchins, A.S., 1942. Mechanization in problem solving. *Psychological Monographs* 54, whole no. 248.
+Newell, A. and H.A. Simon, 1972. *Human problem solving*. Englewood Cliffs, NJ: Prentice-Hall.
 Simon, H.A. and A. Newell, A., 1971. Human problem solving: The state of the theory in 1970. *American Psychologist* 26, 145-159.
