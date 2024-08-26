@@ -1,9 +1,18 @@
 model:
   api_type: "together"
-  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  name: ["meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo", "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo"]
+  max_tokens: 5000
+  temperature: 0.0  # top_k: 50
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+  prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
   max_tokens: 500
-  temperature: 0.7
-  top_k: 50
+  temperature: 0.0  # top_k: 50
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
@@ -11,4 +20,3 @@ model:
 experiment:
   experiment_series: "lehne"
   output_dir: "./outputs/lehne_experiment"
-  
