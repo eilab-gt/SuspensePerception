@@ -83,26 +83,6 @@ def parse_response(
     return parsed
 
 
-# def format_system_message(message: str) -> dict[str, str]:
-#     """
-#     Args:
-#         message: the system message
-#     Return:
-#         Format for system messages
-#     """
-#     return {"role": "system", "content": message}
-
-
-# def format_user_message(message: str) -> dict[str, str]:
-#     """
-#     Args:
-#         message: the user message
-#     Return:
-#         Format for user messages
-#     """
-#     return {"role": "user", "content": message}
-
-
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
     """
     Apply substitutions to a given template
