@@ -1,14 +1,57 @@
+experiment:
+  experiment_series: "lehne"
+  output_dir: "./outputs/lehne_experiment/standard/general/"
 model:
   api_type: "together"
-  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
-  max_tokens: 500
-  temperature: 0.7
-  top_k: 50
+  name: [
+    "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "meta-llama/Llama-3-8b-chat-hf",
+    "meta-llama/Llama-3-70b-chat-hf",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Llama-2-70b-chat-hf",
+    "google/gemma-2-27b-it",
+    "google/gemma-2-9b-it",
+    "google/gemma-2b-it",
+    "google/gemma-7b-it",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "Qwen/Qwen1.5-0.5B-Chat", # todo: decide <1B models are worth including
+    "Qwen/Qwen1.5-1.8B-Chat",
+    "Qwen/Qwen1.5-4B-Chat",
+    "Qwen/Qwen1.5-7B-Chat",
+    "Qwen/Qwen1.5-14B-Chat",
+    "Qwen/Qwen1.5-32B-Chat",
+    "Qwen/Qwen1.5-72B-Chat",
+    "Qwen/Qwen1.5-110B-Chat",
+    "Qwen/Qwen2-72B-Instruct",
+    ]
+  max_tokens: 5000
+  temperature: 0.0
+  # top_k: 50
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
   stream: true
-experiment:
-  experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment"
-  
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  # TODO: add answer keys inside of prompt for parser so it can reconstruct malformed responses
+  prompt: >
+    The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```{Q1: number\nQ2: number}```
+  max_tokens: 500
+  temperature: 0.0 # Parser should be deterministic
+  # top_k: 50
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true

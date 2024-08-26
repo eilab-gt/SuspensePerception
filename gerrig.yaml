@@ -1,0 +1,74 @@
+experiment:
+  experiment_series: "gerrig"
+  use_alternative: false
+  output_dir: "./outputs/gerrig_experiment/standard/general/"
+model:
+  api_type: "together"
+  name: [
+    "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "meta-llama/Llama-3-8b-chat-hf",
+    "meta-llama/Llama-3-70b-chat-hf",
+    "meta-llama/Llama-2-7b-chat-hf",
+    "meta-llama/Llama-2-13b-chat-hf",
+    "meta-llama/Llama-2-70b-chat-hf",
+    "google/gemma-2-27b-it",
+    "google/gemma-2-9b-it",
+    "google/gemma-2b-it",
+    "google/gemma-7b-it",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "Qwen/Qwen1.5-0.5B-Chat", # todo: decide <1B models are worth including
+    "Qwen/Qwen1.5-1.8B-Chat",
+    "Qwen/Qwen1.5-4B-Chat",
+    "Qwen/Qwen1.5-7B-Chat",
+    "Qwen/Qwen1.5-14B-Chat",
+    "Qwen/Qwen1.5-32B-Chat",
+    "Qwen/Qwen1.5-72B-Chat",
+    "Qwen/Qwen1.5-110B-Chat",
+    "Qwen/Qwen2-72B-Instruct",
+    ]
+  max_tokens: 250
+  temperature: 0.5
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  prompt: >
+    The text below is the output of a question and answer prompt to a language model. There are only two questions (Q1, Q2). For each question you should try to extract only the numerical scaled version of the answer given, and none of the description text for the number. If the number is not present, you must use infer it based on the answer's text.  
+    Q1:
+    1. Not very likely
+    2. Somewhat likely
+    3. Slightly likely
+    4. Neutral or Uncertain
+    5. Moderately likely
+    6. Very likely
+    7. Extremely likely
+
+    Q2:
+    1. Not very suspenseful
+    2. Somewhat suspenseful
+    3. Slightly suspenseful
+    4. Neutral or Uncertain
+    5. Moderately suspenseful
+    6. Very suspenseful
+    7. Extremely suspenseful
+    
+    When generating you should structure your response to this prompt by using the format: ```Q1: answer\nQ2: answer``` and exclude all other questions mentioned.
+  max_tokens: 250
+  temperature: 0.0 # Parser should be deterministic
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true

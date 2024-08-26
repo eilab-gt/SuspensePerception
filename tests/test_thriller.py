@@ -1,9 +1,5 @@
-import sys
-from pathlib import Path
 from unittest.mock import MagicMock, patch
 
-import pytest
-from together.error import AuthenticationError
 
 from src.thriller.Thriller import main as main_func
 from src.thriller.Thriller import parse_arguments

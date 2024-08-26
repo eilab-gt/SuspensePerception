@@ -1,18 +1,23 @@
 import json
 import sys
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
-import pytest
 
 # from src.thriller.misc import parse_response
 from src.thriller.misc import run_experiment
 from tests.test_gerrig import mock_responses
 
+def save_test_output(test_name, output):
+    output_dir = Path("Thriller/tests/outputs")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / f"{test_name}.json", "w") as f:
+        json.dump(output, f, indent=2)
 
 # def test_parse_response(response):
 #     parsed = parse_response(response)
 #     assert parsed
+
 
 
 @patch(
@@ -35,9 +40,13 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         "Experiment A": [
             ("Version A1 Name", "Version A1 Text"),
             ("Version A2 Name", "Version A2 Text"),
+            ("Version A2 Name", "Version A2 Text"),
         ]
     }
 
+    results = run_experiment(
+        Path(experiment_series), model_config, prompts, version_prompts
+    )
     results = run_experiment(
         Path(experiment_series), model_config, prompts, version_prompts
     )
@@ -50,9 +59,23 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         assert (
             result["parsed_response"] == "Response for Experiment A Version Pen Removed"
         )
+        assert (
+            result["parsed_response"] == "Response for Experiment A Version Pen Removed"
+        )
 
     assert mock_generate_response.call_count == 2
     assert mock_save_raw_api_output.call_count == 2
+
+    save_test_output(
+        "test_run_experiment",
+        {
+            "experiment_series": experiment_series,
+            "model_config": model_config,
+            "prompts": prompts,
+            "version_prompts": version_prompts,
+            "results": results,
+        },
+    )
 
     save_test_output(
         "test_run_experiment",

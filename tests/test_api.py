@@ -3,13 +3,17 @@ import os
 from pathlib import Path
 from unittest.mock import call, mock_open, patch
 
-import openai
 import pytest
-import requests_mock
 import together
 
-from src.thriller.api import generate_response, save_raw_api_output
-from src.thriller.utils import save_test_output
+from src.thriller.api import generate_response
+
+
+def save_test_output(test_name, output):
+    output_dir = Path("Thriller/tests/outputs")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    with open(output_dir / f"{test_name}.json", "w") as f:
+        json.dump(output, f, indent=2)
 
 
 def test_generate_response_openai(mock_openai):

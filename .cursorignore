@@ -1,0 +1,10 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+*.json
+outputs/
+collected_data/
+.idea/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.vscode/
+.env.sample
