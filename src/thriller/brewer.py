@@ -68,12 +68,7 @@ The passage you have been reading is now over. Please answer the following quest
 6. Very Interested
 7. Extremely Interested
 
-***Question 3: "Some of the passages used in this experiment may be stories, and some may not be stories. To what extent do you consider that this passage, as given to you, makes a 'story'?"***
-- NS (Not a Story)
-- ? (Not Sure)
-- S (Is a Story)
-
-***Question 4: "To what extent were you satisfied with the outcome of the passage?"***
+***Question 3: "To what extent were you satisfied with the outcome of the passage?"***
 1. Very Unsatisfied
 2. Slightly Unsatisfied
 3. Somewhat Unsatisfied
@@ -82,7 +77,7 @@ The passage you have been reading is now over. Please answer the following quest
 6. Very Satisfied
 7. Extremely Satisfied
 
-***Question 5: "To what extent did the passage seem complete?"***
+***Question 4: "To what extent did the passage seem complete?"***
 1. Incomplete
 2. Slightly Complete
 3. Somewhat Complete
@@ -91,7 +86,7 @@ The passage you have been reading is now over. Please answer the following quest
 6. Very Complete
 7. Extremely Complete
 
-***Question 6: "Was the information in the passage correctly arranged? That is, was the information given at the best possible times to produce as effective a story as would be possible from this material?"***
+***Question 5: "Was the information in the passage correctly arranged? That is, was the information given at the best possible times to produce as effective a story as would be possible from this material?"***
 1. Not Arranged Correctly
 2. Slightly Arranged Correctly
 3. Somewhat Arranged Correctly
@@ -100,7 +95,7 @@ The passage you have been reading is now over. Please answer the following quest
 6. Very Arranged Correctly
 7. Extremely Arranged Correctly
 
-***Question 7: "To what extent did you empathize or identify with the character(s) in the passage?"***
+***Question 6: "To what extent did you empathize or identify with the character(s) in the passage?"***
 1. Not at All
 2. Slightly
 3. Somewhat
@@ -109,7 +104,7 @@ The passage you have been reading is now over. Please answer the following quest
 6. A Lot
 7. A Great Deal
 
-***Question 8: "To what extent could the information and events in the passage be understood?"***
+***Question 7: "To what extent could the information and events in the passage be understood?"***
 1. Not Understandable
 2. Slightly Understandable
 3. Somewhat Understandable
@@ -119,7 +114,7 @@ The passage you have been reading is now over. Please answer the following quest
 7. Clearly Understandable
 
 
-***Question 9: "To what extent did you find the passage violent?"***
+***Question 8: "To what extent did you find the passage violent?"***
 1. Not Violent
 2. Slightly Violent
 3. Somewhat Violent
@@ -129,7 +124,7 @@ The passage you have been reading is now over. Please answer the following quest
 7. Extremely Violent
 
 
-***Question 10: "To what extent did you think that the author was trying to express an insight about human nature, or a truth about the 'human condition'?"***
+***Question 9: "To what extent did you think that the author was trying to express an insight about human nature, or a truth about the 'human condition'?"***
 1. No Insight
 2. Slight Insight
 3. Some Insight
