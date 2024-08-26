@@ -1,4 +1,4 @@
-# Together Reference Sheet
+# Reference for TogetherAI's API
 
 ## Usage – Python Client
 
