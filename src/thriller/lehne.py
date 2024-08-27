@@ -5,7 +5,7 @@ Define experiments from Lehne, M. and Koelsch, S. 2015. Toward a general psychol
 
 common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
 
-After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
+After each paragraph, rate how suspensful you found it to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
 """
 
 
@@ -163,9 +163,10 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     }
 
     # Get experiment texts
+    experiment_texts = list(filter(None, experiment_text.splitlines()))
     texts = {
         "Experiment": [
-            ("Normal", experiment_text),
+            ("Normal", experiment_texts),
         ],
     }
 
