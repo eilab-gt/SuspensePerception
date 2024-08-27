@@ -3,6 +3,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 """
 
 import sys
+import typing
 from pathlib import Path
 import typing
 from src.thriller.api import generate_response
@@ -80,26 +81,6 @@ def parse_response(
     parsed = {key: int(value) for key, value in values}
 
     return parsed
-
-
-def format_system_message(message: str) -> dict[str, str]:
-    """
-    Args:
-        message: the system message
-    Return:
-        Format for system messages
-    """
-    return {"role": "system", "content": message}
-
-
-def format_user_message(message: str) -> dict[str, str]:
-    """
-    Args:
-        message: the user message
-    Return:
-        Format for user messages
-    """
-    return {"role": "user", "content": message}
 
 
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:

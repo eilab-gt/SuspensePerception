@@ -1,10 +1,12 @@
 """
-API communication files
+Helper functions for generating responses from LLMs using APIs
 """
+
+import typing
+from pathlib import Path
 
 import openai
 from together import Together
-import typing
 
 
 def generate_response(
@@ -58,3 +60,18 @@ def generate_response(
 
     else:
         raise ValueError(f"Unsupported API type: {api_type}")
+
+
+def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
+    """
+    Save text to a JSON file
+    Args:
+        output: data to save
+        filename: name of the output JSON file
+        output_path: path to the output directory
+    """
+    raw_output_dir = Path(output_path) / "raw_outputs"
+    raw_output_dir.mkdir(parents=True, exist_ok=True)
+
+    with open(raw_output_dir / filename, "w") as f:
+        json.dump(output, f, indent=2)
