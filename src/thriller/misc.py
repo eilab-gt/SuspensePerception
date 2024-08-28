@@ -10,6 +10,7 @@ from src.thriller.api import generate_response, save_raw_api_output
 import openai
 from together import Together
 import re
+from tqdm import tqdm
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -120,56 +121,69 @@ def run_experiment(
         Experiment results. Each result is a dictionary with keys `experiment_name`, `version`, `raw_response`, `parsed_response`
     """
     results = []
+    total_experiments = sum(len(versions) for versions in version_prompts.values())
 
-    for exp_name, prompt in prompts.items():
-        print(f"Running experiment {exp_name} with {model_config.get('name')}")
+    with tqdm(total=total_experiments, desc="Overall Progress") as pbar:
+        for exp_name, prompt in prompts.items():
+            print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
 
-        for version_name, version_text in version_prompts[exp_name]:
-            responses = ""
+            for version_name, version_text in version_prompts[exp_name]:
+                responses = ""
 
-            if isinstance(version_text, list):
-                messages = [
-                    {"role": "system", "content": prompt},
-                ]
+                if isinstance(version_text, list):
+                    with tqdm(
+                        total=len(version_text), desc=f"{exp_name} - {version_name}"
+                    ) as inner_pbar:
+                        messages = [
+                            {"role": "system", "content": prompt},
+                        ]
 
-                for paragraph in version_text:
-                    messages.append({"role": "user", "content": paragraph})
+                        for paragraph in version_text:
+                            messages.append({"role": "user", "content": paragraph})
+
+                            raw_response = generate_response(messages, model_config)
+                            messages.append(
+                                {"role": "assistant", "content": raw_response}
+                            )
+
+                            if raw_response:
+                                responses += raw_response + "\n"
+
+                            inner_pbar.update(1)
+
+                elif isinstance(version_text, str):
+                    messages = [
+                        {"role": "system", "content": prompt},
+                        {"role": "user", "content": version_text},
+                    ]
 
                     raw_response = generate_response(messages, model_config)
-                    messages.append({"role": "assistant", "content": raw_response})
-
                     if raw_response:
                         responses += raw_response + "\n"
 
-            elif isinstance(version_text, str):
-                messages = [
-                    {"role": "system", "content": prompt},
-                    {"role": "user", "content": version_text},
-                ]
+                if responses:
+                    parsed_response = parse_response(responses, parse_model_config)
 
-                raw_response = generate_response(messages, model_config)
-                if raw_response:
-                    responses += raw_response + "\n"
+                    result = {
+                        "experiment_name": exp_name,
+                        "version": version_name,
+                        "raw_response": responses,
+                        "parsed_response": parsed_response,
+                    }
 
-            if responses:
-                parsed_response = parse_response(responses, parse_model_config)
+                    results.append(result)
 
-                result = {
-                    "experiment_name": exp_name,
-                    "version": version_name,
-                    "raw_response": responses,
-                    "parsed_response": parsed_response,
-                }
+                    save_raw_api_output(
+                        output=responses,
+                        filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
+                        output_path=output_path,
+                    )
 
-                results.append(result)
+                else:
+                    print(
+                        f"Failed to get response for {exp_name} version: {version_name}"
+                    )
 
-                save_raw_api_output(
-                    output=responses,
-                    filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
-                    output_path=output_path,
-                )
-
-            else:
-                print(f"Failed to get response for {exp_name} version: {version_name}")
+                pbar.update(1)
 
     return results
