@@ -1,6 +1,7 @@
 """
 Code that is explicitly related to the execution and parsing of API calls for experiments
 """
+# TODO: move to api.py and utils.py then delete this file
 
 import sys
 import typing
@@ -19,6 +20,7 @@ if project_root not in sys.path:
 def parse_response(
     response: str, model_config: dict[str, typing.Any]
 ) -> dict[str, str]:
+    # TODO: move to api.py
     """
     Process a LLM response into a key value pair
     Args:
@@ -82,6 +84,7 @@ def parse_response(
 
 
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
+    # TODO: move to utils.py
     """
     Apply substitutions to a given template
     Args:
@@ -102,6 +105,7 @@ def run_experiment(
     prompts: dict[str, str],
     version_prompts: dict[str, str | list[str]],
 ) -> list[dict[str, str]]:
+    # TODO: move to utils.py
     """
     Run the experiment with the given configuration and save the results
     Args:
