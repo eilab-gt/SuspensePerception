@@ -28,8 +28,6 @@ from src.thriller.utils import (
     generate_experiment_id,
 )
 
-import src.thriller.gerrig as gerrig
-import src.thriller.lehne as lehne
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
 

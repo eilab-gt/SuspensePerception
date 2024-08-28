@@ -1,12 +1,11 @@
 import json
-import sys
 from pathlib import Path
 from unittest.mock import patch
 
 
 # from src.thriller.misc import parse_response
 from src.thriller.misc import run_experiment
-from tests.test_gerrig import mock_responses
+
 
 def save_test_output(test_name, output):
     output_dir = Path("Thriller/tests/outputs")
@@ -14,10 +13,10 @@ def save_test_output(test_name, output):
     with open(output_dir / f"{test_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
+
 # def test_parse_response(response):
 #     parsed = parse_response(response)
 #     assert parsed
-
 
 
 @patch(

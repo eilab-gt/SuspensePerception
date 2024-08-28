@@ -190,8 +190,8 @@ def mock_generate_response(messages, model_config):
     return ""
 
 
-@patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
-@patch("src.thriller.misc.save_raw_api_output")
+@patch("src.thriller.api.generate_response", side_effect=mock_generate_response)
+@patch("src.thriller.api.save_raw_api_output")
 def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
     model_config = {
         "name": "gpt-3",

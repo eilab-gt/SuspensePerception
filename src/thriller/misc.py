@@ -5,9 +5,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 import sys
 import typing
 from pathlib import Path
-import typing
-from src.thriller.api import generate_response
-from src.thriller.utils import save_raw_api_output
+from src.thriller.api import generate_response, save_raw_api_output
 import openai
 from together import Together
 import re
@@ -120,36 +118,26 @@ def run_experiment(
     results = []
 
     for exp_name, prompt in prompts.items():
-
         print(f"Running experiment {exp_name} with {model_config.get('name')}")
 
         for version_name, version_text in version_prompts[exp_name]:
-
             responses = ""
 
             if isinstance(version_text, list):
-
                 messages = [
                     {"role": "system", "content": prompt},
                 ]
 
                 for paragraph in version_text:
-                    messages.append({
-                        "role": "user",
-                        "content": paragraph
-                    })
+                    messages.append({"role": "user", "content": paragraph})
 
                     raw_response = generate_response(messages, model_config)
-                    messages.append({
-                        "role": "assistant",
-                        "content": raw_response
-                    })
+                    messages.append({"role": "assistant", "content": raw_response})
 
                     if raw_response:
                         responses += raw_response + "\n"
 
             elif isinstance(version_text, str):
-
                 messages = [
                     {"role": "system", "content": prompt},
                     {"role": "user", "content": version_text},
@@ -176,7 +164,7 @@ def run_experiment(
                     filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
                     output_path=output_path,
                 )
-                
+
             else:
                 print(f"Failed to get response for {exp_name} version: {version_name}")
 

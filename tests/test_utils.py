@@ -23,9 +23,6 @@ def test_load_config():
         assert config["model"]["name"] == "gpt-3"
 
 
-from tests.test_gerrig import expected_results
-
-
 @patch("pandas.DataFrame.to_csv")
 @patch("pandas.DataFrame.to_parquet")
 def test_process_and_save_results(mock_to_parquet, mock_to_csv):
