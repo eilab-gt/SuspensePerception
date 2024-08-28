@@ -5,9 +5,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 import sys
 import typing
 from pathlib import Path
-import typing
-from src.thriller.api import generate_response
-from src.thriller.utils import save_raw_api_output
+from src.thriller.api import generate_response, save_raw_api_output
 import openai
 from together import Together
 import re

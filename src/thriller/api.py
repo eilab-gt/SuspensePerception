@@ -4,7 +4,7 @@ Helper functions for generating responses from LLMs using APIs
 
 import typing
 from pathlib import Path
-
+import json
 import openai
 from together import Together
 

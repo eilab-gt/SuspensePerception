@@ -2,7 +2,6 @@
 Define experiments from Lehne, M. and Koelsch, S. 2015. Toward a general psychological model of tension and suspense. Frontiers in psychology. 6, (Feb. 2015). DOI:https://doi.org/10.3389/fpsyg.2015.00079.
 """
 
-
 common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
 
 After each paragraph, rate how suspensful you found the preceding paragraph to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
@@ -159,7 +158,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     """
     # Get experiment prompts
     prompts = {
-        "Experiment": experiment_prompt,
+        "Experiment": common_prompt_template,  # Glenn: unsure if this was  correct, unable to find old value ...
     }
 
     # Get experiment texts
