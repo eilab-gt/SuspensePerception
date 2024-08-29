@@ -119,11 +119,39 @@ def run_experiment(
 
     for exp_name, prompt in prompts.items():
         print(f"Running experiment {exp_name} with {model_config.get('name')}")
-        for version_name, version_text in version_prompts[exp_name]:
-            messages = [
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": version_text},
+        if exp_name == "Experiment Tweet":
+            for version_name, version_text in version_prompts[exp_name]:
+                for tweet in version_text:
+                    messages = [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": tweet},
             ]
+                    raw_response = generate_response(messages, model_config)
+                    if raw_response:
+                        parsed_response = parse_response(raw_response, parse_model_config)
+
+                        result = {
+                            "experiment_name": exp_name,
+                            "version": version_name,
+                            "raw_response": raw_response,
+                            "parsed_response": parsed_response,
+                        }
+
+                        results.append(result)
+
+                        save_raw_api_output(
+                            output=raw_response,
+                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
+                            output_path=output_path,
+                        )
+                    else:
+                        print(f"Failed to get response for {exp_name} version: {version_name}")
+        else:
+            for version_name, version_text in version_prompts[exp_name]:
+                messages = [
+                    {"role": "system", "content": prompt},
+                    {"role": "user", "content": version_text},
+                ]
 
             raw_response = generate_response(messages, model_config)
             if raw_response:
