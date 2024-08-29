@@ -4,7 +4,6 @@ Helper functions for generating responses from LLMs using APIs
 
 import typing
 from pathlib import Path
-import json
 import openai
 from together import Together
 
@@ -74,4 +73,4 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
     raw_output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(raw_output_dir / filename, "w") as f:
-        json.dump(output, f, indent=2)
+        f.write(output)

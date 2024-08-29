@@ -79,9 +79,14 @@ def parse_response(
         return {}
 
     values = re.findall(r"(\w+): (\d+)", content)
-    parsed = {key: int(value) for key, value in values}
+    if values:
+        return {key: int(value) for key, value in values}
+    
+    values = re.findall(r"(\d+)", content)
+    if values:
+        return {"value": int(value) for value in values} 
 
-    return parsed
+    return {}
 
 
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
@@ -128,28 +133,52 @@ def run_experiment(
             print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
 
             for version_name, version_text in version_prompts[exp_name]:
-                responses = ""
 
                 if isinstance(version_text, list):
-                    with tqdm(
-                        total=len(version_text), desc=f"{exp_name} - {version_name}"
-                    ) as inner_pbar:
+                    with tqdm(total=len(version_text), desc=f"{exp_name} - {version_name}") as inner_pbar:
                         messages = [
                             {"role": "system", "content": prompt},
                         ]
 
-                        for paragraph in version_text:
+                        raw_responses = []
+                        parsed_responses = []
+
+                        for i, paragraph in enumerate(version_text):
                             messages.append({"role": "user", "content": paragraph})
 
                             raw_response = generate_response(messages, model_config)
+                            raw_responses.append(raw_response)
                             messages.append(
                                 {"role": "assistant", "content": raw_response}
                             )
 
                             if raw_response:
-                                responses += raw_response + "\n"
+                                parsed_response = parse_response(raw_response, parse_model_config)
+                                parsed_responses += parsed_response.values()
+
+                            else:
+                                print(f"Failed to get response for {exp_name} segment {i} version: {version_name}")
+                                parsed_responses.append("")
 
                             inner_pbar.update(1)
+
+                        raw_responses = "\n".join(raw_responses)
+                        parsed_responses = {str(i): int(s) for i, s in enumerate(parsed_responses)}
+
+                        result = {
+                            "experiment_name": exp_name,
+                            "version": version_name,
+                            "raw_response": raw_responses,
+                            "parsed_response": parsed_responses,
+                        }
+
+                        results.append(result)
+
+                        save_raw_api_output(
+                            output=raw_responses,
+                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.txt",
+                            output_path=output_path,
+                        )
 
                 elif isinstance(version_text, str):
                     messages = [
@@ -158,32 +187,28 @@ def run_experiment(
                     ]
 
                     raw_response = generate_response(messages, model_config)
+
                     if raw_response:
-                        responses += raw_response + "\n"
+                        parsed_response = parse_response(raw_response, parse_model_config)
 
-                if responses:
-                    parsed_response = parse_response(responses, parse_model_config)
+                        result = {
+                            "experiment_name": exp_name,
+                            "version": version_name,
+                            "raw_response": raw_response,
+                            "parsed_response": parsed_response,
+                        }
 
-                    result = {
-                        "experiment_name": exp_name,
-                        "version": version_name,
-                        "raw_response": responses,
-                        "parsed_response": parsed_response,
-                    }
+                        results.append(result)
 
-                    results.append(result)
+                        save_raw_api_output(
+                            output=raw_response,
+                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
+                            output_path=output_path,
+                        )
 
-                    save_raw_api_output(
-                        output=responses,
-                        filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
-                        output_path=output_path,
-                    )
-
-                else:
-                    print(
-                        f"Failed to get response for {exp_name} version: {version_name}"
-                    )
-
+                    else:
+                        print(f"Failed to get response for {exp_name} version: {version_name}")
+                
                 pbar.update(1)
 
     return results
