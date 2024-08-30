@@ -10,6 +10,7 @@ import argparse
 import os
 import sys
 from pathlib import Path
+from tqdm import tqdm
 
 from dotenv import load_dotenv
 
@@ -31,6 +32,7 @@ from src.thriller.utils import (
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
 import src.thriller.tweet as tweet
+
 
 def main(args):
     # Load configuration if provided
@@ -116,27 +118,34 @@ def main(args):
 
     # Run the experiment
     model_names = model_config.get("name")
-    for model_name in model_names:
-        cur_model_config = model_config.copy()
-        cur_model_config["name"] = model_name
+    total_models = len(model_names)
 
-        # Generate a unique experiment ID for each model run
-        experiment_id = generate_experiment_id()
+    with tqdm(total=total_models, desc="Overall Progress") as pbar:
+        for model_name in model_names:
+            cur_model_config = model_config.copy()
+            cur_model_config["name"] = model_name
+            # Generate a unique experiment ID for each model run
+            experiment_id = generate_experiment_id()
 
-        # Create a subfolder structure: model_name/experiment_id
-        cur_output_path = output_path / model_name.replace("/", "_") / experiment_id
-        cur_output_path.mkdir(parents=True, exist_ok=True)
+            # Create a subfolder structure: model_name/experiment_id
+            cur_output_path = output_path / model_name.replace("/", "_") / experiment_id
+            cur_output_path.mkdir(parents=True, exist_ok=True)
 
-        results = run_experiment(
-            output_path=cur_output_path,
-            model_config=cur_model_config,
-            parse_model_config=parse_model_config,
-            prompts=prompts,
-            version_prompts=version_prompts,
-        )
+            tqdm.write(f"\nProcessing model: {model_name}")
+            results = run_experiment(
+                output_path=cur_output_path,
+                model_config=cur_model_config,
+                parse_model_config=parse_model_config,
+                prompts=prompts,
+                version_prompts=version_prompts,
+            )
 
-        # Process and save results
-        process_and_save_results(results, cur_output_path)
+            # Process and save results
+            process_and_save_results(results, cur_output_path)
+
+            pbar.update(1)
+
+    tqdm.write("\nExperiment completed successfully!")
 
 
 def parse_arguments():

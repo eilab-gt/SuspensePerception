@@ -1,4 +1,5 @@
 import pandas as pd
+
 prompt_LLM = """Given the following input text, evaluate it and categorize the emotion it conveys using one of the defined emotions below: 
 1. Amusement: The pleasure that you get from being entertained or from doing something interesting.
 Synonyms: Enjoyment, delight, laughter, pleasure, fun
@@ -48,6 +49,7 @@ procesed2 = data2["processed"].tolist()
 procesed3 = data3["processed"].tolist()
 combined = procesed1 + procesed2 + procesed3
 
+
 def generate_experiment_texts(settings_config: dict[str, str]):
     """
     Generate prompts and experiment texts
@@ -62,11 +64,9 @@ def generate_experiment_texts(settings_config: dict[str, str]):
     }
 
     version_prompts = {
-        "Experiment Tweet":[
-        ("All tweets", combined),
+        "Experiment Tweet": [
+            ("All tweets", combined),
         ]
     }
 
     return prompts, version_prompts
-
-
