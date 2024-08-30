@@ -7,6 +7,16 @@ from pathlib import Path
 import openai
 from together import Together
 import tiktoken
+from transformers import AutoTokenizer
+
+import os
+
+# Set Hugging Face token
+huggingface_token = os.getenv("HUGGINGFACE_TOKEN")
+if huggingface_token is not None:
+    os.environ["HUGGINGFACE_TOKEN"] = huggingface_token
+else:
+    print("Warning: HUGGINGFACE_TOKEN environment variable is not set.")
 
 
 def generate_response(
@@ -77,36 +87,36 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
         f.write(output)
 
 
-def tokenize(text: str, model: str) -> list[int]:
-    # Initialize the tokenizer
-    encoding = tiktoken.encoding_for_model(model)
+def get_tokenizer(model: str = "llama"):
+    if "llama" in model.lower():
+        return AutoTokenizer.from_pretrained(
+            "meta-llama/Llama-2-7b-chat-hf", token=os.getenv("HUGGINGFACE_TOKEN")
+        )
+    else:
+        return tiktoken.encoding_for_model("gpt-4")
 
-    # Tokenize the text
-    tokens = encoding.encode(text)
 
-    return tokens
+def tokenize(text: str, model: str = "llama") -> list[int]:
+    tokenizer = get_tokenizer(model)
+
+    if isinstance(tokenizer, AutoTokenizer):
+        return tokenizer.encode(text)
+    else:
+        return tokenizer.encode(text)
 
 
-def tokenize_and_trim(text: str, max_tokens: int, model: str) -> str:
-    """
-    Tokenize and trim text to the maximum number of tokens allowed by the model.
-    Args:
-        text: The text to tokenize and trim.
-        max_tokens: The maximum number of tokens allowed by the model.
-        model: The model to use for tokenization.
-    Returns:
-        The trimmed text.
-    """
-    # Initialize the tokenizer
-    encoding = tiktoken.encoding_for_model(model)
+def tokenize_and_trim(text: str, max_tokens: int, model: str = "llama") -> str:
+    tokenizer = get_tokenizer(model)
 
-    # Tokenize the text
-    tokens = encoding.encode(text)
-
-    # If the number of tokens exceeds the limit, trim the text
-    if len(tokens) > max_tokens:
-        trimmed_tokens = tokens[:max_tokens]
-        trimmed_text = encoding.decode(trimmed_tokens)
-        return trimmed_text
+    if isinstance(tokenizer, AutoTokenizer):
+        tokens = tokenizer.encode(text)
+        if len(tokens) > max_tokens:
+            trimmed_tokens = tokens[:max_tokens]
+            return tokenizer.decode(trimmed_tokens)
+    else:
+        tokens = tokenizer.encode(text)
+        if len(tokens) > max_tokens:
+            trimmed_tokens = tokens[:max_tokens]
+            return tokenizer.decode(trimmed_tokens)
 
     return text

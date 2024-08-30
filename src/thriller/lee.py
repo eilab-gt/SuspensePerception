@@ -6,6 +6,7 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 from src.thriller.api import tokenize
+from dotenv import load_dotenv
 
 prompt = """
 Your task is to classify the tweet into one of the following emotion classes: "amusement, anger, anxiety, belief, confusion, depression, disgust, excitement, optimism, panic, surprise, ambiguous". Use the annotation guide provided below to determine the most appropriate emotion class. Please respond with the emotion class that you believe best describes the tweet.
@@ -62,8 +63,10 @@ Annotation Guide:
 """
 
 if __name__ == "__main__":
+    load_dotenv()  # Load environment variables from .env file
     token_count = len(tokenize(prompt))
-    print(f"Token count: {token_count}")
     print(f"{'=' * 20}")
-    print(f"Prompt length: {len(prompt)} characters")
+    print(f"Prompt token count: {token_count}")
+    print(f"{'=' * 20}")
+    print(f"Prompt character count: {len(prompt)}")
     print(f"{'=' * 20}")
