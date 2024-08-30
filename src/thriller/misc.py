@@ -147,7 +147,20 @@ def run_experiment(
                         for i, paragraph in enumerate(version_text):
                             messages.append({"role": "user", "content": paragraph})
 
-                            raw_response = generate_response(messages, model_config)
+                            raw_response = ""
+
+                            # Try get LLM response. If context window too large, retry with 1 less message
+                            for _ in range(10):
+                                try:
+                                    raw_response = generate_response(messages, model_config)
+                                    break
+                                except:
+                                    if len(messages) >= 4:
+                                        messages.pop(1)
+                                        messages.pop(1)
+                                    else:
+                                        break
+
                             raw_responses.append(raw_response)
                             messages.append(
                                 {"role": "assistant", "content": raw_response}

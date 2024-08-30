@@ -4,13 +4,13 @@ experiment:
 model:
   api_type: "together"
   name: [
-  # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-  # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+  "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
   # "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
   "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
-  # "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
-  # "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-  # "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+  "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+  "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+  "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
   ### "meta-llama/Llama-3-8b-chat-hf", # Glenn: maybe add these later
   ### "meta-llama/Llama-3-70b-chat-hf", # Glenn: maybe add these later
   # "google/gemma-2-27b-it",
