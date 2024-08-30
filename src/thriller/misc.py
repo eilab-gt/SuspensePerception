@@ -81,10 +81,10 @@ def parse_response(
     values = re.findall(r"(\w+): (\d+)", content)
     if values:
         return {key: int(value) for key, value in values}
-    
+
     values = re.findall(r"(\d+)", content)
     if values:
-        return {"value": int(value) for value in values} 
+        return {"value": int(value) for value in values}
 
     return {}
 
@@ -133,9 +133,10 @@ def run_experiment(
             print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
 
             for version_name, version_text in version_prompts[exp_name]:
-
                 if isinstance(version_text, list):
-                    with tqdm(total=len(version_text), desc=f"{exp_name} - {version_name}") as inner_pbar:
+                    with tqdm(
+                        total=len(version_text), desc=f"{exp_name} - {version_name}"
+                    ) as inner_pbar:
                         messages = [
                             {"role": "system", "content": prompt},
                         ]
@@ -153,17 +154,23 @@ def run_experiment(
                             )
 
                             if raw_response:
-                                parsed_response = parse_response(raw_response, parse_model_config)
+                                parsed_response = parse_response(
+                                    raw_response, parse_model_config
+                                )
                                 parsed_responses += parsed_response.values()
 
                             else:
-                                print(f"Failed to get response for {exp_name} segment {i} version: {version_name}")
+                                print(
+                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
+                                )
                                 parsed_responses.append("")
 
                             inner_pbar.update(1)
 
                         raw_responses = "\n".join(raw_responses)
-                        parsed_responses = {str(i): int(s) for i, s in enumerate(parsed_responses)}
+                        parsed_responses = {
+                            str(i): int(s) for i, s in enumerate(parsed_responses)
+                        }
 
                         result = {
                             "experiment_name": exp_name,
@@ -189,7 +196,9 @@ def run_experiment(
                     raw_response = generate_response(messages, model_config)
 
                     if raw_response:
-                        parsed_response = parse_response(raw_response, parse_model_config)
+                        parsed_response = parse_response(
+                            raw_response, parse_model_config
+                        )
 
                         result = {
                             "experiment_name": exp_name,
@@ -207,8 +216,10 @@ def run_experiment(
                         )
 
                     else:
-                        print(f"Failed to get response for {exp_name} version: {version_name}")
-                
+                        print(
+                            f"Failed to get response for {exp_name} version: {version_name}"
+                        )
+
                 pbar.update(1)
 
     return results
