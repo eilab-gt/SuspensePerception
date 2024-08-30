@@ -1,5 +1,5 @@
 """
-Define Delatorre experiments
+Define Delatorre experiments from Delatorre, P. et al. 2018. Confronting a paradox: A new perspective of the impact of uncertainty in suspense. Frontiers in psychology. 9, (Aug. 2018), 1392. DOI:https://doi.org/10.3389/fpsyg.2018.01392.
 """
 
 from src.thriller.misc import apply_substitutions

@@ -11,11 +11,20 @@ import openai
 from together import Together
 import re
 from tqdm import tqdm
+import logging
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
+
+
+def safe_int_conversion(value):
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str):
+        return int(value) if value.isdigit() else None
+    return None
 
 
 def parse_response(
@@ -152,15 +161,17 @@ def run_experiment(
                             # Try get LLM response. If context window too large, retry with 1 less message
                             for _ in range(10):
                                 try:
-                                    raw_response = generate_response(messages, model_config)
+                                    raw_response = generate_response(
+                                        messages, model_config
+                                    )
                                     break
-                                except:
+                                except Exception as e:
+                                    logging.error(f"Error occurred: {e}")
                                     if len(messages) >= 4:
                                         messages.pop(1)
                                         messages.pop(1)
                                     else:
                                         break
-
                             raw_responses.append(raw_response)
                             messages.append(
                                 {"role": "assistant", "content": raw_response}
@@ -170,20 +181,25 @@ def run_experiment(
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config
                                 )
-                                parsed_responses += parsed_response.values()
+                                parsed_responses.extend(parsed_response.values())
 
                             else:
                                 print(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
                                 )
-                                parsed_responses.append("")
+                                # Don't add anything to parsed_responses for failed responses
 
                             inner_pbar.update(1)
 
                         raw_responses = "\n".join(raw_responses)
-                        parsed_responses = {
-                            str(i): int(s) for i, s in enumerate(parsed_responses)
-                        }
+                        parsed_responses = {}
+                        for i, response in enumerate(parsed_responses):
+                            converted_value = safe_int_conversion(response)
+                            parsed_responses[str(i)] = converted_value
+                            if converted_value is None:
+                                logging.warning(
+                                    f"Non-numeric response encountered at index {i}: '{response}'"
+                                )
 
                         result = {
                             "experiment_name": exp_name,

@@ -11,6 +11,7 @@ import os
 import sys
 from pathlib import Path
 from tqdm import tqdm
+import logging
 
 from dotenv import load_dotenv
 
@@ -34,6 +35,7 @@ import src.thriller.delatorre as delatorre
 
 
 def main(args):
+    logging.basicConfig(level=logging.WARNING)
     # Load configuration if provided
     config = load_config(args.config) if args.config else {}
 
