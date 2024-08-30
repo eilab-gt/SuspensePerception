@@ -1,5 +1,6 @@
 import sys
 from pathlib import Path
+import pandas as pd
 
 project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
@@ -60,13 +61,60 @@ Annotation Guide:
 - **ambiguous**: unclassified emotions in the list or when the target of emotion is confused.  
   *Synonyms:* (subject to annotator’s understanding of the text).  
   *Emoji:* 😏
+  
+  Here is the tweet to classify:
+  {tweet}
 """
 
+
+def generate_experiment_texts(experiment_config):
+    """
+    Generate prompts and experiment texts from the test_stockemo.csv file
+    Args:
+        experiment_config: settings to use in this experiment
+        num_tweets: number of tweets to return (default: 100)
+    Return:
+        Experiment prompts and version prompts
+    """
+    # Get experiment prompts
+    prompts = {
+        "Experiment": prompt,
+    }
+
+    # Read the CSV file
+    csv_path = Path(__file__).parent.parent / "research_data" / "test_stockemo.csv"
+    df = pd.read_csv(csv_path)
+
+    # Ensure num_tweets is an integer
+    num_tweets = experiment_config.get(
+        "num_tweets", 10
+    )  # Default to 10 if not specified
+    if not isinstance(num_tweets, int):
+        raise ValueError(f"num_tweets must be an integer, got {type(num_tweets)}")
+
+    # Extract the first num_tweets tweets from the 'processed' column
+    tweets = df["original"].head(num_tweets).tolist()
+
+    # Create the texts dictionary
+    texts = {
+        "Experiment": [
+            ("Normal", tweets),
+        ],
+    }
+
+    return prompts, texts
+
+
+# Update the main block to use the new parameter
 if __name__ == "__main__":
-    load_dotenv()  # Load environment variables from .env file
+    load_dotenv()
     token_count = len(tokenize(prompt))
     print(f"{'=' * 20}")
     print(f"Prompt token count: {token_count}")
     print(f"{'=' * 20}")
     print(f"Prompt character count: {len(prompt)}")
     print(f"{'=' * 20}")
+    _, texts = generate_experiment_texts()
+    print(f"First 5 tweets out of {len(texts['Experiment'][0][1])}:")
+    for tweet in texts["Experiment"][0][1][:5]:
+        print(tweet)

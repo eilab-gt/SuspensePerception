@@ -31,7 +31,7 @@ from src.thriller.utils import (
 
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
-import src.thriller.tweet as tweet
+import src.thriller.lee as lee
 
 
 def main(args):
@@ -106,8 +106,8 @@ def main(args):
         experiment = brewer
     elif experiment_series == "delatorre":
         experiment = delatorre
-    elif experiment_series == "tweet":
-        experiment = tweet
+    elif experiment_series == "lee":
+        experiment = lee
     if not experiment:
         raise ValueError(
             "Valid experiment series not found (must be gerrig, lehne, or delatorre)"
@@ -141,7 +141,7 @@ def main(args):
             )
 
             # Process and save results
-            process_and_save_results(results, cur_output_path)
+            process_and_save_results(results, cur_output_path, experiment_series)
 
             pbar.update(1)
 

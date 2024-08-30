@@ -37,36 +37,22 @@ def load_config(config_path: str) -> io.TextIOWrapper:
         return yaml.safe_load(f)
 
 
-def process_and_save_results(
-    results: list[dict[str, str]], output_path: Path
-) -> pd.DataFrame:
-    """
-    Save data to a dataframe and save as .csv
-    Args:
-        results: data to save
-        output_path: path to the output directory
-    Return:
-        The data as a dataframe
-    """
-    output_path = Path(output_path)
-    output_path.mkdir(parents=True, exist_ok=True)
+def process_and_save_results(results, output_path, experiment_series):
+    df = pd.DataFrame(results)
 
-    data = []
-    for result in results:
-        parsed_response = result["parsed_response"]
-        data.append(
-            {
-                "experiment_name": result["experiment_name"],
-                "version": result["version"],
-                "response": parsed_response,
-            }
-        )
+    if experiment_series.lower() == "lee":
+        # For Lee experiment, keep the parsed_response as is
+        df["response"] = df["raw_response"]
+        df["parsed_response"] = df["parsed_response"]
+    else:
+        # For other experiments, process as before
+        df["response"] = df["raw_response"]
+        df["Q1"] = df["parsed_response"].apply(lambda x: x.get("Q1", None))
+        df["Q2"] = df["parsed_response"].apply(lambda x: x.get("Q2", None))
 
-    df = pd.DataFrame(data)
-    df.to_csv(output_path / "results.csv", index=False)
-    # df.to_parquet(output_path / "results.parquet", index=False)
-
-    return df
+    output_file = output_path / "results.csv"
+    df.to_csv(output_file, index=False)
+    print(f"Results saved to {output_file}")
 
 
 def generate_experiment_id() -> str:

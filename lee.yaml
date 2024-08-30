@@ -1,0 +1,23 @@
+  model:
+    api_type: "together"
+    name: [ "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" ]
+    max_tokens: 100
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 1.0
+    stop: [ "<|eot_id|>" ]
+    stream: true
+  parse_model:
+    api_type: "together"
+    name: "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
+    prompt: "The following is the output of a language model classifying the emotion of a tweet. Your task is to extract the predicted emotion class from the output. Ignore all other text, and only extract the emotion class. The classes are `[amusement, anger, anxiety, belief, confusion, depression, disgust, excitement, optimism, panic, surprise, ambiguous]`. Please respond with the emotion class in the following format: ```emotion_class: class_name```"
+    max_tokens: 100
+    temperature: 0.0 # temperature for parser should always be 0.0
+    top_p: 0.9
+    repetition_penalty: 1.0
+    stop: [ "<|eot_id|>" ]
+    stream: true
+  experiment:
+    experiment_series: "lee"
+    output_dir: "./outputs/lee_experiment"
+    num_tweets: 10
