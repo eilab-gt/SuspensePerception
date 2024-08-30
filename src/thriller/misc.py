@@ -154,6 +154,7 @@ def run_experiment(
     version_prompts: dict[str, str | list[str]],
 ) -> list[dict[str, str]]:
     # TODO: move to utils.py
+    # TODO: figure out where im creating those extra empty files and remove it
     """
     Run the experiment with the given configuration and save the results
     Args:
@@ -215,10 +216,29 @@ def run_experiment(
 
                         raw_responses = "\n".join(raw_responses)
                         if exp_name.lower() == "lee":
-                            parsed_responses = [
-                                parse_response(response, parse_model_config)
-                                for response in raw_responses
-                            ]
+                            parsed_responses = {}
+                            for i, response in enumerate(raw_responses.split("\n")):
+                                parsed_response = parse_response(
+                                    response, parse_model_config
+                                )
+                                parsed_responses[str(i)] = parsed_response
+
+                            result = {
+                                "experiment_name": exp_name,
+                                "version": version_name,
+                                "parsed_response": parsed_response,
+                                "raw_response": raw_responses,
+                            }
+
+                            results.append(result)
+
+                            # Save combined parsed responses only if not empty
+                            if parsed_responses:
+                                save_raw_api_output(
+                                    output=json.dumps(parsed_responses, indent=2),
+                                    filename=f"{exp_name}_{version_name.replace(' ', '_')}_parsed.json",
+                                    output_path=output_path / "parsed_outputs",
+                                )
                         else:
                             parsed_responses = {
                                 str(i): int(s)
@@ -226,27 +246,27 @@ def run_experiment(
                                 if isinstance(s, (int, float))
                             }
 
-                        result = {
-                            "experiment_name": exp_name,
-                            "version": version_name,
-                            "raw_response": raw_responses,
-                            "parsed_response": parsed_responses,
-                        }
+                            result = {
+                                "experiment_name": exp_name,
+                                "version": version_name,
+                                "parsed_response": parsed_response,
+                                "raw_response": raw_responses,
+                            }
 
-                        results.append(result)
+                            results.append(result)
 
-                        save_raw_api_output(
-                            output=raw_responses,
-                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
-                            output_path=output_path / "raw_outputs",
-                        )
+                            save_raw_api_output(
+                                output=raw_responses,
+                                filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
+                                output_path=output_path / "raw_outputs",
+                            )
 
-                        # Save combined parsed responses
-                        save_raw_api_output(
-                            output=json.dumps(parsed_responses, indent=2),
-                            filename=f"{exp_name}_{version_name.replace(' ', '_')}_parsed.json",
-                            output_path=output_path / "parsed_outputs",
-                        )
+                            # Save combined parsed responses
+                            save_raw_api_output(
+                                output=json.dumps(parsed_responses, indent=2),
+                                filename=f"{exp_name}_{version_name.replace(' ', '_')}_parsed.json",
+                                output_path=output_path / "parsed_outputs",
+                            )
 
                 elif isinstance(version_text, str):
                     messages = [
@@ -264,8 +284,8 @@ def run_experiment(
                         result = {
                             "experiment_name": exp_name,
                             "version": version_name,
-                            "raw_response": raw_response,
                             "parsed_response": parsed_response,
+                            "raw_response": raw_response,
                         }
 
                         results.append(result)

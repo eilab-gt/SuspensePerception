@@ -20,4 +20,4 @@
   experiment:
     experiment_series: "lee"
     output_dir: "./outputs/lee_experiment"
-    num_tweets: 10
+    num_tweets: 5
