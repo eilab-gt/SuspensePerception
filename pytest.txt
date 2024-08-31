@@ -41,10 +41,9 @@ mock_generate_response = <MagicMock name='generate_response' id='140147349762208
     @patch("src.thriller.misc.save_raw_api_output")
     def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         model_config = {
-            "name": "gpt-3",
-            "max_tokens": 50,
-            "temperature": 0.7,
-            "top_k": 50,
+            "name": "gpt-3.5-turbo",
+            "max_tokens": 150,
+            "temperature": 0.0,
             "top_p": 0.9,
             "repetition_penalty": 1.0,
         }

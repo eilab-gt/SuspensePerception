@@ -4,9 +4,9 @@ Helper functions for generating responses from LLMs using APIs
 
 import typing
 from pathlib import Path
-import json
 import openai
 from together import Together
+import tiktoken
 
 
 def generate_response(
@@ -74,4 +74,39 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
     raw_output_dir.mkdir(parents=True, exist_ok=True)
 
     with open(raw_output_dir / filename, "w") as f:
-        json.dump(output, f, indent=2)
+        f.write(output)
+
+
+def tokenize(text: str, model: str) -> list[int]:
+    # Initialize the tokenizer
+    encoding = tiktoken.encoding_for_model(model)
+
+    # Tokenize the text
+    tokens = encoding.encode(text)
+
+    return tokens
+
+
+def tokenize_and_trim(text: str, max_tokens: int, model: str) -> str:
+    """
+    Tokenize and trim text to the maximum number of tokens allowed by the model.
+    Args:
+        text: The text to tokenize and trim.
+        max_tokens: The maximum number of tokens allowed by the model.
+        model: The model to use for tokenization.
+    Returns:
+        The trimmed text.
+    """
+    # Initialize the tokenizer
+    encoding = tiktoken.encoding_for_model(model)
+
+    # Tokenize the text
+    tokens = encoding.encode(text)
+
+    # If the number of tokens exceeds the limit, trim the text
+    if len(tokens) > max_tokens:
+        trimmed_tokens = tokens[:max_tokens]
+        trimmed_text = encoding.decode(trimmed_tokens)
+        return trimmed_text
+
+    return text

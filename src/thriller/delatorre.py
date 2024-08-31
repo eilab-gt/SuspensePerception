@@ -1,5 +1,5 @@
 """
-Define Delatorre experiments
+Define Delatorre experiments from Delatorre, P. et al. 2018. Confronting a paradox: A new perspective of the impact of uncertainty in suspense. Frontiers in psychology. 9, (Aug. 2018), 1392. DOI:https://doi.org/10.3389/fpsyg.2018.01392.
 """
 
 from src.thriller.misc import apply_substitutions
@@ -132,7 +132,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
         novel_template,
         {
             "reveal": "",
-            "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
+            "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit",
         },
     )
@@ -141,7 +141,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
         novel_template,
         {
             "reveal": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit. ",
-            "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
+            "ending_11": "Holding his breath, he inserted the needle one centimetre. Relieved to not encounter any resistance, he carefully drew out the plunger. One quarter of the syringe filled with a transparent liquid, which he passed to one of his colleagues. Satisfied, he wiped the sweat from his brow with his uniform and watched as his colleague put barely two drops of liquid on a Petri dish and placed it under the microscope. The surgeon lowered his mask and looked down the tube. As he analysed the sample, he sporadically pursed his lips, occasionally lifting his head to blink several times. After an interminable half a minute, he moved away from the microscope and looked with concern at his colleagues, who were anxiously awaiting the diagnosis. The metabolic rate confirmed his worst fears: the organ had definitively deteriorated as a result of the impact.",
             "ending_12": "Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit",
         },
     )

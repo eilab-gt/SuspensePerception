@@ -1,3 +1,8 @@
+"""
+Code for collecting and visualizing data from experiments
+Currently only works for Gerrig data
+"""
+
 import sys
 from pathlib import Path
 
