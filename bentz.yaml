@@ -32,7 +32,8 @@ model:
 parse_model:
   api_type: "together"
   name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
-  prompt: ""
+  prompt: >
+    The following text rates the suspense of a sentence. Extract the suspense rating from the text. Extract only the numerical value and none of the text. Ignore any additional commentary or analysis provided after the rating. Structure your response to only include the value in the following format: ```value```
   max_tokens: 100
   temperature: 0.0 # Parser should always be deterministic
   top_p: 0.9
