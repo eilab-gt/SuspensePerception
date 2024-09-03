@@ -1,12 +1,3 @@
-"""
-Define Bentz experiments from Bentz, M., Cortez Espinoza, M., Simeonova, V., Köppe, T., & Onea, E. (2024). Measuring Suspense in Real Time: A New Experimental Methodology. Scientific Study of Literature, 12(1), 92–112. DOI: https://doi.org/10.61645/ssol.182
-"""
-
-common_prompt_template = """The following is Arthur Conan Doyle's "The Brazilian Cat" in German. 
-
-After each passage, rate how suspensful you found it to be. Provide any numerical value, with a minimum of 0 which is "not suspenseful"."""
-
-experiment_text = """
 Es ist schlecht für einen jungen Mann, wenn er kostspielige Neigungen hat, große Erwartungen, aristokratische Verbindungen,
 
 jedoch kein Geld in der Tasche und keinen Beruf, in dem er etwas verdienen könnte. Die Sache war die: Mein Vater, ein guter,
@@ -898,27 +889,3 @@ da er doch wußte, daß er gar nicht der direkte Erbe war?«
 wir anfangen können, Ordnung zu schaffen.«
 
 Vielen Dank für deine Teilnahme. Du bekommst jetzt noch einen kleinen Fragebogen. Drücke 's'."
-"""
-
-def generate_experiment_texts(experiment_config: dict[str, str]):
-    """
-    Generate prompts and experiment texts
-    Args:
-        experiment_config: settings to use in this experiment
-    Return:
-        Experiment prompts and version prompts
-    """
-    # Get experiment prompts
-    prompts = {
-        "Experiment": common_prompt_template,
-    }
-
-    # Get experiment texts
-    experiment_texts = experiment_text.strip().split("\n\n")
-    texts = {
-        "Experiment": [
-            ("Normal", experiment_texts),
-        ],
-    }
-
-    return prompts, texts
