@@ -1,449 +1,449 @@
-line_nr,screen_nr,line_nr_on_screen,text
-"0","1","1","Es ist schlecht für einen jungen Mann, wenn er kostspielige Neigungen hat, große Erwartungen, aristokratische Verbindungen,"
-"1","1","2","jedoch kein Geld in der Tasche und keinen Beruf, in dem er etwas verdienen könnte. Die Sache war die: Mein Vater, ein guter,"
-"2","1","3","zuversichtlicher, umgänglicher Mann, hatte solches Vertrauen in den Reichtum und die Mildtätigkeit seines unverheirateten"
-"3","1","4","älteren Bruders, Lord Southerton, daß er es für ausgemacht hielt, daß ich, sein einziger Sohn, mir nie meinen Lebensunterhalt"
-"4","1","5","würde verdienen müssen. Gab es keine Vakanz auf den großen Southerton-Gütern, so würde sich, seiner Meinung nach,"
-"5","1","6","zumindest irgendein Posten im diplomatischen Dienst für mich finden, der noch immer die Domäne für unsere privilegierten"
-"6","1","7","Klassen darstellte. Er starb zu früh, um zu erkennen, wie falsch seine Überlegungen gewesen waren. Weder mein Onkel noch"
-"7","1","8","der Staat nahmen die geringste Notiz von mir oder zeigten irgendwelches Interesse an meiner Karriere. Einige Fasanen oder ein"
-"8","1","9","paar Hasen, das war alles, was mir gelegentlich zeigte, daß ich Erbe von Otwell House und einem der reichsten Güter im Lande"
-"9","1","10","war. Unterdessen führte ich ein städtisches Junggesellenleben und bewohnte eine Appartement-Suite in Grosvenor Mansions —"
-"10","2","1","ohne Beschäftigung außer Taubenschießen und Polospielen in Hurlingham. Jeden Monat merkte ich deutlicher, daß es immer"
-"11","2","2","schwieriger wurde, Zahlungsaufschub zu erlangen oder weitere Post-obits auf einen Besitz zu kassieren, der mir überhaupt nicht"
-"12","2","3","als Erblehen übertragen war. Der Ruin stand unmittelbar bevor, und jeden Tag sah ich ihn klarer, näher und unabwendbarer."
-"13","2","4"," Was mir meine Armut noch fühlbarer machte, war die Tatsache, daß — vom großen Reichtum Lord Southertons abgesehen —"
-"14","2","5","alle meine Verwandten recht bemittelt waren. Der mir nächste war Everard King, ein Neffe meines Vaters und somit mein Vetter"
-"15","2","6","ersten Grades, der in Brasilien ein abenteuerliches Leben geführt hatte und jetzt zurückgekehrt war, um sich auf seinem"
-"16","2","7","Vermögen auszuruhen. Wir haben nie erfahren, wie er zu seinem Gelde gekommen ist, doch schien er’s reichlich zu haben, denn"
-"17","2","8","er kaufte die Besitzung Greylands nahe Clipton-on-the-Marsh in Suffolk. Im ersten Jahr seines Aufenthalts in England nahm er"
-"18","2","9","ebensowenig Notiz von mir wie mein geiziger Onkel, doch an einem Sommermorgen endlich erhielt ich — zu meiner größten"
-"19","2","10","Erleichterung und Freude — einen Brief, in dem ich gebeten wurde, am gleichen Tag zu kommen und Greylands Court einen"
-"20","3","1","kurzen Besuch abzustatten. Zu dieser Zeit erwartete ich einen ziemlich langen Besuch im Bankrott Court, meiner Schulden"
-"21","3","2","wegen, und so kam diese Einladung fast wie von der Vorsehung geschickt. Kam ich mit diesem unbekannten Verwandten zu"
-"22","3","3","einer Einigung, mochte ich vielleicht noch einmal davonkommen. Der Familie wegen konnte er mich nicht gänzlich vor die Hunde"
-"23","3","4","gehen lassen. Ich wies meinen Diener an, den Koffer zu packen, und am gleichen Abend setzte ich mich nach"
-"24","3","5","Clipton-on-the-Marsh in Bewegung. "
-"25","3","6","'Nachdem ich in Ipswich umgestiegen war, brachte mich eine kleine Bummelbahn zu einem winzigen, verlassenen Bahnhof; er lag'"
-"26","3","7",""in hügeligem Weideland, durch dessen Niederungen sich ein träger Fluß wand"," seine hohen verschlammten Uferböschungen""
-"27","3","8","zeigten an, daß wir in Reichweite der Gezeiten waren. Kein Wagen erwartete mich (wie ich später erfuhr, war mein Telegramm"
-"28","3","9","nicht rechtzeitig angekommen), also mietete ich im Gasthaus einen Dogcart. Der Fahrer, ein famoser Bursche, war voll des Lobes"
-"29","3","10","über meinen Verwandten, und von ihm erfuhr ich, daß der Name Everard King in diesem Teil des Landes bereits einer"
-"30","4","1","Zauberformel glich. Er bewirtete die Schulkinder, machte sein Anwesen Besuchern zugänglich, gab Geld für gute Zwecke — kurz:"
-"31","4","2","Seine Mildtätigkeit war derart umfassend, daß mein Fahrer sie nur damit erklären konnte, daß mein Cousin parlamentarische"
-"32","4","3","Ambitionen haben müsse. "
-"33","4","4","Von der Lobrede meines Fahrers lenkte mich ein sehr schöner Vogel ab, der auf einem Telegraphenmast am Straßenrande"
-"34","4","5","hockte. Zuerst hielt ich ihn für einen Eichelhäher, aber er war größer und hatte ein bunteres Gefieder. Der Fahrer erklärte"
-"35","4","6","'sogleich seine Anwesenheit; er sagte, er gehöre dem Manne, zu dem wir unterwegs seien. Es schien, als sei die Akklimatisierung'"
-"36","4","7",""fremder Tiere eines seiner Hobbies"," er hatte wohl aus Brasilien eine Anzahl von Vögeln und anderen Tieren mitgebracht, die er""
-"37","4","8","in England heimisch machen wollte. "
-"38","4","9","Als wir das Tor von Greylands Park durchfahren hatten, sahen wir zahlreiche Beweise seiner Liebhaberei. Eine Art kleinen,"
-"39","4","10","gefleckten Rehes, ein seltsames Wildschwein (Peccary genannt, glaube ich), eine prachtvoll gefiederte Goldamsel, ein"
-"40","5","1","Armadillo-ähnliches Wesen und ein seltsames, einwärts laufendes Geschöpf wie ein sehr fetter Dachs — das waren einige der"
-"41","5","2","Tiere, die ich bemerkte, während wir den gewundenen Pfad hinauffuhren. "
-"42","5","3","Mr. Everard King, mein unbekannter Cousin, stand in voller Lebensgröße auf den Stufen seines Hauses, da er uns von fern"
-"43","5","4","'gesehen hatte und vermutete, daß ich es sei. Seine Erscheinung war sehr schlicht und wohlwollend, klein und gedrungen;'"
-"44","5","5","fünfundvierzig Jahre alt mochte er sein, mit einem runden und gutmütigen Gesicht, braungebrannt von der tropischen Sonne und"
-"45","5","6","von tausend Fältchen durchzogen. Er trug einen weißen Leinenanzug im echten Pflanzerstil und hatte eine Zigarre zwischen den"
-"46","5","7","Lippen und einen großen Panamahut auf dem Hinterkopf. Er war ein Mann, wie man ihn sich auf der Veranda eines Bungalows"
-"47","5","8","in den Tropen vorstellt, und vor diesem breiten englischen Steinhause mit seinen soliden Seitenflügeln und Palladio-Säulen vor"
-"48","5","9","dem Eingang wirkte er merkwürdig deplaziert. "
-"49","5","10","»Meine Liebe!« rief er mit einem Blick über die Schulter, »meine Liebe, unser Gast ist da! — Willkommen, willkommen auf"
-"50","6","1","Greylands! Ich bin entzückt, deine Bekanntschaft zu machen, Vetter Marshall, und ich fasse es als großes Kompliment auf, daß"
-"51","6","2","du dieses verschlafene kleine Landhaus mit deiner Anwesenheit beehrst.« "
-"52","6","3","Seine Begrüßung hätte nicht herzlicher sein können, und ich fühlte mich sogleich wohl. Aber es bedurfte seiner ganzen"
-"53","6","4","Herzlichkeit, um die Kälte, ja Unhöflichkeit seiner Frau wettzumachen, einer großen, hageren Person, die auf seinen Wunsch hin"
-"54","6","5","herauskam. Sie war, glaube ich, brasilianischer Herkunft, obgleich sie ausgezeichnet englisch sprach, und ich entschuldigte ihr"
-"55","6","6","Benehmen mit ihrer Unkenntnis unsrer Sitten. Sie versuchte indessen nicht zu verhehlen, weder jetzt noch später, daß ich kein"
-"56","6","7","sehr willkommener Besucher in Greylands Court war. Was sie sagte, klang in der Regel höflich, aber sie besaß ein Paar"
-"57","6","8","ungewöhnlich ausdrucksvoller schwarzer Augen, und in denen las ich von Anfang an recht deutlich, daß sie mich aus ganzem"
-"58","6","9","Herzen wieder nach London wünschte. "
-"59","6","10","Meine Schulden hingegen waren zu drückend und meine Pläne bezüglich meines Verwandten zu lebenswichtig, als daß ich’s mir"
-"60","7","1","hätte erlauben können, sie von der schlechten Laune seiner Frau durchkreuzen zu lassen, also übersah ich ihre Kälte und"
-"61","7","2","erwiderte die warme Herzlichkeit seines Empfangs. Er hatte keine Mühe gescheut, mir meinen Aufenthalt angenehm zu"
-"62","7","3","gestalten. Mein Zimmer war bezaubernd. Er bat mich eindringlich, ihn wissen zu lassen, womit er mein Glück vervollständigen"
-"63","7","4","könne. Nun, es lag mir auf der Zunge, ihm zu sagen, daß ein Blankoscheck für diesen Zweck am besten geeignet sei, doch"
-"64","7","5","schien’s mir im augenblicklichen Stadium unsrer Bekanntschaft ein wenig voreilig. Das Dinner war ausgezeichnet, und als wir"
-"65","7","6","hinterher seine Havanas rauchten und seinen Kaffee tranken, der, wie er mir erzählte, auf seiner eigenen Pflanzung besonders"
-"66","7","7","behandelt wurde, da wollte mir scheinen, daß alle Lobgesänge meines Fahrers gerechtfertigt waren und daß ich noch nie einen"
-"67","7","8","so weitherzigen und gastfreien Mann kennengelernt hatte. "
-"68","7","9","Trotz seiner fröhlichen Gutmütigkeit aber war er ein Mann von starkem Willen und hitzigem Naturell. Hiervon bekam ich am"
-"69","7","10","folgenden Morgen ein Beispiel. Die sonderbare Abneigung, die Mrs. Everard King mir gegenüber entwickelt hatte, war so stark,"
-"70","8","1","daß ihr Benehmen beim Frühstück beinahe beleidigend wirkte. Unmißverständlich jedoch wurde ihre Absicht, als ihr Gatte das"
-"71","8","2","Zimmer verlassen hatte. "
-"72","8","3","»Der beste Zug am Tage ist der um zwölf Uhr fünfzehn«, sagte sie. "
-"73","8","4","»Aber ich wollte heute ja noch gar nicht abreisen«, antwortete ich offen — vielleicht sogar trotzig, denn ich war entschlossen,"
-"74","8","5","mich von dieser Frau nicht hinausdrängen zu lassen. "
-"75","8","6","»Oh, wenn’s an Ihnen liegt — « sagte sie und hielt inne, wobei in ihren Augen ein höchst unverschämter Ausdruck lag. "
-"76","8","7","»Ich glaube bestimmt«, erwiderte ich, »daß Mr. Everard King es mir sagen würde, wenn meine Anwesenheit nicht mehr"
-"77","8","8","erwünscht wäre.« "
-"78","8","9","»Was heißt das? Was heißt das?« sagte eine Stimme, und schon war er im Zimmer. Er hatte meine letzten Worte mitangehört,"
-"79","8","10","und ein Blick auf unsre Gesichter sagte ihm den Rest. Augenblicks zeigte sein pausbäckiges, fröhliches Gesicht einen Ausdruck"
-"80","9","1","größter Wildheit. "
-"81","9","2","»Würdest du so freundlich sein, eine Minute hinauszugehen, Marshall?« sagte er. (Ich darf vielleicht erwähnen, daß ich Marshall"
-"82","9","3","King heiße.) "
-"83","9","4","Er schloß die Tür hinter mir, und dann hörte ich ganz kurz, wie er eindringlich auf seine Frau einredete. Dieser grobe Bruch der"
-"84","9","5","Gastfreundschaft hatte ihn offensichtlich an der empfindlichsten Stelle getroffen. Ich bin kein Lauscher an der Wand, also ging ich"
-"85","9","6","'auf den Rasen hinaus. Alsbald hörte ich eilige Schritte, und da kam die Dame des Hauses; ihr Gesicht war bleich vor Erregung,'"
-"86","9","7","und ihre Augen waren rot von Tränen. "
-"87","9","8","»Mein Mann hat mich aufgefordert, Sie um Verzeihung zu bitten, Mr. Marshall King, sagte sie, als sie mit niedergeschlagenen"
-"88","9","9","Augen vor mir stand. "
-"89","9","10","»Bitte, kein Wort weiter, Mrs. King.« "
-"90","10","1","Plötzlich blitzten mich ihre dunklen Augen an. "
-"91","10","2","»Sie Narr!« zischte sie mit leidenschaftlicher Heftigkeit, machte kehrt und eilte ins Haus. "
-"92","10","3","Diese Beleidigung war derart unerhört, derart unverzeihlich, daß ich nur dastehen und ihr verwirrt nachstarren konnte. So stand"
-"93","10","4","ich noch, als mein Gastgeber sich mir beigesellte. Er war wieder sein fröhliches, pausbäckiges Selbst. "
-"94","10","5","»Ich hoffe, daß sich meine Frau für ihre albernen Bemerkungen entschuldigt hat, sagte er. "
-"95","10","6","»Aber ja — ja, gewiß!« "
-"96","10","7","Er schob seine Hand unter meinen Arm und ging mit mir auf dem Rasen hin und her. "
-"97","10","8","»Du darfst’s nicht ernst nehmen«, sagte er. »Es würde mich unsagbar grämen, wenn du deinen Besuch auch nur um eine Stunde"
-"98","10","9","verkürztest. Die Sache ist die — es gibt keinen Grund, weshalb wir unter Verwandten Heimlichkeiten haben sollten —, daß mein"
-"99","10","10","armes, liebes Weib unglaublich eifersüchtig ist. Sie haßt jeden — männlich oder weiblich —, der sich auch nur für eine Sekunde"
-"100","11","1","zwischen uns schieben könnte. Ihre Idealvorstellung ist eine einsame Insel und ein ewiges tête-à-tête. Jetzt hast du den Schlüssel"
-"101","11","2","zu ihrer Handlungsweise, die an diesem Punkt, das gebe ich zu, von einer Manie nicht weit entfernt ist. Sag mir, daß du’s nicht"
-"102","11","3","mehr übelnimmst.« "
-"103","11","4","»Aber nein, auf gar keinen Fall.« "
-"104","11","5","»Dann steck dir diese Zigarre an und komm mit. Wir wollen uns meine kleine Menagerie ansehen.« "
-"105","11","6","Der ganze Nachmittag wurde mit dieser Besichtigung zugebracht, die alle Vögel, Säugetiere und Reptilien umfaßte, die er"
-"106","11","7","importiert hatte. Einige liefen frei umher, andere befanden sich in Käfigen, einige im Hause. Begeistert berichtete er von seinen"
-"107","11","8","Erfolgen und Fehlschlägen, von den Geburten und Todesfällen, und wie ein Schuljunge brach er in lautes Entzücken aus, wenn"
-"108","11","9","unterwegs ein grellfarbener Vogel aus dem Grase aufflatterte oder irgendein merkwürdiges Tier Deckung suchte. Schließlich"
-"109","11","10","führte er mich einen Gang hinab, der von einem Seitenflügel des Hauses ausging. An seinem Ende war eine schwere Tür mit"
-"110","12","1","einem Schlitzverschluß, und daneben ragte aus der Wand ein eiserner Griff hervor, der zu einem Rad und einer Trommel"
-"111","12","2","gehörte. Eine Reihe starker Eisenstäbe versperrte den Gang. "
-"112","12","3","»Jetzt werde ich dir das Prunkstück meiner Sammlung vorführen«, sagte er. »In Europa gibt’s nur noch ein anderes Exemplar,"
-"113","12","4","seit das Amsterdamer Jungtier tot ist. Es ist eine brasilianische Katze.« "
-"114","12","5","»Aber wie unterscheidet sie sich von anderen Katzen?« "
-"115","12","6","»Das wirst du gleich sehen«, sagte er lachend. »Willst du bitte den Schieber heben und durchblicken?« "
-"116","12","7","Das tat ich und starrte in einen großen leeren Raum mit Fliesen auf dem Boden und kleinen vergitterten Fenstern in der"
-"117","12","8","gegenüberliegenden Wand. In der Mitte dieses Raumes lag in einem Flecken goldnen Sonnenscheins ein riesiges Tier"
-"118","12","9","ausgestreckt, so groß wie ein Tiger, doch schwarz und glatt wie Ebenholz. Es war einfach eine riesenhafte und sehr gut"
-"119","12","10","gehaltene schwarze Katze, und die kauerte und wärmte sich in dem gelben Lichtfleck wie jede normale Katze. Sie war so"
-"120","13","1","anmutig, so sehnig und sanft und schmeichlerisch teuflisch, daß ich meine Augen nicht von der Öffnung nehmen konnte. "
-"121","13","2","»Ist das nicht ein herrlicher Kerl?« fragte mein Gastgeber begeistert. "
-"122","13","3","»Prachtvoll. So ein edles Tier habe ich noch nie gesehen.« "
-"123","13","4","»Manche sagen, es sei ein schwarzer Puma, in Wirklichkeit ist’s aber kein Puma. Der Kerl mißt von der Nase bis zur"
-"124","13","5","Schwanzspitze an die elf Fuß. Vor vier Jahren war er ein kleiner Ball aus schwarzem Flaum, aus dem zwei gelbe Augen"
-"125","13","6","herausstarrten. Er wurde mir als neugeborenes Jungtier im Quellgebiet des Rio Negro verkauft. Sie haben seine Mutter mit"
-"126","13","7","Speeren erlegt, nachdem sie ein Dutzend von ihnen getötet hatte.«"
-"127","13","8","»Also sind’s gefährliche Tiere?« "
-"128","13","9","»Die gefährlichsten und blutrünstigsten Tiere der Erde. Erzähl einem Indianer im Innern was von einer brasilianischen Katze, da"
-"129","13","10","sollst du mal sehen, wie er das Zittern kriegt. Sie bevorzugen Menschenfleisch. Dieser Kerl hat noch nie lebendiges Blut gekostet,"
-"130","14","1","aber wenn er’s tut, ist er nicht mehr zu halten. Augenblicklich duldet er niemanden außer mir in seiner Höhle. Sogar Baldwin, der"
-"131","14","2","Diener, wagt sich nicht in seine Nähe. Ich — nun ja, ich bin für ihn Mutter und Vater in einem.«"
-"132","14","3","Während er sprach, öffnete er zu meinem Erstaunen die Tür, schlüpfte hindurch und schloß sie sogleich hinter sich. Beim Klang"
-"133","14","4","seiner Stimme erhob sich das riesige, geschmeidige Tier, gähnte und rieb seinen runden schwarzen Kopf zutraulich an seiner"
-"134","14","5","Seite, während er es streichelte und kraulte. "
-"135","14","6","»So, Tommy, jetzt in deinen Käfig!« sagte er. "
-"136","14","7","Die gewaltige Katze ging zur einen Seite des Raumes hinüber und rollte sich unter einem Gitter zusammen. Everard King kam"
-"137","14","8","heraus, packte den Eisengriff, den ich bereits erwähnte, und drehte daran. Dabei schoben sich die Gitterstäbe im Gang durch"
-"138","14","9","einen Schlitz in der Mauer und schlossen die Vorderseite des Gatters, so daß ein geschlossener Käfig entstand. Alsdann öffnete"
-"139","14","10","mein Vetter die Tür wieder und ließ mich in den Raum, in dem ein beißender, muffiger Gestank herrschte, wie er großen"
-"140","15","1","Fleischfressern eigentümlich ist. "
-"141","15","2","»So funktioniert das«, sagte er. »Tagsüber kann er sich im Zimmer tummeln, und nachts stecken wir ihn in diesen Käfig. Man"
-"142","15","3","kann ihn herauslassen, indem man den Griff im Gang betätigt, und auf die gleiche Weise wird er wieder eingesperrt, wie du"
-"143","15","4","gesehen hast. — Nein, nein, das darfst du nicht!« "
-"144","15","5","Ich hatte meine Hand durch das Gitter gesteckt, um die glänzende, atmende Flanke zu streicheln. Mit ernstem Gesicht zog er"
-"145","15","6","mich zurück. "
-"146","15","7","»Ich sage dir: Tommy ist gefährlich! Weil ich mir etwas bei ihm herausnehme, darfst du nicht glauben, daß das ein anderer auch"
-"147","15","8","kann. Er ist sehr wählerisch in seinen Freundschaften — stimmt’s nicht, Tommy? Ah, er hört sein Futter kommen. Nicht wahr,"
-"148","15","9","mein Junge?« "
-"149","15","10",";Schritte klangen auf dem fliesenbelegten Gang, und das Tier sprang auf die Füße und schlich in dem schmalen Käfig hin und her,'"
-"150","16","1","seine gelben Augen leuchteten, und seine scharlachrote Zunge fuhr bebend über die Reihe seiner weißen, gezackten Zähne. Ein"
-"151","16","2","Diener kam mit einem großen Keulenstück auf einem Tablett herein und warf’s ihm durchs Gitter vor. Es stürzte sich behend"
-"152","16","3","'darauf und trug’s in eine Ecke; dort hielt es das Fleisch zwischen den Pfoten, zerrte und riß daran und hob ab und zu sein'"
-"153","16","4","blutiges Maul, um uns einen Blick zuzuwerfen. Es war ein böses und dabei faszinierendes Schauspiel."
-"154","16","5","»Du wirst dich kaum wundern, daß er mir ans Herz gewachsen ist, wie?« sagte mein Gastgeber, als wir den Raum verließen."
-"155","16","6","»Besonders, wenn du bedenkst, daß ich ihn selber aufgezogen habe. Es war kein Spaß, ihn aus dem innersten Südamerika"
-"156","16","7","herüberzubringen. Aber hier ist er sicher und gut aufgehoben — und, wie ich schon sagte, das vollkommenste Exemplar seiner"
-"157","16","8","Gattung in Europa. Die Leute vom Zoo wollen ihn unbedingt haben, aber ich kann mich nun einmal nicht von ihm trennen. Nun,"
-"158","16","9","ich glaube, ich habe dich mit meinem Hobby lange genug angeödet, also werden wir’s Tommy gleichtun und uns zu Tisch"
-"159","16","10","begeben.« "
-"160","17","1","Mein südamerikanischer Verwandter war von seinem Anwesen und dessen ausgefallenen Bewohnern derart in Anspruch"
-"161","17","2","genommen, daß ich ihm anfangs kaum irgendwelche anderen Interessen zutraute. Daß er welche hatte, und zwar dringliche, das"
-"162","17","3","wurde mir alsbald durch die zahlreichen Telegramme klar, die er erhielt. Sie kamen zu allen möglichen Zeiten, und stets öffnete er"
-"163","17","4","sie äußerst wißbegierig und eifrig. Manchmal meinte ich, es müsse sich um Pferdewetten handeln, manchmal tippte ich auf"
-"164","17","5","Börsenspekulationen — wie dem auch sei: er mußte sehr dringliche Geschäfte haben, die auf den Downs von Suffolk nicht"
-"165","17","6","abgewickelt wurden. Im Verlauf der sechs Tage meines Besuches bekam er nie weniger als drei oder vier Telegramme pro Tag,"
-"166","17","7","bisweilen sieben oder acht. "
-"167","17","8","Ich hatte diese sechs Tage so gut genutzt, daß ich am Ende mit meinem Vetter auf dem vertrautesten Fuße stand. Jeden Abend"
-"168","17","9","saßen wir noch spät im Billard-Zimmer, wo er mir die aufregendsten Berichte von seinen Abenteuern in Amerika gab — derart"
-"169","17","10","verzweifelte und wagemutige Geschichten, daß ich sie kaum mit dem kleinen braunen, pausbäckigen Mann mir gegenüber in"
-"170","18","1","Verbindung bringen konnte. Ich meinerseits gab ein paar Reminiszenzen des Londoner Lebens zum besten, die ihn derart"
-"171","18","2","interessierten, daß er schwor, er werde nach Grosvenor Mansions kommen und bei mir wohnen. Er war begierig, die Hektik des"
-"172","18","3","Stadtlebens kennenzulernen, und bei aller Bescheidenheit muß ich sagen, daß er sich keinen kompetenteren Führer hätte"
-"173","18","4","aussuchen können. Erst am letzten Tage meines Besuchs wagte ich, auf das anzuspielen, was ich auf dem Herzen hatte. Ich"
-"174","18","5","erzählte ihm offen von meinen pekuniären Schwierigkeiten und meinem drohenden Ruin und bat um seinen Rat — wenn ich"
-"175","18","6","auch etwas Handgreiflicheres erhoffte. Er hörte aufmerksam zu und zog kräftig an seiner Zigarre: "
-"176","18","7","»Aber du bist doch der Erbe unseres Verwandten, Lord Southerton?« sagte er. "
-"177","18","8","»Ich habe jeden Grund, das anzunehmen, aber es kommt ihm nicht in den Sinn, mir eine Rente auszusetzen.« "
-"178","18","9","»Ja, ja, ich habe von seinem Geiz gehört. Mein armer Marshall, deine Situation ist scheußlich. Nebenbei bemerkt: Hast du in"
-"179","18","10","letzter Zeit etwas von Lord Southertons Gesundheitszustand gehört?« "
-"180","19","1","»Seit meiner Kindheit ist sein Zustand kritisch.« "
-"181","19","2","»Genau. Der Teller mit einem Sprung, der nie entzweigeht. Dein Erbe kann in weiter Ferne liegen. Du meine Güte: wie ist deine"
-"182","19","3","Lage unangenehm!« "
-"183","19","4","»Ich hatte gehofft, lieber Vetter, daß du mir vielleicht, da dir ja alle Fakten bekannt sind...« "
-"184","19","5","»Kein Wort weiter, mein Junge«, sagte er mit der größten Herzlichkeit. »Wir werden es heute abend besprechen, und ich gebe"
-"185","19","6","dir mein Wort, daß alles getan wird, was in meinen Kräften steht.«"
-"186","19","7","Ich bedauerte es nicht, daß mein Besuch sich dem Ende näherte, denn es ist ein unangenehmes Gefühl, zu wissen, daß jemand"
-"187","19","8","im Hause ist, der einen möglichst bald los sein möchte. Mrs. Kings gelbliches Gesicht und ihre abstoßenden Augen wurden mir"
-"188","19","9","von Tag zu Tag verhaßter. Sie war nicht mehr grob — das verhinderte die Angst vor ihrem Mann —, doch trieb sie ihre"
-"189","19","10","ungesunde Eifersucht so weit, daß sie mich ignorierte und mir meinen Aufenthalt in Greylands so unbehaglich wie möglich"
-"190","20","1","machte. Ihr Benehmen am letzten Tag war derart beleidigend, daß ich bestimmt abgereist wäre, hätte nicht die Besprechung mit"
-"191","20","2","meinem Gastgeber in Aussicht gestanden, von der ich mir die Wiederherstellung meiner finanziellen Unabhängigkeit versprach. "
-"192","20","3","Es war sehr spät, als sie stattfand, denn mein Vetter, der im Verlauf des Tages noch mehr Telegramme als gewöhnlich"
-"193","20","4","bekommen hatte, zog sich nach dem Essen in sein Arbeitszimmer zurück und kam erst wieder hervor, als sich die übrigen"
-"194","20","5","Hausbewohner zur Ruhe begeben hatten. Ich hörte ihn umhergehen und die Türen abschließen, wie er’s jeden Abend tat, und"
-"195","20","6","endlich kam er zu mir ins Billardzimmer. Seine kompakte Gestalt war mit einem Morgenrock bekleidet, und dazu trug er rote"
-"196","20","7","türkische Pantoffeln ohne Absätze. Als er sich in einem Sessel niedergelassen hatte, braute er sich einen Grog, bei dem der"
-"197","20","8","Whisky erheblich überwog, wie ich bemerkte. "
-"198","20","9","»Meine Güte«, sagte er, »was für eine Nacht!« "
-"199","20","10","So war’s. Der Wind schrie und heulte ums Haus, und die Fensterläden ratterten und klapperten, als sollten sie abgerissen"
-"200","21","1","werden. Als Kontrast hierzu schienen die gelben Lichter heller zu glühen und unsre Zigarren besser denn je zu duften. "
-"201","21","2","»Nun, mein Junge«, sagte der Gastgeber. »Wir haben das Haus und die Nacht für uns. Gib mir einen Überblick über den Stand"
-"202","21","3","deiner Angelegenheiten, und ich werde zusehen, was man tun kann, um sie in Ordnung zu bringen. Ich möchte jede Einzelheit"
-"203","21","4","hören.« "
-"204","21","5","Dergestalt ermutigt, begann ich mit einer ausführlichen Darstellung, in der alle meine Kaufleute und Gläubiger vom Hauswirt bis"
-"205","21","6","zum Diener auftauchten. Ich hatte Notizen in meiner Brieftasche und stellte alles zusammen und gab, so schmeichle ich mir,"
-"206","21","7","einen untadligen Geschäftsbericht meiner höchst ungeschäftlichen Verfahrensweise und jämmerlichen Lage. Ich stellte jedoch zu"
-"207","21","8","meiner Enttäuschung fest, daß meines Vetters Augen leer waren und seine Gedanken weit fort. Wenn er gelegentlich eine"
-"208","21","9","Bemerkung einflocht, so war sie so oberflächlich und unzutreffend, daß ich überzeugt war, er sei meinen Ausführungen"
-"209","21","10","überhaupt nicht gefolgt. Dann und wann einmal gab er sich einen Ruck und heuchelte Anteilnahme, indem er mich bat, einen"
-"210","22","1","Punkt genauer zu erklären, doch jedes Mal wurde er sogleich wieder zu einer braunen Statue. Endlich erhob er sich und warf"
-"211","22","2","den Rest seiner Zigarre in den Kamin. "
-"212","22","3","»Ich will dir mal etwas sagen, mein Junge«, sagte er. "
-"213","22","4","»Ich habe nie einen Sinn für Zahlen gehabt, das wirst du entschuldigen. Du mußt alles schön zu Papier bringen, so daß ich den"
-"214","22","5","Betrag vor Augen habe. Ich versteh’s, sobald ich’s schwarz auf weiß vor mir sehe.« "
-"215","22","6","Der Vorschlag war ermutigend. Ich versprach, die Aufstellung anzufertigen. "
-"216","22","7","»Und jetzt ist’s an der Zeit, zu Bett zu gehen. Himmel, in der Halle schlägt’s eins.« "
-"217","22","8","Das helle Läuten der Uhr brach durch das tiefe Grollen des Sturms. Der Wind rauschte ums Haus wie ein angeschwollener"
-"218","22","9","Strom. "
-"219","22","10","»Ich muß die Katze nochmal sehen, ehe ich ins Bett gehe«, sagte mein Cousin. »Ein solcher Sturm erregt sie. Kommst du mit?« "
-"220","23","1","»Gewiß«, sagte ich. "
-"221","23","2","»Dann geh leise und sprich nicht, denn sie schlafen alle.« "
-"222","23","3","Schweigend durchquerten wir die von Lampen erleuchtete und mit Perserteppichen ausgelegte Halle und gingen durch die Tür"
-"223","23","4","am hinteren Ende. Im Steinkorridor war alles dunkel, aber an einem Haken hing eine Stall-Laterne, und mein Vetter nahm sie ab"
-"224","23","5","und zündete sie an. Im Gang war kein Gitter zu sehen, da wußte ich, daß das Tier im Käfig sein mußte. "
-"225","23","6","»Komm!« sagte mein Verwandter und öffnete die Tür. "
-"226","23","7","Ein tiefes Knurren bei unserm Eintreten zeigte, daß der Sturm das Tier tatsächlich aufgebracht hatte. Im flackernden Lichtschein"
-"227","23","8","sahen wir es: eine gewaltige schwarze, in der Ecke des Käfigs zusammengerollte Masse, die einen kauernden, ungeschlachten"
-"228","23","9","Schatten an die gekalkte Wand warf. Der Schwanz peitschte unruhig das Stroh. "
-"229","23","10","»Der arme Tommy ist nicht in der besten Stimmung«, sagte Everard King, wobei er die Laterne hochhielt und ihn betrachtete."
-"230","24","1","»Sieht wie ein richtiger schwarzer Teufel aus, was? Ich muß ihm eine kleine Mahlzeit verabreichen, um ihn in bessere Laune zu"
-"231","24","2","versetzen. Hältst du mal einen Augenblick die Laterne?« "
-"232","24","3","Ich nahm sie, und er ging zur Tür. "
-"233","24","4","»Seine Speisekammer ist gleich nebenan«, sagte er. »Du entschuldigst mich doch für einen Augenblick?« Er ging hinaus, und"
-"234","24","5","mit einem scharfen metallischen Schnappen schloß sich die Tür hinter ihm. "
-"235","24","6","Dieses harte Geräusch ließ mein Herz stillstehen. Eine plötzliche Welle des Entsetzens überkam mich. Der ungenaue Verdacht"
-"236","24","7","eines teuflischen Verrats machte mich schaudern. Ich sprang zur Tür, doch an der Innenseite war kein Griff. "
-"237","24","8","»He!« rief ich. »Laß mich raus!« "
-"238","24","9","»Schon gut. Mach kein Theater«, sagte mein Cousin vom Gang her. »Du hast ja die Laterne.« "
-"239","24","10","»Schon, aber ich bin nicht gern so alleine eingesperrt.« "
-"240","25","1","»Nein?« Ich hörte sein herzhaftes, kicherndes Lachen. »Du wirst nicht lange allein sein.« "
-"241","25","2","»Laß mich raus!« schrie ich wütend. »Solchen Schabernack lasse ich nicht mit mir treiben.« "
-"242","25","3","»Schabernack ist gut«, sagte er mit einem neuerlichen verhaßten Kichern. Und dann, plötzlich, hörte ich im Dröhnen des Sturms"
-"243","25","4","das Kreischen und Quietschen der Kurbel und das Knarren des Gitters, als es durch den Schlitz gedreht wurde. Großer Gott: Er"
-"244","25","5","ließ die brasilianische Katze los! "
-"245","25","6","Im Schein der Laterne sah ich die Gitterstäbe langsam vor mir verschwinden. Schon war die Öffnung am anderen Ende einen"
-"246","25","7","Fuß breit. Mit einem Schrei packte ich die letzte Stange und zog mit der Kraft eines Wahnsinnigen. Ich war wahnsinnig vor Wut"
-"247","25","8","und Entsetzen. Eine Minute lang vielleicht hielt ich das Ding fest. Ich wußte, daß er mit aller Gewalt am Griff drehte und daß ich"
-"248","25","9","der Hebelwirkung unterliegen mußte. Zoll für Zoll gab ich nach, meine Füße rutschten über die Steine, und die ganze Zeit bat und"
-"249","25","10","bettelte ich, das unmenschliche Scheusal möge mir diesen grauenhaften Tod ersparen. Ich beschwor ihn bei unsrer"
-"250","26","1","Blutsverwandtschaft. Ich erinnerte ihn daran, daß ich sein Gast war. Ich bat ihn inständig, mir zu sagen, was ich ihm getan hätte."
-"251","26","2","Seine Antwort bestand im mühevollen Drehen der Kurbel, und jede Drehung zog trotz all meiner Anstrengungen eine weitere"
-"252","26","3","Stange durch die Öffnung. Zerrend und ziehend wurde ich die ganze Vorderseite des Käfigs entlanggeschleift, bis ich endlich, mit"
-"253","26","4","schmerzenden Handgelenken und verkrampften Fingern, den hoffnungslosen Kampf aufgab. Das Gitter schlug an die Wand, als"
-"254","26","5","ich es losließ, und einen Augenblick später hörte ich das Schlurfen der türkischen Pantoffeln im Gang und das Schlagen der"
-"255","26","6","zweiten Tür. Dann war alles still. "
-"256","26","7","Das Tier hatte sich die ganze Zeit nicht bewegt. Es lag reglos in der Ecke, und sein Schwanz hatte aufgehört, hin und her zu"
-"257","26","8","schnellen. Diese Erscheinung eines Mannes, der sich an die Gitterstäbe klammerte und schreiend an ihm vorübergezerrt wurde,"
-"258","26","9","hatte es offensichtlich verwundert und verwirrt. Ich sah, wie seine großen Augen mich stetig anstarrten. Ich hatte die Laterne"
-"259","26","10","fallen lassen, als ich die Stäbe packte, aber sie brannte noch auf dem Boden, und ich machte eine Bewegung, um sie"
-"260","27","1","aufzuheben — mit der Überlegung, daß ihr Licht mir Schutz gewähren könne. In dem Augenblick jedoch, da ich mich bewegte,"
-"261","27","2","stieß das Tier ein tiefes, drohendes Knurren aus. Ich hielt inne und stand still, vor Angst am ganzen Körper zitternd. Die Katze"
-"262","27","3","(falls man eine derart fürchterliche Bestie mit einem so zutraulichen Namen bezeichnen kann) war kaum zehn Fuß von mir"
-"263","27","4","entfernt. Die Augen schimmerten wie zwei Phosphorscheiben in der Dunkelheit. Sie stießen mich ab — und faszinierten mich"
-"264","27","5","gleichzeitig. Ich konnte meinen Blick nicht von ihnen wenden. In solchen Augenblicken der Intensität spielt die Natur uns"
-"265","27","6","seltsame Streiche, und diese leuchtenden Lichter flammten auf und erloschen wieder in stetem Wechsel. Manchmal schienen sie"
-"266","27","7","winzige Pünktchen extremer Helligkeit zu sein — kleine elektrische Funken in der schwarzen Düsternis —, dann weiteten sie sich"
-"267","27","8","mehr und mehr, bis der ganze Winkel des Raumes dort mit ihrem wechselnden und unheimlichen Licht erfüllt war. Und plötzlich"
-"268","27","9","ging’s dann gänzlich aus. "
-"269","27","10","Das Tier hatte seine Augen geschlossen. Ich weiß nicht, ob an der alten Idee von der Vorherrschaft des menschlichen Blicks"
-"270","28","1","etwas Wahres ist oder ob die gewaltige Katze nur schläfrig war, indessen bleibt die Tatsache bestehen, daß sie nicht die"
-"271","28","2","mindeste Neigung zeigte, mich anzugreifen, sondern nur den glatten schwarzen Kopf auf seine riesigen Vorderpfoten legte und"
-"272","28","3","einzuschlafen schien. Ich blieb starr stehen, aus Angst, sie durch irgendeine Bewegung wieder zu bösartigem Leben zu bringen."
-"273","28","4","Aber ich war jetzt endlich fähig, klar zu denken, weil die unheilvollen Augen nicht mehr auf mich gerichtet waren. Hier steckte ich"
-"274","28","5","also, die ganze Nacht mit dem blutdurstigen Biest zusammen eingesperrt. Mein Instinkt sagte mir — auch ohne die Worte des"
-"275","28","6","gleisnerischen Schurken, der mich in diese Falle gelockt hatte —, daß das Tier ebenso grausam war wie sein Herr. Wie konnte"
-"276","28","7","ich’s bis zum Morgen abwehren? Die Tür war hoffnungslos. Desgleichen die schmalen vergitterten Fenster. In dem ganzen"
-"277","28","8","kahlen, mit Fliesen ausgelegten Raum gab es keinen Unterschlupf. Um Hilfe zu rufen, war absurd. Ich wußte, daß diese Höhle ein"
-"278","28","9","Nebengebäude war und daß der Gang, der es mit dem Haus verband, mindestens hundert Fuß lang sein mußte. Außerdem"
-"279","28","10","würde man bei diesem Sturm mein Rufen kaum hören. Ich konnte mich nur auf meinen Mut und meine Findigkeit verlassen."
-"280","29","1","Und dann fielen meine Augen mit neuerlichem Entsetzen auf die Laterne. Die Kerze war niedergebrannt und begann bereits zu"
-"281","29","2","zerfließen. In zehn Minuten würde sie erloschen sein. Ich hatte also nur zehn Minuten, in denen ich etwas unternehmen konnte,"
-"282","29","3","denn ich spürte, daß ich, sobald ich mit der Bestie allein im Dunkeln war, zu jeder Handlung unfähig sein würde. Schon der"
-"283","29","4","Gedanke paralysierte mich. Verzweifelt ließ ich meine Augen in dieser Todeskammer umherschweifen, und sie blieben an einem"
-"284","29","5","Punkt hängen, der nicht gerade Sicherheit zu versprechen schien, doch weniger unmittelbare und drohende Gefahr als der"
-"285","29","6","blanke Boden. "
-"286","29","7","Ich sagte schon, daß der Käfig ein Oberteil wie auch ein Vorderteil hatte, und dieses Oberteil blieb an Ort und Stelle, wenn das"
-"287","29","8","Vorderteil durch den Schlitz in der Wand gedreht wurde. Es bestand aus Stäben im Abstand von wenigen Zoll, mit festem"
-"288","29","9","Maschendraht dazwischen, und ruhte an jedem Ende auf starken Pfosten. Das Ganze stand wie ein großer Baldachin über der"
-"289","29","10","geduckten Gestalt in der Ecke. Der Abstand zwischen diesem eisernen Sims und der Decke mochte zwei oder drei Fuß betragen."
-"290","30","1","Wenn ich dort hinauf gelangen konnte, hatte ich, zwischen Gitter und Decke eingeklemmt, nur eine verwundbare Seite. Ich war"
-"291","30","2","von unten sicher, von oben, von hinten und von beiden Seiten. Nur von vorn konnte ich angegriffen werden. Dort hatte ich zwar"
-"292","30","3","keinerlei Schutz, das stimmte schon, doch würde ich zumindest dem Tier nicht im Wege sein, wenn es in seiner Höhle"
-"293","30","4","'umherstrich. Es mußte sich zu mir bemühen, wenn es etwas von mir wollte. Jetzt oder nie, hieß es; denn war erst einmal das'"
-"294","30","5","Licht aus, ging es nicht mehr. Mit einem Schlucken in der Kehle sprang ich hinzu, packte die Eisenkante des Oberteils und"
-"295","30","6","schwang mich keuchend hinauf. Ich schob mich hinein, mit dem Gesicht nach unten, und stellte fest, daß ich geradeswegs in die"
-"296","30","7","schrecklichen Augen und den gähnenden Rachen der Katze blickte. Ihr stinkender Atem kam mir ins Gesicht wie der Dampf aus"
-"297","30","8","einem fauligen Kessel. "
-"298","30","9","Indessen schien sie mehr neugierig als wütend zu sein. Mit einem geschmeidigen Wogen ihres langen schwarzen Rückens erhob"
-"299","30","10","sie sich, reckte sich und stellte sich dann auf die Hinterläufe, stützte sich mit einer Vorderpfote an die Wand, hob die andere und"
-"300","31","1","zog ihre Krallen unter dem Maschendraht her. Ein spitzer weißer Haken zerriß meine Hose — denn ich darf erwähnen, daß ich"
-"301","31","2","noch im Abendanzug war — und grub mir eine Wunde ins Knie. Das war nicht als Angriff gemeint, sondern eher als Experiment,"
-"302","31","3","denn als ich einen Schmerzensschrei ausstieß, ließ sie sich nieder, sprang leichtfüßig in den offnen Raum und wanderte behend"
-"303","31","4","umher, wobei sie ab und zu in meine Richtung schaute. Ich für mein Teil verkroch mich mühsam nach hinten, bis ich mit dem"
-"304","31","5","Rücken zur Mauer lag, und machte mich so klein wie möglich. Je weiter weg ich kam, desto schwieriger war’s der Bestie, mich"
-"305","31","6","anzugreifen. "
-"306","31","7","Jetzt, da sie umherstreifte, schien sie erregt zu werden, und leichtfüßig und lautlos lief sie in der Höhle umher, wobei sie ständig"
-"307","31","8","unter dem eisernen Lager durchkam, auf dem ich lag. Es war wunderbar, einen so gewaltigen Körper wie einen Schatten"
-"308","31","9","vorüberhuschen zu sehen, denn die Samtpfoten machten kaum einen Laut. Die Kerze war niedergebrannt, so daß ich das Tier"
-"309","31","10","fast nicht mehr sehen konnte. Und mit einem letzten Aufflackern und Spritzen erlosch sie gänzlich. Ich war mit der Katze im"
-"310","32","1","Dunkeln allein! "
-"311","32","2","Es hilft einem, einer Gefahr ins Auge zu blicken, wenn man weiß, daß man alles Menschenmögliche getan hat. Dann gibt es"
-"312","32","3","nichts, als das Ergebnis in Ruhe abzuwarten. In diesem Fall gab es keine Möglichkeit der Sicherheit außer genau der Stelle, an"
-"313","32","4","der ich mich befand. Ich streckte mich aus und lag still, fast ohne zu atmen, und hoffte, die Bestie werde meine Anwesenheit"
-"314","32","5","vergessen, wenn ich sie nicht an mich erinnerte. Ich schätzte, daß es bereits zwei Uhr sein mußte. Um vier würde es hell sein. Ich"
-"315","32","6","brauchte also nur noch zwei Stunden aufs Tageslicht zu warten. "
-"316","32","7","Draußen wütete noch immer der Sturm, und der Regen schlug unablässig an die kleinen Fenster. Drinnen war die giftige und"
-"317","32","8","stinkende Luft atemraubend. Die Katze konnte ich weder sehen noch hören. Ich versuchte, an andere Dinge zu denken — doch"
-"318","32","9","war nur ein Gedanke stark genug, mich von meiner scheußlichen Lage abzulenken. Das war die Schurkerei meines Vetters,"
-"319","32","10","seine beispiellose Heuchelei, sein boshafter Haß auf mich. Unter diesem fröhlichen Gesicht lauerte der Geist eines"
-"320","33","1","mittelalterlichen Mörders. Und wie ich daran dachte, sah ich deutlich, wie schlau das Ganze angelegt war. Offensichtlich war er"
-"321","33","2","mit den anderen zu Bett gegangen. Zweifellos hatte er dafür seine Zeugen. Dann war er, ohne daß sie es merkten, heimlich"
-"322","33","3","heruntergeschlichen, hatte mich in diese Höhle gelockt und meinem Schicksal überlassen. Seine Erklärung würde ganz einfach"
-"323","33","4","sein. Er hatte mich im Billard-Raum zurückgelassen, weil ich meine Zigarre zu Ende rauchen wollte. Ich war aus eigenem Antrieb"
-"324","33","5","hergekommen, um mir die Katze ein letztes Mal anzusehen. Ich hatte den Raum betreten, ohne zu merken, daß der Käfig"
-"325","33","6","geöffnet war, und die Bestie hatte mich zerfleischt. Wie konnte man ihm ein solches Verbrechen nachweisen? Verdacht —"
-"326","33","7","vielleicht. Aber Beweis — niemals! "
-"327","33","8","Wie langsam diese beiden furchtbaren Stunden verstrichen! Einmal hörte ich ein leises, kratzendes Geräusch. Das mußte die"
-"328","33","9","Katze sein, die sich das Fell leckte. Etliche Male leuchteten ihre grünlich-gelben Augen zu mir herauf, doch nie zielbewußt, und"
-"329","33","10","meine Hoffnung wuchs, daß sie meine Anwesenheit ignorierte oder gar vergessen hatte. Endlich kam ein fahler Lichtschein durch"
-"330","34","1","die Fenster — wie zwei matte Rechtecke sah ich sie auf der schwarzen Wand. Dann wurde das Grau zu Weiß, und ich konnte"
-"331","34","2","meinen furchterregenden Gefährten wieder sehen. Und er, natürlich, sah mich! "
-"332","34","3","Es war mir sogleich klar, daß er in viel gefährlicherer und angriffslustigerer Stimmung war als in der Nacht. Die Morgenkälte hatte"
-"333","34","4","ihn gereizt, und darüber hinaus war er hungrig. Mit einem ununterbrochenen Knurren wanderte er auf der meinem Zufluchtsort"
-"334","34","5","'gegenüberliegenden Seite des Raumes hin und her; seine Schnurrhaare sträubten sich zornig, und sein Schwanz schlug und'"
-"335","34","6","peitschte. Jedes Mal, wenn er in einer Ecke kehrtmachte, blickten seine wilden Augen drohend zu mir herauf. Da wußte ich, daß"
-"336","34","7","er vorhatte, mich zu zerfleischen. Und doch bewunderte ich sogar in diesem Augenblick die schlanke Grazie der teuflischen"
-"337","34","8","Bestie, ihre langen, weichen, welligen Bewegungen, den Glanz ihrer schönen Flanken, das lebhaft zuckende Scharlach der"
-"338","34","9","schimmernden Zunge, die ihr aus dem schwarz-glänzenden Maule hing. Und die ganze Zeit stieg das tiefe, drohende Knurren in"
-"339","34","10","ungebrochenem Crescendo an. Ich wußte, daß die Krisis unmittelbar bevorstand. "
-"340","35","1","Es war ein elender Zeitpunkt, einen solchen Tod zu erleiden: So kalt, so unbehaglich, und ich zitterte in meinem leichten Anzug"
-"341","35","2","auf diesem Marter-Rost, auf dem ich ausgestreckt lag. Ich versuchte, mich darauf vorzubereiten, meine Seele darüber zu"
-"342","35","3","erheben — und gleichzeitig hielt ich Ausschau nach einer Fluchtmöglichkeit: mit der Hellsichtigkeit, die einem im Augenblick"
-"343","35","4","höchster Verzweiflung gegeben ist. Eins war mir klar. Wenn nur das Vorderteil des Käfigs wieder geschlossen war, konnte ich"
-"344","35","5","Sicherheit dahinter finden. Würde ich das Gitter möglicherweise herausziehen können? Ich wagte kaum, mich zu bewegen, um"
-"345","35","6","mir die Bestie nicht auf den Hals zu locken. Langsam, ganz langsam streckte ich meine Hand aus, bis sie die Außenkante des"
-"346","35","7","Vorderteils erreichte, die letzte Stange, die aus der Wand herausragte. Zu meiner Überraschung ließ sie sich verhältnismäßig"
-"347","35","8","leicht hervorziehen. Ich zerrte weiter, und drei Zoll des Gitters kamen aus der Öffnung. Offensichtlich lief es auf Rädern. Wieder"
-"348","35","9","zog ich — da sprang die Katze! "
-"349","35","10","Es geschah so schnell, so plötzlich, daß ich’s überhaupt nicht sah. Ich hörte nur das wütende Knurren, und unmittelbar darauf"
-"350","36","1","waren die leuchtenden gelben Augen und der schwarze Kopf mit seiner roten Zunge und den blitzenden Zähnen genau vor mir."
-"351","36","2","Der Ansprung des Tiers erschütterte die Stangen, auf denen ich lag, bis ich dachte (soweit ich in diesem Moment überhaupt"
-"352","36","3","'denken konnte), daß sie niederbrechen würden. Einen Augenblick lang schaukelte die Katze dort; Kopf und Vorderpfoten waren'"
-"353","36","4","mir ganz nahe, und die Hinterpfoten versuchten verzweifelt, an der Kante des Käfigs einen Halt zu finden. Ich hörte das Kratzen"
-"354","36","5","der Krallen am Draht, und vom Atem der Bestie wurde mir übel. Aber ihr Sprung war falsch berechnet. Sie konnte sich nicht"
-"355","36","6","halten. Langsam, vor Wut grunzend und wie wild an den Stäben kratzend, rutschte sie nach hinten und schlug schwer auf dem"
-"356","36","7","Boden auf. Sogleich wandte sie sich mir knurrend zu und setzte zu einem neuen Sprunge an. "
-"357","36","8","Ich wußte, daß die nächsten Sekunden mein Geschick entscheiden würden. Das Tier hatte Erfahrung gesammelt. Es würde sich"
-"358","36","9","nicht noch einmal verrechnen. Ich mußte sofort handeln, furchtlos, dann konnte ich mich vielleicht noch retten. Augenblicks hatte"
-"359","36","10","ich einen Plan. Ich zog mein Jackett aus und warfs der Bestie über den Kopf. Im gleichen Augenblick sprang ich hinab, packte"
-"360","37","1","das Ende des Vordergitters und zog’s wie besessen aus der Wand. "
-"361","37","2","Es kam leichter heraus, als ich erwartet hatte. Ich lief durch den Raum und zerrte es hinter mir her, aber in der Eile geriet ich aus"
-"362","37","3","Versehen auf die falsche Seite. Andernfalls wäre ich vielleicht ohne Schaden davongekommen. So aber entstand eine kurze"
-"363","37","4","Pause, als ich es anhielt und versuchte, durch die schmale Öffnung zu schlüpfen, die ich gelassen hatte. Dieser Augenblick ließ"
-"364","37","5","der Bestie Zeit, den Rock abzuschütteln, mit dem ich sie geblendet hatte, und mich anzuspringen. Ich warf mich durch den Spalt"
-"365","37","6","und zog das Gitter hinter mir zu, doch ehe ich ganz im Käfig war, erwischte sie mein Bein. Ein Schlag dieser gewaltigen Pranke"
-"366","37","7","riß mir die Wade ab, wie ein Holzspan vom Hobel fällt. Im nächsten Augenblick lag ich blutend und halb bewußtlos auf dem"
-"367","37","8","fauligen Stroh und hatte eine Reihe freundlicher Gitterstäbe zwischen mir und der Katze, die wütend gegen sie anrannte. "
-"368","37","9","Ich war zu verletzt, um mich zu bewegen, und zu schwach, um Angst zu verspüren, also lag ich nur da, mehr tot als lebendig, und"
-"369","37","10","beobachtete sie. Sie preßte ihre breite schwarze Brust an die Stäbe und angelte mit gespreizten Krallen nach mir, wie ich’s ein"
-"370","38","1","Kätzchen vor einer Mausefalle habe tun sehen. Sie zerriß mir die Kleider, konnte mich trotz allen Reckens aber nicht ganz"
-"371","38","2","erreichen. Ich hatte von der merkwürdigen taubmachenden Wirkung gehört, die Wunden von großen Fleischfressern haben"
-"372","38","3","sollen, und nun war es mir bestimmt, sie zu verspüren, denn ich hatte jedes Gefühl des persönlichen Betroffenseins verloren und"
-"373","38","4","war an Erfolg oder Mißerfolg interessiert, als beobachtete ich irgendein Spiel. Und dann schwanden mir langsam die Sinne,"
-"374","38","5","trieben in seltsam vage Träume ab, in die immer wieder das schwarze Gesicht und die rote Zunge einbrachen, und ich verlor"
-"375","38","6","mich im Nirwana des Deliriums, die gesegnete Zuflucht der allzu Überforderten. "
-"376","38","7","Wenn ich den Verlauf der Ereignisse im Nachhinein überdenke, komme ich zu dem Schluß, daß ich an die zwei Stunden"
-"377","38","8","bewußtlos gewesen sein muß. Was mich wieder zur Besinnung brachte, war jenes scharfe metallische Klicken, das der Vorbote"
-"378","38","9","meiner entsetzlichen Erfahrung gewesen war. Es war das Zurückklappen des Schnappschlosses. Ehe mein Kopf noch klar"
-"379","38","10","genug war, alles aufzunehmen, wurde mir das runde, mildtätige Gesicht meines Vetters bewußt, das zur Tür hereinlugte. Was er"
-"380","39","1","'sah, erstaunte ihn offenbar höchlichst. Die Katze kauerte auf dem Boden. Ich lag in Hemdsärmeln auf dem Rücken im Käfig,'"
-"381","39","2","meine Hose war in Fetzen gerissen, und eine Blutlache breitete sich um mich her aus. Ich sehe noch jetzt sein verblüfftes"
-"382","39","3","Gesicht, von der Morgensonne beschienen. Er ließ seine Augen nicht von mir. Dann schloß er die Tür hinter sich und kam zum"
-"383","39","4","Käfig, um zu sehen, ob ich wirklich tot sei. "
-"384","39","5","Ich kann nicht beschreiben, was geschah. Ich war nicht in dem Zustand, ein solches Ereignis klar aufzunehmen. Ich kann nur"
-"385","39","6","sagen, daß mir plötzlich bewußt wurde, daß mir sein Gesicht nicht mehr zugewendet war — daß er das Tier ansah. "
-"386","39","7","»Guter, alter Tommy!« rief er. »Guter, alter Tommy!« "
-"387","39","8","Dann kam er näher ans Gitter, immer noch mit dem Rücken zu mir. "
-"388","39","9","»Sitz, du dummes Biest!« brüllte er. »Nieder mit dir. Kennst du deinen Herrn nicht mehr?« "
-"389","39","10","Plötzlich kamen mir in meinem umnebelten Zustand die Worte in Erinnerung, mit denen er erklärte hatte, daß Blutgeschmack die"
-"390","40","1","Katze wildmachen würde. Mein Blut hatte es bewirkt — er aber sollte den Preis zahlen."
-"391","40","2","»Geh weg!« kreischte er. »Geh weg, du Teufel! Baldwin! Baldwin! Oh, mein Gott!« "
-"392","40","3","Und dann hörte ich ihn fallen, und aufstehen, und wieder fallen, und es klang, wie wenn man Sackleinen zerreißt. Seine Schreie"
-"393","40","4","wurden schwächer, bis sie sich in quälendem Knurren verloren. Und dann, als ich ihn für tot hielt, sah ich wie in einem Alptraum"
-"394","40","5","eine geblendete, zerfetzte, blutgetränkte Gestalt rasend im Raum umherrennen — das war das letzte, was ich von ihm sah, ehe"
-"395","40","6","ich wieder in Ohnmacht fiel."
-"396","40","7","Es dauerte viele Monate, bis ich wiederhergestellt war. Ja, eigentlich kann ich nicht sagen, daß ich mich ganz erholt hätte, denn"
-"397","40","8","bis ans Ende meiner Tage werde ich einen Stock benutzen müssen: Erinnerung an meine Nacht mit der brasilianischen Katze."
-"398","40","9","Baldwin, der Stallbursche, und die anderen Bediensteten konnten nicht sagen, was vorgefallen war, als sie mich, von den"
-"399","40","10","Todesschreien ihres Herrn herbeigerufen, hinter den Gitterstäben fanden und seine Überbleibsel — oder was sie später als seine"
-"400","41","1","Überbleibsel identifizierten — in den Fängen des Geschöpfes, das er großgezogen hatte. Sie wehrten es mit heißen Eisen ab und"
-"401","41","2","erschossen es hernach durch den Sehschlitz in der Tür, ehe sie mich endlich herausholen konnten. Ich wurde in mein Zimmer"
-"402","41","3","getragen, und dort, unter dem Dach des Mannes, der mich ermorden wollte, schwebte ich etliche Wochen zwischen Leben und"
-"403","41","4","Tod. Sie hatten einen Arzt aus Clipton und eine Krankenschwester aus London kommen lassen, und nach einem Monat konnte"
-"404","41","5","man mich zum Bahnhof und nach Grosvenor Mansions bringen. "
-"405","41","6","Etwas ist mir aus der Krankheitszeit im Gedächtnis haften geblieben, das Teil jenes ständig wechselnden Panoramas sein"
-"406","41","7","könnte, wie ein phantasierendes Hirn es herbeizaubert, würde ich mich dieser Einzelheit nicht so genau erinnern. Eines Abends,"
-"407","41","8","als die Schwester abwesend war, öffnete sich die Tür meines Zimmers, und eine große Frau in tiefer Trauer kam"
-"408","41","9","hereingeschlüpft. Sie kam zu mir herüber, und als sie ihr gelbliches Gesicht neigte, sah ich im matten Schein des Nachtlichts, daß"
-"409","41","10","es die Brasilianerin war, die mein Cousin geheiratet hatte. Sie sah mich intensiv an, und ihr Ausdruck war freundlicher, als ich’s je"
-"410","42","1","erlebt hatte. "
-"411","42","2","»Hören Sie mich?« fragte sie. "
-"412","42","3","Ich nickte schwach. Sprechen konnte ich noch nicht. "
-"413","42","4","»Nun denn. Ich wollte Ihnen nur sagen, daß Sie selber die Schuld tragen. Habe ich nicht für Sie getan, was ich konnte? Von"
-"414","42","5","Anfang an habe ich versucht, Sie aus dem Hause zu treiben. Mit allen Mitteln — außer, meinen Mann zu verraten — habe ich"
-"415","42","6","versucht, Sie vor ihm zu retten. Ich wußte, daß er einen Grund hatte, Sie hierher zu holen. Ich wußte, daß er Sie nicht wieder"
-"416","42","7","fortlassen würde. Niemand kannte ihn so gut wie ich, die ich soviel von ihm zu leiden hatte. Ich wagte nicht, Ihnen das zu sagen."
-"417","42","8","Er hätte mich umgebracht. Aber ich habe mein Bestes getan. So, wie alles gekommen ist, sind Sie der beste Freund gewesen,"
-"418","42","9","den ich jemals hatte. Sie haben mir die Freiheit gegeben, und ich dachte, nur dem Tod würde das gelingen. Es tut mir leid, daß"
-"419","42","10","Sie verletzt sind, aber ich kann mir keine Vorhaltungen machen. Ich habe Ihnen gesagt, daß Sie ein Narr seien — und ein Narr"
-"420","43","1","waren Sie.« "
-"421","43","2","Sie schlich sich aus dem Zimmer, eine verbitterte, einsame Frau, und ich sollte sie nie wiedersehen. Mit dem, was vom Eigentum"
-"422","43","3","ihres Gatten blieb, ging sie in ihr Heimatland zurück, und ich habe gehört, daß sie in Pernambuco später den Schleier nahm. "
-"423","43","4","Erst, als ich seit einiger Zeit in London war, erklärten die Ärzte mich für in der Lage, meinen Geschäften nachzugehen. Das war"
-"424","43","5","'keine sehr willkommene Erlaubnis, denn ich fürchtete, es wäre das Signal für einen Ansturm von Gläubigern; indessen war es'"
-"425","43","6","Summers, mein Anwalt, der als erster Gebrauch davon machte. "
-"426","43","7","»Ich freue mich sehr, daß es Eurer Lordschaft so viel besser geht«, sagte er. »Ich warte seit langem, um meine Glückwünsche"
-"427","43","8","übermitteln zu dürfen.« "
-"428","43","9","»Was wollen Sie damit sagen, Summers? Für solche Späße ist’s nicht die rechte Zeit.« "
-"429","43","10","»Es stimmt, was ich sage«, gab er zur Antwort. »Seit sechs Wochen seid Ihr Lord Southerton, doch fürchteten wir, es könnte Eure"
-"430","44","1","Rekonvaleszenz verzögern, wenn Ihr es erführet.« "
-"431","44","2","Lord Southerton! Einer der reichsten Peers Englands! Ich traute meinen Ohren nicht. Und dann dachte ich plötzlich an die Zeit,"
-"432","44","3","die verstrichen war, und an den Zeitpunkt meiner Verwundung. "
-"433","44","4","»Dann muß Lord Southerton gestorben sein, als ich verletzt wurde?« "
-"434","44","5","»Sein Tod trat am gleichen Tage ein.« Summers sah mich scharf an, als er sprach, und ich bin überzeugt — denn er war ein"
-"435","44","6","gerissener Bursche —, daß er den wahren Sachverhalt erraten hatte. Er wartete einen Augenblick, als erhoffe er ein"
-"436","44","7","Eingeständnis von mir, aber ich sah keinen Grund, ihn in einen solchen Familienskandal einzuweihen. "
-"437","44","8","»Ja, eine höchst merkwürdige Koinzidenz«, fuhr er mit dem gleichen wissenden Blick fort. »Natürlich ist Euch klar, daß Euer"
-"438","44","9","Cousin Everard King sein nächstfolgender Erbe war. Nun, und wenn jetzt dieser Tiger — oder was es war — nicht ihn in Stücke"
-"439","44","10","gerissen hätte, sondern Euch, dann wäre natürlich er in diesem Augenblick Lord Southerton.« "
-"440","45","1","»Ohne Zweifel«, sagte ich. "
-"441","45","2","»Und er war sehr daran interessiert«, sagte Summers. »Ich weiß zufällig, daß der Kammerdiener des abgeschiedenen Lord"
-"442","45","3","Southerton in seinem Solde stand und daß er alle paar Stunden ein Telegramm von ihm bekam, das ihm den Stand der Dinge"
-"443","45","4","anzeigte. Das muß zu der Zeit gewesen sein, da Ihr dort wart. Ist’s nicht merkwürdig, daß er so gut informiert zu sein wünschte,"
-"444","45","5","da er doch wußte, daß er gar nicht der direkte Erbe war?«"
-"445","45","6","»Sehr merkwürdig«, sagte ich. »Und jetzt, Summers, bringen Sie mir bitte meine Rechnungen und ein neues Scheckbuch, damit"
-"446","45","7","wir anfangen können, Ordnung zu schaffen.«"
-"447","46","1",""Vielen Dank für deine Teilnahme. Du bekommst jetzt noch einen kleinen Fragebogen. Drücke 's'."
+line_nr,screen_nr,line_nr_on_screen,text,,
+0,1,1,"Es ist schlecht für einen jungen Mann, wenn er kostspielige Neigungen hat, große Erwartungen, aristokratische Verbindungen,",,
+1,1,2,"jedoch kein Geld in der Tasche und keinen Beruf, in dem er etwas verdienen könnte. Die Sache war die: Mein Vater, ein guter,",,
+2,1,3,"zuversichtlicher, umgänglicher Mann, hatte solches Vertrauen in den Reichtum und die Mildtätigkeit seines unverheirateten",,
+3,1,4,"älteren Bruders, Lord Southerton, daß er es für ausgemacht hielt, daß ich, sein einziger Sohn, mir nie meinen Lebensunterhalt",,
+4,1,5,"würde verdienen müssen. Gab es keine Vakanz auf den großen Southerton-Gütern, so würde sich, seiner Meinung nach,",,
+5,1,6,"zumindest irgendein Posten im diplomatischen Dienst für mich finden, der noch immer die Domäne für unsere privilegierten",,
+6,1,7,"Klassen darstellte. Er starb zu früh, um zu erkennen, wie falsch seine Überlegungen gewesen waren. Weder mein Onkel noch",,
+7,1,8,der Staat nahmen die geringste Notiz von mir oder zeigten irgendwelches Interesse an meiner Karriere. Einige Fasanen oder ein,,
+8,1,9,"paar Hasen, das war alles, was mir gelegentlich zeigte, daß ich Erbe von Otwell House und einem der reichsten Güter im Lande",,
+9,1,10,war. Unterdessen führte ich ein städtisches Junggesellenleben und bewohnte eine Appartement-Suite in Grosvenor Mansions —,,
+10,2,1,"ohne Beschäftigung außer Taubenschießen und Polospielen in Hurlingham. Jeden Monat merkte ich deutlicher, daß es immer",,
+11,2,2,"schwieriger wurde, Zahlungsaufschub zu erlangen oder weitere Post-obits auf einen Besitz zu kassieren, der mir überhaupt nicht",,
+12,2,3,"als Erblehen übertragen war. Der Ruin stand unmittelbar bevor, und jeden Tag sah ich ihn klarer, näher und unabwendbarer.",,
+13,2,4," Was mir meine Armut noch fühlbarer machte, war die Tatsache, daß — vom großen Reichtum Lord Southertons abgesehen —",,
+14,2,5,"alle meine Verwandten recht bemittelt waren. Der mir nächste war Everard King, ein Neffe meines Vaters und somit mein Vetter",,
+15,2,6,"ersten Grades, der in Brasilien ein abenteuerliches Leben geführt hatte und jetzt zurückgekehrt war, um sich auf seinem",,
+16,2,7,"Vermögen auszuruhen. Wir haben nie erfahren, wie er zu seinem Gelde gekommen ist, doch schien er’s reichlich zu haben, denn",,
+17,2,8,er kaufte die Besitzung Greylands nahe Clipton-on-the-Marsh in Suffolk. Im ersten Jahr seines Aufenthalts in England nahm er,,
+18,2,9,"ebensowenig Notiz von mir wie mein geiziger Onkel, doch an einem Sommermorgen endlich erhielt ich — zu meiner größten",,
+19,2,10,"Erleichterung und Freude — einen Brief, in dem ich gebeten wurde, am gleichen Tag zu kommen und Greylands Court einen",,
+20,3,1,"kurzen Besuch abzustatten. Zu dieser Zeit erwartete ich einen ziemlich langen Besuch im Bankrott Court, meiner Schulden",,
+21,3,2,"wegen, und so kam diese Einladung fast wie von der Vorsehung geschickt. Kam ich mit diesem unbekannten Verwandten zu",,
+22,3,3,"einer Einigung, mochte ich vielleicht noch einmal davonkommen. Der Familie wegen konnte er mich nicht gänzlich vor die Hunde",,
+23,3,4,"gehen lassen. Ich wies meinen Diener an, den Koffer zu packen, und am gleichen Abend setzte ich mich nach",,
+24,3,5,Clipton-on-the-Marsh in Bewegung. ,,
+25,3,6,"'Nachdem ich in Ipswich umgestiegen war, brachte mich eine kleine Bummelbahn zu einem winzigen, verlassenen Bahnhof; er lag'",,
+26,3,7,in hügeligem Weideland  durch dessen Niederungen sich ein träger Fluß wand seine hohen verschlammten Uferböschungen,,
+27,3,8,"zeigten an, daß wir in Reichweite der Gezeiten waren. Kein Wagen erwartete mich (wie ich später erfuhr, war mein Telegramm",,
+28,3,9,"nicht rechtzeitig angekommen), also mietete ich im Gasthaus einen Dogcart. Der Fahrer, ein famoser Bursche, war voll des Lobes",,
+29,3,10,"über meinen Verwandten, und von ihm erfuhr ich, daß der Name Everard King in diesem Teil des Landes bereits einer",,
+30,4,1,"Zauberformel glich. Er bewirtete die Schulkinder, machte sein Anwesen Besuchern zugänglich, gab Geld für gute Zwecke — kurz:",,
+31,4,2,"Seine Mildtätigkeit war derart umfassend, daß mein Fahrer sie nur damit erklären konnte, daß mein Cousin parlamentarische",,
+32,4,3,Ambitionen haben müsse. ,,
+33,4,4,"Von der Lobrede meines Fahrers lenkte mich ein sehr schöner Vogel ab, der auf einem Telegraphenmast am Straßenrande",,
+34,4,5,"hockte. Zuerst hielt ich ihn für einen Eichelhäher, aber er war größer und hatte ein bunteres Gefieder. Der Fahrer erklärte",,
+35,4,6,"'sogleich seine Anwesenheit; er sagte, er gehöre dem Manne, zu dem wir unterwegs seien. Es schien, als sei die Akklimatisierung'",,
+36,4,7,"fremder Tiere eines seiner Hobbies  er hatte wohl aus Brasilien eine Anzahl von Vögeln und anderen Tieren mitgebracht, die er",,
+37,4,8,in England heimisch machen wollte. ,,
+38,4,9,"Als wir das Tor von Greylands Park durchfahren hatten, sahen wir zahlreiche Beweise seiner Liebhaberei. Eine Art kleinen,",,
+39,4,10,"gefleckten Rehes, ein seltsames Wildschwein (Peccary genannt, glaube ich), eine prachtvoll gefiederte Goldamsel, ein",,
+40,5,1,"Armadillo-ähnliches Wesen und ein seltsames, einwärts laufendes Geschöpf wie ein sehr fetter Dachs — das waren einige der",,
+41,5,2,"Tiere, die ich bemerkte, während wir den gewundenen Pfad hinauffuhren. ",,
+42,5,3,"Mr. Everard King, mein unbekannter Cousin, stand in voller Lebensgröße auf den Stufen seines Hauses, da er uns von fern",,
+43,5,4,"'gesehen hatte und vermutete, daß ich es sei. Seine Erscheinung war sehr schlicht und wohlwollend, klein und gedrungen;'",,
+44,5,5,"fünfundvierzig Jahre alt mochte er sein, mit einem runden und gutmütigen Gesicht, braungebrannt von der tropischen Sonne und",,
+45,5,6,von tausend Fältchen durchzogen. Er trug einen weißen Leinenanzug im echten Pflanzerstil und hatte eine Zigarre zwischen den,,
+46,5,7,"Lippen und einen großen Panamahut auf dem Hinterkopf. Er war ein Mann, wie man ihn sich auf der Veranda eines Bungalows",,
+47,5,8,"in den Tropen vorstellt, und vor diesem breiten englischen Steinhause mit seinen soliden Seitenflügeln und Palladio-Säulen vor",,
+48,5,9,dem Eingang wirkte er merkwürdig deplaziert. ,,
+49,5,10,"»Meine Liebe!« rief er mit einem Blick über die Schulter, »meine Liebe, unser Gast ist da! — Willkommen, willkommen auf",,
+50,6,1,"Greylands! Ich bin entzückt, deine Bekanntschaft zu machen, Vetter Marshall, und ich fasse es als großes Kompliment auf, daß",,
+51,6,2,du dieses verschlafene kleine Landhaus mit deiner Anwesenheit beehrst.« ,,
+52,6,3,"Seine Begrüßung hätte nicht herzlicher sein können, und ich fühlte mich sogleich wohl. Aber es bedurfte seiner ganzen",,
+53,6,4,"Herzlichkeit, um die Kälte, ja Unhöflichkeit seiner Frau wettzumachen, einer großen, hageren Person, die auf seinen Wunsch hin",,
+54,6,5,"herauskam. Sie war, glaube ich, brasilianischer Herkunft, obgleich sie ausgezeichnet englisch sprach, und ich entschuldigte ihr",,
+55,6,6,"Benehmen mit ihrer Unkenntnis unsrer Sitten. Sie versuchte indessen nicht zu verhehlen, weder jetzt noch später, daß ich kein",,
+56,6,7,"sehr willkommener Besucher in Greylands Court war. Was sie sagte, klang in der Regel höflich, aber sie besaß ein Paar",,
+57,6,8,"ungewöhnlich ausdrucksvoller schwarzer Augen, und in denen las ich von Anfang an recht deutlich, daß sie mich aus ganzem",,
+58,6,9,Herzen wieder nach London wünschte. ,,
+59,6,10,"Meine Schulden hingegen waren zu drückend und meine Pläne bezüglich meines Verwandten zu lebenswichtig, als daß ich’s mir",,
+60,7,1,"hätte erlauben können, sie von der schlechten Laune seiner Frau durchkreuzen zu lassen, also übersah ich ihre Kälte und",,
+61,7,2,"erwiderte die warme Herzlichkeit seines Empfangs. Er hatte keine Mühe gescheut, mir meinen Aufenthalt angenehm zu",,
+62,7,3,"gestalten. Mein Zimmer war bezaubernd. Er bat mich eindringlich, ihn wissen zu lassen, womit er mein Glück vervollständigen",,
+63,7,4,"könne. Nun, es lag mir auf der Zunge, ihm zu sagen, daß ein Blankoscheck für diesen Zweck am besten geeignet sei, doch",,
+64,7,5,"schien’s mir im augenblicklichen Stadium unsrer Bekanntschaft ein wenig voreilig. Das Dinner war ausgezeichnet, und als wir",,
+65,7,6,"hinterher seine Havanas rauchten und seinen Kaffee tranken, der, wie er mir erzählte, auf seiner eigenen Pflanzung besonders",,
+66,7,7,"behandelt wurde, da wollte mir scheinen, daß alle Lobgesänge meines Fahrers gerechtfertigt waren und daß ich noch nie einen",,
+67,7,8,so weitherzigen und gastfreien Mann kennengelernt hatte. ,,
+68,7,9,Trotz seiner fröhlichen Gutmütigkeit aber war er ein Mann von starkem Willen und hitzigem Naturell. Hiervon bekam ich am,,
+69,7,10,"folgenden Morgen ein Beispiel. Die sonderbare Abneigung, die Mrs. Everard King mir gegenüber entwickelt hatte, war so stark,",,
+70,8,1,"daß ihr Benehmen beim Frühstück beinahe beleidigend wirkte. Unmißverständlich jedoch wurde ihre Absicht, als ihr Gatte das",,
+71,8,2,Zimmer verlassen hatte. ,,
+72,8,3,"»Der beste Zug am Tage ist der um zwölf Uhr fünfzehn«, sagte sie. ",,
+73,8,4,"»Aber ich wollte heute ja noch gar nicht abreisen«, antwortete ich offen — vielleicht sogar trotzig, denn ich war entschlossen,",,
+74,8,5,mich von dieser Frau nicht hinausdrängen zu lassen. ,,
+75,8,6,"»Oh, wenn’s an Ihnen liegt — « sagte sie und hielt inne, wobei in ihren Augen ein höchst unverschämter Ausdruck lag. ",,
+76,8,7,"»Ich glaube bestimmt«, erwiderte ich, »daß Mr. Everard King es mir sagen würde, wenn meine Anwesenheit nicht mehr",,
+77,8,8,erwünscht wäre.« ,,
+78,8,9,"»Was heißt das? Was heißt das?« sagte eine Stimme, und schon war er im Zimmer. Er hatte meine letzten Worte mitangehört,",,
+79,8,10,"und ein Blick auf unsre Gesichter sagte ihm den Rest. Augenblicks zeigte sein pausbäckiges, fröhliches Gesicht einen Ausdruck",,
+80,9,1,größter Wildheit. ,,
+81,9,2,"»Würdest du so freundlich sein, eine Minute hinauszugehen, Marshall?« sagte er. (Ich darf vielleicht erwähnen, daß ich Marshall",,
+82,9,3,King heiße.) ,,
+83,9,4,"Er schloß die Tür hinter mir, und dann hörte ich ganz kurz, wie er eindringlich auf seine Frau einredete. Dieser grobe Bruch der",,
+84,9,5,"Gastfreundschaft hatte ihn offensichtlich an der empfindlichsten Stelle getroffen. Ich bin kein Lauscher an der Wand, also ging ich",,
+85,9,6,"'auf den Rasen hinaus. Alsbald hörte ich eilige Schritte, und da kam die Dame des Hauses; ihr Gesicht war bleich vor Erregung,'",,
+86,9,7,und ihre Augen waren rot von Tränen. ,,
+87,9,8,"»Mein Mann hat mich aufgefordert, Sie um Verzeihung zu bitten, Mr. Marshall King, sagte sie, als sie mit niedergeschlagenen",,
+88,9,9,Augen vor mir stand. ,,
+89,9,10,"»Bitte, kein Wort weiter, Mrs. King.« ",,
+90,10,1,Plötzlich blitzten mich ihre dunklen Augen an. ,,
+91,10,2,"»Sie Narr!« zischte sie mit leidenschaftlicher Heftigkeit, machte kehrt und eilte ins Haus. ",,
+92,10,3,"Diese Beleidigung war derart unerhört, derart unverzeihlich, daß ich nur dastehen und ihr verwirrt nachstarren konnte. So stand",,
+93,10,4,"ich noch, als mein Gastgeber sich mir beigesellte. Er war wieder sein fröhliches, pausbäckiges Selbst. ",,
+94,10,5,"»Ich hoffe, daß sich meine Frau für ihre albernen Bemerkungen entschuldigt hat, sagte er. ",,
+95,10,6,"»Aber ja — ja, gewiß!« ",,
+96,10,7,Er schob seine Hand unter meinen Arm und ging mit mir auf dem Rasen hin und her. ,,
+97,10,8,"»Du darfst’s nicht ernst nehmen«, sagte er. »Es würde mich unsagbar grämen, wenn du deinen Besuch auch nur um eine Stunde",,
+98,10,9,"verkürztest. Die Sache ist die — es gibt keinen Grund, weshalb wir unter Verwandten Heimlichkeiten haben sollten —, daß mein",,
+99,10,10,"armes, liebes Weib unglaublich eifersüchtig ist. Sie haßt jeden — männlich oder weiblich —, der sich auch nur für eine Sekunde",,
+100,11,1,zwischen uns schieben könnte. Ihre Idealvorstellung ist eine einsame Insel und ein ewiges tête-à-tête. Jetzt hast du den Schlüssel,,
+101,11,2,"zu ihrer Handlungsweise, die an diesem Punkt, das gebe ich zu, von einer Manie nicht weit entfernt ist. Sag mir, daß du’s nicht",,
+102,11,3,mehr übelnimmst.« ,,
+103,11,4,"»Aber nein, auf gar keinen Fall.« ",,
+104,11,5,»Dann steck dir diese Zigarre an und komm mit. Wir wollen uns meine kleine Menagerie ansehen.« ,,
+105,11,6,"Der ganze Nachmittag wurde mit dieser Besichtigung zugebracht, die alle Vögel, Säugetiere und Reptilien umfaßte, die er",,
+106,11,7,"importiert hatte. Einige liefen frei umher, andere befanden sich in Käfigen, einige im Hause. Begeistert berichtete er von seinen",,
+107,11,8,"Erfolgen und Fehlschlägen, von den Geburten und Todesfällen, und wie ein Schuljunge brach er in lautes Entzücken aus, wenn",,
+108,11,9,unterwegs ein grellfarbener Vogel aus dem Grase aufflatterte oder irgendein merkwürdiges Tier Deckung suchte. Schließlich,,
+109,11,10,"führte er mich einen Gang hinab, der von einem Seitenflügel des Hauses ausging. An seinem Ende war eine schwere Tür mit",,
+110,12,1,"einem Schlitzverschluß, und daneben ragte aus der Wand ein eiserner Griff hervor, der zu einem Rad und einer Trommel",,
+111,12,2,gehörte. Eine Reihe starker Eisenstäbe versperrte den Gang. ,,
+112,12,3,"»Jetzt werde ich dir das Prunkstück meiner Sammlung vorführen«, sagte er. »In Europa gibt’s nur noch ein anderes Exemplar,",,
+113,12,4,seit das Amsterdamer Jungtier tot ist. Es ist eine brasilianische Katze.« ,,
+114,12,5,»Aber wie unterscheidet sie sich von anderen Katzen?« ,,
+115,12,6,"»Das wirst du gleich sehen«, sagte er lachend. »Willst du bitte den Schieber heben und durchblicken?« ",,
+116,12,7,Das tat ich und starrte in einen großen leeren Raum mit Fliesen auf dem Boden und kleinen vergitterten Fenstern in der,,
+117,12,8,gegenüberliegenden Wand. In der Mitte dieses Raumes lag in einem Flecken goldnen Sonnenscheins ein riesiges Tier,,
+118,12,9,"ausgestreckt, so groß wie ein Tiger, doch schwarz und glatt wie Ebenholz. Es war einfach eine riesenhafte und sehr gut",,
+119,12,10,"gehaltene schwarze Katze, und die kauerte und wärmte sich in dem gelben Lichtfleck wie jede normale Katze. Sie war so",,
+120,13,1,"anmutig, so sehnig und sanft und schmeichlerisch teuflisch, daß ich meine Augen nicht von der Öffnung nehmen konnte. ",,
+121,13,2,»Ist das nicht ein herrlicher Kerl?« fragte mein Gastgeber begeistert. ,,
+122,13,3,»Prachtvoll. So ein edles Tier habe ich noch nie gesehen.« ,,
+123,13,4,"»Manche sagen, es sei ein schwarzer Puma, in Wirklichkeit ist’s aber kein Puma. Der Kerl mißt von der Nase bis zur",,
+124,13,5,"Schwanzspitze an die elf Fuß. Vor vier Jahren war er ein kleiner Ball aus schwarzem Flaum, aus dem zwei gelbe Augen",,
+125,13,6,herausstarrten. Er wurde mir als neugeborenes Jungtier im Quellgebiet des Rio Negro verkauft. Sie haben seine Mutter mit,,
+126,13,7,"Speeren erlegt, nachdem sie ein Dutzend von ihnen getötet hatte.«",,
+127,13,8,»Also sind’s gefährliche Tiere?« ,,
+128,13,9,"»Die gefährlichsten und blutrünstigsten Tiere der Erde. Erzähl einem Indianer im Innern was von einer brasilianischen Katze, da",,
+129,13,10,"sollst du mal sehen, wie er das Zittern kriegt. Sie bevorzugen Menschenfleisch. Dieser Kerl hat noch nie lebendiges Blut gekostet,",,
+130,14,1,"aber wenn er’s tut, ist er nicht mehr zu halten. Augenblicklich duldet er niemanden außer mir in seiner Höhle. Sogar Baldwin, der",,
+131,14,2,"Diener, wagt sich nicht in seine Nähe. Ich — nun ja, ich bin für ihn Mutter und Vater in einem.«",,
+132,14,3,"Während er sprach, öffnete er zu meinem Erstaunen die Tür, schlüpfte hindurch und schloß sie sogleich hinter sich. Beim Klang",,
+133,14,4,"seiner Stimme erhob sich das riesige, geschmeidige Tier, gähnte und rieb seinen runden schwarzen Kopf zutraulich an seiner",,
+134,14,5,"Seite, während er es streichelte und kraulte. ",,
+135,14,6,"»So, Tommy, jetzt in deinen Käfig!« sagte er. ",,
+136,14,7,Die gewaltige Katze ging zur einen Seite des Raumes hinüber und rollte sich unter einem Gitter zusammen. Everard King kam,,
+137,14,8,"heraus, packte den Eisengriff, den ich bereits erwähnte, und drehte daran. Dabei schoben sich die Gitterstäbe im Gang durch",,
+138,14,9,"einen Schlitz in der Mauer und schlossen die Vorderseite des Gatters, so daß ein geschlossener Käfig entstand. Alsdann öffnete",,
+139,14,10,"mein Vetter die Tür wieder und ließ mich in den Raum, in dem ein beißender, muffiger Gestank herrschte, wie er großen",,
+140,15,1,Fleischfressern eigentümlich ist. ,,
+141,15,2,"»So funktioniert das«, sagte er. »Tagsüber kann er sich im Zimmer tummeln, und nachts stecken wir ihn in diesen Käfig. Man",,
+142,15,3,"kann ihn herauslassen, indem man den Griff im Gang betätigt, und auf die gleiche Weise wird er wieder eingesperrt, wie du",,
+143,15,4,"gesehen hast. — Nein, nein, das darfst du nicht!« ",,
+144,15,5,"Ich hatte meine Hand durch das Gitter gesteckt, um die glänzende, atmende Flanke zu streicheln. Mit ernstem Gesicht zog er",,
+145,15,6,mich zurück. ,,
+146,15,7,"»Ich sage dir: Tommy ist gefährlich! Weil ich mir etwas bei ihm herausnehme, darfst du nicht glauben, daß das ein anderer auch",,
+147,15,8,"kann. Er ist sehr wählerisch in seinen Freundschaften — stimmt’s nicht, Tommy? Ah, er hört sein Futter kommen. Nicht wahr,",,
+148,15,9,mein Junge?« ,,
+149,15,10,";Schritte klangen auf dem fliesenbelegten Gang, und das Tier sprang auf die Füße und schlich in dem schmalen Käfig hin und her,'",,
+150,16,1,"seine gelben Augen leuchteten, und seine scharlachrote Zunge fuhr bebend über die Reihe seiner weißen, gezackten Zähne. Ein",,
+151,16,2,Diener kam mit einem großen Keulenstück auf einem Tablett herein und warf’s ihm durchs Gitter vor. Es stürzte sich behend,,
+152,16,3,"'darauf und trug’s in eine Ecke; dort hielt es das Fleisch zwischen den Pfoten, zerrte und riß daran und hob ab und zu sein'",,
+153,16,4,"blutiges Maul, um uns einen Blick zuzuwerfen. Es war ein böses und dabei faszinierendes Schauspiel.",,
+154,16,5,"»Du wirst dich kaum wundern, daß er mir ans Herz gewachsen ist, wie?« sagte mein Gastgeber, als wir den Raum verließen.",,
+155,16,6,"»Besonders, wenn du bedenkst, daß ich ihn selber aufgezogen habe. Es war kein Spaß, ihn aus dem innersten Südamerika",,
+156,16,7,"herüberzubringen. Aber hier ist er sicher und gut aufgehoben — und, wie ich schon sagte, das vollkommenste Exemplar seiner",,
+157,16,8,"Gattung in Europa. Die Leute vom Zoo wollen ihn unbedingt haben, aber ich kann mich nun einmal nicht von ihm trennen. Nun,",,
+158,16,9,"ich glaube, ich habe dich mit meinem Hobby lange genug angeödet, also werden wir’s Tommy gleichtun und uns zu Tisch",,
+159,16,10,begeben.« ,,
+160,17,1,Mein südamerikanischer Verwandter war von seinem Anwesen und dessen ausgefallenen Bewohnern derart in Anspruch,,
+161,17,2,"genommen, daß ich ihm anfangs kaum irgendwelche anderen Interessen zutraute. Daß er welche hatte, und zwar dringliche, das",,
+162,17,3,"wurde mir alsbald durch die zahlreichen Telegramme klar, die er erhielt. Sie kamen zu allen möglichen Zeiten, und stets öffnete er",,
+163,17,4,"sie äußerst wißbegierig und eifrig. Manchmal meinte ich, es müsse sich um Pferdewetten handeln, manchmal tippte ich auf",,
+164,17,5,"Börsenspekulationen — wie dem auch sei: er mußte sehr dringliche Geschäfte haben, die auf den Downs von Suffolk nicht",,
+165,17,6,"abgewickelt wurden. Im Verlauf der sechs Tage meines Besuches bekam er nie weniger als drei oder vier Telegramme pro Tag,",,
+166,17,7,bisweilen sieben oder acht. ,,
+167,17,8,"Ich hatte diese sechs Tage so gut genutzt, daß ich am Ende mit meinem Vetter auf dem vertrautesten Fuße stand. Jeden Abend",,
+168,17,9,"saßen wir noch spät im Billard-Zimmer, wo er mir die aufregendsten Berichte von seinen Abenteuern in Amerika gab — derart",,
+169,17,10,"verzweifelte und wagemutige Geschichten, daß ich sie kaum mit dem kleinen braunen, pausbäckigen Mann mir gegenüber in",,
+170,18,1,"Verbindung bringen konnte. Ich meinerseits gab ein paar Reminiszenzen des Londoner Lebens zum besten, die ihn derart",,
+171,18,2,"interessierten, daß er schwor, er werde nach Grosvenor Mansions kommen und bei mir wohnen. Er war begierig, die Hektik des",,
+172,18,3,"Stadtlebens kennenzulernen, und bei aller Bescheidenheit muß ich sagen, daß er sich keinen kompetenteren Führer hätte",,
+173,18,4,"aussuchen können. Erst am letzten Tage meines Besuchs wagte ich, auf das anzuspielen, was ich auf dem Herzen hatte. Ich",,
+174,18,5,erzählte ihm offen von meinen pekuniären Schwierigkeiten und meinem drohenden Ruin und bat um seinen Rat — wenn ich,,
+175,18,6,auch etwas Handgreiflicheres erhoffte. Er hörte aufmerksam zu und zog kräftig an seiner Zigarre: ,,
+176,18,7,"»Aber du bist doch der Erbe unseres Verwandten, Lord Southerton?« sagte er. ",,
+177,18,8,"»Ich habe jeden Grund, das anzunehmen, aber es kommt ihm nicht in den Sinn, mir eine Rente auszusetzen.« ",,
+178,18,9,"»Ja, ja, ich habe von seinem Geiz gehört. Mein armer Marshall, deine Situation ist scheußlich. Nebenbei bemerkt: Hast du in",,
+179,18,10,letzter Zeit etwas von Lord Southertons Gesundheitszustand gehört?« ,,
+180,19,1,»Seit meiner Kindheit ist sein Zustand kritisch.« ,,
+181,19,2,"»Genau. Der Teller mit einem Sprung, der nie entzweigeht. Dein Erbe kann in weiter Ferne liegen. Du meine Güte: wie ist deine",,
+182,19,3,Lage unangenehm!« ,,
+183,19,4,"»Ich hatte gehofft, lieber Vetter, daß du mir vielleicht, da dir ja alle Fakten bekannt sind...« ",,
+184,19,5,"»Kein Wort weiter, mein Junge«, sagte er mit der größten Herzlichkeit. »Wir werden es heute abend besprechen, und ich gebe",,
+185,19,6,"dir mein Wort, daß alles getan wird, was in meinen Kräften steht.«",,
+186,19,7,"Ich bedauerte es nicht, daß mein Besuch sich dem Ende näherte, denn es ist ein unangenehmes Gefühl, zu wissen, daß jemand",,
+187,19,8,"im Hause ist, der einen möglichst bald los sein möchte. Mrs. Kings gelbliches Gesicht und ihre abstoßenden Augen wurden mir",,
+188,19,9,"von Tag zu Tag verhaßter. Sie war nicht mehr grob — das verhinderte die Angst vor ihrem Mann —, doch trieb sie ihre",,
+189,19,10,"ungesunde Eifersucht so weit, daß sie mich ignorierte und mir meinen Aufenthalt in Greylands so unbehaglich wie möglich",,
+190,20,1,"machte. Ihr Benehmen am letzten Tag war derart beleidigend, daß ich bestimmt abgereist wäre, hätte nicht die Besprechung mit",,
+191,20,2,"meinem Gastgeber in Aussicht gestanden, von der ich mir die Wiederherstellung meiner finanziellen Unabhängigkeit versprach. ",,
+192,20,3,"Es war sehr spät, als sie stattfand, denn mein Vetter, der im Verlauf des Tages noch mehr Telegramme als gewöhnlich",,
+193,20,4,"bekommen hatte, zog sich nach dem Essen in sein Arbeitszimmer zurück und kam erst wieder hervor, als sich die übrigen",,
+194,20,5,"Hausbewohner zur Ruhe begeben hatten. Ich hörte ihn umhergehen und die Türen abschließen, wie er’s jeden Abend tat, und",,
+195,20,6,"endlich kam er zu mir ins Billardzimmer. Seine kompakte Gestalt war mit einem Morgenrock bekleidet, und dazu trug er rote",,
+196,20,7,"türkische Pantoffeln ohne Absätze. Als er sich in einem Sessel niedergelassen hatte, braute er sich einen Grog, bei dem der",,
+197,20,8,"Whisky erheblich überwog, wie ich bemerkte. ",,
+198,20,9,"»Meine Güte«, sagte er, »was für eine Nacht!« ",,
+199,20,10,"So war’s. Der Wind schrie und heulte ums Haus, und die Fensterläden ratterten und klapperten, als sollten sie abgerissen",,
+200,21,1,werden. Als Kontrast hierzu schienen die gelben Lichter heller zu glühen und unsre Zigarren besser denn je zu duften. ,,
+201,21,2,"»Nun, mein Junge«, sagte der Gastgeber. »Wir haben das Haus und die Nacht für uns. Gib mir einen Überblick über den Stand",,
+202,21,3,"deiner Angelegenheiten, und ich werde zusehen, was man tun kann, um sie in Ordnung zu bringen. Ich möchte jede Einzelheit",,
+203,21,4,hören.« ,,
+204,21,5,"Dergestalt ermutigt, begann ich mit einer ausführlichen Darstellung, in der alle meine Kaufleute und Gläubiger vom Hauswirt bis",,
+205,21,6,"zum Diener auftauchten. Ich hatte Notizen in meiner Brieftasche und stellte alles zusammen und gab, so schmeichle ich mir,",,
+206,21,7,einen untadligen Geschäftsbericht meiner höchst ungeschäftlichen Verfahrensweise und jämmerlichen Lage. Ich stellte jedoch zu,,
+207,21,8,"meiner Enttäuschung fest, daß meines Vetters Augen leer waren und seine Gedanken weit fort. Wenn er gelegentlich eine",,
+208,21,9,"Bemerkung einflocht, so war sie so oberflächlich und unzutreffend, daß ich überzeugt war, er sei meinen Ausführungen",,
+209,21,10,"überhaupt nicht gefolgt. Dann und wann einmal gab er sich einen Ruck und heuchelte Anteilnahme, indem er mich bat, einen",,
+210,22,1,"Punkt genauer zu erklären, doch jedes Mal wurde er sogleich wieder zu einer braunen Statue. Endlich erhob er sich und warf",,
+211,22,2,den Rest seiner Zigarre in den Kamin. ,,
+212,22,3,"»Ich will dir mal etwas sagen, mein Junge«, sagte er. ",,
+213,22,4,"»Ich habe nie einen Sinn für Zahlen gehabt, das wirst du entschuldigen. Du mußt alles schön zu Papier bringen, so daß ich den",,
+214,22,5,"Betrag vor Augen habe. Ich versteh’s, sobald ich’s schwarz auf weiß vor mir sehe.« ",,
+215,22,6,"Der Vorschlag war ermutigend. Ich versprach, die Aufstellung anzufertigen. ",,
+216,22,7,"»Und jetzt ist’s an der Zeit, zu Bett zu gehen. Himmel, in der Halle schlägt’s eins.« ",,
+217,22,8,Das helle Läuten der Uhr brach durch das tiefe Grollen des Sturms. Der Wind rauschte ums Haus wie ein angeschwollener,,
+218,22,9,Strom. ,,
+219,22,10,"»Ich muß die Katze nochmal sehen, ehe ich ins Bett gehe«, sagte mein Cousin. »Ein solcher Sturm erregt sie. Kommst du mit?« ",,
+220,23,1,"»Gewiß«, sagte ich. ",,
+221,23,2,"»Dann geh leise und sprich nicht, denn sie schlafen alle.« ",,
+222,23,3,Schweigend durchquerten wir die von Lampen erleuchtete und mit Perserteppichen ausgelegte Halle und gingen durch die Tür,,
+223,23,4,"am hinteren Ende. Im Steinkorridor war alles dunkel, aber an einem Haken hing eine Stall-Laterne, und mein Vetter nahm sie ab",,
+224,23,5,"und zündete sie an. Im Gang war kein Gitter zu sehen, da wußte ich, daß das Tier im Käfig sein mußte. ",,
+225,23,6,»Komm!« sagte mein Verwandter und öffnete die Tür. ,,
+226,23,7,"Ein tiefes Knurren bei unserm Eintreten zeigte, daß der Sturm das Tier tatsächlich aufgebracht hatte. Im flackernden Lichtschein",,
+227,23,8,"sahen wir es: eine gewaltige schwarze, in der Ecke des Käfigs zusammengerollte Masse, die einen kauernden, ungeschlachten",,
+228,23,9,Schatten an die gekalkte Wand warf. Der Schwanz peitschte unruhig das Stroh. ,,
+229,23,10,"»Der arme Tommy ist nicht in der besten Stimmung«, sagte Everard King, wobei er die Laterne hochhielt und ihn betrachtete.",,
+230,24,1,"»Sieht wie ein richtiger schwarzer Teufel aus, was? Ich muß ihm eine kleine Mahlzeit verabreichen, um ihn in bessere Laune zu",,
+231,24,2,versetzen. Hältst du mal einen Augenblick die Laterne?« ,,
+232,24,3,"Ich nahm sie, und er ging zur Tür. ",,
+233,24,4,"»Seine Speisekammer ist gleich nebenan«, sagte er. »Du entschuldigst mich doch für einen Augenblick?« Er ging hinaus, und",,
+234,24,5,mit einem scharfen metallischen Schnappen schloß sich die Tür hinter ihm. ,,
+235,24,6,Dieses harte Geräusch ließ mein Herz stillstehen. Eine plötzliche Welle des Entsetzens überkam mich. Der ungenaue Verdacht,,
+236,24,7,"eines teuflischen Verrats machte mich schaudern. Ich sprang zur Tür, doch an der Innenseite war kein Griff. ",,
+237,24,8,»He!« rief ich. »Laß mich raus!« ,,
+238,24,9,"»Schon gut. Mach kein Theater«, sagte mein Cousin vom Gang her. »Du hast ja die Laterne.« ",,
+239,24,10,"»Schon, aber ich bin nicht gern so alleine eingesperrt.« ",,
+240,25,1,"»Nein?« Ich hörte sein herzhaftes, kicherndes Lachen. »Du wirst nicht lange allein sein.« ",,
+241,25,2,»Laß mich raus!« schrie ich wütend. »Solchen Schabernack lasse ich nicht mit mir treiben.« ,,
+242,25,3,"»Schabernack ist gut«, sagte er mit einem neuerlichen verhaßten Kichern. Und dann, plötzlich, hörte ich im Dröhnen des Sturms",,
+243,25,4,"das Kreischen und Quietschen der Kurbel und das Knarren des Gitters, als es durch den Schlitz gedreht wurde. Großer Gott: Er",,
+244,25,5,ließ die brasilianische Katze los! ,,
+245,25,6,Im Schein der Laterne sah ich die Gitterstäbe langsam vor mir verschwinden. Schon war die Öffnung am anderen Ende einen,,
+246,25,7,Fuß breit. Mit einem Schrei packte ich die letzte Stange und zog mit der Kraft eines Wahnsinnigen. Ich war wahnsinnig vor Wut,,
+247,25,8,"und Entsetzen. Eine Minute lang vielleicht hielt ich das Ding fest. Ich wußte, daß er mit aller Gewalt am Griff drehte und daß ich",,
+248,25,9,"der Hebelwirkung unterliegen mußte. Zoll für Zoll gab ich nach, meine Füße rutschten über die Steine, und die ganze Zeit bat und",,
+249,25,10,"bettelte ich, das unmenschliche Scheusal möge mir diesen grauenhaften Tod ersparen. Ich beschwor ihn bei unsrer",,
+250,26,1,"Blutsverwandtschaft. Ich erinnerte ihn daran, daß ich sein Gast war. Ich bat ihn inständig, mir zu sagen, was ich ihm getan hätte.",,
+251,26,2,"Seine Antwort bestand im mühevollen Drehen der Kurbel, und jede Drehung zog trotz all meiner Anstrengungen eine weitere",,
+252,26,3,"Stange durch die Öffnung. Zerrend und ziehend wurde ich die ganze Vorderseite des Käfigs entlanggeschleift, bis ich endlich, mit",,
+253,26,4,"schmerzenden Handgelenken und verkrampften Fingern, den hoffnungslosen Kampf aufgab. Das Gitter schlug an die Wand, als",,
+254,26,5,"ich es losließ, und einen Augenblick später hörte ich das Schlurfen der türkischen Pantoffeln im Gang und das Schlagen der",,
+255,26,6,zweiten Tür. Dann war alles still. ,,
+256,26,7,"Das Tier hatte sich die ganze Zeit nicht bewegt. Es lag reglos in der Ecke, und sein Schwanz hatte aufgehört, hin und her zu",,
+257,26,8,"schnellen. Diese Erscheinung eines Mannes, der sich an die Gitterstäbe klammerte und schreiend an ihm vorübergezerrt wurde,",,
+258,26,9,"hatte es offensichtlich verwundert und verwirrt. Ich sah, wie seine großen Augen mich stetig anstarrten. Ich hatte die Laterne",,
+259,26,10,"fallen lassen, als ich die Stäbe packte, aber sie brannte noch auf dem Boden, und ich machte eine Bewegung, um sie",,
+260,27,1,"aufzuheben — mit der Überlegung, daß ihr Licht mir Schutz gewähren könne. In dem Augenblick jedoch, da ich mich bewegte,",,
+261,27,2,"stieß das Tier ein tiefes, drohendes Knurren aus. Ich hielt inne und stand still, vor Angst am ganzen Körper zitternd. Die Katze",,
+262,27,3,(falls man eine derart fürchterliche Bestie mit einem so zutraulichen Namen bezeichnen kann) war kaum zehn Fuß von mir,,
+263,27,4,entfernt. Die Augen schimmerten wie zwei Phosphorscheiben in der Dunkelheit. Sie stießen mich ab — und faszinierten mich,,
+264,27,5,gleichzeitig. Ich konnte meinen Blick nicht von ihnen wenden. In solchen Augenblicken der Intensität spielt die Natur uns,,
+265,27,6,"seltsame Streiche, und diese leuchtenden Lichter flammten auf und erloschen wieder in stetem Wechsel. Manchmal schienen sie",,
+266,27,7,"winzige Pünktchen extremer Helligkeit zu sein — kleine elektrische Funken in der schwarzen Düsternis —, dann weiteten sie sich",,
+267,27,8,"mehr und mehr, bis der ganze Winkel des Raumes dort mit ihrem wechselnden und unheimlichen Licht erfüllt war. Und plötzlich",,
+268,27,9,ging’s dann gänzlich aus. ,,
+269,27,10,"Das Tier hatte seine Augen geschlossen. Ich weiß nicht, ob an der alten Idee von der Vorherrschaft des menschlichen Blicks",,
+270,28,1,"etwas Wahres ist oder ob die gewaltige Katze nur schläfrig war, indessen bleibt die Tatsache bestehen, daß sie nicht die",,
+271,28,2,"mindeste Neigung zeigte, mich anzugreifen, sondern nur den glatten schwarzen Kopf auf seine riesigen Vorderpfoten legte und",,
+272,28,3,"einzuschlafen schien. Ich blieb starr stehen, aus Angst, sie durch irgendeine Bewegung wieder zu bösartigem Leben zu bringen.",,
+273,28,4,"Aber ich war jetzt endlich fähig, klar zu denken, weil die unheilvollen Augen nicht mehr auf mich gerichtet waren. Hier steckte ich",,
+274,28,5,"also, die ganze Nacht mit dem blutdurstigen Biest zusammen eingesperrt. Mein Instinkt sagte mir — auch ohne die Worte des",,
+275,28,6,"gleisnerischen Schurken, der mich in diese Falle gelockt hatte —, daß das Tier ebenso grausam war wie sein Herr. Wie konnte",,
+276,28,7,ich’s bis zum Morgen abwehren? Die Tür war hoffnungslos. Desgleichen die schmalen vergitterten Fenster. In dem ganzen,,
+277,28,8,"kahlen, mit Fliesen ausgelegten Raum gab es keinen Unterschlupf. Um Hilfe zu rufen, war absurd. Ich wußte, daß diese Höhle ein",,
+278,28,9,"Nebengebäude war und daß der Gang, der es mit dem Haus verband, mindestens hundert Fuß lang sein mußte. Außerdem",,
+279,28,10,würde man bei diesem Sturm mein Rufen kaum hören. Ich konnte mich nur auf meinen Mut und meine Findigkeit verlassen.,,
+280,29,1,Und dann fielen meine Augen mit neuerlichem Entsetzen auf die Laterne. Die Kerze war niedergebrannt und begann bereits zu,,
+281,29,2,"zerfließen. In zehn Minuten würde sie erloschen sein. Ich hatte also nur zehn Minuten, in denen ich etwas unternehmen konnte,",,
+282,29,3,"denn ich spürte, daß ich, sobald ich mit der Bestie allein im Dunkeln war, zu jeder Handlung unfähig sein würde. Schon der",,
+283,29,4,"Gedanke paralysierte mich. Verzweifelt ließ ich meine Augen in dieser Todeskammer umherschweifen, und sie blieben an einem",,
+284,29,5,"Punkt hängen, der nicht gerade Sicherheit zu versprechen schien, doch weniger unmittelbare und drohende Gefahr als der",,
+285,29,6,blanke Boden. ,,
+286,29,7,"Ich sagte schon, daß der Käfig ein Oberteil wie auch ein Vorderteil hatte, und dieses Oberteil blieb an Ort und Stelle, wenn das",,
+287,29,8,"Vorderteil durch den Schlitz in der Wand gedreht wurde. Es bestand aus Stäben im Abstand von wenigen Zoll, mit festem",,
+288,29,9,"Maschendraht dazwischen, und ruhte an jedem Ende auf starken Pfosten. Das Ganze stand wie ein großer Baldachin über der",,
+289,29,10,geduckten Gestalt in der Ecke. Der Abstand zwischen diesem eisernen Sims und der Decke mochte zwei oder drei Fuß betragen.,,
+290,30,1,"Wenn ich dort hinauf gelangen konnte, hatte ich, zwischen Gitter und Decke eingeklemmt, nur eine verwundbare Seite. Ich war",,
+291,30,2,"von unten sicher, von oben, von hinten und von beiden Seiten. Nur von vorn konnte ich angegriffen werden. Dort hatte ich zwar",,
+292,30,3,"keinerlei Schutz, das stimmte schon, doch würde ich zumindest dem Tier nicht im Wege sein, wenn es in seiner Höhle",,
+293,30,4,"'umherstrich. Es mußte sich zu mir bemühen, wenn es etwas von mir wollte. Jetzt oder nie, hieß es; denn war erst einmal das'",,
+294,30,5,"Licht aus, ging es nicht mehr. Mit einem Schlucken in der Kehle sprang ich hinzu, packte die Eisenkante des Oberteils und",,
+295,30,6,"schwang mich keuchend hinauf. Ich schob mich hinein, mit dem Gesicht nach unten, und stellte fest, daß ich geradeswegs in die",,
+296,30,7,schrecklichen Augen und den gähnenden Rachen der Katze blickte. Ihr stinkender Atem kam mir ins Gesicht wie der Dampf aus,,
+297,30,8,einem fauligen Kessel. ,,
+298,30,9,Indessen schien sie mehr neugierig als wütend zu sein. Mit einem geschmeidigen Wogen ihres langen schwarzen Rückens erhob,,
+299,30,10,"sie sich, reckte sich und stellte sich dann auf die Hinterläufe, stützte sich mit einer Vorderpfote an die Wand, hob die andere und",,
+300,31,1,"zog ihre Krallen unter dem Maschendraht her. Ein spitzer weißer Haken zerriß meine Hose — denn ich darf erwähnen, daß ich",,
+301,31,2,"noch im Abendanzug war — und grub mir eine Wunde ins Knie. Das war nicht als Angriff gemeint, sondern eher als Experiment,",,
+302,31,3,"denn als ich einen Schmerzensschrei ausstieß, ließ sie sich nieder, sprang leichtfüßig in den offnen Raum und wanderte behend",,
+303,31,4,"umher, wobei sie ab und zu in meine Richtung schaute. Ich für mein Teil verkroch mich mühsam nach hinten, bis ich mit dem",,
+304,31,5,"Rücken zur Mauer lag, und machte mich so klein wie möglich. Je weiter weg ich kam, desto schwieriger war’s der Bestie, mich",,
+305,31,6,anzugreifen. ,,
+306,31,7,"Jetzt, da sie umherstreifte, schien sie erregt zu werden, und leichtfüßig und lautlos lief sie in der Höhle umher, wobei sie ständig",,
+307,31,8,"unter dem eisernen Lager durchkam, auf dem ich lag. Es war wunderbar, einen so gewaltigen Körper wie einen Schatten",,
+308,31,9,"vorüberhuschen zu sehen, denn die Samtpfoten machten kaum einen Laut. Die Kerze war niedergebrannt, so daß ich das Tier",,
+309,31,10,fast nicht mehr sehen konnte. Und mit einem letzten Aufflackern und Spritzen erlosch sie gänzlich. Ich war mit der Katze im,,
+310,32,1,Dunkeln allein! ,,
+311,32,2,"Es hilft einem, einer Gefahr ins Auge zu blicken, wenn man weiß, daß man alles Menschenmögliche getan hat. Dann gibt es",,
+312,32,3,"nichts, als das Ergebnis in Ruhe abzuwarten. In diesem Fall gab es keine Möglichkeit der Sicherheit außer genau der Stelle, an",,
+313,32,4,"der ich mich befand. Ich streckte mich aus und lag still, fast ohne zu atmen, und hoffte, die Bestie werde meine Anwesenheit",,
+314,32,5,"vergessen, wenn ich sie nicht an mich erinnerte. Ich schätzte, daß es bereits zwei Uhr sein mußte. Um vier würde es hell sein. Ich",,
+315,32,6,brauchte also nur noch zwei Stunden aufs Tageslicht zu warten. ,,
+316,32,7,"Draußen wütete noch immer der Sturm, und der Regen schlug unablässig an die kleinen Fenster. Drinnen war die giftige und",,
+317,32,8,"stinkende Luft atemraubend. Die Katze konnte ich weder sehen noch hören. Ich versuchte, an andere Dinge zu denken — doch",,
+318,32,9,"war nur ein Gedanke stark genug, mich von meiner scheußlichen Lage abzulenken. Das war die Schurkerei meines Vetters,",,
+319,32,10,"seine beispiellose Heuchelei, sein boshafter Haß auf mich. Unter diesem fröhlichen Gesicht lauerte der Geist eines",,
+320,33,1,"mittelalterlichen Mörders. Und wie ich daran dachte, sah ich deutlich, wie schlau das Ganze angelegt war. Offensichtlich war er",,
+321,33,2,"mit den anderen zu Bett gegangen. Zweifellos hatte er dafür seine Zeugen. Dann war er, ohne daß sie es merkten, heimlich",,
+322,33,3,"heruntergeschlichen, hatte mich in diese Höhle gelockt und meinem Schicksal überlassen. Seine Erklärung würde ganz einfach",,
+323,33,4,"sein. Er hatte mich im Billard-Raum zurückgelassen, weil ich meine Zigarre zu Ende rauchen wollte. Ich war aus eigenem Antrieb",,
+324,33,5,"hergekommen, um mir die Katze ein letztes Mal anzusehen. Ich hatte den Raum betreten, ohne zu merken, daß der Käfig",,
+325,33,6,"geöffnet war, und die Bestie hatte mich zerfleischt. Wie konnte man ihm ein solches Verbrechen nachweisen? Verdacht —",,
+326,33,7,vielleicht. Aber Beweis — niemals! ,,
+327,33,8,"Wie langsam diese beiden furchtbaren Stunden verstrichen! Einmal hörte ich ein leises, kratzendes Geräusch. Das mußte die",,
+328,33,9,"Katze sein, die sich das Fell leckte. Etliche Male leuchteten ihre grünlich-gelben Augen zu mir herauf, doch nie zielbewußt, und",,
+329,33,10,"meine Hoffnung wuchs, daß sie meine Anwesenheit ignorierte oder gar vergessen hatte. Endlich kam ein fahler Lichtschein durch",,
+330,34,1,"die Fenster — wie zwei matte Rechtecke sah ich sie auf der schwarzen Wand. Dann wurde das Grau zu Weiß, und ich konnte",,
+331,34,2,"meinen furchterregenden Gefährten wieder sehen. Und er, natürlich, sah mich! ",,
+332,34,3,"Es war mir sogleich klar, daß er in viel gefährlicherer und angriffslustigerer Stimmung war als in der Nacht. Die Morgenkälte hatte",,
+333,34,4,"ihn gereizt, und darüber hinaus war er hungrig. Mit einem ununterbrochenen Knurren wanderte er auf der meinem Zufluchtsort",,
+334,34,5,"'gegenüberliegenden Seite des Raumes hin und her; seine Schnurrhaare sträubten sich zornig, und sein Schwanz schlug und'",,
+335,34,6,"peitschte. Jedes Mal, wenn er in einer Ecke kehrtmachte, blickten seine wilden Augen drohend zu mir herauf. Da wußte ich, daß",,
+336,34,7,"er vorhatte, mich zu zerfleischen. Und doch bewunderte ich sogar in diesem Augenblick die schlanke Grazie der teuflischen",,
+337,34,8,"Bestie, ihre langen, weichen, welligen Bewegungen, den Glanz ihrer schönen Flanken, das lebhaft zuckende Scharlach der",,
+338,34,9,"schimmernden Zunge, die ihr aus dem schwarz-glänzenden Maule hing. Und die ganze Zeit stieg das tiefe, drohende Knurren in",,
+339,34,10,"ungebrochenem Crescendo an. Ich wußte, daß die Krisis unmittelbar bevorstand. ",,
+340,35,1,"Es war ein elender Zeitpunkt, einen solchen Tod zu erleiden: So kalt, so unbehaglich, und ich zitterte in meinem leichten Anzug",,
+341,35,2,"auf diesem Marter-Rost, auf dem ich ausgestreckt lag. Ich versuchte, mich darauf vorzubereiten, meine Seele darüber zu",,
+342,35,3,"erheben — und gleichzeitig hielt ich Ausschau nach einer Fluchtmöglichkeit: mit der Hellsichtigkeit, die einem im Augenblick",,
+343,35,4,"höchster Verzweiflung gegeben ist. Eins war mir klar. Wenn nur das Vorderteil des Käfigs wieder geschlossen war, konnte ich",,
+344,35,5,"Sicherheit dahinter finden. Würde ich das Gitter möglicherweise herausziehen können? Ich wagte kaum, mich zu bewegen, um",,
+345,35,6,"mir die Bestie nicht auf den Hals zu locken. Langsam, ganz langsam streckte ich meine Hand aus, bis sie die Außenkante des",,
+346,35,7,"Vorderteils erreichte, die letzte Stange, die aus der Wand herausragte. Zu meiner Überraschung ließ sie sich verhältnismäßig",,
+347,35,8,"leicht hervorziehen. Ich zerrte weiter, und drei Zoll des Gitters kamen aus der Öffnung. Offensichtlich lief es auf Rädern. Wieder",,
+348,35,9,zog ich — da sprang die Katze! ,,
+349,35,10,"Es geschah so schnell, so plötzlich, daß ich’s überhaupt nicht sah. Ich hörte nur das wütende Knurren, und unmittelbar darauf",,
+350,36,1,waren die leuchtenden gelben Augen und der schwarze Kopf mit seiner roten Zunge und den blitzenden Zähnen genau vor mir.,,
+351,36,2,"Der Ansprung des Tiers erschütterte die Stangen, auf denen ich lag, bis ich dachte (soweit ich in diesem Moment überhaupt",,
+352,36,3,"'denken konnte), daß sie niederbrechen würden. Einen Augenblick lang schaukelte die Katze dort; Kopf und Vorderpfoten waren'",,
+353,36,4,"mir ganz nahe, und die Hinterpfoten versuchten verzweifelt, an der Kante des Käfigs einen Halt zu finden. Ich hörte das Kratzen",,
+354,36,5,"der Krallen am Draht, und vom Atem der Bestie wurde mir übel. Aber ihr Sprung war falsch berechnet. Sie konnte sich nicht",,
+355,36,6,"halten. Langsam, vor Wut grunzend und wie wild an den Stäben kratzend, rutschte sie nach hinten und schlug schwer auf dem",,
+356,36,7,Boden auf. Sogleich wandte sie sich mir knurrend zu und setzte zu einem neuen Sprunge an. ,,
+357,36,8,"Ich wußte, daß die nächsten Sekunden mein Geschick entscheiden würden. Das Tier hatte Erfahrung gesammelt. Es würde sich",,
+358,36,9,"nicht noch einmal verrechnen. Ich mußte sofort handeln, furchtlos, dann konnte ich mich vielleicht noch retten. Augenblicks hatte",,
+359,36,10,"ich einen Plan. Ich zog mein Jackett aus und warfs der Bestie über den Kopf. Im gleichen Augenblick sprang ich hinab, packte",,
+360,37,1,das Ende des Vordergitters und zog’s wie besessen aus der Wand. ,,
+361,37,2,"Es kam leichter heraus, als ich erwartet hatte. Ich lief durch den Raum und zerrte es hinter mir her, aber in der Eile geriet ich aus",,
+362,37,3,Versehen auf die falsche Seite. Andernfalls wäre ich vielleicht ohne Schaden davongekommen. So aber entstand eine kurze,,
+363,37,4,"Pause, als ich es anhielt und versuchte, durch die schmale Öffnung zu schlüpfen, die ich gelassen hatte. Dieser Augenblick ließ",,
+364,37,5,"der Bestie Zeit, den Rock abzuschütteln, mit dem ich sie geblendet hatte, und mich anzuspringen. Ich warf mich durch den Spalt",,
+365,37,6,"und zog das Gitter hinter mir zu, doch ehe ich ganz im Käfig war, erwischte sie mein Bein. Ein Schlag dieser gewaltigen Pranke",,
+366,37,7,"riß mir die Wade ab, wie ein Holzspan vom Hobel fällt. Im nächsten Augenblick lag ich blutend und halb bewußtlos auf dem",,
+367,37,8,"fauligen Stroh und hatte eine Reihe freundlicher Gitterstäbe zwischen mir und der Katze, die wütend gegen sie anrannte. ",,
+368,37,9,"Ich war zu verletzt, um mich zu bewegen, und zu schwach, um Angst zu verspüren, also lag ich nur da, mehr tot als lebendig, und",,
+369,37,10,"beobachtete sie. Sie preßte ihre breite schwarze Brust an die Stäbe und angelte mit gespreizten Krallen nach mir, wie ich’s ein",,
+370,38,1,"Kätzchen vor einer Mausefalle habe tun sehen. Sie zerriß mir die Kleider, konnte mich trotz allen Reckens aber nicht ganz",,
+371,38,2,"erreichen. Ich hatte von der merkwürdigen taubmachenden Wirkung gehört, die Wunden von großen Fleischfressern haben",,
+372,38,3,"sollen, und nun war es mir bestimmt, sie zu verspüren, denn ich hatte jedes Gefühl des persönlichen Betroffenseins verloren und",,
+373,38,4,"war an Erfolg oder Mißerfolg interessiert, als beobachtete ich irgendein Spiel. Und dann schwanden mir langsam die Sinne,",,
+374,38,5,"trieben in seltsam vage Träume ab, in die immer wieder das schwarze Gesicht und die rote Zunge einbrachen, und ich verlor",,
+375,38,6,"mich im Nirwana des Deliriums, die gesegnete Zuflucht der allzu Überforderten. ",,
+376,38,7,"Wenn ich den Verlauf der Ereignisse im Nachhinein überdenke, komme ich zu dem Schluß, daß ich an die zwei Stunden",,
+377,38,8,"bewußtlos gewesen sein muß. Was mich wieder zur Besinnung brachte, war jenes scharfe metallische Klicken, das der Vorbote",,
+378,38,9,meiner entsetzlichen Erfahrung gewesen war. Es war das Zurückklappen des Schnappschlosses. Ehe mein Kopf noch klar,,
+379,38,10,"genug war, alles aufzunehmen, wurde mir das runde, mildtätige Gesicht meines Vetters bewußt, das zur Tür hereinlugte. Was er",,
+380,39,1,"'sah, erstaunte ihn offenbar höchlichst. Die Katze kauerte auf dem Boden. Ich lag in Hemdsärmeln auf dem Rücken im Käfig,'",,
+381,39,2,"meine Hose war in Fetzen gerissen, und eine Blutlache breitete sich um mich her aus. Ich sehe noch jetzt sein verblüfftes",,
+382,39,3,"Gesicht, von der Morgensonne beschienen. Er ließ seine Augen nicht von mir. Dann schloß er die Tür hinter sich und kam zum",,
+383,39,4,"Käfig, um zu sehen, ob ich wirklich tot sei. ",,
+384,39,5,"Ich kann nicht beschreiben, was geschah. Ich war nicht in dem Zustand, ein solches Ereignis klar aufzunehmen. Ich kann nur",,
+385,39,6,"sagen, daß mir plötzlich bewußt wurde, daß mir sein Gesicht nicht mehr zugewendet war — daß er das Tier ansah. ",,
+386,39,7,"»Guter, alter Tommy!« rief er. »Guter, alter Tommy!« ",,
+387,39,8,"Dann kam er näher ans Gitter, immer noch mit dem Rücken zu mir. ",,
+388,39,9,"»Sitz, du dummes Biest!« brüllte er. »Nieder mit dir. Kennst du deinen Herrn nicht mehr?« ",,
+389,39,10,"Plötzlich kamen mir in meinem umnebelten Zustand die Worte in Erinnerung, mit denen er erklärte hatte, daß Blutgeschmack die",,
+390,40,1,Katze wildmachen würde. Mein Blut hatte es bewirkt — er aber sollte den Preis zahlen.,,
+391,40,2,"»Geh weg!« kreischte er. »Geh weg, du Teufel! Baldwin! Baldwin! Oh, mein Gott!« ",,
+392,40,3,"Und dann hörte ich ihn fallen, und aufstehen, und wieder fallen, und es klang, wie wenn man Sackleinen zerreißt. Seine Schreie",,
+393,40,4,"wurden schwächer, bis sie sich in quälendem Knurren verloren. Und dann, als ich ihn für tot hielt, sah ich wie in einem Alptraum",,
+394,40,5,"eine geblendete, zerfetzte, blutgetränkte Gestalt rasend im Raum umherrennen — das war das letzte, was ich von ihm sah, ehe",,
+395,40,6,ich wieder in Ohnmacht fiel.,,
+396,40,7,"Es dauerte viele Monate, bis ich wiederhergestellt war. Ja, eigentlich kann ich nicht sagen, daß ich mich ganz erholt hätte, denn",,
+397,40,8,bis ans Ende meiner Tage werde ich einen Stock benutzen müssen: Erinnerung an meine Nacht mit der brasilianischen Katze.,,
+398,40,9,"Baldwin, der Stallbursche, und die anderen Bediensteten konnten nicht sagen, was vorgefallen war, als sie mich, von den",,
+399,40,10,"Todesschreien ihres Herrn herbeigerufen, hinter den Gitterstäben fanden und seine Überbleibsel — oder was sie später als seine",,
+400,41,1,"Überbleibsel identifizierten — in den Fängen des Geschöpfes, das er großgezogen hatte. Sie wehrten es mit heißen Eisen ab und",,
+401,41,2,"erschossen es hernach durch den Sehschlitz in der Tür, ehe sie mich endlich herausholen konnten. Ich wurde in mein Zimmer",,
+402,41,3,"getragen, und dort, unter dem Dach des Mannes, der mich ermorden wollte, schwebte ich etliche Wochen zwischen Leben und",,
+403,41,4,"Tod. Sie hatten einen Arzt aus Clipton und eine Krankenschwester aus London kommen lassen, und nach einem Monat konnte",,
+404,41,5,man mich zum Bahnhof und nach Grosvenor Mansions bringen. ,,
+405,41,6,"Etwas ist mir aus der Krankheitszeit im Gedächtnis haften geblieben, das Teil jenes ständig wechselnden Panoramas sein",,
+406,41,7,"könnte, wie ein phantasierendes Hirn es herbeizaubert, würde ich mich dieser Einzelheit nicht so genau erinnern. Eines Abends,",,
+407,41,8,"als die Schwester abwesend war, öffnete sich die Tür meines Zimmers, und eine große Frau in tiefer Trauer kam",,
+408,41,9,"hereingeschlüpft. Sie kam zu mir herüber, und als sie ihr gelbliches Gesicht neigte, sah ich im matten Schein des Nachtlichts, daß",,
+409,41,10,"es die Brasilianerin war, die mein Cousin geheiratet hatte. Sie sah mich intensiv an, und ihr Ausdruck war freundlicher, als ich’s je",,
+410,42,1,erlebt hatte. ,,
+411,42,2,»Hören Sie mich?« fragte sie. ,,
+412,42,3,Ich nickte schwach. Sprechen konnte ich noch nicht. ,,
+413,42,4,"»Nun denn. Ich wollte Ihnen nur sagen, daß Sie selber die Schuld tragen. Habe ich nicht für Sie getan, was ich konnte? Von",,
+414,42,5,"Anfang an habe ich versucht, Sie aus dem Hause zu treiben. Mit allen Mitteln — außer, meinen Mann zu verraten — habe ich",,
+415,42,6,"versucht, Sie vor ihm zu retten. Ich wußte, daß er einen Grund hatte, Sie hierher zu holen. Ich wußte, daß er Sie nicht wieder",,
+416,42,7,"fortlassen würde. Niemand kannte ihn so gut wie ich, die ich soviel von ihm zu leiden hatte. Ich wagte nicht, Ihnen das zu sagen.",,
+417,42,8,"Er hätte mich umgebracht. Aber ich habe mein Bestes getan. So, wie alles gekommen ist, sind Sie der beste Freund gewesen,",,
+418,42,9,"den ich jemals hatte. Sie haben mir die Freiheit gegeben, und ich dachte, nur dem Tod würde das gelingen. Es tut mir leid, daß",,
+419,42,10,"Sie verletzt sind, aber ich kann mir keine Vorhaltungen machen. Ich habe Ihnen gesagt, daß Sie ein Narr seien — und ein Narr",,
+420,43,1,waren Sie.« ,,
+421,43,2,"Sie schlich sich aus dem Zimmer, eine verbitterte, einsame Frau, und ich sollte sie nie wiedersehen. Mit dem, was vom Eigentum",,
+422,43,3,"ihres Gatten blieb, ging sie in ihr Heimatland zurück, und ich habe gehört, daß sie in Pernambuco später den Schleier nahm. ",,
+423,43,4,"Erst, als ich seit einiger Zeit in London war, erklärten die Ärzte mich für in der Lage, meinen Geschäften nachzugehen. Das war",,
+424,43,5,"'keine sehr willkommene Erlaubnis, denn ich fürchtete, es wäre das Signal für einen Ansturm von Gläubigern; indessen war es'",,
+425,43,6,"Summers, mein Anwalt, der als erster Gebrauch davon machte. ",,
+426,43,7,"»Ich freue mich sehr, daß es Eurer Lordschaft so viel besser geht«, sagte er. »Ich warte seit langem, um meine Glückwünsche",,
+427,43,8,übermitteln zu dürfen.« ,,
+428,43,9,"»Was wollen Sie damit sagen, Summers? Für solche Späße ist’s nicht die rechte Zeit.« ",,
+429,43,10,"»Es stimmt, was ich sage«, gab er zur Antwort. »Seit sechs Wochen seid Ihr Lord Southerton, doch fürchteten wir, es könnte Eure",,
+430,44,1,"Rekonvaleszenz verzögern, wenn Ihr es erführet.« ",,
+431,44,2,"Lord Southerton! Einer der reichsten Peers Englands! Ich traute meinen Ohren nicht. Und dann dachte ich plötzlich an die Zeit,",,
+432,44,3,"die verstrichen war, und an den Zeitpunkt meiner Verwundung. ",,
+433,44,4,"»Dann muß Lord Southerton gestorben sein, als ich verletzt wurde?« ",,
+434,44,5,"»Sein Tod trat am gleichen Tage ein.« Summers sah mich scharf an, als er sprach, und ich bin überzeugt — denn er war ein",,
+435,44,6,"gerissener Bursche —, daß er den wahren Sachverhalt erraten hatte. Er wartete einen Augenblick, als erhoffe er ein",,
+436,44,7,"Eingeständnis von mir, aber ich sah keinen Grund, ihn in einen solchen Familienskandal einzuweihen. ",,
+437,44,8,"»Ja, eine höchst merkwürdige Koinzidenz«, fuhr er mit dem gleichen wissenden Blick fort. »Natürlich ist Euch klar, daß Euer",,
+438,44,9,"Cousin Everard King sein nächstfolgender Erbe war. Nun, und wenn jetzt dieser Tiger — oder was es war — nicht ihn in Stücke",,
+439,44,10,"gerissen hätte, sondern Euch, dann wäre natürlich er in diesem Augenblick Lord Southerton.« ",,
+440,45,1,"»Ohne Zweifel«, sagte ich. ",,
+441,45,2,"»Und er war sehr daran interessiert«, sagte Summers. »Ich weiß zufällig, daß der Kammerdiener des abgeschiedenen Lord",,
+442,45,3,"Southerton in seinem Solde stand und daß er alle paar Stunden ein Telegramm von ihm bekam, das ihm den Stand der Dinge",,
+443,45,4,"anzeigte. Das muß zu der Zeit gewesen sein, da Ihr dort wart. Ist’s nicht merkwürdig, daß er so gut informiert zu sein wünschte,",,
+444,45,5,"da er doch wußte, daß er gar nicht der direkte Erbe war?«",,
+445,45,6,"»Sehr merkwürdig«, sagte ich. »Und jetzt, Summers, bringen Sie mir bitte meine Rechnungen und ein neues Scheckbuch, damit",,
+446,45,7,"wir anfangen können, Ordnung zu schaffen.«",,
+447,46,1,"Vielen Dank für deine Teilnahme. Du bekommst jetzt noch einen kleinen Fragebogen. Drücke 's'.""",,
