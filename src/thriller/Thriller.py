@@ -32,6 +32,7 @@ from src.thriller.utils import (
 
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
+import src.thriller.wilmot as wilmot
 
 
 def main(args):
@@ -107,6 +108,8 @@ def main(args):
         experiment = brewer
     elif experiment_series == "delatorre":
         experiment = delatorre
+    elif experiment_series == "wilmot":
+        experiment = wilmot
     if not experiment:
         raise ValueError(
             "Valid experiment series not found (must be gerrig, lehne, or delatorre)"

@@ -1,0 +1,42 @@
+experiment:
+  experiment_series: "wilmot"
+  output_dir: "./outputs/wilmot_experiment/standard/deterministic/"
+model:
+  api_type: "together"
+  name: [
+  # "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+  # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  # "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  # "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+  # "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+  # "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+  # "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+  # "google/gemma-2-27b-it",
+  # "google/gemma-2-9b-it",
+  # "google/gemma-2b-it",
+  # "mistralai/Mistral-7B-Instruct-v0.3",
+  # "mistralai/Mistral-7B-Instruct-v0.2",
+  # "mistralai/Mistral-7B-Instruct-v0.1",
+  # "mistralai/Mixtral-8x7B-Instruct-v0.1",
+  # "mistralai/Mixtral-8x22B-Instruct-v0.1",
+  # "Qwen/Qwen1.5-72B-Chat",
+  # "Qwen/Qwen1.5-110B-Chat",
+  "Qwen/Qwen2-72B-Instruct",
+    ]
+  max_tokens: 100
+  temperature: 0.0
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  prompt: >
+    The following text rates the suspense of each line in the passage from 1-5. Extract the suspense rating from the text. Extract only the numerical value and none of the text. Ignore any additional commentary or analysis provided after the rating. Structure your response to only include the value in the following format: ```1. value```
+  max_tokens: 100
+  temperature: 0.0 # Parser should always be deterministic
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
