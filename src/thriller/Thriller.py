@@ -21,8 +21,6 @@ project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-import src.thriller.gerrig as gerrig
-import src.thriller.lehne as lehne
 from src.thriller.misc import run_experiment
 from src.thriller.utils import (
     load_config,
@@ -30,8 +28,11 @@ from src.thriller.utils import (
     generate_experiment_id,
 )
 
+import src.thriller.gerrig as gerrig
+import src.thriller.lehne as lehne
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
+import src.thriller.bentz as bentz
 
 
 def main(args):
@@ -107,6 +108,8 @@ def main(args):
         experiment = brewer
     elif experiment_series == "delatorre":
         experiment = delatorre
+    elif experiment_series == "bentz":
+        experiment = bentz
     if not experiment:
         raise ValueError(
             "Valid experiment series not found (must be gerrig, lehne, or delatorre)"

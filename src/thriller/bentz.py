@@ -1,0 +1,912 @@
+"""
+Define Bentz experiments from Bentz, M., Cortez Espinoza, M., Simeonova, V., Köppe, T., & Onea, E. (2024). Measuring Suspense in Real Time: A New Experimental Methodology. Scientific Study of Literature, 12(1), 92–112. DOI: https://doi.org/10.61645/ssol.182
+"""
+
+common_prompt_template = """The following is Arthur Conan Doyle's "The Brazilian Cat" in German. 
+
+After each passage, rate how suspensful you found it to be. Provide any numerical value, with a minimum of 0 which is "not suspenseful"."""
+
+experiment_text = """
+Es ist schlecht für einen jungen Mann, wenn er kostspielige Neigungen hat, große Erwartungen, aristokratische Verbindungen,
+
+jedoch kein Geld in der Tasche und keinen Beruf, in dem er etwas verdienen könnte. Die Sache war die: Mein Vater, ein guter,
+
+zuversichtlicher, umgänglicher Mann, hatte solches Vertrauen in den Reichtum und die Mildtätigkeit seines unverheirateten
+
+älteren Bruders, Lord Southerton, daß er es für ausgemacht hielt, daß ich, sein einziger Sohn, mir nie meinen Lebensunterhalt
+
+würde verdienen müssen. Gab es keine Vakanz auf den großen Southerton-Gütern, so würde sich, seiner Meinung nach,
+
+zumindest irgendein Posten im diplomatischen Dienst für mich finden, der noch immer die Domäne für unsere privilegierten
+
+Klassen darstellte. Er starb zu früh, um zu erkennen, wie falsch seine Überlegungen gewesen waren. Weder mein Onkel noch
+
+der Staat nahmen die geringste Notiz von mir oder zeigten irgendwelches Interesse an meiner Karriere. Einige Fasanen oder ein
+
+paar Hasen, das war alles, was mir gelegentlich zeigte, daß ich Erbe von Otwell House und einem der reichsten Güter im Lande
+
+war. Unterdessen führte ich ein städtisches Junggesellenleben und bewohnte eine Appartement-Suite in Grosvenor Mansions —
+
+ohne Beschäftigung außer Taubenschießen und Polospielen in Hurlingham. Jeden Monat merkte ich deutlicher, daß es immer
+
+schwieriger wurde, Zahlungsaufschub zu erlangen oder weitere Post-obits auf einen Besitz zu kassieren, der mir überhaupt nicht
+
+als Erblehen übertragen war. Der Ruin stand unmittelbar bevor, und jeden Tag sah ich ihn klarer, näher und unabwendbarer.
+
+ Was mir meine Armut noch fühlbarer machte, war die Tatsache, daß — vom großen Reichtum Lord Southertons abgesehen —
+
+alle meine Verwandten recht bemittelt waren. Der mir nächste war Everard King, ein Neffe meines Vaters und somit mein Vetter
+
+ersten Grades, der in Brasilien ein abenteuerliches Leben geführt hatte und jetzt zurückgekehrt war, um sich auf seinem
+
+Vermögen auszuruhen. Wir haben nie erfahren, wie er zu seinem Gelde gekommen ist, doch schien er’s reichlich zu haben, denn
+
+er kaufte die Besitzung Greylands nahe Clipton-on-the-Marsh in Suffolk. Im ersten Jahr seines Aufenthalts in England nahm er
+
+ebensowenig Notiz von mir wie mein geiziger Onkel, doch an einem Sommermorgen endlich erhielt ich — zu meiner größten
+
+Erleichterung und Freude — einen Brief, in dem ich gebeten wurde, am gleichen Tag zu kommen und Greylands Court einen
+
+kurzen Besuch abzustatten. Zu dieser Zeit erwartete ich einen ziemlich langen Besuch im Bankrott Court, meiner Schulden
+
+wegen, und so kam diese Einladung fast wie von der Vorsehung geschickt. Kam ich mit diesem unbekannten Verwandten zu
+
+einer Einigung, mochte ich vielleicht noch einmal davonkommen. Der Familie wegen konnte er mich nicht gänzlich vor die Hunde
+
+gehen lassen. Ich wies meinen Diener an, den Koffer zu packen, und am gleichen Abend setzte ich mich nach
+
+Clipton-on-the-Marsh in Bewegung. 
+
+'Nachdem ich in Ipswich umgestiegen war, brachte mich eine kleine Bummelbahn zu einem winzigen, verlassenen Bahnhof; er lag'
+
+in hügeligem Weideland  durch dessen Niederungen sich ein träger Fluß wand seine hohen verschlammten Uferböschungen
+
+zeigten an, daß wir in Reichweite der Gezeiten waren. Kein Wagen erwartete mich (wie ich später erfuhr, war mein Telegramm
+
+nicht rechtzeitig angekommen), also mietete ich im Gasthaus einen Dogcart. Der Fahrer, ein famoser Bursche, war voll des Lobes
+
+über meinen Verwandten, und von ihm erfuhr ich, daß der Name Everard King in diesem Teil des Landes bereits einer
+
+Zauberformel glich. Er bewirtete die Schulkinder, machte sein Anwesen Besuchern zugänglich, gab Geld für gute Zwecke — kurz:
+
+Seine Mildtätigkeit war derart umfassend, daß mein Fahrer sie nur damit erklären konnte, daß mein Cousin parlamentarische
+
+Ambitionen haben müsse. 
+
+Von der Lobrede meines Fahrers lenkte mich ein sehr schöner Vogel ab, der auf einem Telegraphenmast am Straßenrande
+
+hockte. Zuerst hielt ich ihn für einen Eichelhäher, aber er war größer und hatte ein bunteres Gefieder. Der Fahrer erklärte
+
+'sogleich seine Anwesenheit; er sagte, er gehöre dem Manne, zu dem wir unterwegs seien. Es schien, als sei die Akklimatisierung'
+
+fremder Tiere eines seiner Hobbies  er hatte wohl aus Brasilien eine Anzahl von Vögeln und anderen Tieren mitgebracht, die er
+
+in England heimisch machen wollte. 
+
+Als wir das Tor von Greylands Park durchfahren hatten, sahen wir zahlreiche Beweise seiner Liebhaberei. Eine Art kleinen,
+
+gefleckten Rehes, ein seltsames Wildschwein (Peccary genannt, glaube ich), eine prachtvoll gefiederte Goldamsel, ein
+
+Armadillo-ähnliches Wesen und ein seltsames, einwärts laufendes Geschöpf wie ein sehr fetter Dachs — das waren einige der
+
+Tiere, die ich bemerkte, während wir den gewundenen Pfad hinauffuhren. 
+
+Mr. Everard King, mein unbekannter Cousin, stand in voller Lebensgröße auf den Stufen seines Hauses, da er uns von fern
+
+'gesehen hatte und vermutete, daß ich es sei. Seine Erscheinung war sehr schlicht und wohlwollend, klein und gedrungen;'
+
+fünfundvierzig Jahre alt mochte er sein, mit einem runden und gutmütigen Gesicht, braungebrannt von der tropischen Sonne und
+
+von tausend Fältchen durchzogen. Er trug einen weißen Leinenanzug im echten Pflanzerstil und hatte eine Zigarre zwischen den
+
+Lippen und einen großen Panamahut auf dem Hinterkopf. Er war ein Mann, wie man ihn sich auf der Veranda eines Bungalows
+
+in den Tropen vorstellt, und vor diesem breiten englischen Steinhause mit seinen soliden Seitenflügeln und Palladio-Säulen vor
+
+dem Eingang wirkte er merkwürdig deplaziert. 
+
+Meine Liebe! rief er mit einem Blick über die Schulter, meine Liebe, unser Gast ist da! — Willkommen, willkommen auf
+
+Greylands! Ich bin entzückt, deine Bekanntschaft zu machen, Vetter Marshall, und ich fasse es als großes Kompliment auf, daß
+
+du dieses verschlafene kleine Landhaus mit deiner Anwesenheit beehrst. 
+
+Seine Begrüßung hätte nicht herzlicher sein können, und ich fühlte mich sogleich wohl. Aber es bedurfte seiner ganzen
+
+Herzlichkeit, um die Kälte, ja Unhöflichkeit seiner Frau wettzumachen, einer großen, hageren Person, die auf seinen Wunsch hin
+
+herauskam. Sie war, glaube ich, brasilianischer Herkunft, obgleich sie ausgezeichnet englisch sprach, und ich entschuldigte ihr
+
+Benehmen mit ihrer Unkenntnis unsrer Sitten. Sie versuchte indessen nicht zu verhehlen, weder jetzt noch später, daß ich kein
+
+sehr willkommener Besucher in Greylands Court war. Was sie sagte, klang in der Regel höflich, aber sie besaß ein Paar
+
+ungewöhnlich ausdrucksvoller schwarzer Augen, und in denen las ich von Anfang an recht deutlich, daß sie mich aus ganzem
+
+Herzen wieder nach London wünschte. 
+
+Meine Schulden hingegen waren zu drückend und meine Pläne bezüglich meines Verwandten zu lebenswichtig, als daß ich’s mir
+
+hätte erlauben können, sie von der schlechten Laune seiner Frau durchkreuzen zu lassen, also übersah ich ihre Kälte und
+
+erwiderte die warme Herzlichkeit seines Empfangs. Er hatte keine Mühe gescheut, mir meinen Aufenthalt angenehm zu
+
+gestalten. Mein Zimmer war bezaubernd. Er bat mich eindringlich, ihn wissen zu lassen, womit er mein Glück vervollständigen
+
+könne. Nun, es lag mir auf der Zunge, ihm zu sagen, daß ein Blankoscheck für diesen Zweck am besten geeignet sei, doch
+
+schien’s mir im augenblicklichen Stadium unsrer Bekanntschaft ein wenig voreilig. Das Dinner war ausgezeichnet, und als wir
+
+hinterher seine Havanas rauchten und seinen Kaffee tranken, der, wie er mir erzählte, auf seiner eigenen Pflanzung besonders
+
+behandelt wurde, da wollte mir scheinen, daß alle Lobgesänge meines Fahrers gerechtfertigt waren und daß ich noch nie einen
+
+so weitherzigen und gastfreien Mann kennengelernt hatte. 
+
+Trotz seiner fröhlichen Gutmütigkeit aber war er ein Mann von starkem Willen und hitzigem Naturell. Hiervon bekam ich am
+
+folgenden Morgen ein Beispiel. Die sonderbare Abneigung, die Mrs. Everard King mir gegenüber entwickelt hatte, war so stark,
+
+daß ihr Benehmen beim Frühstück beinahe beleidigend wirkte. Unmißverständlich jedoch wurde ihre Absicht, als ihr Gatte das
+
+Zimmer verlassen hatte. 
+
+Der beste Zug am Tage ist der um zwölf Uhr fünfzehn, sagte sie. 
+
+Aber ich wollte heute ja noch gar nicht abreisen, antwortete ich offen — vielleicht sogar trotzig, denn ich war entschlossen,
+
+mich von dieser Frau nicht hinausdrängen zu lassen. 
+
+Oh, wenn’s an Ihnen liegt —  sagte sie und hielt inne, wobei in ihren Augen ein höchst unverschämter Ausdruck lag. 
+
+Ich glaube bestimmt, erwiderte ich, daß Mr. Everard King es mir sagen würde, wenn meine Anwesenheit nicht mehr
+
+erwünscht wäre. 
+
+Was heißt das? Was heißt das? sagte eine Stimme, und schon war er im Zimmer. Er hatte meine letzten Worte mitangehört,
+
+und ein Blick auf unsre Gesichter sagte ihm den Rest. Augenblicks zeigte sein pausbäckiges, fröhliches Gesicht einen Ausdruck
+
+größter Wildheit. 
+
+Würdest du so freundlich sein, eine Minute hinauszugehen, Marshall? sagte er. (Ich darf vielleicht erwähnen, daß ich Marshall
+
+King heiße.) 
+
+Er schloß die Tür hinter mir, und dann hörte ich ganz kurz, wie er eindringlich auf seine Frau einredete. Dieser grobe Bruch der
+
+Gastfreundschaft hatte ihn offensichtlich an der empfindlichsten Stelle getroffen. Ich bin kein Lauscher an der Wand, also ging ich
+
+'auf den Rasen hinaus. Alsbald hörte ich eilige Schritte, und da kam die Dame des Hauses; ihr Gesicht war bleich vor Erregung,'
+
+und ihre Augen waren rot von Tränen. 
+
+Mein Mann hat mich aufgefordert, Sie um Verzeihung zu bitten, Mr. Marshall King, sagte sie, als sie mit niedergeschlagenen
+
+Augen vor mir stand. 
+
+Bitte, kein Wort weiter, Mrs. King. 
+
+Plötzlich blitzten mich ihre dunklen Augen an. 
+
+Sie Narr! zischte sie mit leidenschaftlicher Heftigkeit, machte kehrt und eilte ins Haus. 
+
+Diese Beleidigung war derart unerhört, derart unverzeihlich, daß ich nur dastehen und ihr verwirrt nachstarren konnte. So stand
+
+ich noch, als mein Gastgeber sich mir beigesellte. Er war wieder sein fröhliches, pausbäckiges Selbst. 
+
+Ich hoffe, daß sich meine Frau für ihre albernen Bemerkungen entschuldigt hat, sagte er. 
+
+Aber ja — ja, gewiß! 
+
+Er schob seine Hand unter meinen Arm und ging mit mir auf dem Rasen hin und her. 
+
+Du darfst’s nicht ernst nehmen, sagte er. Es würde mich unsagbar grämen, wenn du deinen Besuch auch nur um eine Stunde
+
+verkürztest. Die Sache ist die — es gibt keinen Grund, weshalb wir unter Verwandten Heimlichkeiten haben sollten —, daß mein
+
+armes, liebes Weib unglaublich eifersüchtig ist. Sie haßt jeden — männlich oder weiblich —, der sich auch nur für eine Sekunde
+
+zwischen uns schieben könnte. Ihre Idealvorstellung ist eine einsame Insel und ein ewiges tête-à-tête. Jetzt hast du den Schlüssel
+
+zu ihrer Handlungsweise, die an diesem Punkt, das gebe ich zu, von einer Manie nicht weit entfernt ist. Sag mir, daß du’s nicht
+
+mehr übelnimmst. 
+
+Aber nein, auf gar keinen Fall. 
+
+Dann steck dir diese Zigarre an und komm mit. Wir wollen uns meine kleine Menagerie ansehen. 
+
+Der ganze Nachmittag wurde mit dieser Besichtigung zugebracht, die alle Vögel, Säugetiere und Reptilien umfaßte, die er
+
+importiert hatte. Einige liefen frei umher, andere befanden sich in Käfigen, einige im Hause. Begeistert berichtete er von seinen
+
+Erfolgen und Fehlschlägen, von den Geburten und Todesfällen, und wie ein Schuljunge brach er in lautes Entzücken aus, wenn
+
+unterwegs ein grellfarbener Vogel aus dem Grase aufflatterte oder irgendein merkwürdiges Tier Deckung suchte. Schließlich
+
+führte er mich einen Gang hinab, der von einem Seitenflügel des Hauses ausging. An seinem Ende war eine schwere Tür mit
+
+einem Schlitzverschluß, und daneben ragte aus der Wand ein eiserner Griff hervor, der zu einem Rad und einer Trommel
+
+gehörte. Eine Reihe starker Eisenstäbe versperrte den Gang. 
+
+Jetzt werde ich dir das Prunkstück meiner Sammlung vorführen, sagte er. In Europa gibt’s nur noch ein anderes Exemplar,
+
+seit das Amsterdamer Jungtier tot ist. Es ist eine brasilianische Katze. 
+
+Aber wie unterscheidet sie sich von anderen Katzen? 
+
+Das wirst du gleich sehen, sagte er lachend. Willst du bitte den Schieber heben und durchblicken? 
+
+Das tat ich und starrte in einen großen leeren Raum mit Fliesen auf dem Boden und kleinen vergitterten Fenstern in der
+
+gegenüberliegenden Wand. In der Mitte dieses Raumes lag in einem Flecken goldnen Sonnenscheins ein riesiges Tier
+
+ausgestreckt, so groß wie ein Tiger, doch schwarz und glatt wie Ebenholz. Es war einfach eine riesenhafte und sehr gut
+
+gehaltene schwarze Katze, und die kauerte und wärmte sich in dem gelben Lichtfleck wie jede normale Katze. Sie war so
+
+anmutig, so sehnig und sanft und schmeichlerisch teuflisch, daß ich meine Augen nicht von der Öffnung nehmen konnte. 
+
+Ist das nicht ein herrlicher Kerl? fragte mein Gastgeber begeistert. 
+
+Prachtvoll. So ein edles Tier habe ich noch nie gesehen. 
+
+Manche sagen, es sei ein schwarzer Puma, in Wirklichkeit ist’s aber kein Puma. Der Kerl mißt von der Nase bis zur
+
+Schwanzspitze an die elf Fuß. Vor vier Jahren war er ein kleiner Ball aus schwarzem Flaum, aus dem zwei gelbe Augen
+
+herausstarrten. Er wurde mir als neugeborenes Jungtier im Quellgebiet des Rio Negro verkauft. Sie haben seine Mutter mit
+
+Speeren erlegt, nachdem sie ein Dutzend von ihnen getötet hatte.
+
+Also sind’s gefährliche Tiere? 
+
+Die gefährlichsten und blutrünstigsten Tiere der Erde. Erzähl einem Indianer im Innern was von einer brasilianischen Katze, da
+
+sollst du mal sehen, wie er das Zittern kriegt. Sie bevorzugen Menschenfleisch. Dieser Kerl hat noch nie lebendiges Blut gekostet,
+
+aber wenn er’s tut, ist er nicht mehr zu halten. Augenblicklich duldet er niemanden außer mir in seiner Höhle. Sogar Baldwin, der
+
+Diener, wagt sich nicht in seine Nähe. Ich — nun ja, ich bin für ihn Mutter und Vater in einem.
+
+Während er sprach, öffnete er zu meinem Erstaunen die Tür, schlüpfte hindurch und schloß sie sogleich hinter sich. Beim Klang
+
+seiner Stimme erhob sich das riesige, geschmeidige Tier, gähnte und rieb seinen runden schwarzen Kopf zutraulich an seiner
+
+Seite, während er es streichelte und kraulte. 
+
+So, Tommy, jetzt in deinen Käfig! sagte er. 
+
+Die gewaltige Katze ging zur einen Seite des Raumes hinüber und rollte sich unter einem Gitter zusammen. Everard King kam
+
+heraus, packte den Eisengriff, den ich bereits erwähnte, und drehte daran. Dabei schoben sich die Gitterstäbe im Gang durch
+
+einen Schlitz in der Mauer und schlossen die Vorderseite des Gatters, so daß ein geschlossener Käfig entstand. Alsdann öffnete
+
+mein Vetter die Tür wieder und ließ mich in den Raum, in dem ein beißender, muffiger Gestank herrschte, wie er großen
+
+Fleischfressern eigentümlich ist. 
+
+So funktioniert das, sagte er. Tagsüber kann er sich im Zimmer tummeln, und nachts stecken wir ihn in diesen Käfig. Man
+
+kann ihn herauslassen, indem man den Griff im Gang betätigt, und auf die gleiche Weise wird er wieder eingesperrt, wie du
+
+gesehen hast. — Nein, nein, das darfst du nicht! 
+
+Ich hatte meine Hand durch das Gitter gesteckt, um die glänzende, atmende Flanke zu streicheln. Mit ernstem Gesicht zog er
+
+mich zurück. 
+
+Ich sage dir: Tommy ist gefährlich! Weil ich mir etwas bei ihm herausnehme, darfst du nicht glauben, daß das ein anderer auch
+
+kann. Er ist sehr wählerisch in seinen Freundschaften — stimmt’s nicht, Tommy? Ah, er hört sein Futter kommen. Nicht wahr,
+
+mein Junge? 
+
+;Schritte klangen auf dem fliesenbelegten Gang, und das Tier sprang auf die Füße und schlich in dem schmalen Käfig hin und her,'
+
+seine gelben Augen leuchteten, und seine scharlachrote Zunge fuhr bebend über die Reihe seiner weißen, gezackten Zähne. Ein
+
+Diener kam mit einem großen Keulenstück auf einem Tablett herein und warf’s ihm durchs Gitter vor. Es stürzte sich behend
+
+'darauf und trug’s in eine Ecke; dort hielt es das Fleisch zwischen den Pfoten, zerrte und riß daran und hob ab und zu sein'
+
+blutiges Maul, um uns einen Blick zuzuwerfen. Es war ein böses und dabei faszinierendes Schauspiel.
+
+Du wirst dich kaum wundern, daß er mir ans Herz gewachsen ist, wie? sagte mein Gastgeber, als wir den Raum verließen.
+
+Besonders, wenn du bedenkst, daß ich ihn selber aufgezogen habe. Es war kein Spaß, ihn aus dem innersten Südamerika
+
+herüberzubringen. Aber hier ist er sicher und gut aufgehoben — und, wie ich schon sagte, das vollkommenste Exemplar seiner
+
+Gattung in Europa. Die Leute vom Zoo wollen ihn unbedingt haben, aber ich kann mich nun einmal nicht von ihm trennen. Nun,
+
+ich glaube, ich habe dich mit meinem Hobby lange genug angeödet, also werden wir’s Tommy gleichtun und uns zu Tisch
+
+begeben. 
+
+Mein südamerikanischer Verwandter war von seinem Anwesen und dessen ausgefallenen Bewohnern derart in Anspruch
+
+genommen, daß ich ihm anfangs kaum irgendwelche anderen Interessen zutraute. Daß er welche hatte, und zwar dringliche, das
+
+wurde mir alsbald durch die zahlreichen Telegramme klar, die er erhielt. Sie kamen zu allen möglichen Zeiten, und stets öffnete er
+
+sie äußerst wißbegierig und eifrig. Manchmal meinte ich, es müsse sich um Pferdewetten handeln, manchmal tippte ich auf
+
+Börsenspekulationen — wie dem auch sei: er mußte sehr dringliche Geschäfte haben, die auf den Downs von Suffolk nicht
+
+abgewickelt wurden. Im Verlauf der sechs Tage meines Besuches bekam er nie weniger als drei oder vier Telegramme pro Tag,
+
+bisweilen sieben oder acht. 
+
+Ich hatte diese sechs Tage so gut genutzt, daß ich am Ende mit meinem Vetter auf dem vertrautesten Fuße stand. Jeden Abend
+
+saßen wir noch spät im Billard-Zimmer, wo er mir die aufregendsten Berichte von seinen Abenteuern in Amerika gab — derart
+
+verzweifelte und wagemutige Geschichten, daß ich sie kaum mit dem kleinen braunen, pausbäckigen Mann mir gegenüber in
+
+Verbindung bringen konnte. Ich meinerseits gab ein paar Reminiszenzen des Londoner Lebens zum besten, die ihn derart
+
+interessierten, daß er schwor, er werde nach Grosvenor Mansions kommen und bei mir wohnen. Er war begierig, die Hektik des
+
+Stadtlebens kennenzulernen, und bei aller Bescheidenheit muß ich sagen, daß er sich keinen kompetenteren Führer hätte
+
+aussuchen können. Erst am letzten Tage meines Besuchs wagte ich, auf das anzuspielen, was ich auf dem Herzen hatte. Ich
+
+erzählte ihm offen von meinen pekuniären Schwierigkeiten und meinem drohenden Ruin und bat um seinen Rat — wenn ich
+
+auch etwas Handgreiflicheres erhoffte. Er hörte aufmerksam zu und zog kräftig an seiner Zigarre: 
+
+Aber du bist doch der Erbe unseres Verwandten, Lord Southerton? sagte er. 
+
+Ich habe jeden Grund, das anzunehmen, aber es kommt ihm nicht in den Sinn, mir eine Rente auszusetzen. 
+
+Ja, ja, ich habe von seinem Geiz gehört. Mein armer Marshall, deine Situation ist scheußlich. Nebenbei bemerkt: Hast du in
+
+letzter Zeit etwas von Lord Southertons Gesundheitszustand gehört? 
+
+Seit meiner Kindheit ist sein Zustand kritisch. 
+
+Genau. Der Teller mit einem Sprung, der nie entzweigeht. Dein Erbe kann in weiter Ferne liegen. Du meine Güte: wie ist deine
+
+Lage unangenehm! 
+
+Ich hatte gehofft, lieber Vetter, daß du mir vielleicht, da dir ja alle Fakten bekannt sind... 
+
+Kein Wort weiter, mein Junge, sagte er mit der größten Herzlichkeit. Wir werden es heute abend besprechen, und ich gebe
+
+dir mein Wort, daß alles getan wird, was in meinen Kräften steht.
+
+Ich bedauerte es nicht, daß mein Besuch sich dem Ende näherte, denn es ist ein unangenehmes Gefühl, zu wissen, daß jemand
+
+im Hause ist, der einen möglichst bald los sein möchte. Mrs. Kings gelbliches Gesicht und ihre abstoßenden Augen wurden mir
+
+von Tag zu Tag verhaßter. Sie war nicht mehr grob — das verhinderte die Angst vor ihrem Mann —, doch trieb sie ihre
+
+ungesunde Eifersucht so weit, daß sie mich ignorierte und mir meinen Aufenthalt in Greylands so unbehaglich wie möglich
+
+machte. Ihr Benehmen am letzten Tag war derart beleidigend, daß ich bestimmt abgereist wäre, hätte nicht die Besprechung mit
+
+meinem Gastgeber in Aussicht gestanden, von der ich mir die Wiederherstellung meiner finanziellen Unabhängigkeit versprach. 
+
+Es war sehr spät, als sie stattfand, denn mein Vetter, der im Verlauf des Tages noch mehr Telegramme als gewöhnlich
+
+bekommen hatte, zog sich nach dem Essen in sein Arbeitszimmer zurück und kam erst wieder hervor, als sich die übrigen
+
+Hausbewohner zur Ruhe begeben hatten. Ich hörte ihn umhergehen und die Türen abschließen, wie er’s jeden Abend tat, und
+
+endlich kam er zu mir ins Billardzimmer. Seine kompakte Gestalt war mit einem Morgenrock bekleidet, und dazu trug er rote
+
+türkische Pantoffeln ohne Absätze. Als er sich in einem Sessel niedergelassen hatte, braute er sich einen Grog, bei dem der
+
+Whisky erheblich überwog, wie ich bemerkte. 
+
+Meine Güte, sagte er, was für eine Nacht! 
+
+So war’s. Der Wind schrie und heulte ums Haus, und die Fensterläden ratterten und klapperten, als sollten sie abgerissen
+
+werden. Als Kontrast hierzu schienen die gelben Lichter heller zu glühen und unsre Zigarren besser denn je zu duften. 
+
+Nun, mein Junge, sagte der Gastgeber. Wir haben das Haus und die Nacht für uns. Gib mir einen Überblick über den Stand
+
+deiner Angelegenheiten, und ich werde zusehen, was man tun kann, um sie in Ordnung zu bringen. Ich möchte jede Einzelheit
+
+hören. 
+
+Dergestalt ermutigt, begann ich mit einer ausführlichen Darstellung, in der alle meine Kaufleute und Gläubiger vom Hauswirt bis
+
+zum Diener auftauchten. Ich hatte Notizen in meiner Brieftasche und stellte alles zusammen und gab, so schmeichle ich mir,
+
+einen untadligen Geschäftsbericht meiner höchst ungeschäftlichen Verfahrensweise und jämmerlichen Lage. Ich stellte jedoch zu
+
+meiner Enttäuschung fest, daß meines Vetters Augen leer waren und seine Gedanken weit fort. Wenn er gelegentlich eine
+
+Bemerkung einflocht, so war sie so oberflächlich und unzutreffend, daß ich überzeugt war, er sei meinen Ausführungen
+
+überhaupt nicht gefolgt. Dann und wann einmal gab er sich einen Ruck und heuchelte Anteilnahme, indem er mich bat, einen
+
+Punkt genauer zu erklären, doch jedes Mal wurde er sogleich wieder zu einer braunen Statue. Endlich erhob er sich und warf
+
+den Rest seiner Zigarre in den Kamin. 
+
+Ich will dir mal etwas sagen, mein Junge, sagte er. 
+
+Ich habe nie einen Sinn für Zahlen gehabt, das wirst du entschuldigen. Du mußt alles schön zu Papier bringen, so daß ich den
+
+Betrag vor Augen habe. Ich versteh’s, sobald ich’s schwarz auf weiß vor mir sehe. 
+
+Der Vorschlag war ermutigend. Ich versprach, die Aufstellung anzufertigen. 
+
+Und jetzt ist’s an der Zeit, zu Bett zu gehen. Himmel, in der Halle schlägt’s eins. 
+
+Das helle Läuten der Uhr brach durch das tiefe Grollen des Sturms. Der Wind rauschte ums Haus wie ein angeschwollener
+
+Strom. 
+
+Ich muß die Katze nochmal sehen, ehe ich ins Bett gehe, sagte mein Cousin. Ein solcher Sturm erregt sie. Kommst du mit? 
+
+Gewiß, sagte ich. 
+
+Dann geh leise und sprich nicht, denn sie schlafen alle. 
+
+Schweigend durchquerten wir die von Lampen erleuchtete und mit Perserteppichen ausgelegte Halle und gingen durch die Tür
+
+am hinteren Ende. Im Steinkorridor war alles dunkel, aber an einem Haken hing eine Stall-Laterne, und mein Vetter nahm sie ab
+
+und zündete sie an. Im Gang war kein Gitter zu sehen, da wußte ich, daß das Tier im Käfig sein mußte. 
+
+Komm! sagte mein Verwandter und öffnete die Tür. 
+
+Ein tiefes Knurren bei unserm Eintreten zeigte, daß der Sturm das Tier tatsächlich aufgebracht hatte. Im flackernden Lichtschein
+
+sahen wir es: eine gewaltige schwarze, in der Ecke des Käfigs zusammengerollte Masse, die einen kauernden, ungeschlachten
+
+Schatten an die gekalkte Wand warf. Der Schwanz peitschte unruhig das Stroh. 
+
+Der arme Tommy ist nicht in der besten Stimmung, sagte Everard King, wobei er die Laterne hochhielt und ihn betrachtete.
+
+Sieht wie ein richtiger schwarzer Teufel aus, was? Ich muß ihm eine kleine Mahlzeit verabreichen, um ihn in bessere Laune zu
+
+versetzen. Hältst du mal einen Augenblick die Laterne? 
+
+Ich nahm sie, und er ging zur Tür. 
+
+Seine Speisekammer ist gleich nebenan, sagte er. Du entschuldigst mich doch für einen Augenblick? Er ging hinaus, und
+
+mit einem scharfen metallischen Schnappen schloß sich die Tür hinter ihm. 
+
+Dieses harte Geräusch ließ mein Herz stillstehen. Eine plötzliche Welle des Entsetzens überkam mich. Der ungenaue Verdacht
+
+eines teuflischen Verrats machte mich schaudern. Ich sprang zur Tür, doch an der Innenseite war kein Griff. 
+
+He! rief ich. Laß mich raus! 
+
+Schon gut. Mach kein Theater, sagte mein Cousin vom Gang her. Du hast ja die Laterne. 
+
+Schon, aber ich bin nicht gern so alleine eingesperrt. 
+
+Nein? Ich hörte sein herzhaftes, kicherndes Lachen. Du wirst nicht lange allein sein. 
+
+Laß mich raus! schrie ich wütend. Solchen Schabernack lasse ich nicht mit mir treiben. 
+
+Schabernack ist gut, sagte er mit einem neuerlichen verhaßten Kichern. Und dann, plötzlich, hörte ich im Dröhnen des Sturms
+
+das Kreischen und Quietschen der Kurbel und das Knarren des Gitters, als es durch den Schlitz gedreht wurde. Großer Gott: Er
+
+ließ die brasilianische Katze los! 
+
+Im Schein der Laterne sah ich die Gitterstäbe langsam vor mir verschwinden. Schon war die Öffnung am anderen Ende einen
+
+Fuß breit. Mit einem Schrei packte ich die letzte Stange und zog mit der Kraft eines Wahnsinnigen. Ich war wahnsinnig vor Wut
+
+und Entsetzen. Eine Minute lang vielleicht hielt ich das Ding fest. Ich wußte, daß er mit aller Gewalt am Griff drehte und daß ich
+
+der Hebelwirkung unterliegen mußte. Zoll für Zoll gab ich nach, meine Füße rutschten über die Steine, und die ganze Zeit bat und
+
+bettelte ich, das unmenschliche Scheusal möge mir diesen grauenhaften Tod ersparen. Ich beschwor ihn bei unsrer
+
+Blutsverwandtschaft. Ich erinnerte ihn daran, daß ich sein Gast war. Ich bat ihn inständig, mir zu sagen, was ich ihm getan hätte.
+
+Seine Antwort bestand im mühevollen Drehen der Kurbel, und jede Drehung zog trotz all meiner Anstrengungen eine weitere
+
+Stange durch die Öffnung. Zerrend und ziehend wurde ich die ganze Vorderseite des Käfigs entlanggeschleift, bis ich endlich, mit
+
+schmerzenden Handgelenken und verkrampften Fingern, den hoffnungslosen Kampf aufgab. Das Gitter schlug an die Wand, als
+
+ich es losließ, und einen Augenblick später hörte ich das Schlurfen der türkischen Pantoffeln im Gang und das Schlagen der
+
+zweiten Tür. Dann war alles still. 
+
+Das Tier hatte sich die ganze Zeit nicht bewegt. Es lag reglos in der Ecke, und sein Schwanz hatte aufgehört, hin und her zu
+
+schnellen. Diese Erscheinung eines Mannes, der sich an die Gitterstäbe klammerte und schreiend an ihm vorübergezerrt wurde,
+
+hatte es offensichtlich verwundert und verwirrt. Ich sah, wie seine großen Augen mich stetig anstarrten. Ich hatte die Laterne
+
+fallen lassen, als ich die Stäbe packte, aber sie brannte noch auf dem Boden, und ich machte eine Bewegung, um sie
+
+aufzuheben — mit der Überlegung, daß ihr Licht mir Schutz gewähren könne. In dem Augenblick jedoch, da ich mich bewegte,
+
+stieß das Tier ein tiefes, drohendes Knurren aus. Ich hielt inne und stand still, vor Angst am ganzen Körper zitternd. Die Katze
+
+(falls man eine derart fürchterliche Bestie mit einem so zutraulichen Namen bezeichnen kann) war kaum zehn Fuß von mir
+
+entfernt. Die Augen schimmerten wie zwei Phosphorscheiben in der Dunkelheit. Sie stießen mich ab — und faszinierten mich
+
+gleichzeitig. Ich konnte meinen Blick nicht von ihnen wenden. In solchen Augenblicken der Intensität spielt die Natur uns
+
+seltsame Streiche, und diese leuchtenden Lichter flammten auf und erloschen wieder in stetem Wechsel. Manchmal schienen sie
+
+winzige Pünktchen extremer Helligkeit zu sein — kleine elektrische Funken in der schwarzen Düsternis —, dann weiteten sie sich
+
+mehr und mehr, bis der ganze Winkel des Raumes dort mit ihrem wechselnden und unheimlichen Licht erfüllt war. Und plötzlich
+
+ging’s dann gänzlich aus. 
+
+Das Tier hatte seine Augen geschlossen. Ich weiß nicht, ob an der alten Idee von der Vorherrschaft des menschlichen Blicks
+
+etwas Wahres ist oder ob die gewaltige Katze nur schläfrig war, indessen bleibt die Tatsache bestehen, daß sie nicht die
+
+mindeste Neigung zeigte, mich anzugreifen, sondern nur den glatten schwarzen Kopf auf seine riesigen Vorderpfoten legte und
+
+einzuschlafen schien. Ich blieb starr stehen, aus Angst, sie durch irgendeine Bewegung wieder zu bösartigem Leben zu bringen.
+
+Aber ich war jetzt endlich fähig, klar zu denken, weil die unheilvollen Augen nicht mehr auf mich gerichtet waren. Hier steckte ich
+
+also, die ganze Nacht mit dem blutdurstigen Biest zusammen eingesperrt. Mein Instinkt sagte mir — auch ohne die Worte des
+
+gleisnerischen Schurken, der mich in diese Falle gelockt hatte —, daß das Tier ebenso grausam war wie sein Herr. Wie konnte
+
+ich’s bis zum Morgen abwehren? Die Tür war hoffnungslos. Desgleichen die schmalen vergitterten Fenster. In dem ganzen
+
+kahlen, mit Fliesen ausgelegten Raum gab es keinen Unterschlupf. Um Hilfe zu rufen, war absurd. Ich wußte, daß diese Höhle ein
+
+Nebengebäude war und daß der Gang, der es mit dem Haus verband, mindestens hundert Fuß lang sein mußte. Außerdem
+
+würde man bei diesem Sturm mein Rufen kaum hören. Ich konnte mich nur auf meinen Mut und meine Findigkeit verlassen.
+
+Und dann fielen meine Augen mit neuerlichem Entsetzen auf die Laterne. Die Kerze war niedergebrannt und begann bereits zu
+
+zerfließen. In zehn Minuten würde sie erloschen sein. Ich hatte also nur zehn Minuten, in denen ich etwas unternehmen konnte,
+
+denn ich spürte, daß ich, sobald ich mit der Bestie allein im Dunkeln war, zu jeder Handlung unfähig sein würde. Schon der
+
+Gedanke paralysierte mich. Verzweifelt ließ ich meine Augen in dieser Todeskammer umherschweifen, und sie blieben an einem
+
+Punkt hängen, der nicht gerade Sicherheit zu versprechen schien, doch weniger unmittelbare und drohende Gefahr als der
+
+blanke Boden. 
+
+Ich sagte schon, daß der Käfig ein Oberteil wie auch ein Vorderteil hatte, und dieses Oberteil blieb an Ort und Stelle, wenn das
+
+Vorderteil durch den Schlitz in der Wand gedreht wurde. Es bestand aus Stäben im Abstand von wenigen Zoll, mit festem
+
+Maschendraht dazwischen, und ruhte an jedem Ende auf starken Pfosten. Das Ganze stand wie ein großer Baldachin über der
+
+geduckten Gestalt in der Ecke. Der Abstand zwischen diesem eisernen Sims und der Decke mochte zwei oder drei Fuß betragen.
+
+Wenn ich dort hinauf gelangen konnte, hatte ich, zwischen Gitter und Decke eingeklemmt, nur eine verwundbare Seite. Ich war
+
+von unten sicher, von oben, von hinten und von beiden Seiten. Nur von vorn konnte ich angegriffen werden. Dort hatte ich zwar
+
+keinerlei Schutz, das stimmte schon, doch würde ich zumindest dem Tier nicht im Wege sein, wenn es in seiner Höhle
+
+'umherstrich. Es mußte sich zu mir bemühen, wenn es etwas von mir wollte. Jetzt oder nie, hieß es; denn war erst einmal das'
+
+Licht aus, ging es nicht mehr. Mit einem Schlucken in der Kehle sprang ich hinzu, packte die Eisenkante des Oberteils und
+
+schwang mich keuchend hinauf. Ich schob mich hinein, mit dem Gesicht nach unten, und stellte fest, daß ich geradeswegs in die
+
+schrecklichen Augen und den gähnenden Rachen der Katze blickte. Ihr stinkender Atem kam mir ins Gesicht wie der Dampf aus
+
+einem fauligen Kessel. 
+
+Indessen schien sie mehr neugierig als wütend zu sein. Mit einem geschmeidigen Wogen ihres langen schwarzen Rückens erhob
+
+sie sich, reckte sich und stellte sich dann auf die Hinterläufe, stützte sich mit einer Vorderpfote an die Wand, hob die andere und
+
+zog ihre Krallen unter dem Maschendraht her. Ein spitzer weißer Haken zerriß meine Hose — denn ich darf erwähnen, daß ich
+
+noch im Abendanzug war — und grub mir eine Wunde ins Knie. Das war nicht als Angriff gemeint, sondern eher als Experiment,
+
+denn als ich einen Schmerzensschrei ausstieß, ließ sie sich nieder, sprang leichtfüßig in den offnen Raum und wanderte behend
+
+umher, wobei sie ab und zu in meine Richtung schaute. Ich für mein Teil verkroch mich mühsam nach hinten, bis ich mit dem
+
+Rücken zur Mauer lag, und machte mich so klein wie möglich. Je weiter weg ich kam, desto schwieriger war’s der Bestie, mich
+
+anzugreifen. 
+
+Jetzt, da sie umherstreifte, schien sie erregt zu werden, und leichtfüßig und lautlos lief sie in der Höhle umher, wobei sie ständig
+
+unter dem eisernen Lager durchkam, auf dem ich lag. Es war wunderbar, einen so gewaltigen Körper wie einen Schatten
+
+vorüberhuschen zu sehen, denn die Samtpfoten machten kaum einen Laut. Die Kerze war niedergebrannt, so daß ich das Tier
+
+fast nicht mehr sehen konnte. Und mit einem letzten Aufflackern und Spritzen erlosch sie gänzlich. Ich war mit der Katze im
+
+Dunkeln allein! 
+
+Es hilft einem, einer Gefahr ins Auge zu blicken, wenn man weiß, daß man alles Menschenmögliche getan hat. Dann gibt es
+
+nichts, als das Ergebnis in Ruhe abzuwarten. In diesem Fall gab es keine Möglichkeit der Sicherheit außer genau der Stelle, an
+
+der ich mich befand. Ich streckte mich aus und lag still, fast ohne zu atmen, und hoffte, die Bestie werde meine Anwesenheit
+
+vergessen, wenn ich sie nicht an mich erinnerte. Ich schätzte, daß es bereits zwei Uhr sein mußte. Um vier würde es hell sein. Ich
+
+brauchte also nur noch zwei Stunden aufs Tageslicht zu warten. 
+
+Draußen wütete noch immer der Sturm, und der Regen schlug unablässig an die kleinen Fenster. Drinnen war die giftige und
+
+stinkende Luft atemraubend. Die Katze konnte ich weder sehen noch hören. Ich versuchte, an andere Dinge zu denken — doch
+
+war nur ein Gedanke stark genug, mich von meiner scheußlichen Lage abzulenken. Das war die Schurkerei meines Vetters,
+
+seine beispiellose Heuchelei, sein boshafter Haß auf mich. Unter diesem fröhlichen Gesicht lauerte der Geist eines
+
+mittelalterlichen Mörders. Und wie ich daran dachte, sah ich deutlich, wie schlau das Ganze angelegt war. Offensichtlich war er
+
+mit den anderen zu Bett gegangen. Zweifellos hatte er dafür seine Zeugen. Dann war er, ohne daß sie es merkten, heimlich
+
+heruntergeschlichen, hatte mich in diese Höhle gelockt und meinem Schicksal überlassen. Seine Erklärung würde ganz einfach
+
+sein. Er hatte mich im Billard-Raum zurückgelassen, weil ich meine Zigarre zu Ende rauchen wollte. Ich war aus eigenem Antrieb
+
+hergekommen, um mir die Katze ein letztes Mal anzusehen. Ich hatte den Raum betreten, ohne zu merken, daß der Käfig
+
+geöffnet war, und die Bestie hatte mich zerfleischt. Wie konnte man ihm ein solches Verbrechen nachweisen? Verdacht —
+
+vielleicht. Aber Beweis — niemals! 
+
+Wie langsam diese beiden furchtbaren Stunden verstrichen! Einmal hörte ich ein leises, kratzendes Geräusch. Das mußte die
+
+Katze sein, die sich das Fell leckte. Etliche Male leuchteten ihre grünlich-gelben Augen zu mir herauf, doch nie zielbewußt, und
+
+meine Hoffnung wuchs, daß sie meine Anwesenheit ignorierte oder gar vergessen hatte. Endlich kam ein fahler Lichtschein durch
+
+die Fenster — wie zwei matte Rechtecke sah ich sie auf der schwarzen Wand. Dann wurde das Grau zu Weiß, und ich konnte
+
+meinen furchterregenden Gefährten wieder sehen. Und er, natürlich, sah mich! 
+
+Es war mir sogleich klar, daß er in viel gefährlicherer und angriffslustigerer Stimmung war als in der Nacht. Die Morgenkälte hatte
+
+ihn gereizt, und darüber hinaus war er hungrig. Mit einem ununterbrochenen Knurren wanderte er auf der meinem Zufluchtsort
+
+'gegenüberliegenden Seite des Raumes hin und her; seine Schnurrhaare sträubten sich zornig, und sein Schwanz schlug und'
+
+peitschte. Jedes Mal, wenn er in einer Ecke kehrtmachte, blickten seine wilden Augen drohend zu mir herauf. Da wußte ich, daß
+
+er vorhatte, mich zu zerfleischen. Und doch bewunderte ich sogar in diesem Augenblick die schlanke Grazie der teuflischen
+
+Bestie, ihre langen, weichen, welligen Bewegungen, den Glanz ihrer schönen Flanken, das lebhaft zuckende Scharlach der
+
+schimmernden Zunge, die ihr aus dem schwarz-glänzenden Maule hing. Und die ganze Zeit stieg das tiefe, drohende Knurren in
+
+ungebrochenem Crescendo an. Ich wußte, daß die Krisis unmittelbar bevorstand. 
+
+Es war ein elender Zeitpunkt, einen solchen Tod zu erleiden: So kalt, so unbehaglich, und ich zitterte in meinem leichten Anzug
+
+auf diesem Marter-Rost, auf dem ich ausgestreckt lag. Ich versuchte, mich darauf vorzubereiten, meine Seele darüber zu
+
+erheben — und gleichzeitig hielt ich Ausschau nach einer Fluchtmöglichkeit: mit der Hellsichtigkeit, die einem im Augenblick
+
+höchster Verzweiflung gegeben ist. Eins war mir klar. Wenn nur das Vorderteil des Käfigs wieder geschlossen war, konnte ich
+
+Sicherheit dahinter finden. Würde ich das Gitter möglicherweise herausziehen können? Ich wagte kaum, mich zu bewegen, um
+
+mir die Bestie nicht auf den Hals zu locken. Langsam, ganz langsam streckte ich meine Hand aus, bis sie die Außenkante des
+
+Vorderteils erreichte, die letzte Stange, die aus der Wand herausragte. Zu meiner Überraschung ließ sie sich verhältnismäßig
+
+leicht hervorziehen. Ich zerrte weiter, und drei Zoll des Gitters kamen aus der Öffnung. Offensichtlich lief es auf Rädern. Wieder
+
+zog ich — da sprang die Katze! 
+
+Es geschah so schnell, so plötzlich, daß ich’s überhaupt nicht sah. Ich hörte nur das wütende Knurren, und unmittelbar darauf
+
+waren die leuchtenden gelben Augen und der schwarze Kopf mit seiner roten Zunge und den blitzenden Zähnen genau vor mir.
+
+Der Ansprung des Tiers erschütterte die Stangen, auf denen ich lag, bis ich dachte (soweit ich in diesem Moment überhaupt
+
+'denken konnte), daß sie niederbrechen würden. Einen Augenblick lang schaukelte die Katze dort; Kopf und Vorderpfoten waren'
+
+mir ganz nahe, und die Hinterpfoten versuchten verzweifelt, an der Kante des Käfigs einen Halt zu finden. Ich hörte das Kratzen
+
+der Krallen am Draht, und vom Atem der Bestie wurde mir übel. Aber ihr Sprung war falsch berechnet. Sie konnte sich nicht
+
+halten. Langsam, vor Wut grunzend und wie wild an den Stäben kratzend, rutschte sie nach hinten und schlug schwer auf dem
+
+Boden auf. Sogleich wandte sie sich mir knurrend zu und setzte zu einem neuen Sprunge an. 
+
+Ich wußte, daß die nächsten Sekunden mein Geschick entscheiden würden. Das Tier hatte Erfahrung gesammelt. Es würde sich
+
+nicht noch einmal verrechnen. Ich mußte sofort handeln, furchtlos, dann konnte ich mich vielleicht noch retten. Augenblicks hatte
+
+ich einen Plan. Ich zog mein Jackett aus und warfs der Bestie über den Kopf. Im gleichen Augenblick sprang ich hinab, packte
+
+das Ende des Vordergitters und zog’s wie besessen aus der Wand. 
+
+Es kam leichter heraus, als ich erwartet hatte. Ich lief durch den Raum und zerrte es hinter mir her, aber in der Eile geriet ich aus
+
+Versehen auf die falsche Seite. Andernfalls wäre ich vielleicht ohne Schaden davongekommen. So aber entstand eine kurze
+
+Pause, als ich es anhielt und versuchte, durch die schmale Öffnung zu schlüpfen, die ich gelassen hatte. Dieser Augenblick ließ
+
+der Bestie Zeit, den Rock abzuschütteln, mit dem ich sie geblendet hatte, und mich anzuspringen. Ich warf mich durch den Spalt
+
+und zog das Gitter hinter mir zu, doch ehe ich ganz im Käfig war, erwischte sie mein Bein. Ein Schlag dieser gewaltigen Pranke
+
+riß mir die Wade ab, wie ein Holzspan vom Hobel fällt. Im nächsten Augenblick lag ich blutend und halb bewußtlos auf dem
+
+fauligen Stroh und hatte eine Reihe freundlicher Gitterstäbe zwischen mir und der Katze, die wütend gegen sie anrannte. 
+
+Ich war zu verletzt, um mich zu bewegen, und zu schwach, um Angst zu verspüren, also lag ich nur da, mehr tot als lebendig, und
+
+beobachtete sie. Sie preßte ihre breite schwarze Brust an die Stäbe und angelte mit gespreizten Krallen nach mir, wie ich’s ein
+
+Kätzchen vor einer Mausefalle habe tun sehen. Sie zerriß mir die Kleider, konnte mich trotz allen Reckens aber nicht ganz
+
+erreichen. Ich hatte von der merkwürdigen taubmachenden Wirkung gehört, die Wunden von großen Fleischfressern haben
+
+sollen, und nun war es mir bestimmt, sie zu verspüren, denn ich hatte jedes Gefühl des persönlichen Betroffenseins verloren und
+
+war an Erfolg oder Mißerfolg interessiert, als beobachtete ich irgendein Spiel. Und dann schwanden mir langsam die Sinne,
+
+trieben in seltsam vage Träume ab, in die immer wieder das schwarze Gesicht und die rote Zunge einbrachen, und ich verlor
+
+mich im Nirwana des Deliriums, die gesegnete Zuflucht der allzu Überforderten. 
+
+Wenn ich den Verlauf der Ereignisse im Nachhinein überdenke, komme ich zu dem Schluß, daß ich an die zwei Stunden
+
+bewußtlos gewesen sein muß. Was mich wieder zur Besinnung brachte, war jenes scharfe metallische Klicken, das der Vorbote
+
+meiner entsetzlichen Erfahrung gewesen war. Es war das Zurückklappen des Schnappschlosses. Ehe mein Kopf noch klar
+
+genug war, alles aufzunehmen, wurde mir das runde, mildtätige Gesicht meines Vetters bewußt, das zur Tür hereinlugte. Was er
+
+'sah, erstaunte ihn offenbar höchlichst. Die Katze kauerte auf dem Boden. Ich lag in Hemdsärmeln auf dem Rücken im Käfig,'
+
+meine Hose war in Fetzen gerissen, und eine Blutlache breitete sich um mich her aus. Ich sehe noch jetzt sein verblüfftes
+
+Gesicht, von der Morgensonne beschienen. Er ließ seine Augen nicht von mir. Dann schloß er die Tür hinter sich und kam zum
+
+Käfig, um zu sehen, ob ich wirklich tot sei. 
+
+Ich kann nicht beschreiben, was geschah. Ich war nicht in dem Zustand, ein solches Ereignis klar aufzunehmen. Ich kann nur
+
+sagen, daß mir plötzlich bewußt wurde, daß mir sein Gesicht nicht mehr zugewendet war — daß er das Tier ansah. 
+
+Guter, alter Tommy! rief er. Guter, alter Tommy! 
+
+Dann kam er näher ans Gitter, immer noch mit dem Rücken zu mir. 
+
+Sitz, du dummes Biest! brüllte er. Nieder mit dir. Kennst du deinen Herrn nicht mehr? 
+
+Plötzlich kamen mir in meinem umnebelten Zustand die Worte in Erinnerung, mit denen er erklärte hatte, daß Blutgeschmack die
+
+Katze wildmachen würde. Mein Blut hatte es bewirkt — er aber sollte den Preis zahlen.
+
+Geh weg! kreischte er. Geh weg, du Teufel! Baldwin! Baldwin! Oh, mein Gott! 
+
+Und dann hörte ich ihn fallen, und aufstehen, und wieder fallen, und es klang, wie wenn man Sackleinen zerreißt. Seine Schreie
+
+wurden schwächer, bis sie sich in quälendem Knurren verloren. Und dann, als ich ihn für tot hielt, sah ich wie in einem Alptraum
+
+eine geblendete, zerfetzte, blutgetränkte Gestalt rasend im Raum umherrennen — das war das letzte, was ich von ihm sah, ehe
+
+ich wieder in Ohnmacht fiel.
+
+Es dauerte viele Monate, bis ich wiederhergestellt war. Ja, eigentlich kann ich nicht sagen, daß ich mich ganz erholt hätte, denn
+
+bis ans Ende meiner Tage werde ich einen Stock benutzen müssen: Erinnerung an meine Nacht mit der brasilianischen Katze.
+
+Baldwin, der Stallbursche, und die anderen Bediensteten konnten nicht sagen, was vorgefallen war, als sie mich, von den
+
+Todesschreien ihres Herrn herbeigerufen, hinter den Gitterstäben fanden und seine Überbleibsel — oder was sie später als seine
+
+Überbleibsel identifizierten — in den Fängen des Geschöpfes, das er großgezogen hatte. Sie wehrten es mit heißen Eisen ab und
+
+erschossen es hernach durch den Sehschlitz in der Tür, ehe sie mich endlich herausholen konnten. Ich wurde in mein Zimmer
+
+getragen, und dort, unter dem Dach des Mannes, der mich ermorden wollte, schwebte ich etliche Wochen zwischen Leben und
+
+Tod. Sie hatten einen Arzt aus Clipton und eine Krankenschwester aus London kommen lassen, und nach einem Monat konnte
+
+man mich zum Bahnhof und nach Grosvenor Mansions bringen. 
+
+Etwas ist mir aus der Krankheitszeit im Gedächtnis haften geblieben, das Teil jenes ständig wechselnden Panoramas sein
+
+könnte, wie ein phantasierendes Hirn es herbeizaubert, würde ich mich dieser Einzelheit nicht so genau erinnern. Eines Abends,
+
+als die Schwester abwesend war, öffnete sich die Tür meines Zimmers, und eine große Frau in tiefer Trauer kam
+
+hereingeschlüpft. Sie kam zu mir herüber, und als sie ihr gelbliches Gesicht neigte, sah ich im matten Schein des Nachtlichts, daß
+
+es die Brasilianerin war, die mein Cousin geheiratet hatte. Sie sah mich intensiv an, und ihr Ausdruck war freundlicher, als ich’s je
+
+erlebt hatte. 
+
+Hören Sie mich? fragte sie. 
+
+Ich nickte schwach. Sprechen konnte ich noch nicht. 
+
+Nun denn. Ich wollte Ihnen nur sagen, daß Sie selber die Schuld tragen. Habe ich nicht für Sie getan, was ich konnte? Von
+
+Anfang an habe ich versucht, Sie aus dem Hause zu treiben. Mit allen Mitteln — außer, meinen Mann zu verraten — habe ich
+
+versucht, Sie vor ihm zu retten. Ich wußte, daß er einen Grund hatte, Sie hierher zu holen. Ich wußte, daß er Sie nicht wieder
+
+fortlassen würde. Niemand kannte ihn so gut wie ich, die ich soviel von ihm zu leiden hatte. Ich wagte nicht, Ihnen das zu sagen.
+
+Er hätte mich umgebracht. Aber ich habe mein Bestes getan. So, wie alles gekommen ist, sind Sie der beste Freund gewesen,
+
+den ich jemals hatte. Sie haben mir die Freiheit gegeben, und ich dachte, nur dem Tod würde das gelingen. Es tut mir leid, daß
+
+Sie verletzt sind, aber ich kann mir keine Vorhaltungen machen. Ich habe Ihnen gesagt, daß Sie ein Narr seien — und ein Narr
+
+waren Sie. 
+
+Sie schlich sich aus dem Zimmer, eine verbitterte, einsame Frau, und ich sollte sie nie wiedersehen. Mit dem, was vom Eigentum
+
+ihres Gatten blieb, ging sie in ihr Heimatland zurück, und ich habe gehört, daß sie in Pernambuco später den Schleier nahm. 
+
+Erst, als ich seit einiger Zeit in London war, erklärten die Ärzte mich für in der Lage, meinen Geschäften nachzugehen. Das war
+
+'keine sehr willkommene Erlaubnis, denn ich fürchtete, es wäre das Signal für einen Ansturm von Gläubigern; indessen war es'
+
+Summers, mein Anwalt, der als erster Gebrauch davon machte. 
+
+Ich freue mich sehr, daß es Eurer Lordschaft so viel besser geht, sagte er. Ich warte seit langem, um meine Glückwünsche
+
+übermitteln zu dürfen. 
+
+Was wollen Sie damit sagen, Summers? Für solche Späße ist’s nicht die rechte Zeit. 
+
+Es stimmt, was ich sage, gab er zur Antwort. Seit sechs Wochen seid Ihr Lord Southerton, doch fürchteten wir, es könnte Eure
+
+Rekonvaleszenz verzögern, wenn Ihr es erführet. 
+
+Lord Southerton! Einer der reichsten Peers Englands! Ich traute meinen Ohren nicht. Und dann dachte ich plötzlich an die Zeit,
+
+die verstrichen war, und an den Zeitpunkt meiner Verwundung. 
+
+Dann muß Lord Southerton gestorben sein, als ich verletzt wurde? 
+
+Sein Tod trat am gleichen Tage ein. Summers sah mich scharf an, als er sprach, und ich bin überzeugt — denn er war ein
+
+gerissener Bursche —, daß er den wahren Sachverhalt erraten hatte. Er wartete einen Augenblick, als erhoffe er ein
+
+Eingeständnis von mir, aber ich sah keinen Grund, ihn in einen solchen Familienskandal einzuweihen. 
+
+Ja, eine höchst merkwürdige Koinzidenz, fuhr er mit dem gleichen wissenden Blick fort. Natürlich ist Euch klar, daß Euer
+
+Cousin Everard King sein nächstfolgender Erbe war. Nun, und wenn jetzt dieser Tiger — oder was es war — nicht ihn in Stücke
+
+gerissen hätte, sondern Euch, dann wäre natürlich er in diesem Augenblick Lord Southerton.
+"""
+
+def generate_experiment_texts(experiment_config: dict[str, str]):
+    """
+    Generate prompts and experiment texts
+    Args:
+        experiment_config: settings to use in this experiment
+    Return:
+        Experiment prompts and version prompts
+    """
+    # Get experiment prompts
+    prompts = {
+        "Experiment": common_prompt_template,
+    }
+
+    # Get experiment texts
+    experiment_texts = experiment_text.strip().split("\n\n")
+    texts = {
+        "Experiment": [
+            ("Normal", experiment_texts),
+        ],
+    }
+
+    return prompts, texts
