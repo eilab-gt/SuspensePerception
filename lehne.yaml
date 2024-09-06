@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment/standard/creative/"
+  output_dir: "./outputs/lehne_experiment/standard/general/"
 model:
   api_type: "together"
   name: [
@@ -24,7 +24,7 @@ model:
   "Qwen/Qwen2-72B-Instruct",
     ]
   max_tokens: 100
-  temperature: 1.0
+  temperature: 0.5
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
