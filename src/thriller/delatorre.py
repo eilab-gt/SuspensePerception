@@ -148,14 +148,14 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
 
     texts = {
         "Experiment": [
-            ("Journalistic Good Not Revealed", journalistic_good_notrevealed),
-            ("Journalistic Good Revealed", journalistic_good_revealed),
-            ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed),
-            ("Journalistic Bad Revealed", journalistic_bad_revealed),
-            ("Novel Good Not Revealed", novel_good_notrevealed),
-            ("Novel Good Revealed", novel_good_revealed),
-            ("Novel Bad Not Revealed", novel_bad_notrevealed),
-            ("Novel Bad Revealed", novel_bad_revealed),
+            ("Journalistic Good Not Revealed", journalistic_good_notrevealed.strip().split("\n")),
+            ("Journalistic Good Revealed", journalistic_good_revealed.strip().split("\n")),
+            ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed.strip().split("\n")),
+            ("Journalistic Bad Revealed", journalistic_bad_revealed.strip().split("\n")),
+            ("Novel Good Not Revealed", novel_good_notrevealed.strip().split("\n")),
+            ("Novel Good Revealed", novel_good_revealed.strip().split("\n")),
+            ("Novel Bad Not Revealed", novel_bad_notrevealed.strip().split("\n")),
+            ("Novel Bad Revealed", novel_bad_revealed.strip().split("\n")),
         ],
     }
 

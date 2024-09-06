@@ -1,9 +1,0 @@
-experiment_name,version,response
-Experiment,Journalistic Good Not Revealed,{'value': 4}
-Experiment,Journalistic Good Revealed,{'value': 9}
-Experiment,Journalistic Bad Not Revealed,{'value': 12}
-Experiment,Journalistic Bad Revealed,{'value': 5}
-Experiment,Novel Good Not Revealed,{'value': 12}
-Experiment,Novel Good Revealed,{'value': 9}
-Experiment,Novel Bad Not Revealed,{'value': 9}
-Experiment,Novel Bad Revealed,{'value': 8}
