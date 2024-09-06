@@ -17,7 +17,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     Args:
         experiment_config: settings to use in this experiment
     Return:
-        Experiment prompts and version prompts
+        Experiment prompts and veçrsion prompts
     """
     # Get experiment prompts
     prompts = {}
