@@ -21,6 +21,10 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 
+# Use tqdm?
+TQDM_ACTIVE = True
+
+
 def safe_int_conversion(value):
     if isinstance(value, int):
         return value
@@ -89,11 +93,11 @@ def parse_response(
     if not content:
         return {}
 
-    values = re.findall(r"(\w+): (\d+)", content)
+    values = re.findall(r"\w+: \d+", content)
     if values:
         return {key: int(value) for key, value in values}
 
-    values = re.findall(r"(\d+)", content)
+    values = re.findall(r"\d+", content)
     if values:
         return {"value": int(value) for value in values}
 
@@ -156,7 +160,7 @@ def run_experiment(
                         parsed_responses = []
 
                         for i, paragraph in enumerate(version_text):
-                            messages.append({"role": "user", "content": paragraph})
+                            messages.append({"role": "user", "content": prompt + paragraph})
 
                             raw_response = ""
 
@@ -168,36 +172,43 @@ def run_experiment(
                                     )
                                     break
                                 except Exception as e:
-                                    logging.error(f"Error occurred: {e}")
+                                    # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
                                     if len(messages) >= 4:
                                         messages.pop(1)
                                         messages.pop(1)
                                     else:
                                         break
+
                             raw_responses.append(raw_response)
-                            messages.append(
-                                {"role": "assistant", "content": raw_response}
-                            )
 
                             if raw_response:
+                                messages.append(
+                                    {"role": "assistant", "content": raw_response}
+                                )
+
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config
                                 )
                                 parsed_responses.extend(parsed_response.values())
 
                             else:
+                                messages.append(
+                                    {"role": "assistant", "content": "No response."}
+                                )
+
                                 print(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
                                 )
                                 # Don't add anything to parsed_responses for failed responses
 
-                            inner_pbar.update(1)
+                            if TQDM_ACTIVE:
+                                inner_pbar.update(1)
 
                         raw_responses = "\n".join(raw_responses)
-                        parsed_responses = {}
+                        parsed_responses_dict = {}
                         for i, response in enumerate(parsed_responses):
                             converted_value = safe_int_conversion(response)
-                            parsed_responses[str(i)] = converted_value
+                            parsed_responses_dict[str(i)] = converted_value
                             if converted_value is None:
                                 logging.warning(
                                     f"Non-numeric response encountered at index {i}: '{response}'"
@@ -207,7 +218,7 @@ def run_experiment(
                             "experiment_name": exp_name,
                             "version": version_name,
                             "raw_response": raw_responses,
-                            "parsed_response": parsed_responses,
+                            "parsed_response": parsed_responses_dict,
                         }
 
                         results.append(result)

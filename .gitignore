@@ -163,3 +163,5 @@ cython_debug/
 
 .vscode/
 requirements.yaml
+Katze_suspense_data.csv
+katze_results.csv

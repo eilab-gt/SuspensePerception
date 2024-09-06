@@ -1,0 +1,11 @@
+text = text of Die brasilianische Katze, broken into words	
+number = word number
+screen_number = number of screen the word was displayed on	
+participant_numer = index of participant; same as "participant" below
+[age, education, read_amount, genres_liked, left_right_handed, text_known, color_blind, dyslexic]= data of questionnaire before experiment
+[difficulties_imagining_scenes, easy_to_draw_line, story_interesting, marshall_married, distracted_by_line, difficulty_match_text_line, no_felt_suspense_but_could_draw_line_based_on_how_it_should_be, no_felt_suspense_but_could_draw_line_based_on_how_it_was_expected, read_fun,	
+line_as_intended_by_author, spontaneous_feeling, judged_suspense_text_structure, text_in_brasil, self_Assess_difficult, difficult_concentrate, line_as_average_person_would_draw_it, line_as_experienced_reader, problems_with_setting, what_is_supsense, examples_suspense] = data of questionnaire after experiment
+participant = participant number; same as "participant_numer" above
+z_suspense = z-scored suspense values
+AA_AA etc. = annotation data, not connected to suspense intensity data
+suspense = average height of the drewn suspense line at the respective word

@@ -73,7 +73,7 @@ def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
     raw_output_dir = Path(output_path) / "raw_outputs"
     raw_output_dir.mkdir(parents=True, exist_ok=True)
 
-    with open(raw_output_dir / filename, "w") as f:
+    with open(raw_output_dir / filename, "w", encoding="utf-8") as f:
         f.write(output)
 
 

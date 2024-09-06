@@ -1,0 +1,54 @@
+8
+
+2 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team's efforts to save Robert Bent.
+
+3 The passage is moderately suspensful because it provides a brief overview of the event without going into too much detail.
+
+4 The passage is not suspensful because it provides a general overview of the event without providing any details or context.
+Sure, here's the rating you requested:
+
+1 What you are about to read is the story of a real event that took place at the UCSF Benioff Children’s Hospital, in San Francisco, California, on 24 February 2008. On that day, since 8 a.m., an eight year old boy called Robert Bent and the entire medical team treating him were all ready for his imminent liver transplant. Just the day before a suitable donor had been found, and they were now awaiting the arrival of the organ. However, they were not sure if Robert would survive the wait as his situation was critical. Finally, at 21:26, the medical team certified the death of Robert Bent, without having been able to carry out the liver transplant due to the damage that the organ sustained in transit. This is the story of what happened.
+
+8
+
+2 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+
+3 The passage is moderately suspensful because it provides a brief overview of the event without going into too much detail.
+
+4 The passage is not suspensful because it provides a general overview of the event without providing any details or context.
+8
+
+2 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+
+3 The passage is moderately suspensful because it provides a brief overview of the event without going into too much detail.
+
+4 The passage is not suspensful because it provides a general overview of the event without providing any details or context.
+2 At 08:57 the helicopter carrying the organ landed punctually on the roof of the hospital where Robert Bent was in a critical but stable condition. However, the medical team was unable to perform the liver transplant due to the damage that the organ sustained in transit.
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+8
+
+2 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+3 The passage is moderately suspensful because it provides a brief overview of the event without going into too much detail.
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+1
+8
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+8
+
+2 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+3 The passage is moderately suspensful because it provides a brief overview of the event without going into too much detail.
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+1
+8
+
+1 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+5 The medical team worked tirelessly to save Robert Bent, but they were unable to do so.
+1 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+
+1 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+
+1 The passage is very suspensful because it tells a story about a real event that took place, and it keeps the reader engaged by providing details about the situation and the medical team’s efforts to save Robert Bent.
+
+1 The medical team made the heartbreaking decision to declare Robert Bent dead and certified his death.
+This is the story of what happened.
