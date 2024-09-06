@@ -1,0 +1,9 @@
+experiment_name,version,response
+Experiment,Journalistic Good Not Revealed,{'value': 8}
+Experiment,Journalistic Good Revealed,{'value': 8}
+Experiment,Journalistic Bad Not Revealed,{'value': 6}
+Experiment,Journalistic Bad Revealed,{'value': 8}
+Experiment,Novel Good Not Revealed,{'value': 7}
+Experiment,Novel Good Revealed,{'value': 8}
+Experiment,Novel Bad Not Revealed,{'value': 9}
+Experiment,Novel Bad Revealed,{'value': 9}
