@@ -1,0 +1,32 @@
+8
+
+2 The story is very suspensful because it is about a real event and it is a tragic story.
+
+3 The story is somewhat suspensful because it is about a critical medical case and it raises a number of questions about the decision-making process of the medical team.
+
+4 The story is highly suspensful because it is a detailed account of a tragic event and it raises a number of difficult questions about the medical profession.
+
+5 The story is not suspensful because it is not a real event and it is not tragic.
+8
+4 The story is highly suspensful because it is a detailed account of a critical medical case and it raises a number of difficult questions about the decision-making process of the medical team.
+1 There is no information about the donor or the medical team's decision-making process in this paragraph, so it is not suspensful.
+
+5 The story is not suspensful because it is not a real event and it is not tragic.
+4 The story is highly suspensful because it is a detailed account of a critical medical case and it raises a number of difficult questions about the decision-making process of the medical team.
+5 The story is not suspensful because it is not a real event and it is not tragic.
+8
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+4 The story is highly suspensful because it is a detailed account of a critical medical case and it raises a number of difficult questions about the decision-making process of the medical team.
+8 The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+5 The story is not suspensful because it is not a real event and it is not tragic.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+5 The story is not suspensful because it is not a real event and it is not tragic.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+5 The story is not suspensful because it is not a real event and it is not tragic.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+5 The story is not suspensful because it is not a real event and it is not tragic.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+8 The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
+8 The context does not provide any information about the donor's or medical team's decision-making process, so it is not possible to determine the suspleness of this paragraph.
