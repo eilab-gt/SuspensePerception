@@ -21,4 +21,3 @@ Experiment 5 (C Standard),Prior Solution Mentioned and Removed,"{'Q1': 3.99, 'Q2
 Experiment 7 (C Alternate),Prior Solution Mentioned and Removed,"{'Q1': 4.45, 'Q2': 3.91}"
 
 Experiment 5 (C Standard),Prior Solution Mentioned Not Removed,"{'Q1': 4.14, 'Q2': 4.14}"
-
