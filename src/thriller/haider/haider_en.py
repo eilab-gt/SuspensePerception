@@ -246,16 +246,8 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     Return:
         Experiment prompts and version prompts
     """
-    # APPROACH 1 - MESSY
-    # poems = readPoems(file_path)
-    
-    # poem_tuples = extract_poems(poems)
-    # texts["Experiment A"].append(poem_tuples[0])
-    # texts["Experiment A"].append(poem_tuples[1])
 
-    # return prompts, texts
-
-    # APPROACH 2
+    # UNCOMMENT FOR ONE TIME PARSING TSV file to CSV, after which we read from the csv file hence these can be commented
     # poems = readPoems(file_path)
     csv_filename = './src/thriller/haider/poems.csv'
     # write_poems_to_csv(poems, csv_filename)
