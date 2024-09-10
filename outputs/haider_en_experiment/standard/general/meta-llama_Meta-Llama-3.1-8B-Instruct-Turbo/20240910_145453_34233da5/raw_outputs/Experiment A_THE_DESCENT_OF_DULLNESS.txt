@@ -1,0 +1,78 @@
+To annotate the given stanza, I will go through it line by line, choosing the most dominant emotion for each line and adding a secondary emotion if necessary. I will use the guidelines provided to make my choices.
+
+1. In vain, in vain — the all-composing Hour
+   - I feel a sense of futility and hopelessness, which corresponds to the label Annoyance. I will choose Annoyance as the primary emotion.
+
+2. Resistless falls: the Muse obeys the Pow'r.
+   - I feel a sense of awe and wonder at the power being described, which corresponds to the label Awe/Sublime. I will choose Awe/Sublime as the primary emotion.
+
+3. She comes! she comes! the sable Throne behold
+   - I feel a sense of awe and wonder at the power being described, which corresponds to the label Awe/Sublime. I will choose Awe/Sublime as the primary emotion.
+
+4. Of Night primæval and of Chaos old!
+   - I feel a sense of awe and wonder at the power being described, which corresponds to the label Awe/Sublime. I will choose Awe/Sublime as the primary emotion.
+
+5. Before her, Fancy's gilded clouds decay,
+   - I feel a sense of sadness and loss at the decay of Fancy's gilded clouds, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+6. And all its varying Rain-bows die away.
+   - I feel a sense of sadness and loss at the death of the Rain-bows, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+7. Wit shoots in vain its momentary fires,
+   - I feel a sense of futility and hopelessness, which corresponds to the label Annoyance. I will choose Annoyance as the primary emotion.
+
+8. The meteor drops, and in a flash expires.
+   - I feel a sense of sadness and loss at the death of the meteor, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+9. As one by one, at dread Medea's strain,
+   - I feel a sense of awe and wonder at the power being described, which corresponds to the label Awe/Sublime. I will choose Awe/Sublime as the primary emotion.
+
+10. The sick'ning stars fade off th' ethereal plain;
+    - I feel a sense of sadness and loss at the fading of the stars, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+11. As Argus' eyes by Hermes' wand opprest,
+    - I feel a sense of sadness and loss at the fading of Argus' eyes, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+12. Clos'd one by one to everlasting rest;
+    - I feel a sense of sadness and loss at the death of Argus' eyes, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+13. Thus at her felt approach, and secret might,
+    - I feel a sense of awe and wonder at the power being described, which corresponds to the label Awe/Sublime. I will choose Awe/Sublime as the primary emotion.
+
+14. Art after Art goes out, and all is Night.
+    - I feel a sense of sadness and loss at the death of Art, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+15. See skulking Truth to her old cavern fled,
+    - I feel a sense of uneasiness and discomfort at the fleeing of Truth, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+16. Mountains of Casuistry heap'd o'er her head!
+    - I feel a sense of uneasiness and discomfort at the piling of Casuistry, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+17. Philosophy, that lean'd on Heaven before,
+    - I feel a sense of sadness and loss at the decline of Philosophy, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+18. Shrinks to her second cause, and is no more.
+    - I feel a sense of sadness and loss at the death of Philosophy, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+19. Physic of Metaphysic begs defence,
+    - I feel a sense of uneasiness and discomfort at the pleading of Physic, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+20. And Metaphysic calls for aid on Sense!
+    - I feel a sense of uneasiness and discomfort at the calling of Metaphysic, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+21. See Mystery to Mathematics fly!
+    - I feel a sense of uneasiness and discomfort at the fleeing of Mystery, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+22. In vain! they gaze, turn giddy, rave, and die.
+    - I feel a sense of uneasiness and discomfort at the fate of Mystery and Mathematics, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+23. Religion blushing veils her sacred fires,
+    - I feel a sense of sadness and loss at the veiling of Religion, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+24. And unawares Morality expires.
+    - I feel a sense of sadness and loss at the death of Morality, which corresponds to the label Sadness. I will choose Sadness as the primary emotion.
+
+25. For public Flame, nor private, dares to shine;
+    - I feel a sense of uneasiness and discomfort at the lack of public and private flame, which corresponds to the label Uneasiness. I will choose Uneasiness as the primary emotion.
+
+26. Nor human Spark is left, nor Glim

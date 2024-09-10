@@ -33,6 +33,7 @@ import src.thriller.lehne as lehne
 import src.thriller.brewer as brewer
 import src.thriller.delatorre as delatorre
 import src.thriller.bentz as bentz
+import src.thriller.haider.haider_en as haider_en
 
 
 def main(args):
@@ -110,6 +111,8 @@ def main(args):
         experiment = delatorre
     elif experiment_series == "bentz":
         experiment = bentz
+    elif experiment_series == "haider_en":
+        experiment = haider_en
     if not experiment:
         raise ValueError(
             "Valid experiment series not found (must be gerrig, lehne, or delatorre)"
@@ -140,6 +143,7 @@ def main(args):
                 parse_model_config=parse_model_config,
                 prompts=prompts,
                 version_prompts=version_prompts,
+                experiment_series=experiment_series
             )
 
             # Process and save results

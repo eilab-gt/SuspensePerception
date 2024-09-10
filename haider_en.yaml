@@ -1,0 +1,72 @@
+experiment:
+  experiment_series: "haider_en"
+  use_alternative: false
+  output_dir: "./outputs/haider_en_experiment/standard/general/"
+model:
+  api_type: "together"
+  name: [
+    "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    "google/gemma-2-27b-it",
+    "google/gemma-2-9b-it",
+    "google/gemma-2b-it",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Mistral-7B-Instruct-v0.2",
+    "mistralai/Mistral-7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "Qwen/Qwen1.5-72B-Chat",
+    "Qwen/Qwen1.5-110B-Chat",
+    "Qwen/Qwen2-72B-Instruct",
+    ]
+  # max_tokens: 1300
+  max_tokens: 2000
+  temperature: 0.5
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  prompt: >
+    You will receive output of a question and answer prompt to a language model which contains annotations for each line of a poem, where each line has been labeled with one or two emotions that best describe the aesthetic response it evokes in a reader. Your task is to generate a JSON object containing the following information for each line
+    line_number: The line number 
+    emotion1: The first emotion associated with the line.
+    emotion2: (if applicable) The second emotion associated with the line; if there is no second emotion, this should be null.
+
+    Possible emotions are:
+    Annoyance
+    Awe/Sublime
+    Beauty/Joy
+    Humor
+    Nostalgia
+    Sadness
+    Suspense
+    Uneasiness
+    Vitality
+
+    Format the output only as a valid JSON object, without any additional text or explanation.
+  # prompt: >
+    # The text below is the output of a question and answer prompt to a language model. For each line of the poem, you should try to extract only the annotation label from the below list of labels, and none of the description text for it. There can be a maximum of two labels per line. If the label is not present, you must use infer it based on the answer's text for the line in the poem.  
+    # Annoyance
+    # Awe/Sublime
+    # Beauty/Joy
+    # Humor
+    # Nostalgia
+    # Sadness
+    # Suspense
+    # Uneasiness
+    # Vitality
+    
+    # When generating you should structure your response to this prompt by using the format: ```1: label\n2: label``` and exclude everything else.
+  max_tokens: 750
+  temperature: 0.0 # Parser should be deterministic
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true

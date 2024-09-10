@@ -1,0 +1,124 @@
+This is a guidelines document for annotating aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with instructions for annotators on how to use these labels. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) (must be used with an additional label: beauty/joy or sadness)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotators include:
+
+* Annotate each line of the poem, not each sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line, but no more than two.
+* Choose the dominant emotion while reading the stanza, and add another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia must always be used with an additional label: beauty/joy or sadness.
+
+The document also provides examples of annotated poems to serve as a gold standard for annotators. These examples demonstrate how to apply the labels to different lines of poetry.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Take up the White Man"s burden - [Uneasiness]
+The savage wars of peace - [Uneasiness]
+Fill full the mouth of famine [Uneasiness]
+And bid the sickness cease; [Uneasiness]
+And when your goal is nearest [Suspense]
+The end for others sought, [Suspense]
+Watch Sloth and heathen Folly [Uneasiness]
+Bring all your hopes to nought. [Uneasiness]
+
+My annotation is based on the following reasoning:
+
+* The first four lines evoke a sense of uneasiness, as they describe the "White Man's burden" and the consequences of colonization, which can be seen as unsettling and disturbing.
+* The fifth and sixth lines create a sense of suspense, as they hint at the idea that the goal is near, but the outcome is uncertain.
+* The last two lines return to a sense of uneasiness, as they describe the consequences of the "White Man's burden" and the loss of hope.
+
+Note that this annotation is subjective and may vary depending on the individual reader's interpretation of the poem.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Take up the White Man"s burden - [Uneasiness]
+No tawdry rule of kings, [Uneasiness]
+But toil of serf and sweeper - [Uneasiness]
+The tale of common things. [Sadness]
+The ports ye shall not enter, [Suspense]
+The roads ye shall not tread, [Suspense]
+Go make them with your living, [Vitality]
+And mark them with your dead ! [Sadness]
+
+My annotation is based on the following reasoning:
+
+* The first three lines evoke a sense of uneasiness, as they describe the "White Man's burden" and the toil of serfs and sweepers, which can be seen as unsettling and disturbing.
+* The fourth line creates a sense of sadness, as it describes the "tale of common things", which may be a reference to the struggles and hardships of everyday life.
+* The fifth and sixth lines create a sense of suspense, as they describe the restrictions and limitations imposed on the people, and the uncertainty of their future.
+* The seventh line conveys a sense of vitality, as it encourages the people to take action and make their own way, despite the challenges they face.
+* The eighth line returns to a sense of sadness, as it references the death and sacrifice that may be required to achieve their goals.
+
+Note that this annotation is subjective and may vary depending on the individual reader's interpretation of the poem.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Take up the White Man"s burden - [Uneasiness]
+And reap his old reward, [Uneasiness]
+The blame of those ye better, [Sadness]
+The hate of those ye guard - [Sadness]
+The cry of hosts ye humour [Suspense]
+(Ah slowly !) towards the light:- [Vitality]
+"Why brought ye us from bondage, [Sadness]
+"Our loved Egyptian night ?" [Nostalgia] [Sadness]
+
+My annotation is based on the following reasoning:
+
+* The first two lines evoke a sense of uneasiness, as they describe the "White Man's burden" and the idea of reaping a reward, which can be seen as unsettling and disturbing.
+* The third and fourth lines create a sense of sadness, as they describe the blame and hate of those who are better and guarded, which can be seen as negative and hurtful.
+* The fifth line creates a sense of suspense, as it describes the cry of hosts being humored, which can be seen as intriguing and thought-provoking.
+* The sixth line conveys a sense of vitality, as it describes the slow movement towards the light, which can be seen as inspiring and uplifting.
+* The seventh and eighth lines create a sense of sadness and nostalgia, as they describe the longing for a past time and place, which can be seen as sentimental and melancholic.
+
+Note that this annotation is subjective and may vary depending on the individual reader's interpretation of the poem.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Take up the White Man"s burden - [Uneasiness]
+Ye dare not stoop to less - [Uneasiness]
+Nor call too loud on Freedom [Suspense]
+To cloak your weariness; [Sadness]
+By all ye cry or whisper, [Suspense]
+By all ye leave or do, [Suspense]
+The silent sullen peoples [Uneasiness]
+Shall weigh your Gods and you. [Vitality]
+
+My annotation is based on the following reasoning:
+
+* The first two lines evoke a sense of uneasiness, as they describe the "White Man's burden" and the idea of not stooping to less, which can be seen as unsettling and disturbing.
+* The third line creates a sense of suspense, as it describes the call to freedom, which can be seen as intriguing and thought-provoking.
+* The fourth line creates a sense of sadness, as it describes weariness, which can be seen as a negative and melancholic emotion.
+* The fifth and sixth lines create a sense of suspense, as they describe the cry or whisper, and the leaving or doing, which can be seen as exciting and curiosity-driven.
+* The seventh line evokes a sense of uneasiness, as it describes the "silent sullen peoples", which can be seen as unsettling and disturbing.
+* The eighth line conveys a sense of vitality, as it describes the weighing of Gods and oneself, which can be seen as inspiring and empowering.
+
+Note that this annotation is subjective and may vary depending on the individual reader's interpretation of the poem.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Take up the White Man"s burden - [Vitality]
+Have done with childish days - [Vitality]
+The lightly proffered laurel, [Beauty/Joy]
+The easy, ungrudged praise. [Beauty/Joy]
+Comes now, to search your manhood [Vitality]
+Through all the thankless years, [Sadness]
+Cold-edged with dear-bought wisdom, [Uneasiness]
+The judgement of your peers. [Suspense]
+
+My annotation is based on the following reasoning:
+
+* The first two lines convey a sense of vitality, as they encourage the reader to take up a burden and leave childish days behind, which can be seen as inspiring and empowering.
+* The third and fourth lines evoke a sense of beauty and joy, as they describe the "lightly proffered laurel" and "easy, ungrudged praise", which can be seen as pleasing and happy.
+* The fifth line conveys a sense of vitality, as it encourages the reader to search for manhood, which can be seen as invigorating and encouraging.
+* The sixth line creates a sense of sadness, as it describes the "thankless years", which can be seen as melancholic and negative.
+* The seventh line evokes a sense of uneasiness, as it describes the "cold-edged with dear-bought wisdom", which can be seen as unsettling and disturbing.
+* The eighth line creates a sense of suspense, as it describes the "judgement of your peers", which can be seen as gripping and thought-provoking.
+
+Note that this annotation is subjective and may vary depending on the individual reader's interpretation of the poem.

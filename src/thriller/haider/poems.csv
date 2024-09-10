@@ -1,0 +1,1241 @@
+poem_id,stanza_id,line_id,total_lines_in_stanza,total_stanzas_in_poem,id_stanza_in_poem,id_line_in_stanza,title,line_text,emotion1anno1,emotion2anno1,emotion1anno2,emotion2anno2
+1,1,1,6,4,1,1,since feeling is first,since feeling is first,Sadness,,Sadness,
+1,1,2,6,4,1,2,since feeling is first,who pays any attention,Sadness,,Sadness,
+1,1,3,6,4,1,3,since feeling is first,to the syntax of things,Sadness,,Sadness,
+1,1,4,6,4,1,4,since feeling is first,will never wholly kiss you;,Sadness,,Sadness,
+1,1,5,6,4,1,5,since feeling is first,wholly to be a fool,Sadness,,Sadness,
+1,1,6,6,4,1,6,since feeling is first,while Spring is in the world,Sadness,,Sadness,
+1,2,1,6,4,2,1,since feeling is first,my blood approves,Beauty / Joy,,Beauty / Joy,
+1,2,2,6,4,2,2,since feeling is first,and kisses are a better fate,Beauty / Joy,,Beauty / Joy,
+1,2,3,6,4,2,3,since feeling is first,than wisdom,Beauty / Joy,,Beauty / Joy,
+1,2,4,6,4,2,4,since feeling is first,"lady i swear by all flowers. Don""t cry",Beauty / Joy,,Beauty / Joy,
+1,2,5,6,4,2,5,since feeling is first,—the best gesture of my brain is less than,Beauty / Joy,,Beauty / Joy,
+1,2,6,6,4,2,6,since feeling is first,"your eyelids"" flutter which says",Beauty / Joy,,Beauty / Joy,
+1,3,1,3,4,3,1,since feeling is first,we are for each other: then,Beauty / Joy,,Beauty / Joy,
+1,3,2,3,4,3,2,since feeling is first,"laugh, leaning back in my arms",Beauty / Joy,,Beauty / Joy,
+1,3,3,3,4,3,3,since feeling is first,"for life""s not a paragraph",Beauty / Joy,,Awe / Sublime,Beauty / Joy
+1,4,1,1,4,4,1,since feeling is first,and death i think is no parenthesis,Sadness,,Awe / Sublime,Sadness
+2,1,1,14,1,1,1,How Do I Love Thee? (Sonnet 43),How do I love thee? Let me count the ways.,Beauty / Joy,Awe / Sublime,Beauty / Joy,
+2,1,2,14,1,1,2,How Do I Love Thee? (Sonnet 43),I love thee to the depth and breadth and height,Beauty / Joy,Awe / Sublime,Beauty / Joy,
+2,1,3,14,1,1,3,How Do I Love Thee? (Sonnet 43),"My soul can reach, when feeling out of sight",Beauty / Joy,Awe / Sublime,Beauty / Joy,
+2,1,4,14,1,1,4,How Do I Love Thee? (Sonnet 43),For the ends of being and ideal grace.,Beauty / Joy,Awe / Sublime,Beauty / Joy,
+2,1,5,14,1,1,5,How Do I Love Thee? (Sonnet 43),"I love thee to the level of every day""s",Beauty / Joy,,Beauty / Joy,
+2,1,6,14,1,1,6,How Do I Love Thee? (Sonnet 43),"Most quiet need, by sun and candle-light.",Beauty / Joy,,Beauty / Joy,
+2,1,7,14,1,1,7,How Do I Love Thee? (Sonnet 43),"I love thee freely, as men strive for right.",Beauty / Joy,,Beauty / Joy,
+2,1,8,14,1,1,8,How Do I Love Thee? (Sonnet 43),"I love thee purely, as they turn from praise.",Beauty / Joy,,Beauty / Joy,
+2,1,9,14,1,1,9,How Do I Love Thee? (Sonnet 43),I love thee with the passion put to use,Beauty / Joy,,Beauty / Joy,
+2,1,10,14,1,1,10,How Do I Love Thee? (Sonnet 43),"In my old griefs, and with my childhood""s faith.",Beauty / Joy,,Beauty / Joy,
+2,1,11,14,1,1,11,How Do I Love Thee? (Sonnet 43),I love thee with a love I seemed to lose,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+2,1,12,14,1,1,12,How Do I Love Thee? (Sonnet 43),"With my lost saints. I love thee with the breath,",Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+2,1,13,14,1,1,13,How Do I Love Thee? (Sonnet 43),"Smiles, tears, of all my life; and, if God choose,",Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+2,1,14,14,1,1,14,How Do I Love Thee? (Sonnet 43),I shall but love thee better after death.,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+3,1,1,7,3,1,1,The Good-Morrow,"I wonder, by my troth, what thou and I",Beauty / Joy,,Beauty / Joy,
+3,1,2,7,3,1,2,The Good-Morrow,"Did, till we loved? Were we not weaned till then?",Beauty / Joy,,Beauty / Joy,
+3,1,3,7,3,1,3,The Good-Morrow,"But sucked on country pleasures, childishly?",Beauty / Joy,,Beauty / Joy,
+3,1,4,7,3,1,4,The Good-Morrow,Or snorted we in the Seven Sleepers’ den?,Beauty / Joy,,Beauty / Joy,
+3,1,5,7,3,1,5,The Good-Morrow,"’Twas so; but this, all pleasures fancies be.",Beauty / Joy,,Beauty / Joy,
+3,1,6,7,3,1,6,The Good-Morrow,"If ever any beauty I did see,",Beauty / Joy,,Beauty / Joy,
+3,1,7,7,3,1,7,The Good-Morrow,"Which I desired, and got, ’twas but a dream of thee.",Beauty / Joy,,Beauty / Joy,
+3,2,1,7,3,2,1,The Good-Morrow,"And now good-morrow to our waking souls,",Beauty / Joy,,Beauty / Joy,
+3,2,2,7,3,2,2,The Good-Morrow,Which watch not one another out of fear;,Beauty / Joy,,Beauty / Joy,
+3,2,3,7,3,2,3,The Good-Morrow,"For love, all love of other sights controls,",Beauty / Joy,,Beauty / Joy,
+3,2,4,7,3,2,4,The Good-Morrow,And makes one little room an everywhere.,Beauty / Joy,,Beauty / Joy,
+3,2,5,7,3,2,5,The Good-Morrow,"Let sea-discoverers to new worlds have gone,",Vitality,,Vitality,
+3,2,6,7,3,2,6,The Good-Morrow,"Let maps to other, worlds on worlds have shown,",Vitality,,Vitality,
+3,2,7,7,3,2,7,The Good-Morrow,"Let us possess one world, each hath one, and is one.",Vitality,,Vitality,
+3,3,1,7,3,3,1,The Good-Morrow,"My face in thine eye, thine in mine appears,",Beauty / Joy,,Beauty / Joy,
+3,3,2,7,3,3,2,The Good-Morrow,And true plain hearts do in the faces rest;,Beauty / Joy,,Beauty / Joy,
+3,3,3,7,3,3,3,The Good-Morrow,"Where can we find two better hemispheres,",Beauty / Joy,,Beauty / Joy,
+3,3,4,7,3,3,4,The Good-Morrow,"Without sharp north, without declining west?",Beauty / Joy,,Beauty / Joy,
+3,3,5,7,3,3,5,The Good-Morrow,"Whatever dies, was not mixed equally;",Beauty / Joy,Awe / Sublime,Vitality,
+3,3,6,7,3,3,6,The Good-Morrow,"If our two loves be one, or, thou and I",Beauty / Joy,Awe / Sublime,Vitality,
+3,3,7,7,3,3,7,The Good-Morrow,"Love so alike, that none do slacken, none can die.",Beauty / Joy,Awe / Sublime,Vitality,
+4,1,1,8,1,1,1,Happy the man,"Happy the man, and happy he alone,",Beauty / Joy,Awe / Sublime,Awe / Sublime,Beauty / Joy
+4,1,2,8,1,1,2,Happy the man,He who can call today his own:,Beauty / Joy,Awe / Sublime,Awe / Sublime,Beauty / Joy
+4,1,3,8,1,1,3,Happy the man,"He who, secure within, can say,",Beauty / Joy,Awe / Sublime,Awe / Sublime,Beauty / Joy
+4,1,4,8,1,1,4,Happy the man,"Tomorrow do thy worst, for I have lived today.",Beauty / Joy,Awe / Sublime,Awe / Sublime,Beauty / Joy
+4,1,5,8,1,1,5,Happy the man,Be fair or foul or rain or shine,Beauty / Joy,Awe / Sublime,Vitality,
+4,1,6,8,1,1,6,Happy the man,"The joys I have possessed, in spite of fate, are mine.",Beauty / Joy,Awe / Sublime,Vitality,
+4,1,7,8,1,1,7,Happy the man,"Not Heaven itself upon the past has power,",Beauty / Joy,Awe / Sublime,Vitality,
+4,1,8,8,1,1,8,Happy the man,"But what has been, has been, and I have had my hour.",Beauty / Joy,Awe / Sublime,Vitality,
+5,1,1,12,1,1,1,ON MR . GAY,"Of Manners gentle , of Affections mild ;",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,2,12,1,1,2,ON MR . GAY,"In Wit , a Man ; Simplicity , a Child :",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,3,12,1,1,3,ON MR . GAY,"With native Humour temp""ring virtuous Rage ,",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,4,12,1,1,4,ON MR . GAY,"Form ""d to delight at once and lash the age :",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,5,12,1,1,5,ON MR . GAY,"Above Temptation , in a low Estate ,",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,6,12,1,1,6,ON MR . GAY,"And uncorrupted , ev""n among the Great :",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,7,12,1,1,7,ON MR . GAY,"A safe Companion , and an easy Friend ,",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,8,12,1,1,8,ON MR . GAY,"Unblam ""d thro ’ Life , lamented in thy End .",Beauty / Joy,Vitality,Suspense,Beauty / Joy
+5,1,9,12,1,1,9,ON MR . GAY,These are Thy Honours ! not that here thy Bust,Beauty / Joy,Vitality,Suspense,Vitality
+5,1,10,12,1,1,10,ON MR . GAY,"Is mix ""d with Heroes , or with Kings thy dust ;",Beauty / Joy,Vitality,Suspense,Vitality
+5,1,11,12,1,1,11,ON MR . GAY,"But that the Worthy and the Good shall say ,",Beauty / Joy,Vitality,Suspense,Vitality
+5,1,12,12,1,1,12,ON MR . GAY,Striking their pensive bosoms — Here lies GAY .,Beauty / Joy,Vitality,Suspense,Vitality
+6,1,1,4,2,1,1,TO —.,"Music , when soft voices die ,",Beauty / Joy,Sadness,Sadness,
+6,1,2,4,2,1,2,TO —.,Vibrates in the memory —,Beauty / Joy,Sadness,Sadness,
+6,1,3,4,2,1,3,TO —.,"Odours , when sweet violets sicken ,",Beauty / Joy,Sadness,Sadness,
+6,1,4,4,2,1,4,TO —.,Live within the sense they quicken .,Beauty / Joy,Sadness,Sadness,
+6,2,1,4,2,2,1,TO —.,"Rose leaves , when the rose is dead ,",Sadness,Beauty / Joy,Sadness,
+6,2,2,4,2,2,2,TO —.,"Are heaped for the beloved ""s bed ;",Sadness,Beauty / Joy,Sadness,
+6,2,3,4,2,2,3,TO —.,"And so thy thoughts , when thou art gone ,",Sadness,Beauty / Joy,Sadness,
+6,2,4,4,2,2,4,TO —.,Love itself shall slumber on .,Sadness,Beauty / Joy,Sadness,
+7,1,1,9,5,1,1,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The sun is warm , the sky is clear ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,2,9,5,1,2,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The waves are dancing fast and bright ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,3,9,5,1,3,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Blue isles and snowy mountains wear,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,4,9,5,1,4,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The purple noon ""s transparent might ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,5,9,5,1,5,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The breath of the moist earth is light ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,6,9,5,1,6,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Around its unexpanded buds ;,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,7,9,5,1,7,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Like many a voice of one delight ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,8,9,5,1,8,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The winds , the birds , the ocean floods ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,1,9,9,5,1,9,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The City ""s voice itself , is soft like Solitude ""s .",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+7,2,1,9,5,2,1,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","I see the Deep ""s untrampled floor",Beauty / Joy,,Beauty / Joy,
+7,2,2,9,5,2,2,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",With green and purple seaweeds strown ;,Beauty / Joy,,Beauty / Joy,
+7,2,3,9,5,2,3,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","I see the waves upon the shore ,",Beauty / Joy,,Beauty / Joy,
+7,2,4,9,5,2,4,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Like light dissolved in star-showers , thrown :",Beauty / Joy,,Beauty / Joy,
+7,2,5,9,5,2,5,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","I sit upon the sands alone ,—",Beauty / Joy,,Beauty / Joy,
+7,2,6,9,5,2,6,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",The lightning of the noontide ocean,Beauty / Joy,,Beauty / Joy,
+7,2,7,9,5,2,7,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Is flashing round me , and a tone",Beauty / Joy,,Beauty / Joy,
+7,2,8,9,5,2,8,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Arises from its measured motion ,",Beauty / Joy,,Beauty / Joy,
+7,2,9,9,5,2,9,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",How sweet ! did any heart now share in my emotion .,Beauty / Joy,,Beauty / Joy,
+7,3,1,9,5,3,1,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Alas ! I have nor hope nor health ,",Sadness,,Sadness,
+7,3,2,9,5,3,2,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Nor peace within nor calm around ,",Sadness,,Sadness,
+7,3,3,9,5,3,3,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Nor that content surpassing wealth,Sadness,,Sadness,
+7,3,4,9,5,3,4,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","The sage in meditation found ,",Sadness,,Sadness,
+7,3,5,9,5,3,5,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",And walked with inward glory crowned —,Sadness,,Sadness,
+7,3,6,9,5,3,6,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Nor fame , nor power , nor love , nor leisure .",Sadness,,Sadness,
+7,3,7,9,5,3,7,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Others I see whom these surround —,Sadness,Annoyance,Sadness,
+7,3,8,9,5,3,8,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Smiling they live , and call life pleasure ;—",Sadness,Annoyance,Sadness,
+7,3,9,9,5,3,9,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",To me that cup has been dealt in another measure .,Sadness,Annoyance,Sadness,
+7,4,1,9,5,4,1,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Yet now despair itself is mild ,",Sadness,,Sadness,
+7,4,2,9,5,4,2,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Even as the winds and waters are ;,Sadness,,Sadness,
+7,4,3,9,5,4,3,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","I could lie down like a tired child ,",Sadness,,Sadness,
+7,4,4,9,5,4,4,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",And weep away the life of care,Sadness,,Sadness,
+7,4,5,9,5,4,5,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Which I have borne and yet must bear ,",Sadness,,Sadness,
+7,4,6,9,5,4,6,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Till death like sleep might steal on me ,",Sadness,,Sadness,
+7,4,7,9,5,4,7,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",And I might feel in the warm air,Sadness,,Sadness,
+7,4,8,9,5,4,8,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","My cheek grow cold , and hear the sea",Sadness,,Sadness,
+7,4,9,9,5,4,9,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Breathe o""er my dying brain its last monotony .",Sadness,,Sadness,
+7,5,1,9,5,5,1,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Some might lament that I were cold ,",Sadness,,Sadness,
+7,5,2,9,5,5,2,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","As I , when this sweet day is gone ,",Sadness,,Sadness,
+7,5,3,9,5,5,3,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Which my lost heart , too soon grown old ,",Sadness,,Sadness,
+7,5,4,9,5,5,4,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",Insults with this untimely moan ;,Sadness,,Sadness,
+7,5,5,9,5,5,5,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .",They might lament — for I am one,Sadness,,Sadness,
+7,5,6,9,5,5,6,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Whom men love not ,— and yet regret ,",Sadness,,Sadness,
+7,5,7,9,5,5,7,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Unlike this day , which , when the sun",Sadness,,Sadness,
+7,5,8,9,5,5,8,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Shall on its stainless glory set ,",Sadness,,Sadness,
+7,5,9,9,5,5,9,"STANZAS WRITTEN IN DEJECTION , NEAR NAPLES .","Will linger , though enjoyed , like joy in memory yet .",Sadness,,Sadness,
+8,1,1,4,4,1,1,"BREAK , BREAK , BREAK .","Break , break , break ,",Vitality,,Vitality,
+8,1,2,4,4,1,2,"BREAK , BREAK , BREAK .","On thy cold gray stones , O Sea !",Vitality,,Vitality,
+8,1,3,4,4,1,3,"BREAK , BREAK , BREAK .",And I would that my tongue could utter,Vitality,,Vitality,
+8,1,4,4,4,1,4,"BREAK , BREAK , BREAK .",The thoughts that arise in me .,Vitality,,Vitality,
+8,2,1,4,4,2,1,"BREAK , BREAK , BREAK .","O well for the fisherman ""s boy ,",Vitality,,Vitality,
+8,2,2,4,4,2,2,"BREAK , BREAK , BREAK .",That he shouts with his sister at play !,Vitality,,Vitality,
+8,2,3,4,4,2,3,"BREAK , BREAK , BREAK .","O well for the sailor lad ,",Vitality,,Vitality,
+8,2,4,4,4,2,4,"BREAK , BREAK , BREAK .",That he sings in his boat on the bay !,Vitality,,Vitality,
+8,3,1,4,4,3,1,"BREAK , BREAK , BREAK .",And the stately ships go on,Vitality,,Beauty / Joy,
+8,3,2,4,4,3,2,"BREAK , BREAK , BREAK .",To their haven under the hill ;,Vitality,,Beauty / Joy,
+8,3,3,4,4,3,3,"BREAK , BREAK , BREAK .","But O for the touch of a vanish ""d hand ,",Vitality,,Beauty / Joy,
+8,3,4,4,4,3,4,"BREAK , BREAK , BREAK .",And the sound of a voice that is still !,Vitality,,Beauty / Joy,
+8,4,1,4,4,4,1,"BREAK , BREAK , BREAK .","Break , break , break ,",Vitality,,Vitality,Sadness
+8,4,2,4,4,4,2,"BREAK , BREAK , BREAK .","At the foot of thy crags , O Sea !",Vitality,,Vitality,Sadness
+8,4,3,4,4,4,3,"BREAK , BREAK , BREAK .",But the tender grace of a day that is dead,Vitality,Sadness,Vitality,Sadness
+8,4,4,4,4,4,4,"BREAK , BREAK , BREAK .",Will never come back to me .,Vitality,Sadness,Vitality,Sadness
+9,1,1,16,6,1,1,"The White Man""s Burden","TAKE up the White Man""s burden -",Uneasiness,,Vitality,Uneasiness
+9,1,2,16,6,1,2,"The White Man""s Burden",Send forth the best ye breed -,Uneasiness,,Vitality,Uneasiness
+9,1,3,16,6,1,3,"The White Man""s Burden",Go bind your sons to exile,Uneasiness,,Vitality,Uneasiness
+9,1,4,16,6,1,4,"The White Man""s Burden","To serve your captives"" need;",Uneasiness,,Vitality,Uneasiness
+9,1,5,16,6,1,5,"The White Man""s Burden",To wait in heavy harness,Uneasiness,,Vitality,Uneasiness
+9,1,6,16,6,1,6,"The White Man""s Burden",On fluttered folk and wild -,Uneasiness,,Vitality,Uneasiness
+9,1,7,16,6,1,7,"The White Man""s Burden","Your new-caught sullen peoples,",Uneasiness,,Vitality,Uneasiness
+9,1,8,16,6,1,8,"The White Man""s Burden",Half devil and half child.,Uneasiness,,Vitality,Uneasiness
+9,1,9,16,6,1,9,"The White Man""s Burden","Take up the White Man""s burden -",Uneasiness,,Vitality,Uneasiness
+9,1,10,16,6,1,10,"The White Man""s Burden",In patience to abide,Uneasiness,,Vitality,Uneasiness
+9,1,11,16,6,1,11,"The White Man""s Burden",To veil the threat of terror,Uneasiness,,Vitality,Uneasiness
+9,1,12,16,6,1,12,"The White Man""s Burden",And check the show of pride;,Uneasiness,,Vitality,Uneasiness
+9,1,13,16,6,1,13,"The White Man""s Burden","By open speech and simple,",Uneasiness,,Vitality,Uneasiness
+9,1,14,16,6,1,14,"The White Man""s Burden","An hundred times made plain,",Uneasiness,,Vitality,Uneasiness
+9,1,15,16,6,1,15,"The White Man""s Burden","To seek another""s profit,",Uneasiness,,Vitality,Uneasiness
+9,1,16,16,6,1,16,"The White Man""s Burden","And work another""s gain.",Uneasiness,,Vitality,Uneasiness
+9,2,1,8,6,2,1,"The White Man""s Burden","Take up the White Man""s burden -",Uneasiness,,Vitality,
+9,2,2,8,6,2,2,"The White Man""s Burden",The savage wars of peace -,Uneasiness,,Vitality,
+9,2,3,8,6,2,3,"The White Man""s Burden",Fill full the mouth of famine,Uneasiness,,Vitality,
+9,2,4,8,6,2,4,"The White Man""s Burden",And bid the sickness cease;,Uneasiness,,Vitality,
+9,2,5,8,6,2,5,"The White Man""s Burden",And when your goal is nearest,Uneasiness,,Vitality,Uneasiness
+9,2,6,8,6,2,6,"The White Man""s Burden","The end for others sought,",Uneasiness,,Vitality,Uneasiness
+9,2,7,8,6,2,7,"The White Man""s Burden",Watch Sloth and heathen Folly,Uneasiness,,Vitality,Uneasiness
+9,2,8,8,6,2,8,"The White Man""s Burden",Bring all your hopes to nought.,Uneasiness,,Vitality,Uneasiness
+9,3,1,8,6,3,1,"The White Man""s Burden","Take up the White Man""s burden -",Uneasiness,,Vitality,Uneasiness
+9,3,2,8,6,3,2,"The White Man""s Burden","No tawdry rule of kings,",Uneasiness,,Vitality,Uneasiness
+9,3,3,8,6,3,3,"The White Man""s Burden",But toil of serf and sweeper -,Uneasiness,,Vitality,Uneasiness
+9,3,4,8,6,3,4,"The White Man""s Burden",The tale of common things.,Uneasiness,,Vitality,Uneasiness
+9,3,5,8,6,3,5,"The White Man""s Burden","The ports ye shall not enter,",Uneasiness,,Vitality,Uneasiness
+9,3,6,8,6,3,6,"The White Man""s Burden","The roads ye shall not tread,",Uneasiness,,Vitality,Uneasiness
+9,3,7,8,6,3,7,"The White Man""s Burden","Go make them with your living,",Uneasiness,,Vitality,Uneasiness
+9,3,8,8,6,3,8,"The White Man""s Burden",And mark them with your dead !,Uneasiness,,Vitality,Uneasiness
+9,4,1,8,6,4,1,"The White Man""s Burden","Take up the White Man""s burden -",Uneasiness,,Vitality,Uneasiness
+9,4,2,8,6,4,2,"The White Man""s Burden","And reap his old reward,",Uneasiness,,Vitality,Uneasiness
+9,4,3,8,6,4,3,"The White Man""s Burden","The blame of those ye better,",Uneasiness,Annoyance,Vitality,Uneasiness
+9,4,4,8,6,4,4,"The White Man""s Burden",The hate of those ye guard -,Uneasiness,Annoyance,Vitality,Uneasiness
+9,4,5,8,6,4,5,"The White Man""s Burden",The cry of hosts ye humour,Uneasiness,Annoyance,Vitality,Uneasiness
+9,4,6,8,6,4,6,"The White Man""s Burden",(Ah slowly !) towards the light:-,Uneasiness,Annoyance,Vitality,Uneasiness
+9,4,7,8,6,4,7,"The White Man""s Burden","""Why brought ye us from bondage,",Uneasiness,Annoyance,Vitality,Uneasiness
+9,4,8,8,6,4,8,"The White Man""s Burden","""Our loved Egyptian night ?""",Uneasiness,Annoyance,Vitality,Uneasiness
+9,5,1,8,6,5,1,"The White Man""s Burden","Take up the White Man""s burden -",Sadness,Uneasiness,Vitality,Uneasiness
+9,5,2,8,6,5,2,"The White Man""s Burden",Ye dare not stoop to less -,Sadness,Uneasiness,Vitality,Uneasiness
+9,5,3,8,6,5,3,"The White Man""s Burden",Nor call too loud on Freedom,Sadness,Uneasiness,Vitality,Uneasiness
+9,5,4,8,6,5,4,"The White Man""s Burden",To cloak your weariness;,Sadness,Uneasiness,Vitality,Uneasiness
+9,5,5,8,6,5,5,"The White Man""s Burden","By all ye cry or whisper,",Sadness,Uneasiness,Vitality,Uneasiness
+9,5,6,8,6,5,6,"The White Man""s Burden","By all ye leave or do,",Sadness,Uneasiness,Vitality,Uneasiness
+9,5,7,8,6,5,7,"The White Man""s Burden",The silent sullen peoples,Sadness,Uneasiness,Vitality,Uneasiness
+9,5,8,8,6,5,8,"The White Man""s Burden",Shall weigh your Gods and you.,Sadness,Uneasiness,Vitality,Uneasiness
+9,6,1,8,6,6,1,"The White Man""s Burden","Take up the White Man""s burden -",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,2,8,6,6,2,"The White Man""s Burden",Have done with childish days -,Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,3,8,6,6,3,"The White Man""s Burden","The lightly proffered laurel,",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,4,8,6,6,4,"The White Man""s Burden","The easy, ungrudged praise.",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,5,8,6,6,5,"The White Man""s Burden","Comes now, to search your manhood",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,6,8,6,6,6,"The White Man""s Burden","Through all the thankless years,",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,7,8,6,6,7,"The White Man""s Burden","Cold-edged with dear-bought wisdom,",Uneasiness,Annoyance,Vitality,Uneasiness
+9,6,8,8,6,6,8,"The White Man""s Burden",The judgement of your peers.,Uneasiness,Annoyance,Vitality,Uneasiness
+10,1,1,12,2,1,1,The Way through the Woods,They shut the road through the woods,Sadness,,Suspense,
+10,1,2,12,2,1,2,The Way through the Woods,Seventy years ago.,Sadness,,Suspense,
+10,1,3,12,2,1,3,The Way through the Woods,"Weather and rain have undone it again,",Sadness,Nostalgia,Nostalgia,Sadness
+10,1,4,12,2,1,4,The Way through the Woods,And now you would never know,Sadness,Nostalgia,Nostalgia,Sadness
+10,1,5,12,2,1,5,The Way through the Woods,There was once a road through the woods,Sadness,Nostalgia,Nostalgia,Sadness
+10,1,6,12,2,1,6,The Way through the Woods,Before they planted the trees.,Sadness,Nostalgia,Nostalgia,Sadness
+10,1,7,12,2,1,7,The Way through the Woods,"It is underneath the coppice and heath,",Beauty / Joy,,Sadness,
+10,1,8,12,2,1,8,The Way through the Woods,And the thin anemones.,Beauty / Joy,,Sadness,
+10,1,9,12,2,1,9,The Way through the Woods,Only the keeper sees,Beauty / Joy,Nostalgia,Sadness,Nostalgia
+10,1,10,12,2,1,10,The Way through the Woods,"That, where the ring-dove broods,",Beauty / Joy,Nostalgia,Sadness,Nostalgia
+10,1,11,12,2,1,11,The Way through the Woods,"And the badgers roll at ease,",Beauty / Joy,Nostalgia,Sadness,Nostalgia
+10,1,12,12,2,1,12,The Way through the Woods,There was once a road through the woods.,Beauty / Joy,Nostalgia,Sadness,Nostalgia
+10,2,1,13,2,2,1,The Way through the Woods,"Yet, if you enter the woods",Beauty / Joy,,Beauty / Joy,
+10,2,2,13,2,2,2,The Way through the Woods,"Of a summer evening late,",Beauty / Joy,,Beauty / Joy,
+10,2,3,13,2,2,3,The Way through the Woods,When the night-air cools on the trout-ringed pools,Beauty / Joy,,Beauty / Joy,
+10,2,4,13,2,2,4,The Way through the Woods,"Where the otter whistles his mate,",Beauty / Joy,,Beauty / Joy,
+10,2,5,13,2,2,5,The Way through the Woods,"(They fear not men in the woods,",Beauty / Joy,,Beauty / Joy,
+10,2,6,13,2,2,6,The Way through the Woods,Because they see so few.),Beauty / Joy,,Beauty / Joy,
+10,2,7,13,2,2,7,The Way through the Woods,"You will hear the beat of a horse’s feet,",Beauty / Joy,,Nostalgia,Beauty / Joy
+10,2,8,13,2,2,8,The Way through the Woods,"And the swish of a skirt in the dew,",Beauty / Joy,,Nostalgia,Beauty / Joy
+10,2,9,13,2,2,9,The Way through the Woods,Steadily cantering through,Beauty / Joy,,Nostalgia,Beauty / Joy
+10,2,10,13,2,2,10,The Way through the Woods,"The misty solitudes,",Beauty / Joy,,Nostalgia,Beauty / Joy
+10,2,11,13,2,2,11,The Way through the Woods,As though they perfectly knew,Sadness,Nostalgia,Nostalgia,Sadness
+10,2,12,13,2,2,12,The Way through the Woods,The old lost road through the woods.,Sadness,Nostalgia,Nostalgia,Sadness
+10,2,13,13,2,2,13,The Way through the Woods,But there is no road through the woods.,Sadness,Nostalgia,Nostalgia,Sadness
+11,1,1,4,2,1,1,THE SICK ROSE,"O rose , thou art sick !",Sadness,Uneasiness,Uneasiness,
+11,1,2,4,2,1,2,THE SICK ROSE,"The invisible worm ,",Sadness,Uneasiness,Uneasiness,
+11,1,3,4,2,1,3,THE SICK ROSE,"That flies in the night ,",Sadness,Uneasiness,Uneasiness,
+11,1,4,4,2,1,4,THE SICK ROSE,"In the howling storm ,",Sadness,Uneasiness,Uneasiness,
+11,2,1,4,2,2,1,THE SICK ROSE,Has found out thy bed,Sadness,Uneasiness,Uneasiness,
+11,2,2,4,2,2,2,THE SICK ROSE,"Of crimson joy ,",Sadness,Uneasiness,Uneasiness,
+11,2,3,4,2,2,3,THE SICK ROSE,And his dark secret love,Sadness,Uneasiness,Uneasiness,
+11,2,4,4,2,2,4,THE SICK ROSE,Does thy life destroy .,Sadness,Uneasiness,Uneasiness,
+12,1,1,4,2,1,1,A POISON TREE,I was angry with my friend :,Annoyance,,Annoyance,
+12,1,2,4,2,1,2,A POISON TREE,"I told my wrath , my wrath did end .",Annoyance,,Annoyance,
+12,1,3,4,2,1,3,A POISON TREE,I was angry with my foe :,Annoyance,,Annoyance,
+12,1,4,4,2,1,4,A POISON TREE,"I told it not , my wrath did grow .",Annoyance,,Annoyance,
+12,2,1,4,2,2,1,A POISON TREE,And I watered it in fears,Annoyance,,Annoyance,
+12,2,2,4,2,2,2,A POISON TREE,"Night and morning with my tears ,",Annoyance,,Annoyance,
+12,2,3,4,2,2,3,A POISON TREE,And I sunned it with smiles,Annoyance,,Annoyance,
+12,2,4,4,2,2,4,A POISON TREE,And with soft deceitful wiles .,Annoyance,,Annoyance,
+13,1,1,14,1,1,1,"Composed Upon Westminster Bridge, September 3, 1802",Earth has not anything to show more fair:,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,2,14,1,1,2,"Composed Upon Westminster Bridge, September 3, 1802",Dull would he be of soul who could pass by,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,3,14,1,1,3,"Composed Upon Westminster Bridge, September 3, 1802",A sight so touching in its majesty:,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,4,14,1,1,4,"Composed Upon Westminster Bridge, September 3, 1802","This City now doth, like a garment, wear",Beauty / Joy,,Beauty / Joy,
+13,1,5,14,1,1,5,"Composed Upon Westminster Bridge, September 3, 1802","The beauty of the morning: silent, bare,",Beauty / Joy,,Beauty / Joy,
+13,1,6,14,1,1,6,"Composed Upon Westminster Bridge, September 3, 1802","Ships, towers, domes, theatres, and temples lie",Beauty / Joy,,Beauty / Joy,
+13,1,7,14,1,1,7,"Composed Upon Westminster Bridge, September 3, 1802","Open unto the fields, and to the sky;",Beauty / Joy,,Beauty / Joy,
+13,1,8,14,1,1,8,"Composed Upon Westminster Bridge, September 3, 1802",All bright and glittering in the smokeless air.,Beauty / Joy,,Beauty / Joy,
+13,1,9,14,1,1,9,"Composed Upon Westminster Bridge, September 3, 1802",Never did sun more beautifully steep,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,10,14,1,1,10,"Composed Upon Westminster Bridge, September 3, 1802","In his first splendour, valley, rock, or hill;",Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,11,14,1,1,11,"Composed Upon Westminster Bridge, September 3, 1802","Ne’er saw I, never felt, a calm so deep!",Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,12,14,1,1,12,"Composed Upon Westminster Bridge, September 3, 1802",The river glideth at his own sweet will:,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,13,14,1,1,13,"Composed Upon Westminster Bridge, September 3, 1802",Dear God! the very houses seem asleep;,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+13,1,14,14,1,1,14,"Composed Upon Westminster Bridge, September 3, 1802",And all that mighty heart is lying still!,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+14,1,1,9,1,1,1,The Rainbow,My heart leaps up when I behold,Beauty / Joy,,Beauty / Joy,
+14,1,2,9,1,1,2,The Rainbow,A rainbow in the sky:,Beauty / Joy,,Beauty / Joy,
+14,1,3,9,1,1,3,The Rainbow,So was it when my life began;,Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+14,1,4,9,1,1,4,The Rainbow,So is it now I am a man;,Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+14,1,5,9,1,1,5,The Rainbow,"So be it when I shall grow old,",Beauty / Joy,,Vitality,
+14,1,6,9,1,1,6,The Rainbow,Or let me die!,Beauty / Joy,,Vitality,
+14,1,7,9,1,1,7,The Rainbow,The Child is father of the Man;,Vitality,Beauty / Joy,Vitality,Beauty / Joy
+14,1,8,9,1,1,8,The Rainbow,And I could wish my days to be,Vitality,Beauty / Joy,Vitality,Beauty / Joy
+14,1,9,9,1,1,9,The Rainbow,Bound each to each by natural piety.,Vitality,Beauty / Joy,Vitality,Beauty / Joy
+15,1,1,14,1,1,1,Grief,"I tell you, hopeless grief is passionless;",Sadness,,Sadness,
+15,1,2,14,1,1,2,Grief,"That only men incredulous of despair,",Sadness,,Sadness,
+15,1,3,14,1,1,3,Grief,"Half-taught in anguish, through the midnight air",Sadness,,Sadness,
+15,1,4,14,1,1,4,Grief,Beat upward to God’s throne in loud access,Sadness,,Sadness,
+15,1,5,14,1,1,5,Grief,"Of shrieking and reproach. Full desertness,",Sadness,,Sadness,
+15,1,6,14,1,1,6,Grief,"In souls as countries, lieth silent-bare",Sadness,,Sadness,
+15,1,7,14,1,1,7,Grief,"Under the blanching, vertical eye-glare",Sadness,,Sadness,
+15,1,8,14,1,1,8,Grief,"Of the absolute heavens. Deep-hearted man, express",Sadness,,Sadness,
+15,1,9,14,1,1,9,Grief,Grief for thy dead in silence like to death—,Sadness,,Sadness,
+15,1,10,14,1,1,10,Grief,Most like a monumental statue set,Sadness,,Sadness,
+15,1,11,14,1,1,11,Grief,In everlasting watch and moveless woe,Sadness,,Sadness,
+15,1,12,14,1,1,12,Grief,Till itself crumble to the dust beneath.,Sadness,,Sadness,
+15,1,13,14,1,1,13,Grief,Touch it; the marble eyelids are not wet:,Sadness,,Sadness,
+15,1,14,14,1,1,14,Grief,"If it could weep, it could arise and go.",Sadness,,Sadness,
+16,1,1,14,1,1,1,Sonnet XXIV,"Let the world ""s sharpness , like a clasping knife ,",Beauty / Joy,,Beauty / Joy,
+16,1,2,14,1,1,2,Sonnet XXIV,Shut in upon itself and do no harm,Beauty / Joy,,Beauty / Joy,
+16,1,3,14,1,1,3,Sonnet XXIV,"In this close hand of Love , now soft and warm ,",Beauty / Joy,,Beauty / Joy,
+16,1,4,14,1,1,4,Sonnet XXIV,And let us hear no sound of human strife,Beauty / Joy,,Beauty / Joy,
+16,1,5,14,1,1,5,Sonnet XXIV,After the click of the shutting . Life to life —,Beauty / Joy,,Beauty / Joy,
+16,1,6,14,1,1,6,Sonnet XXIV,"I lean upon thee , Dear , without alarm ,",Beauty / Joy,,Beauty / Joy,
+16,1,7,14,1,1,7,Sonnet XXIV,And feel as safe as guarded by a charm,Beauty / Joy,,Beauty / Joy,
+16,1,8,14,1,1,8,Sonnet XXIV,"Against the stab of worldlings , who if rife",Beauty / Joy,,Beauty / Joy,
+16,1,9,14,1,1,9,Sonnet XXIV,Are weak to injure . Very-whitely still,Beauty / Joy,,Beauty / Joy,
+16,1,10,14,1,1,10,Sonnet XXIV,The lilies of our lives may reassure,Beauty / Joy,,Beauty / Joy,
+16,1,11,14,1,1,11,Sonnet XXIV,"Their blossoms from their roots , accessible",Beauty / Joy,,Beauty / Joy,
+16,1,12,14,1,1,12,Sonnet XXIV,Alone to heavenly dews that drop not fewer,Beauty / Joy,,Beauty / Joy,
+16,1,13,14,1,1,13,Sonnet XXIV,"Growing straight , out of man ""s reach , on the hill .",Beauty / Joy,,Beauty / Joy,
+16,1,14,14,1,1,14,Sonnet XXIV,"God only , who made us rich , can make us poor .",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+17,1,1,6,4,1,1,"AH, how sweet it is to love!","AH, how sweet it is to love!",Vitality,,Beauty / Joy,Vitality
+17,1,2,6,4,1,2,"AH, how sweet it is to love!","Ah, how gay is young Desire!",Vitality,,Beauty / Joy,Vitality
+17,1,3,6,4,1,3,"AH, how sweet it is to love!",And what pleasing pains we prove,Vitality,,Beauty / Joy,Vitality
+17,1,4,6,4,1,4,"AH, how sweet it is to love!","When we first approach Love""s fire!",Vitality,,Beauty / Joy,Vitality
+17,1,5,6,4,1,5,"AH, how sweet it is to love!",Pains of love be sweeter far,Vitality,,Beauty / Joy,Vitality
+17,1,6,6,4,1,6,"AH, how sweet it is to love!",Than all other pleasures are.,Vitality,,Beauty / Joy,Vitality
+17,2,1,6,4,2,1,"AH, how sweet it is to love!",Sighs which are from lovers blown,Beauty / Joy,,Beauty / Joy,
+17,2,2,6,4,2,2,"AH, how sweet it is to love!",Do but gently heave the heart:,Beauty / Joy,,Beauty / Joy,
+17,2,3,6,4,2,3,"AH, how sweet it is to love!","Ev""n the tears they shed alone",Beauty / Joy,,Beauty / Joy,
+17,2,4,6,4,2,4,"AH, how sweet it is to love!","Cure, like trickling balm, their smart:",Beauty / Joy,,Beauty / Joy,
+17,2,5,6,4,2,5,"AH, how sweet it is to love!","Lovers, when they lose their breath,",Beauty / Joy,,Beauty / Joy,
+17,2,6,6,4,2,6,"AH, how sweet it is to love!",Bleed away in easy death.,Beauty / Joy,,Beauty / Joy,
+17,3,1,6,4,3,1,"AH, how sweet it is to love!","Love and Time with reverence use,",Beauty / Joy,Sadness,Beauty / Joy,
+17,3,2,6,4,3,2,"AH, how sweet it is to love!",Treat them like a parting friend;,Beauty / Joy,Sadness,Beauty / Joy,
+17,3,3,6,4,3,3,"AH, how sweet it is to love!",Nor the golden gifts refuse,Beauty / Joy,Sadness,Beauty / Joy,
+17,3,4,6,4,3,4,"AH, how sweet it is to love!",Which in youth sincere they send:,Beauty / Joy,Sadness,Beauty / Joy,
+17,3,5,6,4,3,5,"AH, how sweet it is to love!","For each year their price is more,",Beauty / Joy,Sadness,Beauty / Joy,
+17,3,6,6,4,3,6,"AH, how sweet it is to love!",And they less simple than before.,Beauty / Joy,Sadness,Beauty / Joy,
+17,4,1,6,4,4,1,"AH, how sweet it is to love!","Love, like spring-tides full and high,",Sadness,,Sadness,
+17,4,2,6,4,4,2,"AH, how sweet it is to love!",Swells in every youthful vein;,Sadness,,Sadness,
+17,4,3,6,4,4,3,"AH, how sweet it is to love!","But each tide does less supply,",Sadness,,Sadness,
+17,4,4,6,4,4,4,"AH, how sweet it is to love!",Till they quite shrink in again:,Sadness,,Sadness,
+17,4,5,6,4,4,5,"AH, how sweet it is to love!","If a flow in age appear,",Sadness,,Sadness,
+17,4,6,6,4,4,6,"AH, how sweet it is to love!","""Tis but rain, and runs not clear.",Sadness,,Sadness,
+18,1,1,15,7,1,1,"A SONG FOR ST CECILIA ""S DAY","FROM harmony , from heavenly harmony",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,2,15,7,1,2,"A SONG FOR ST CECILIA ""S DAY",This universal frame began :,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,3,15,7,1,3,"A SONG FOR ST CECILIA ""S DAY",When nature underneath a heap,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,4,15,7,1,4,"A SONG FOR ST CECILIA ""S DAY","Of jarring atoms lay ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,5,15,7,1,5,"A SONG FOR ST CECILIA ""S DAY","And could not heave her head ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,6,15,7,1,6,"A SONG FOR ST CECILIA ""S DAY","The tuneful voice was heard from high ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,7,15,7,1,7,"A SONG FOR ST CECILIA ""S DAY","Arise , ye more than dead .",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,8,15,7,1,8,"A SONG FOR ST CECILIA ""S DAY","Then cold , and hot , and moist , and dry ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,9,15,7,1,9,"A SONG FOR ST CECILIA ""S DAY","In order to their stations leap ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,10,15,7,1,10,"A SONG FOR ST CECILIA ""S DAY","And Music ""s power obey .",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,11,15,7,1,11,"A SONG FOR ST CECILIA ""S DAY","From harmony , from heavenly harmony",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,12,15,7,1,12,"A SONG FOR ST CECILIA ""S DAY",This universal frame began :,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,13,15,7,1,13,"A SONG FOR ST CECILIA ""S DAY",From harmony to harmony,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,14,15,7,1,14,"A SONG FOR ST CECILIA ""S DAY","Through all the compass of the notes it rail ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,1,15,15,7,1,15,"A SONG FOR ST CECILIA ""S DAY",The diapason closing full in Man .,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,2,1,9,7,2,1,"A SONG FOR ST CECILIA ""S DAY",What passion cannot Music raise and quell ?,Beauty / Joy,,Beauty / Joy,
+18,2,2,9,7,2,2,"A SONG FOR ST CECILIA ""S DAY","When Jubal struck the chorded shell ,",Suspense,Beauty / Joy,Beauty / Joy,
+18,2,3,9,7,2,3,"A SONG FOR ST CECILIA ""S DAY","His listening brethren stood around ,",Suspense,Beauty / Joy,Beauty / Joy,
+18,2,4,9,7,2,4,"A SONG FOR ST CECILIA ""S DAY","And , wondering , on their faces fell",Suspense,Beauty / Joy,Beauty / Joy,
+18,2,5,9,7,2,5,"A SONG FOR ST CECILIA ""S DAY",To worship that celestial sound .,Suspense,Beauty / Joy,Beauty / Joy,
+18,2,6,9,7,2,6,"A SONG FOR ST CECILIA ""S DAY",Less than a God they thought there could not dwell,Beauty / Joy,,Beauty / Joy,
+18,2,7,9,7,2,7,"A SONG FOR ST CECILIA ""S DAY","Within the hollow of that shell ,",Beauty / Joy,,Beauty / Joy,
+18,2,8,9,7,2,8,"A SONG FOR ST CECILIA ""S DAY",That spoke so sweetly and so well .,Beauty / Joy,,Beauty / Joy,
+18,2,9,9,7,2,9,"A SONG FOR ST CECILIA ""S DAY",What passion cannot Music raise and quell ?,Beauty / Joy,,Beauty / Joy,
+18,3,1,8,7,3,1,"A SONG FOR ST CECILIA ""S DAY","The trumpet ""s loud clangour",Vitality,,Uneasiness,Vitality
+18,3,2,8,7,3,2,"A SONG FOR ST CECILIA ""S DAY","Excites us to arms ,",Vitality,,Uneasiness,Vitality
+18,3,3,8,7,3,3,"A SONG FOR ST CECILIA ""S DAY","With shrill notes of anger ,",Vitality,Uneasiness,Uneasiness,Vitality
+18,3,4,8,7,3,4,"A SONG FOR ST CECILIA ""S DAY",And mortal alarms .,Vitality,Uneasiness,Uneasiness,Vitality
+18,3,5,8,7,3,5,"A SONG FOR ST CECILIA ""S DAY",The double double double beat,Vitality,Uneasiness,Uneasiness,Vitality
+18,3,6,8,7,3,6,"A SONG FOR ST CECILIA ""S DAY",Of the thundering drum,Vitality,Uneasiness,Uneasiness,Vitality
+18,3,7,8,7,3,7,"A SONG FOR ST CECILIA ""S DAY","Cries , hark ! the foes come ;",Vitality,Uneasiness,Uneasiness,Vitality
+18,3,8,8,7,3,8,"A SONG FOR ST CECILIA ""S DAY","Charge , charge ! "" tis too late to retreat .",Vitality,Uneasiness,Uneasiness,Vitality
+18,4,1,4,7,4,1,"A SONG FOR ST CECILIA ""S DAY",The soft complaining flute,Sadness,,Sadness,
+18,4,2,4,7,4,2,"A SONG FOR ST CECILIA ""S DAY",In dying notes discovers,Sadness,,Sadness,
+18,4,3,4,7,4,3,"A SONG FOR ST CECILIA ""S DAY","The woes of hopeless lovers ,",Sadness,,Sadness,
+18,4,4,4,7,4,4,"A SONG FOR ST CECILIA ""S DAY","Whose dirge is whisper ""d by the warbling lute .",Sadness,,Sadness,
+18,5,1,5,7,5,1,"A SONG FOR ST CECILIA ""S DAY",Sharp violins proclaim,Uneasiness,,Uneasiness,
+18,5,2,5,7,5,2,"A SONG FOR ST CECILIA ""S DAY","Their jealous pangs , and desperation ,",Uneasiness,,Uneasiness,
+18,5,3,5,7,5,3,"A SONG FOR ST CECILIA ""S DAY","Fury , frantic indignation ,",Uneasiness,,Uneasiness,
+18,5,4,5,7,5,4,"A SONG FOR ST CECILIA ""S DAY","Depth of pains , and height of passion ,",Uneasiness,,Uneasiness,
+18,5,5,5,7,5,5,"A SONG FOR ST CECILIA ""S DAY","For the fair , disdainful dame .",Uneasiness,,Uneasiness,
+18,6,1,6,7,6,1,"A SONG FOR ST CECILIA ""S DAY","But oh ! what art can teach ,",Beauty / Joy,,Beauty / Joy,Awe / Sublime
+18,6,2,6,7,6,2,"A SONG FOR ST CECILIA ""S DAY","What human voice can reach ,",Beauty / Joy,,Beauty / Joy,Awe / Sublime
+18,6,3,6,7,6,3,"A SONG FOR ST CECILIA ""S DAY","The sacred organ ""s praise ?",Beauty / Joy,,Beauty / Joy,Awe / Sublime
+18,6,4,6,7,6,4,"A SONG FOR ST CECILIA ""S DAY","Notes inspiring holy love ,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,6,5,6,7,6,5,"A SONG FOR ST CECILIA ""S DAY",Notes that wing their heavenly ways,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,6,6,6,7,6,6,"A SONG FOR ST CECILIA ""S DAY",To mend the choirs above .,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+18,7,1,7,7,7,1,"A SONG FOR ST CECILIA ""S DAY",Orpheus could lead the savage race ;,Beauty / Joy,,Beauty / Joy,
+18,7,2,7,7,7,2,"A SONG FOR ST CECILIA ""S DAY","And trees uprooted left their place ,",Beauty / Joy,,Beauty / Joy,
+18,7,3,7,7,7,3,"A SONG FOR ST CECILIA ""S DAY",Sequacious of the lyre :,Beauty / Joy,,Beauty / Joy,
+18,7,4,7,7,7,4,"A SONG FOR ST CECILIA ""S DAY",But bright Cecilia raised the wonder higher :,Beauty / Joy,,Beauty / Joy,Awe / Sublime
+18,7,5,7,7,7,5,"A SONG FOR ST CECILIA ""S DAY","When to her organ vocal breath was given ,",Beauty / Joy,,Beauty / Joy,Awe / Sublime
+18,7,6,7,7,7,6,"A SONG FOR ST CECILIA ""S DAY","An angel heard , and straight appear ""d ,",Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+18,7,7,7,7,7,7,"A SONG FOR ST CECILIA ""S DAY",Mistaking earth for heaven .,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+19,1,1,7,3,1,1,MUTABILITY .,The flower that smiles to-day,Sadness,,Sadness,
+19,1,2,7,3,1,2,MUTABILITY .,To-morrow dies ;,Sadness,,Sadness,
+19,1,3,7,3,1,3,MUTABILITY .,All that we wish to stay,Sadness,,Sadness,
+19,1,4,7,3,1,4,MUTABILITY .,Tempts and then flies .,Sadness,,Sadness,
+19,1,5,7,3,1,5,MUTABILITY .,"What is this world ""s delight ?",Sadness,,Awe / Sublime,Sadness
+19,1,6,7,3,1,6,MUTABILITY .,"Lightning that mocks the night ,",Sadness,,Awe / Sublime,Sadness
+19,1,7,7,3,1,7,MUTABILITY .,Brief even as bright .,Sadness,,Awe / Sublime,Sadness
+19,2,1,7,3,2,1,MUTABILITY .,"Virtue , how frail it is !",Sadness,,Sadness,Awe / Sublime
+19,2,2,7,3,2,2,MUTABILITY .,Friendship how rare !,Sadness,,Sadness,Awe / Sublime
+19,2,3,7,3,2,3,MUTABILITY .,"Love , how it sells poor bliss",Sadness,,Sadness,Awe / Sublime
+19,2,4,7,3,2,4,MUTABILITY .,For proud despair !,Sadness,,Sadness,Awe / Sublime
+19,2,5,7,3,2,5,MUTABILITY .,"But we , though soon they fall ,",Sadness,,Sadness,
+19,2,6,7,3,2,6,MUTABILITY .,"Survive their joy , and all",Sadness,,Sadness,
+19,2,7,7,3,2,7,MUTABILITY .,Which ours we call .,Sadness,,Sadness,
+19,3,1,7,3,3,1,MUTABILITY .,"Whilst skies are blue and bright ,",Vitality,,Vitality,
+19,3,2,7,3,3,2,MUTABILITY .,"Whilst flowers are gay ,",Vitality,,Vitality,
+19,3,3,7,3,3,3,MUTABILITY .,Whilst eyes that change ere night,Vitality,,Vitality,
+19,3,4,7,3,3,4,MUTABILITY .,Make glad the day ;,Vitality,,Vitality,
+19,3,5,7,3,3,5,MUTABILITY .,"Whilst yet the calm hours creep ,",Sadness,,Vitality,
+19,3,6,7,3,3,6,MUTABILITY .,Dream thou — and from thy sleep,Sadness,,Vitality,
+19,3,7,7,3,3,7,MUTABILITY .,Then wake to weep .,Sadness,,Vitality,
+20,1,1,8,2,1,1,"John Anderson , My Jo","John Anderson , my jo , John ,",Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+20,1,2,8,2,1,2,"John Anderson , My Jo",When we were first acquent ;,Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+20,1,3,8,2,1,3,"John Anderson , My Jo","Your locks were like the raven ,",Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+20,1,4,8,2,1,4,"John Anderson , My Jo",Your bonie brow was brent ;,Beauty / Joy,Nostalgia,Beauty / Joy,Nostalgia
+20,1,5,8,2,1,5,"John Anderson , My Jo","But now your brow is beld , John ,",Beauty / Joy,,Beauty / Joy,Nostalgia
+20,1,6,8,2,1,6,"John Anderson , My Jo",Your locks are like the snaw ;,Beauty / Joy,,Beauty / Joy,Nostalgia
+20,1,7,8,2,1,7,"John Anderson , My Jo","But blessings on your frosty pow ,",Beauty / Joy,,Beauty / Joy,Nostalgia
+20,1,8,8,2,1,8,"John Anderson , My Jo","John Anderson , my jo .",Beauty / Joy,,Beauty / Joy,Nostalgia
+20,2,1,8,2,2,1,"John Anderson , My Jo","John Anderson , my jo , John ,",Beauty / Joy,,Beauty / Joy,
+20,2,2,8,2,2,2,"John Anderson , My Jo",We clamb the hill thegither ;,Beauty / Joy,,Beauty / Joy,
+20,2,3,8,2,2,3,"John Anderson , My Jo","And mony a cantie day , John ,",Beauty / Joy,,Beauty / Joy,
+20,2,4,8,2,2,4,"John Anderson , My Jo","We ""ve had wi ’ ane anither :",Beauty / Joy,,Beauty / Joy,
+20,2,5,8,2,2,5,"John Anderson , My Jo","Now we maun totter down , John ,",Beauty / Joy,,Beauty / Joy,
+20,2,6,8,2,2,6,"John Anderson , My Jo","And hand in hand we ""ll go ,",Beauty / Joy,,Beauty / Joy,
+20,2,7,8,2,2,7,"John Anderson , My Jo","And sleep thegither at the foot ,",Beauty / Joy,,Beauty / Joy,
+20,2,8,8,2,2,8,"John Anderson , My Jo","John Anderson , my jo .",Beauty / Joy,,Beauty / Joy,
+21,1,1,14,1,1,1,Sonnet CXXIX,The expense of spirit in a waste of shame,Uneasiness,,Uneasiness,
+21,1,2,14,1,1,2,Sonnet CXXIX,"Is lust in action : and till action , lust",Uneasiness,,Uneasiness,
+21,1,3,14,1,1,3,Sonnet CXXIX,"Is perjur ""d , murderous , bloody , full of blame ,",Uneasiness,,Uneasiness,
+21,1,4,14,1,1,4,Sonnet CXXIX,"Savage , extreme , rude , cruel , not to trust ;",Uneasiness,,Uneasiness,
+21,1,5,14,1,1,5,Sonnet CXXIX,"Enjoy ""d no sooner but despised straight ;",Uneasiness,,Uneasiness,
+21,1,6,14,1,1,6,Sonnet CXXIX,"Past reason hunted ; and no sooner had ,",Uneasiness,,Uneasiness,
+21,1,7,14,1,1,7,Sonnet CXXIX,"Past reason hated , as a swallow ""d bait ,",Uneasiness,,Uneasiness,
+21,1,8,14,1,1,8,Sonnet CXXIX,On purpose laid to make the taker mad :,Uneasiness,,Uneasiness,
+21,1,9,14,1,1,9,Sonnet CXXIX,Mad in pursuit and in possession so ;,Sadness,,Uneasiness,
+21,1,10,14,1,1,10,Sonnet CXXIX,"Had , having , and in quest , to have extreme ;",Sadness,,Sadness,
+21,1,11,14,1,1,11,Sonnet CXXIX,"A bliss in proof ,— and prov ""d , a very woe ;",Sadness,,Sadness,
+21,1,12,14,1,1,12,Sonnet CXXIX,"Before , a joy propos ""d ; behind a dream .",Sadness,,Sadness,
+21,1,13,14,1,1,13,Sonnet CXXIX,All this the world well knows ; yet none knows well,Sadness,,Sadness,
+21,1,14,14,1,1,14,Sonnet CXXIX,To shun the heaven that leads men to this hell .,Sadness,,Sadness,
+22,1,1,14,1,1,1,The Passionate Pilgrim I .,"When my love swears that she is made of truth ,",Sadness,,Sadness,
+22,1,2,14,1,1,2,The Passionate Pilgrim I .,"I do believe her , though I know she lies ,",Sadness,,Sadness,
+22,1,3,14,1,1,3,The Passionate Pilgrim I .,"That she might think me some untutor ""d youth ,",Sadness,,Sadness,
+22,1,4,14,1,1,4,The Passionate Pilgrim I .,"Unskilful in the world ""s false forgeries ,",Sadness,,Sadness,
+22,1,5,14,1,1,5,The Passionate Pilgrim I .,"Thus vainly thinking that she thinks me young ,",Sadness,,Sadness,
+22,1,6,14,1,1,6,The Passionate Pilgrim I .,"Although I know my years be past the best ,",Sadness,,Sadness,
+22,1,7,14,1,1,7,The Passionate Pilgrim I .,"I smiling credit her false-speaking tongue ,",Sadness,,Sadness,
+22,1,8,14,1,1,8,The Passionate Pilgrim I .,"Outfacing faults in love with love ""s ill rest .",Sadness,,Sadness,
+22,1,9,14,1,1,9,The Passionate Pilgrim I .,But wherefore says my love that she is young ?,Beauty / Joy,,Beauty / Joy,
+22,1,10,14,1,1,10,The Passionate Pilgrim I .,And wherefore say not I that I am old ?,Beauty / Joy,,Beauty / Joy,
+22,1,11,14,1,1,11,The Passionate Pilgrim I .,"O , love ""s best habit is a soothing tongue ,",Beauty / Joy,,Beauty / Joy,
+22,1,12,14,1,1,12,The Passionate Pilgrim I .,"And age , in love , loves not to have years told .",Beauty / Joy,,Beauty / Joy,
+22,1,13,14,1,1,13,The Passionate Pilgrim I .,"Therefore , I ""ll lie with love , and love with me ,",Beauty / Joy,,Beauty / Joy,
+22,1,14,14,1,1,14,The Passionate Pilgrim I .,"Since that our faults in love thus smother ""d be .",Beauty / Joy,,Beauty / Joy,
+23,1,1,4,4,1,1,Crossing the Bar,"Sunset and evening star,",Beauty / Joy,,Vitality,
+23,1,2,4,4,1,2,Crossing the Bar,And one clear call for me!,Beauty / Joy,,Vitality,
+23,1,3,4,4,1,3,Crossing the Bar,"And may there be no moaning of the bar,",Beauty / Joy,,Vitality,
+23,1,4,4,4,1,4,Crossing the Bar,"When I put out to sea,",Beauty / Joy,,Vitality,
+23,2,1,4,4,2,1,Crossing the Bar,"But such a tide as moving seems asleep,",Beauty / Joy,,Sadness,
+23,2,2,4,4,2,2,Crossing the Bar,"Too full for sound and foam,",Beauty / Joy,,Sadness,
+23,2,3,4,4,2,3,Crossing the Bar,When that which drew from out the boundless deep,Beauty / Joy,,Sadness,
+23,2,4,4,4,2,4,Crossing the Bar,Turns again home.,Beauty / Joy,,Sadness,
+23,3,1,4,4,3,1,Crossing the Bar,"Twilight and evening bell,",Sadness,,Vitality,
+23,3,2,4,4,3,2,Crossing the Bar,And after that the dark!,Sadness,,Vitality,
+23,3,3,4,4,3,3,Crossing the Bar,"And may there be no sadness of farewell,",Sadness,,Vitality,
+23,3,4,4,4,3,4,Crossing the Bar,When I embark;,Sadness,,Vitality,
+23,4,1,4,4,4,1,Crossing the Bar,For tho’ from out our bourne of Time and Place,Beauty / Joy,,Vitality,
+23,4,2,4,4,4,2,Crossing the Bar,"The flood may bear me far,",Beauty / Joy,,Vitality,
+23,4,3,4,4,4,3,Crossing the Bar,I hope to see my Pilot face to face,Beauty / Joy,,Vitality,
+23,4,4,4,4,4,4,Crossing the Bar,When I have crost the bar.,Beauty / Joy,,Vitality,
+24,1,1,4,6,1,1,THE TYGER,"Tyger , tyger , burning bright",Beauty / Joy,,Beauty / Joy,
+24,1,2,4,6,1,2,THE TYGER,"In the forests of the night ,",Beauty / Joy,,Beauty / Joy,
+24,1,3,4,6,1,3,THE TYGER,What immortal hand or eye,Beauty / Joy,Awe / Sublime,Beauty / Joy,
+24,1,4,4,6,1,4,THE TYGER,Could frame thy fearful symmetry ?,Beauty / Joy,Awe / Sublime,Beauty / Joy,
+24,2,1,4,6,2,1,THE TYGER,In what distant deeps or skies,Beauty / Joy,,Beauty / Joy,
+24,2,2,4,6,2,2,THE TYGER,Burnt the fire of thine eyes ?,Beauty / Joy,,Beauty / Joy,
+24,2,3,4,6,2,3,THE TYGER,On what wings dare he aspire ?,Beauty / Joy,,Beauty / Joy,
+24,2,4,4,6,2,4,THE TYGER,What the hand dare seize the fire ?,Beauty / Joy,,Beauty / Joy,
+24,3,1,4,6,3,1,THE TYGER,And what shoulder and what art,Uneasiness,,Uneasiness,
+24,3,2,4,6,3,2,THE TYGER,Could twist the sinews of thy heart ?,Uneasiness,,Uneasiness,
+24,3,3,4,6,3,3,THE TYGER,"And , when thy heart began to beat ,",Uneasiness,,Uneasiness,
+24,3,4,4,6,3,4,THE TYGER,What dread hand and what dread feet ?,Uneasiness,,Uneasiness,
+24,4,1,4,6,4,1,THE TYGER,What the hammer ? what the chain ?,Uneasiness,,Uneasiness,
+24,4,2,4,6,4,2,THE TYGER,In what furnace was thy brain ?,Uneasiness,,Uneasiness,
+24,4,3,4,6,4,3,THE TYGER,What the anvil ? what dread grasp,Uneasiness,,Uneasiness,
+24,4,4,4,6,4,4,THE TYGER,Dare its deadly terrors clasp ?,Uneasiness,,Uneasiness,
+24,5,1,4,6,5,1,THE TYGER,"When the stars threw down their spears ,",Awe / Sublime,,Awe / Sublime,
+24,5,2,4,6,5,2,THE TYGER,"And watered heaven with their tears ,",Awe / Sublime,,Awe / Sublime,
+24,5,3,4,6,5,3,THE TYGER,Did he smile his work to see ?,Awe / Sublime,,Awe / Sublime,
+24,5,4,4,6,5,4,THE TYGER,Did he who made the lamb make thee ?,Awe / Sublime,,Awe / Sublime,
+24,6,1,4,6,6,1,THE TYGER,"Tyger , tyger , burning bright",Beauty / Joy,,Beauty / Joy,
+24,6,2,4,6,6,2,THE TYGER,"In the forests of the night ,",Beauty / Joy,,Beauty / Joy,
+24,6,3,4,6,6,3,THE TYGER,What immortal hand or eye,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+24,6,4,4,6,6,4,THE TYGER,Dare frame thy fearful symmetry ?,Beauty / Joy,Awe / Sublime,Beauty / Joy,Awe / Sublime
+25,1,1,4,3,1,1,Leda and the Swan,A sudden blow: the great wings beating still,Suspense,,Suspense,Uneasiness
+25,1,2,4,3,1,2,Leda and the Swan,"Above the staggering girl, her thighs caressed",Uneasiness,,Suspense,Uneasiness
+25,1,3,4,3,1,3,Leda and the Swan,"By the dark webs, her nape caught in his bill,",Uneasiness,,Suspense,Uneasiness
+25,1,4,4,3,1,4,Leda and the Swan,He holds her helpless breast upon his breast.,Uneasiness,,Suspense,Uneasiness
+25,2,1,4,3,2,1,Leda and the Swan,How can those terrified vague fingers push,Uneasiness,,Suspense,Uneasiness
+25,2,2,4,3,2,2,Leda and the Swan,The feathered glory from her loosening thighs?,Uneasiness,,Suspense,Uneasiness
+25,2,3,4,3,2,3,Leda and the Swan,"And how can body, laid in that white rush,",Uneasiness,,Suspense,Uneasiness
+25,2,4,4,3,2,4,Leda and the Swan,But feel the strange heart beating where it lies?,Uneasiness,,Suspense,Uneasiness
+25,3,1,6,3,3,1,Leda and the Swan,A shudder in the loins engenders there,Uneasiness,,Uneasiness,
+25,3,2,6,3,3,2,Leda and the Swan,"The broken wall, the burning roof and tower",Uneasiness,,Uneasiness,
+25,3,3,6,3,3,3,Leda and the Swan,"And Agamemnon dead. Being so caught up,",Uneasiness,,Uneasiness,
+25,3,4,6,3,3,4,Leda and the Swan,"So mastered by the brute blood of the air,",Uneasiness,,Uneasiness,
+25,3,5,6,3,3,5,Leda and the Swan,Did she put on his knowledge with his power,Uneasiness,,Uneasiness,
+25,3,6,6,3,3,6,Leda and the Swan,Before the indifferent beak could let her drop?,Uneasiness,,Uneasiness,
+26,1,1,8,6,1,1,THE CHARGE OF THE LIGHT BRIGADE .,"Half a league , half a league ,",Uneasiness,,Suspense,Uneasiness
+26,1,2,8,6,1,2,THE CHARGE OF THE LIGHT BRIGADE .,"Half a league onward ,",Uneasiness,,Suspense,Uneasiness
+26,1,3,8,6,1,3,THE CHARGE OF THE LIGHT BRIGADE .,All in the valley of Death,Uneasiness,,Suspense,Uneasiness
+26,1,4,8,6,1,4,THE CHARGE OF THE LIGHT BRIGADE .,Rode the six hundred .,Uneasiness,,Suspense,Uneasiness
+26,1,5,8,6,1,5,THE CHARGE OF THE LIGHT BRIGADE .,"‘ Forward , the Light Brigade ! ’",Uneasiness,Suspense,Suspense,Uneasiness
+26,1,6,8,6,1,6,THE CHARGE OF THE LIGHT BRIGADE .,‘ Charge for the guns ! ’ he said :,Uneasiness,Suspense,Suspense,Uneasiness
+26,1,7,8,6,1,7,THE CHARGE OF THE LIGHT BRIGADE .,Into the valley of Death,Uneasiness,Suspense,Suspense,Uneasiness
+26,1,8,8,6,1,8,THE CHARGE OF THE LIGHT BRIGADE .,Rode the six hundred .,Uneasiness,Suspense,Suspense,Uneasiness
+26,2,1,9,6,2,1,THE CHARGE OF THE LIGHT BRIGADE .,"‘ Forward , the Light Brigade ! ’",Uneasiness,,Uneasiness,
+26,2,2,9,6,2,2,THE CHARGE OF THE LIGHT BRIGADE .,"Was there a man dismay ""d ?",Uneasiness,,Uneasiness,
+26,2,3,9,6,2,3,THE CHARGE OF THE LIGHT BRIGADE .,Not tho ’ the soldier knew,Uneasiness,,Uneasiness,
+26,2,4,9,6,2,4,THE CHARGE OF THE LIGHT BRIGADE .,"Some one had blunder ""d :",Uneasiness,,Uneasiness,
+26,2,5,9,6,2,5,THE CHARGE OF THE LIGHT BRIGADE .,"Their ""s not to make reply ,",Uneasiness,,Uneasiness,
+26,2,6,9,6,2,6,THE CHARGE OF THE LIGHT BRIGADE .,"Their ""s not to reason why ,",Uneasiness,,Uneasiness,
+26,2,7,9,6,2,7,THE CHARGE OF THE LIGHT BRIGADE .,"Their ""s but to do and die :",Uneasiness,,Uneasiness,
+26,2,8,9,6,2,8,THE CHARGE OF THE LIGHT BRIGADE .,Into the valley of Death,Uneasiness,,Uneasiness,
+26,2,9,9,6,2,9,THE CHARGE OF THE LIGHT BRIGADE .,Rode the six hundred .,Uneasiness,,Uneasiness,
+26,3,1,9,6,3,1,THE CHARGE OF THE LIGHT BRIGADE .,"Cannon to right of them ,",Uneasiness,Vitality,Uneasiness,
+26,3,2,9,6,3,2,THE CHARGE OF THE LIGHT BRIGADE .,"Cannon to left of them ,",Uneasiness,Vitality,Uneasiness,
+26,3,3,9,6,3,3,THE CHARGE OF THE LIGHT BRIGADE .,Cannon in front of them,Uneasiness,Vitality,Uneasiness,
+26,3,4,9,6,3,4,THE CHARGE OF THE LIGHT BRIGADE .,"Volley ""d and thunder ""d ;",Uneasiness,Vitality,Uneasiness,
+26,3,5,9,6,3,5,THE CHARGE OF THE LIGHT BRIGADE .,"Storm ""d at with shot and shell ,",Uneasiness,Vitality,Uneasiness,
+26,3,6,9,6,3,6,THE CHARGE OF THE LIGHT BRIGADE .,"Boldly they rode and well ,",Uneasiness,,Uneasiness,
+26,3,7,9,6,3,7,THE CHARGE OF THE LIGHT BRIGADE .,"Into the jaws of Death ,",Uneasiness,,Uneasiness,
+26,3,8,9,6,3,8,THE CHARGE OF THE LIGHT BRIGADE .,Into the mouth of Hell,Uneasiness,,Uneasiness,
+26,3,9,9,6,3,9,THE CHARGE OF THE LIGHT BRIGADE .,Rode the six hundred .,Uneasiness,,Uneasiness,
+26,4,1,12,6,4,1,THE CHARGE OF THE LIGHT BRIGADE .,"Flash ""d all their sabres bare ,",Uneasiness,,Uneasiness,
+26,4,2,12,6,4,2,THE CHARGE OF THE LIGHT BRIGADE .,"Flash ""d as they turn ""d in air ,",Uneasiness,,Uneasiness,
+26,4,3,12,6,4,3,THE CHARGE OF THE LIGHT BRIGADE .,"Sabring the gunners there ,",Uneasiness,,Uneasiness,
+26,4,4,12,6,4,4,THE CHARGE OF THE LIGHT BRIGADE .,"Charging an army , while",Uneasiness,,Uneasiness,
+26,4,5,12,6,4,5,THE CHARGE OF THE LIGHT BRIGADE .,"All the world wonder ""d :",Uneasiness,,Uneasiness,
+26,4,6,12,6,4,6,THE CHARGE OF THE LIGHT BRIGADE .,Plunged in the battery-smoke,Uneasiness,,Uneasiness,
+26,4,7,12,6,4,7,THE CHARGE OF THE LIGHT BRIGADE .,Right thro ’ the line they broke ;,Uneasiness,,Uneasiness,
+26,4,8,12,6,4,8,THE CHARGE OF THE LIGHT BRIGADE .,Cossack and Russian,Uneasiness,,Uneasiness,
+26,4,9,12,6,4,9,THE CHARGE OF THE LIGHT BRIGADE .,"Reel ""d from the sabre-stroke",Uneasiness,,Uneasiness,
+26,4,10,12,6,4,10,THE CHARGE OF THE LIGHT BRIGADE .,"Shatter ""d and sunder ""d .",Uneasiness,,Uneasiness,
+26,4,11,12,6,4,11,THE CHARGE OF THE LIGHT BRIGADE .,"Then they rode back , but not",Uneasiness,,Uneasiness,
+26,4,12,12,6,4,12,THE CHARGE OF THE LIGHT BRIGADE .,Not the six hundred .,Uneasiness,,Uneasiness,
+26,5,1,11,6,5,1,THE CHARGE OF THE LIGHT BRIGADE .,"Cannon to right of them ,",Uneasiness,Vitality,Uneasiness,
+26,5,2,11,6,5,2,THE CHARGE OF THE LIGHT BRIGADE .,"Cannon to left of them ,",Uneasiness,Vitality,Uneasiness,
+26,5,3,11,6,5,3,THE CHARGE OF THE LIGHT BRIGADE .,Cannon behind them,Uneasiness,Vitality,Uneasiness,
+26,5,4,11,6,5,4,THE CHARGE OF THE LIGHT BRIGADE .,"Volley ""d and thunder ""d ;",Uneasiness,Vitality,Uneasiness,
+26,5,5,11,6,5,5,THE CHARGE OF THE LIGHT BRIGADE .,"Storm ""d at with shot and shell ,",Uneasiness,Vitality,Uneasiness,
+26,5,6,11,6,5,6,THE CHARGE OF THE LIGHT BRIGADE .,"While horse and hero fell ,",Uneasiness,,Uneasiness,
+26,5,7,11,6,5,7,THE CHARGE OF THE LIGHT BRIGADE .,They that had fought so well,Uneasiness,,Uneasiness,
+26,5,8,11,6,5,8,THE CHARGE OF THE LIGHT BRIGADE .,"Came thro ’ the jaws of Death ,",Uneasiness,,Uneasiness,
+26,5,9,11,6,5,9,THE CHARGE OF THE LIGHT BRIGADE .,"Back from the mouth of Hell ,",Uneasiness,,Uneasiness,
+26,5,10,11,6,5,10,THE CHARGE OF THE LIGHT BRIGADE .,"All that was left of them ,",Uneasiness,,Uneasiness,
+26,5,11,11,6,5,11,THE CHARGE OF THE LIGHT BRIGADE .,Left of six hundred .,Uneasiness,,Uneasiness,
+26,6,1,6,6,6,1,THE CHARGE OF THE LIGHT BRIGADE .,When can their glory fade ?,Vitality,,Vitality,
+26,6,2,6,6,6,2,THE CHARGE OF THE LIGHT BRIGADE .,O the wild charge they made !,Vitality,,Vitality,
+26,6,3,6,6,6,3,THE CHARGE OF THE LIGHT BRIGADE .,All the world wondered .,Vitality,,Vitality,
+26,6,4,6,6,6,4,THE CHARGE OF THE LIGHT BRIGADE .,Honor the charge they made !,Vitality,,Vitality,
+26,6,5,6,6,6,5,THE CHARGE OF THE LIGHT BRIGADE .,"Honor the Light Brigade ,",Vitality,,Vitality,
+26,6,6,6,6,6,6,THE CHARGE OF THE LIGHT BRIGADE .,Noble six hundred !,Vitality,,Vitality,
+27,1,1,4,2,1,1,THE MYSTERY OF PAIN .,Pain has an element of blank ;,Sadness,,Sadness,
+27,1,2,4,2,1,2,THE MYSTERY OF PAIN .,It cannot recollect,Sadness,,Sadness,
+27,1,3,4,2,1,3,THE MYSTERY OF PAIN .,"When it began , or if there were",Sadness,,Sadness,
+27,1,4,4,2,1,4,THE MYSTERY OF PAIN .,A day when it was not .,Sadness,,Sadness,
+27,2,1,4,2,2,1,THE MYSTERY OF PAIN .,"It has no future but itself ,",Sadness,,Sadness,
+27,2,2,4,2,2,2,THE MYSTERY OF PAIN .,Its infinite realms contain,Sadness,,Sadness,
+27,2,3,4,2,2,3,THE MYSTERY OF PAIN .,"Its past , enlightened to perceive",Sadness,,Sadness,
+27,2,4,4,2,2,4,THE MYSTERY OF PAIN .,New periods of pain .,Sadness,,Sadness,
+28,1,1,4,4,1,1,I taste a liquor never brewed,"I taste a liquor never brewed ,",Beauty / Joy,Vitality,Beauty / Joy,
+28,1,2,4,4,1,2,I taste a liquor never brewed,From tankards scooped in pearl ;,Beauty / Joy,Vitality,Beauty / Joy,
+28,1,3,4,4,1,3,I taste a liquor never brewed,Not all the vats upon the Rhine,Beauty / Joy,Vitality,Beauty / Joy,
+28,1,4,4,4,1,4,I taste a liquor never brewed,Yield such an alcohol !,Beauty / Joy,Vitality,Beauty / Joy,
+28,2,1,4,4,2,1,I taste a liquor never brewed,"Inebriate of air am I ,",Beauty / Joy,,Beauty / Joy,Vitality
+28,2,2,4,4,2,2,I taste a liquor never brewed,"And debauchee of dew ,",Beauty / Joy,,Beauty / Joy,Vitality
+28,2,3,4,4,2,3,I taste a liquor never brewed,"Reeling , through endless summer days ,",Beauty / Joy,,Beauty / Joy,Vitality
+28,2,4,4,4,2,4,I taste a liquor never brewed,From inns of molten blue .,Beauty / Joy,,Beauty / Joy,Vitality
+28,3,1,4,4,3,1,I taste a liquor never brewed,When landlords turn the drunken bee,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,3,2,4,4,3,2,I taste a liquor never brewed,"Out of the foxglove ""s door ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,3,3,4,4,3,3,I taste a liquor never brewed,"When butterflies renounce their drams ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,3,4,4,4,3,4,I taste a liquor never brewed,I shall but drink the more !,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,4,1,4,4,4,1,I taste a liquor never brewed,"Till seraphs swing their snowy hats ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,4,2,4,4,4,2,I taste a liquor never brewed,"And saints to windows run ,",Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,4,3,4,4,4,3,I taste a liquor never brewed,To see the little tippler,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+28,4,4,4,4,4,4,I taste a liquor never brewed,Leaning against the sun !,Beauty / Joy,Vitality,Beauty / Joy,Vitality
+29,1,1,14,1,1,1,"Bright star, would I were stedfast as thou art-”","Bright star, would I were stedfast as thou art—",Awe / Sublime,,Awe / Sublime,
+29,1,2,14,1,1,2,"Bright star, would I were stedfast as thou art-”",Not in lone splendour hung aloft the night,Awe / Sublime,,Awe / Sublime,
+29,1,3,14,1,1,3,"Bright star, would I were stedfast as thou art-”","And watching, with eternal lids apart,",Awe / Sublime,,Awe / Sublime,
+29,1,4,14,1,1,4,"Bright star, would I were stedfast as thou art-”","Like nature’s patient, sleepless Eremite,",Awe / Sublime,,Awe / Sublime,
+29,1,5,14,1,1,5,"Bright star, would I were stedfast as thou art-”",The moving waters at their priestlike task,Beauty / Joy,,Awe / Sublime,
+29,1,6,14,1,1,6,"Bright star, would I were stedfast as thou art-”","Of pure ablution round earth’s human shores,",Beauty / Joy,,Awe / Sublime,
+29,1,7,14,1,1,7,"Bright star, would I were stedfast as thou art-”",Or gazing on the new soft-fallen mask,Beauty / Joy,,Awe / Sublime,
+29,1,8,14,1,1,8,"Bright star, would I were stedfast as thou art-”",Of snow upon the mountains and the moors—,Beauty / Joy,,Awe / Sublime,
+29,1,9,14,1,1,9,"Bright star, would I were stedfast as thou art-”","No—yet still stedfast, still unchangeable,",Beauty / Joy,,Vitality,
+29,1,10,14,1,1,10,"Bright star, would I were stedfast as thou art-”","Pillow’d upon my fair love’s ripening breast,",Beauty / Joy,,Vitality,
+29,1,11,14,1,1,11,"Bright star, would I were stedfast as thou art-”","To feel for ever its soft fall and swell,",Beauty / Joy,,Vitality,
+29,1,12,14,1,1,12,"Bright star, would I were stedfast as thou art-”","Awake for ever in a sweet unrest,",Beauty / Joy,,Vitality,
+29,1,13,14,1,1,13,"Bright star, would I were stedfast as thou art-”","Still, still to hear her tender-taken breath,",Beauty / Joy,,Vitality,
+29,1,14,14,1,1,14,"Bright star, would I were stedfast as thou art-”",And so live ever—or else swoon to death.,Beauty / Joy,Sadness,Vitality,
+30,1,1,14,1,1,1,On Seeing the Elgin Marbles”,My spirit is too weak—mortality,Sadness,,Sadness,
+30,1,2,14,1,1,2,On Seeing the Elgin Marbles”,"Weighs heavily on me like unwilling sleep,",Sadness,,Sadness,
+30,1,3,14,1,1,3,On Seeing the Elgin Marbles”,And each imagined pinnacle and steep,Sadness,,Sadness,
+30,1,4,14,1,1,4,On Seeing the Elgin Marbles”,Of godlike hardship tells me I must die,Sadness,,Sadness,
+30,1,5,14,1,1,5,On Seeing the Elgin Marbles”,Like a sick eagle looking at the sky.,Sadness,,Sadness,
+30,1,6,14,1,1,6,On Seeing the Elgin Marbles”,"Yet ‘tis a gentle luxury to weep,",Sadness,,Sadness,
+30,1,7,14,1,1,7,On Seeing the Elgin Marbles”,"That I have not the cloudy winds to keep,",Sadness,,Sadness,
+30,1,8,14,1,1,8,On Seeing the Elgin Marbles”,Fresh for the opening of the morning’s eye.,Sadness,,Sadness,
+30,1,9,14,1,1,9,On Seeing the Elgin Marbles”,Such dim-conceived glories of the brain,Sadness,,Sadness,
+30,1,10,14,1,1,10,On Seeing the Elgin Marbles”,Bring round the heart an indescribable feud;,Sadness,,Sadness,
+30,1,11,14,1,1,11,On Seeing the Elgin Marbles”,"So do these wonders a most dizzy pain,",Sadness,,Sadness,
+30,1,12,14,1,1,12,On Seeing the Elgin Marbles”,That mingles Grecian grandeur with the rude,Sadness,,Sadness,
+30,1,13,14,1,1,13,On Seeing the Elgin Marbles”,Wasting of old Time—with a billowy main—,Sadness,,Sadness,
+30,1,14,14,1,1,14,On Seeing the Elgin Marbles”,A sun—a shadow of a magnitude.,Sadness,,Sadness,
+31,1,1,12,2,1,1,The Banks O ’ Doon — Second Version,"Ye flowery banks o ’ bonie Doon ,",Beauty / Joy,,Beauty / Joy,
+31,1,2,12,2,1,2,The Banks O ’ Doon — Second Version,How can ye blume sae fair ?,Beauty / Joy,,Beauty / Joy,
+31,1,3,12,2,1,3,The Banks O ’ Doon — Second Version,"How can ye chant , ye little birds ,",Beauty / Joy,,Beauty / Joy,
+31,1,4,12,2,1,4,The Banks O ’ Doon — Second Version,And I sae fu ’ o care !,Sadness,,Beauty / Joy,
+31,1,5,12,2,1,5,The Banks O ’ Doon — Second Version,"Thou ""ll break my heart , thou bonie bird ,",Sadness,,Sadness,
+31,1,6,12,2,1,6,The Banks O ’ Doon — Second Version,That sings upon the bough !,Sadness,,Sadness,
+31,1,7,12,2,1,7,The Banks O ’ Doon — Second Version,Thou minds me o ’ the happy days,Sadness,Nostalgia,Sadness,Nostalgia
+31,1,8,12,2,1,8,The Banks O ’ Doon — Second Version,When my fause Luve was true .,Sadness,Nostalgia,Sadness,Nostalgia
+31,1,9,12,2,1,9,The Banks O ’ Doon — Second Version,"Thou ""ll break my heart , thou bonie bird ,",Sadness,,Sadness,
+31,1,10,12,2,1,10,The Banks O ’ Doon — Second Version,That sings beside thy mate ;,Sadness,,Sadness,
+31,1,11,12,2,1,11,The Banks O ’ Doon — Second Version,"For sae I sat , and sae I sang ,",Sadness,,Sadness,
+31,1,12,12,2,1,12,The Banks O ’ Doon — Second Version,And wist na o ’ my fate .,Sadness,,Sadness,
+31,2,1,12,2,2,1,The Banks O ’ Doon — Second Version,"Aft hae I rov ""d by bonie Doon ,",Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,2,12,2,2,2,The Banks O ’ Doon — Second Version,To see the woodbine twine ;,Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,3,12,2,2,3,The Banks O ’ Doon — Second Version,"And ilka bird sang o ’ its Luve ,",Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,4,12,2,2,4,The Banks O ’ Doon — Second Version,And sae did I o ’ mine .,Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,5,12,2,2,5,The Banks O ’ Doon — Second Version,"Wi ’ lightsome heart I pu ""d a rose ,",Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,6,12,2,2,6,The Banks O ’ Doon — Second Version,Upon its thorny tree ;,Nostalgia,Beauty / Joy,Beauty / Joy,Nostalgia
+31,2,7,12,2,2,7,The Banks O ’ Doon — Second Version,"But my fause Luver staw my rose ,",Sadness,Beauty / Joy,Beauty / Joy,
+31,2,8,12,2,2,8,The Banks O ’ Doon — Second Version,And left the thorn wi ’ me .,Sadness,Beauty / Joy,Beauty / Joy,
+31,2,9,12,2,2,9,The Banks O ’ Doon — Second Version,"Wi ’ lightsome heart I pu ""d a rose ,",Sadness,Beauty / Joy,Beauty / Joy,
+31,2,10,12,2,2,10,The Banks O ’ Doon — Second Version,Upon a morn in June ;,Sadness,Beauty / Joy,Beauty / Joy,
+31,2,11,12,2,2,11,The Banks O ’ Doon — Second Version,"And sae I flourished on the morn ,",Sadness,Beauty / Joy,Beauty / Joy,
+31,2,12,12,2,2,12,The Banks O ’ Doon — Second Version,"And sae was pu ""d or noon .",Sadness,Beauty / Joy,Beauty / Joy,
+32,1,1,8,5,1,1,"A Man ""s A Man For A ’ That",Is there for honest Poverty,Sadness,,Vitality,Sadness
+32,1,2,8,5,1,2,"A Man ""s A Man For A ’ That","That hings his head , an ’ a ’ that ;",Sadness,,Vitality,Sadness
+32,1,3,8,5,1,3,"A Man ""s A Man For A ’ That","The coward slave — we pass him by ,",Sadness,,Vitality,Sadness
+32,1,4,8,5,1,4,"A Man ""s A Man For A ’ That",We dare be poor for a ’ that !,Sadness,,Vitality,Sadness
+32,1,5,8,5,1,5,"A Man ""s A Man For A ’ That","For a ’ that , an ’ a ’ that .",Sadness,,Vitality,Sadness
+32,1,6,8,5,1,6,"A Man ""s A Man For A ’ That","Our toils obscure an ’ a ’ that ,",Sadness,,Vitality,Sadness
+32,1,7,8,5,1,7,"A Man ""s A Man For A ’ That","The rank is but the guinea ""s stamp ,",Sadness,,Vitality,Sadness
+32,1,8,8,5,1,8,"A Man ""s A Man For A ’ That","The Man ""s the gowd for a ’ that .",Sadness,,Vitality,Sadness
+32,2,1,8,5,2,1,"A Man ""s A Man For A ’ That","What though on hamely fare we dine ,",Sadness,,Vitality,
+32,2,2,8,5,2,2,"A Man ""s A Man For A ’ That","Wear hoddin grey , an ’ a that ;",Sadness,,Vitality,
+32,2,3,8,5,2,3,"A Man ""s A Man For A ’ That","Gie fools their silks , and knaves their wine ;",Sadness,,Vitality,
+32,2,4,8,5,2,4,"A Man ""s A Man For A ’ That","A Man ""s a Man for a ’ that :",Sadness,,Vitality,
+32,2,5,8,5,2,5,"A Man ""s A Man For A ’ That","For a ’ that , and a ’ that ,",Sadness,,Vitality,
+32,2,6,8,5,2,6,"A Man ""s A Man For A ’ That","Their tinsel show , an ’ a ’ that ;",Sadness,,Vitality,
+32,2,7,8,5,2,7,"A Man ""s A Man For A ’ That","The honest man , tho ’ e""er sae poor ,",Sadness,,Vitality,
+32,2,8,8,5,2,8,"A Man ""s A Man For A ’ That",Is king o ’ men for a ’ that .,Sadness,,Vitality,
+32,3,1,8,5,3,1,"A Man ""s A Man For A ’ That","Ye see yon birkie , ca ""d a lord ,",Humor,,Vitality,
+32,3,2,8,5,3,2,"A Man ""s A Man For A ’ That","Wha struts , an ’ stares , an ’ a ’ that ;",Humor,,Vitality,
+32,3,3,8,5,3,3,"A Man ""s A Man For A ’ That","Tho ’ hundreds worship at his word ,",Humor,,Vitality,
+32,3,4,8,5,3,4,"A Man ""s A Man For A ’ That","He ""s but a coof for a ’ that :",Humor,,Vitality,
+32,3,5,8,5,3,5,"A Man ""s A Man For A ’ That","For a ’ that , an ’ a ’ that ,",Humor,,Vitality,
+32,3,6,8,5,3,6,"A Man ""s A Man For A ’ That","His ribband , star , an ’ a ’ that :",Humor,,Vitality,
+32,3,7,8,5,3,7,"A Man ""s A Man For A ’ That",The man o ’ independent mind,Humor,,Vitality,
+32,3,8,8,5,3,8,"A Man ""s A Man For A ’ That",He looks an ’ laughs at a ’ that .,Humor,,Vitality,
+32,4,1,8,5,4,1,"A Man ""s A Man For A ’ That","A prince can mak a belted knight ,",Beauty / Joy,,Vitality,
+32,4,2,8,5,4,2,"A Man ""s A Man For A ’ That","A marquis , duke , an ’ a ’ that ;",Beauty / Joy,,Vitality,
+32,4,3,8,5,4,3,"A Man ""s A Man For A ’ That","But an honest man ""s abon his might ,",Beauty / Joy,,Vitality,
+32,4,4,8,5,4,4,"A Man ""s A Man For A ’ That","Gude faith , he maunna fa ’ that !",Beauty / Joy,,Vitality,
+32,4,5,8,5,4,5,"A Man ""s A Man For A ’ That","For a ’ that , an ’ a ’ that ,",Beauty / Joy,,Vitality,
+32,4,6,8,5,4,6,"A Man ""s A Man For A ’ That",Their dignities an ’ a ’ that ;,Beauty / Joy,,Vitality,
+32,4,7,8,5,4,7,"A Man ""s A Man For A ’ That","The pith o ’ sense , an ’ pride o ’ worth ,",Beauty / Joy,,Vitality,
+32,4,8,8,5,4,8,"A Man ""s A Man For A ’ That",Are higher rank than a ’ that .,Beauty / Joy,,Vitality,
+32,5,1,8,5,5,1,"A Man ""s A Man For A ’ That","Then let us pray that come it may ,",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,2,8,5,5,2,"A Man ""s A Man For A ’ That","( As come it will for a ’ that ,)",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,3,8,5,5,3,"A Man ""s A Man For A ’ That","That Sense and Worth , o""er a ’ the earth ,",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,4,8,5,5,4,"A Man ""s A Man For A ’ That","Shall bear the gree , an ’ a ’ that .",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,5,8,5,5,5,"A Man ""s A Man For A ’ That","For a ’ that , an ’ a ’ that ,",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,6,8,5,5,6,"A Man ""s A Man For A ’ That","It ""s coming yet for a ’ that ,",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,7,8,5,5,7,"A Man ""s A Man For A ’ That","That Man to Man , the world o""er ,",Beauty / Joy,,Vitality,Beauty / Joy
+32,5,8,8,5,5,8,"A Man ""s A Man For A ’ That",Shall brothers be for a ’ that .,Beauty / Joy,,Vitality,Beauty / Joy
+33,1,1,4,2,1,1,Morning at the Window,"They are rattling breakfast plates in basement kitchens ,",Uneasiness,,Uneasiness,
+33,1,2,4,2,1,2,Morning at the Window,And along the trampled edges of the street,Uneasiness,,Uneasiness,
+33,1,3,4,2,1,3,Morning at the Window,I am aware of the damp souls of housemaids,Uneasiness,,Uneasiness,
+33,1,4,4,2,1,4,Morning at the Window,Sprouting despondently at area gates .,Uneasiness,,Uneasiness,
+33,2,1,5,2,2,1,Morning at the Window,The brown waves of fog toss up to me,Uneasiness,,Uneasiness,
+33,2,2,5,2,2,2,Morning at the Window,"Twisted faces from the bottom of the street ,",Uneasiness,,Uneasiness,
+33,2,3,5,2,2,3,Morning at the Window,And tear from a passer-by with muddy skirts,Uneasiness,,Uneasiness,
+33,2,4,5,2,2,4,Morning at the Window,An aimless smile that hovers in the air,Sadness,Uneasiness,Uneasiness,
+33,2,5,5,2,2,5,Morning at the Window,And vanishes along the level of the roofs .,Sadness,Uneasiness,Uneasiness,
+34,1,1,13,4,1,1,Preludes,The winter evening settles down,Beauty / Joy,,Beauty / Joy,
+34,1,2,13,4,1,2,Preludes,With smell of steaks in passageways .,Beauty / Joy,,Beauty / Joy,
+34,1,3,13,4,1,3,Preludes,"Six o""clock .",Beauty / Joy,,Beauty / Joy,
+34,1,4,13,4,1,4,Preludes,The burnt-out ends of smoky days .,Beauty / Joy,,Beauty / Joy,
+34,1,5,13,4,1,5,Preludes,And now a gusty shower wraps,Beauty / Joy,,Beauty / Joy,
+34,1,6,13,4,1,6,Preludes,The grimy scraps,Beauty / Joy,,Beauty / Joy,
+34,1,7,13,4,1,7,Preludes,Of withered leaves about your feet,Beauty / Joy,,Beauty / Joy,
+34,1,8,13,4,1,8,Preludes,And newspapers from vacant lots ;,Beauty / Joy,,Beauty / Joy,
+34,1,9,13,4,1,9,Preludes,The showers beat,Beauty / Joy,,Beauty / Joy,
+34,1,10,13,4,1,10,Preludes,"On broken blinds and chimney-pots ,",Beauty / Joy,,Beauty / Joy,
+34,1,11,13,4,1,11,Preludes,And at the corner of the street,Beauty / Joy,,Beauty / Joy,
+34,1,12,13,4,1,12,Preludes,A lonely cab-horse steams and stamps .,Sadness,Beauty / Joy,Beauty / Joy,
+34,1,13,13,4,1,13,Preludes,And then the lighting of the lamps .,Beauty / Joy,,Beauty / Joy,
+34,2,1,10,4,2,1,Preludes,The morning comes to consciousness,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,2,10,4,2,2,Preludes,Of faint stale smells of beer,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,3,10,4,2,3,Preludes,From the sawdust-trampled street,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,4,10,4,2,4,Preludes,With all its muddy feet that press,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,5,10,4,2,5,Preludes,To early coffee-stands .,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,6,10,4,2,6,Preludes,With the other masquerades,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,7,10,4,2,7,Preludes,"That time resumes ,",Beauty / Joy,,Beauty / Joy,Vitality
+34,2,8,10,4,2,8,Preludes,One thinks of all the hands,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,9,10,4,2,9,Preludes,That are raising dingy shades,Beauty / Joy,,Beauty / Joy,Vitality
+34,2,10,10,4,2,10,Preludes,In a thousand furnished rooms .,Beauty / Joy,,Beauty / Joy,Vitality
+34,3,1,15,4,3,1,Preludes,"You tossed a blanket from the bed ,",Uneasiness,,Uneasiness,Sadness
+34,3,2,15,4,3,2,Preludes,"You lay upon your back , and waited ;",Uneasiness,,Uneasiness,Sadness
+34,3,3,15,4,3,3,Preludes,"You dozed , and watched the night revealing",Uneasiness,,Uneasiness,Sadness
+34,3,4,15,4,3,4,Preludes,The thousand sordid images,Uneasiness,,Uneasiness,Sadness
+34,3,5,15,4,3,5,Preludes,Of which your soul was constituted ;,Uneasiness,,Uneasiness,Sadness
+34,3,6,15,4,3,6,Preludes,They flickered against the ceiling .,Sadness,Uneasiness,Uneasiness,Sadness
+34,3,7,15,4,3,7,Preludes,And when all the world came back,Sadness,Uneasiness,Uneasiness,Sadness
+34,3,8,15,4,3,8,Preludes,"And the light crept up between the shutters ,",Sadness,Uneasiness,Uneasiness,Sadness
+34,3,9,15,4,3,9,Preludes,"And you heard the sparrows in the gutters ,",Sadness,Uneasiness,Uneasiness,Sadness
+34,3,10,15,4,3,10,Preludes,You had such a vision of the street,Sadness,Uneasiness,Uneasiness,Sadness
+34,3,11,15,4,3,11,Preludes,As the street hardly understands ;,Sadness,Uneasiness,Uneasiness,Sadness
+34,3,12,15,4,3,12,Preludes,"Sitting along the bed ""s edge , where",Sadness,Uneasiness,Sadness,Uneasiness
+34,3,13,15,4,3,13,Preludes,"You curled the papers from your hair ,",Sadness,Uneasiness,Sadness,Uneasiness
+34,3,14,15,4,3,14,Preludes,Or clasped the yellow soles of feet,Uneasiness,,Sadness,Uneasiness
+34,3,15,15,4,3,15,Preludes,In the palms of both soiled hands .,Uneasiness,,Sadness,Uneasiness
+34,4,1,16,4,4,1,Preludes,His soul stretched tight across the skies,Vitality,,Vitality,
+34,4,2,16,4,4,2,Preludes,"That fade behind a city block ,",Vitality,,Vitality,
+34,4,3,16,4,4,3,Preludes,Or trampled by insistent feet,Vitality,,Vitality,
+34,4,4,16,4,4,4,Preludes,"At four and five and six o""clock",Vitality,,Vitality,
+34,4,5,16,4,4,5,Preludes,"And short square fingers stuffing pipes ,",Vitality,,Vitality,
+34,4,6,16,4,4,6,Preludes,"And evening newspapers , and eyes",Vitality,,Vitality,
+34,4,7,16,4,4,7,Preludes,"Assured of certain certainties ,",Vitality,,Vitality,
+34,4,8,16,4,4,8,Preludes,The conscience of a blackened street,Vitality,,Vitality,
+34,4,9,16,4,4,9,Preludes,Impatient to assume the world .,Vitality,,Vitality,
+34,4,10,16,4,4,10,Preludes,I am moved by fancies that are curled,Vitality,,Vitality,
+34,4,11,16,4,4,11,Preludes,"Around these images , and cling :",Vitality,,Vitality,
+34,4,12,16,4,4,12,Preludes,The notion of some infinitely gentle,Awe / Sublime,,Vitality,Awe / Sublime
+34,4,13,16,4,4,13,Preludes,Infinitely suffering thing .,Awe / Sublime,,Vitality,Awe / Sublime
+34,4,14,16,4,4,14,Preludes,"Wipe your hand across your mouth , and laugh ;",Beauty / Joy,,Vitality,Awe / Sublime
+34,4,15,16,4,4,15,Preludes,The worlds revolve like ancient women,Beauty / Joy,,Vitality,Awe / Sublime
+34,4,16,16,4,4,16,Preludes,Gathering fuel in vacant lots .,Beauty / Joy,,Vitality,Awe / Sublime
+35,1,1,12,1,1,1,Death,Nor dread nor hope attend,Sadness,,Sadness,
+35,1,2,12,1,1,2,Death,A dying animal;,Sadness,,Sadness,
+35,1,3,12,1,1,3,Death,A man awaits his end,Sadness,,Sadness,
+35,1,4,12,1,1,4,Death,Dreading and hoping all;,Sadness,,Sadness,
+35,1,5,12,1,1,5,Death,"Many times he died,",Sadness,,Sadness,
+35,1,6,12,1,1,6,Death,"Many times rose again,",Sadness,,Sadness,
+35,1,7,12,1,1,7,Death,A great man in his pride,Uneasiness,,Sadness,Uneasiness
+35,1,8,12,1,1,8,Death,Confronting murderous men,Uneasiness,,Sadness,Uneasiness
+35,1,9,12,1,1,9,Death,Casts derision upon,Uneasiness,,Sadness,Uneasiness
+35,1,10,12,1,1,10,Death,Supersession of breath;,Uneasiness,,Sadness,Uneasiness
+35,1,11,12,1,1,11,Death,He knows death to the bone –,Uneasiness,,Sadness,Uneasiness
+35,1,12,12,1,1,12,Death,Man has created death.,Uneasiness,,Sadness,Uneasiness
+36,1,1,8,2,1,1,The Second Coming,Turning and turning in the widening gyre,Uneasiness,,Uneasiness,
+36,1,2,8,2,1,2,The Second Coming,The falcon cannot hear the falconer;,Uneasiness,,Uneasiness,
+36,1,3,8,2,1,3,The Second Coming,Things fall apart; the centre cannot hold;,Uneasiness,,Uneasiness,
+36,1,4,8,2,1,4,The Second Coming,"Mere anarchy is loosed upon the world,",Uneasiness,,Uneasiness,
+36,1,5,8,2,1,5,The Second Coming,"The blood-dimmed tide is loosed, and everywhere",Uneasiness,,Uneasiness,
+36,1,6,8,2,1,6,The Second Coming,The ceremony of innocence is drowned;,Uneasiness,,Uneasiness,
+36,1,7,8,2,1,7,The Second Coming,"The best lack all conviction, while the worst",Uneasiness,,Uneasiness,
+36,1,8,8,2,1,8,The Second Coming,Are full of passionate intensity.,Uneasiness,,Uneasiness,
+36,2,1,14,2,2,1,The Second Coming,Surely some revelation is at hand;,Suspense,,Suspense,
+36,2,2,14,2,2,2,The Second Coming,Surely the Second Coming is at hand.,Suspense,,Suspense,
+36,2,3,14,2,2,3,The Second Coming,The Second Coming! Hardly are those words out,Suspense,,Suspense,Uneasiness
+36,2,4,14,2,2,4,The Second Coming,When a vast image out of Spiritus Mundi,Suspense,,Suspense,Uneasiness
+36,2,5,14,2,2,5,The Second Coming,Troubles my sight: somewhere in sands of the desert,Suspense,Uneasiness,Suspense,Uneasiness
+36,2,6,14,2,2,6,The Second Coming,"A shape with lion body and the head of a man,",Suspense,Uneasiness,Suspense,Uneasiness
+36,2,7,14,2,2,7,The Second Coming,"A gaze blank and pitiless as the sun,",Suspense,Uneasiness,Suspense,Uneasiness
+36,2,8,14,2,2,8,The Second Coming,"Is moving its slow thighs, while all about it",Suspense,Uneasiness,Suspense,Uneasiness
+36,2,9,14,2,2,9,The Second Coming,Reel shadows of the indignant desert birds.,Suspense,Uneasiness,Suspense,Uneasiness
+36,2,10,14,2,2,10,The Second Coming,The darkness drops again; but now I know,Suspense,Uneasiness,Uneasiness,
+36,2,11,14,2,2,11,The Second Coming,That twenty centuries of stony sleep,Suspense,Uneasiness,Uneasiness,
+36,2,12,14,2,2,12,The Second Coming,"Were vexed to nightmare by a rocking cradle,",Suspense,Uneasiness,Uneasiness,
+36,2,13,14,2,2,13,The Second Coming,"And what rough beast, its hour come round at last,",Suspense,Uneasiness,Uneasiness,
+36,2,14,14,2,2,14,The Second Coming,Slouches towards Bethlehem to be born?,Suspense,Uneasiness,Uneasiness,
+37,1,1,4,4,1,1,An Invective against Gold .,Of all the Poisons that the fruitful Earth,Annoyance,,Annoyance,
+37,1,2,4,4,1,2,An Invective against Gold .,"E""er yet brought forth , or Monsters she gave Birth ,",Annoyance,,Annoyance,
+37,1,3,4,4,1,3,An Invective against Gold .,"Nought to Mankind has e""er so fatal been ,",Annoyance,,Annoyance,
+37,1,4,4,4,1,4,An Invective against Gold .,"As thou , accursed Gold , their Care and Sin .",Annoyance,,Annoyance,
+37,2,1,10,4,2,1,An Invective against Gold .,"Methinks I the Advent""rous Merchant see ,",Sadness,,Sadness,
+37,2,2,10,4,2,2,An Invective against Gold .,"Ploughing the faithless Seas , in search of thee ,",Sadness,,Sadness,
+37,2,3,10,4,2,3,An Invective against Gold .,"His dearest Wife and Children left behind ,",Sadness,,Sadness,
+37,2,4,10,4,2,4,An Invective against Gold .,"( His real Wealth ) while he , a Slave to th ’ Wind ,",Sadness,,Sadness,
+37,2,5,10,4,2,5,An Invective against Gold .,"Sometimes becalm ""d , the Shore with longing Eyes",Sadness,,Sadness,
+37,2,6,10,4,2,6,An Invective against Gold .,"Wishes to see , and what he wishes , Spies :",Sadness,,Sadness,
+37,2,7,10,4,2,7,An Invective against Gold .,"For a rude Tempest wakes him from his Dream ,",Sadness,,Sadness,
+37,2,8,10,4,2,8,An Invective against Gold .,And Strands his Bark by a more sad Extream .,Sadness,,Sadness,
+37,2,9,10,4,2,9,An Invective against Gold .,"Thus , hopless Wretch , is his whole Life-time spent ,",Sadness,,Sadness,
+37,2,10,10,4,2,10,An Invective against Gold .,"And though thrice Wreck""t , ‘ s no Wiser than he went .",Sadness,,Sadness,
+37,3,1,4,4,3,1,An Invective against Gold .,"Again , I see , the Heavenly Fair despis ""d ,",Annoyance,Sadness,Sadness,Uneasiness
+37,3,2,4,4,3,2,An Invective against Gold .,"A Hagg like Hell , with Gold , more highly priz ""d ;",Annoyance,Sadness,Sadness,Uneasiness
+37,3,3,4,4,3,3,An Invective against Gold .,"Mens Faith betray ""d , their Prince and Country Sold ,",Annoyance,Sadness,Sadness,Uneasiness
+37,3,4,4,4,3,4,An Invective against Gold .,"Their God deny ""d , all for the Idol Gold .",Annoyance,Sadness,Sadness,Uneasiness
+37,4,1,6,4,4,1,An Invective against Gold .,"Unhappy Wretch , who first found out the Oar ,",Annoyance,,Uneasiness,Annoyance
+37,4,2,6,4,4,2,An Invective against Gold .,What kind of Vengeance rests for thee in store ?,Annoyance,,Uneasiness,Annoyance
+37,4,3,6,4,4,3,An Invective against Gold .,"If Nebats Son , that Israel led astray ,",Annoyance,,Uneasiness,Annoyance
+37,4,4,6,4,4,4,An Invective against Gold .,Meet a severe Reward at the last Day ?,Annoyance,,Uneasiness,Annoyance
+37,4,5,6,4,4,5,An Invective against Gold .,"Some strange unheard-of Judgement thou wilt find ,",Annoyance,,Uneasiness,Annoyance
+37,4,6,6,4,4,6,An Invective against Gold .,"Who thus hast caus ""d to Sin all Humane Kind .",Annoyance,,Uneasiness,Annoyance
+38,1,1,6,3,1,1,"Love , the Soul of Poetry .","When first Alexis did in Verse delight ,",Beauty / Joy,,Beauty / Joy,
+38,1,2,6,3,1,2,"Love , the Soul of Poetry .","His Muse in Low , but Graceful Numbers walk""t ,",Beauty / Joy,,Beauty / Joy,
+38,1,3,6,3,1,3,"Love , the Soul of Poetry .","And now and then a little Proudly stalk""t ;",Beauty / Joy,,Beauty / Joy,
+38,1,4,6,3,1,4,"Love , the Soul of Poetry .","But never aim ""d at any noble Flight :",Beauty / Joy,,Beauty / Joy,
+38,1,5,6,3,1,5,"Love , the Soul of Poetry .","The Herds , the Groves , the gentle purling Streams ,",Beauty / Joy,,Beauty / Joy,
+38,1,6,6,3,1,6,"Love , the Soul of Poetry .","Adorn ""d his Song , and were his highest Theams .",Beauty / Joy,,Beauty / Joy,
+38,2,1,6,3,2,1,"Love , the Soul of Poetry .","But Love these Thoughts , like Mists , did soon disperse ,",Beauty / Joy,,Beauty / Joy,
+38,2,2,6,3,2,2,"Love , the Soul of Poetry .","Enlarg ""d his Fancy , and set free his Muse ,",Beauty / Joy,,Beauty / Joy,
+38,2,3,6,3,2,3,"Love , the Soul of Poetry .",Biding him more Illustrious Subjects choose ;,Beauty / Joy,,Beauty / Joy,
+38,2,4,6,3,2,4,"Love , the Soul of Poetry .","The Acts of Gods , and God-like Men reherse .",Beauty / Joy,,Beauty / Joy,
+38,2,5,6,3,2,5,"Love , the Soul of Poetry .","From thence new Raptures did his Breast inspire ,",Beauty / Joy,,Beauty / Joy,
+38,2,6,6,3,2,6,"Love , the Soul of Poetry .",His scarce Warm-Heart converted was to Fire .,Beauty / Joy,,Beauty / Joy,
+38,3,1,6,3,3,1,"Love , the Soul of Poetry .","Th ’ exalted Poet rais ""d by this new Flame ,",Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+38,3,2,6,3,3,2,"Love , the Soul of Poetry .","With Vigor flys , where late he crept along ,",Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+38,3,3,6,3,3,3,"Love , the Soul of Poetry .","And Acts Divine , in a Diviner Song ,",Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+38,3,4,6,3,3,4,"Love , the Soul of Poetry .",Commits to the eternal Trompe of Fame .,Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+38,3,5,6,3,3,5,"Love , the Soul of Poetry .","And thus Alexis does prove Love to be ,",Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+38,3,6,6,3,3,6,"Love , the Soul of Poetry .","As the Worlds Soul , the Soul of Poetry .",Awe / Sublime,Beauty / Joy,Beauty / Joy,Awe / Sublime
+39,1,1,4,3,1,1,SUCCESS,Success is counted sweetest,Beauty / Joy,,Beauty / Joy,
+39,1,2,4,3,1,2,SUCCESS,"By those who ne""er succeed .",Beauty / Joy,,Beauty / Joy,
+39,1,3,4,3,1,3,SUCCESS,To comprehend a nectar,Beauty / Joy,,Beauty / Joy,
+39,1,4,4,3,1,4,SUCCESS,Requires sorest need .,Beauty / Joy,,Beauty / Joy,
+39,2,1,4,3,2,1,SUCCESS,Not one of all the purple host,Sadness,,Sadness,
+39,2,2,4,3,2,2,SUCCESS,Who took the flag to-day,Sadness,,Sadness,
+39,2,3,4,3,2,3,SUCCESS,"Can tell the definition ,",Sadness,,Sadness,
+39,2,4,4,3,2,4,SUCCESS,"So clear , of victory ,",Sadness,,Sadness,
+39,3,1,4,3,3,1,SUCCESS,"As he , defeated , dying ,",Sadness,,Sadness,
+39,3,2,4,3,3,2,SUCCESS,On whose forbidden ear,Sadness,,Sadness,
+39,3,3,4,3,3,3,SUCCESS,The distant strains of triumph,Sadness,,Sadness,
+39,3,4,4,3,3,4,SUCCESS,"Break , agonized and clear !",Sadness,,Sadness,
+40,1,1,4,5,1,1,I felt a funeral in my brain,"I felt a funeral in my brain ,",Sadness,,Sadness,
+40,1,2,4,5,1,2,I felt a funeral in my brain,"And mourners , to and fro ,",Sadness,,Sadness,
+40,1,3,4,5,1,3,I felt a funeral in my brain,"Kept treading , treading , till it seemed",Sadness,Awe / Sublime,Sadness,
+40,1,4,4,5,1,4,I felt a funeral in my brain,That sense was breaking through .,Sadness,Awe / Sublime,Sadness,
+40,2,1,4,5,2,1,I felt a funeral in my brain,"And when they all were seated ,",Sadness,,Sadness,
+40,2,2,4,5,2,2,I felt a funeral in my brain,A service like a drum,Sadness,,Sadness,
+40,2,3,4,5,2,3,I felt a funeral in my brain,"Kept beating , beating , till I thought",Sadness,,Sadness,
+40,2,4,4,5,2,4,I felt a funeral in my brain,My mind was going numb .,Sadness,,Sadness,
+40,3,1,4,5,3,1,I felt a funeral in my brain,"And then I heard them lift a box ,",Sadness,,Sadness,
+40,3,2,4,5,3,2,I felt a funeral in my brain,And creak across my soul,Sadness,,Sadness,
+40,3,3,4,5,3,3,I felt a funeral in my brain,"With those same boots of lead , again .",Sadness,,Sadness,
+40,3,4,4,5,3,4,I felt a funeral in my brain,Then space began to toll,Sadness,,Sadness,
+40,4,1,4,5,4,1,I felt a funeral in my brain,"As all the heavens were a bell ,",Awe / Sublime,,Sadness,Awe / Sublime
+40,4,2,4,5,4,2,I felt a funeral in my brain,"And Being but an ear ,",Awe / Sublime,,Sadness,Awe / Sublime
+40,4,3,4,5,4,3,I felt a funeral in my brain,"And I and silence some strange race ,",Awe / Sublime,Sadness,Sadness,Awe / Sublime
+40,4,4,4,5,4,4,I felt a funeral in my brain,"Wrecked , solitary , here .",Awe / Sublime,Sadness,Sadness,Awe / Sublime
+40,5,1,4,5,5,1,I felt a funeral in my brain,"And then a Plank in Reason, broke,",Awe / Sublime,,Sadness,Awe / Sublime
+40,5,2,4,5,5,2,I felt a funeral in my brain,"And I dropped down, and down -",Awe / Sublime,,Sadness,Awe / Sublime
+40,5,3,4,5,5,3,I felt a funeral in my brain,"And hit a World, at every plunge,",Awe / Sublime,,Sadness,Awe / Sublime
+40,5,4,4,5,5,4,I felt a funeral in my brain,And Finished knowing - then -,Awe / Sublime,,Sadness,Awe / Sublime
+41,1,1,4,4,1,1,On His Blindness,WHEN I consider how my light is spent,Suspense,,Sadness,Suspense
+41,1,2,4,4,1,2,On His Blindness,"Ere half my days in this dark world and wide,",Suspense,,Sadness,Suspense
+41,1,3,4,4,1,3,On His Blindness,And that one Talent which is death to hide,Sadness,,Sadness,Suspense
+41,1,4,4,4,1,4,On His Blindness,"Lodged with me useless, though my soul more bent",Sadness,,Sadness,Suspense
+41,2,1,4,4,2,1,On His Blindness,"To serve therewith my Maker, and present",Vitality,,Vitality,
+41,2,2,4,4,2,2,On His Blindness,"My true account, lest He returning chide,",Vitality,,Vitality,
+41,2,3,4,4,2,3,On His Blindness,"“Doth God exact day-labour, light denied?”",Vitality,,Vitality,
+41,2,4,4,4,2,4,On His Blindness,"I fondly ask. But Patience, to prevent",Vitality,,Vitality,
+41,3,1,3,4,3,1,On His Blindness,"That murmur, soon replies, “God doth not need",Awe / Sublime,,Sadness,Awe / Sublime
+41,3,2,3,4,3,2,On His Blindness,Either man’s work or his own gifts. Who best,Awe / Sublime,,Sadness,Awe / Sublime
+41,3,3,3,4,3,3,On His Blindness,"Bear his mild yoke, they serve him best. His state",Awe / Sublime,,Sadness,Awe / Sublime
+41,4,1,3,4,4,1,On His Blindness,"Is kingly: thousands at his bidding speed,",Beauty / Joy,,Beauty / Joy,Awe / Sublime
+41,4,2,3,4,4,2,On His Blindness,And post o’er land and ocean without rest;,Beauty / Joy,,Beauty / Joy,Awe / Sublime
+41,4,3,3,4,4,3,On His Blindness,They also serve who only stand and wait.”,Beauty / Joy,,Beauty / Joy,Awe / Sublime
+42,1,1,14,1,1,1,On His Being Arrived to the Age of Twenty-Three”,"HOW soon hath Time, the subtle thief of youth,",Sadness,,Sadness,
+42,1,2,14,1,1,2,On His Being Arrived to the Age of Twenty-Three”,Stolen on his wing my three and twentieth year!,Sadness,,Sadness,
+42,1,3,14,1,1,3,On His Being Arrived to the Age of Twenty-Three”,"My hasting days fly on with full career,",Vitality,,Vitality,
+42,1,4,14,1,1,4,On His Being Arrived to the Age of Twenty-Three”,But my late spring no bud or blossom shew’th.,Vitality,,Vitality,
+42,1,5,14,1,1,5,On His Being Arrived to the Age of Twenty-Three”,"Perhaps my semblance might deceive the truth,",Vitality,,Vitality,
+42,1,6,14,1,1,6,On His Being Arrived to the Age of Twenty-Three”,"That I to manhood am arrived so near,",Vitality,,Vitality,
+42,1,7,14,1,1,7,On His Being Arrived to the Age of Twenty-Three”,"And inward ripeness doth much less appear,",Vitality,,Vitality,
+42,1,8,14,1,1,8,On His Being Arrived to the Age of Twenty-Three”,That some more timely-happy spirits indu’th.,Vitality,,Vitality,
+42,1,9,14,1,1,9,On His Being Arrived to the Age of Twenty-Three”,"Yet be it less or more, or soon or slow,",Vitality,,Vitality,
+42,1,10,14,1,1,10,On His Being Arrived to the Age of Twenty-Three”,It shall be still in strictest measure even,Vitality,,Vitality,
+42,1,11,14,1,1,11,On His Being Arrived to the Age of Twenty-Three”,"To that same lot, however mean or high,",Vitality,Awe / Sublime,Vitality,
+42,1,12,14,1,1,12,On His Being Arrived to the Age of Twenty-Three”,"Toward which Time leads me, and the will of Heaven,",Vitality,Awe / Sublime,Vitality,Awe / Sublime
+42,1,13,14,1,1,13,On His Being Arrived to the Age of Twenty-Three”,"All is, if I have grace to use it so,",Vitality,Awe / Sublime,Vitality,Awe / Sublime
+42,1,14,14,1,1,14,On His Being Arrived to the Age of Twenty-Three”,As ever in my great Task-master’s eye,Vitality,Awe / Sublime,Vitality,Awe / Sublime
+43,1,1,14,1,1,1,Mowing,"THERE was never a sound beside the wood but one ,",Beauty / Joy,Suspense,Suspense,Beauty / Joy
+43,1,2,14,1,1,2,Mowing,And that was my long scythe whispering to the ground .,Beauty / Joy,Suspense,Suspense,Beauty / Joy
+43,1,3,14,1,1,3,Mowing,What was it it whispered ? I knew not well myself ;,Beauty / Joy,Suspense,Beauty / Joy,Suspense
+43,1,4,14,1,1,4,Mowing,"Perhaps it was something about the heat of the sun ,",Beauty / Joy,Suspense,Beauty / Joy,
+43,1,5,14,1,1,5,Mowing,"Something , perhaps , about the lack of sound —",Beauty / Joy,Suspense,Beauty / Joy,
+43,1,6,14,1,1,6,Mowing,And that was why it whispered and did not speak .,Beauty / Joy,,Beauty / Joy,
+43,1,7,14,1,1,7,Mowing,"It was no dream of the gift of idle hours ,",Beauty / Joy,,Beauty / Joy,
+43,1,8,14,1,1,8,Mowing,Or easy gold at the hand of fay or elf :,Beauty / Joy,,Beauty / Joy,
+43,1,9,14,1,1,9,Mowing,Anything more than the truth would have seemed too weak,Beauty / Joy,,Beauty / Joy,
+43,1,10,14,1,1,10,Mowing,"To the earnest love that laid the swale in rows ,",Beauty / Joy,,Beauty / Joy,
+43,1,11,14,1,1,11,Mowing,Not without feeble-pointed spikes of flowers,Beauty / Joy,,Beauty / Joy,
+43,1,12,14,1,1,12,Mowing,"( Pale orchises ) , and scared a bright green snake .",Beauty / Joy,,Beauty / Joy,
+43,1,13,14,1,1,13,Mowing,The fact is the sweetest dream that labor knows .,Beauty / Joy,,Beauty / Joy,
+43,1,14,14,1,1,14,Mowing,My long scythe whispered and left the hay to make .,Beauty / Joy,,Beauty / Joy,
+44,1,1,9,1,1,1,Fire and Ice,"Some say the world will end in fire,",Awe / Sublime,,Awe / Sublime,
+44,1,2,9,1,1,2,Fire and Ice,Some say in ice.,Awe / Sublime,,Awe / Sublime,
+44,1,3,9,1,1,3,Fire and Ice,From what I’ve tasted of desire,Humor,,Awe / Sublime,Humor
+44,1,4,9,1,1,4,Fire and Ice,I hold with those who favor fire.,Humor,,Awe / Sublime,Humor
+44,1,5,9,1,1,5,Fire and Ice,"But if it had to perish twice,",Humor,,Awe / Sublime,Humor
+44,1,6,9,1,1,6,Fire and Ice,I think I know enough of hate,Humor,,Awe / Sublime,Humor
+44,1,7,9,1,1,7,Fire and Ice,To say that for destruction ice,Humor,,Awe / Sublime,Humor
+44,1,8,9,1,1,8,Fire and Ice,Is also great,Humor,,Awe / Sublime,Humor
+44,1,9,9,1,1,9,Fire and Ice,And would suffice.,Humor,,Awe / Sublime,Humor
+45,1,1,16,1,1,1,I Hear America Singing,"I hear America singing , the varied carols I hear ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,2,16,1,1,2,I Hear America Singing,"Those of mechanics , each one singing his as it should be blithe and strong ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,3,16,1,1,3,I Hear America Singing,"The carpenter singing his as he measures his plank or beam ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,4,16,1,1,4,I Hear America Singing,"The mason singing his as he makes ready for work , or leaves off work ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,5,16,1,1,5,I Hear America Singing,"The boatman singing what belongs to him in his boat , the deckhand",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,6,16,1,1,6,I Hear America Singing,"singing on the steamboat deck ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,7,16,1,1,7,I Hear America Singing,"The shoemaker singing as he sits on his bench , the hatter singing as",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,8,16,1,1,8,I Hear America Singing,"he stands ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,9,16,1,1,9,I Hear America Singing,"The wood-cutter ""s song , the ploughboy ""s on his way in the morning ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,10,16,1,1,10,I Hear America Singing,"or at noon intermission or at sundown ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,11,16,1,1,11,I Hear America Singing,"The delicious singing of the mother , or of the young wife at work ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,12,16,1,1,12,I Hear America Singing,"or of the girl sewing or washing ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,13,16,1,1,13,I Hear America Singing,"Each singing what belongs to him or her and to none else ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,14,16,1,1,14,I Hear America Singing,The day what belongs to the day — at night the party of young,Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,15,16,1,1,15,I Hear America Singing,"fellows , robust , friendly ,",Beauty / Joy,Vitality,Vitality,Beauty / Joy
+45,1,16,16,1,1,16,I Hear America Singing,Singing with open mouths their strong melodious songs .,Beauty / Joy,Vitality,Vitality,Beauty / Joy
+46,1,1,8,3,1,1,O Captain! My Captain!,"O Captain! my Captain! our fearful trip is done,",Beauty / Joy,,Beauty / Joy,
+46,1,2,8,3,1,2,O Captain! My Captain!,"The ship has weather’d every rack, the prize we sought is won,",Beauty / Joy,,Beauty / Joy,
+46,1,3,8,3,1,3,O Captain! My Captain!,"The port is near, the bells I hear, the people all exulting,",Beauty / Joy,,Beauty / Joy,
+46,1,4,8,3,1,4,O Captain! My Captain!,"While follow eyes the steady keel, the vessel grim and daring;",Beauty / Joy,,Beauty / Joy,
+46,1,5,8,3,1,5,O Captain! My Captain!,But O heart! heart! heart!,Sadness,,Sadness,
+46,1,6,8,3,1,6,O Captain! My Captain!,"O the bleeding drops of red,",Sadness,,Sadness,
+46,1,7,8,3,1,7,O Captain! My Captain!,"Where on the deck my Captain lies,",Sadness,,Sadness,
+46,1,8,8,3,1,8,O Captain! My Captain!,Fallen cold and dead.,Sadness,,Sadness,
+46,2,1,8,3,2,1,O Captain! My Captain!,O Captain! my Captain! rise up and hear the bells;,Vitality,,Vitality,
+46,2,2,8,3,2,2,O Captain! My Captain!,"Rise up—for you the flag is flung—for you the bugle trills,",Vitality,,Vitality,
+46,2,3,8,3,2,3,O Captain! My Captain!,"For you bouquets and ribbon’d wreaths—for you the shores a-crowding,",Vitality,,Vitality,
+46,2,4,8,3,2,4,O Captain! My Captain!,"For you they call, the swaying mass, their eager faces turning;",Vitality,,Vitality,
+46,2,5,8,3,2,5,O Captain! My Captain!,Here Captain! dear father!,Vitality,,Vitality,
+46,2,6,8,3,2,6,O Captain! My Captain!,This arm beneath your head!,Vitality,,Vitality,
+46,2,7,8,3,2,7,O Captain! My Captain!,"It is some dream that on the deck,",Sadness,,Sadness,
+46,2,8,8,3,2,8,O Captain! My Captain!,You’ve fallen cold and dead.,Sadness,,Sadness,
+46,3,1,8,3,3,1,O Captain! My Captain!,"My Captain does not answer, his lips are pale and still,",Sadness,,Sadness,
+46,3,2,8,3,3,2,O Captain! My Captain!,"My father does not feel my arm, he has no pulse nor will,",Sadness,,Sadness,
+46,3,3,8,3,3,3,O Captain! My Captain!,"The ship is anchor’d safe and sound, its voyage closed and done,",Vitality,,Sadness,Vitality
+46,3,4,8,3,3,4,O Captain! My Captain!,From fearful trip the victor ship comes in with object won;,Vitality,,Sadness,Vitality
+46,3,5,8,3,3,5,O Captain! My Captain!,"Exult O shores, and ring O bells!",Vitality,,Sadness,Vitality
+46,3,6,8,3,3,6,O Captain! My Captain!,"But I with mournful tread,",Sadness,,Sadness,
+46,3,7,8,3,3,7,O Captain! My Captain!,"Walk the deck my Captain lies,",Sadness,,Sadness,
+46,3,8,8,3,3,8,O Captain! My Captain!,Fallen cold and dead.,Sadness,,Sadness,
+47,1,1,16,2,1,1,DANSE RUSSE,If I when my wife is sleeping,Suspense,,Suspense,
+47,1,2,16,2,1,2,DANSE RUSSE,and the baby and Kathleen,Suspense,,Suspense,
+47,1,3,16,2,1,3,DANSE RUSSE,are sleeping,Suspense,,Suspense,
+47,1,4,16,2,1,4,DANSE RUSSE,and the sun is a flame-white disc,Suspense,,Suspense,
+47,1,5,16,2,1,5,DANSE RUSSE,"in silken mists above shining trees ,—",Suspense,,Suspense,
+47,1,6,16,2,1,6,DANSE RUSSE,if I in my north room,Suspense,Humor,Suspense,
+47,1,7,16,2,1,7,DANSE RUSSE,"danse naked , grotesquely",Suspense,Humor,Suspense,
+47,1,8,16,2,1,8,DANSE RUSSE,before my mirror,Suspense,Humor,Suspense,
+47,1,9,16,2,1,9,DANSE RUSSE,waving my shirt round my head,Suspense,Humor,Suspense,
+47,1,10,16,2,1,10,DANSE RUSSE,and singing softly to myself :,Suspense,Humor,Suspense,
+47,1,11,16,2,1,11,DANSE RUSSE,"“I am lonely, lonely.",Humor,,Humor,
+47,1,12,16,2,1,12,DANSE RUSSE,I was born to be lonely .,Humor,,Humor,
+47,1,13,16,2,1,13,DANSE RUSSE,I am best so !”,Humor,,Humor,
+47,1,14,16,2,1,14,DANSE RUSSE,"If I admire my arms , my face,",Humor,,Humor,
+47,1,15,16,2,1,15,DANSE RUSSE,"my shoulders , flanks , buttocks",Humor,,Humor,
+47,1,16,16,2,1,16,DANSE RUSSE,"against the yellow drawn shades ,—",Humor,,Humor,
+47,2,1,2,2,2,1,DANSE RUSSE,who shall say I am not,Humor,,Humor,
+47,2,2,2,2,2,2,DANSE RUSSE,the happy genius of my household ?,Humor,,Humor,
+48,1,1,17,1,1,1,To Waken an Old Lady,OLD age is,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,2,17,1,1,2,To Waken an Old Lady,a flight of small,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,3,17,1,1,3,To Waken an Old Lady,cheeping birds,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,4,17,1,1,4,To Waken an Old Lady,skimming,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,5,17,1,1,5,To Waken an Old Lady,bare trees above a snow glaze.,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,6,17,1,1,6,To Waken an Old Lady,Gaining and failing,Suspense,Beauty / Joy,Beauty / Joy,Suspense
+48,1,7,17,1,1,7,To Waken an Old Lady,they are buffeted,Suspense,Beauty / Joy,Beauty / Joy,Suspense
+48,1,8,17,1,1,8,To Waken an Old Lady,by a dark wind--,Suspense,Beauty / Joy,Beauty / Joy,Suspense
+48,1,9,17,1,1,9,To Waken an Old Lady,But what?,Suspense,Beauty / Joy,Suspense,Beauty / Joy
+48,1,10,17,1,1,10,To Waken an Old Lady,On harsh weedstalks,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,11,17,1,1,11,To Waken an Old Lady,"the flock has rested,",Beauty / Joy,,Suspense,Beauty / Joy
+48,1,12,17,1,1,12,To Waken an Old Lady,the snow,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,13,17,1,1,13,To Waken an Old Lady,is covered with broken,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,14,17,1,1,14,To Waken an Old Lady,seedhusks,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,15,17,1,1,15,To Waken an Old Lady,and the wind tempered,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,16,17,1,1,16,To Waken an Old Lady,by a shrill,Beauty / Joy,,Suspense,Beauty / Joy
+48,1,17,17,1,1,17,To Waken an Old Lady,piping of plenty.,Beauty / Joy,,Suspense,Beauty / Joy
+49,1,1,14,1,1,1,My Love Is Like To Ice,"My love is like to ice, and I to fire:",Beauty / Joy,,Beauty / Joy,
+49,1,2,14,1,1,2,My Love Is Like To Ice,How comes it then that this her cold so great,Sadness,,Sadness,
+49,1,3,14,1,1,3,My Love Is Like To Ice,"Is not dissolved through my so hot desire,",Sadness,,Sadness,
+49,1,4,14,1,1,4,My Love Is Like To Ice,But harder grows the more I her entreat?,Sadness,,Sadness,
+49,1,5,14,1,1,5,My Love Is Like To Ice,Or how comes it that my exceeding heat,Sadness,,Sadness,
+49,1,6,14,1,1,6,My Love Is Like To Ice,"Is not allayed by her heart-frozen cold,",Sadness,,Sadness,
+49,1,7,14,1,1,7,My Love Is Like To Ice,"But that I burn much more in boiling sweat,",Sadness,,Sadness,
+49,1,8,14,1,1,8,My Love Is Like To Ice,And feel my flames augmented manifold?,Sadness,,Sadness,
+49,1,9,14,1,1,9,My Love Is Like To Ice,"What more miraculous thing may be told,",Beauty / Joy,,Beauty / Joy,
+49,1,10,14,1,1,10,My Love Is Like To Ice,"That fire, which all things melts, should harden ice,",Beauty / Joy,,Beauty / Joy,
+49,1,11,14,1,1,11,My Love Is Like To Ice,"And ice, which is congeal""s with senseless cold,",Beauty / Joy,,Beauty / Joy,
+49,1,12,14,1,1,12,My Love Is Like To Ice,Should kindle fire by wonderful device?,Beauty / Joy,,Beauty / Joy,
+49,1,13,14,1,1,13,My Love Is Like To Ice,"Such is the power of love in gentle mind,",Awe / Sublime,,Beauty / Joy,Awe / Sublime
+49,1,14,14,1,1,14,My Love Is Like To Ice,That it can alter all the course of kind.,Awe / Sublime,,Beauty / Joy,Awe / Sublime
+50,1,1,14,1,1,1,Sonnet 54,"Of this worlds theatre in which we stay,",Beauty / Joy,,Beauty / Joy,
+50,1,2,14,1,1,2,Sonnet 54,My love like the spectator ydly sits,Beauty / Joy,,Beauty / Joy,
+50,1,3,14,1,1,3,Sonnet 54,"Beholding me that all the pageants play,",Beauty / Joy,,Beauty / Joy,
+50,1,4,14,1,1,4,Sonnet 54,Disguysing diversly my troubled wits.,Beauty / Joy,,Beauty / Joy,
+50,1,5,14,1,1,5,Sonnet 54,"Sometimes I joy when glad occasion fits,",Beauty / Joy,,Beauty / Joy,
+50,1,6,14,1,1,6,Sonnet 54,And mask in myrth lyke to a comedy:,Beauty / Joy,,Beauty / Joy,
+50,1,7,14,1,1,7,Sonnet 54,"Soone after when my joy to sorrow flits,",Sadness,,Sadness,
+50,1,8,14,1,1,8,Sonnet 54,I waile and make my woes a tragedy.,Sadness,,Sadness,
+50,1,9,14,1,1,9,Sonnet 54,"Yet she, beholding me with constant eye,",Sadness,,Sadness,
+50,1,10,14,1,1,10,Sonnet 54,Delights not in my merth nor rues my smart:,Sadness,,Sadness,
+50,1,11,14,1,1,11,Sonnet 54,"But when I laugh she mocks, and when I cry",Sadness,,Sadness,
+50,1,12,14,1,1,12,Sonnet 54,She laughs and hardens evermore her heart.,Sadness,,Sadness,
+50,1,13,14,1,1,13,Sonnet 54,"What then can move her? if nor merth nor mone,",Sadness,,Sadness,
+50,1,14,14,1,1,14,Sonnet 54,"She is no woman, but a senceless stone.",Sadness,,Sadness,
+51,1,1,4,5,1,1,ODE ON SOLITUDE,Happy the man whose wish and care,Beauty / Joy,,Beauty / Joy,
+51,1,2,4,5,1,2,ODE ON SOLITUDE,"A few paternal acres bound ,",Beauty / Joy,,Beauty / Joy,
+51,1,3,4,5,1,3,ODE ON SOLITUDE,"Content to breathe his native air ,",Beauty / Joy,,Beauty / Joy,
+51,1,4,4,5,1,4,ODE ON SOLITUDE,In his own ground .,Beauty / Joy,,Beauty / Joy,
+51,2,1,4,5,2,1,ODE ON SOLITUDE,"Whose herds with milk , whose fields with bread ,",Beauty / Joy,,Beauty / Joy,
+51,2,2,4,5,2,2,ODE ON SOLITUDE,"Whose flocks supply him with attire ,",Beauty / Joy,,Beauty / Joy,
+51,2,3,4,5,2,3,ODE ON SOLITUDE,"Whose trees in summer yield him shade ,",Beauty / Joy,,Beauty / Joy,
+51,2,4,4,5,2,4,ODE ON SOLITUDE,In winter fire .,Beauty / Joy,,Beauty / Joy,
+51,3,1,4,5,3,1,ODE ON SOLITUDE,"Blest , who can unconcern""dly find",Beauty / Joy,,Beauty / Joy,
+51,3,2,4,5,3,2,ODE ON SOLITUDE,"Hours , days , and years slide soft away ,",Beauty / Joy,,Beauty / Joy,
+51,3,3,4,5,3,3,ODE ON SOLITUDE,"In health of body , peace of mind ,",Beauty / Joy,,Beauty / Joy,
+51,3,4,4,5,3,4,ODE ON SOLITUDE,"Quiet by day ,",Beauty / Joy,,Beauty / Joy,
+51,4,1,4,5,4,1,ODE ON SOLITUDE,"Sound sleep by night ; study and ease ,",Beauty / Joy,,Beauty / Joy,
+51,4,2,4,5,4,2,ODE ON SOLITUDE,Together mixt ; sweet recreation ;,Beauty / Joy,,Beauty / Joy,
+51,4,3,4,5,4,3,ODE ON SOLITUDE,"And Innocence , which most does please",Beauty / Joy,,Beauty / Joy,
+51,4,4,4,5,4,4,ODE ON SOLITUDE,With meditation .,Beauty / Joy,,Beauty / Joy,
+51,5,1,4,5,5,1,ODE ON SOLITUDE,"Thus let me live , unseen , unknown ,",Awe / Sublime,,Vitality,
+51,5,2,4,5,5,2,ODE ON SOLITUDE,"Thus unlamented let me die ,",Awe / Sublime,,Vitality,
+51,5,3,4,5,5,3,ODE ON SOLITUDE,"Steal from the world , and not a stone",Awe / Sublime,,Vitality,
+51,5,4,4,5,5,4,ODE ON SOLITUDE,Tell where I lie .,Awe / Sublime,,Vitality,
+52,1,1,3,11,1,1,dying is fine)but Death,?o,Suspense,,Suspense,Humor
+52,1,2,3,11,1,2,dying is fine)but Death,baby,Suspense,,Suspense,Humor
+52,1,3,3,11,1,3,dying is fine)but Death,i,Suspense,,Suspense,Humor
+52,2,1,1,11,2,1,dying is fine)but Death,"wouldn""t like",Suspense,,Suspense,Humor
+52,3,1,3,11,3,1,dying is fine)but Death,Death if Death,Humor,,Suspense,Humor
+52,3,2,3,11,3,2,dying is fine)but Death,were,Humor,,Suspense,Humor
+52,3,3,3,11,3,3,dying is fine)but Death,good:for,Humor,,Suspense,Humor
+52,4,1,1,11,4,1,dying is fine)but Death,when(instead of stopping to think)you,Humor,,Suspense,Humor
+52,5,1,3,11,5,1,dying is fine)but Death,"begin to feel of it,dying",Humor,,Suspense,Humor
+52,5,2,3,11,5,2,dying is fine)but Death,"""s miraculous",Humor,,Suspense,Humor
+52,5,3,3,11,5,3,dying is fine)but Death,why?be,Humor,,Suspense,Humor
+52,6,1,1,11,6,1,dying is fine)but Death,cause dying is,Humor,,Suspense,Humor
+52,7,1,3,11,7,1,dying is fine)but Death,perfectly natural;perfectly,Humor,,Suspense,Humor
+52,7,2,3,11,7,2,dying is fine)but Death,putting,Humor,,Suspense,Humor
+52,7,3,3,11,7,3,dying is fine)but Death,it mildly lively(but,Humor,,Suspense,Humor
+52,8,1,1,11,8,1,dying is fine)but Death,Death,Humor,,Suspense,Humor
+52,9,1,3,11,9,1,dying is fine)but Death,is strictly,Humor,,Suspense,Humor
+52,9,2,3,11,9,2,dying is fine)but Death,scientific,Humor,,Suspense,Humor
+52,9,3,3,11,9,3,dying is fine)but Death,&amp; artificial &amp;,Humor,,Suspense,Humor
+52,10,1,1,11,10,1,dying is fine)but Death,evil &amp; legal),Humor,,Suspense,Humor
+52,11,1,4,11,11,1,dying is fine)but Death,we thank thee,Humor,,Suspense,Humor
+52,11,2,4,11,11,2,dying is fine)but Death,god,Humor,,Suspense,Humor
+52,11,3,4,11,11,3,dying is fine)but Death,almighty for dying,Humor,,Suspense,Humor
+52,11,4,4,11,11,4,dying is fine)but Death,"(forgive us,o life!the sin of Death",Humor,,Suspense,Humor
+53,1,1,5,4,1,1,[i carry your heart with me(i carry it in],i carry your heart with me(i carry it in,Beauty / Joy,,Beauty / Joy,
+53,1,2,5,4,1,2,[i carry your heart with me(i carry it in],my heart)i am never without it(anywhere,Beauty / Joy,,Beauty / Joy,
+53,1,3,5,4,1,3,[i carry your heart with me(i carry it in],"i go you go,my dear;and whatever is done",Beauty / Joy,,Beauty / Joy,
+53,1,4,5,4,1,4,[i carry your heart with me(i carry it in],"by only me is your doing,my darling)",Beauty / Joy,,Beauty / Joy,
+53,1,5,5,4,1,5,[i carry your heart with me(i carry it in],i fear,Beauty / Joy,,Beauty / Joy,
+53,2,1,4,4,2,1,[i carry your heart with me(i carry it in],"no fate(for you are my fate,my sweet)i want",Beauty / Joy,,Beauty / Joy,
+53,2,2,4,4,2,2,[i carry your heart with me(i carry it in],"no world(for beautiful you are my world,my true)",Beauty / Joy,,Beauty / Joy,
+53,2,3,4,4,2,3,[i carry your heart with me(i carry it in],and it’s you are whatever a moon has always meant,Beauty / Joy,,Beauty / Joy,
+53,2,4,4,4,2,4,[i carry your heart with me(i carry it in],and whatever a sun will always sing is you,Beauty / Joy,,Beauty / Joy,
+53,3,1,5,4,3,1,[i carry your heart with me(i carry it in],here is the deepest secret nobody knows,Beauty / Joy,,Beauty / Joy,
+53,3,2,5,4,3,2,[i carry your heart with me(i carry it in],(here is the root of the root and the bud of the bud,Beauty / Joy,,Beauty / Joy,
+53,3,3,5,4,3,3,[i carry your heart with me(i carry it in],and the sky of the sky of a tree called life;which grows,Beauty / Joy,,Beauty / Joy,
+53,3,4,5,4,3,4,[i carry your heart with me(i carry it in],higher than soul can hope or mind can hide),Beauty / Joy,,Beauty / Joy,
+53,3,5,5,4,3,5,[i carry your heart with me(i carry it in],"and this is the wonder that""s keeping the stars apart",Beauty / Joy,,Beauty / Joy,
+53,4,1,1,4,4,1,[i carry your heart with me(i carry it in],i carry your heart(i carry it in my heart),Beauty / Joy,,Beauty / Joy,
+54,1,1,30,1,1,1,THE DESCENT OF DULLNESS,"In vain , in vain — the all-composing Hour",Suspense,,Suspense,
+54,1,2,30,1,1,2,THE DESCENT OF DULLNESS,"Resistless falls : the Muse obeys the Pow""r .",Suspense,,Suspense,
+54,1,3,30,1,1,3,THE DESCENT OF DULLNESS,She comes ! she comes ! the sable Throne behold,Suspense,,Suspense,
+54,1,4,30,1,1,4,THE DESCENT OF DULLNESS,Of Night primæval and of Chaos old !,Suspense,,Suspense,
+54,1,5,30,1,1,5,THE DESCENT OF DULLNESS,"Before her , Fancy ""s gilded clouds decay ,",Sadness,,Uneasiness,
+54,1,6,30,1,1,6,THE DESCENT OF DULLNESS,And all its varying Rain-bows die away .,Sadness,,Uneasiness,
+54,1,7,30,1,1,7,THE DESCENT OF DULLNESS,"Wit shoots in vain its momentary fires ,",Sadness,,Uneasiness,
+54,1,8,30,1,1,8,THE DESCENT OF DULLNESS,"The meteor drops , and in a flash expires .",Sadness,,Uneasiness,
+54,1,9,30,1,1,9,THE DESCENT OF DULLNESS,"As one by one , at dread Medea ""s strain ,",Uneasiness,,Uneasiness,
+54,1,10,30,1,1,10,THE DESCENT OF DULLNESS,"The sick""ning stars fade off th ’ ethereal plain ;",Uneasiness,,Uneasiness,
+54,1,11,30,1,1,11,THE DESCENT OF DULLNESS,"As Argus ’ eyes by Hermes ’ wand opprest ,",Uneasiness,,Uneasiness,
+54,1,12,30,1,1,12,THE DESCENT OF DULLNESS,"Clos ""d one by one to everlasting rest ;",Uneasiness,,Uneasiness,
+54,1,13,30,1,1,13,THE DESCENT OF DULLNESS,"Thus at her felt approach , and secret might ,",Uneasiness,,Uneasiness,
+54,1,14,30,1,1,14,THE DESCENT OF DULLNESS,"Art after Art goes out , and all is Night .",Uneasiness,,Uneasiness,
+54,1,15,30,1,1,15,THE DESCENT OF DULLNESS,"See skulking Truth to her old cavern fled ,",Uneasiness,,Sadness,
+54,1,16,30,1,1,16,THE DESCENT OF DULLNESS,"Mountains of Casuistry heap ""d o""er her head !",Uneasiness,,Sadness,
+54,1,17,30,1,1,17,THE DESCENT OF DULLNESS,"Philosophy , that lean ""d on Heav""n before ,",Uneasiness,,Sadness,
+54,1,18,30,1,1,18,THE DESCENT OF DULLNESS,"Shrinks to her second cause , and is no more .",Uneasiness,,Sadness,
+54,1,19,30,1,1,19,THE DESCENT OF DULLNESS,"Physic of Metaphysic begs defence ,",Uneasiness,,Sadness,
+54,1,20,30,1,1,20,THE DESCENT OF DULLNESS,And Metaphysic calls for aid on Sense !,Uneasiness,,Sadness,
+54,1,21,30,1,1,21,THE DESCENT OF DULLNESS,See Mystery to Mathematics fly !,Uneasiness,,Sadness,
+54,1,22,30,1,1,22,THE DESCENT OF DULLNESS,"In vain ! they gaze , turn giddy , rave , and die .",Sadness,Uneasiness,Sadness,
+54,1,23,30,1,1,23,THE DESCENT OF DULLNESS,"Religion blushing veils her sacred fires ,",Sadness,Uneasiness,Sadness,
+54,1,24,30,1,1,24,THE DESCENT OF DULLNESS,And unawares Morality expires .,Sadness,Uneasiness,Sadness,
+54,1,25,30,1,1,25,THE DESCENT OF DULLNESS,"For public Flame , nor private , dares to shine ;",Sadness,Uneasiness,Sadness,
+54,1,26,30,1,1,26,THE DESCENT OF DULLNESS,"Nor human Spark is left , nor Glimpse divine !",Sadness,Uneasiness,Sadness,
+54,1,27,30,1,1,27,THE DESCENT OF DULLNESS,"Lo ! thy dread Empire , CHAOS ! is restor ""d ;",Sadness,Uneasiness,Uneasiness,
+54,1,28,30,1,1,28,THE DESCENT OF DULLNESS,Light dies before thy uncreating word ;,Sadness,Uneasiness,Uneasiness,
+54,1,29,30,1,1,29,THE DESCENT OF DULLNESS,"Thy hand , great Anarch ! lets the curtain fall ,",Sadness,Uneasiness,Uneasiness,
+54,1,30,30,1,1,30,THE DESCENT OF DULLNESS,And universal Darkness buries All .,Sadness,Uneasiness,Uneasiness,
+55,1,1,4,2,1,1,"I ""m nobody ! Who are you ?","I ""m nobody ! Who are you ?",Humor,,Humor,
+55,1,2,4,2,1,2,"I ""m nobody ! Who are you ?","Are you nobody , too ?",Humor,,Humor,
+55,1,3,4,2,1,3,"I ""m nobody ! Who are you ?",Then there ‘ s a pair of us,Humor,,Humor,
+55,1,4,4,2,1,4,"I ""m nobody ! Who are you ?","— do n""t tell ! They ‘ d banish us , you know .",Humor,,Humor,
+55,2,1,4,2,2,1,"I ""m nobody ! Who are you ?",How dreary to be somebody !,Humor,Sadness,Humor,
+55,2,2,4,2,2,2,"I ""m nobody ! Who are you ?","How public , like a frog",Humor,Sadness,Humor,
+55,2,3,4,2,2,3,"I ""m nobody ! Who are you ?",To tell your name the livelong day,Humor,Sadness,Humor,
+55,2,4,4,2,2,4,"I ""m nobody ! Who are you ?",To an admiring bog !,Humor,Sadness,Humor,
+56,1,1,9,3,1,1,The Flea,"Marke but this flea , and marke in this ,",Humor,Beauty / Joy,Humor,
+56,1,2,9,3,1,2,The Flea,"How little that which thou deny""st me is ;",Humor,Beauty / Joy,Humor,
+56,1,3,9,3,1,3,The Flea,"It suck ""d me first , and now sucks thee ,",Humor,Beauty / Joy,Humor,
+56,1,4,9,3,1,4,The Flea,"And in this flea , our two bloods mingled bee ;",Humor,Beauty / Joy,Humor,
+56,1,5,9,3,1,5,The Flea,"Thou know""st that this cannot be said",Humor,Beauty / Joy,Humor,
+56,1,6,9,3,1,6,The Flea,"A sinne , nor shame , nor losse of maidenhead ,",Humor,Beauty / Joy,Humor,
+56,1,7,9,3,1,7,The Flea,"Yet this enjoyes before it wooe ,",Humor,Beauty / Joy,Humor,
+56,1,8,9,3,1,8,The Flea,"And pamper ""d swells with one blood made of two ,",Humor,Beauty / Joy,Humor,
+56,1,9,9,3,1,9,The Flea,"And this , alas , is more then wee would doe .",Humor,Beauty / Joy,Humor,
+56,2,1,9,3,2,1,The Flea,"Oh stay , three lives in one flea spare ,",Beauty / Joy,,Humor,
+56,2,2,9,3,2,2,The Flea,"Where wee almost , yea more then maryed are .",Beauty / Joy,,Humor,
+56,2,3,9,3,2,3,The Flea,"This flea is you and I , and this",Beauty / Joy,,Humor,
+56,2,4,9,3,2,4,The Flea,"Our mariage bed , and mariage temple is ;",Beauty / Joy,,Humor,
+56,2,5,9,3,2,5,The Flea,"Though parents grudge , and you , w""are met ,",Beauty / Joy,,Uneasiness,
+56,2,6,9,3,2,6,The Flea,And cloysterd in these living walls of Jet .,Beauty / Joy,,Uneasiness,
+56,2,7,9,3,2,7,The Flea,"Though use make you apt to kill mee ,",Humor,,Uneasiness,
+56,2,8,9,3,2,8,The Flea,"Let not to that , selfe murder added bee ,",Humor,,Uneasiness,
+56,2,9,9,3,2,9,The Flea,"And sacrilege , three sinnes in killing three .",Humor,,Uneasiness,
+56,3,1,9,3,3,1,The Flea,"Cruell and sodaine , hast thou since",Sadness,,Uneasiness,
+56,3,2,9,3,3,2,The Flea,"Purpled thy naile , in blood of innocence ?",Sadness,,Uneasiness,
+56,3,3,9,3,3,3,The Flea,"Wherein could this flea guilty bee ,",Sadness,,Uneasiness,
+56,3,4,9,3,3,4,The Flea,Except in that drop which it suckt from thee ?,Sadness,,Uneasiness,
+56,3,5,9,3,3,5,The Flea,"Yet thou triumph""st , and saist that thou",Sadness,,Uneasiness,
+56,3,6,9,3,3,6,The Flea,"Find""st not thy selfe , nor mee the weaker now ;",Sadness,,Uneasiness,
+56,3,7,9,3,3,7,The Flea,"‘ Tis true , then learne how false , feares bee ; 25",Sadness,,Uneasiness,
+56,3,8,9,3,3,8,The Flea,"Just so much honor , when thou yeeld""st to mee ,",Sadness,,Uneasiness,
+56,3,9,9,3,3,9,The Flea,"Will wast , as this flea ""s death tooke life from thee .",Sadness,,Uneasiness,
+57,1,1,10,1,1,1,Song on May Morning,"NOW the bright morning-star, Day’s harbinger,",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,2,10,1,1,2,Song on May Morning,"Comes dancing from the East, and leads with her",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,3,10,1,1,3,Song on May Morning,"The flowery May, who from her green lap throws",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,4,10,1,1,4,Song on May Morning,The yellow cowslip and the pale primrose.,Beauty / Joy,Vitality,Beauty / Joy,
+57,1,5,10,1,1,5,Song on May Morning,"Hail, bounteous May, that dost inspire",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,6,10,1,1,6,Song on May Morning,"Mirth, and youth, and warm desire!",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,7,10,1,1,7,Song on May Morning,Woods and groves are of thy dressing;,Beauty / Joy,Vitality,Beauty / Joy,
+57,1,8,10,1,1,8,Song on May Morning,Hill and dale doth boast thy blessing.,Beauty / Joy,Vitality,Beauty / Joy,
+57,1,9,10,1,1,9,Song on May Morning,"Thus we salute thee with our early song,",Beauty / Joy,Vitality,Beauty / Joy,
+57,1,10,10,1,1,10,Song on May Morning,"And welcome thee, and wish thee long.",Beauty / Joy,Vitality,Beauty / Joy,
+58,1,1,14,1,1,1,OZYMANDIAS,I met a traveller from an antique land,Suspense,,Suspense,
+58,1,2,14,1,1,2,OZYMANDIAS,Who said : Two vast and trunkless legs of stone,Suspense,,Suspense,
+58,1,3,14,1,1,3,OZYMANDIAS,"Stand in the desert ... Near them , on the sand ,",Uneasiness,Suspense,Suspense,
+58,1,4,14,1,1,4,OZYMANDIAS,"Half sunk , a shattered visage lies , whose frown ,",Uneasiness,Suspense,Suspense,
+58,1,5,14,1,1,5,OZYMANDIAS,"And wrinkled lip , and sneer of cold command ,",Uneasiness,Suspense,Suspense,
+58,1,6,14,1,1,6,OZYMANDIAS,Tell that its sculptor well those passions read,Uneasiness,Suspense,Suspense,
+58,1,7,14,1,1,7,OZYMANDIAS,"Which yet survive , stamped on these lifeless things ,",Uneasiness,Suspense,Suspense,
+58,1,8,14,1,1,8,OZYMANDIAS,"The hand that mocked them , and the heart that fed :",Uneasiness,Suspense,Suspense,
+58,1,9,14,1,1,9,OZYMANDIAS,And on the pedestal these words appear :,Uneasiness,Suspense,Suspense,
+58,1,10,14,1,1,10,OZYMANDIAS,"‘ My name is Ozymandias , king of kings :",Uneasiness,,Sadness,
+58,1,11,14,1,1,11,OZYMANDIAS,"Look on my works , ye Mighty , and despair ! ’",Uneasiness,,Sadness,
+58,1,12,14,1,1,12,OZYMANDIAS,Nothing beside remains . Round the decay,Sadness,,Nostalgia,Sadness
+58,1,13,14,1,1,13,OZYMANDIAS,"Of that colossal wreck , boundless and bare",Sadness,,Nostalgia,Sadness
+58,1,14,14,1,1,14,OZYMANDIAS,The lone and level sands stretch far away .,Sadness,,Nostalgia,Sadness
+59,1,1,4,4,1,1,Desert Places,"Snow falling and night falling fast, oh, fast",Beauty / Joy,,Beauty / Joy,
+59,1,2,4,4,1,2,Desert Places,"In a field I looked into going past,",Beauty / Joy,,Beauty / Joy,
+59,1,3,4,4,1,3,Desert Places,"And the ground almost covered smooth in snow,",Beauty / Joy,,Beauty / Joy,
+59,1,4,4,4,1,4,Desert Places,But a few weeds and stubble showing last.,Beauty / Joy,,Beauty / Joy,
+59,2,1,4,4,2,1,Desert Places,The woods around it have it--it is theirs.,Beauty / Joy,,Sadness,
+59,2,2,4,4,2,2,Desert Places,All animals are smothered in their lairs.,Beauty / Joy,,Sadness,
+59,2,3,4,4,2,3,Desert Places,I am too absent-spirited to count;,Sadness,,Sadness,
+59,2,4,4,4,2,4,Desert Places,The loneliness includes me unawares.,Sadness,,Sadness,
+59,3,1,4,4,3,1,Desert Places,And lonely as it is that loneliness,Sadness,Uneasiness,Sadness,
+59,3,2,4,4,3,2,Desert Places,Will be more lonely ere it will be less--,Sadness,Uneasiness,Sadness,
+59,3,3,4,4,3,3,Desert Places,A blanker whiteness of benighted snow,Sadness,Uneasiness,Sadness,
+59,3,4,4,4,3,4,Desert Places,"With no expression, nothing to express.",Sadness,Uneasiness,Sadness,
+59,4,1,4,4,4,1,Desert Places,They cannot scare me with their empty spaces,Sadness,Awe / Sublime,Sadness,
+59,4,2,4,4,4,2,Desert Places,Between stars--on stars where no human race is.,Sadness,Awe / Sublime,Sadness,
+59,4,3,4,4,4,3,Desert Places,I have it in me so much nearer home,Sadness,Awe / Sublime,Sadness,
+59,4,4,4,4,4,4,Desert Places,To scare myself with my own desert places.,Sadness,Awe / Sublime,Sadness,
+60,1,1,8,4,1,1,If—,If you can keep your head when all about you,Beauty / Joy,Vitality,Vitality,
+60,1,2,8,4,1,2,If—,"Are losing theirs and blaming it on you,",Beauty / Joy,Vitality,Vitality,
+60,1,3,8,4,1,3,If—,"If you can trust yourself when all men doubt you,",Beauty / Joy,Vitality,Vitality,
+60,1,4,8,4,1,4,If—,But make allowance for their doubting too;,Beauty / Joy,Vitality,Vitality,
+60,1,5,8,4,1,5,If—,"If you can wait and not be tired by waiting,",Beauty / Joy,Vitality,Vitality,
+60,1,6,8,4,1,6,If—,"Or being lied about, don’t deal in lies,",Beauty / Joy,Vitality,Vitality,
+60,1,7,8,4,1,7,If—,"Or being hated, don’t give way to hating,",Beauty / Joy,Vitality,Vitality,
+60,1,8,8,4,1,8,If—,"And yet don’t look too good, nor talk too wise:",Beauty / Joy,Vitality,Vitality,
+60,2,1,8,4,2,1,If—,If you can dream—and not make dreams your master;,Beauty / Joy,Vitality,Vitality,
+60,2,2,8,4,2,2,If—,If you can think—and not make thoughts your aim;,Beauty / Joy,Vitality,Vitality,
+60,2,3,8,4,2,3,If—,If you can meet with Triumph and Disaster,Beauty / Joy,Vitality,Vitality,
+60,2,4,8,4,2,4,If—,And treat those two impostors just the same;,Beauty / Joy,Vitality,Vitality,
+60,2,5,8,4,2,5,If—,If you can bear to hear the truth you’ve spoken,Beauty / Joy,Vitality,Vitality,
+60,2,6,8,4,2,6,If—,"Twisted by knaves to make a trap for fools,",Beauty / Joy,Vitality,Vitality,
+60,2,7,8,4,2,7,If—,"Or watch the things you gave your life to, broken,",Beauty / Joy,Vitality,Vitality,
+60,2,8,8,4,2,8,If—,And stoop and build ’em up with worn-out tools:,Beauty / Joy,Vitality,Vitality,
+60,3,1,8,4,3,1,If—,If you can make one heap of all your winnings,Beauty / Joy,Vitality,Vitality,
+60,3,2,8,4,3,2,If—,"And risk it on one turn of pitch-and-toss,",Beauty / Joy,Vitality,Vitality,
+60,3,3,8,4,3,3,If—,"And lose, and start again at your beginnings",Beauty / Joy,Vitality,Vitality,
+60,3,4,8,4,3,4,If—,And never breathe a word about your loss;,Beauty / Joy,Vitality,Vitality,
+60,3,5,8,4,3,5,If—,If you can force your heart and nerve and sinew,Beauty / Joy,Vitality,Vitality,
+60,3,6,8,4,3,6,If—,"To serve your turn long after they are gone,",Beauty / Joy,Vitality,Vitality,
+60,3,7,8,4,3,7,If—,And so hold on when there is nothing in you,Beauty / Joy,Vitality,Vitality,
+60,3,8,8,4,3,8,If—,Except the Will which says to them: ‘Hold on!’,Beauty / Joy,Vitality,Vitality,
+60,4,1,8,4,4,1,If—,"If you can talk with crowds and keep your virtue,",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,2,8,4,4,2,If—,"Or walk with Kings—nor lose the common touch,",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,3,8,4,4,3,If—,"If neither foes nor loving friends can hurt you,",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,4,8,4,4,4,If—,"If all men count with you, but none too much;",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,5,8,4,4,5,If—,If you can fill the unforgiving minute,Awe / Sublime,,Vitality,Awe / Sublime
+60,4,6,8,4,4,6,If—,"With sixty seconds’ worth of distance run,",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,7,8,4,4,7,If—,"Yours is the Earth and everything that’s in it,",Awe / Sublime,,Vitality,Awe / Sublime
+60,4,8,8,4,4,8,If—,"And—which is more—you’ll be a Man, my son!",Awe / Sublime,,Vitality,Awe / Sublime
+61,1,1,5,2,1,1,A Noiseless Patient Spider,"A noiseless patient spider ,",Vitality,,Sadness,
+61,1,2,5,2,1,2,A Noiseless Patient Spider,"I mark ""d where on a little promontory it stood isolated ,",Vitality,,Sadness,
+61,1,3,5,2,1,3,A Noiseless Patient Spider,"Mark ""d how to explore the vacant vast surrounding ,",Vitality,,Sadness,
+61,1,4,5,2,1,4,A Noiseless Patient Spider,"It launch ""d forth filament , filament , filament out of itself ,",Vitality,,Sadness,
+61,1,5,5,2,1,5,A Noiseless Patient Spider,"Ever unreeling them , ever tirelessly speeding them .",Vitality,,Sadness,
+61,2,1,6,2,2,1,A Noiseless Patient Spider,"And you O my soul where you stand ,",Sadness,Awe / Sublime,Sadness,
+61,2,2,6,2,2,2,A Noiseless Patient Spider,"Surrounded , detached , in measureless oceans of space ,",Sadness,Awe / Sublime,Sadness,
+61,2,3,6,2,2,3,A Noiseless Patient Spider,"Ceaselessly musing , venturing , throwing , seeking the spheres to",Sadness,Awe / Sublime,Sadness,
+61,2,4,6,2,2,4,A Noiseless Patient Spider,"connect them ,",Sadness,Awe / Sublime,Sadness,
+61,2,5,6,2,2,5,A Noiseless Patient Spider,"Till the bridge you will need be form ""d , till the ductile anchor hold ,",Sadness,Awe / Sublime,Sadness,
+61,2,6,6,2,2,6,A Noiseless Patient Spider,"Till the gossamer thread you fling catch somewhere , O my soul .",Sadness,Awe / Sublime,Sadness,
+62,1,1,4,4,1,1,LONDON,"I wandered through each chartered street ,",Nostalgia,,Sadness,Nostalgia
+62,1,2,4,4,1,2,LONDON,"Near where the chartered Thames does flow ,",Nostalgia,,Sadness,Nostalgia
+62,1,3,4,4,1,3,LONDON,"A mark in every face I meet ,",Nostalgia,,Sadness,Nostalgia
+62,1,4,4,4,1,4,LONDON,"Marks of weakness , marks of woe .",Nostalgia,,Sadness,Nostalgia
+62,2,1,4,4,2,1,LONDON,"In every cry of every man ,",Sadness,,Sadness,Annoyance
+62,2,2,4,4,2,2,LONDON,"In every infant ""s cry of fear ,",Sadness,,Sadness,Annoyance
+62,2,3,4,4,2,3,LONDON,"In every voice , in every ban ,",Sadness,,Sadness,Annoyance
+62,2,4,4,4,2,4,LONDON,The mind-forged manacles I hear :,Sadness,,Sadness,Annoyance
+62,3,1,4,4,3,1,LONDON,"How the chimney-sweeper ""s cry",Sadness,,Sadness,Annoyance
+62,3,2,4,4,3,2,LONDON,"Every blackening church appalls ,",Sadness,,Sadness,Annoyance
+62,3,3,4,4,3,3,LONDON,"And the hapless soldier ""s sigh",Annoyance,Sadness,Sadness,Annoyance
+62,3,4,4,4,3,4,LONDON,Runs in blood down palace-walls .,Annoyance,Sadness,Sadness,Annoyance
+62,4,1,4,4,4,1,LONDON,"But most , through midnight streets I hear",Annoyance,Sadness,Sadness,Annoyance
+62,4,2,4,4,4,2,LONDON,"How the youthful harlot ""s curse",Annoyance,Sadness,Sadness,Annoyance
+62,4,3,4,4,4,3,LONDON,"Blasts the new-born infant ""s tear ,",Annoyance,Sadness,Sadness,Annoyance
+62,4,4,4,4,4,4,LONDON,And blights with plagues the marriage-hearse .,Annoyance,Sadness,Sadness,Annoyance
+63,1,1,12,1,1,1,The Young Housewife,AT ten A.M. the young housewife,Beauty / Joy,Suspense,Beauty / Joy,
+63,1,2,12,1,1,2,The Young Housewife,moves about in negligee behind,Beauty / Joy,Suspense,Beauty / Joy,
+63,1,3,12,1,1,3,The Young Housewife,"the wooden walls of her husband""s house.",Beauty / Joy,Suspense,Beauty / Joy,
+63,1,4,12,1,1,4,The Young Housewife,I pass solitary in my car.,Beauty / Joy,,Beauty / Joy,
+63,1,5,12,1,1,5,The Young Housewife,Then again she comes to the curb,Beauty / Joy,,Sadness,
+63,1,6,12,1,1,6,The Young Housewife,"to call the ice-man, fish-man, and stands",Beauty / Joy,,Sadness,
+63,1,7,12,1,1,7,The Young Housewife,"shy, uncorseted, tucking in",Beauty / Joy,,Sadness,
+63,1,8,12,1,1,8,The Young Housewife,"stray ends of hair, and I compare her",Beauty / Joy,Sadness,Sadness,
+63,1,9,12,1,1,9,The Young Housewife,to a fallen leaf.,Beauty / Joy,Sadness,Sadness,
+63,1,10,12,1,1,10,The Young Housewife,The noiseless wheels of my car,Beauty / Joy,Sadness,Sadness,
+63,1,11,12,1,1,11,The Young Housewife,rush with a crackling sound over,Beauty / Joy,Sadness,Sadness,
+63,1,12,12,1,1,12,The Young Housewife,dried leaves as I bow and pass smiling.,Beauty / Joy,Sadness,Sadness,
+64,1,1,6,4,1,1,I wandered lonely as a Cloud,I wandered lonely as a Cloud,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,1,2,6,4,1,2,I wandered lonely as a Cloud,"That floats on high over Vales and Hills ,",Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,1,3,6,4,1,3,I wandered lonely as a Cloud,When all at once I saw a crowd,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,1,4,6,4,1,4,I wandered lonely as a Cloud,A host of dancing Daffodills ;,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,1,5,6,4,1,5,I wandered lonely as a Cloud,"Along the Lake , beneath the trees ,",Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,1,6,6,4,1,6,I wandered lonely as a Cloud,Ten thousand dancing in the breeze .,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,2,1,6,4,2,1,I wandered lonely as a Cloud,Continuous as the stars that shine,Nostalgia,Beauty / Joy,Beauty / Joy,
+64,2,2,6,4,2,2,I wandered lonely as a Cloud,"And twinkle on the milky way,",Nostalgia,Beauty / Joy,Beauty / Joy,
+64,2,3,6,4,2,3,I wandered lonely as a Cloud,They stretched in never-ending line,Nostalgia,Beauty / Joy,Beauty / Joy,
+64,2,4,6,4,2,4,I wandered lonely as a Cloud,Along the margin of a bay:,Nostalgia,Beauty / Joy,Beauty / Joy,
+64,2,5,6,4,2,5,I wandered lonely as a Cloud,"Ten thousand saw I at a glance,",Nostalgia,Beauty / Joy,Beauty / Joy,
+64,2,6,6,4,2,6,I wandered lonely as a Cloud,Tossing their heads in sprightly dance.,Nostalgia,Beauty / Joy,Beauty / Joy,
+64,3,1,6,4,3,1,I wandered lonely as a Cloud,"The waves beside them danced , but they",Beauty / Joy,Vitality,Beauty / Joy,
+64,3,2,6,4,3,2,I wandered lonely as a Cloud,Outdid the sparkling waves in glee :—,Beauty / Joy,Vitality,Beauty / Joy,
+64,3,3,6,4,3,3,I wandered lonely as a Cloud,A Poet could not but be gay,Beauty / Joy,Vitality,Beauty / Joy,
+64,3,4,6,4,3,4,I wandered lonely as a Cloud,In such a laughing company :,Beauty / Joy,Vitality,Beauty / Joy,
+64,3,5,6,4,3,5,I wandered lonely as a Cloud,I gazed — and gazed — but little thought,Beauty / Joy,Suspense,Beauty / Joy,Suspense
+64,3,6,6,4,3,6,I wandered lonely as a Cloud,What wealth the shew to me had brought :,Beauty / Joy,Suspense,Beauty / Joy,Suspense
+64,4,1,6,4,4,1,I wandered lonely as a Cloud,For oft when on my couch I lie,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,4,2,6,4,4,2,I wandered lonely as a Cloud,"In vacant or in pensive mood ,",Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,4,3,6,4,4,3,I wandered lonely as a Cloud,They flash upon that inward eye,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,4,4,6,4,4,4,I wandered lonely as a Cloud,"Which is the bliss of solitude ,",Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,4,5,6,4,4,5,I wandered lonely as a Cloud,"And then my heart with pleasure fills ,",Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy
+64,4,6,6,4,4,6,I wandered lonely as a Cloud,And dances with the Daffodils .,Nostalgia,Beauty / Joy,Nostalgia,Beauty / Joy

@@ -1,0 +1,34 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. The guide provides 9 labels for annotating emotions, along with examples and instructions for annotators. Here's a breakdown of the guide:
+
+**Labels and Descriptions**
+
+1. **Annoyance**: Feeling annoyed, frustrated, or angry while reading the line/stanza.
+2. **Awe/Sublime**: Feeling overwhelmed, inspired, or in awe while reading the line/stanza.
+3. **Beauty/Joy**: Feeling pleasure, happiness, or joy while reading the line/stanza.
+4. **Humor**: Feeling amused or finding the line/stanza funny.
+5. **Nostalgia**: Feeling nostalgic, but only to be used in addition to another label (Beauty/Joy or Sadness).
+6. **Sadness**: Feeling sad or touched while reading the line/stanza.
+7. **Suspense**: Feeling gripped or interested while reading the line/stanza.
+8. **Uneasiness**: Feeling uncomfortable, unsettled, or disturbed while reading the line/stanza.
+9. **Vitality**: Feeling invigorated, inspired, or energized while reading the line/stanza.
+
+**Instructions for Annotating**
+
+1. Annotate your current feelings while reading each individual line (not sentence).
+2. Read the entire stanza before annotating each line.
+3. Use as few emotions as possible.
+4. Choose at least one label per line.
+5. You can use up to two labels per line.
+6. Choose the dominant emotion while reading the stanza.
+7. If necessary, choose another emotion.
+8. Only change the dominant emotion within a stanza if unavoidable.
+9. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+10. Nostalgia must always be used with an additional label (Beauty/Joy or Sadness).
+
+**Gold Standard Examples**
+
+The guide provides examples for each label, highlighting the exemplarily emotion. These examples serve as an orientation for annotators, and they can refer to them when in doubt.
+
+**Annotation Task**
+
+The guide concludes with an annotation task, providing a stanza for annotators to practice labeling emotions.

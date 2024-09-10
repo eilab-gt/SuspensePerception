@@ -12,6 +12,8 @@ from together import Together
 import re
 from tqdm import tqdm
 import logging
+import json
+import pdb
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -23,11 +25,13 @@ if project_root not in sys.path:
 TQDM_ACTIVE = True
 
 
-def safe_int_conversion(value):
+def safe_conversion(value):
     if isinstance(value, int):
         return value
     if isinstance(value, str):
         return int(value) if value.isdigit() else None
+    if type(value) is type({}.values()):
+        return list(value)
     return None
 
 
@@ -87,9 +91,16 @@ def parse_response(
 
     else:
         raise ValueError(f"Unsupported API type: {api_type}")
-
+    
     if not content:
         return {}
+
+    # print("parse model response", content)
+    # Attempt to load content as JSON first
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        pass  # If JSON decoding fails, continue with regex extraction
 
     values = re.findall(r"\w+: \d+", content)
     if values:
@@ -123,6 +134,7 @@ def run_experiment(
     parse_model_config: dict[str, typing.Any],
     prompts: dict[str, str],
     version_prompts: dict[str, str | list[str]],
+    experiment_series: str = None
 ) -> list[dict[str, str]]:
     # TODO: move to utils.py
     """
@@ -150,14 +162,13 @@ def run_experiment(
                     with tqdm(
                         total=len(version_text), desc=f"{exp_name} - {version_name}"
                     ) as inner_pbar:
-                        messages = [
-                            {"role": "system", "content": prompt},
-                        ]
+                        messages = []
 
                         raw_responses = []
                         parsed_responses = []
 
                         for i, paragraph in enumerate(version_text):
+                            # print("\n paragraph", paragraph)
                             messages.append({"role": "user", "content": prompt + paragraph})
 
                             raw_response = ""
@@ -172,11 +183,14 @@ def run_experiment(
                                 except Exception as e:
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
                                     if len(messages) >= 4:
+                                        # print("messages",messages)
+
+                                        print("popping 2 messages")
                                         messages.pop(1)
                                         messages.pop(1)
                                     else:
                                         break
-
+                            # print(raw_response)              
                             raw_responses.append(raw_response)
 
                             if raw_response:
@@ -187,7 +201,11 @@ def run_experiment(
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config
                                 )
-                                parsed_responses.extend(parsed_response.values())
+                                # print("parsed_response", parsed_response)
+                                if experiment_series == "haider_en":
+                                    parsed_responses.append(parsed_response.values()) #appending instead of extending to distinguish one stanza from the next
+                                else:
+                                    parsed_responses.extend(parsed_response.values())
 
                             else:
                                 messages.append(
@@ -198,14 +216,14 @@ def run_experiment(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
                                 )
                                 # Don't add anything to parsed_responses for failed responses
-
+                            
                             if TQDM_ACTIVE:
                                 inner_pbar.update(1)
 
                         raw_responses = "\n".join(raw_responses)
                         parsed_responses_dict = {}
                         for i, response in enumerate(parsed_responses):
-                            converted_value = safe_int_conversion(response)
+                            converted_value = safe_conversion(response)
                             parsed_responses_dict[str(i)] = converted_value
                             if converted_value is None:
                                 logging.warning(
