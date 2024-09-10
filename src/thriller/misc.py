@@ -4,6 +4,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 # TODO: move to api.py and utils.py then delete this file
 
 import sys
+import os
 import typing
 from pathlib import Path
 from src.thriller.api import generate_response, save_raw_api_output
@@ -202,7 +203,7 @@ def run_experiment(
                             if TQDM_ACTIVE:
                                 inner_pbar.update(1)
 
-                        raw_responses = "\n".join(raw_responses)
+                        raw_responses = "\n####################################################################################################\n".join(raw_responses)
                         parsed_responses_dict = {}
                         for i, response in enumerate(parsed_responses):
                             converted_value = safe_int_conversion(response)

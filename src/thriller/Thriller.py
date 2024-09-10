@@ -37,6 +37,7 @@ import src.thriller.bentz as bentz
 
 def main(args):
     logging.basicConfig(level=logging.WARNING)
+
     # Load configuration if provided
     config = load_config(args.config) if args.config else {}
 
