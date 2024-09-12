@@ -13,6 +13,7 @@ from together import Together
 import re
 from tqdm import tqdm
 import logging
+from utils import is_roman
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -178,27 +179,27 @@ def run_experiment(
                                     else:
                                         break
 
-                            raw_responses.append(raw_response)
-
-                            if raw_response:
-                                messages.append(
-                                    {"role": "assistant", "content": raw_response}
-                                )
-
-                                parsed_response = parse_response(
-                                    raw_response, parse_model_config
-                                )
-                                parsed_responses.extend(parsed_response.values())
-
-                            else:
-                                messages.append(
-                                    {"role": "assistant", "content": "No response."}
-                                )
-
+                            parsed_response = {"value": float("nan")}
+                            if not raw_response:
+                                raw_response = "Error - No Response: Input Too Long"
                                 print(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
                                 )
-                                # Don't add anything to parsed_responses for failed responses
+                            elif not is_roman(raw_response):
+                                raw_response = "Error - No Response: Input is Invalid"
+                                print(
+                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
+                                )
+                            else:
+                                parsed_response = parse_response(
+                                    raw_response, parse_model_config
+                                )
+
+                            raw_responses.append(raw_response)
+                            messages.append(
+                                {"role": "assistant", "content": raw_response}
+                            )
+                            parsed_responses.extend(parsed_response.values())
 
                             if TQDM_ACTIVE:
                                 inner_pbar.update(1)
@@ -228,38 +229,8 @@ def run_experiment(
                             output_path=output_path,
                         )
 
-                elif isinstance(version_text, str):
-                    messages = [
-                        {"role": "system", "content": prompt},
-                        {"role": "user", "content": version_text},
-                    ]
-
-                    raw_response = generate_response(messages, model_config)
-
-                    if raw_response:
-                        parsed_response = parse_response(
-                            raw_response, parse_model_config
-                        )
-
-                        result = {
-                            "experiment_name": exp_name,
-                            "version": version_name,
-                            "raw_response": raw_response,
-                            "parsed_response": parsed_response,
-                        }
-
-                        results.append(result)
-
-                        save_raw_api_output(
-                            output=raw_response,
-                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
-                            output_path=output_path,
-                        )
-
-                    else:
-                        print(
-                            f"Failed to get response for {exp_name} version: {version_name}"
-                        )
+                else:
+                    raise ValueError("Experiment should be in list format.")
 
                 pbar.update(1)
 
