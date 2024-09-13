@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "delatorre"
-  output_dir: "./outputs/delatorre_experiment/standard/creative/"
+  output_dir: "./outputs/delatorre_experiment/standard/deterministic/"
 model:
   api_type: "together"
   name: [
@@ -23,7 +23,7 @@ model:
     # "Qwen/Qwen2-72B-Instruct",
   ]
   max_tokens: 500
-  temperature: 1.0
+  temperature: 0.0
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
