@@ -14,6 +14,7 @@ import re
 from tqdm import tqdm
 import logging
 from utils import is_roman
+from typing import Dict, Union, List
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -124,7 +125,7 @@ def run_experiment(
     model_config: dict[str, typing.Any],
     parse_model_config: dict[str, typing.Any],
     prompts: dict[str, str],
-    version_prompts: dict[str, str | list[str]],
+    version_prompts: Dict[str, Union[str , List[str]]],
 ) -> list[dict[str, str]]:
     # TODO: move to utils.py
     """

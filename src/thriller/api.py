@@ -6,7 +6,6 @@ import typing
 from pathlib import Path
 import openai
 from together import Together
-import tiktoken
 
 
 def generate_response(

@@ -1,0 +1,6 @@
+experiment_name,version,response
+Experiment A Chunks,American Story Old Phoebe Chunks ,"{'0': 2, '1': 3, '2': 7, '3': 3, '4': 5}"
+Experiment A Chunks,American Story Lottery Chunks ,"{'0': 3, '1': 3, '2': 3, '3': 3, '4': 7}"
+Experiment A Chunks,American Story Ylla Chunks,"{'0': 5, '1': 6, '2': 6, '3': 7, '4': 1}"
+Experiment A Chunks,American Story Flying Chunks,"{'0': 4, '1': 2, '2': 7, '3': 5, '4': 2}"
+Experiment A Chunks,American Story Birthday Chunks ,"{'0': 4, '1': 3, '2': 1, '3': 3, '4': 4}"
