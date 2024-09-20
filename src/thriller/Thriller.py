@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 from tqdm import tqdm
 import logging
-
+import random
 from dotenv import load_dotenv
 
 
@@ -118,6 +118,19 @@ def main(args):
 
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
+        
+    # Enumerate the texts
+    for exp_name, prompt in prompts.items():
+        i = 0
+        for version_name, version_text in version_prompts[exp_name]:
+            version_text = list(enumerate(version_text))
+
+            # Shuffle the texts if necessary
+            if (experiment_config["shuffle"]):
+                random.shuffle(version_text)
+
+            version_prompts[exp_name][i] = (version_name, version_text)
+            i += 1
 
     # Run the experiment
     model_names = model_config.get("name")
@@ -140,8 +153,20 @@ def main(args):
                 model_config=cur_model_config,
                 parse_model_config=parse_model_config,
                 prompts=prompts,
-                version_prompts=version_prompts,
+                version_prompts=version_prompts
             )
+
+            # Unshuffle results if necessary
+            if (experiment_config["shuffle"]):
+                for exp_name, prompt in prompts.items():
+                    for version_name, shuffled_text in version_prompts[exp_name]:
+                        indices = [index for index, text in shuffled_text]
+                        for i in range(len(results)):
+                            parsed_responses = results[i]["parsed_response"]
+                            parsed_responses_unshuffled = {index: parsed_responses[key] for index, key in zip(indices, parsed_responses.keys())}
+                            parsed_responses_unshuffled_keys = sorted(parsed_responses_unshuffled.keys())
+                            parsed_responses_unshuffled = {str(key): parsed_responses_unshuffled[key] for key in parsed_responses_unshuffled_keys}
+                            results[i]["parsed_response"] = parsed_responses_unshuffled
 
             # Process and save results
             process_and_save_results(results, cur_output_path)

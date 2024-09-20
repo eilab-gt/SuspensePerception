@@ -1,6 +1,7 @@
 experiment:
   experiment_series: "bentz"
   output_dir: "./outputs/bentz_experiment/standard/creative/"
+  shuffle: false
 model:
   api_type: "together"
   name: [

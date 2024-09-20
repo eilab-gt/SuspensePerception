@@ -20,3 +20,4 @@
   experiment:
     experiment_series: "brewer"
     output_dir: "./outputs/brewer_experiment"
+    shuffle: false
