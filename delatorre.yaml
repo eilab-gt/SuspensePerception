@@ -2,6 +2,7 @@ experiment:
   experiment_series: "delatorre"
   output_dir: "./outputs/delatorre_experiment/standard/deterministic/"
   shuffle: false
+  keep_context: true
 model:
   api_type: "together"
   name: [

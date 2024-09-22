@@ -125,6 +125,7 @@ def run_experiment(
     parse_model_config: dict[str, typing.Any],
     prompts: dict[str, str],
     version_prompts: dict[str, str | list[str]],
+    keep_context: bool = True
 ) -> list[dict[str, str]]:
     # TODO: move to utils.py
     """
@@ -137,6 +138,7 @@ def run_experiment(
                             Mandatory parameters are `api_type`, `name`, `max_tokens`, `temperature`
         prompts: system LLM messages for message formatting
         version_prompts: experiment LLM messages
+        keep_context: if true, maintain the previous context after each new message
     Return:
         Experiment results. Each result is a dictionary with keys `experiment_name`, `version`, `raw_response`, `parsed_response`
     """
@@ -200,6 +202,11 @@ def run_experiment(
                                 {"role": "assistant", "content": raw_response}
                             )
                             parsed_responses.extend(parsed_response.values())
+
+                            if not keep_context:
+                                messages = [
+                                    {"role": "system", "content": prompt},
+                                ]
 
                             if TQDM_ACTIVE:
                                 inner_pbar.update(1)

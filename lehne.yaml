@@ -1,7 +1,8 @@
 experiment:
   experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment/shuffle/general/"
+  output_dir: "./outputs/lehne_experiment/nocontext/general/"
   shuffle: true
+  keep_context: false
 model:
   api_type: "together"
   name: [

@@ -153,7 +153,8 @@ def main(args):
                 model_config=cur_model_config,
                 parse_model_config=parse_model_config,
                 prompts=prompts,
-                version_prompts=version_prompts
+                version_prompts=version_prompts,
+                keep_context=experiment_config["keep_context"]
             )
 
             # Unshuffle results if necessary
