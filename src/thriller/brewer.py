@@ -161,7 +161,6 @@ def generate_experiment_texts(settings_config: dict[str, str]):
         Experiment prompts and version prompts
     """
     experiment_A_prompt_chunks = common_prompt_template_in_between
-    experiment_A_prompt_full = common_prompt_template_final
 
     prompts = {
         "Experiment A Chunks": experiment_A_prompt_chunks,

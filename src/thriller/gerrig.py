@@ -3,7 +3,8 @@ Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as prob
 """
 
 from src.thriller.misc import apply_substitutions
-
+from src.thriller.adversarial_augmentation_gerrig import process_and_augment_stories
+adversarial = True
 # Define substitution dictionaries
 default_substitutions = {
     "author_firstname": "Ian",
@@ -225,5 +226,28 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
             ),
         ],
     }
-
+    if adversarial:
+        texts = {
+    "Experiment A": [
+        ("Pen Not Mentioned", process_and_augment_stories([experiment_A_pen_not_mentioned])),
+        ("Pen Mentioned Removed", process_and_augment_stories([experiment_A_pen_mentioned_removed])),
+        ("Pen Mentioned Not Removed", process_and_augment_stories([experiment_A_pen_mentioned_not_removed])),
+    ],
+    "Experiment B": [
+        ("Unused Comb", process_and_augment_stories([experiment_B_unused_comb])),
+        ("Used Comb", process_and_augment_stories([experiment_B_used_comb])),
+    ],
+    "Experiment C": [
+        ("Prior Solution Not Mentioned", process_and_augment_stories([experiment_C_prior_solution_not_mentioned])),
+        (
+            "Prior Solution Mentioned and Removed",
+            process_and_augment_stories([experiment_C_prior_solution_mentioned_and_removed]),
+        ),
+        (
+            "Prior Solution Mentioned Not Removed",
+            process_and_augment_stories([experiment_C_prior_solution_mentioned_not_removed]),
+        ),
+    ],
+}
+    print(texts)
     return prompts, texts

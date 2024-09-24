@@ -161,7 +161,7 @@ def run_experiment(
                         parsed_responses = []
 
                         for i, paragraph in enumerate(version_text):
-                            messages.append({"role": "user", "content": prompt + paragraph})
+                            messages.append({"role": "user", "content": prompt + str(paragraph)})
 
                             raw_response = ""
 
