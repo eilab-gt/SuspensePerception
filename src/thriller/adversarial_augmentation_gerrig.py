@@ -15,6 +15,8 @@ import logging
 from typing import List, Dict, Any, Union
 import torch
 import textattack
+import nltk
+nltk.download('averaged_perceptron_tagger')
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
@@ -44,14 +46,13 @@ def apply_synonym_replacement(text: str, params: dict) -> str:
         aug_p=params.get('aug_p', 0.3),
         aug_min=params.get('aug_min', 1),
         aug_max=params.get('aug_max', 10),
-        stopwords=params.get('stopwords', None),
-        target_words=params.get('target_words', None)
+        stopwords=params.get('stopwords', None)
     )
     augmented_text = aug.augment(text)
-    if augmented_text is None:
-        logger.warning("Synonym replacement returned None, using original text.")
-        return text
-    return augmented_text
+    if augmented_text:
+        return augmented_text[0]  # Return the first augmented text
+    logger.warning("Synonym replacement returned None, using original text.")
+    return text
 
 def apply_antonym_replacement(text: str, params: dict) -> str:
     aug = naw.AntonymAug(
@@ -60,10 +61,10 @@ def apply_antonym_replacement(text: str, params: dict) -> str:
         aug_max=params.get('aug_max', 10)
     )
     augmented_text = aug.augment(text)
-    if augmented_text is None:
-        logger.warning("Antonym replacement returned None, using original text.")
-        return text
-    return augmented_text
+    if augmented_text:
+        return augmented_text[0]  # Return the first augmented text
+    logger.warning("Antonym replacement returned None, using original text.")
+    return text
 
 def apply_introduce_typos(text: str, params: dict) -> str:
     typo_aug = nac.KeyboardAug(
@@ -72,14 +73,15 @@ def apply_introduce_typos(text: str, params: dict) -> str:
         include_special_char=params.get('include_special_char', False),
         aug_char_min=params.get('aug_char_min', 1),
         aug_char_max=params.get('aug_char_max', 10),
-        stopwords=params.get('stopwords', None),
-        case=params.get('case', 'lower')
+        stopwords=params.get('stopwords', None)
+        # Removed the 'case' parameter
     )
     augmented_text = typo_aug.augment(text)
-    if augmented_text is None:
-        logger.warning("Introduce typos returned None, using original text.")
-        return text
-    return augmented_text
+    if augmented_text:
+        return augmented_text[0]  # Return the first augmented text
+    logger.warning("Introduce typos returned None, using original text.")
+    return text
+
 
 def apply_change_character_names(text: str, params: dict) -> str:
     name_list = params.get('name_list', ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan'])
@@ -115,38 +117,19 @@ def apply_word_swap_embedding(text: str, params: dict) -> str:
     attacked_text = AttackedText(text)
     transformed_texts = transformation(attacked_text)
     if transformed_texts:
-        return transformed_texts[0].text
-    else:
-        logger.warning("Word swap embedding returned no transformations, using original text.")
-        return text
+        return transformed_texts[0].text  # Get the first transformed text
+    logger.warning("Word swap embedding returned no transformations, using original text.")
+    return text
 
 def apply_word_swap_homoglyph(text: str, params: dict) -> str:
-    transformation = WordSwapHomoglyphSwap(
-        skip_first_char=params.get('skip_first_char', False),
-        skip_last_char=params.get('skip_last_char', False),
-        max_swaps=params.get('max_swaps', None)
-    )
+    # Initialize without unsupported parameters
+    transformation = WordSwapHomoglyphSwap()  # No parameters here
     attacked_text = AttackedText(text)
     transformed_texts = transformation(attacked_text)
     if transformed_texts:
-        return transformed_texts[0].text
-    else:
-        logger.warning("Word swap homoglyph returned no transformations, using original text.")
-        return text
-
-def apply_character_substitute(text: str, params: dict) -> str:
-    transformation = CharacterSubstitute(
-        random_one=params.get('random_one', True),
-        skip_first_char=params.get('skip_first_char', False),
-        skip_last_char=params.get('skip_last_char', False)
-    )
-    attacked_text = AttackedText(text)
-    transformed_texts = transformation(attacked_text)
-    if transformed_texts:
-        return transformed_texts[0].text
-    else:
-        logger.warning("Character substitute returned no transformations, using original text.")
-        return text
+        return transformed_texts[0].text  # Get the first transformed text
+    logger.warning("Word swap homoglyph returned no transformations, using original text.")
+    return text
 
 def apply_sentence_paraphrase(text: str, params: dict) -> str:
     transformation = BackTranslation(
@@ -156,10 +139,9 @@ def apply_sentence_paraphrase(text: str, params: dict) -> str:
     attacked_text = AttackedText(text)
     transformed_texts = transformation(attacked_text)
     if transformed_texts:
-        return transformed_texts[0].text
-    else:
-        logger.warning("Sentence paraphrase returned no transformations, using original text.")
-        return text
+        return transformed_texts[0].text  # Get the first transformed text
+    logger.warning("Sentence paraphrase returned no transformations, using original text.")
+    return text
 
 # Mapping of augmentation names to functions
 augmentation_functions = {
@@ -171,9 +153,7 @@ augmentation_functions = {
     'context_removal': apply_context_removal,
     'word_swap_embedding': apply_word_swap_embedding,
     'word_swap_homoglyph': apply_word_swap_homoglyph,
-    'character_substitute': apply_character_substitute,
     'sentence_paraphrase': apply_sentence_paraphrase,
-    # Add other augmentations as needed
 }
 
 # Normalize input data to ensure consistent structure
@@ -196,26 +176,32 @@ def augment_texts(
     config: Dict[str, Any]
 ) -> List[List[str]]:
     augmented_stories = []
-
     for story in stories:
-        augmented_story = []
-        for passage in story:
+        i =0
+        # Assuming there's only one passage per story
+        if story:  # Check if the story is not empty
+            passage = story[0]  # Get the first passage
             augmented_passage = passage
-            try:
                 # Apply augmentations in the specified order
-                for augmentation in config.get('augmentation_order', []):
+            for augmentation in config.get('augmentation_order', []):
+                try:
+                    print(i)
+                    i+=1
                     aug_params = config.get(augmentation, {})
                     if aug_params.get('enabled', False):
-                        augmentation_function = augmentation_functions.get(augmentation)
-                        if augmentation_function:
-                            augmented_passage = augmentation_function(augmented_passage, aug_params)
+                        logger.info(f"Applying {augmentation}: {aug_params}")
+                        if augmentation in augmentation_functions:
+                            augmented_passage = augmentation_functions[augmentation](augmented_passage, aug_params)
                         else:
                             logger.error(f"Augmentation function for '{augmentation}' not found.")
-            except Exception as e:
-                logger.error(f"Error augmenting passage: {e}")
-                # Optionally, continue with the original passage or handle the error
-            augmented_story.append(augmented_passage)
-        augmented_stories.append(augmented_story)
+                except Exception as e:
+                    logger.error(f"Error augmenting passage: {e}")
+            # Add the augmented passage to the augmented stories
+            augmented_stories.append([augmented_passage])  # Wrap it in a list
+        else:
+            logger.warning("Empty story encountered; skipping.")
+            augmented_stories.append([passage])  # Append original passage if story is empty
+
     return augmented_stories
 
 def process_and_augment_stories(stories):
@@ -226,71 +212,59 @@ def process_and_augment_stories(stories):
     augmentation_config = {
         'synonym_replacement': {
             'enabled': True,
-            'aug_p': 0.2,
+            'aug_p': 0.7,
             'aug_src': 'wordnet',
-            'aug_min': 1,
-            'aug_max': 5,
+            'aug_min': 5,
+            'aug_max': 30,
             'stopwords': None,
-            'target_words': None
+            'target_words': [
+                'room', 'doorway', 'finger', 'summons', 'passage', 'house', 'kick', 'man', 'pain', 
+                'gunmen', 'words', 'lightning', 'wall', 'foot', 'hand', 'shoe', 'ground', 
+                'damage', 'heart', 'eyes', 'deep', 'black', 'run', 'blood', 'cold', 'dark', 'scar'
+            ],
+        },
+        'shuffle_sentences': {
+            'enabled': True,
+            'shuffle_n_times': 100
         },
         'introduce_typos': {
             'enabled': True,
-            'aug_char_p': 0.05,
-            'aug_word_p': 0.2,
-            'include_special_char': False,
-            'aug_char_min': 1,
-            'aug_char_max': 10,
-            'stopwords': None,
-            'case': 'lower'
+            'aug_char_p': 0.8,
+            'aug_word_p': 0.8,
+        },
+        'word_swap_embedding': {
+            'enabled': True,
+            'max_candidates': 5
         },
         'change_character_names': {
             'enabled': True,
             'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
         },
-        'shuffle_sentences': {
-            'enabled': False,
-            'shuffle_n_times': 1
-        },
         'context_removal': {
-            'enabled': False,
+            'enabled': True,
             'sentiment_threshold': 0.5
-        },
-        'antonym_replacement': {
-            'enabled': False,
-            'aug_p': 0.1,
-            'aug_min': 1,
-            'aug_max': 10
-        },
-        'word_swap_embedding': {
-            'enabled': False,
-            'max_candidates': 5
         },
         'word_swap_homoglyph': {
             'enabled': True,
-            'skip_first_char': False,
-            'skip_last_char': False,
-            'max_swaps': None
-        },
-        'character_substitute': {
-            'enabled': True,
-            'random_one': True,
-            'skip_first_char': False,
-            'skip_last_char': False
+            'max_swaps': 100
         },
         'sentence_paraphrase': {
-            'enabled': False,
+            'enabled': True,
             'src_lang': 'en',
             'mid_lang': 'fr'
         },
         'augmentation_order': [
-            'change_character_names',
+            'sentence_paraphrase'
+            'shuffle_sentences',
             'synonym_replacement',
-            'word_swap_homoglyph',
             'introduce_typos',
-            'character_substitute'
+            'word_swap_embedding',
+            'context_removal',
+            'change_character_names',
+            'word_swap_homoglyph',
         ]
     }
 
-    # Augment the stories
     augmented_stories = augment_texts(normalized_stories, augmentation_config)
     return augmented_stories
+

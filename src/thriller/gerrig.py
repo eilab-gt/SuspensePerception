@@ -248,6 +248,6 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
             process_and_augment_stories([experiment_C_prior_solution_mentioned_not_removed]),
         ),
     ],
-}
-    print(texts)
+        }
+        print(texts)
     return prompts, texts
