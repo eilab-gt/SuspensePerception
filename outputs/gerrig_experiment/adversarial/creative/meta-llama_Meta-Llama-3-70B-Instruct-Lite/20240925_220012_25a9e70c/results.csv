@@ -1,9 +1,0 @@
-experiment_name,version,response
-Experiment A,Pen Not Mentioned,{}
-Experiment A,Pen Mentioned Removed,{}
-Experiment A,Pen Mentioned Not Removed,{}
-Experiment B,Unused Comb,{}
-Experiment B,Used Comb,{}
-Experiment C,Prior Solution Not Mentioned,{}
-Experiment C,Prior Solution Mentioned and Removed,{}
-Experiment C,Prior Solution Mentioned Not Removed,{}

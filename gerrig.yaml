@@ -1,7 +1,7 @@
 experiment:
   experiment_series: "gerrig"
   use_alternative: false
-  output_dir: "./outputs/gerrig_experiment/standard/general/"
+  output_dir: "./outputs/gerrig_experiment/adversarial/creative/"
 model:
   api_type: "together"
   name: [
@@ -24,7 +24,7 @@ model:
     # "Qwen/Qwen2-72B-Instruct",
   ]
   max_tokens: 250
-  temperature: 0.5
+  temperature: 1.0
   top_p: 0.9
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]

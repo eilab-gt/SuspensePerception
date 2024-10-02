@@ -255,7 +255,6 @@ def process_and_augment_stories(stories):
         },
         'augmentation_order': [
             'sentence_paraphrase'
-            'shuffle_sentences',
             'synonym_replacement',
             'introduce_typos',
             'word_swap_embedding',
