@@ -36,8 +36,8 @@ def set_random_seed(seed: int):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed)
     textattack.shared.utils.set_seed(seed)
-
 set_random_seed(42)
+
 
 # Augmentation functions mapping
 def apply_synonym_replacement(text: str, params: dict) -> str:
@@ -54,6 +54,7 @@ def apply_synonym_replacement(text: str, params: dict) -> str:
     logger.warning("Synonym replacement returned None, using original text.")
     return text
 
+
 def apply_antonym_replacement(text: str, params: dict) -> str:
     aug = naw.AntonymAug(
         aug_p=params.get('aug_p', 0.1),
@@ -65,6 +66,7 @@ def apply_antonym_replacement(text: str, params: dict) -> str:
         return augmented_text[0]  # Return the first augmented text
     logger.warning("Antonym replacement returned None, using original text.")
     return text
+
 
 def apply_introduce_typos(text: str, params: dict) -> str:
     typo_aug = nac.KeyboardAug(
@@ -92,6 +94,7 @@ def apply_change_character_names(text: str, params: dict) -> str:
         text = text.replace(original_name, new_name)
     return text
 
+
 def apply_shuffle_sentences(text: str, params: dict) -> str:
     shuffle_n_times = params.get('shuffle_n_times', 1)
     doc = nlp(text)
@@ -99,6 +102,7 @@ def apply_shuffle_sentences(text: str, params: dict) -> str:
     for _ in range(shuffle_n_times):
         random.shuffle(sentences)
     return ' '.join(sentences)
+
 
 def apply_context_removal(text: str, params: dict) -> str:
     threshold = params.get('sentiment_threshold', 0.5)
@@ -109,6 +113,7 @@ def apply_context_removal(text: str, params: dict) -> str:
         if abs(sentiment['compound']) < threshold:
             new_sentences.append(sent.text)
     return ' '.join(new_sentences)
+
 
 def apply_word_swap_embedding(text: str, params: dict) -> str:
     transformation = WordSwapEmbedding(
@@ -121,6 +126,7 @@ def apply_word_swap_embedding(text: str, params: dict) -> str:
     logger.warning("Word swap embedding returned no transformations, using original text.")
     return text
 
+
 def apply_word_swap_homoglyph(text: str, params: dict) -> str:
     # Initialize without unsupported parameters
     transformation = WordSwapHomoglyphSwap()  # No parameters here
@@ -130,6 +136,7 @@ def apply_word_swap_homoglyph(text: str, params: dict) -> str:
         return transformed_texts[0].text  # Get the first transformed text
     logger.warning("Word swap homoglyph returned no transformations, using original text.")
     return text
+
 
 def apply_sentence_paraphrase(text: str, params: dict) -> str:
     transformation = BackTranslation(
@@ -143,6 +150,20 @@ def apply_sentence_paraphrase(text: str, params: dict) -> str:
     logger.warning("Sentence paraphrase returned no transformations, using original text.")
     return text
 
+
+def distraction_insertion(text: str, params: dict) -> str:
+    """
+    Insert distraction sentences into the text that simultaneously
+    introduces and removes a topic/solution from the text.
+    """
+    distraction = params.get(distraction, '')
+    sentences = text.split('.')
+    midpoint = len(sentences) // 2
+    sentences.insert(distraction, midpoint)
+    text = ". ".join(sentences)
+    return text
+
+
 # Mapping of augmentation names to functions
 augmentation_functions = {
     'synonym_replacement': apply_synonym_replacement,
@@ -154,7 +175,9 @@ augmentation_functions = {
     'word_swap_embedding': apply_word_swap_embedding,
     'word_swap_homoglyph': apply_word_swap_homoglyph,
     'sentence_paraphrase': apply_sentence_paraphrase,
+    'distraction_insertion': distraction_insertion,
 }
+
 
 # Normalize input data to ensure consistent structure
 def normalize_stories(data: Union[List[Any], str]) -> List[List[str]]:
@@ -169,6 +192,7 @@ def normalize_stories(data: Union[List[Any], str]) -> List[List[str]]:
         return [[data]]
     else:
         raise ValueError("Unsupported data format")
+
 
 # Main augmentation function
 def augment_texts(
@@ -203,6 +227,7 @@ def augment_texts(
             augmented_stories.append([passage])  # Append original passage if story is empty
 
     return augmented_stories
+
 
 def process_and_augment_stories(stories):
     # Normalize the stories using a hypothetical normalize function
@@ -253,9 +278,14 @@ def process_and_augment_stories(stories):
             'src_lang': 'en',
             'mid_lang': 'fr'
         },
+        'distraction_insertion': {
+            'enabled': True,
+            'distraction': 'He pulled out a gun. It turned out to be a toy gun.',
+        },
         'augmentation_order': [
             'sentence_paraphrase'
             'synonym_replacement',
+            'distraction_insertion',
             'introduce_typos',
             'word_swap_embedding',
             'context_removal',
@@ -266,4 +296,3 @@ def process_and_augment_stories(stories):
 
     augmented_stories = augment_texts(normalized_stories, augmentation_config)
     return augmented_stories
-
