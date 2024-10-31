@@ -1,5 +1,6 @@
 import random
 import numpy as np
+import string
 import spacy
 import nlpaug.augmenter.word as naw
 import nlpaug.augmenter.char as nac
@@ -162,6 +163,21 @@ def distraction_insertion(text: str, params: dict) -> str:
     sentences.insert(distraction, midpoint)
     text = ". ".join(sentences)
     return text
+
+
+def apply_caesar(text: str, step: int, alphabets: tuple = (string.ascii_lowercase, string.ascii_uppercase, string.digits)) -> str:
+    """
+    Caesar cipher the text
+    """
+
+    def shift(alphabet):
+        return alphabet[step:] + alphabet[:step]
+    
+    shifted_alphabets = tuple(map(shift, alphabets))
+    joined_aphabets = ''.join(alphabets)
+    joined_shifted_alphabets = ''.join(shifted_alphabets)
+    table = str.maketrans(joined_aphabets, joined_shifted_alphabets)
+    return text.translate(table)
 
 
 # Mapping of augmentation names to functions
