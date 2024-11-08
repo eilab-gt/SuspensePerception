@@ -1,7 +1,7 @@
 experiment:
   experiment_series: "gerrig"
   use_alternative: false
-  output_dir: "./outputs/gerrig_experiment/adversarial/creative/"
+  output_dir: "./outputs/gerrig_experiment/adversarial/synonim_swap"
 model:
   api_type: "together"
   name: [

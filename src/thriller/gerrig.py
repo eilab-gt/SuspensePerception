@@ -5,6 +5,7 @@ Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as prob
 from src.thriller.misc import apply_substitutions
 from src.thriller.adversarial_augmentation_gerrig import process_and_augment_stories
 adversarial = True
+reduction = False
 # Define substitution dictionaries
 default_substitutions = {
     "author_firstname": "Ian",
@@ -228,26 +229,60 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     }
     if adversarial:
         texts = {
-    "Experiment A": [
-        ("Pen Not Mentioned", process_and_augment_stories([experiment_A_pen_not_mentioned])),
-        ("Pen Mentioned Removed", process_and_augment_stories([experiment_A_pen_mentioned_removed])),
-        ("Pen Mentioned Not Removed", process_and_augment_stories([experiment_A_pen_mentioned_not_removed])),
-    ],
-    "Experiment B": [
-        ("Unused Comb", process_and_augment_stories([experiment_B_unused_comb])),
-        ("Used Comb", process_and_augment_stories([experiment_B_used_comb])),
-    ],
-    "Experiment C": [
-        ("Prior Solution Not Mentioned", process_and_augment_stories([experiment_C_prior_solution_not_mentioned])),
-        (
-            "Prior Solution Mentioned and Removed",
-            process_and_augment_stories([experiment_C_prior_solution_mentioned_and_removed]),
-        ),
-        (
-            "Prior Solution Mentioned Not Removed",
-            process_and_augment_stories([experiment_C_prior_solution_mentioned_not_removed]),
-        ),
-    ],
-        }
+            "Experiment A": [
+                ("Pen Not Mentioned", process_and_augment_stories([experiment_A_pen_not_mentioned])),
+                ("Pen Mentioned Removed", process_and_augment_stories([experiment_A_pen_mentioned_removed])),
+                ("Pen Mentioned Not Removed", process_and_augment_stories([experiment_A_pen_mentioned_not_removed])),
+            ],
+            "Experiment B": [
+                ("Unused Comb", process_and_augment_stories([experiment_B_unused_comb])),
+                ("Used Comb", process_and_augment_stories([experiment_B_used_comb])),
+            ],
+            "Experiment C": [
+                ("Prior Solution Not Mentioned", process_and_augment_stories([experiment_C_prior_solution_not_mentioned])),
+                (
+                    "Prior Solution Mentioned and Removed",
+                    process_and_augment_stories([experiment_C_prior_solution_mentioned_and_removed]),
+                ),
+                (
+                    "Prior Solution Mentioned Not Removed",
+                    process_and_augment_stories([experiment_C_prior_solution_mentioned_not_removed]),
+                ),
+            ],
+                }
         print(texts)
+    if reduction:
+        print("HERE")
+        experiment_A_pen_not_mentioned = """Man was standing in the doorway and pointed a finger at spy. Girl was walking in a passage. Spy did a backward kick and hit man. Another man put the spy to the ground and the other man asked them to search the spy. The men took the spy's revolver and one of them came closer and told the spy to not waste time"""
+        experiment_A_pen_mentioned_removed = """Man was standing in the doorway and pointed a finger at spy. Girl was walking in a passage. Spy did a backward kick and hit man while trying to hid his fountain pen deeper in his pocket. Another man put the spy to the ground and the other man asked them to search the spy. The men took the spy's revolver and fountain pen and one of them came closer and told the spy to not waste time"""
+        experiment_A_pen_mentioned_not_removed = """Man was standing in the doorway and pointed a finger at spy. Girl was walking in a passage. Spy did a backward kick and hit man while trying to hid his fountain pen deeper in his pocket. Another man put the spy to the ground and the other man asked them to search the spy. The men took the spy's revolver and one of them came closer and told the spy to not waste time"""
+        experiment_B_unused_comb = """After defeating the man, the spy invited the girl to dine. While he was looking in the mirror to polish himself some men entered the room. The spy hit on of the in the somach but the other one put him down. The man searched him and took away his revolver but let his comb."""
+        experiment_B_used_comb = """After defeating the man, the spy invited the gril to dine. While he was looking in the mirror to polish himself some men entered the room. The spy hit on of the in the somach but the other one put him down. The man searched him and took away his revolver. They also found his comb and toseed it asside too with a smile"""
+        experiment_C_prior_solution_not_mentioned = """The man smiled and told the spy they should meet in diffrent ways than him  pointing a gun. Then a large bird broke the window so the spy tuged the rug under the man. The man fell and fired his gun into the room. The spy was cornerd by another man and got trapped."""
+        experiment_C_prior_solution_mentioned_and_removed = """The man smiled and told the spy they should meet in diffrent ways than him  pointing a gun. The spy smiled and moved his hands closer to his secret weapon. Then a large bird broke the window so the spy tuged the rug under the man. The man fell and fired his gun into the room. The spy was cornerd by another man and got trapped while also having his sectret weapon taken."""
+        experiment_C_prior_solution_mentioned_not_removed = """The man smiled and told the spy they should meet in diffrent ways than him  pointing a gun. The spy smiled and moved his hands closer to his secret weapon. Then a large bird broke the window so the spy tuged the rug under the man. The man fell and fired his gun into the room. The spy was cornerd by another man and got trapped."""
+
+        texts = {
+        "Experiment A": [
+            ("Pen Not Mentioned", [experiment_A_pen_not_mentioned]),
+            ("Pen Mentioned Removed", [experiment_A_pen_mentioned_removed]),
+            ("Pen Mentioned Not Removed", [experiment_A_pen_mentioned_not_removed]),
+        ],
+        "Experiment B": [
+            ("Unused Comb", [experiment_B_unused_comb]),
+            ("Used Comb", [experiment_B_used_comb]),
+        ],
+        "Experiment C": [
+            ("Prior Solution Not Mentioned", [experiment_C_prior_solution_not_mentioned]),
+            (
+                "Prior Solution Mentioned and Removed",
+                [experiment_C_prior_solution_mentioned_and_removed],
+            ),
+            (
+                "Prior Solution Mentioned Not Removed",
+                [experiment_C_prior_solution_mentioned_not_removed],
+            ),
+        ],
+    }
+
     return prompts, texts

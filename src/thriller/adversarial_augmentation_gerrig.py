@@ -14,9 +14,11 @@ from textattack.shared.attacked_text import AttackedText
 import logging
 from typing import List, Dict, Any, Union
 import torch
+import difflib
 import textattack
 import nltk
-nltk.download('averaged_perceptron_tagger')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download("punkt_tab")
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
@@ -39,8 +41,8 @@ def set_random_seed(seed: int):
 
 set_random_seed(42)
 
-# Augmentation functions mapping
-def apply_synonym_replacement(text: str, params: dict) -> str:
+
+def apply_synonym_replacement(text: str, params: dict) -> tuple:
     aug = naw.SynonymAug(
         aug_src=params.get('aug_src', 'wordnet'),
         aug_p=params.get('aug_p', 0.3),
@@ -48,11 +50,25 @@ def apply_synonym_replacement(text: str, params: dict) -> str:
         aug_max=params.get('aug_max', 10),
         stopwords=params.get('stopwords', None)
     )
+    
     augmented_text = aug.augment(text)
-    if augmented_text:
-        return augmented_text[0]  # Return the first augmented text
-    logger.warning("Synonym replacement returned None, using original text.")
-    return text
+    if not augmented_text:
+        logger.warning("Synonym replacement returned None, using original text.")
+        return text, []
+    augmented_text = augmented_text[0]
+    original_words = text.split()
+    augmented_words = augmented_text.split()
+    diffs = []
+
+    for i, s in enumerate(difflib.ndiff(original_words, augmented_words)):
+        if s[0] == ' ':
+            continue
+        elif s[0] == '-':
+            diffs.append(f"Original: {s[2:]}")
+        elif s[0] == '+':
+            diffs.append(f"Changed to: {s[2:]}")
+    print(diffs)
+    return augmented_text
 
 def apply_antonym_replacement(text: str, params: dict) -> str:
     aug = naw.AntonymAug(
@@ -143,6 +159,22 @@ def apply_sentence_paraphrase(text: str, params: dict) -> str:
     logger.warning("Sentence paraphrase returned no transformations, using original text.")
     return text
 
+def swap_words_in_sentences(text: str, params: dict)  -> str:
+    sentences = nltk.sent_tokenize(text)
+    swapped_sentences = []
+    num_swaps = params.get('num_swaps', 2)
+    
+    for sentence in sentences:
+        words = sentence.split()
+        for _ in range(num_swaps):
+            if len(words) > 1:
+                idx1, idx2 = random.sample(range(len(words)), 2)
+                words[idx1], words[idx2] = words[idx2], words[idx1]
+        swapped_sentence = " ".join(words)
+        swapped_sentences.append(swapped_sentence)
+    swapped_paragraph = " ".join(swapped_sentences)
+    return swapped_paragraph
+
 # Mapping of augmentation names to functions
 augmentation_functions = {
     'synonym_replacement': apply_synonym_replacement,
@@ -154,6 +186,7 @@ augmentation_functions = {
     'word_swap_embedding': apply_word_swap_embedding,
     'word_swap_homoglyph': apply_word_swap_homoglyph,
     'sentence_paraphrase': apply_sentence_paraphrase,
+    'swap_words' : swap_words_in_sentences,
 }
 
 # Normalize input data to ensure consistent structure
@@ -172,7 +205,7 @@ def normalize_stories(data: Union[List[Any], str]) -> List[List[str]]:
 
 # Main augmentation function
 def augment_texts(
-    stories: List[List[str]],
+    stories: List[str],
     config: Dict[str, Any]
 ) -> List[List[str]]:
     augmented_stories = []
@@ -185,8 +218,8 @@ def augment_texts(
                 # Apply augmentations in the specified order
             for augmentation in config.get('augmentation_order', []):
                 try:
-                    print(i)
                     i+=1
+                    print(augmentation)
                     aug_params = config.get(augmentation, {})
                     if aug_params.get('enabled', False):
                         logger.info(f"Applying {augmentation}: {aug_params}")
@@ -212,55 +245,56 @@ def process_and_augment_stories(stories):
     augmentation_config = {
         'synonym_replacement': {
             'enabled': True,
-            'aug_p': 0.7,
+            'aug_p': 0.8,
             'aug_src': 'wordnet',
-            'aug_min': 5,
-            'aug_max': 30,
+            'model_path':'bert-base-uncased',
+            'aug_min': 20,
+            'aug_max': 50,
             'stopwords': None,
-            'target_words': [
-                'room', 'doorway', 'finger', 'summons', 'passage', 'house', 'kick', 'man', 'pain', 
-                'gunmen', 'words', 'lightning', 'wall', 'foot', 'hand', 'shoe', 'ground', 
-                'damage', 'heart', 'eyes', 'deep', 'black', 'run', 'blood', 'cold', 'dark', 'scar'
-            ],
         },
-        'shuffle_sentences': {
-            'enabled': True,
-            'shuffle_n_times': 100
-        },
-        'introduce_typos': {
-            'enabled': True,
-            'aug_char_p': 0.8,
-            'aug_word_p': 0.8,
-        },
-        'word_swap_embedding': {
-            'enabled': True,
-            'max_candidates': 5
-        },
-        'change_character_names': {
-            'enabled': True,
-            'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
-        },
-        'context_removal': {
-            'enabled': True,
-            'sentiment_threshold': 0.5
-        },
-        'word_swap_homoglyph': {
-            'enabled': True,
-            'max_swaps': 100
-        },
-        'sentence_paraphrase': {
-            'enabled': True,
-            'src_lang': 'en',
-            'mid_lang': 'fr'
-        },
+        # 'swap_words' : {
+        #     'enabled' : True,
+        #     'num_swaps' : 30
+        # },
+        # 'shuffle_sentences': {
+        #     'enabled': True,
+        #     'shuffle_n_times': 100
+        # },
+        # 'introduce_typos': {
+        #     'enabled': True,
+        #     'aug_char_p': 0.8,
+        #     'aug_word_p': 0.8,
+        # },
+        # 'word_swap_embedding': {
+        #     'enabled': True,
+        #     'max_candidates': 5
+        # },
+        # 'change_character_names': {
+        #     'enabled': True,
+        #     'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
+        # },
+        # 'context_removal': {
+        #     'enabled': True,
+        #     'sentiment_threshold': 0.5
+        # },
+        # 'word_swap_homoglyph': {
+        #     'enabled': True,
+        #     'max_swaps': 100
+        # },
+        # 'sentence_paraphrase': {
+        #     'enabled': True,
+        #     'src_lang': 'en',
+        #     'mid_lang': 'fr'
+        # },
         'augmentation_order': [
-            'sentence_paraphrase'
+            #'swap_words',
+            # 'sentence_paraphrase',
             'synonym_replacement',
-            'introduce_typos',
-            'word_swap_embedding',
-            'context_removal',
-            'change_character_names',
-            'word_swap_homoglyph',
+            # 'introduce_typos',
+            # 'word_swap_embedding',
+            # 'context_removal',
+            # 'change_character_names',
+            # 'word_swap_homoglyph',
         ]
     }
 
