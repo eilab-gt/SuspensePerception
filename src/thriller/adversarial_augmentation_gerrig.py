@@ -296,17 +296,17 @@ def process_and_augment_stories(stories):
         },
         'distraction_insertion': {
             'enabled': True,
-            'distraction': 'He pulled out a gun. It turned out to be a toy gun.',
+            'distraction': "He looked for his hidden watch. He couldn't find it.",
         },
         'augmentation_order': [
-            'sentence_paraphrase'
-            'synonym_replacement',
+            # 'sentence_paraphrase'
+            # 'synonym_replacement',
             'distraction_insertion',
-            'introduce_typos',
-            'word_swap_embedding',
-            'context_removal',
-            'change_character_names',
-            'word_swap_homoglyph',
+            # 'introduce_typos',
+            # 'word_swap_embedding',
+            # 'context_removal',
+            # 'change_character_names',
+            # 'word_swap_homoglyph',
         ]
     }
 

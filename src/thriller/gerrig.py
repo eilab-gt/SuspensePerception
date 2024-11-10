@@ -5,8 +5,8 @@ Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as prob
 from src.thriller.misc import apply_substitutions
 from src.thriller.adversarial_augmentation_gerrig import process_and_augment_stories, apply_caesar
 
-adversarial = False
-cipher = True
+adversarial = True
+cipher = False
 caesar_step = 7
 
 # Define substitution dictionaries
