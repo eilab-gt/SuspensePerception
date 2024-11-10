@@ -1,0 +1,36 @@
+To answer the questions, I will first decipher the Caesar ciphered text.
+
+The step is 7, so I will shift each letter 7 positions backwards in the alphabet to get the original text:
+
+a becomes l
+b becomes m
+c becomes n
+d becomes o
+e becomes p
+f becomes q
+g becomes r
+h becomes s
+i becomes t
+j becomes u
+k becomes v
+l becomes w
+m becomes x
+n becomes y
+o becomes z
+p becomes a
+q becomes b
+r becomes c
+s becomes d
+t becomes e
+u becomes f
+v becomes g
+w becomes h
+x becomes i
+y becomes j
+z becomes k
+
+Now, I will decode the passage:
+
+Little Jimmy was already at the table, and the other people were coming in quietly. All you are well known to me, and I have reason to believe that you have had a good experience in the casino. You have a good reputation for being a good gambler, and I believe that you will do well here. I have a certain amount of money to invest, and I would like to make a deal with you.
+
+Unfortunately, Bond has brought about the gambling losses, and Le Ch

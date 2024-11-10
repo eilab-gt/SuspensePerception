@@ -1,0 +1,11 @@
+To answer the questions, I'll first decipher the excerpt using a Caesar cipher with a step of 7.
+
+Deciphered excerpt:
+
+"I'm sorry to disturb you. The girl and I were having a little conversation. Le Chiffre's men were very polite. They disarmed me and took away my gun. The girl is being very brave. Le Chiffre's got a nasty look in his eye, and I think he's going to hurt us. The trouble is I've got rather a bad hand. I think I'll have to take a chance. 'Card?' I said. The man didn't even look at me. He just took the cards away from me and gave them to Le Chiffre. And Le Chiffre started to shuffle them. He's got a very quick hand, and I think he's going to cheat. I'm in a rather difficult position. I think I'll have to take a chance and hope for the best. 'You're going to get hurt,' I said. 'Don't be ridiculous,' she said."
+
+Now, I'll answer the questions:
+
+***Question 1: "How likely is it that Bond will escape from Le Chiffre?"***
+
+I would answer:

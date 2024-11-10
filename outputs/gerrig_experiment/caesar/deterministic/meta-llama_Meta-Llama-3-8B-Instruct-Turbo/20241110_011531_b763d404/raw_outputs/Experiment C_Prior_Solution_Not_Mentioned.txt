@@ -1,0 +1,15 @@
+To answer the questions, we need to decipher the Caesar ciphered text.
+
+The Caesar cipher has a step of 7, which means we need to shift each letter 7 positions forward in the alphabet. Here's the deciphered text:
+
+"The man was saying, 'I'm going to ruin a very important person's reputation. He's a very rich man and I'm going to make him lose a lot of money.' He's a very clever man and he's been doing this for a long time. He's got a lot of experience and he's very good at it. He's been doing this for years and he's made a lot of money. He's a very successful man and he's got a lot of respect from his peers."
+
+Now, let's answer the questions:
+
+***Question 1: "How likely is it that Bond will escape from Blofeld?"***
+
+Based on the deciphered text, it seems that Bond and Vesper are prisoners of Blofeld and his two gunmen. Blofeld has laid a successful trap for Bond, and it's unlikely that Bond will escape easily. Therefore, I would answer:
+
+1. Not very likely
+
+***Question 2: "How suspenseful do you find this passage to be

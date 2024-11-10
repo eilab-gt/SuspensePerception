@@ -1,0 +1,13 @@
+To answer the questions, I will first decrypt the passage using a Caesar cipher with a step of 7:
+
+Decrypted passage:
+
+James Bond was about to surrender to his fate, "The game's afoot, Mr. Bond. I've got a score to settle. You're just the man I'm looking for, Mr. Bond. I'm going to make you an offer you can't refuse. You're going to have to play by my rules, or you're going to have to play by my rules. The choice is yours, Mr. Bond. You're the one who's going to make the choice, not me. I'm just the messenger. You're the one who's going to have to make the sacrifice. The choice is yours, Mr. Bond."
+
+James Bond smiled. "The choice is yours, Mr. Bond. You're the one who's going to make the choice, not me. I'm just the messenger. You're the one who's going to have to make the sacrifice. The choice is yours, Mr. Bond."
+
+Question 1: "How likely is it that Bond will escape from Blofeld?"
+
+I would answer: 1. Not very likely
+
+Bond and Vesper are now

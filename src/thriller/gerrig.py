@@ -19,7 +19,7 @@ default_substitutions = {
     "book_title_C": "tenth James Bond novel, 'On Her Majesty's Secret Service'",
     "villain_A": "Le Chiffre",
     "villain_C": "Blofeld",
-    "caesar_step": caesar_step,
+    "caesar_step": str(caesar_step),
 }
 
 alternative_substitutions = {
@@ -31,7 +31,7 @@ alternative_substitutions = {
     "book_title_C": "tenth Charles Mers novel, 'Twenty Miles to the Sea'",
     "villain_A": "Chifrex",
     "villain_C": "Kalweitz",
-    "caesar_step": caesar_step,
+    "caesar_step": str(caesar_step),
 }
 
 
@@ -287,23 +287,23 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     elif cipher:
         texts = {
             "Experiment A": [
-                ("Pen Not Mentioned", apply_caesar([experiment_A_pen_not_mentioned], caesar_step)),
-                ("Pen Mentioned Removed", apply_caesar([experiment_A_pen_mentioned_removed], caesar_step)),
-                ("Pen Mentioned Not Removed", apply_caesar([experiment_A_pen_mentioned_not_removed], caesar_step)),
+                ("Pen Not Mentioned", [apply_caesar(experiment_A_pen_not_mentioned, caesar_step)]),
+                ("Pen Mentioned Removed", [apply_caesar(experiment_A_pen_mentioned_removed, caesar_step)]),
+                ("Pen Mentioned Not Removed", [apply_caesar(experiment_A_pen_mentioned_not_removed, caesar_step)]),
             ],
             "Experiment B": [
-                ("Unused Comb", apply_caesar([experiment_B_unused_comb], caesar_step)),
-                ("Used Comb", apply_caesar([experiment_B_used_comb], caesar_step)),
+                ("Unused Comb", [apply_caesar(experiment_B_unused_comb, caesar_step)]),
+                ("Used Comb", [apply_caesar(experiment_B_used_comb, caesar_step)]),
             ],
             "Experiment C": [
-                ("Prior Solution Not Mentioned", apply_caesar([experiment_C_prior_solution_not_mentioned], caesar_step)),
+                ("Prior Solution Not Mentioned", [apply_caesar(experiment_C_prior_solution_not_mentioned, caesar_step)]),
                 (
                     "Prior Solution Mentioned and Removed",
-                    apply_caesar([experiment_C_prior_solution_mentioned_and_removed], caesar_step),
+                    [apply_caesar(experiment_C_prior_solution_mentioned_and_removed, caesar_step)],
                 ),
                 (
                     "Prior Solution Mentioned Not Removed",
-                    apply_caesar([experiment_C_prior_solution_mentioned_not_removed], caesar_step),
+                    [apply_caesar(experiment_C_prior_solution_mentioned_not_removed, caesar_step)],
                 ),
             ],
         }

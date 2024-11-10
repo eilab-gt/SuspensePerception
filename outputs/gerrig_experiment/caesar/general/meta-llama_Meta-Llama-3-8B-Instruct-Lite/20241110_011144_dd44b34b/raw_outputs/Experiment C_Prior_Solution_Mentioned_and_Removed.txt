@@ -1,0 +1,13 @@
+To answer the questions, we need to decipher the Caesar ciphered excerpt first.
+
+Deciphering the excerpt, we get:
+
+"It was a cold, grey, and rainy night. Bond had been assigned to 'ruin' a criminal figure named Blofeld by, as it happens, causing Blofeld to lose a considerable amount of money gambling. Along the way, Bond had acquired a lady interest named Vesper. Although Bond had, in fact, brought about the gambling losses, Blofeld had laid a successful trap for Bond. Bond and Vesper are now the prisoners of Blofeld and his two gunmen."
+
+Now, let's answer the questions:
+
+***Question 1: "How likely is it that Bond will escape from Blofeld?"***
+I would answer: 1. Not very likely
+
+***Question 2: "How suspenseful do you find this passage to be?"***
+I would answer: 6. Very suspenseful
