@@ -14,6 +14,7 @@ import re
 from tqdm import tqdm
 import logging
 from utils import is_roman
+import pdb
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -95,7 +96,7 @@ def parse_response(
 
     values = re.findall(r"\w+: \d+", content)
     if values:
-        return {key: int(value) for key, value in values}
+        return {key: int(value) for key, value in (item.split(': ') for item in values)}
 
     values = re.findall(r"\d+", content)
     if values:
