@@ -1,0 +1,9 @@
+experiment_name,version,response
+Experiment A,Pen Not Mentioned,{}
+Experiment A,Pen Mentioned Removed,{}
+Experiment A,Pen Mentioned Not Removed,"{'Q1': 4, 'Q2': 4}"
+Experiment B,Unused Comb,{}
+Experiment B,Used Comb,"{'Q1': 6, 'Q2': 21}"
+Experiment C,Prior Solution Not Mentioned,{}
+Experiment C,Prior Solution Mentioned and Removed,"{'Q1': 5, 'Q2': 6}"
+Experiment C,Prior Solution Mentioned Not Removed,{}

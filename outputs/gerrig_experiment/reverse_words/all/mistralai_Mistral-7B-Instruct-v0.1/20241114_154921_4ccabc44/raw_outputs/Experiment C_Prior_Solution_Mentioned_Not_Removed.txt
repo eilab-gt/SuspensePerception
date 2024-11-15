@@ -1,0 +1,11 @@
+ Answer:
+
+1. Not very likely
+2. Somewhat likely
+3. Slightly likely
+4. Neutral or Uncertain
+5. Moderately likely
+6. Very likely
+7. Extremely likely
+
+Answer: 1. Not very likely.

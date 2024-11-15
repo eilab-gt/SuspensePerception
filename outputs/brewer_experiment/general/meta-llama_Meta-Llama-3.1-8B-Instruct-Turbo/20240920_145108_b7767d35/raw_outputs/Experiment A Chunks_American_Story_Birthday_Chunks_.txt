@@ -1,0 +1,89 @@
+***Paragraph 1***
+1. 6. Very much
+2. 7. Extremely
+3. 1. No surprise
+
+***Paragraph 2***
+1. 5. Moderately
+2. 6. Very much
+3. 5. Moderately surprised
+
+***Paragraph 3***
+1. 6. Very much
+2. 7. Extremely
+3. 5. Moderately surprised
+
+***Paragraph 4***
+1. 5. Moderately
+
+####################################################################################################
+***Paragraph 1***
+1. 6. Very much
+2. 7. Extremely
+3. 1. No surprise
+
+***Paragraph 2***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 3***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 4***
+1. 4.
+####################################################################################################
+***Paragraph 1***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 2***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 3***
+1. 6. Very much
+2. 7. Extremely
+3. 7. Extremely surprised
+
+***Paragraph 4***
+1. 6.
+####################################################################################################
+***Paragraph 1***
+1. 4. Neutral or Uncertain
+2. 5. Moderately
+3. 4. Neutral or Uncertain
+
+***Paragraph 2***
+1. 5. Moderately
+2. 6. Very much
+3. 5. Moderately surprised
+
+***Paragraph 3***
+1. 4. Neutral or Uncertain
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 4
+####################################################################################################
+***Paragraph 1***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 2***
+1. 5. Moderately
+2. 6. Very much
+3. 4. Neutral or Uncertain
+
+***Paragraph 3***
+1. 5. Moderately
+2. 6. Very much
+3. 5. Moderately surprised
+
+***Paragraph 4***
+1. 

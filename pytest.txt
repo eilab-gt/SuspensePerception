@@ -1,0 +1,362 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.12, pytest-8.3.2, pluggy-1.5.0 -- /home/glenn/workspace/Thriller/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/glenn/workspace/Thriller
+plugins: requests-mock-1.12.1, anyio-4.4.0
+collecting ... collected 15 items
+
+tests/test_api.py::test_generate_response_openai PASSED                  [  6%]
+tests/test_api.py::test_generate_response_together SKIPPED (Skipping due
+to AuthenticationError)                                                  [ 13%]
+tests/test_gerrig.py::test_apply_substitutions PASSED                    [ 20%]
+tests/test_gerrig.py::test_generate_default_experiment_texts PASSED      [ 26%]
+tests/test_gerrig.py::test_generate_alternative_experiment_texts PASSED  [ 33%]
+tests/test_gerrig.py::test_version_prompts_default PASSED                [ 40%]
+tests/test_gerrig.py::test_version_prompts_alternative PASSED            [ 46%]
+tests/test_gerrig.py::test_run_experiment FAILED                         [ 53%]
+tests/test_misc.py::test_parse_response ERROR                            [ 60%]
+tests/test_misc.py::test_run_experiment FAILED                           [ 66%]
+tests/test_thriller.py::test_thriller <- ../../../../workspace/Thriller/tests/test_thriller.py FAILED [ 73%]
+tests/test_thriller.py::test_parse_arguments <- ../../../../workspace/Thriller/tests/test_thriller.py PASSED [ 80%]
+tests/test_utils.py::test_load_config PASSED                             [ 86%]
+tests/test_utils.py::test_save_raw_api_output PASSED                     [ 93%]
+tests/test_utils.py::test_process_and_save_results PASSED                [100%]
+
+==================================== ERRORS ====================================
+____________________ ERROR at setup of test_parse_response _____________________
+file /home/glenn/workspace/Thriller/tests/test_misc.py, line 18
+  def test_parse_response(response):
+E       fixture 'response' not found
+>       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, mock_openai, mock_together, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, requests_mock, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/glenn/workspace/Thriller/tests/test_misc.py:18
+=================================== FAILURES ===================================
+_____________________________ test_run_experiment ______________________________
+
+mock_save_raw_api_output = <MagicMock name='save_raw_api_output' id='140147349757792'>
+mock_generate_response = <MagicMock name='generate_response' id='140147349762208'>
+
+    @patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
+    @patch("src.thriller.misc.save_raw_api_output")
+    def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
+        model_config = {
+            "name": "gpt-3.5-turbo",
+            "max_tokens": 150,
+            "temperature": 0.0,
+            "top_p": 0.9,
+            "repetition_penalty": 1.0,
+        }
+        output_path = Path("/fake/path")
+
+        results = run_experiment(output_path, model_config, prompts, version_prompts)
+
+>       assert results == expected_results
+E       AssertionError: assert [{'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': None}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Removed', 'raw_response': 'Response: Response for Experiment A version 2', 'parsed_response': None}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment A version 3', 'parsed_response': None}, {'experiment_name': 'Experiment B', 'version': 'Unused Comb', 'raw_response': 'Response: Response for Experiment B version 1', 'parsed_response': None}, {'experiment_name': 'Experiment B', 'version': 'Used Comb', 'raw_response': 'Response: Response for Experiment B version 2', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Not Mentioned', 'raw_response': 'Response: Response for Experiment C version 1', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned and Removed', 'raw_response': 'Response: Response for Experiment C version 2', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment C version 3', 'parsed_response': None}] == [{'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': {'Response': 'Response for Experiment A version 1'}}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Removed', 'raw_response': 'Response: Response for Experiment A version 2', 'parsed_response': {'Response': 'Response for Experiment A version 2'}}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment A version 3', 'parsed_response': {'Response': 'Response for Experiment A version 3'}}, {'experiment_name': 'Experiment B', 'version': 'Unused Comb', 'raw_response': 'Response: Response for Experiment B version 1', 'parsed_response': {'Response': 'Response for Experiment B version 1'}}, {'experiment_name': 'Experiment B', 'version': 'Used Comb', 'raw_response': 'Response: Response for Experiment B version 2', 'parsed_response': {'Response': 'Response for Experiment B version 2'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Not Mentioned', 'raw_response': 'Response: Response for Experiment C version 1', 'parsed_response': {'Response': 'Response for Experiment C version 1'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned and Removed', 'raw_response': 'Response: Response for Experiment C version 2', 'parsed_response': {'Response': 'Response for Experiment C version 2'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment C version 3', 'parsed_response': {'Response': 'Response for Experiment C version 3'}}]
+E
+E         At index 0 diff: {'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': None} != {'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': {'Response': 'Response for Experiment A version 1'}}
+E
+E         Full diff:
+E           [
+E               {
+E                   'experiment_name': 'Experiment A',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment A version 1',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment A version 1',
+E                   'version': 'Pen Not Mentioned',
+E               },
+E               {
+E                   'experiment_name': 'Experiment A',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment A version 2',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment A version 2',
+E                   'version': 'Pen Mentioned Removed',
+E               },
+E               {
+E                   'experiment_name': 'Experiment A',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment A version 3',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment A version 3',
+E                   'version': 'Pen Mentioned Not Removed',
+E               },
+E               {
+E                   'experiment_name': 'Experiment B',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment B version 1',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment B version 1',
+E                   'version': 'Unused Comb',
+E               },
+E               {
+E                   'experiment_name': 'Experiment B',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment B version 2',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment B version 2',
+E                   'version': 'Used Comb',
+E               },
+E               {
+E                   'experiment_name': 'Experiment C',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment C version 1',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment C version 1',
+E                   'version': 'Prior Solution Not Mentioned',
+E               },
+E               {
+E                   'experiment_name': 'Experiment C',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment C version 2',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment C version 2',
+E                   'version': 'Prior Solution Mentioned and Removed',
+E               },
+E               {
+E                   'experiment_name': 'Experiment C',
+E         -         'parsed_response': {
+E         ?                            ^
+E         +         'parsed_response': None,
+E         ?                            ^^^^^
+E         -             'Response': 'Response for Experiment C version 3',
+E         -         },
+E                   'raw_response': 'Response: Response for Experiment C version 3',
+E                   'version': 'Prior Solution Mentioned Not Removed',
+E               },
+E           ]
+
+tests/test_gerrig.py:192: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Running experiment: Experiment A
+Running experiment: Experiment B
+Running experiment: Experiment C
+_____________________________ test_run_experiment ______________________________
+
+mock_save_raw_api_output = <MagicMock name='save_raw_api_output' id='140147349731840'>
+mock_generate_response = <MagicMock name='generate_response' id='140147350123760'>
+
+    @patch(
+        "src.thriller.misc.generate_response",
+        return_value="Response for Experiment A Version Pen Removed",
+    )
+    @patch("src.thriller.misc.save_raw_api_output")
+    def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
+        experiment_series = "gerrig"
+        model_config = {
+            "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            "max_tokens": 50,
+            "temperature": 0.7,
+            # "top_k": 50,
+            # "top_p": 0.9,
+            # "repetition_penalty": 1.0,
+        }
+        prompts = {"Experiment A": "Prompt A"}
+        version_prompts = {
+            "Experiment A": [
+                ("Version A1 Name", "Version A1 Text"),
+                ("Version A2 Name", "Version A2 Text")
+            ]
+        }
+
+        results = run_experiment(Path(experiment_series), model_config, prompts, version_prompts)
+
+        assert len(results) == 2
+        for result in results:
+            assert result["experiment_name"] == "Experiment A"
+            assert result["version"] in ["Version A1 Name", "Version A2 Name"]
+            assert result["raw_response"] == "Response for Experiment A Version Pen Removed"
+>           assert result["parsed_response"] == "Response for Experiment A Version Pen Removed"
+E           AssertionError: assert None == 'Response for Experiment A Version Pen Removed'
+
+tests/test_misc.py:52: AssertionError
+----------------------------- Captured stdout call -----------------------------
+Running experiment: Experiment A
+________________________________ test_thriller _________________________________
+
+mock_getenv = <MagicMock name='getenv' id='140147350534560'>
+mock_load_config = <MagicMock name='load_config' id='140147350521792'>
+mock_process_and_save_results = <MagicMock name='process_and_save_results' id='140147348571280'>
+mock_run_experiment = <MagicMock name='run_experiment' id='140147348579056'>
+
+>   ???
+
+/workspace/Thriller/tests/test_thriller.py:73:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/thriller/Thriller.py:86: in main
+    results = run_experiment(
+src/thriller/misc.py:50: in run_experiment
+    raw_response = generate_response(messages, model_config)
+src/thriller/api.py:22: in generate_response
+    response = client.chat.completions.create(
+.venv/lib/python3.10/site-packages/together/resources/chat/completions.py:136: in create
+    response, _, _ = requestor.request(
+.venv/lib/python3.10/site-packages/together/abstract/api_requestor.py:249: in request
+    resp, got_stream = self._interpret_response(result, stream)
+.venv/lib/python3.10/site-packages/together/abstract/api_requestor.py:632: in _interpret_response
+    self._interpret_response_line(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = <together.abstract.api_requestor.APIRequestor object at 0x7f7698ed52d0>
+rbody = '{"error":{"message":"Invalid API key provided. You can find your API key at https://api.together.xyz/settings/api-keys.","type":"invalid_request_error","param":null,"code":"invalid_api_key"}}'
+rcode = 401
+rheaders = {'Date': 'Wed, 07 Aug 2024 03:03:05 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '191', ...592000; includeSubDomains', 'Server': 'cloudflare', 'CF-RAY': '8af4080fb8b1bca8-ATL', 'alt-svc': 'h3=":443"; ma=86400'}
+stream = False
+
+    def _interpret_response_line(
+        self, rbody: str, rcode: int, rheaders: Any, stream: bool
+    ) -> TogetherResponse:
+        # HTTP 204 response code does not have any content in the body.
+        if rcode == 204:
+            return TogetherResponse({}, rheaders)
+
+        if rcode == 503:
+            raise error.ServiceUnavailableError(
+                "The server is overloaded or not ready yet.",
+                http_status=rcode,
+                headers=rheaders,
+            )
+
+        try:
+            if "text/plain" in rheaders.get("Content-Type", ""):
+                data: Dict[str, Any] = {"message": rbody}
+            else:
+                data = json.loads(rbody)
+        except (JSONDecodeError, UnicodeDecodeError) as e:
+            raise error.APIError(
+                f"Error code: {rcode} -{rbody}",
+                http_status=rcode,
+                headers=rheaders,
+            ) from e
+        resp = TogetherResponse(data, rheaders)
+
+        # Handle streaming errors
+        if not 200 <= rcode < 300:
+>           raise self.handle_error_response(resp, rcode, stream_error=stream)
+E           together.error.AuthenticationError: Error code: 401 - {"message": "Invalid API key provided. You can find your API key at https://api.together.xyz/settings/api-keys.", "type_": "invalid_request_error", "code": "invalid_api_key"}
+
+.venv/lib/python3.10/site-packages/together/abstract/api_requestor.py:701: AuthenticationError
+----------------------------- Captured stdout call -----------------------------
+Running experiment: Experiment A
+=========================== short test summary info ============================
+FAILED tests/test_gerrig.py::test_run_experiment - AssertionError: assert [{'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': None}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Removed', 'raw_response': 'Response: Response for Experiment A version 2', 'parsed_response': None}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment A version 3', 'parsed_response': None}, {'experiment_name': 'Experiment B', 'version': 'Unused Comb', 'raw_response': 'Response: Response for Experiment B version 1', 'parsed_response': None}, {'experiment_name': 'Experiment B', 'version': 'Used Comb', 'raw_response': 'Response: Response for Experiment B version 2', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Not Mentioned', 'raw_response': 'Response: Response for Experiment C version 1', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned and Removed', 'raw_response': 'Response: Response for Experiment C version 2', 'parsed_response': None}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment C version 3', 'parsed_response': None}] == [{'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': {'Response': 'Response for Experiment A version 1'}}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Removed', 'raw_response': 'Response: Response for Experiment A version 2', 'parsed_response': {'Response': 'Response for Experiment A version 2'}}, {'experiment_name': 'Experiment A', 'version': 'Pen Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment A version 3', 'parsed_response': {'Response': 'Response for Experiment A version 3'}}, {'experiment_name': 'Experiment B', 'version': 'Unused Comb', 'raw_response': 'Response: Response for Experiment B version 1', 'parsed_response': {'Response': 'Response for Experiment B version 1'}}, {'experiment_name': 'Experiment B', 'version': 'Used Comb', 'raw_response': 'Response: Response for Experiment B version 2', 'parsed_response': {'Response': 'Response for Experiment B version 2'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Not Mentioned', 'raw_response': 'Response: Response for Experiment C version 1', 'parsed_response': {'Response': 'Response for Experiment C version 1'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned and Removed', 'raw_response': 'Response: Response for Experiment C version 2', 'parsed_response': {'Response': 'Response for Experiment C version 2'}}, {'experiment_name': 'Experiment C', 'version': 'Prior Solution Mentioned Not Removed', 'raw_response': 'Response: Response for Experiment C version 3', 'parsed_response': {'Response': 'Response for Experiment C version 3'}}]
+
+  At index 0 diff: {'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': None} != {'experiment_name': 'Experiment A', 'version': 'Pen Not Mentioned', 'raw_response': 'Response: Response for Experiment A version 1', 'parsed_response': {'Response': 'Response for Experiment A version 1'}}
+
+  Full diff:
+    [
+        {
+            'experiment_name': 'Experiment A',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment A version 1',
+  -         },
+            'raw_response': 'Response: Response for Experiment A version 1',
+            'version': 'Pen Not Mentioned',
+        },
+        {
+            'experiment_name': 'Experiment A',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment A version 2',
+  -         },
+            'raw_response': 'Response: Response for Experiment A version 2',
+            'version': 'Pen Mentioned Removed',
+        },
+        {
+            'experiment_name': 'Experiment A',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment A version 3',
+  -         },
+            'raw_response': 'Response: Response for Experiment A version 3',
+            'version': 'Pen Mentioned Not Removed',
+        },
+        {
+            'experiment_name': 'Experiment B',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment B version 1',
+  -         },
+            'raw_response': 'Response: Response for Experiment B version 1',
+            'version': 'Unused Comb',
+        },
+        {
+            'experiment_name': 'Experiment B',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment B version 2',
+  -         },
+            'raw_response': 'Response: Response for Experiment B version 2',
+            'version': 'Used Comb',
+        },
+        {
+            'experiment_name': 'Experiment C',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment C version 1',
+  -         },
+            'raw_response': 'Response: Response for Experiment C version 1',
+            'version': 'Prior Solution Not Mentioned',
+        },
+        {
+            'experiment_name': 'Experiment C',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment C version 2',
+  -         },
+            'raw_response': 'Response: Response for Experiment C version 2',
+            'version': 'Prior Solution Mentioned and Removed',
+        },
+        {
+            'experiment_name': 'Experiment C',
+  -         'parsed_response': {
+  ?                            ^
+  +         'parsed_response': None,
+  ?                            ^^^^^
+  -             'Response': 'Response for Experiment C version 3',
+  -         },
+            'raw_response': 'Response: Response for Experiment C version 3',
+            'version': 'Prior Solution Mentioned Not Removed',
+        },
+    ]
+FAILED tests/test_misc.py::test_run_experiment - AssertionError: assert None == 'Response for Experiment A Version Pen Removed'
+FAILED tests/test_thriller.py::test_thriller - together.error.AuthenticationError: Error code: 401 - {"message": "Invalid API key provided. You can find your API key at https://api.together.xyz/settings/api-keys.", "type_": "invalid_request_error", "code": "invalid_api_key"}
+ERROR tests/test_misc.py::test_parse_response
+=============== 3 failed, 10 passed, 1 skipped, 1 error in 0.55s ===============
