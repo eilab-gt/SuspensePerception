@@ -25,7 +25,7 @@ if project_root not in sys.path:
 TQDM_ACTIVE = True
 
 
-def safe_conversion(value):
+def safe_int_conversion(value):
     if isinstance(value, int):
         return value
     if isinstance(value, str):
@@ -152,7 +152,7 @@ def run_experiment(
     """
     results = []
     total_experiments = sum(len(versions) for versions in version_prompts.values())
-    
+
     with tqdm(total=total_experiments, desc="Overall Progress") as pbar:
         for exp_name, prompt in prompts.items():
             print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
@@ -162,13 +162,19 @@ def run_experiment(
                     with tqdm(
                         total=len(version_text), desc=f"{exp_name} - {version_name}"
                     ) as inner_pbar:
-                        messages = []
+                        
+
+                        '''Initializing messages with system prompt is not necessary since we are giving the prompt with each paragraph with role 'user', this can just be an empty array. 
+                        Having it as empty array needs to be tested for experiments other than haider.'''
+                        messages = [
+                            {"role": "system", "content": prompt},
+                        ]
+                        # messages = [] 
 
                         raw_responses = []
                         parsed_responses = []
 
                         for i, paragraph in enumerate(version_text):
-                            # print("\n paragraph", paragraph)
                             messages.append({"role": "user", "content": prompt + paragraph})
 
                             raw_response = ""
@@ -183,14 +189,11 @@ def run_experiment(
                                 except Exception as e:
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
                                     if len(messages) >= 4:
-                                        # print("messages",messages)
-
-                                        print("popping 2 messages")
                                         messages.pop(1)
                                         messages.pop(1)
                                     else:
                                         break
-                            # print(raw_response)              
+            
                             raw_responses.append(raw_response)
 
                             if raw_response:
@@ -201,7 +204,7 @@ def run_experiment(
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config
                                 )
-                                # print("parsed_response", parsed_response)
+                                
                                 if experiment_series == "haider_en":
                                     parsed_responses.append(parsed_response.values()) #appending instead of extending to distinguish one stanza from the next
                                 else:
@@ -223,7 +226,7 @@ def run_experiment(
                         raw_responses = "\n".join(raw_responses)
                         parsed_responses_dict = {}
                         for i, response in enumerate(parsed_responses):
-                            converted_value = safe_conversion(response)
+                            converted_value = safe_int_conversion(response)
                             parsed_responses_dict[str(i)] = converted_value
                             if converted_value is None:
                                 logging.warning(
