@@ -1,0 +1,81 @@
+Based on the guidelines, I would annotate the stanza as follows:
+
+?o [Beauty/Joy]
+baby [Beauty/Joy]
+i [Beauty/Joy]
+
+The reason for this annotation is that the stanza has a gentle, tender, and intimate tone, which evokes feelings of beauty and joy. The use of the word "baby" and the simplicity of the language create a sense of innocence and sweetness, which is pleasing and uplifting. The overall effect is one of happiness and delight.
+Based on the guidelines, I would annotate the stanza as follows:
+
+wouldn't [Annoyance]
+like [Annoyance]
+
+The reason for this annotation is that the stanza has a negative tone, implying a sense of reluctance or unwillingness, which evokes feelings of annoyance or frustration. The use of the word "wouldn't" suggests a sense of opposition or resistance, which can be perceived as annoying or frustrating.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Death [Sadness]
+if Death [Sadness]
+were [Sadness]
+good:for [Uneasiness]
+
+The reason for this annotation is that the stanza has a somber and melancholic tone, evoking feelings of sadness and uneasiness. The mention of death is a clear trigger for sadness, and the phrase "if Death were good" implies a sense of longing or acceptance, which can be unsettling. The overall effect is one of melancholy and discomfort.
+Based on the guidelines, I would annotate the stanza as follows:
+
+when(instead of stopping to think) [Uneasiness]
+you [Uneasiness]
+
+The reason for this annotation is that the stanza has an unsettling and uncertain tone, evoking feelings of uneasiness. The use of parentheses and the phrase "instead of stopping to think" implies a sense of hesitation or uncertainty, which can be uncomfortable to read. The overall effect is one of discomfort and unease.
+Based on the guidelines, I would annotate the stanza as follows:
+
+begin to feel of it, dying [Sadness]
+"s miraculous [Beauty/Joy]
+why? [Uneasiness]
+be [Uneasiness]
+
+The reason for this annotation is that the stanza has a mix of emotions. The first line "begin to feel of it, dying" evokes feelings of sadness and mortality. The second line ""s miraculous" is a sudden shift to a more positive and beautiful sentiment, which suggests a sense of wonder and awe. The third line "why?" is a question that creates uneasiness and uncertainty, and the final line "be" is also unsettling and unclear, adding to the sense of uneasiness.
+Based on the guidelines, I would annotate the stanza as follows:
+
+cause dying is [Sadness]
+
+The reason for this annotation is that the phrase "cause dying is" evokes feelings of sadness and mortality. The word "dying" has a strong emotional connotation, and the phrase as a whole creates a sense of finality and loss, which is typically associated with feelings of sadness.
+Based on the guidelines, I would annotate the stanza as follows:
+
+perfectly natural; [Beauty/Joy]
+perfectly [Beauty/Joy]
+putting [Beauty/Joy]
+it mildly lively(but [Humor]
+
+The reason for this annotation is that the phrase "perfectly natural" and "perfectly" create a sense of beauty and joy, as they suggest a sense of ease and comfort. The phrase "putting" continues this sense of beauty and joy, and the phrase "it mildly lively" adds a touch of humor, as it seems to be an understatement. The use of parentheses around "but" also adds to the sense of humor, as it suggests a tongue-in-cheek tone.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Death [Sadness]
+
+The reason for this annotation is that the word "Death" is often associated with feelings of sadness, loss, and mourning. It's a universal human experience that can evoke strong emotions, and in this case, it's likely to make the reader feel sad or touched.
+Based on the guidelines, I would annotate the stanza as follows:
+
+is strictly [Uneasiness]
+scientific [Uneasiness]
+&amp; artificial &amp; [Uneasiness]
+
+The reason for this annotation is that the words "strictly", "scientific", and "artificial" create a sense of uneasiness, as they imply a lack of naturalness or humanity. The use of "&amp;" instead of "and" also adds to the sense of artificiality and formality, which can be unsettling. Overall, the tone of the stanza feels cold and detached, which evokes feelings of uneasiness.
+Based on the guidelines, I would annotate the stanza as follows:
+
+evil [Uneasiness]
+&amp; legal) [Uneasiness]
+
+The reason for this annotation is that the word "evil" creates a sense of uneasiness, as it implies something malevolent or harmful. The addition of "&amp; legal" adds to the sense of discomfort, as it suggests that something evil is being legitimized or condoned. The overall tone of the stanza feels dark and unsettling, which evokes feelings of uneasiness.
+Based on the guidelines, I would annotate the stanza as follows:
+
+we thank thee [Sadness]
+god [Awe/Sublime]
+almighty for dying [Sadness] [Uneasiness]
+(forgive us,o life! [Sadness] [Uneasiness]
+the sin of Death [Sadness] [Uneasiness]
+
+The reason for this annotation is as follows:
+
+* The phrase "we thank thee" creates a sense of sadness and gratitude, which is why I chose the label [Sadness].
+* The word "god" evokes a sense of awe and reverence, which is why I chose the label [Awe/Sublime].
+* The phrase "almighty for dying" is unsettling and disturbing, which is why I chose the label [Uneasiness] in addition to [Sadness].
+* The phrase "forgive us, o life!" is a plea for forgiveness, which is a sad and unsettling sentiment, which is why I chose the label [Sadness] and [Uneasiness].
+* The phrase "the sin of Death" is a somber and disturbing concept, which is why I chose the label [Sadness] and [Uneasiness].

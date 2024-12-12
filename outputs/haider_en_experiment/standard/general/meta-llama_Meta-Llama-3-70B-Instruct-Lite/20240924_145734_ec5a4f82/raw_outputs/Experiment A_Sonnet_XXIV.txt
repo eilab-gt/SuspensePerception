@@ -1,0 +1,26 @@
+This is a guidelines document for annotating aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with examples and instructions for annotators. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate each line individually, not by sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* Do not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+The document also provides examples of annotated poems for each label, serving as a gold standard for annotators.

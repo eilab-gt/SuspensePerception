@@ -1,0 +1,116 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides 9 labels for annotators to choose from, each corresponding to a specific category of emotion. The labels are:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (must be used with an additional label: Beauty/Joy or Sadness)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+For each label, the guide provides a brief description and examples to help annotators understand when to use each label. The examples are taken from actual poems and demonstrate how the labels can be applied in different contexts.
+
+The guide also provides instructions for annotating, including:
+
+* Annotate each line individually, not by sentence
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line, but no more than two
+* Choose the dominant emotion, and add another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If changing the non-dominant emotion, remember to keep labeling the dominant emotion additionally to the new emotion
+
+The guide also includes a "Gold Standard" section, which provides examples of how to apply the labels in different contexts. These examples serve as an orientation for annotators and can help resolve any doubts they may have when labeling emotions.
+
+Overall, this guide provides a clear and comprehensive framework for annotators to label aesthetic emotions in poetry, ensuring consistency and accuracy in the annotation process.
+To annotate the stanza, I would label the emotions as follows:
+
+What though on hamely fare we dine , [Vitality]
+Wear hoddin grey , an ’ a that ; [Vitality]
+Gie fools their silks , and knaves their wine ; [Humor]
+A Man "s a Man for a ’ that : [Vitality]
+For a ’ that , and a ’ that , [Vitality]
+Their tinsel show , an ’ a ’ that ; [Humor]
+The honest man , tho ’ e"er sae poor , [Beauty/Joy]
+Is king o ’ men for a ’ that . [Vitality]
+
+Here's my reasoning:
+
+* The first line has a sense of vitality, as it talks about making do with what you have and finding joy in simple things.
+* The second line continues this theme, with a sense of vitality and energy.
+* The third line has a humorous tone, with a witty remark about fools and knaves.
+* The fourth line has a sense of vitality and empowerment, with the idea that a man is a man regardless of circumstances.
+* The fifth and sixth lines continue this theme, with a sense of vitality and energy.
+* The seventh line has a sense of beauty and joy, with a celebration of the honest man.
+* The eighth line has a sense of vitality, with a final statement about the honest man being king.
+
+Overall, this stanza has a sense of vitality and energy, with a focus on the importance of being true to oneself and finding joy in simple things. There are also moments of humor and beauty throughout the stanza.
+Here is the annotated stanza:
+
+Ye see yon birkie , ca "d a lord , [Humor]
+Wha struts , an ’ stares , an ’ a ’ that ; [Humor]
+Tho ’ hundreds worship at his word , [Vitality]
+He "s but a coof for a ’ that : [Humor]
+For a ’ that , an ’ a ’ that , [Humor]
+His ribband , star , an ’ a ’ that : [Humor]
+The man o ’ independent mind [Vitality]
+He looks an ’ laughs at a ’ that . [Humor]
+
+Here's my reasoning:
+
+* The first line has a humorous tone, with a playful use of language and a lighthearted jab at the "birkie" (a Scottish word for a lord or noble).
+* The second line continues this humorous tone, with a sense of irony and playfulness.
+* The third line has a sense of vitality, with a sense of power and authority.
+* The fourth line returns to a humorous tone, with a witty remark about the "coof" (a Scottish word for a foolish or awkward person).
+* The fifth and sixth lines continue this humorous tone, with a sense of playfulness and irony.
+* The seventh line has a sense of vitality, with a celebration of the "man o' independent mind".
+* The eighth line returns to a humorous tone, with a final witty remark.
+
+Overall, this stanza has a lighthearted and humorous tone, with a sense of playfulness and irony. There are also moments of vitality, with a celebration of independence and individuality.
+Here is the annotated stanza:
+
+A prince can mak a belted knight , [Humor]
+A marquis , duke , an ’ a ’ that ; [Humor]
+But an honest man "s abon his might , [Vitality]
+Gude faith , he maunna fa ’ that ! [Humor]
+For a ’ that , an ’ a ’ that , [Humor]
+Their dignities an ’ a ’ that ; [Humor]
+The pith o ’ sense , an ’ pride o ’ worth , [Vitality]
+Are higher rank than a ’ that . [Vitality]
+
+Here's my reasoning:
+
+* The first line has a humorous tone, with a playful use of language and a lighthearted jab at the idea of a prince making a belted knight.
+* The second line continues this humorous tone, with a sense of irony and playfulness.
+* The third line has a sense of vitality, with a celebration of the honest man's might and power.
+* The fourth line returns to a humorous tone, with a witty remark about the honest man's faith.
+* The fifth and sixth lines continue this humorous tone, with a sense of playfulness and irony.
+* The seventh line has a sense of vitality, with a celebration of the importance of sense and worth.
+* The eighth line has a sense of vitality, with a final statement about the value of these qualities.
+
+Overall, this stanza has a lighthearted and humorous tone, with a sense of playfulness and irony. There are also moments of vitality, with a celebration of honesty, sense, and worth.
+Here is the annotated stanza:
+
+Then let us pray that come it may , [Vitality]
+( As come it will for a ’ that ,) [Vitality]
+That Sense and Worth , o"er a ’ the earth , [Vitality]
+Shall bear the gree , an ’ a ’ that . [Vitality]
+For a ’ that , an ’ a ’ that , [Humor]
+It "s coming yet for a ’ that , [Vitality]
+That Man to Man , the world o"er , [Vitality]
+Shall brothers be for a ’ that . [Vitality]
+
+Here's my reasoning:
+
+* The first line has a sense of vitality, with a call to prayer and a sense of hope.
+* The second line continues this sense of vitality, with a sense of inevitability and determination.
+* The third line has a sense of vitality, with a focus on sense and worth.
+* The fourth line has a sense of vitality, with a sense of triumph and achievement.
+* The fifth line has a humorous tone, with a playful use of language and a sense of irony.
+* The sixth line has a sense of vitality, with a sense of anticipation and expectation.
+* The seventh line has a sense of vitality, with a focus on unity and brotherhood.
+* The eighth line has a sense of vitality, with a sense of hope and optimism.
+
+Overall, this stanza has a strong sense of vitality, with a focus on sense, worth, and unity. There is also a humorous tone in some lines, with a playful use of language and a sense of irony.

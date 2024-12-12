@@ -1,0 +1,59 @@
+To annotate the given stanza, we will follow the guidelines provided. We will read the entire stanza before annotating each line and use as few emotions as possible.
+
+1. The expense of spirit in a waste of shame
+   - This line evokes feelings of sadness and uneasiness due to the description of "waste of shame." 
+   Label: Sadness, Uneasiness
+
+2. Is lust in action : and till action , lust
+   - This line continues to evoke feelings of sadness and uneasiness due to the description of lust.
+   Label: Sadness, Uneasiness
+
+3. Is perjur "d , murderous , bloody , full of blame ,
+   - The use of strong words like "murderous" and "bloody" increases the feeling of uneasiness.
+   Label: Sadness, Uneasiness
+
+4. Savage , extreme , rude , cruel , not to trust ;
+   - The description of lust as "savage" and "cruel" further emphasizes the feeling of uneasiness.
+   Label: Sadness, Uneasiness
+
+5. Enjoy "d no sooner but despised straight ;
+   - The line suggests a sense of regret and sadness.
+   Label: Sadness
+
+6. Past reason hunted ; and no sooner had ,
+   - The phrase "past reason" implies a loss of control, which can evoke feelings of uneasiness.
+   Label: Sadness, Uneasiness
+
+7. Past reason hated , as a swallow "d bait ,
+   - The comparison to a "swallow'd bait" suggests a sense of danger and uneasiness.
+   Label: Sadness, Uneasiness
+
+8. On purpose laid to make the taker mad :
+   - The phrase "make the taker mad" implies a sense of chaos and uneasiness.
+   Label: Sadness, Uneasiness
+
+9. Mad in pursuit and in possession so ;
+   - The description of being "mad" in pursuit and possession emphasizes the feeling of uneasiness.
+   Label: Sadness, Uneasiness
+
+10. Had , having , and in quest , to have extreme ;
+    - The phrase "to have extreme" suggests a sense of excess and uneasiness.
+    Label: Sadness, Uneasiness
+
+11. A bliss in proof ,— and prov "d , a very woe ;
+    - The contrast between "bliss" and "woe" creates a sense of uneasiness and sadness.
+    Label: Sadness, Uneasiness
+
+12. Before , a joy propos "d ; behind a dream .
+    - The phrase "behind a dream" suggests a sense of disillusionment and sadness.
+    Label: Sadness
+
+13. All this the world well knows ; yet none knows well
+    - The phrase "yet none knows well" implies a sense of resignation and sadness.
+    Label: Sadness
+
+14. To shun the heaven that leads men to this hell .
+    - The phrase "leads men to this hell" emphasizes the feeling of uneasiness and sadness.
+    Label: Sadness, Uneasiness
+
+The dominant emotion throughout the stanza is sadness, with uneasiness being a recurring secondary emotion.

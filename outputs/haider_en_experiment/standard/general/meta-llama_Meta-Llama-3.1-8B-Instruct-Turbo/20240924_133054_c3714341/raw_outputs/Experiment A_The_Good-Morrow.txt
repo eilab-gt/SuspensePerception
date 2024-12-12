@@ -1,0 +1,91 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion for each line, keeping in mind the instructions for annotating.
+
+1. I wonder, by my troth, what thou and I
+- This line is more nostalgic and curious, but the nostalgia is not strong enough to be the dominant emotion. The curiosity and wonder are not strong enough to be labeled as Suspense. The most fitting label for this line is Beauty/Joy, as it sets a gentle and inquiring tone.
+   Label: Beauty/Joy
+
+2. Did, till we loved? Were we not weaned till then?
+- This line is also nostalgic, but it's more about the past and the speaker's memories. It's not strong enough to be the dominant emotion, but it's more nostalgic than the previous line. Since nostalgia is not used alone, I will add it to Beauty/Joy.
+   Label: Beauty/Joy + Nostalgia
+
+3. But sucked on country pleasures, childishly?
+- This line is more carefree and joyful, but it's also a bit nostalgic. The nostalgia is still present, so I will add it to Beauty/Joy.
+   Label: Beauty/Joy + Nostalgia
+
+4. Or snorted we in the Seven Sleepers’ den?
+- This line is more whimsical and nostalgic, but it's not strong enough to be the dominant emotion. The nostalgia is still present, so I will add it to Beauty/Joy.
+   Label: Beauty/Joy + Nostalgia
+
+5. ’Twas so; but this, all pleasures fancies be.
+- This line is more melancholic and nostalgic. The nostalgia is strong enough to be the dominant emotion, and it's paired with sadness.
+   Label: Sadness + Nostalgia
+
+6. If ever any beauty I did see,
+- This line is more Beauty/Joy, but it's also a bit nostalgic. The nostalgia is not strong enough to be the dominant emotion, so I will use Beauty/Joy.
+   Label: Beauty/Joy
+
+7. Which I desired, and got, ’twas but a dream of thee.
+- This line is more nostalgic and sad, as it's about a dream that was never real. The nostalgia is strong enough to be the dominant emotion, and it's paired with Sadness.
+   Label: Sadness + Nostalgia
+To annotate the given stanza, I will go through each line and choose the most dominant emotion for each line, keeping in mind the instructions for annotating.
+
+1. And now good-morrow to our waking souls,
+- This line is more joyful and optimistic, as it greets the reader and sets a positive tone. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+2. Which watch not one another out of fear;
+- This line is more about the absence of fear and the presence of love. It's a gentle and reassuring tone. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+3. For love, all love of other sights controls,
+- This line is more about the power of love and its ability to control other desires. It's a beautiful and uplifting idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+4. And makes one little room an everywhere.
+- This line is more about the idea that love can make a small space feel like the whole world. It's a romantic and joyful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+5. Let sea-discoverers to new worlds have gone,
+- This line is more about the idea of exploration and discovery, but it's not the dominant emotion in this stanza. The most fitting label for this line is not among the options, but it could be related to Suspense.
+   Label: (no label)
+
+6. Let maps to other, worlds on worlds have shown,
+- This line is more about the idea of exploration and discovery, but it's not the dominant emotion in this stanza. The most fitting label for this line is not among the options, but it could be related to Suspense.
+   Label: (no label)
+
+7. Let us possess one world, each hath one, and is one.
+- This line is more about the idea of unity and togetherness, and it's a beautiful and joyful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+In this stanza, the dominant emotion is Beauty/Joy, which is present in lines 1-4 and 7. The other lines do not have a clear dominant emotion, so I did not label them.
+To annotate the given stanza, I will go through each line and choose the most dominant emotion for each line, keeping in mind the instructions for annotating.
+
+1. My face in thine eye, thine in mine appears,
+- This line is more about the connection and unity between two people, which is a joyful and beautiful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+2. And true plain hearts do in the faces rest;
+- This line is also about the connection and unity between two people, and it's a gentle and reassuring tone. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+3. Where can we find two better hemispheres,
+- This line is more about the idea of finding a perfect match, and it's a bit of a rhetorical question. It's not a strong emotion, but it's more about the idea of finding something beautiful.
+   Label: (no label)
+
+4. Without sharp north, without declining west?
+- This line is also more about the idea of finding a perfect match, and it's a bit of a rhetorical question. It's not a strong emotion, but it's more about the idea of finding something beautiful.
+   Label: (no label)
+
+5. Whatever dies, was not mixed equally;
+- This line is more about the idea that love is unique and can't be replicated, which is a beautiful and joyful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+6. If our two loves be one, or, thou and I
+- This line is more about the idea of unity and togetherness, which is a joyful and beautiful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+7. Love so alike, that none do slacken, none can die.
+- This line is also about the idea of love being eternal and unbreakable, which is a beautiful and joyful idea. The most fitting label for this line is Beauty/Joy.
+   Label: Beauty/Joy
+
+In this stanza, the dominant emotion is Beauty/Joy, which is present in lines 1-2, 5-7. The other lines do not have a clear dominant emotion, so I did not label them.

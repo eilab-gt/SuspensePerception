@@ -1,0 +1,43 @@
+Based on the guidelines, I will annotate the given stanza:
+
+Turning and turning in the widening gyre [Uneasiness] [Suspense]
+The falcon cannot hear the falconer; [Uneasiness] [Suspense]
+Things fall apart; the centre cannot hold; [Uneasiness] [Suspense]
+Mere anarchy is loosed upon the world, [Uneasiness] [Suspense]
+The blood-dimmed tide is loosed, and everywhere [Uneasiness] [Suspense]
+The ceremony of innocence is drowned; [Sadness] [Uneasiness]
+The best lack all conviction, while the worst [Uneasiness] [Suspense]
+Are full of passionate intensity. [Uneasiness] [Suspense]
+
+My annotation is based on the following reasoning:
+
+* The overall tone of the stanza is one of chaos and disorder, which evokes feelings of uneasiness and suspense.
+* The imagery of things falling apart, anarchy, and blood-dimmed tides creates a sense of discomfort and tension.
+* The line "The ceremony of innocence is drowned" adds a sense of sadness to the overall uneasiness.
+* The contrast between the best lacking conviction and the worst being full of passionate intensity adds to the sense of uneasiness and suspense.
+
+Note that I have chosen to use multiple labels for some lines, as the guidelines allow for up to two labels per line.
+Here is the annotated stanza:
+
+Surely some revelation is at hand; [Suspense]
+Surely the Second Coming is at hand. [Suspense]
+The Second Coming! Hardly are those words out [Uneasiness] [Suspense]
+When a vast image out of Spiritus Mundi [Uneasiness] [Suspense]
+Troubles my sight: somewhere in sands of the desert [Uneasiness] [Suspense]
+A shape with lion body and the head of a man, [Uneasiness] [Suspense]
+A gaze blank and pitiless as the sun, [Uneasiness] [Suspense]
+Is moving its slow thighs, while all about it [Uneasiness] [Suspense]
+Reel shadows of the indignant desert birds. [Uneasiness] [Suspense]
+The darkness drops again; but now I know [Sadness] [Uneasiness]
+That twenty centuries of stony sleep [Sadness] [Uneasiness]
+Were vexed to nightmare by a rocking cradle, [Uneasiness] [Suspense]
+And what rough beast, its hour come round at last, [Uneasiness] [Suspense]
+Slouches towards Bethlehem to be born? [Uneasiness] [Suspense]
+
+My annotation is based on the following reasoning:
+
+* The overall tone of the stanza is one of foreboding and unease, which evokes feelings of suspense and uneasiness.
+* The imagery of the Second Coming and the vast image out of Spiritus Mundi creates a sense of discomfort and tension.
+* The use of words like "troubles", "blank", "pitiless", and "indignant" adds to the sense of uneasiness and suspense.
+* The lines "The darkness drops again; but now I know / That twenty centuries of stony sleep" introduce a sense of sadness and melancholy.
+* The final lines "And what rough beast, its hour come round at last, / Slouches towards Bethlehem to be born?" maintain the sense of uneasiness and suspense, with a hint of foreboding.

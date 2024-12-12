@@ -1,0 +1,36 @@
+Here is the annotation of the stanza:
+
+* O Captain! my Captain! our fearful trip is done, [Sadness]
+* The ship has weather’d every rack, the prize we sought is won, [Vitality]
+* The port is near, the bells I hear, the people all exulting, [Vitality]
+* While follow eyes the steady keel, the vessel grim and daring; [Vitality]
+* But O heart! heart! heart! [Sadness]
+* O the bleeding drops of red, [Sadness]
+* Where on the deck my Captain lies, [Sadness]
+* Fallen cold and dead. [Sadness]
+
+The annotator's emotions while reading the stanza are a mix of sadness and vitality. The first four lines evoke a sense of accomplishment and triumph, which is labeled as Vitality. However, the last four lines are dominated by feelings of sadness and loss, triggered by the death of the Captain. The annotator's emotions are characterized by a sense of sorrow and mourning.
+Here is the annotation of the stanza:
+
+* O Captain! my Captain! rise up and hear the bells; [Vitality]
+* Rise up—for you the flag is flung—for you the bugle trills, [Vitality]
+* For you bouquets and ribbon’d wreaths—for you the shores a-crowding, [Vitality]
+* For you they call, the swaying mass, their eager faces turning; [Vitality]
+* Here Captain! dear father! [Sadness]
+* This arm beneath your head! [Sadness]
+* It is some dream that on the deck, [Sadness]
+* You’ve fallen cold and dead. [Sadness]
+
+The annotator's emotions while reading the stanza are a mix of vitality and sadness. The first four lines evoke a sense of excitement and celebration, which is labeled as Vitality. However, the last four lines are dominated by feelings of sadness and loss, triggered by the death of the Captain. The annotator's emotions are characterized by a sense of mourning and grief.
+Here is the annotation of the stanza:
+
+* My Captain does not answer, his lips are pale and still, [Sadness]
+* My father does not feel my arm, he has no pulse nor will, [Sadness]
+* The ship is anchor’d safe and sound, its voyage closed and done, [Vitality]
+* From fearful trip the victor ship comes in with object won; [Vitality]
+* Exult O shores, and ring O bells! [Vitality]
+* But I with mournful tread, [Sadness]
+* Walk the deck my Captain lies, [Sadness]
+* Fallen cold and dead. [Sadness]
+
+The annotator's emotions while reading the stanza are dominated by sadness and loss, triggered by the death of the Captain. The first four lines evoke a sense of triumph and celebration, which is labeled as Vitality. However, the last four lines are characterized by feelings of mourning and grief, which are labeled as Sadness.

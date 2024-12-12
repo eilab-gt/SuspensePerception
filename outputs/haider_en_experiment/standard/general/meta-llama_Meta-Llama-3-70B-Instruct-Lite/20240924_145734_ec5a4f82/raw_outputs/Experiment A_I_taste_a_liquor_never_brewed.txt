@@ -1,0 +1,76 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the subjective emotions evoked by reading poems. The guideline provides 9 labels for annotating emotions, each with its own set of items to help annotators identify the corresponding label. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. Humor (found it funny/amusing)
+5. Nostalgia (makes me nostalgic) - to be used with another label: +beauty/joy or +sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem.
+* Label your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the emotion most dominant while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Notice that nostalgia always has to be used with an additional label: beauty/joy or sadness
+
+The gold standard examples provided serve as an orientation for the annotators, and can be referred to in case of doubt.
+
+The task is to annotate the given stanza:
+
+"I taste a liquor never brewed ,
+From tankards scooped in pearl ;
+Not all the vats upon the Rhine
+Yield such an alcohol !"
+
+Please follow the guidelines and instructions to annotate the emotions evoked by this stanza.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Inebriate of air am I , [Beauty/Joy] [Vitality]
+And debauchee of dew , [Beauty/Joy] [Vitality]
+Reeling , through endless summer days , [Beauty/Joy] [Vitality]
+From inns of molten blue . [Beauty/Joy] [Vitality]
+
+Here's my reasoning:
+
+* The language used in the stanza is rich and evocative, with vivid imagery and a sense of freedom and abandon. This suggests a sense of beauty and joy, which is why I've chosen the Beauty/Joy label.
+* The use of words like "inebriate", "debauchee", and "reeling" also suggests a sense of vitality and energy, which is why I've chosen the Vitality label as well.
+* The overall tone of the stanza is one of carefree abandon and joy, which is why I haven't chosen any of the more negative labels like Annoyance, Sadness, or Uneasiness.
+
+Note that this is just one possible annotation, and different annotators may have different interpretations of the same stanza.
+Based on the guidelines, I would annotate the stanza as follows:
+
+When landlords turn the drunken bee [Humor]
+Out of the foxglove "s door , [Humor]
+When butterflies renounce their drams , [Humor]
+I shall but drink the more ! [Vitality]
+
+Here's my reasoning:
+
+* The language used in the stanza is playful and whimsical, with a sense of humor and irony. The image of "drunken bee" and "butterflies renounce their drams" is amusing and lighthearted, which is why I've chosen the Humor label.
+* The final line "I shall but drink the more !" suggests a sense of vitality and energy, as if the speaker is embracing life and its pleasures. This is why I've chosen the Vitality label as well.
+
+Note that this is just one possible annotation, and different annotators may have different interpretations of the same stanza.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Till seraphs swing their snowy hats , [Humor]
+And saints to windows run , [Humor]
+To see the little tippler [Humor]
+Leaning against the sun ! [Vitality]
+
+Here's my reasoning:
+
+* The language used in the stanza is playful and whimsical, with a sense of humor and irony. The image of "seraphs swing their snowy hats" and "saints to windows run" is amusing and lighthearted, which is why I've chosen the Humor label.
+* The final line "Leaning against the sun !" suggests a sense of vitality and energy, as if the speaker is embracing life and its joys. This is why I've chosen the Vitality label as well.
+
+Note that this is just one possible annotation, and different annotators may have different interpretations of the same stanza.

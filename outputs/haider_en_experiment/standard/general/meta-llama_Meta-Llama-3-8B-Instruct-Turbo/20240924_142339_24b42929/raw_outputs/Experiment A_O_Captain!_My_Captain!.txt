@@ -1,0 +1,48 @@
+Here is the annotation of the stanza:
+
+O Captain! my Captain! our fearful trip is done, [Sadness]
+The ship has weather’d every rack, the prize we sought is won, [Vitality]
+The port is near, the bells I hear, the people all exulting, [Vitality]
+While follow eyes the steady keel, the vessel grim and daring; [Vitality]
+But O heart! heart! heart! [Sadness]
+O the bleeding drops of red, [Sadness]
+Where on the deck my Captain lies, [Sadness]
+Fallen cold and dead. [Sadness]
+
+Note: The annotator's emotions are reflected in the labels chosen, which are:
+
+* Sadness: The poem's tone is melancholic and mournful, evoking feelings of sadness and loss.
+* Vitality: The lines "The ship has weather’d every rack, the prize we sought is won, / The port is near, the bells I hear, the people all exulting" convey a sense of accomplishment and triumph, which is invigorating and inspiring.
+
+The annotator has chosen to label the emotions after reading each individual line, as instructed.
+Here is the annotation of the stanza:
+
+O Captain! my Captain! rise up and hear the bells; [Vitality]
+Rise up—for you the flag is flung—for you the bugle trills, [Vitality]
+For you bouquets and ribbon’d wreaths—for you the shores a-crowding, [Vitality]
+For you they call, the swaying mass, their eager faces turning; [Vitality]
+Here Captain! dear father! [Sadness]
+This arm beneath your head! [Sadness]
+It is some dream that on the deck, [Sadness]
+You’ve fallen cold and dead. [Sadness]
+
+Note: The annotator's emotions are reflected in the labels chosen, which are:
+
+* Vitality: The lines "Rise up—for you the flag is flung—for you the bugle trills, / For you bouquets and ribbon’d wreaths—for you the shores a-crowding, / For you they call, the swaying mass, their eager faces turning" convey a sense of energy, excitement, and celebration, which is invigorating and inspiring.
+* Sadness: The lines "Here Captain! dear father! / This arm beneath your head! / It is some dream that on the deck, / You’ve fallen cold and dead" evoke feelings of sadness, loss, and grief, which are dominant in the second half of the stanza.
+Here is the annotation of the stanza:
+
+My Captain does not answer, his lips are pale and still, [Sadness]
+My father does not feel my arm, he has no pulse nor will, [Sadness]
+The ship is anchor’d safe and sound, its voyage closed and done, [Vitality]
+From fearful trip the victor ship comes in with object won; [Vitality]
+Exult O shores, and ring O bells! [Vitality]
+But I with mournful tread, [Sadness]
+Walk the deck my Captain lies, [Sadness]
+Fallen cold and dead. [Sadness]
+
+Note: The annotator's emotions are reflected in the labels chosen, which are:
+
+* Sadness: The lines "My Captain does not answer, his lips are pale and still, / My father does not feel my arm, he has no pulse nor will" evoke feelings of sadness and loss.
+* Vitality: The lines "The ship is anchor’d safe and sound, its voyage closed and done, / From fearful trip the victor ship comes in with object won;" convey a sense of accomplishment and triumph, which is invigorating and inspiring.
+* Sadness: The lines "But I with mournful tread, / Walk the deck my Captain lies, / Fallen cold and dead" evoke feelings of sadness, loss, and grief.

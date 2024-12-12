@@ -1,0 +1,51 @@
+To annotate the given stanza, we'll follow the guidelines and instructions provided. 
+
+1. Read the entire stanza before annotating each line.
+2. Label your emotions after reading each individual line.
+3. Use as few emotions as possible.
+4. Choose at least one label per line.
+5. You should not use more than two labels per line.
+
+Here's the annotated stanza:
+
+1. My love is like to ice, and I to fire: 
+   [Beauty/Joy] (The comparison of love to ice and fire is a beautiful and pleasing metaphor.)
+
+2. How comes it then that this her cold so great
+   [Sadness] (The speaker seems to be expressing a sense of sadness or frustration that their love is not being reciprocated.)
+
+3. Is not dissolved through my so hot desire,
+   [Vitality] (The speaker's desire is strong and passionate, conveying a sense of energy and vitality.)
+
+4. But harder grows the more I her entreat?
+   [Sadness] [Annoyance] (The speaker's love is not being reciprocated, and their repeated attempts to win their love's heart only seem to make things worse, causing feelings of sadness and annoyance.)
+
+5. Or how comes it that my exceeding heat
+   [Vitality] (The speaker's passion and desire are still strong, conveying a sense of energy and vitality.)
+
+6. Is not allayed by her heart-frozen cold,
+   [Sadness] (The speaker's love is still not being reciprocated, causing feelings of sadness.)
+
+7. But that I burn much more in boiling sweat,
+   [Vitality] [Annoyance] (The speaker's passion and desire are still strong, but they're also feeling frustrated and annoyed that their love is not being reciprocated.)
+
+8. And feel my flames augmented manifold?
+   [Vitality] (The speaker's passion and desire are still strong and growing, conveying a sense of energy and vitality.)
+
+9. What more miraculous thing may be told,
+   [Awe/Sublime] (The speaker is expressing a sense of awe and wonder at the power of love.)
+
+10. That fire, which all things melts, should harden ice,
+    [Awe/Sublime] (The speaker is expressing a sense of awe and wonder at the power of love to defy the natural order of things.)
+
+11. And ice, which is congeal"s with senseless cold,
+    [Awe/Sublime] (The speaker is expressing a sense of awe and wonder at the power of love to defy the natural order of things.)
+
+12. Should kindle fire by wonderful device?
+    [Awe/Sublime] (The speaker is expressing a sense of awe and wonder at the power of love to defy the natural order of things.)
+
+13. Such is the power of love in gentle mind,
+    [Beauty/Joy] (The speaker is expressing a sense of beauty and joy at the power of love.)
+
+14. That it can alter all the course of kind.
+    [Awe/Sublime] (The speaker is expressing a sense of awe and wonder at the power of love to change the natural order of things.)

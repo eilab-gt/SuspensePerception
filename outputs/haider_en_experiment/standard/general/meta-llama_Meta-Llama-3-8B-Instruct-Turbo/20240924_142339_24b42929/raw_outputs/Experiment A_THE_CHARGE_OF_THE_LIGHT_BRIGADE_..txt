@@ -1,0 +1,79 @@
+Here is the annotation of the stanza:
+
+* Half a league , half a league , (Annoyance)
+* Half a league onward , (Annoyance)
+* All in the valley of Death (Sadness) [Annoyance]
+* Rode the six hundred . (Sadness) [Annoyance]
+* ‘ Forward , the Light Brigade ! ’ (Suspense) [Annoyance]
+* Charge for the guns ! ’ he said : (Suspense) [Annoyance]
+* Into the valley of Death (Sadness) [Annoyance]
+* Rode the six hundred . (Sadness) [Annoyance]
+
+Note: I used the labels Annoyance, Sadness, and Suspense as the dominant emotions, as the poem evokes a sense of foreboding and impending doom. The use of the word "Death" and the image of the Light Brigade charging into the valley creates a sense of unease and tension, which is reflected in the annotation.
+Here is the annotation of the stanza:
+
+* ‘ Forward , the Light Brigade ! ’ (Suspense)
+* Was there a man dismay "d ? (Sadness)
+* Not tho ’ the soldier knew (Annoyance)
+* Some one had blunder "d : (Annoyance)
+* Their "s not to make reply , (Sadness) [Annoyance]
+* Their "s not to reason why , (Sadness) [Annoyance]
+* Their "s but to do and die : (Sadness) [Annoyance]
+* Into the valley of Death (Sadness) [Annoyance]
+* Rode the six hundred . (Sadness) [Annoyance]
+
+Note: I used the labels Sadness, Annoyance, and Suspense as the dominant emotions, as the poem evokes a sense of foreboding and impending doom. The use of the phrase "valley of Death" and the image of the Light Brigade charging into battle creates a sense of tension and anxiety, which is reflected in the annotation.
+Here is the annotation of the stanza:
+
+* Cannon to right of them , (Suspense)
+* Cannon to left of them , (Suspense)
+* Cannon in front of them (Suspense)
+* Volley "d and thunder "d ; (Uneasiness) [Suspense]
+* Storm "d at with shot and shell , (Uneasiness) [Suspense]
+* Boldly they rode and well , (Vitality)
+* Into the jaws of Death , (Sadness) [Uneasiness]
+* Into the mouth of Hell (Sadness) [Uneasiness]
+* Rode the six hundred . (Sadness) [Uneasiness]
+
+Note: I used the labels Suspense, Uneasiness, Vitality, and Sadness to describe the emotions evoked by the stanza. The use of cannons and the imagery of war creates a sense of tension and suspense, while the phrase "Into the jaws of Death" and "Into the mouth of Hell" evokes feelings of uneasiness and sadness. The phrase "Boldly they rode and well" conveys a sense of vitality and courage.
+Here is the annotation of the stanza:
+
+* Flash "d all their sabres bare , (Vitality)
+* Flash "d as they turn "d in air , (Vitality)
+* Sabring the gunners there , (Vitality)
+* Charging an army , while (Vitality)
+* All the world wonder "d : (Suspense)
+* Plunged in the battery-smoke (Uneasiness) [Suspense]
+* Right thro ’ the line they broke ; (Vitality)
+* Cossack and Russian (Uneasiness) [Suspense]
+* Reel "d from the sabre-stroke (Uneasiness) [Suspense]
+* Shatter "d and sunder "d . (Uneasiness) [Suspense]
+* Then they rode back , but not (Sadness) [Uneasiness]
+* Not the six hundred . (Sadness) [Uneasiness]
+
+Note: I used the labels Vitality, Suspense, Uneasiness, and Sadness to describe the emotions evoked by the stanza. The vivid imagery of the sabres, the charging of the army, and the descriptions of the battle create a sense of vitality and energy. The line "All the world wonder "d : creates a sense of suspense and curiosity. The descriptions of the Cossack and Russian soldiers being struck by the sabres and the chaos of the battle create a sense of uneasiness. The final line "Not the six hundred" evokes feelings of sadness and loss.
+Here is the annotation of the stanza:
+
+* Cannon to right of them , [Uneasiness] [Suspense]
+* Cannon to left of them , [Uneasiness] [Suspense]
+* Cannon behind them [Uneasiness] [Suspense]
+* Volley "d and thunder "d ; [Uneasiness] [Suspense]
+* Storm "d at with shot and shell , [Uneasiness] [Suspense]
+* While horse and hero fell , [Sadness] [Uneasiness]
+* They that had fought so well [Sadness] [Uneasiness]
+* Came thro ’ the jaws of Death , [Sadness] [Uneasiness]
+* Back from the mouth of Hell , [Sadness] [Uneasiness]
+* All that was left of them , [Sadness] [Uneasiness]
+* Left of six hundred . [Sadness] [Uneasiness]
+
+Note: I used the labels Uneasiness, Suspense, and Sadness to describe the emotions evoked by the stanza. The vivid imagery of the cannons, the chaos of the battle, and the descriptions of the fallen soldiers create a sense of uneasiness and suspense. The lines "While horse and hero fell", "They that had fought so well", "Came thro' the jaws of Death", and "Back from the mouth of Hell" evoke feelings of sadness and loss.
+Here is the annotation of the stanza:
+
+* When can their glory fade ? [Vitality]
+* O the wild charge they made ! [Vitality] [Suspense]
+* All the world wondered . [Vitality]
+* Honor the charge they made ! [Vitality]
+* Honor the Light Brigade , [Vitality]
+* Noble six hundred ! [Vitality]
+
+Note: I used the label Vitality to describe the emotions evoked by the stanza, as it conveys a sense of energy, movement, and admiration for the bravery of the Light Brigade. The use of words like "wild", "wondered", and "noble" also adds to the sense of vitality and grandeur.

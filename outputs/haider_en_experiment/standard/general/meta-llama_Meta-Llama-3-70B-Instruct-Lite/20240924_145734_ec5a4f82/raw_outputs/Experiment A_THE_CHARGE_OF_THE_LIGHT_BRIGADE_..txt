@@ -1,0 +1,157 @@
+This is a guidelines document for annotating aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with examples and instructions for annotators. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are as follows:
+
+* Annotate each line of the poem, not each sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* Do not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+The document also provides examples of annotated poems to serve as a gold standard for annotators.
+Let's annotate the given stanza using the provided guidelines.
+
+Here's the annotated stanza:
+
+‘ Forward , the Light Brigade ! ’ [Vitality]
+Was there a man dismay "d ? [Sadness]
+Not tho ’ the soldier knew [Suspense]
+Some one had blunder "d : [Annoyance]
+Their "s not to make reply , [Sadness]
+Their "s not to reason why , [Sadness]
+Their "s but to do and die : [Sadness]
+Into the valley of Death [Sadness] [Uneasiness]
+Rode the six hundred . [Sadness] [Uneasiness]
+
+Here's a brief explanation for each line:
+
+* "Forward, the Light Brigade!" - This line conveys a sense of energy and motivation, hence the label Vitality.
+* "Was there a man dismay'd?" - This line evokes a sense of sadness, hence the label Sadness.
+* "Not tho' the soldier knew" - This line creates a sense of suspense, hence the label Suspense.
+* "Some one had blunder'd" - This line annoys me, hence the label Annoyance.
+* "Their's not to make reply," - This line is sad and touches me, hence the label Sadness.
+* "Their's not to reason why," - This line is also sad and touches me, hence the label Sadness.
+* "Their's but to do and die:" - This line is sad and touches me, hence the label Sadness.
+* "Into the valley of Death" - This line is both sad and uneasy, hence the labels Sadness and Uneasiness.
+* "Rode the six hundred." - This line is both sad and uneasy, hence the labels Sadness and Uneasiness.
+
+Note that the dominant emotion in this stanza is Sadness, with other emotions like Vitality, Suspense, Annoyance, and Uneasiness also present.
+Here's the annotated stanza:
+
+Cannon to right of them , [Suspense]
+Cannon to left of them , [Suspense]
+Cannon in front of them [Suspense]
+Volley "d and thunder "d ; [Vitality]
+Storm "d at with shot and shell , [Vitality]
+Boldly they rode and well , [Vitality]
+Into the jaws of Death , [Sadness] [Uneasiness]
+Into the mouth of Hell [Sadness] [Uneasiness]
+Rode the six hundred . [Sadness] [Uneasiness]
+
+Here's a brief explanation for each line:
+
+* "Cannon to right of them," - This line creates a sense of suspense, hence the label Suspense.
+* "Cannon to left of them," - This line also creates a sense of suspense, hence the label Suspense.
+* "Cannon in front of them" - This line continues to build suspense, hence the label Suspense.
+* "Volley 'd and thunder 'd;" - This line conveys a sense of energy and vitality, hence the label Vitality.
+* "Storm 'd at with shot and shell," - This line also conveys a sense of energy and vitality, hence the label Vitality.
+* "Boldly they rode and well," - This line continues to convey a sense of energy and vitality, hence the label Vitality.
+* "Into the jaws of Death," - This line evokes a sense of sadness and uneasiness, hence the labels Sadness and Uneasiness.
+* "Into the mouth of Hell" - This line also evokes a sense of sadness and uneasiness, hence the labels Sadness and Uneasiness.
+* "Rode the six hundred." - This line continues to evoke a sense of sadness and uneasiness, hence the labels Sadness and Uneasiness.
+
+Note that the dominant emotion in this stanza is Suspense, with Vitality and Sadness/Uneasiness also present.
+Here's the annotated stanza:
+
+Flash "d all their sabres bare , [Vitality]
+Flash "d as they turn "d in air , [Vitality]
+Sabring the gunners there , [Vitality]
+Charging an army , while [Vitality]
+All the world wonder "d : [Suspense]
+Plunged in the battery-smoke [Uneasiness]
+Right thro ’ the line they broke ; [Suspense]
+Cossack and Russian [Sadness]
+Reel "d from the sabre-stroke [Uneasiness]
+Shatter "d and sunder "d . [Uneasiness]
+Then they rode back , but not [Sadness]
+Not the six hundred . [Sadness]
+
+Here's a brief explanation for each line:
+
+* "Flash 'd all their sabres bare," - This line conveys a sense of energy and vitality, hence the label Vitality.
+* "Flash 'd as they turn 'd in air," - This line continues to convey a sense of energy and vitality, hence the label Vitality.
+* "Sabring the gunners there," - This line also conveys a sense of energy and vitality, hence the label Vitality.
+* "Charging an army, while" - This line continues to convey a sense of energy and vitality, hence the label Vitality.
+* "All the world wonder 'd:" - This line creates a sense of suspense, hence the label Suspense.
+* "Plunged in the battery-smoke" - This line evokes a sense of uneasiness, hence the label Uneasiness.
+* "Right thro' the line they broke;" - This line creates a sense of suspense, hence the label Suspense.
+* "Cossack and Russian" - This line evokes a sense of sadness, hence the label Sadness.
+* "Reel 'd from the sabre-stroke" - This line evokes a sense of uneasiness, hence the label Uneasiness.
+* "Shatter 'd and sunder 'd." - This line evokes a sense of uneasiness, hence the label Uneasiness.
+* "Then they rode back, but not" - This line evokes a sense of sadness, hence the label Sadness.
+* "Not the six hundred." - This line continues to evoke a sense of sadness, hence the label Sadness.
+
+Note that the dominant emotion in this stanza is Vitality, with Suspense, Uneasiness, and Sadness also present.
+Here's the annotated stanza:
+
+Cannon to right of them , [Vitality]
+Cannon to left of them , [Vitality]
+Cannon behind them [Vitality]
+Volley "d and thunder "d ; [Vitality] [Suspense]
+Storm "d at with shot and shell , [Vitality] [Suspense]
+While horse and hero fell , [Sadness]
+They that had fought so well [Vitality]
+Came thro ’ the jaws of Death , [Sadness] [Uneasiness]
+Back from the mouth of Hell , [Sadness] [Uneasiness]
+All that was left of them , [Sadness]
+Left of six hundred . [Sadness]
+
+Here's a brief explanation for each line:
+
+* "Cannon to right of them," - This line conveys a sense of energy and vitality, hence the label Vitality.
+* "Cannon to left of them," - This line continues to convey a sense of energy and vitality, hence the label Vitality.
+* "Cannon behind them" - This line also conveys a sense of energy and vitality, hence the label Vitality.
+* "Volley 'd and thunder 'd;" - This line creates a sense of suspense and vitality, hence the labels Vitality and Suspense.
+* "Storm 'd at with shot and shell," - This line continues to create a sense of suspense and vitality, hence the labels Vitality and Suspense.
+* "While horse and hero fell," - This line evokes a sense of sadness, hence the label Sadness.
+* "They that had fought so well" - This line conveys a sense of vitality, hence the label Vitality.
+* "Came thro’ the jaws of Death," - This line evokes a sense of sadness and uneasiness, hence the labels Sadness and Uneasiness.
+* "Back from the mouth of Hell," - This line continues to evoke a sense of sadness and uneasiness, hence the labels Sadness and Uneasiness.
+* "All that was left of them," - This line evokes a sense of sadness, hence the label Sadness.
+* "Left of six hundred." - This line continues to evoke a sense of sadness, hence the label Sadness.
+
+Note that the dominant emotion in this stanza is Vitality, with Suspense, Sadness, and Uneasiness also present.
+Here's the annotated stanza:
+
+When can their glory fade ? [Vitality]
+O the wild charge they made ! [Vitality] [Suspense]
+All the world wondered . [Vitality] [Suspense]
+Honor the charge they made ! [Vitality]
+Honor the Light Brigade , [Vitality]
+Noble six hundred ! [Vitality]
+
+Here's a brief explanation for each line:
+
+* "When can their glory fade ?" - This line conveys a sense of vitality and energy, hence the label Vitality.
+* "O the wild charge they made !" - This line creates a sense of suspense and vitality, hence the labels Vitality and Suspense.
+* "All the world wondered ." - This line continues to convey a sense of vitality and suspense, hence the labels Vitality and Suspense.
+* "Honor the charge they made !" - This line conveys a sense of vitality, hence the label Vitality.
+* "Honor the Light Brigade ," - This line continues to convey a sense of vitality, hence the label Vitality.
+* "Noble six hundred !" - This line conveys a sense of vitality, hence the label Vitality.
+
+Note that the dominant emotion in this stanza is Vitality, with Suspense also present. The poem's language and imagery evoke a sense of energy, movement, and grandeur, which is reflected in the Vitality label. The Suspense label is added to lines 2 and 3, as they create a sense of tension and excitement, drawing the reader in.

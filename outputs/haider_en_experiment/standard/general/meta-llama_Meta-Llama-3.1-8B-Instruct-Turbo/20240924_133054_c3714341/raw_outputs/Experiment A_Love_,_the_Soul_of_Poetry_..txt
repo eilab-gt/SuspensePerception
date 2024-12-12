@@ -1,0 +1,81 @@
+To annotate the given stanza, I will go through each line and choose the most fitting label according to the guidelines.
+
+1. "When first Alexis did in Verse delight"
+   - This line evokes a sense of beauty and joy, as it's talking about someone delighting in verse. I will choose the label "Beauty/Joy".
+
+2. "His Muse in Low, but Graceful Numbers walk't"
+   - This line still conveys a sense of beauty and joy, as it's describing the Muse walking in low, yet graceful numbers. I will keep the label "Beauty/Joy".
+
+3. "And now and then a little Proudly stalk't"
+   - This line introduces a sense of pride, but it's still within the context of a beautiful and joyful scene. I will add the label "Vitality" to this line, as it conveys a sense of movement and energy.
+
+4. "But never aim'd at any noble Flight"
+   - This line introduces a sense of limitation or restraint, but it's still within the context of a beautiful and joyful scene. I will keep the label "Vitality" from the previous line, as it's still the dominant emotion.
+
+5. "The Herds, the Groves, the gentle purling Streams"
+   - This line evokes a sense of peace and serenity, which is closely related to beauty and joy. I will add the label "Beauty/Joy" to this line.
+
+6. "Adorn'd his Song, and were his highest Themes"
+   - This line emphasizes the beauty and joy of the song, and the themes are related to the natural world. I will keep the label "Beauty/Joy" from the previous line.
+
+The annotated stanza would be:
+When first Alexis did in Verse delight [Beauty/Joy]
+His Muse in Low, but Graceful Numbers walk't [Vitality] [Beauty/Joy]
+And now and then a little Proudly stalk't [Vitality] [Beauty/Joy]
+But never aim'd at any noble Flight [Vitality] [Beauty/Joy]
+The Herds, the Groves, the gentle purling Streams [Beauty/Joy]
+Adorn'd his Song, and were his highest Themes [Beauty/Joy]
+To annotate the given stanza, I will go through each line and choose the most fitting label according to the guidelines.
+
+1. "But Love these Thoughts, like Mists, did soon disperse"
+   - This line evokes a sense of calm and serenity, as it's talking about love dispelling thoughts like mists. I will choose the label "Beauty/Joy".
+
+2. "Enlarg'd his Fancy, and set free his Muse"
+   - This line conveys a sense of freedom and creativity, which is closely related to the previous line's sense of calm and serenity. I will keep the label "Beauty/Joy".
+
+3. "Biding him more Illustrious Subjects choose"
+   - This line introduces a sense of grandeur and importance, which is closely related to the concept of "God-like Men". I will add the label "Vitality" to this line, as it conveys a sense of movement and energy.
+
+4. "The Acts of Gods, and God-like Men reherse"
+   - This line emphasizes the grandeur and importance of the subjects, and introduces a sense of awe and reverence. I will keep the label "Vitality" from the previous line, as it's still the dominant emotion.
+
+5. "From thence new Raptures did his Breast inspire"
+   - This line conveys a sense of excitement and joy, which is closely related to the previous line's sense of grandeur and importance. I will add the label "Beauty/Joy" to this line.
+
+6. "His scarce Warm-Heart converted was to Fire"
+   - This line suggests a transformation from a lukewarm state to a more passionate and intense one, which is closely related to the previous line's sense of excitement and joy. I will keep the label "Beauty/Joy" from the previous line, as it's still the dominant emotion.
+
+The annotated stanza would be:
+But Love these Thoughts, like Mists, did soon disperse [Beauty/Joy]
+Enlarg'd his Fancy, and set free his Muse [Beauty/Joy] [Vitality]
+Biding him more Illustrious Subjects choose [Vitality] [Beauty/Joy]
+The Acts of Gods, and God-like Men reherse [Vitality] [Beauty/Joy]
+From thence new Raptures did his Breast inspire [Beauty/Joy]
+His scarce Warm-Heart converted was to Fire [Beauty/Joy]
+To annotate the given stanza, I will go through each line and choose the most fitting label according to the guidelines.
+
+1. "Th' exalted Poet rais'd by this new Flame"
+   - This line conveys a sense of uplift and inspiration, as the poet is raised by a new flame. I will choose the label "Vitality", as it conveys a sense of movement and energy.
+
+2. "With Vigor flys, where late he crept along"
+   - This line continues the idea of the poet being uplifted and inspired, and conveys a sense of movement and energy. I will keep the label "Vitality" from the previous line.
+
+3. "And Acts Divine, in a Diviner Song"
+   - This line emphasizes the poet's divine actions and the beauty of the song, which is closely related to the concept of poetry. I will add the label "Beauty/Joy" to this line.
+
+4. "Commits to the eternal Trompe of Fame"
+   - This line conveys a sense of grandeur and importance, as the poet commits to eternal fame. I will keep the label "Beauty/Joy" from the previous line, as it's still the dominant emotion.
+
+5. "And thus Alexis does prove Love to be"
+   - This line emphasizes the idea that love is a powerful force, which is closely related to the concept of poetry and the poet's actions. I will add the label "Beauty/Joy" to this line.
+
+6. "As the Worlds Soul, the Soul of Poetry"
+   - This line conveys a sense of unity and connection between the world and poetry, which is closely related to the concept of love and beauty. I will keep the label "Beauty/Joy" from the previous line, as it's still the dominant emotion.
+
+The annotated stanza would be:
+Th' exalted Poet rais'd by this new Flame [Vitality]
+With Vigor flys, where late he crept along [Vitality] [Beauty/Joy]
+And Acts Divine, in a Diviner Song [Beauty/Joy] [Vitality]
+Commits to the eternal Trompe of Fame [Beauty/Joy] [Vitality]
+And thus Alexis does prove Love to be [Beauty/Joy] [Vitality]
+As the Worlds Soul, the Soul of Poetry [Beauty/Joy]

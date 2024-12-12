@@ -1,0 +1,64 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion that matches the guidelines. I will use the provided examples as a reference.
+
+1. I met a traveller from an antique land
+   - This line does not evoke a strong emotion, so I will label it with "None" (not provided in the guidelines, but it's a neutral label).
+
+2. Who said : Two vast and trunkless legs of stone
+   - This line evokes a sense of awe and wonder, so I will label it with "Awe/Sublime".
+
+3. Stand in the desert ... Near them , on the sand ,
+   - This line does not evoke a strong emotion, so I will label it with "None".
+
+4. Half sunk , a shattered visage lies , whose frown ,
+   - This line evokes a sense of uneasiness and sadness, so I will label it with "Uneasiness".
+
+5. And wrinkled lip , and sneer of cold command ,
+   - This line evokes a sense of uneasiness and annoyance, so I will label it with "Uneasiness" and "Annoyance".
+
+6. Tell that its sculptor well those passions read
+   - This line does not evoke a strong emotion, so I will label it with "None".
+
+7. Which yet survive , stamped on these lifeless things ,
+   - This line evokes a sense of awe and wonder, so I will label it with "Awe/Sublime".
+
+8. The hand that mocked them , and the heart that fed :
+   - This line evokes a sense of uneasiness and annoyance, so I will label it with "Uneasiness" and "Annoyance".
+
+9. And on the pedestal these words appear :
+   - This line does not evoke a strong emotion, so I will label it with "None".
+
+10. ‘ My name is Ozymandias , king of kings :
+   - This line evokes a sense of uneasiness and annoyance, so I will label it with "Uneasiness" and "Annoyance".
+
+11. Look on my works , ye Mighty , and despair ! ’
+   - This line evokes a sense of uneasiness and annoyance, so I will label it with "Uneasiness" and "Annoyance".
+
+12. Nothing beside remains . 
+   - This line evokes a sense of sadness and uneasiness, so I will label it with "Sadness" and "Uneasiness".
+
+13. Round the decay
+   - This line does not evoke a strong emotion, so I will label it with "None".
+
+14. Of that colossal wreck , boundless and bare
+   - This line evokes a sense of awe and wonder, so I will label it with "Awe/Sublime".
+
+15. The lone and level sands stretch far away .
+   - This line evokes a sense of uneasiness and annoyance, so I will label it with "Uneasiness" and "Annoyance".
+
+The annotated stanza is:
+
+1. None
+2. Awe/Sublime
+3. None
+4. Uneasiness
+5. Uneasiness, Annoyance
+6. None
+7. Awe/Sublime
+8. Uneasiness, Annoyance
+9. None
+10. Uneasiness, Annoyance
+11. Uneasiness, Annoyance
+12. Sadness, Uneasiness
+13. None
+14. Awe/Sublime
+15. Uneasiness, Annoyance

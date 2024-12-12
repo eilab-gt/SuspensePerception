@@ -1,0 +1,127 @@
+Based on the guidelines provided, I will annotate the given stanza. 
+
+Since the stanza is very short, I will annotate the entire stanza as one unit. 
+
+The annotation for the stanza "?o / baby / i" could be:
+
+[Uncertainty/Uneasiness] 
+
+However, the provided labels don't explicitly include "Uncertainty." Given the context, I would choose the closest label, which is [Uneasiness], as the stanza's tone seems unsettling or disturbing due to the unclear meaning and the use of a question mark.
+
+Another possible annotation could be [Suspense] if the annotator feels that the stanza sparks their interest or curiosity.
+
+If the annotator feels that the stanza evokes a sense of cuteness or innocence, they could also annotate it as [Beauty/Joy]. However, this annotation might be less likely given the brevity and ambiguity of the stanza.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "wouldn't like" could be:
+
+[Annoyance] or [Sadness] or [Uneasiness]
+
+The choice of label depends on the annotator's interpretation of the phrase. If the annotator feels annoyed or frustrated by the phrase, they could choose [Annoyance]. If they feel sad or touched by the phrase, they could choose [Sadness]. If they feel uncomfortable or uneasy about the phrase, they could choose [Uneasiness].
+
+However, given the brevity and ambiguity of the phrase, [Uneasiness] might be the most fitting label, as it captures the sense of discomfort or uncertainty that the phrase may evoke.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "Death if Death / were / good:for" could be:
+
+[Uneasiness] [Suspense]
+
+The use of the word "Death" evokes a sense of uneasiness or discomfort, which is why [Uneasiness] is chosen as one of the labels. The phrase "if Death were good" creates a sense of uncertainty and raises questions about the nature of death, which sparks the reader's interest and curiosity, hence the label [Suspense].
+
+Alternatively, the annotation could also be [Sadness] [Suspense], as the mention of death can also evoke feelings of sadness or melancholy. However, given the conditional and speculative nature of the phrase, [Uneasiness] [Suspense] seems to be a more fitting annotation.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "when(instead of stopping to think)you" could be:
+
+[Suspense] [Uneasiness]
+
+The use of the word "instead of stopping to think" creates a sense of uncertainty and raises questions about what might happen next, which sparks the reader's interest and curiosity, hence the label [Suspense]. The phrase also implies a sense of urgency or impulsiveness, which might evoke feelings of uneasiness or discomfort, hence the label [Uneasiness].
+
+Alternatively, the annotation could also be [Suspense] alone, as the phrase seems to be setting up a situation or a decision that will have consequences, and the reader is left wondering what will happen next. However, the addition of [Uneasiness] captures the sense of potential discomfort or uncertainty that the phrase might evoke.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "begin to feel of it, dying / 's miraculous / why?be" could be:
+
+[Suspense] [Uneasiness]
+
+The phrase "begin to feel of it, dying" creates a sense of uncertainty and raises questions about what is happening, which sparks the reader's interest and curiosity, hence the label [Suspense]. The use of the word "dying" also evokes feelings of uneasiness or discomfort, hence the label [Uneasiness].
+
+The second line "'s miraculous" could be annotated as [Awe/Sublime] or [Vitality], as it implies a sense of wonder or amazement, but in the context of the entire stanza, [Suspense] and [Uneasiness] seem to be more dominant emotions.
+
+The third line "why?be" is a question that adds to the sense of uncertainty and curiosity, reinforcing the label [Suspense]. The use of the word "why" also implies a sense of confusion or disorientation, which could be annotated as [Uneasiness].
+
+Overall, the annotation [Suspense] [Uneasiness] captures the sense of uncertainty, curiosity, and discomfort that the stanza evokes.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "cause dying is" could be:
+
+[Sadness] [Uneasiness]
+
+The phrase "cause dying is" implies a sense of mortality and finality, which can evoke feelings of sadness and melancholy, hence the label [Sadness]. The use of the word "dying" also creates a sense of unease or discomfort, which is why [Uneasiness] is chosen as the second label.
+
+Alternatively, the annotation could also be [Sadness] alone, as the phrase seems to be focusing on the emotional impact of dying, rather than the unease or discomfort it may cause. However, the addition of [Uneasiness] captures the sense of discomfort or disturbance that the phrase may evoke.
+
+It's worth noting that the phrase "cause dying is" is quite short and open-ended, which may leave the reader wondering what comes next or what the cause of dying is. This could also be annotated as [Suspense], but in the context of the phrase, [Sadness] and [Uneasiness] seem to be more dominant emotions.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "perfectly natural; perfectly / putting / it mildly lively(but" could be:
+
+[Uneasiness] [Suspense]
+
+The phrase "perfectly natural" seems to be ironic or sarcastic, implying that something is not quite right or natural, which creates a sense of unease or discomfort, hence the label [Uneasiness]. The use of the word "perfectly" twice in a row also creates a sense of tension or emphasis, which adds to the unease.
+
+The phrase "putting / it mildly" is an idiomatic expression that implies that something is being understated or downplayed, which creates a sense of suspense or curiosity, hence the label [Suspense]. The reader is left wondering what is being referred to and what the consequences might be.
+
+The word "lively" is an adjective that typically has a positive connotation, but in this context, it seems to be used in a way that is ironic or sarcastic, which adds to the sense of unease or discomfort.
+
+The annotation [Uneasiness] [Suspense] captures the sense of tension, irony, and curiosity that the stanza evokes.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "Death" could be:
+
+[Sadness] [Uneasiness]
+
+The word "Death" is a powerful and evocative term that can evoke feelings of sadness and loss, hence the label [Sadness]. The use of the word "Death" also creates a sense of unease or discomfort, as it is a universal human fear, hence the label [Uneasiness].
+
+Alternatively, the annotation could also be [Awe/Sublime] [Sadness], as the concept of death can also evoke feelings of awe or reverence, especially in a poetic context. However, in the absence of any additional context or imagery, [Sadness] [Uneasiness] seems to be a more fitting annotation.
+
+It's worth noting that the annotation of a single word like "Death" can be subjective and dependent on the reader's personal experiences and associations. However, based on the guidelines provided, [Sadness] [Uneasiness] seems to be a reasonable and fitting annotation.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "is strictly / scientific / & artificial &" could be:
+
+[Uneasiness] [Suspense]
+
+The phrase "is strictly" implies a sense of rigidity or inflexibility, which can create a sense of unease or discomfort, hence the label [Uneasiness]. The use of the word "scientific" might seem neutral or objective, but in the context of the phrase, it could imply a sense of detachment or coldness, which adds to the unease.
+
+The word "artificial" has a negative connotation, implying something that is unnatural or fake, which can also evoke feelings of unease or discomfort. The use of the ampersand (&) symbol instead of the word "and" creates a sense of abruptness or disjointedness, which adds to the unease.
+
+The phrase as a whole seems to be setting up a sense of tension or contrast, which creates a sense of suspense or curiosity, hence the label [Suspense]. The reader is left wondering what is being described or what the implications of this description might be.
+
+Alternatively, the annotation could also be [Uneasiness] alone, as the phrase seems to be focusing on the sense of discomfort or unease that the words evoke. However, the addition of [Suspense] captures the sense of tension or curiosity that the phrase creates.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "evil & legal)" could be:
+
+[Uneasiness] [Suspense]
+
+The word "evil" has a strong negative connotation, implying something that is malevolent or wicked, which can create a sense of unease or discomfort, hence the label [Uneasiness]. The use of the word "evil" also creates a sense of tension or foreboding, which adds to the unease.
+
+The word "legal" is a neutral term, but in the context of the phrase, it seems to be used in a way that is ironic or contradictory, implying that something that is evil is also somehow legitimate or justified. This creates a sense of cognitive dissonance or unease, which reinforces the label [Uneasiness].
+
+The phrase as a whole seems to be setting up a sense of tension or conflict, which creates a sense of suspense or curiosity, hence the label [Suspense]. The reader is left wondering what the implications of this phrase might be, and how the concepts of evil and legality are being used in this context.
+
+Alternatively, the annotation could also be [Uneasiness] alone, as the phrase seems to be focusing on the sense of discomfort or unease that the words evoke. However, the addition of [Suspense] captures the sense of tension or curiosity that the phrase creates.
+Based on the guidelines provided, I will annotate the given stanza.
+
+The annotation for the stanza "we thank thee / god / almighty for dying / (forgive us, o life! the sin of Death" could be:
+
+[Sadness] [Uneasiness]
+
+The phrase "we thank thee / god / almighty" is a formal and reverent expression of gratitude, but the object of this gratitude is "dying", which is a negative and somber concept. This creates a sense of irony or contradiction, which can evoke feelings of sadness and unease, hence the labels [Sadness] and [Uneasiness].
+
+The use of the word "dying" also creates a sense of finality and mortality, which can be unsettling or disturbing, hence the label [Uneasiness]. The phrase "forgive us, o life! the sin of Death" is a plea for forgiveness, which implies that the speaker feels guilty or responsible for something, which adds to the sense of sadness and unease.
+
+The annotation [Sadness] [Uneasiness] captures the sense of somberness, irony, and guilt that the stanza evokes. Alternatively, the annotation could also be [Sadness] alone, as the stanza seems to be focusing on the negative emotions of sadness and guilt. However, the addition of [Uneasiness] captures the sense of disturbance or discomfort that the stanza creates.
+
+It's worth noting that the stanza seems to be exploring the themes of mortality, guilt, and forgiveness, which are complex and emotionally charged topics. The annotation [Sadness] [Uneasiness] seems to be a fitting reflection of the emotions that the stanza evokes.

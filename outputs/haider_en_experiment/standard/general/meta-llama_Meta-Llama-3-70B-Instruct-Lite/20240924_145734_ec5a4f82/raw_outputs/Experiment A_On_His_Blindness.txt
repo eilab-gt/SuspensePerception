@@ -1,0 +1,78 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. The guide provides 9 labels for categorizing emotions, along with examples and instructions for annotators. Here's a breakdown of the guide:
+
+**Labels and Categories**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - must be used with another label (Beauty/Joy or Sadness)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually (not sentence).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. Use no more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard Examples**
+
+The guide provides examples for each label, which serve as an orientation for annotators. These examples help illustrate how to apply the labels in practice.
+
+By following this guide, annotators can ensure consistency and accuracy in labeling aesthetic emotions in poetry, which is essential for achieving agreement among annotators and understanding the subjective emotional responses to poetry.
+Please annotate the stanza below using the guidelines provided:
+
+To serve therewith my Maker, and present
+My true account, lest He returning chide,
+“Doth God exact day-labour, light denied?”
+I fondly ask. But Patience, to prevent
+
+Here is the annotated stanza:
+
+To serve therewith my Maker, and present [Awe/Sublime]
+My true account, lest He returning chide, [Sadness]
+“Doth God exact day-labour, light denied?” [Suspense]
+I fondly ask. But Patience, to prevent [Vitality]
+
+Rationale:
+
+* The first line evokes a sense of awe and sublimity, as it mentions serving one's Maker, which is a profound and overwhelming concept.
+* The second line creates a sense of sadness, as it implies the possibility of being chided by God, which is a negative and uncomfortable feeling.
+* The third line sparks interest and suspense, as it raises a question about God's nature and behavior, which is a thought-provoking and intriguing idea.
+* The fourth line conveys a sense of vitality and inspiration, as it encourages patience and prevention, which is an uplifting and motivational message.
+Here is the annotated stanza:
+
+That murmur, soon replies, “God doth not need [Awe/Sublime]
+Either man’s work or his own gifts. [Awe/Sublime]
+Who best [Beauty/Joy]
+Bear his mild yoke, they serve him best. [Vitality]
+His state [Awe/Sublime]
+
+Rationale:
+
+* The first line evokes a sense of awe and sublimity, as it mentions God and the idea that God does not need human work or gifts, which is a profound and overwhelming concept.
+* The second line continues to inspire awe and sublimity, as it reinforces the idea of God's power and independence.
+* The third line creates a sense of beauty and joy, as it implies that those who bear God's yoke serve Him best, which is a positive and uplifting idea.
+* The fourth line conveys a sense of vitality and inspiration, as it suggests that serving God is a active and empowering experience.
+* The fifth line returns to a sense of awe and sublimity, as it mentions God's state, which is a concept that inspires reverence and wonder.
+Here is the annotated stanza:
+
+Is kingly: thousands at his bidding speed, [Awe/Sublime]
+And post o’er land and ocean without rest; [Vitality]
+They also serve who only stand and wait.” [Beauty/Joy]
+
+Rationale:
+
+* The first line evokes a sense of awe and sublimity, as it describes a king's power and authority, which is an overwhelming concept.
+* The second line conveys a sense of vitality, as it describes the king's messengers moving quickly and efficiently across the land and ocean, which suggests energy and movement.
+* The third line creates a sense of beauty and joy, as it suggests that even those who stand and wait are serving, which is a positive and uplifting idea.

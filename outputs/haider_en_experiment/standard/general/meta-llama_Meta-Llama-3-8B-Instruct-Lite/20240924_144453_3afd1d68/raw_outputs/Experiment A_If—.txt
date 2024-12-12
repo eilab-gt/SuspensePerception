@@ -1,0 +1,47 @@
+Here is the annotation of the stanza:
+
+* "If you can keep your head when all about you / Are losing theirs and blaming it on you," [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "If you can trust yourself when all men doubt you," [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "But make allowance for their doubting too;" [Sadness] [Annoyance] (the line continues to evoke feelings of sadness and frustration)
+* "If you can wait and not be tired by waiting," [Vitality] (the line conveys a sense of determination and energy)
+* "Or being lied about, don’t deal in lies," [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "Or being hated, don’t give way to hating," [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "And yet don’t look too good, nor talk too wise:" [Sadness] [Annoyance] (the line concludes the stanza with a sense of resignation and frustration)
+
+Note: The dominant emotion in this stanza is Sadness/Annoyance, with a hint of Vitality in the line "If you can wait and not be tired by waiting". The overall tone is one of sadness and frustration, with a sense of resignation and hopelessness.
+Here is the annotation of the stanza:
+
+* "If you can dream—and not make dreams your master;" [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "If you can think—and not make thoughts your aim;" [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "If you can meet with Triumph and Disaster" [Vitality] (the line conveys a sense of determination and energy)
+* "And treat those two impostors just the same;" [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "If you can bear to hear the truth you’ve spoken" [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "Twisted by knaves to make a trap for fools," [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "Or watch the things you gave your life to, broken," [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "And stoop and build 'em up with worn-out tools:" [Sadness] [Annoyance] (the line concludes the stanza with a sense of resignation and frustration)
+
+Note: The dominant emotion in this stanza is Sadness/Annoyance, with a hint of Vitality in the line "If you can meet with Triumph and Disaster". The overall tone is one of sadness and frustration, with a sense of resignation and hopelessness.
+Here is the annotation of the stanza:
+
+* "If you can make one heap of all your winnings" [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "And risk it on one turn of pitch-and-toss," [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "And lose, and start again at your beginnings" [Sadness] [Annoyance] (the line concludes the stanza with a sense of resignation and frustration)
+* "And never breathe a word about your loss;" [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "If you can force your heart and nerve and sinew" [Vitality] (the line conveys a sense of determination and energy)
+* "To serve your turn long after they are gone," [Vitality] (the line reinforces the sense of determination and energy)
+* "And so hold on when there is nothing in you" [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "Except the Will which says to them: ‘Hold on!’" [Vitality] (the line conveys a sense of determination and energy)
+
+Note: The dominant emotion in this stanza is Sadness/Annoyance, with a hint of Vitality in the lines "If you can force your heart and nerve and sinew" and "And so hold on when there is nothing in you". The overall tone is one of sadness and frustration, with a sense of resignation and hopelessness.
+Here is the annotation of the stanza:
+
+* "If you can talk with crowds and keep your virtue," [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "Or walk with Kings—nor lose the common touch," [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "If neither foes nor loving friends can hurt you," [Sadness] [Annoyance] (the line evokes feelings of sadness and frustration)
+* "If all men count with you, but none too much;" [Sadness] [Annoyance] (the line reinforces the feelings of sadness and frustration)
+* "If you can fill the unforgiving minute" [Vitality] (the line conveys a sense of determination and energy)
+* "With sixty seconds’ worth of distance run," [Vitality] (the line reinforces the sense of determination and energy)
+* "Yours is the Earth and everything that’s in it," [Beauty/Joy] (the line conveys a sense of joy and beauty)
+* "And—which is more—you’ll be a Man, my son!" [Vitality] (the line conveys a sense of inspiration and encouragement)
+
+Note: The dominant emotion in this stanza is Sadness/Annoyance, with a hint of Vitality and Beauty/Joy. The overall tone is one of sadness and frustration, with a sense of determination and energy, and a hint of joy and beauty.

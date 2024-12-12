@@ -1,0 +1,57 @@
+To annotate the given stanza, we will follow the guidelines provided and label the emotions triggered in each line.
+
+1. How do I love thee? Let me count the ways.
+   - This line is more of an introduction to the poem, and it doesn't evoke a strong emotion. However, it does set a tone for the rest of the poem, which is one of love and devotion. 
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+2. I love thee to the depth and breadth and height
+   - This line is a declaration of love and its depth. It evokes a sense of grandeur and beauty.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+3. My soul can reach, when feeling out of sight
+   - This line continues the theme of love and its depth. It's a beautiful expression of the speaker's emotions.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+4. For the ends of being and ideal grace.
+   - This line is a poetic expression of the speaker's love. It's a beautiful and idealistic statement.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+5. I love thee to the level of every day"s
+   - This line brings the speaker's love down to a more mundane level, but it's still a beautiful expression of devotion.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+6. Most quiet need, by sun and candle-light.
+   - This line is a peaceful and serene expression of the speaker's love. It evokes a sense of warmth and comfort.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+7. I love thee freely, as men strive for right.
+   - This line is a statement of the speaker's love and its freedom. It's a beautiful expression of devotion.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+8. I love thee purely, as they turn from praise.
+   - This line is a statement of the speaker's love and its purity. It's a beautiful expression of devotion.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+9. I love thee with the passion put to use
+   - This line is a statement of the speaker's love and its passion. It's a beautiful expression of devotion.
+   - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+10. In my old griefs, and with my childhood"s faith.
+    - This line brings a sense of nostalgia and longing to the poem. It's a bittersweet expression of the speaker's love.
+    - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) + Nostalgia (makes me nostalgic)
+
+11. I love thee with a love I seemed to lose
+    - This line is a statement of the speaker's love and its endurance. It's a beautiful expression of devotion.
+    - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+12. With my lost saints. I love thee with the breath,
+    - This line is a statement of the speaker's love and its depth. It's a beautiful expression of devotion.
+    - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+13. Smiles, tears, of all my life; and, if God choose,
+    - This line is a statement of the speaker's love and its universality. It's a beautiful expression of devotion.
+    - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+14. I shall but love thee better after death.
+    - This line is a statement of the speaker's love and its eternity. It's a beautiful expression of devotion.
+    - Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)

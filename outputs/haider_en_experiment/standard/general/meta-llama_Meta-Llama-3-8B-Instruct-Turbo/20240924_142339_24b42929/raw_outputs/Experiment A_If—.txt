@@ -1,0 +1,80 @@
+Here is the annotation of the stanza:
+
+1. If you can keep your head when all about you
+	* Vitality (found it invigorating/spurs me on/inspires me)
+2. Are losing theirs and blaming it on you,
+	* Sadness (makes me sad/touches me)
+3. If you can trust yourself when all men doubt you,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+4. But make allowance for their doubting too;
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+5. If you can wait and not be tired by waiting,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+6. Or being lied about, don’t deal in lies,
+	* Sadness (makes me sad/touches me)
+7. Or being hated, don’t give way to hating,
+	* Sadness (makes me sad/touches me)
+8. And yet don’t look too good, nor talk too wise:
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+
+Note: The annotator should use as few emotions as possible and choose the emotion most dominant while reading the stanza.
+Here is the annotation of the stanza:
+
+1. If you can dream—and not make dreams your master;
+	* Vitality (found it invigorating/spurs me on/inspires me)
+2. If you can think—and not make thoughts your aim;
+	* Vitality (found it invigorating/spurs me on/inspires me)
+3. If you can meet with Triumph and Disaster
+	* Suspense (found it gripping/sparked my interest)
+4. And treat those two impostors just the same;
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+5. If you can bear to hear the truth you’ve spoken
+	* Sadness (makes me sad/touches me)
+6. Twisted by knaves to make a trap for fools,
+	* Sadness (makes me sad/touches me)
+7. Or watch the things you gave your life to, broken,
+	* Sadness (makes me sad/touches me)
+8. And stoop and build ’em up with worn-out tools:
+	* Vitality (found it invigorating/spurs me on/inspires me)
+
+Note: The annotator should use as few emotions as possible and choose the emotion most dominant while reading the stanza.
+Here is the annotation of the stanza:
+
+1. If you can make one heap of all your winnings
+	* Vitality (found it invigorating/spurs me on/inspires me)
+2. And risk it on one turn of pitch-and-toss,
+	* Suspense (found it gripping/sparked my interest)
+3. And lose, and start again at your beginnings
+	* Sadness (makes me sad/touches me)
+4. And never breathe a word about your loss;
+	* Sadness (makes me sad/touches me)
+5. If you can force your heart and nerve and sinew
+	* Vitality (found it invigorating/spurs me on/inspires me)
+6. To serve your turn long after they are gone,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+7. And so hold on when there is nothing in you
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. Except the Will which says to them: ‘Hold on!’
+	* Vitality (found it invigorating/spurs me on/inspires me)
+
+Note: The annotator should use as few emotions as possible and choose the emotion most dominant while reading the stanza.
+Here is the annotation of the stanza:
+
+1. If you can talk with crowds and keep your virtue,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+2. Or walk with Kings—nor lose the common touch,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+3. If neither foes nor loving friends can hurt you,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+4. If all men count with you, but none too much;
+	* Vitality (found it invigorating/spurs me on/inspires me)
+5. If you can fill the unforgiving minute
+	* Suspense (found it gripping/sparked my interest)
+6. With sixty seconds’ worth of distance run,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+7. Yours is the Earth and everything that’s in it,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. And—which is more—you’ll be a Man, my son!
+	* Vitality (found it invigorating/spurs me on/inspires me)
+
+Note: The annotator should use as few emotions as possible and choose the emotion most dominant while reading the stanza.

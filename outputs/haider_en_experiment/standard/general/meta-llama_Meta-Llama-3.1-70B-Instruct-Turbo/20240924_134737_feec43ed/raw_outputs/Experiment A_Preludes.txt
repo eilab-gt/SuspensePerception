@@ -1,0 +1,93 @@
+Based on the provided guidelines, I will annotate the given stanza:
+
+The winter evening settles down [Sadness] [Uneasiness]
+With smell of steaks in passageways . [Sadness]
+Six o"clock . [Sadness]
+The burnt-out ends of smoky days . [Sadness] [Uneasiness]
+And now a gusty shower wraps [Uneasiness]
+The grimy scraps [Uneasiness]
+Of withered leaves about your feet [Sadness]
+And newspapers from vacant lots ; [Sadness]
+The showers beat [Uneasiness]
+On broken blinds and chimney-pots , [Uneasiness]
+And at the corner of the street [Sadness]
+A lonely cab-horse steams and stamps . [Sadness]
+And then the lighting of the lamps . [Sadness]
+
+Explanation:
+- The overall atmosphere of the stanza is gloomy and melancholic, which is why I chose "Sadness" as the dominant emotion for most of the lines.
+- The description of the "burnt-out ends of smoky days" and "grimy scraps" creates a sense of unease, which is why I added "Uneasiness" to some lines.
+- The image of the "lonely cab-horse" also evokes a sense of sadness.
+- The "lighting of the lamps" might be seen as a symbol of hope or comfort, but in this context, it seems to be more of a reminder of the bleakness of the scene, so I chose "Sadness" for this line as well.
+
+Note: The annotator's subjective emotions might differ, but based on the guidelines, this annotation seems to be the most fitting.
+Based on the provided guidelines, I will annotate the given stanza:
+
+The morning comes to consciousness [Uneasiness]
+Of faint stale smells of beer [Uneasiness]
+From the sawdust-trampled street [Uneasiness]
+With all its muddy feet that press [Uneasiness]
+To early coffee-stands . [Sadness]
+With the other masquerades [Uneasiness]
+That time resumes , [Uneasiness]
+One thinks of all the hands [Sadness]
+That are raising dingy shades [Sadness]
+In a thousand furnished rooms . [Sadness]
+
+Explanation:
+- The overall atmosphere of the stanza is gloomy and melancholic, with a focus on the unpleasant aspects of city life, which is why I chose "Uneasiness" as the dominant emotion for most of the lines.
+- The description of "faint stale smells of beer" and "sawdust-trampled street" creates a sense of discomfort, which is why I chose "Uneasiness" for these lines.
+- The image of "muddy feet" and "dingy shades" also evokes a sense of unease.
+- The lines "To early coffee-stands", "One thinks of all the hands", and "In a thousand furnished rooms" seem to be more melancholic and sad, which is why I chose "Sadness" for these lines.
+- The overall tone of the stanza is quite bleak, which is why I didn't choose any other emotions like "Beauty/Joy" or "Vitality".
+Based on the provided guidelines, I will annotate the given stanza:
+
+You tossed a blanket from the bed , [Uneasiness]
+You lay upon your back , and waited ; [Uneasiness]
+You dozed , and watched the night revealing [Uneasiness]
+The thousand sordid images [Uneasiness]
+Of which your soul was constituted ; [Sadness]
+They flickered against the ceiling . [Uneasiness]
+And when all the world came back [Sadness]
+And the light crept up between the shutters , [Sadness]
+And you heard the sparrows in the gutters , [Sadness]
+You had such a vision of the street [Uneasiness]
+As the street hardly understands ; [Sadness]
+Sitting along the bed "s edge , where [Sadness]
+You curled the papers from your hair , [Sadness]
+Or clasped the yellow soles of feet [Uneasiness]
+In the palms of both soiled hands . [Uneasiness]
+
+Explanation:
+- The overall atmosphere of the stanza is melancholic and introspective, with a focus on the speaker's inner world, which is why I chose "Uneasiness" and "Sadness" as the dominant emotions.
+- The description of "thousand sordid images" and "soiled hands" creates a sense of discomfort and unease, which is why I chose "Uneasiness" for these lines.
+- The image of the speaker lying in bed, waiting, and watching the night reveal their inner world is quite melancholic, which is why I chose "Sadness" for some lines.
+- The lines "And when all the world came back" and "And the light crept up between the shutters" seem to be more sad and melancholic, which is why I chose "Sadness" for these lines.
+- The overall tone of the stanza is quite bleak and introspective, which is why I didn't choose any other emotions like "Beauty/Joy" or "Vitality".
+Based on the provided guidelines, I will annotate the given stanza:
+
+His soul stretched tight across the skies [Uneasiness]
+That fade behind a city block , [Sadness]
+Or trampled by insistent feet [Sadness]
+At four and five and six o"clock [Sadness]
+And short square fingers stuffing pipes , [Uneasiness]
+And evening newspapers , and eyes [Uneasiness]
+Assured of certain certainties , [Uneasiness]
+The conscience of a blackened street [Sadness]
+Impatient to assume the world . [Sadness]
+I am moved by fancies that are curled [Nostalgia] [Sadness]
+Around these images , and cling : [Nostalgia] [Sadness]
+The notion of some infinitely gentle [Beauty/Joy]
+Infinitely suffering thing . [Sadness]
+Wipe your hand across your mouth , and laugh ; [Humor]
+The worlds revolve like ancient women [Uneasiness]
+Gathering fuel in vacant lots . [Sadness]
+
+Explanation:
+- The overall atmosphere of the stanza is melancholic and introspective, with a focus on the contrast between the individual's soul and the harsh realities of city life, which is why I chose "Uneasiness" and "Sadness" as the dominant emotions.
+- The description of the soul being "trampled by insistent feet" and "blackened street" creates a sense of discomfort and unease, which is why I chose "Uneasiness" for these lines.
+- The image of the "conscience of a blackened street" is quite melancholic, which is why I chose "Sadness" for this line.
+- The lines "I am moved by fancies that are curled / Around these images, and cling" seem to be more nostalgic and sad, which is why I chose "Nostalgia" and "Sadness" for these lines.
+- The line "The notion of some infinitely gentle / Infinitely suffering thing" is a contrast to the rest of the stanza, and it evokes a sense of beauty and joy, which is why I chose "Beauty/Joy" for this line.
+- The line "Wipe your hand across your mouth, and laugh" seems to be more humorous, which is why I chose "Humor" for this line.
+- The overall tone of the stanza is quite bleak and introspective, which is why I didn't choose any other emotions like "Vitality" or "Awe/Sublime".

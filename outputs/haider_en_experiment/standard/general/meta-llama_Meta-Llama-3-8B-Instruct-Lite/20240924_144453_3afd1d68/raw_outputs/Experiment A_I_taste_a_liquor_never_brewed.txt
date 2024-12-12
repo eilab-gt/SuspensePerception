@@ -1,0 +1,36 @@
+Here is the annotation of the stanza:
+
+I taste a liquor never brewed , [Beauty/Joy]
+From tankards scooped in pearl ; [Beauty/Joy]
+Not all the vats upon the Rhine [Beauty/Joy]
+Yield such an alcohol !
+
+Reasoning:
+The use of words like "brewed", "pearl", and "alcohol" evoke a sense of luxury and refinement, which is typically associated with positive emotions like joy and beauty. The speaker's experience of the liquor is described as unique and exceptional, which adds to the sense of pleasure and delight.
+Here is the annotation of the stanza:
+
+Inebriate of air am I , [Beauty/Joy]
+And debauchee of dew , [Beauty/Joy]
+Reeling , through endless summer days , [Vitality]
+From inns of molten blue . [Vitality]
+
+Reasoning:
+The use of words like "inebriate", "debauchee", and "molten" evoke a sense of luxury and excess, which is typically associated with positive emotions like joy and beauty. The image of "endless summer days" and "inns of molten blue" suggests a sense of freedom and vitality, which is reinforced by the use of the word "reeling", implying a sense of movement and energy.
+Here is the annotation of the stanza:
+
+When landlords turn the drunken bee [Vitality]
+Out of the foxglove "s door , [Vitality]
+When butterflies renounce their drams , [Vitality]
+I shall but drink the more ! [Vitality]
+
+Reasoning:
+The use of words like "drunken bee", "foxglove", and "butterflies" evoke a sense of whimsy and playfulness, which is typically associated with positive emotions like joy and vitality. The speaker's declaration to "drink the more" suggests a sense of liberation and abandon, which is also characteristic of the label "vitality".
+Here is the annotation of the stanza:
+
+Till seraphs swing their snowy hats , [Vitality]
+And saints to windows run , [Vitality]
+To see the little tippler [Vitality]
+Leaning against the sun ! [Vitality]
+
+Reasoning:
+The use of words like "seraphs", "saints", and "sun" evoke a sense of grandeur and beauty, which is typically associated with positive emotions like joy and vitality. The image of "little tippler" leaning against the sun suggests a sense of carefree abandon, which is also characteristic of the label "vitality".

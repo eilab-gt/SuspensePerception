@@ -1,0 +1,21 @@
+Here is the annotation of the stanza:
+
+Some say the world will end in fire, [Sadness] [Annoyance]
+Some say in ice. [Sadness] [Annoyance]
+From what I’ve tasted of desire
+I hold with those who favor fire. [Beauty/Joy] [Vitality]
+But if it had to perish twice, [Sadness] [Annoyance]
+I think I know enough of hate [Sadness]
+To say that for destruction ice [Sadness] [Annoyance]
+Is also great [Beauty/Joy] [Vitality]
+And would suffice. [Sadness] [Annoyance]
+
+Note:
+
+* The annotator feels a sense of sadness and annoyance when reading the first two lines, as the idea of the world ending is a disturbing and unpleasant thought.
+* The third line, "I hold with those who favor fire", evokes a sense of beauty and joy, as the speaker is drawn to the passion and desire associated with fire.
+* The fourth and fifth lines, "But if it had to perish twice, I think I know enough of hate", evoke a sense of sadness and annoyance, as the speaker is reflecting on the destructive power of hate.
+* The sixth line, "To say that for destruction ice Is also great", evokes a sense of beauty and joy, as the speaker is acknowledging the power and beauty of ice.
+* The final line, "And would suffice", evokes a sense of sadness and annoyance, as the speaker is accepting the inevitability of destruction.
+
+Overall, the annotator feels a mix of emotions while reading this stanza, including sadness, annoyance, beauty, joy, and vitality.

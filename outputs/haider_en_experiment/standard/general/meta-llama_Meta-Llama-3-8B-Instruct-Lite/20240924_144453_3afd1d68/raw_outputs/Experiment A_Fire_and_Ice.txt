@@ -1,0 +1,13 @@
+Here is the annotated stanza:
+
+* "Some say the world will end in fire," [Awe/Sublime]
+* "Some say in ice." [Awe/Sublime]
+* "From what I’ve tasted of desire" [Beauty/Joy]
+* "I hold with those who favor fire." [Beauty/Joy]
+* "But if it had to perish twice," [Sadness]
+* "I think I know enough of hate" [Sadness]
+* "To say that for destruction ice" [Sadness]
+* "Is also great" [Sadness]
+* "And would suffice." [Sadness]
+
+Note: The emotions are subjective and may vary from person to person. This is just one possible annotation.

@@ -1,0 +1,24 @@
+Here is the annotated stanza:
+
+HOW soon hath Time, the subtle thief of youth, [Sadness]
+Stolen on his wing my three and twentieth year! [Sadness]
+My hasting days fly on with full career, [Vitality]
+But my late spring no bud or blossom shew’th. [Sadness]
+Perhaps my semblance might deceive the truth, [Annoyance]
+That I to manhood am arrived so near, [Sadness]
+And inward ripeness doth much less appear, [Sadness]
+That some more timely-happy spirits indu’th. [Sadness]
+Yet be it less or more, or soon or slow, [Vitality]
+It shall be still in strictest measure even [Vitality]
+To that same lot, however mean or high, [Vitality]
+Toward which Time leads me, and the will of Heaven, [Sadness]
+All is, if I have grace to use it so, [Annoyance]
+As ever in my great Task-master’s eye [Sadness]
+
+Note: I used the following labels:
+
+* Sadness: 6 times (lines 2, 3, 5, 6, 8, 9)
+* Vitality: 3 times (lines 4, 7, 10)
+* Annoyance: 2 times (lines 5, 12)
+
+I chose these labels based on the emotions evoked by the poem, such as a sense of loss and longing (Sadness), a sense of energy and movement (Vitality), and a sense of frustration and disappointment (Annoyance).

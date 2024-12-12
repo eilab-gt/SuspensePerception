@@ -1,0 +1,93 @@
+Based on the guidelines provided, I will annotate the stanza:
+
+?o
+baby
+i
+
+* Label: Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+* Reasoning: The use of the word "baby" and the affectionate tone of the phrase "i" creates a sense of warmth and tenderness, which evokes feelings of joy and beauty.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Beauty/Joy as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+wouldn"t like
+
+* Label: Annoyance (annoys me, angers me, felt frustrated)
+* Reasoning: The use of the phrase "wouldn't like" implies a sense of disapproval or dislike, which triggers feelings of annoyance.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Annoyance as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+Death if Death
+were
+good:for
+
+* Label: Annoyance (annoys me, angers me, felt frustrated)
+* Reasoning: The phrase "Death if Death were good" is a contradictory statement that may evoke feelings of annoyance or frustration, as it is unclear what the speaker means by "good" in the context of death.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Annoyance as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+when(instead of stopping to think)you
+
+* Label: Annoyance (annoys me, angers me, felt frustrated)
+* Reasoning: The phrase "when (instead of stopping to think) you" is a contradictory statement that may evoke feelings of annoyance or frustration, as it is unclear what the speaker means by "stopping to think" in the context of the sentence.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Annoyance as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+begin to feel of it,dying
+"s miraculous
+why?be
+
+* Label: Annoyance (annoys me, angers me, felt frustrated)
+* Reasoning: The use of the phrase "dying" and the question "why?" may evoke feelings of annoyance or frustration, as the speaker's emotions seem to be unclear or unresolved.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Annoyance as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+cause dying is
+
+* Label: Annoyance (annoys me, angers me, felt frustrated)
+* Reasoning: The phrase "cause dying is" may evoke feelings of annoyance or frustration, as it seems to be a sudden and unexpected statement that may not provide clear context or explanation.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Annoyance as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+perfectly natural;perfectly
+putting
+it mildly lively(but
+
+* Label: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+* Reasoning: The use of the phrase "perfectly natural" and "perfectly" creates a sense of harmony and balance, which can evoke feelings of beauty and joy. The phrase "putting it mildly lively" also suggests a sense of liveliness and energy, which can add to the overall sense of joy and beauty.
+
+Note: Since this is a short stanza, it's possible that the annotator may choose to label it with only one emotion. However, in this case, I've chosen to label it with Beauty/Joy as it seems to be the dominant emotion evoked by the text.
+Based on the guidelines provided, I will annotate the stanza:
+
+Death
+
+* Label: Sadness (makes me sad/touches me)
+* Reasoning: The word "Death" is often associated with sadness and can evoke feelings of melancholy and loss.
+Based on the guidelines provided, I will annotate the stanza:
+
+is strictly
+scientific
+&amp; artificial &amp;
+
+* Label: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+* Reasoning: The use of words like "strictly", "scientific", and "artificial" may evoke feelings of discomfort or uneasiness, as they suggest a lack of natural or organic qualities.
+Based on the guidelines provided, I will annotate the stanza:
+
+evil &amp; legal)
+
+* Label: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+* Reasoning: The combination of words "evil" and "legal" may evoke feelings of discomfort or uneasiness, as it suggests a blurring of moral boundaries or a sense of moral ambiguity.
+Based on the guidelines provided, I will annotate the stanza:
+
+we thank thee
+god
+almighty for dying
+(forgive us,o life!the sin of Death
+
+* Label: Sadness (makes me sad/touches me)
+* Reasoning: The phrase "for dying" and the request to "forgive us, o life!" evoke feelings of sadness and mortality. The use of the word "sin" also adds a sense of sorrow and regret.

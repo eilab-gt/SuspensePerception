@@ -1,0 +1,44 @@
+To annotate the given stanza, we will follow the guidelines and instructions provided. We will read the entire stanza before annotating each line, and use as few emotions as possible.
+
+1. I was angry with my friend :
+   - The line describes a situation where the speaker is angry, but the tone is neutral, so we can label it as [Annoyance].
+
+2. I told my wrath , my wrath did end .
+   - The line describes the resolution of the speaker's anger after expressing it, which can be seen as a positive outcome. We can label it as [Beauty/Joy].
+
+3. I was angry with my foe :
+   - Similar to the first line, the speaker is angry, but the tone is neutral. We can label it as [Annoyance].
+
+4. I told it not , my wrath did grow .
+   - The line describes the negative consequence of not expressing the speaker's anger, which can evoke a sense of unease or discomfort. We can label it as [Uneasiness].
+
+The annotated stanza would be:
+
+1. I was angry with my friend : [Annoyance]
+2. I told my wrath , my wrath did end . [Beauty/Joy]
+3. I was angry with my foe : [Annoyance]
+4. I told it not , my wrath did grow . [Uneasiness]
+
+Note that we have chosen the most dominant emotion for each line and used as few emotions as possible.
+To annotate the given stanza, we will follow the guidelines and instructions provided. We will read the entire stanza before annotating each line, and use as few emotions as possible.
+
+1. And I watered it in fears
+   - The line describes a situation where the speaker is nurturing something with their fears, which can evoke a sense of unease or discomfort. We can label it as [Uneasiness].
+
+2. Night and morning with my tears ,
+   - The line describes the speaker's emotional state, crying at night and morning, which can evoke feelings of sadness. We can label it as [Sadness].
+
+3. And I sunned it with smiles
+   - The line describes a contrast to the previous line, where the speaker is now using their smiles to nurture something, which can evoke a sense of beauty or joy. We can label it as [Beauty/Joy].
+
+4. And with soft deceitful wiles .
+   - The line describes the speaker's use of deceitful tactics, which can evoke a sense of unease or discomfort. We can label it as [Uneasiness].
+
+The annotated stanza would be:
+
+1. And I watered it in fears [Uneasiness]
+2. Night and morning with my tears , [Sadness]
+3. And I sunned it with smiles [Beauty/Joy]
+4. And with soft deceitful wiles . [Uneasiness]
+
+Note that we have chosen the most dominant emotion for each line and used as few emotions as possible.

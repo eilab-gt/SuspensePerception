@@ -1,0 +1,42 @@
+This is a guidelines document for annotators to label aesthetic emotions in poetry. The document provides a set of 9 labels, each corresponding to a category of emotion, along with examples and instructions for annotating. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem
+* Label each line individually (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Do not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+
+The document also provides examples for each label, which serve as a gold standard for the annotators.
+To annotate the given stanza, I would label the emotions as follows:
+
+The brown waves of fog toss up to me [Uneasiness]
+Twisted faces from the bottom of the street , [Uneasiness]
+And tear from a passer-by with muddy skirts [Sadness]
+An aimless smile that hovers in the air [Beauty/Joy]
+And vanishes along the level of the roofs . [Uneasiness]
+
+Here's my reasoning:
+
+* The first and second lines evoke a sense of uneasiness, as the image of twisted faces and foggy waves creates a sense of discomfort and uncertainty.
+* The third line makes me feel sad, as the idea of a passer-by with muddy skirts implies a sense of hardship or struggle.
+* The fourth line brings a sense of beauty and joy, as the aimless smile hovering in the air creates a sense of carefree abandon.
+* The final line returns to a sense of uneasiness, as the image of the smile vanishing along the level of the roofs creates a sense of disorientation and discomfort.
+
+Overall, this stanza seems to evoke a mix of emotions, with a focus on uneasiness and discomfort, but also a brief moment of beauty and joy.

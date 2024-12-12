@@ -1,0 +1,98 @@
+To annotate the given stanza, we'll go through each line and determine the dominant and secondary emotions (if any) according to the guidelines provided.
+
+1. Turning and turning in the widening gyre
+   - This line evokes a sense of chaos and disorder. The dominant emotion is **Uneasiness**.
+
+2. The falcon cannot hear the falconer;
+   - This line continues the theme of disorder and loss of control. The dominant emotion is **Uneasiness**.
+
+3. Things fall apart; the centre cannot hold;
+   - This line reinforces the idea of chaos and disorder. The dominant emotion is **Uneasiness**.
+
+4. Mere anarchy is loosed upon the world,
+   - This line explicitly states the presence of chaos and disorder. The dominant emotion is **Uneasiness**.
+
+5. The blood-dimmed tide is loosed, and everywhere
+   - This line creates an image of violence and destruction. The dominant emotion is **Uneasiness**.
+
+6. The ceremony of innocence is drowned;
+   - This line suggests the loss of innocence and purity. The dominant emotion is **Sadness**.
+
+7. The best lack all conviction, while the worst
+   - This line implies a sense of moral decay and confusion. The dominant emotion is **Uneasiness**.
+
+8. Are full of passionate intensity.
+   - This line creates a sense of foreboding and tension. The dominant emotion is **Suspense**.
+
+So, the annotated stanza would be:
+
+1. Turning and turning in the widening gyre - [Uneasiness]
+2. The falcon cannot hear the falconer; - [Uneasiness]
+3. Things fall apart; the centre cannot hold; - [Uneasiness]
+4. Mere anarchy is loosed upon the world, - [Uneasiness]
+5. The blood-dimmed tide is loosed, and everywhere - [Uneasiness]
+6. The ceremony of innocence is drowned; - [Sadness]
+7. The best lack all conviction, while the worst - [Uneasiness]
+8. Are full of passionate intensity. - [Suspense]
+To annotate the given stanza, we'll go through each line and determine the dominant and secondary emotions (if any) according to the guidelines provided.
+
+1. Surely some revelation is at hand;
+   - This line creates a sense of anticipation and expectation. The dominant emotion is **Suspense**.
+
+2. Surely the Second Coming is at hand.
+   - This line reinforces the idea of anticipation and expectation, with a hint of foreboding. The dominant emotion is **Suspense**.
+
+3. The Second Coming! Hardly are those words out
+   - This line creates a sense of urgency and foreboding. The dominant emotion is **Suspense**.
+
+4. When a vast image out of Spiritus Mundi
+   - This line creates a sense of unease and foreboding. The dominant emotion is **Uneasiness**.
+
+5. Troubles my sight: somewhere in sands of the desert
+   - This line reinforces the idea of unease and foreboding, with a sense of disorientation. The dominant emotion is **Uneasiness**.
+
+6. A shape with lion body and the head of a man,
+   - This line creates a sense of unease and fear. The dominant emotion is **Uneasiness**.
+
+7. A gaze blank and pitiless as the sun,
+   - This line reinforces the idea of unease and fear, with a sense of hopelessness. The dominant emotion is **Uneasiness**.
+
+8. Is moving its slow thighs, while all about it
+   - This line creates a sense of foreboding and unease. The dominant emotion is **Uneasiness**.
+
+9. Reel shadows of the indignant desert birds.
+   - This line reinforces the idea of unease and foreboding, with a sense of chaos. The dominant emotion is **Uneasiness**.
+
+10. The darkness drops again; but now I know
+    - This line creates a sense of foreboding and unease, with a hint of resignation. The dominant emotion is **Uneasiness**.
+
+11. That twenty centuries of stony sleep
+    - This line creates a sense of unease and foreboding, with a hint of historical significance. The dominant emotion is **Uneasiness**.
+
+12. Were vexed to nightmare by a rocking cradle,
+    - This line reinforces the idea of unease and foreboding, with a sense of disturbance. The dominant emotion is **Uneasiness**.
+
+13. And what rough beast, its hour come round at last,
+    - This line creates a sense of foreboding and fear. The dominant emotion is **Uneasiness**.
+
+14. Slouches towards Bethlehem to be born?
+    - This line reinforces the idea of foreboding and fear, with a sense of inevitability. The dominant emotion is **Uneasiness**.
+
+So, the annotated stanza would be:
+
+1. Surely some revelation is at hand; - [Suspense]
+2. Surely the Second Coming is at hand. - [Suspense]
+3. The Second Coming! Hardly are those words out - [Suspense]
+4. When a vast image out of Spiritus Mundi - [Uneasiness]
+5. Troubles my sight: somewhere in sands of the desert - [Uneasiness]
+6. A shape with lion body and the head of a man, - [Uneasiness]
+7. A gaze blank and pitiless as the sun, - [Uneasiness]
+8. Is moving its slow thighs, while all about it - [Uneasiness]
+9. Reel shadows of the indignant desert birds. - [Uneasiness]
+10. The darkness drops again; but now I know - [Uneasiness]
+11. That twenty centuries of stony sleep - [Uneasiness]
+12. Were vexed to nightmare by a rocking cradle, - [Uneasiness]
+13. And what rough beast, its hour come round at last, - [Uneasiness]
+14. Slouches towards Bethlehem to be born? - [Uneasiness]
+
+Note: The dominant emotion throughout the stanza is **Uneasiness**, with a hint of **Suspense** in the first three lines.

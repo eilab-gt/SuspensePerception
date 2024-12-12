@@ -1,0 +1,60 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion that I feel while reading it. I will use the guidelines provided to help me choose the correct labels.
+
+1. My love is like to ice, and I to fire:
+- I feel a sense of contrast and curiosity about the relationship between the speaker's love and fire. This line makes me think of the potential for conflict or tension, so I will choose **Uneasiness**.
+
+2. How comes it then that this her cold so great
+- This line makes me wonder about the speaker's love and her cold nature, and I feel a sense of curiosity and intrigue. I will choose **Suspense**.
+
+3. Is not dissolved through my so hot desire,
+- This line makes me think about the speaker's passion and desire, and I feel a sense of intensity and energy. I will choose **Vitality**.
+
+4. But harder grows the more I her entreat?
+- This line makes me feel a sense of frustration and longing, and I feel a sense of **Annoyance**.
+
+5. Or how comes it that my exceeding heat
+- This line makes me think about the speaker's passion and energy, and I feel a sense of intensity and energy. I will choose **Vitality**.
+
+6. Is not allayed by her heart-frozen cold,
+- This line makes me think about the contrast between the speaker's heat and the love's cold nature, and I feel a sense of **Uneasiness**.
+
+7. But that I burn much more in boiling sweat,
+- This line makes me think about the speaker's passion and energy, and I feel a sense of intensity and energy. I will choose **Vitality**.
+
+8. And feel my flames augmented manifold?
+- This line makes me think about the speaker's passion and energy, and I feel a sense of intensity and energy. I will choose **Vitality**.
+
+9. What more miraculous thing may be told,
+- This line makes me feel a sense of wonder and curiosity, and I will choose **Suspense**.
+
+10. That fire, which all things melts, should harden ice,
+- This line makes me think about the contrast between fire and ice, and I feel a sense of **Awe/Sublime**.
+
+11. And ice, which is congeal"s with senseless cold,
+- This line makes me think about the contrast between fire and ice, and I feel a sense of **Awe/Sublime**.
+
+12. Should kindle fire by wonderful device?
+- This line makes me think about the speaker's love and its power, and I feel a sense of wonder and curiosity. I will choose **Vitality**.
+
+13. Such is the power of love in gentle mind,
+- This line makes me think about the speaker's love and its power, and I feel a sense of **Vitality**.
+
+14. That it can alter all the course of kind.
+- This line makes me think about the speaker's love and its power, and I feel a sense of **Vitality**.
+
+Here is the annotated stanza:
+
+1. My love is like to ice, and I to fire: [Uneasiness]
+2. How comes it then that this her cold so great [Suspense]
+3. Is not dissolved through my so hot desire, [Vitality]
+4. But harder grows the more I her entreat? [Annoyance]
+5. Or how comes it that my exceeding heat [Vitality]
+6. Is not allayed by her heart-frozen cold, [Uneasiness]
+7. But that I burn much more in boiling sweat, [Vitality]
+8. And feel my flames augmented manifold? [Vitality]
+9. What more miraculous thing may be told, [Suspense]
+10. That fire, which all things melts, should harden ice, [Awe/Sublime]
+11. And ice, which is congeal"s with senseless cold, [Awe/Sublime]
+12. Should kindle fire by wonderful device? [Vitality]
+13. Such is the power of love in gentle mind, [Vitality]
+14. That it can alter all the course of kind. [Vitality]

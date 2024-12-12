@@ -1,0 +1,83 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides 9 labels for different emotions that readers may experience while reading poems, along with examples and instructions for annotating. Here's a summary of the guide:
+
+**Labels and Descriptions:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating:**
+
+* Annotate your current feelings while reading the poem.
+* Label each line individually (not sentence).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+**Gold Standard Examples:**
+
+The guide provides examples for each label to serve as an orientation for annotators. These examples demonstrate how to apply the labels to specific lines of poetry.
+
+**Task:**
+
+Annotate the provided stanza using the guidelines and labels:
+
+"The flower that smiles to-day
+To-morrow dies ;
+All that we wish to stay
+Tempts and then flies .
+What is this world "s delight ?
+Lightning that mocks the night ,
+Brief even as bright ."
+
+Please follow the instructions and choose the most suitable labels for each line.
+Here is the annotated stanza:
+
+Virtue , how frail it is ! [Sadness]
+Friendship how rare ! [Sadness]
+Love , how it sells poor bliss [Sadness]
+For proud despair ! [Sadness]
+But we , though soon they fall , [Vitality]
+Survive their joy , and all [Beauty/Joy]
+Which ours we call . [Beauty/Joy]
+
+Here's my reasoning for each line:
+
+* "Virtue , how frail it is !" - This line makes me feel sad, as it highlights the fragility of virtue.
+* "Friendship how rare !" - This line also makes me feel sad, as it emphasizes the rarity of true friendship.
+* "Love , how it sells poor bliss" - This line continues the theme of sadness, as it suggests that love is often fleeting and unsatisfying.
+* "For proud despair !" - This line maintains the sad tone, with a sense of desperation and hopelessness.
+* "But we , though soon they fall ," - This line shifts the tone to one of vitality, as it suggests a sense of resilience and perseverance.
+* "Survive their joy , and all" - This line evokes feelings of beauty and joy, as it suggests that even in the face of adversity, we can find happiness and fulfillment.
+* "Which ours we call ." - This final line continues the theme of beauty and joy, as it emphasizes the importance of holding onto what is truly ours.
+Here is the annotated stanza:
+
+Whilst skies are blue and bright , [Beauty/Joy]
+Whilst flowers are gay , [Beauty/Joy]
+Whilst eyes that change ere night [Sadness]
+Make glad the day ; [Beauty/Joy]
+Whilst yet the calm hours creep , [Vitality]
+Dream thou — and from thy sleep [Vitality]
+Then wake to weep . [Sadness]
+
+Here's my reasoning for each line:
+
+* "Whilst skies are blue and bright ," - This line evokes feelings of beauty and joy, as it describes a pleasant and uplifting scene.
+* "Whilst flowers are gay ," - This line continues the theme of beauty and joy, as it adds to the idyllic atmosphere.
+* "Whilst eyes that change ere night" - This line shifts the tone to one of sadness, as it suggests the impermanence of things.
+* "Make glad the day ;" - This line returns to a more positive tone, emphasizing the importance of appreciating the present moment.
+* "Whilst yet the calm hours creep ," - This line conveys a sense of vitality, as it suggests a sense of movement and progression.
+* "Dream thou — and from thy sleep" - This line continues the theme of vitality, as it encourages the reader to be active and engaged.
+* "Then wake to weep ." - This final line ends on a note of sadness, as it suggests that even in the midst of beauty and joy, sorrow is always present.

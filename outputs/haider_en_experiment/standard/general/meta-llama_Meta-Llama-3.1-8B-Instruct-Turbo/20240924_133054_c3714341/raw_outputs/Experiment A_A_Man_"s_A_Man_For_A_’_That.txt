@@ -1,0 +1,165 @@
+To annotate the given stanza, I will go through each line and choose the most fitting label based on the guidelines provided.
+
+1. Is there for honest Poverty
+- This line evokes a sense of sadness and nostalgia, as it mentions poverty and the hardships associated with it. However, the word "honest" adds a sense of dignity, which might be associated with beauty/joy. But since it's about poverty, I will choose Sadness as the primary emotion and Nostalgia as an additional label because it's about a past or a situation in the past. 
+   Label: Sadness + Nostalgia
+
+2. That hings his head , an ’ a ’ that ;
+- This line is about the downtrodden and the poor, and it's written in a way that might evoke a sense of uneasiness or discomfort. However, the tone is also somewhat defiant and proud, which might be associated with Vitality. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+3. The coward slave — we pass him by ,
+- This line is about the cowardly slave who is ignored by others. It might evoke a sense of sadness or annoyance, but the tone is also somewhat dismissive, which might be associated with Humor. However, I will choose Sadness as the primary emotion.
+   Label: Sadness
+
+4. We dare be poor for a ’ that !
+- This line is about the speaker's willingness to be poor for a noble cause, which might evoke a sense of Vitality or Awe. However, the tone is also somewhat defiant and proud, which might be associated with Vitality. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+5. For a ’ that , an ’ a ’ that .
+- This line is a repetition of the previous line, and it reinforces the idea of being poor for a noble cause. It might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+6. Our toils obscure an ’ a ’ that ,
+- This line is about the hardships and struggles of the people, which might evoke a sense of Sadness or Uneasiness. However, the tone is also somewhat defiant and proud, which might be associated with Vitality. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+7. The rank is but the guinea "s stamp ,
+- This line is about the superficiality of social status, which might evoke a sense of Uneasiness or Annoyance. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+8. The Man "s the gowd for a ’ that .
+- This line is about the true value of a person, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+To annotate the given stanza, I will go through each line and choose the most fitting label based on the guidelines provided.
+
+1. What though on hamely fare we dine ,
+- This line is about simplicity and humility, which might evoke a sense of Vitality or Awe. However, the tone is also somewhat resigned, which might be associated with Sadness. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+2. Wear hoddin grey , an ’ a that ;
+- This line is about the speaker's simple and humble attire, which might evoke a sense of Uneasiness or Annoyance. However, the tone is also somewhat defiant, which might be associated with Vitality. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+3. Gie fools their silks , and knaves their wine ;
+- This line is about the speaker's disdain for luxury and excess, which might evoke a sense of Annoyance or Uneasiness. However, the tone is also somewhat defiant, which might be associated with Vitality. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+4. A Man "s a Man for a ’ that :
+- This line is about the speaker's emphasis on the value of being a man, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+5. For a ’ that , and a ’ that ,
+- This line is a repetition of the previous line, and it reinforces the idea of the value of being a man. It might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+6. Their tinsel show , an ’ a ’ that ;
+- This line is about the superficiality of wealth and status, which might evoke a sense of Uneasiness or Annoyance. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Uneasiness as the primary emotion.
+   Label: Uneasiness
+
+7. The honest man , tho ’ e"er sae poor ,
+- This line is about the value of honesty and integrity, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+8. Is king o ’ men for a ’ that .
+- This line is about the speaker's emphasis on the value of being honest and true, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+To annotate the given stanza, I will go through each line and choose the most fitting label based on the guidelines provided.
+
+1. Ye see yon birkie , ca "d a lord ,
+- This line is about a person who is perceived as a lord, but is actually a fool. The tone is somewhat dismissive and mocking, which might evoke a sense of Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+2. Wha struts , an ’ stares , an ’ a ’ that ;
+- This line is about the lord's arrogant behavior, which might evoke a sense of Annoyance or Uneasiness. However, the tone is also somewhat mocking, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+3. Tho ’ hundreds worship at his word ,
+- This line is about the people's blind obedience to the lord, which might evoke a sense of Annoyance or Uneasiness. However, the tone is also somewhat critical, which might be associated with Vitality. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+4. He "s but a coof for a ’ that :
+- This line is about the lord's foolishness, which might evoke a sense of Humor or Annoyance. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+5. For a ’ that , an ’ a ’ that ,
+- This line is a repetition of the previous line, and it reinforces the idea of the lord's foolishness. It might evoke a sense of Humor or Annoyance. I will choose Humor as the primary emotion.
+   Label: Humor
+
+6. His ribband , star , an ’ a ’ that :
+- This line is about the lord's symbols of power, which might evoke a sense of Uneasiness or Annoyance. However, the tone is also somewhat mocking, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+7. The man o ’ independent mind
+- This line is about a person who is independent and critical, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+8. He looks an ’ laughs at a ’ that .
+- This line is about the independent person's mocking attitude towards the lord, which might evoke a sense of Humor or Vitality. I will choose Humor as the primary emotion.
+   Label: Humor
+To annotate the given stanza, I will go through each line and choose the most fitting label based on the guidelines provided.
+
+1. A prince can mak a belted knight ,
+- This line is about the power of a prince, which might evoke a sense of Awe or Vitality. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+2. A marquis , duke , an ’ a ’ that ;
+- This line is about the nobility, which might evoke a sense of Awe or Uneasiness. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+3. But an honest man "s abon his might ,
+- This line is about the value of honesty, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+4. Gude faith , he maunna fa ’ that !
+- This line is about the idea that an honest man will not be swayed by external circumstances, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+5. For a ’ that , an ’ a ’ that ,
+- This line is a repetition of the previous line, and it reinforces the idea of the value of honesty. It might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+6. Their dignities an ’ a ’ that ;
+- This line is about the external trappings of power, which might evoke a sense of Awe or Uneasiness. However, the tone is also somewhat dismissive, which might be associated with Humor. I will choose Humor as the primary emotion.
+   Label: Humor
+
+7. The pith o ’ sense , an ’ pride o ’ worth ,
+- This line is about the value of inner worth, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+8. Are higher rank than a ’ that .
+- This line is about the idea that inner worth is more important than external rank, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+To annotate the given stanza, I will go through each line and choose the most fitting label based on the guidelines provided.
+
+1. Then let us pray that come it may ,
+- This line is about the idea of something coming, which might evoke a sense of Suspense or Vitality. I will choose Suspense as the primary emotion.
+   Label: Suspense
+
+2. ( As come it will for a ’ that ,)
+- This line is a repetition of the previous line, and it reinforces the idea of something coming. It might evoke a sense of Suspense or Vitality. I will choose Suspense as the primary emotion.
+   Label: Suspense
+
+3. That Sense and Worth , o"er a ’ the earth ,
+- This line is about the idea of something valuable and meaningful, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+4. Shall bear the gree , an ’ a ’ that .
+- This line is about the idea of something being rewarded or recognized, which might evoke a sense of Vitality or Joy. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+5. For a ’ that , an ’ a ’ that ,
+- This line is a repetition of the previous line, and it reinforces the idea of something being valued. It might evoke a sense of Vitality or Joy. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+6. It "s coming yet for a ’ that ,
+- This line is about the idea of something coming in the future, which might evoke a sense of Suspense or Vitality. I will choose Suspense as the primary emotion.
+   Label: Suspense
+
+7. That Man to Man , the world o"er ,
+- This line is about the idea of people coming together, which might evoke a sense of Vitality or Awe. I will choose Vitality as the primary emotion.
+   Label: Vitality
+
+8. Shall brothers be for a ’ that .
+- This line is about the idea of people being united and equal, which might evoke a sense of Vitality or Joy. I will choose Vitality as the primary emotion.
+   Label: Vitality

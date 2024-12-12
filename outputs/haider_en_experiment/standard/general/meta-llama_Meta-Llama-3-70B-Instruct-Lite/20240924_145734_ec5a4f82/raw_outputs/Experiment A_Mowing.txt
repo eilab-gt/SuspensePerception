@@ -1,0 +1,34 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. It provides clear instructions and examples for each of the 9 labels, which are:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (to be used in addition to another label)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+The guidelines emphasize the importance of annotating each line individually, using as few emotions as possible, and choosing the dominant emotion while reading the stanza. The annotators are encouraged to use the provided items as a template to find the label that matches their subjective emotion.
+
+The gold standard examples provided serve as an orientation for the annotators, and they can refer to them when in doubt.
+
+The task is to annotate the given stanza:
+
+THERE was never a sound beside the wood but one ,
+And that was my long scythe whispering to the ground .
+What was it it whispered ? I knew not well myself ;
+Perhaps it was something about the heat of the sun ,
+Something , perhaps , about the lack of sound —
+And that was why it whispered and did not speak .
+It was no dream of the gift of idle hours ,
+Or easy gold at the hand of fay or elf :
+Anything more than the truth would have seemed too weak
+To the earnest love that laid the swale in rows ,
+Not without feeble-pointed spikes of flowers
+( Pale orchises ) , and scared a bright green snake .
+The fact is the sweetest dream that labor knows .
+My long scythe whispered and left the hay to make .
+
+To annotate this stanza, the annotator should read each line carefully, consider their subjective emotions, and choose the label(s) that best match their feelings.

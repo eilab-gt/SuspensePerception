@@ -1,0 +1,65 @@
+Based on the guidelines provided, I will annotate the given stanza. 
+
+The sun is warm, the sky is clear, [Beauty/Joy]
+The waves are dancing fast and bright, [Beauty/Joy]
+Blue isles and snowy mountains wear [Beauty/Joy]
+The purple noon's transparent might, [Awe/Sublime] [Beauty/Joy]
+The breath of the moist earth is light, [Beauty/Joy]
+Around its unexpanded buds; [Beauty/Joy]
+Like many a voice of one delight, [Beauty/Joy]
+The winds, the birds, the ocean floods, [Beauty/Joy]
+The City's voice itself, is soft like Solitude's. [Beauty/Joy]
+
+The dominant emotion in this stanza is Beauty/Joy, as the description of nature is pleasing and creates a happy mood. The line "The purple noon's transparent might" also evokes a sense of awe, which is why Awe/Sublime is added as a secondary label.
+Based on the guidelines provided, I will annotate the given stanza.
+
+I see the Deep's untrampled floor [Beauty/Joy]
+With green and purple seaweeds strown; [Beauty/Joy]
+I see the waves upon the shore, [Beauty/Joy]
+Like light dissolved in star-showers, thrown: [Awe/Sublime] [Beauty/Joy]
+I sit upon the sands alone,— [Beauty/Joy]
+The lightning of the noontide ocean [Awe/Sublime] [Beauty/Joy]
+Is flashing round me, and a tone [Beauty/Joy]
+Arises from its measured motion, [Beauty/Joy]
+How sweet! did any heart now share in my emotion. [Beauty/Joy]
+
+The dominant emotion in this stanza is Beauty/Joy, as the description of the natural scene is pleasing and creates a happy mood. The lines "Like light dissolved in star-showers, thrown" and "The lightning of the noontide ocean" also evoke a sense of awe, which is why Awe/Sublime is added as a secondary label.
+Based on the guidelines provided, I will annotate the given stanza.
+
+Alas! I have nor hope nor health, [Sadness]
+Nor peace within nor calm around, [Sadness]
+Nor that content surpassing wealth [Sadness]
+The sage in meditation found, [Sadness]
+And walked with inward glory crowned — [Sadness]
+Nor fame, nor power, nor love, nor leisure. [Sadness]
+Others I see whom these surround — [Sadness]
+Smiling they live, and call life pleasure;— [Nostalgia] [Sadness]
+To me that cup has been dealt in another measure. [Sadness]
+
+The dominant emotion in this stanza is Sadness, as the speaker expresses a sense of loss and longing for things they do not have. The line "Smiling they live, and call life pleasure" evokes a sense of nostalgia, as the speaker seems to be reminiscing about a time when they might have experienced happiness, but now it is out of their reach. This is why Nostalgia is added as a secondary label to this line, in combination with Sadness.
+Based on the guidelines provided, I will annotate the given stanza.
+
+Yet now despair itself is mild, [Sadness]
+Even as the winds and waters are; [Sadness]
+I could lie down like a tired child, [Sadness]
+And weep away the life of care [Sadness]
+Which I have borne and yet must bear, [Sadness]
+Till death like sleep might steal on me, [Sadness]
+And I might feel in the warm air [Sadness]
+My cheek grow cold, and hear the sea [Sadness]
+Breathe o'er my dying brain its last monotony. [Sadness]
+
+The dominant emotion in this stanza is Sadness, as the speaker expresses a sense of resignation and despair. The tone is melancholic and introspective, and the speaker seems to be longing for death as a release from their suffering. There are no other emotions that dominate the stanza, so only Sadness is used as the label.
+Based on the guidelines provided, I will annotate the given stanza.
+
+Some might lament that I were cold, [Sadness]
+As I, when this sweet day is gone, [Sadness]
+Which my lost heart, too soon grown old, [Sadness]
+Insults with this untimely moan; [Sadness]
+They might lament — for I am one [Sadness]
+Whom men love not,— and yet regret, [Sadness]
+Unlike this day, which, when the sun [Beauty/Joy]
+Shall on its stainless glory set, [Beauty/Joy]
+Will linger, though enjoyed, like joy in memory yet. [Nostalgia] [Beauty/Joy]
+
+The dominant emotion in this stanza is Sadness, as the speaker expresses a sense of loss and regret. However, the lines "Unlike this day, which, when the sun / Shall on its stainless glory set" evoke a sense of Beauty/Joy, as the speaker describes the beauty of the day. The final line "Will linger, though enjoyed, like joy in memory yet" also evokes a sense of Nostalgia, as the speaker seems to be reminiscing about the joy of the day, which is why Nostalgia is added as a secondary label to this line, in combination with Beauty/Joy.

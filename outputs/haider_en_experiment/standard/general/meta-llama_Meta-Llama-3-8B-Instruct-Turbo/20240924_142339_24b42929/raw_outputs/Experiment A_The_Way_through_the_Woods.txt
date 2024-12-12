@@ -1,0 +1,57 @@
+Here is the annotated stanza:
+
+1. They shut the road through the woods
+	* Sadness (makes me sad/touches me)
+2. Seventy years ago.
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+3. Weather and rain have undone it again,
+	* Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+4. And now you would never know
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+5. There was once a road through the woods
+	* Nostalgia (makes me nostalgic) + Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+6. Before they planted the trees.
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+7. It is underneath the coppice and heath,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. And the thin anemones.
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+9. Only the keeper sees
+	* Suspense (found it gripping/sparked my interest)
+10. That, where the ring-dove broods,
+	* Nostalgia (makes me nostalgic) + Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+11. And the badgers roll at ease,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+12. There was once a road through the woods.
+
+Note: I've chosen the labels based on the guidelines provided, considering the emotions evoked by each line. The annotator's subjective emotions may vary, but this is one possible interpretation.
+Here is the annotated stanza:
+
+1. Yet, if you enter the woods
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+2. Of a summer evening late,
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+3. When the night-air cools on the trout-ringed pools
+	* Vitality (found it invigorating/spurs me on/inspires me)
+4. Where the otter whistles his mate,
+	* Humor (found it funny/amusing)
+5. (They fear not men in the woods,
+	* Annoyance (annoys me, angers me, felt frustrated)
+6. Because they see so few.)
+	* Suspense (found it gripping/sparked my interest)
+7. You will hear the beat of a horse’s feet,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. And the swish of a skirt in the dew,
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+9. Steadily cantering through
+	* Vitality (found it invigorating/spurs me on/inspires me)
+10. The misty solitudes,
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+11. As though they perfectly knew
+	* Suspense (found it gripping/sparked my interest)
+12. The old lost road through the woods.
+	* Nostalgia (makes me nostalgic) + Sadness (makes me sad/touches me)
+13. But there is no road through the woods.
+	* Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+
+Note: I've chosen the labels based on the guidelines provided, considering the emotions evoked by each line. The annotator's subjective emotions may vary, but this is one possible interpretation.

@@ -1,0 +1,238 @@
+To annotate the given stanza, I will go through each line and label the emotions accordingly.
+
+1. The winter evening settles down
+   - This line evokes a sense of calmness and peacefulness, which can be associated with beauty/joy. However, it also sets the scene for a gloomy atmosphere, which might be unsettling. I will choose both labels: Beauty/Joy and Uneasiness.
+
+2. With smell of steaks in passageways .
+   - The mention of steaks creates a sense of uneasiness, possibly due to the association with the smell of food in an unpleasant setting. I will choose the label Uneasiness.
+
+3. Six o'clock .
+   - This line is quite neutral, but it might evoke a sense of routine or monotony, which could be associated with uneasiness. However, it's not strong enough to be the dominant emotion. I will choose the label Uneasiness.
+
+4. The burnt-out ends of smoky days .
+   - This line creates a sense of sadness and nostalgia, possibly due to the idea of something being lost or over. I will choose the label Sadness.
+
+5. And now a gusty shower wraps
+   - This line creates a sense of movement and energy, which can be associated with vitality. However, it also creates a sense of uneasiness due to the gusty weather. I will choose both labels: Vitality and Uneasiness.
+
+6. The grimy scraps
+   - This line creates a sense of uneasiness due to the association with dirt and grime. I will choose the label Uneasiness.
+
+7. Of withered leaves about your feet
+   - This line creates a sense of sadness and nostalgia, possibly due to the idea of something being withered and dying. I will choose the label Sadness.
+
+8. And newspapers from vacant lots ;
+   - This line creates a sense of uneasiness due to the association with trash and neglect. I will choose the label Uneasiness.
+
+9. The showers beat
+   - This line creates a sense of movement and energy, which can be associated with vitality. However, it also creates a sense of uneasiness due to the sound of the showers. I will choose both labels: Vitality and Uneasiness.
+
+10. On broken blinds and chimney-pots ,
+    - This line creates a sense of uneasiness due to the association with broken and worn-out objects. I will choose the label Uneasiness.
+
+11. And at the corner of the street
+    - This line is quite neutral, but it might evoke a sense of routine or monotony, which could be associated with uneasiness. However, it's not strong enough to be the dominant emotion. I will choose the label Uneasiness.
+
+12. A lonely cab-horse steams and stamps .
+    - This line creates a sense of movement and energy, which can be associated with vitality. However, it also creates a sense of uneasiness due to the association with a lonely cab-horse. I will choose both labels: Vitality and Uneasiness.
+
+13. And then the lighting of the lamps .
+    - This line creates a sense of calmness and peacefulness, which can be associated with beauty/joy. However, it also marks the end of the day, which might be associated with sadness. I will choose both labels: Beauty/Joy and Sadness.
+
+The annotated stanza would be:
+
+1. The winter evening settles down [Beauty/Joy, Uneasiness]
+2. With smell of steaks in passageways . [Uneasiness]
+3. Six o'clock . [Uneasiness]
+4. The burnt-out ends of smoky days . [Sadness]
+5. And now a gusty shower wraps [Vitality, Uneasiness]
+6. The grimy scraps [Uneasiness]
+7. Of withered leaves about your feet [Sadness]
+8. And newspapers from vacant lots ; [Uneasiness]
+9. The showers beat [Vitality, Uneasiness]
+10. On broken blinds and chimney-pots , [Uneasiness]
+11. And at the corner of the street [Uneasiness]
+12. A lonely cab-horse steams and stamps . [Vitality, Uneasiness]
+13. And then the lighting of the lamps . [Beauty/Joy, Sadness]
+To annotate the given stanza, I will go through each line and label the emotions accordingly.
+
+1. The morning comes to consciousness
+   - This line creates a sense of awareness and new beginning, which can be associated with beauty/joy. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Beauty/Joy.
+
+2. Of faint stale smells of beer
+   - This line creates a sense of uneasiness due to the association with stale smells. I will choose the label Uneasiness.
+
+3. From the sawdust-trampled street
+   - This line creates a sense of uneasiness due to the association with a dirty and worn-out environment. I will choose the label Uneasiness.
+
+4. With all its muddy feet that press
+   - This line creates a sense of uneasiness due to the association with dirt and chaos. I will choose the label Uneasiness.
+
+5. To early coffee-stands .
+   - This line creates a sense of routine and monotony, which can be associated with uneasiness. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Uneasiness.
+
+6. With the other masquerades
+   - This line creates a sense of uneasiness due to the association with deception and pretence. I will choose the label Uneasiness.
+
+7. That time resumes ,
+   - This line creates a sense of uneasiness due to the association with the passing of time and the monotony of daily life. I will choose the label Uneasiness.
+
+8. One thinks of all the hands
+   - This line creates a sense of sadness due to the association with the monotony and routine of daily life. I will choose the label Sadness.
+
+9. That are raising dingy shades
+   - This line creates a sense of uneasiness due to the association with dirt and neglect. I will choose the label Uneasiness.
+
+10. In a thousand furnished rooms .
+    - This line creates a sense of uneasiness due to the association with the monotony and emptiness of daily life. I will choose the label Uneasiness.
+
+The annotated stanza would be:
+
+1. The morning comes to consciousness [Beauty/Joy]
+2. Of faint stale smells of beer [Uneasiness]
+3. From the sawdust-trampled street [Uneasiness]
+4. With all its muddy feet that press [Uneasiness]
+5. To early coffee-stands . [Uneasiness]
+6. With the other masquerades [Uneasiness]
+7. That time resumes , [Uneasiness]
+8. One thinks of all the hands [Sadness]
+9. That are raising dingy shades [Uneasiness]
+10. In a thousand furnished rooms . [Uneasiness]
+
+Note: The dominant emotion in this stanza is uneasiness, which is associated with the monotony, routine, and dirtiness of daily life.
+To annotate the given stanza, I will go through each line and label the emotions accordingly.
+
+1. You tossed a blanket from the bed ,
+   - This line creates a sense of uneasiness due to the association with the act of tossing a blanket, which might be related to discomfort or restlessness. I will choose the label Uneasiness.
+
+2. You lay upon your back , and waited ;
+   - This line creates a sense of calmness and stillness, but also a sense of anticipation, which can be associated with suspense. I will choose the label Suspense.
+
+3. You dozed , and watched the night revealing
+   - This line creates a sense of uneasiness due to the association with the act of dozing and watching the night, which might be related to a sense of unease or discomfort. I will choose the label Uneasiness.
+
+4. The thousand sordid images
+   - This line creates a sense of uneasiness due to the association with sordid images, which might be related to a sense of disgust or discomfort. I will choose the label Uneasiness.
+
+5. Of which your soul was constituted ;
+   - This line creates a sense of sadness due to the association with the idea of being composed of sordid images, which might be related to a sense of despair or hopelessness. I will choose the label Sadness.
+
+6. They flickered against the ceiling .
+   - This line creates a sense of uneasiness due to the association with flickering images, which might be related to a sense of unease or discomfort. I will choose the label Uneasiness.
+
+7. And when all the world came back
+   - This line creates a sense of uneasiness due to the association with the return of the world, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+8. And the light crept up between the shutters ,
+   - This line creates a sense of uneasiness due to the association with the light creeping in, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+9. And you heard the sparrows in the gutters ,
+   - This line creates a sense of uneasiness due to the association with the sound of sparrows in the gutters, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+10. You had such a vision of the street
+   - This line creates a sense of uneasiness due to the association with a vision of the street, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+11. As the street hardly understands ;
+   - This line creates a sense of uneasiness due to the association with the idea that the street hardly understands, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+12. Sitting along the bed "s edge , where
+   - This line creates a sense of uneasiness due to the association with sitting along the edge of the bed, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+13. You curled the papers from your hair ,
+   - This line creates a sense of uneasiness due to the association with curling papers from hair, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+14. Or clasped the yellow soles of feet
+   - This line creates a sense of uneasiness due to the association with clasping the soles of feet, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+15. In the palms of both soiled hands .
+   - This line creates a sense of uneasiness due to the association with soiled hands, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+The annotated stanza would be:
+
+1. You tossed a blanket from the bed , [Uneasiness]
+2. You lay upon your back , and waited ; [Suspense]
+3. You dozed , and watched the night revealing [Uneasiness]
+4. The thousand sordid images [Uneasiness]
+5. Of which your soul was constituted ; [Sadness]
+6. They flickered against the ceiling . [Uneasiness]
+7. And when all the world came back [Uneasiness]
+8. And the light crept up between the shutters , [Uneasiness]
+9. And you heard the sparrows in the gutters , [Uneasiness]
+10. You had such a vision of the street [Uneasiness]
+11. As the street hardly understands ; [Uneasiness]
+12. Sitting along the bed "s edge , where [Uneasiness]
+13. You curled the papers from your hair , [Uneasiness]
+14. Or clasped the yellow soles of feet [Uneasiness]
+15. In the palms of both soiled hands . [Uneasiness]
+
+Note: The dominant emotion in this stanza is uneasiness, which is associated with the sordid images, discomfort, and unease that pervade the poem.
+To annotate the given stanza, I will go through each line and label the emotions accordingly.
+
+1. His soul stretched tight across the skies
+   - This line creates a sense of uneasiness due to the association with the idea of a soul being stretched tight, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+2. That fade behind a city block ,
+   - This line creates a sense of uneasiness due to the association with the idea of something fading behind a city block, which might be related to a sense of loss or disconnection. I will choose the label Uneasiness.
+
+3. Or trampled by insistent feet
+   - This line creates a sense of uneasiness due to the association with the idea of feet trampling something, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+4. At four and five and six o"clock
+   - This line creates a sense of uneasiness due to the association with the idea of a rigid schedule, which might be related to a sense of monotony or routine. I will choose the label Uneasiness.
+
+5. And short square fingers stuffing pipes ,
+   - This line creates a sense of uneasiness due to the association with the idea of fingers stuffing pipes, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+6. And evening newspapers , and eyes
+   - This line creates a sense of uneasiness due to the association with the idea of newspapers and eyes, which might be related to a sense of monotony or routine. I will choose the label Uneasiness.
+
+7. Assured of certain certainties ,
+   - This line creates a sense of uneasiness due to the association with the idea of being assured of certain certainties, which might be related to a sense of monotony or routine. I will choose the label Uneasiness.
+
+8. The conscience of a blackened street
+   - This line creates a sense of uneasiness due to the association with the idea of a blackened street, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+9. Impatient to assume the world .
+   - This line creates a sense of uneasiness due to the association with the idea of something being impatient to assume the world, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+10. I am moved by fancies that are curled
+   - This line creates a sense of curiosity and wonder, which can be associated with the label Suspense. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Suspense.
+
+11. Around these images , and cling :
+   - This line creates a sense of uneasiness due to the association with the idea of clinging to images, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+12. The notion of some infinitely gentle
+   - This line creates a sense of curiosity and wonder, which can be associated with the label Suspense. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Suspense.
+
+13. Infinitely suffering thing .
+   - This line creates a sense of sadness due to the association with the idea of something infinitely suffering, which might be related to a sense of compassion or empathy. I will choose the label Sadness.
+
+14. Wipe your hand across your mouth , and laugh ;
+   - This line creates a sense of irony and sarcasm, which can be associated with the label Humor. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Humor.
+
+15. The worlds revolve like ancient women
+   - This line creates a sense of wonder and curiosity, which can be associated with the label Suspense. However, it's a neutral line that doesn't evoke strong emotions. I will choose the label Suspense.
+
+16. Gathering fuel in vacant lots .
+   - This line creates a sense of uneasiness due to the association with the idea of gathering fuel in vacant lots, which might be related to a sense of discomfort or unease. I will choose the label Uneasiness.
+
+The annotated stanza would be:
+
+1. His soul stretched tight across the skies [Uneasiness]
+2. That fade behind a city block , [Uneasiness]
+3. Or trampled by insistent feet [Uneasiness]
+4. At four and five and six o"clock [Uneasiness]
+5. And short square fingers stuffing pipes , [Uneasiness]
+6. And evening newspapers , and eyes [Uneasiness]
+7. Assured of certain certainties , [Uneasiness]
+8. The conscience of a blackened street [Uneasiness]
+9. Impatient to assume the world . [Uneasiness]
+10. I am moved by fancies that are curled [Suspense]
+11. Around these images , and cling : [Uneasiness]
+12. The notion of some infinitely gentle [Suspense]
+13. Infinitely suffering thing . [Sadness]
+14. Wipe your hand across your mouth , and laugh ; [Humor]
+15. The worlds revolve like ancient women [Suspense]
+16. Gathering fuel in vacant lots . [Uneasiness]
+
+Note: The dominant emotion in this stanza is uneasiness, which is associated with the ideas of discomfort, unease, and monotony that pervade the poem.

@@ -1,0 +1,26 @@
+Based on the guidelines provided, I will annotate the given stanza:
+
+I met a traveller from an antique land [Awe/Sublime]
+Who said : Two vast and trunkless legs of stone [Awe/Sublime]
+Stand in the desert ... Near them , on the sand , [Awe/Sublime]
+Half sunk , a shattered visage lies , whose frown , [Sadness]
+And wrinkled lip , and sneer of cold command , [Uneasiness]
+Tell that its sculptor well those passions read [Awe/Sublime]
+Which yet survive , stamped on these lifeless things , [Awe/Sublime]
+The hand that mocked them , and the heart that fed : [Uneasiness]
+And on the pedestal these words appear : [Suspense]
+‘ My name is Ozymandias , king of kings : [Awe/Sublime]
+Look on my works , ye Mighty , and despair ! ’ [Awe/Sublime]
+Nothing beside remains . [Sadness]
+Round the decay [Sadness]
+Of that colossal wreck , boundless and bare [Awe/Sublime]
+The lone and level sands stretch far away . [Awe/Sublime]
+
+My annotation is based on the emotions evoked by each line, using the guidelines provided. Here's a brief explanation for each label:
+
+* Awe/Sublime: The lines evoke a sense of grandeur, majesty, and wonder, inspiring awe in the reader.
+* Sadness: The description of the shattered visage and the decay of the colossal wreck evoke feelings of sadness and melancholy.
+* Uneasiness: The sneer of cold command and the hand that mocked them create a sense of discomfort and unease.
+* Suspense: The appearance of the words on the pedestal sparks curiosity and interest, creating suspense.
+
+Please note that annotation is subjective, and different annotators may have different interpretations. These labels are based on my understanding of the guidelines and the emotions evoked by the poem.

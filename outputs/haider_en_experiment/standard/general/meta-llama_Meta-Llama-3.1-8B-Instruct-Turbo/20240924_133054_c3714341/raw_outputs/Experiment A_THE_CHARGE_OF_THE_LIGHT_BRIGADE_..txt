@@ -1,0 +1,171 @@
+For the given stanza, I will annotate the emotions as follows:
+
+1. Half a league, half a league, [Vitality]
+   The word "Forward" and the command to charge suggests a sense of energy and motivation, which aligns with the label "Vitality".
+
+2. Half a league onward, [Vitality]
+   The repetition of the phrase and the sense of movement forward maintains the feeling of energy and motivation.
+
+3. All in the valley of Death [Uneasiness]
+   The mention of "Death" evokes a sense of unease and discomfort.
+
+4. Rode the six hundred. [Vitality]
+   The action of riding into the valley of death suggests a sense of determination and energy, which aligns with "Vitality".
+
+5. ‘Forward, the Light Brigade!’ [Vitality]
+   The command to charge forward is a call to action, suggesting energy and motivation.
+
+6. ‘Charge for the guns!’ he said: [Vitality]
+   The command to charge is a call to action, maintaining the sense of energy and motivation.
+
+7. Into the valley of Death [Uneasiness]
+   The repetition of the phrase "valley of Death" reinforces the sense of unease and discomfort.
+
+8. Rode the six hundred. [Vitality]
+   The action of riding into the valley of death suggests a sense of determination and energy, which aligns with "Vitality".
+For the given stanza, I will annotate the emotions as follows:
+
+1. ‘Forward, the Light Brigade!’ [Vitality]
+   The command to charge forward is a call to action, suggesting energy and motivation, which aligns with "Vitality".
+
+2. Was there a man dismayed? [Sadness]
+   The question suggests a sense of concern or worry, which aligns with "Sadness".
+
+3. Not though the soldier knew [Sadness]
+   The use of "though" instead of "that" creates a sense of uncertainty, which adds to the feeling of sadness.
+
+4. Some one had blunder'd: [Annoyance]
+   The use of the word "blunder'd" implies a sense of mistake or error, which can evoke feelings of annoyance.
+
+5. Their's not to make reply, [Annoyance]
+   The phrase "Their's not to make reply" suggests a sense of helplessness or frustration, which aligns with "Annoyance".
+
+6. Their's not to reason why, [Annoyance]
+   The phrase "Their's not to reason why" implies a sense of being forced to act without understanding, which can evoke feelings of annoyance.
+
+7. Their's but to do and die: [Annoyance]
+   The phrase "Their's but to do and die" suggests a sense of resignation or hopelessness, which aligns with "Annoyance".
+
+8. Into the valley of Death [Uneasiness]
+   The mention of "Death" evokes a sense of unease and discomfort.
+
+9. Rode the six hundred. [Vitality]
+   The action of riding into the valley of death suggests a sense of determination and energy, which aligns with "Vitality".
+For the given stanza, I will annotate the emotions as follows:
+
+1. Cannon to right of them, [Uneasiness]
+   The mention of "cannon" and the imagery of war evokes a sense of unease and discomfort.
+
+2. Cannon to left of them, [Uneasiness]
+   The repetition of the phrase "cannon" reinforces the sense of unease and discomfort.
+
+3. Cannon in front of them [Uneasiness]
+   The mention of "cannon" again creates a sense of unease and discomfort.
+
+4. Volley "d and thunder "d; [Uneasiness]
+   The use of onomatopoeic words like "Volley" and "thunder" creates a sense of intense and chaotic violence, which evokes unease.
+
+5. Storm "d at with shot and shell, [Uneasiness]
+   The mention of "shot and shell" creates a sense of intense and destructive force, which reinforces the sense of unease.
+
+6. Boldly they rode and well, [Vitality]
+   The use of the word "boldly" suggests a sense of courage and determination, which aligns with "Vitality".
+
+7. Into the jaws of Death, [Uneasiness]
+   The mention of "Death" evokes a sense of uneasiness and fear.
+
+8. Into the mouth of Hell [Uneasiness]
+   The mention of "Hell" creates a sense of unease and discomfort.
+
+9. Rode the six hundred. [Vitality]
+   The action of riding into the jaws of death suggests a sense of determination and energy, which aligns with "Vitality".
+For the given stanza, I will annotate the emotions as follows:
+
+1. Flash "d all their sabres bare, [Vitality]
+   The image of flashing sabres and the action of charging creates a sense of energy and movement, which aligns with "Vitality".
+
+2. Flash "d as they turn "d in air, [Vitality]
+   The image of sabres flashing in the air creates a sense of speed and agility, which reinforces the sense of energy and movement.
+
+3. Sabring the gunners there, [Uneasiness]
+   The mention of "gunners" and the action of sabring creates a sense of danger and unease.
+
+4. Charging an army, while [Vitality]
+   The action of charging an army creates a sense of energy and movement, which aligns with "Vitality".
+
+5. All the world wonder "d: [Suspense]
+   The use of the word "wonder" creates a sense of curiosity and surprise, which aligns with "Suspense".
+
+6. Plunged in the battery-smoke [Uneasiness]
+   The mention of "battery-smoke" creates a sense of chaos and confusion, which evokes unease.
+
+7. Right thro’ the line they broke; [Vitality]
+   The action of breaking through the line creates a sense of energy and movement, which aligns with "Vitality".
+
+8. Cossack and Russian [Uneasiness]
+   The mention of "Cossack and Russian" creates a sense of conflict and unease.
+
+9. Reel "d from the sabre-stroke [Uneasiness]
+   The image of people reeling from the sabre-stroke creates a sense of pain and suffering, which evokes unease.
+
+10. Shatter "d and sunder "d. [Uneasiness]
+    The use of the words "shatter" and "sunder" creates a sense of destruction and chaos, which reinforces the sense of unease.
+
+11. Then they rode back, but not [Vitality]
+    The action of riding back creates a sense of energy and movement, which aligns with "Vitality".
+
+12. Not the six hundred. [Sadness]
+    The mention of "Not the six hundred" creates a sense of loss and sadness, which aligns with "Sadness".
+For the given stanza, I will annotate the emotions as follows:
+
+1. Cannon to right of them, [Uneasiness]
+   The mention of "cannon" creates a sense of unease and discomfort.
+
+2. Cannon to left of them, [Uneasiness]
+   The repetition of the phrase "cannon" reinforces the sense of unease and discomfort.
+
+3. Cannon behind them [Uneasiness]
+   The mention of "cannon" again creates a sense of unease and discomfort.
+
+4. Volley "d and thunder "d; [Uneasiness]
+   The use of onomatopoeic words like "Volley" and "thunder" creates a sense of intense and chaotic violence, which evokes unease.
+
+5. Storm "d at with shot and shell, [Uneasiness]
+   The mention of "shot and shell" creates a sense of intense and destructive force, which reinforces the sense of unease.
+
+6. While horse and hero fell, [Sadness]
+   The mention of "fell" creates a sense of loss and sadness.
+
+7. They that had fought so well [Vitality]
+   The phrase "fought so well" suggests a sense of courage and determination, which aligns with "Vitality".
+
+8. Came thro’ the jaws of Death, [Uneasiness]
+   The mention of "Death" evokes a sense of unease and fear.
+
+9. Back from the mouth of Hell [Uneasiness]
+   The mention of "Hell" creates a sense of unease and discomfort.
+
+10. All that was left of them, [Sadness]
+    The phrase "left of six hundred" creates a sense of loss and sadness.
+
+11. Left of six hundred. [Sadness]
+    The mention of the loss of six hundred people creates a sense of sadness.
+For the given stanza, I will annotate the emotions as follows:
+
+1. When can their glory fade ? [Vitality]
+   The question suggests a sense of admiration and respect for the Light Brigade, which aligns with "Vitality".
+
+2. O the wild charge they made ! [Vitality]
+   The phrase "wild charge" creates a sense of energy and movement, which reinforces the sense of "Vitality".
+
+3. All the world wondered. [Suspense]
+   The use of the word "wondered" creates a sense of curiosity and surprise, which aligns with "Suspense".
+
+4. Honor the charge they made ! [Vitality]
+   The phrase "honor the charge" suggests a sense of admiration and respect, which aligns with "Vitality".
+
+5. Honor the Light Brigade, [Vitality]
+   The phrase "honor the Light Brigade" reinforces the sense of admiration and respect, which aligns with "Vitality".
+
+6. Noble six hundred ! [Vitality]
+   The phrase "noble six hundred" creates a sense of admiration and respect, which aligns with "Vitality".

@@ -1,0 +1,58 @@
+This is a guidelines document for annotators to label aesthetic emotions in poetry. The document provides a set of 9 labels, each corresponding to a category of emotion, along with examples and instructions for annotating. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem.
+* Label your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the emotion most dominant while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+The gold standard examples provided serve as an orientation for the annotators, and they should be referred to in case of doubt.
+
+The final task is to annotate the given stanza:
+
+"Turning and turning in the widening gyre
+The falcon cannot hear the falconer;
+Things fall apart; the centre cannot hold;
+Mere anarchy is loosed upon the world,
+The blood-dimmed tide is loosed, and everywhere
+The ceremony of innocence is drowned;
+The best lack all conviction, while the worst
+Are full of passionate intensity."
+
+Annotators should label each line with the corresponding emotion(s) according to the guidelines and examples provided.
+Here is the annotated stanza:
+
+• Surely some revelation is at hand; [Suspense]
+• Surely the Second Coming is at hand. [Suspense]
+• The Second Coming! Hardly are those words out [Uneasiness] [Suspense] 
+• When a vast image out of Spiritus Mundi [Uneasiness] [Suspense]
+• Troubles my sight: somewhere in sands of the desert [Uneasiness] [Suspense] 
+• A shape with lion body and the head of a man, [Uneasiness] [Suspense]
+• A gaze blank and pitiless as the sun, [Uneasiness] [Suspense]
+• Is moving its slow thighs, while all about it [Uneasiness] [Suspense] 
+• Reel shadows of the indignant desert birds. [Uneasiness] [Suspense]
+• The darkness drops again; but now I know [Sadness]
+• That twenty centuries of stony sleep [Sadness]
+• Were vexed to nightmare by a rocking cradle, [Uneasiness] [Sadness]
+• And what rough beast, its hour come round at last, [Uneasiness] [Suspense]
+• Slouches towards Bethlehem to be born? [Suspense]
+
+Note: The dominant emotion in this stanza is Suspense, with a mix of Uneasiness and Sadness. The annotator felt a sense of foreboding and unease while reading the stanza, with a sense of anticipation and curiosity about the "Second Coming". The language and imagery used in the stanza create a sense of tension and uncertainty, which is reflected in the chosen emotions.

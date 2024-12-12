@@ -1,0 +1,28 @@
+I'm happy to help you with annotating the given stanza according to the provided guidelines. Here's my annotation:
+
+Of this worlds theatre in which we stay, [Beauty/Joy]
+My love like the spectator ydly sits [Beauty/Joy]
+Beholding me that all the pageants play, [Beauty/Joy]
+Disguysing diversly my troubled wits. [Sadness]
+
+Sometimes I joy when glad occasion fits, [Beauty/Joy]
+And mask in myrth lyke to a comedy: [Beauty/Joy]
+Soone after when my joy to sorrow flits, [Sadness]
+I waile and make my woes a tragedy. [Sadness]
+
+Yet she, beholding me with constant eye, [Suspense]
+Delights not in my merth nor rues my smart: [Annoyance]
+But when I laugh she mocks, and when I cry [Annoyance]
+She laughs and hardens evermore her heart. [Annoyance]
+
+What then can move her? if nor merth nor mone, [Suspense]
+She is no woman, but a senceless stone. [Uneasiness]
+
+Here's a brief explanation for each line:
+
+* The first four lines evoke a sense of beauty and joy, as the speaker describes their love as a spectator, but also hints at their troubled state of mind, which introduces a sense of sadness.
+* The next four lines continue to oscillate between joy and sorrow, with the speaker describing their emotional turmoil.
+* The third stanza introduces a sense of suspense, as the speaker's love seems unresponsive to their emotions, and the speaker feels annoyed and frustrated by this.
+* The final two lines create a sense of uneasiness, as the speaker questions what can move their love, and concludes that they must be "a senceless stone" - a disturbing and unsettling image.
+
+Please note that annotation is subjective, and different annotators may have different interpretations.

@@ -1,0 +1,69 @@
+To annotate the given stanza, I would label the emotions as follows:
+
+I wandered lonely as a Cloud [Sadness]
+That floats on high over Vales and Hills , [Beauty/Joy]
+When all at once I saw a crowd [Suspense]
+A host of dancing Daffodills ; [Beauty/Joy]
+Along the Lake , beneath the trees , [Beauty/Joy]
+Ten thousand dancing in the breeze . [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line "I wandered lonely as a Cloud" evokes a sense of sadness and isolation, so I labeled it as [Sadness].
+* The second line "That floats on high over Vales and Hills" creates a sense of beauty and wonder, so I labeled it as [Beauty/Joy].
+* The third line "When all at once I saw a crowd" creates a sense of surprise and curiosity, so I labeled it as [Suspense].
+* The fourth line "A host of dancing Daffodills" is a beautiful and joyful image, so I labeled it as [Beauty/Joy].
+* The fifth and sixth lines "Along the Lake, beneath the trees, Ten thousand dancing in the breeze" continue to evoke a sense of beauty and joy, so I labeled them as [Beauty/Joy].
+
+Overall, the dominant emotion in this stanza is [Beauty/Joy], with a hint of [Sadness] in the first line and [Suspense] in the third line.
+Here is the annotated stanza:
+
+Continuous as the stars that shine [Beauty/Joy]
+And twinkle on the milky way, [Beauty/Joy]
+They stretched in never-ending line [Beauty/Joy]
+Along the margin of a bay: [Beauty/Joy]
+Ten thousand saw I at a glance, [Suspense]
+Tossing their heads in sprightly dance. [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first four lines create a sense of beauty and wonder, evoking a feeling of joy and happiness, so I labeled them as [Beauty/Joy].
+* The fifth line "Ten thousand saw I at a glance" creates a sense of surprise and curiosity, so I labeled it as [Suspense].
+* The sixth line "Tossing their heads in sprightly dance" continues the sense of beauty and joy, so I labeled it as [Beauty/Joy].
+
+Overall, the dominant emotion in this stanza is [Beauty/Joy], with a hint of [Suspense] in the fifth line.
+Here is the annotated stanza:
+
+The waves beside them danced , but they [Beauty/Joy]
+Outdid the sparkling waves in glee :— [Beauty/Joy]
+A Poet could not but be gay [Beauty/Joy]
+In such a laughing company : [Beauty/Joy]
+I gazed — and gazed — but little thought [Suspense]
+What wealth the shew to me had brought : [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first four lines create a sense of joy and beauty, evoking a feeling of happiness and pleasure, so I labeled them as [Beauty/Joy].
+* The fifth line "I gazed — and gazed — but little thought" creates a sense of curiosity and intrigue, so I labeled it as [Suspense].
+* The sixth line "What wealth the shew to me had brought" continues the sense of beauty and joy, so I labeled it as [Beauty/Joy].
+
+Overall, the dominant emotion in this stanza is [Beauty/Joy], with a hint of [Suspense] in the fifth line.
+Here is the annotated stanza:
+
+For oft when on my couch I lie [Beauty/Joy]
+In vacant or in pensive mood , [Sadness]
+They flash upon that inward eye [Beauty/Joy]
+Which is the bliss of solitude , [Beauty/Joy]
+And then my heart with pleasure fills , [Beauty/Joy]
+And dances with the Daffodils . [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line "For oft when on my couch I lie" creates a sense of relaxation and comfort, so I labeled it as [Beauty/Joy].
+* The second line "In vacant or in pensive mood" creates a sense of sadness and melancholy, so I labeled it as [Sadness].
+* The third line "They flash upon that inward eye" creates a sense of beauty and wonder, so I labeled it as [Beauty/Joy].
+* The fourth line "Which is the bliss of solitude" continues the sense of beauty and joy, so I labeled it as [Beauty/Joy].
+* The fifth line "And then my heart with pleasure fills" continues the sense of beauty and joy, so I labeled it as [Beauty/Joy].
+* The sixth line "And dances with the Daffodils" creates a sense of joy and beauty, so I labeled it as [Beauty/Joy].
+
+Overall, the dominant emotion in this stanza is [Beauty/Joy], with a hint of [Sadness] in the second line.

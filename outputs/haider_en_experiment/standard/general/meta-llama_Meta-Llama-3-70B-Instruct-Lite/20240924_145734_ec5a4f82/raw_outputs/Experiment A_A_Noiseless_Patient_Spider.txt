@@ -1,0 +1,55 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the subjective emotions evoked by reading poems. The guideline provides 9 labels for annotating emotions, each with its own category and items to help annotators choose the right label. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem
+* Label each line individually (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Do not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness
+
+The gold standard provides examples for each label to serve as an orientation for annotators. When in doubt, refer to the gold standard.
+
+The task is to annotate the given stanza:
+
+A noiseless patient spider ,
+I mark "d where on a little promontory it stood isolated ,
+Mark "d how to explore the vacant vast surrounding ,
+It launch "d forth filament , filament , filament out of itself ,
+Ever unreeling them , ever tirelessly speeding them .
+
+Please annotate the stanza using the provided labels and guidelines.
+Based on the guidelines, I would annotate the stanza as follows:
+
+And you O my soul where you stand , [Beauty/Joy] [Vitality]
+Surrounded , detached , in measureless oceans of space , [Awe/Sublime] [Vitality]
+Ceaselessly musing , venturing , throwing , seeking the spheres to [Vitality]
+connect them ,
+Till the bridge you will need be form "d , till the ductile anchor hold , [Vitality]
+Till the gossamer thread you fling catch somewhere , O my soul . [Beauty/Joy] [Vitality]
+
+Here's my reasoning:
+
+* The first line "And you O my soul where you stand" evokes a sense of beauty and joy, as well as a sense of vitality and energy.
+* The second line "Surrounded , detached , in measureless oceans of space" inspires a sense of awe and sublimity, as well as a sense of vitality and expansiveness.
+* The third line "Ceaselessly musing , venturing , throwing , seeking the spheres to" conveys a sense of vitality and energy, as the speaker is actively seeking to connect with the universe.
+* The fourth and fifth lines "connect them , Till the bridge you will need be form "d , till the ductile anchor hold" continue to evoke a sense of vitality and energy, as the speaker is actively working to create connections and find stability.
+* The final line "Till the gossamer thread you fling catch somewhere , O my soul" returns to a sense of beauty and joy, as well as a sense of vitality and energy, as the speaker is seeking to connect with their own soul.
+
+Overall, the dominant emotions in this stanza are Beauty/Joy and Vitality, with Awe/Sublime playing a supporting role in the second line.

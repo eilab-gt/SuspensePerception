@@ -1,0 +1,65 @@
+Here is the annotation of the stanza:
+
+1. The sun is warm , the sky is clear , [Beauty/Joy]
+2. The waves are dancing fast and bright , [Beauty/Joy]
+3. Blue isles and snowy mountains wear [Beauty/Joy]
+4. The purple noon "s transparent might , [Beauty/Joy]
+5. The breath of the moist earth is light , [Beauty/Joy]
+6. Around its unexpanded buds ; [Beauty/Joy]
+7. Like many a voice of one delight , [Vitality]
+8. The winds , the birds , the ocean floods , [Vitality]
+9. The City "s voice itself , is soft like Solitude "s . [Vitality]
+
+The overall feeling of this stanza is one of serenity and beauty, evoking a sense of joy and vitality. The imagery of the warm sun, clear sky, dancing waves, and beautiful landscape creates a sense of delight and wonder. The comparison of the city's voice to solitude's voice adds a sense of peacefulness and tranquility.
+Here is the annotation of the stanza:
+
+1. I see the Deep "s untrampled floor [Beauty/Joy]
+2. With green and purple seaweeds strown ; [Beauty/Joy]
+3. I see the waves upon the shore , [Beauty/Joy]
+4. Like light dissolved in star-showers , thrown : [Beauty/Joy]
+5. I sit upon the sands alone ,— [Vitality]
+6. The lightning of the noontide ocean [Vitality]
+7. Is flashing round me , and a tone [Vitality]
+8. Arises from its measured motion , [Vitality]
+9. How sweet ! did any heart now share in my emotion . [Vitality]
+
+The overall feeling of this stanza is one of serenity and beauty, evoking a sense of joy and vitality. The imagery of the deep ocean floor, the waves, and the lightning of the noontide ocean creates a sense of wonder and awe. The speaker's emotions are stirred by the beauty of the scene, and the line "How sweet ! did any heart now share in my emotion" suggests a sense of longing for connection with others who can share in this experience.
+Here is the annotation of the stanza:
+
+1. Alas ! I have nor hope nor health , [Sadness]
+2. Nor peace within nor calm around , [Sadness]
+3. Nor that content surpassing wealth [Sadness]
+4. The sage in meditation found , [Vitality]
+5. And walked with inward glory crowned — [Vitality]
+6. Nor fame , nor power , nor love , nor leisure . [Sadness]
+7. Others I see whom these surround — [Sadness]
+8. Smiling they live , and call life pleasure ;— [Sadness]
+9. To me that cup has been dealt in another measure . [Sadness]
+
+The overall feeling of this stanza is one of sadness and longing. The speaker expresses a sense of hopelessness and despair, feeling that they have been dealt a difficult hand in life. The lines "Nor peace within nor calm around" and "Nor that content surpassing wealth" convey a sense of inner turmoil and dissatisfaction. The image of the sage in meditation and walking with inward glory crowned suggests a sense of vitality and inner strength, but this is contrasted with the speaker's own feelings of sadness and despair.
+Here is the annotation of the stanza:
+
+1. Yet now despair itself is mild , [Sadness]
+2. Even as the winds and waters are ; [Sadness]
+3. I could lie down like a tired child , [Sadness]
+4. And weep away the life of care [Sadness]
+5. Which I have borne and yet must bear , [Sadness]
+6. Till death like sleep might steal on me , [Sadness]
+7. And I might feel in the warm air [Sadness]
+8. My cheek grow cold , and hear the sea [Sadness]
+9. Breathe o"er my dying brain its last monotony . [Sadness]
+
+The overall feeling of this stanza is one of sadness and despair. The speaker expresses a sense of resignation and hopelessness, feeling that they have borne a heavy burden and must continue to bear it until death. The image of lying down like a tired child and weeping away the life of care is a poignant one, conveying a sense of exhaustion and desperation. The use of words like "mild" and "warm" to describe despair and death suggests a sense of acceptance and surrender, rather than resistance or rebellion.
+Here is the annotation of the stanza:
+
+1. Some might lament that I were cold , [Sadness]
+2. As I , when this sweet day is gone , [Sadness]
+3. Which my lost heart , too soon grown old , [Sadness]
+4. Insults with this untimely moan ; [Sadness]
+5. They might lament — for I am one [Sadness]
+6. Whom men love not ,— and yet regret , [Sadness]
+7. Unlike this day , which , when the sun [Beauty/Joy]
+8. Shall on its stainless glory set , [Beauty/Joy]
+9. Will linger , though enjoyed , like joy in memory yet . [Beauty/Joy]
+
+The overall feeling of this stanza is one of sadness and melancholy. The speaker is reflecting on their own mortality and the fleeting nature of life, which evokes feelings of sadness and regret. However, the image of the day lingering in memory like joy also suggests a sense of beauty and joy, which is why I chose to label it with both Sadness and Beauty/Joy.

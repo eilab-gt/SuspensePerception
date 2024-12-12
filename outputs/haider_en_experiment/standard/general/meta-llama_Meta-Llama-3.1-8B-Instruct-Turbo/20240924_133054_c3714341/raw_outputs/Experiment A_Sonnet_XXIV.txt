@@ -1,0 +1,63 @@
+To annotate the given stanza, I will go through it line by line and choose the most dominant emotion for each line. I will also consider the additional emotions that might be present. 
+
+1. Let the world "s sharpness , like a clasping knife ,
+- This line creates a sense of uneasiness due to the image of sharpness and a clasping knife. I choose: Uneasiness
+
+2. Shut in upon itself and do no harm
+- This line suggests a sense of safety and protection, which is the opposite of uneasiness. I choose: Beauty/Joy
+
+3. In this close hand of Love , now soft and warm ,
+- This line reinforces the sense of safety and protection, and also evokes a feeling of love and warmth. I choose: Beauty/Joy
+
+4. And let us hear no sound of human strife
+- This line suggests a sense of peace and tranquility, which is a positive emotion. I choose: Beauty/Joy
+
+5. After the click of the shutting . Life to life —
+- This line creates a sense of finality and closure, which can be seen as a positive transition to a new life. I choose: Vitality
+
+6. I lean upon thee , Dear , without alarm ,
+- This line conveys a sense of trust and safety, which is a positive emotion. I choose: Beauty/Joy
+
+7. And feel as safe as guarded by a charm
+- This line reinforces the sense of safety and protection, which is a positive emotion. I choose: Beauty/Joy
+
+8. Against the stab of worldlings , who if rife
+- This line creates a sense of uneasiness due to the image of a stab. I choose: Uneasiness
+
+9. Are weak to injure . 
+- This line suggests that the worldlings are not a significant threat, which reduces the sense of uneasiness. I choose: Beauty/Joy
+
+10. Very-whitely still
+- This line creates a sense of calmness and serenity, which is a positive emotion. I choose: Beauty/Joy
+
+11. The lilies of our lives may reassure
+- This line suggests a sense of hope and reassurance, which is a positive emotion. I choose: Beauty/Joy
+
+12. Their blossoms from their roots , accessible
+- This line creates a sense of connection and growth, which is a positive emotion. I choose: Beauty/Joy
+
+13. Alone to heavenly dews that drop not fewer
+- This line suggests a sense of spiritual connection and growth, which is a positive emotion. I choose: Beauty/Joy
+
+14. Growing straight , out of man "s reach , on the hill .
+- This line creates a sense of freedom and independence, which is a positive emotion. I choose: Vitality
+
+15. God only , who made us rich , can make us poor .
+- This line suggests a sense of trust and faith in a higher power, which is a positive emotion. I choose: Beauty/Joy
+
+The annotated stanza is:
+1. Uneasiness
+2. Beauty/Joy
+3. Beauty/Joy
+4. Beauty/Joy
+5. Vitality
+6. Beauty/Joy
+7. Beauty/Joy
+8. Uneasiness
+9. Beauty/Joy
+10. Beauty/Joy
+11. Beauty/Joy
+12. Beauty/Joy
+13. Beauty/Joy
+14. Vitality
+15. Beauty/Joy

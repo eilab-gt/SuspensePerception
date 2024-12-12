@@ -1,0 +1,24 @@
+Here is the annotation for the given stanza:
+
+1. I was angry with my friend :
+	* Annoyance (annoys me, angers me, felt frustrated)
+2. I told my wrath, my wrath did end.
+	* Annoyance (annoys me, angers me, felt frustrated)
+3. I was angry with my foe :
+	* Annoyance (annoys me, angers me, felt frustrated)
+4. I told it not, my wrath did grow.
+	* Sadness (makes me sad/touches me)
+
+Note: The annotator's emotions while reading the stanza are reflected in the labels chosen. The dominant emotion is Annoyance, which is used for lines 1, 2, and 3, and Sadness is used for line 4, as the speaker's wrath grows and becomes more intense.
+Here is the annotation for the given stanza:
+
+1. And I watered it in fears
+	* Annoyance (annoys me, angers me, felt frustrated)
+2. Night and morning with my tears,
+	* Sadness (makes me sad/touches me)
+3. And I sunned it with smiles
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. And with soft deceitful wiles .
+	* Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+
+Note: The annotator's emotions while reading the stanza are reflected in the labels chosen. The dominant emotion is Annoyance in line 1, Sadness in line 2, Beauty/Joy in line 3, and Uneasiness in line 4.

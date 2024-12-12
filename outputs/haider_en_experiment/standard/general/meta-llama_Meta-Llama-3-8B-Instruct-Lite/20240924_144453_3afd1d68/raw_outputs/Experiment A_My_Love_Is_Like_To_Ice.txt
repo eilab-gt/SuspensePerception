@@ -1,0 +1,32 @@
+Here is the annotation of the stanza:
+
+1. "My love is like to ice, and I to fire:"
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+2. "How comes it then that this her cold so great"
+	* Sadness (makes me sad/touches me)
+3. "Is not dissolved through my so hot desire,"
+	* Annoyance (annoys me, angers me, felt frustrated)
+4. "But harder grows the more I her entreat?"
+	* Sadness (makes me sad/touches me)
+5. "Or how comes it that my exceeding heat"
+	* Vitality (found it invigorating/spurs me on/inspires me)
+6. "Is not allayed by her heart-frozen cold,"
+	* Sadness (makes me sad/touches me)
+7. "But that I burn much more in boiling sweat,"
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. "And feel my flames augmented manifold?"
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+9. "What more miraculous thing may be told,"
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+10. "That fire, which all things melts, should harden ice,"
+	* Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+11. "And ice, which is congeal"s with senseless cold,"
+	* Sadness (makes me sad/touches me)
+12. "Should kindle fire by wonderful device?"
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+13. "Such is the power of love in gentle mind,"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+14. "That it can alter all the course of kind."
+	* Vitality (found it invigorating/spurs me on/inspires me)
+
+Note: The annotator should use the labels that best describe their subjective emotions while reading the poem. The labels are not mutually exclusive, and the annotator may choose multiple labels for a single line or stanza.

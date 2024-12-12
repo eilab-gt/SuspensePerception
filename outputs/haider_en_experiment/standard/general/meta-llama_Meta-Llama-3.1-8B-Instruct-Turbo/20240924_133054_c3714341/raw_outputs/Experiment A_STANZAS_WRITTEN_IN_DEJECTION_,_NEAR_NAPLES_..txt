@@ -1,0 +1,174 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion. I will use the guidelines provided to help me decide on the emotions.
+
+1. The sun is warm , the sky is clear ,
+- This line evokes a sense of beauty and joy. The warm sun and clear sky create a pleasant atmosphere, which matches with the label "Beauty/Joy".
+
+2. The waves are dancing fast and bright ,
+- This line also evokes a sense of beauty and joy. The dancing waves add to the vibrant and lively atmosphere, which matches with the label "Beauty/Joy".
+
+3. Blue isles and snowy mountains wear
+- This line creates a sense of awe and wonder. The description of the blue isles and snowy mountains evokes a sense of grandeur, which matches with the label "Awe/Sublime".
+
+4. The purple noon "s transparent might ,
+- This line continues the sense of awe and wonder. The description of the purple noon's transparent might adds to the grandeur, which matches with the label "Awe/Sublime".
+
+5. The breath of the moist earth is light ,
+- This line creates a sense of beauty and joy. The description of the earth's breath as light adds to the pleasant atmosphere, which matches with the label "Beauty/Joy".
+
+6. Around its unexpanded buds ;
+- This line creates a sense of beauty and joy. The description of the unexpanded buds adds to the sense of new life and growth, which matches with the label "Beauty/Joy".
+
+7. Like many a voice of one delight ,
+- This line creates a sense of unity and harmony. The description of the voices of delight adds to the sense of joy and beauty, which matches with the label "Beauty/Joy".
+
+8. The winds , the birds , the ocean floods ,
+- This line creates a sense of vitality and energy. The description of the winds, birds, and ocean floods adds to the sense of movement and life, which matches with the label "Vitality".
+
+9. The City "s voice itself , is soft like Solitude "s .
+- This line creates a sense of beauty and joy. The description of the city's voice as soft like solitude's adds to the sense of peacefulness, which matches with the label "Beauty/Joy".
+
+The annotated stanza would be:
+The sun is warm , the sky is clear , [Beauty/Joy]
+The waves are dancing fast and bright , [Beauty/Joy]
+Blue isles and snowy mountains wear [Awe/Sublime]
+The purple noon "s transparent might , [Awe/Sublime]
+The breath of the moist earth is light , [Beauty/Joy]
+Around its unexpanded buds ; [Beauty/Joy]
+Like many a voice of one delight , [Beauty/Joy]
+The winds , the birds , the ocean floods , [Vitality]
+The City "s voice itself , is soft like Solitude "s . [Beauty/Joy]
+To annotate the given stanza, I will go through each line and choose the most dominant emotion. I will use the guidelines provided to help me decide on the emotions.
+
+1. I see the Deep "s untrampled floor
+- This line creates a sense of awe and wonder. The description of the untrampled floor of the deep adds to the sense of grandeur, which matches with the label "Awe/Sublime".
+
+2. With green and purple seaweeds strown ;
+- This line creates a sense of beauty and joy. The description of the green and purple seaweeds adds to the vibrant and lively atmosphere, which matches with the label "Beauty/Joy".
+
+3. I see the waves upon the shore ,
+- This line creates a sense of beauty and joy. The description of the waves upon the shore adds to the sense of peacefulness, which matches with the label "Beauty/Joy".
+
+4. Like light dissolved in star-showers , thrown :
+- This line creates a sense of beauty and joy. The description of the light dissolved in star-showers adds to the sense of wonder and magic, which matches with the label "Beauty/Joy".
+
+5. I sit upon the sands alone ,—
+- This line creates a sense of solitude and peacefulness. The description of sitting alone on the sands adds to the sense of calmness, which matches with the label "Beauty/Joy".
+
+6. The lightning of the noontide ocean
+- This line creates a sense of awe and wonder. The description of the lightning of the noontide ocean adds to the sense of grandeur, which matches with the label "Awe/Sublime".
+
+7. Is flashing round me , and a tone
+- This line creates a sense of beauty and joy. The description of the tone adds to the sense of music and harmony, which matches with the label "Beauty/Joy".
+
+8. Arises from its measured motion ,
+- This line creates a sense of beauty and joy. The description of the measured motion adds to the sense of rhythm and flow, which matches with the label "Beauty/Joy".
+
+9. How sweet ! did any heart now share in my emotion .
+- This line creates a sense of nostalgia and sadness. The description of sharing emotions with someone adds to the sense of longing and connection, which matches with the label "Sadness" and "Nostalgia" (used in addition with "Sadness").
+
+The annotated stanza would be:
+I see the Deep "s untrampled floor [Awe/Sublime]
+With green and purple seaweeds strown ; [Beauty/Joy]
+I see the waves upon the shore , [Beauty/Joy]
+Like light dissolved in star-showers , thrown : [Beauty/Joy]
+I sit upon the sands alone ,— [Beauty/Joy]
+The lightning of the noontide ocean [Awe/Sublime]
+Is flashing round me , and a tone [Beauty/Joy]
+Arises from its measured motion , [Beauty/Joy]
+How sweet ! did any heart now share in my emotion . [Sadness] [Nostalgia]
+To annotate the given stanza, I will go through each line and choose the most dominant emotion. I will use the guidelines provided to help me decide on the emotions.
+
+1. Alas ! I have nor hope nor health ,
+- This line creates a sense of sadness and disappointment. The speaker expresses a lack of hope and health, which matches with the label "Sadness".
+
+2. Nor peace within nor calm around ,
+- This line continues the sense of sadness and disappointment. The speaker expresses a lack of peace and calm, which matches with the label "Sadness".
+
+3. Nor that content surpassing wealth
+- This line creates a sense of sadness and longing. The speaker expresses a desire for something more, which matches with the label "Sadness".
+
+4. The sage in meditation found ,
+- This line creates a sense of awe and wonder. The description of the sage in meditation adds to the sense of wisdom and calm, which matches with the label "Awe/Sublime".
+
+5. And walked with inward glory crowned —
+- This line continues the sense of awe and wonder. The description of the sage walking with inward glory adds to the sense of dignity and majesty, which matches with the label "Awe/Sublime".
+
+6. Nor fame , nor power , nor love , nor leisure .
+- This line creates a sense of sadness and longing. The speaker expresses a lack of fame, power, love, and leisure, which matches with the label "Sadness".
+
+7. Others I see whom these surround —
+- This line creates a sense of contrast and envy. The speaker sees others who have these things, which adds to the sense of sadness and longing, which matches with the label "Sadness".
+
+8. Smiling they live , and call life pleasure ;—
+- This line creates a sense of contrast and irony. The speaker sees others who are happy and enjoy life, which adds to the sense of sadness and longing, which matches with the label "Sadness".
+
+9. To me that cup has been dealt in another measure .
+- This line creates a sense of resignation and acceptance. The speaker accepts their circumstances, which adds to the sense of sadness and disappointment, which matches with the label "Sadness".
+
+The annotated stanza would be:
+Alas ! I have nor hope nor health , [Sadness]
+Nor peace within nor calm around , [Sadness]
+Nor that content surpassing wealth [Sadness]
+The sage in meditation found , [Awe/Sublime]
+And walked with inward glory crowned — [Awe/Sublime]
+Nor fame , nor power , nor love , nor leisure . [Sadness]
+Others I see whom these surround — [Sadness]
+Smiling they live , and call life pleasure ;— [Sadness]
+To me that cup has been dealt in another measure . [Sadness]
+To annotate the given stanza, I will go through each line and choose the most dominant emotion. I will use the guidelines provided to help me decide on the emotions.
+
+1. Yet now despair itself is mild ,
+- This line creates a sense of sadness and acceptance. The speaker describes despair as mild, which adds to the sense of resignation, which matches with the label "Sadness".
+
+2. Even as the winds and waters are ;
+- This line creates a sense of calmness and acceptance. The speaker compares despair to the natural world, which adds to the sense of serenity, which matches with the label "Beauty/Joy".
+
+3. I could lie down like a tired child ,
+- This line creates a sense of vulnerability and surrender. The speaker describes themselves as a tired child, which adds to the sense of sadness and vulnerability, which matches with the label "Sadness".
+
+4. And weep away the life of care
+- This line creates a sense of sadness and longing. The speaker expresses a desire to escape the burdens of life, which adds to the sense of sadness, which matches with the label "Sadness".
+
+5. Which I have borne and yet must bear ,
+- This line creates a sense of resignation and acceptance. The speaker acknowledges the weight of their responsibilities, which adds to the sense of sadness and resignation, which sense matches with the label "Sadness".
+
+6. Till death
+To annotate the given stanza, I will go through each line and choose the most dominant emotion. I will use the guidelines provided to help me decide on the emotions.
+
+1. Some might lament that I were cold ,
+- This line creates a sense of sadness and melancholy. The speaker suggests that others might lament their coldness, which adds to the sense of sadness, which matches with the label "Sadness".
+
+2. As I , when this sweet day is gone ,
+- This line creates a sense of nostalgia and longing. The speaker expresses a desire to hold onto the present moment, which adds to the sense of nostalgia, which matches with the label "Nostalgia" (used in addition with "Sadness").
+
+3. Which my lost heart , too soon grown old ,
+- This line creates a sense of sadness and regret. The speaker describes their heart as lost and old, which adds to the sense of sadness, which matches with the label "Sadness".
+
+4. Insults with this untimely moan ;
+- This line creates a sense of sadness and despair. The speaker's heart is insulted by their own sorrow, which adds to the sense of sadness, which matches with the label "Sadness".
+
+5. They might lament — for I am one
+- This line creates a sense of sadness and isolation. The speaker feels like they are alone and unloved, which adds to the sense of sadness, which matches with the label "Sadness".
+
+6. Whom men love not ,— and yet regret ,
+- This line creates a sense of sadness and longing. The speaker feels like they are unloved, but still regrettable, which adds to the sense of sadness, which matches with the label "Sadness".
+
+7. Unlike this day , which , when the sun
+- This line creates a sense of contrast and appreciation. The speaker compares the present moment to the past, which adds to the sense of nostalgia and appreciation, which matches with the label "Beauty/Joy".
+
+8. Shall on its stainless glory set ,
+- This line creates a sense of awe and wonder. The speaker describes the sun's glory as stainless, which adds to the sense of awe, which matches with the label "Awe/Sublime".
+
+9. Will linger , though enjoyed , like joy in memory yet .
+- This line creates a sense of nostalgia and appreciation. The speaker suggests that the present moment will be remembered and cherished, which adds to the sense of nostalgia and appreciation, which matches with the label "Beauty/Joy".
+
+The annotated stanza would be:
+Some might lament that I were cold , [Sadness]
+As I , when this sweet day is gone , [Nostalgia] [Sadness]
+Which my lost heart , too soon grown old , [Sadness]
+Insults with this untimely moan ; [Sadness]
+They might lament — for I am one [Sadness]
+Whom men love not ,— and yet regret , [Sadness]
+Unlike this day , which , when the sun [Beauty/Joy]
+Shall on its stainless glory set , [Awe/Sublime]
+Will linger , though enjoyed , like joy in memory yet . [Beauty/Joy]

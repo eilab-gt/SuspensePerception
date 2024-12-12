@@ -1,0 +1,49 @@
+To annotate the given stanza, we'll follow the guidelines provided. We'll read the entire stanza before annotating each line, and we'll choose the emotion most dominant while reading the stanza. 
+
+1. Nor dread nor hope attend
+   - This line sets a neutral tone, but the mention of "dread" and "hope" implies a sense of uncertainty and possibly uneasiness. 
+   Label: Uneasiness
+
+2. A dying animal;
+   - This line evokes a sense of sadness and pity for the dying animal.
+   Label: Sadness
+
+3. A man awaits his end
+   - This line continues the theme of mortality and death, which can evoke feelings of sadness and uneasiness.
+   Label: Sadness, Uneasiness
+
+4. Dreading and hoping all;
+   - This line highlights the conflicting emotions of dread and hope, which can create a sense of uneasiness and tension.
+   Label: Uneasiness
+
+5. Many times he died,
+   - This line implies a sense of struggle and possibly a sense of awe or admiration for the person's resilience.
+   Label: Awe/Sublime
+
+6. Many times rose again,
+   - This line continues the theme of resilience and struggle, which can evoke feelings of awe and admiration.
+   Label: Awe/Sublime
+
+7. A great man in his pride
+   - This line introduces a sense of grandeur and possibly a sense of awe or admiration for the person's character.
+   Label: Awe/Sublime
+
+8. Confronting murderous men
+   - This line introduces a sense of danger and possibly uneasiness or fear.
+   Label: Uneasiness
+
+9. Casts derision upon
+   - This line implies a sense of defiance and possibly a sense of awe or admiration for the person's courage.
+   Label: Awe/Sublime
+
+10. Supersession of breath;
+    - This line is a poetic way of describing death, which can evoke feelings of sadness and uneasiness.
+    Label: Sadness, Uneasiness
+
+11. He knows death to the bone –
+    - This line implies a sense of intimacy with death, which can evoke feelings of uneasiness and possibly awe.
+    Label: Uneasiness, Awe/Sublime
+
+12. Man has created death.
+    - This line is a philosophical statement that can evoke feelings of uneasiness, sadness, and possibly awe.
+    Label: Uneasiness, Sadness

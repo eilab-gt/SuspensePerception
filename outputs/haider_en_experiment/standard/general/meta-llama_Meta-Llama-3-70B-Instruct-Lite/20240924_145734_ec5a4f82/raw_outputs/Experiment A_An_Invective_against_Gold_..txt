@@ -1,0 +1,95 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the subjective emotions evoked by a poem. The guideline provides 9 labels for annotating emotions, each with its own set of items to help annotators identify the corresponding label. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem.
+* Label your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the emotion most dominant while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+The gold standard provides examples for each label to serve as an orientation for annotators. When in doubt, refer to the gold standard.
+
+The task is to annotate the given stanza:
+
+"Of all the Poisons that the fruitful Earth
+E"er yet brought forth , or Monsters she gave Birth ,
+Nought to Mankind has e"er so fatal been ,
+As thou , accursed Gold , their Care and Sin ."
+
+Please follow the guidelines and instructions to annotate this stanza with the corresponding emotions.
+To annotate the given stanza, I will follow the guidelines and instructions provided. Here is my annotation:
+
+Methinks I the Advent'rous Merchant see, [Suspense]
+Ploughing the faithless Seas, in search of thee, [Suspense]
+His dearest Wife and Children left behind, [Sadness]
+(His real Wealth) while he, a Slave to th' Wind, [Uneasiness]
+Sometimes becalm'd, the Shore with longing Eyes [Nostalgia] [Sadness]
+Wishes to see, and what he wishes, Spies: [Suspense]
+For a rude Tempest wakes him from his Dream, [Uneasiness]
+And Strands his Bark by a more sad Extream. [Sadness]
+Thus, hopeless Wretch, is his whole Life-time spent, [Sadness]
+And though thrice Wreck't, 's no Wiser than he went. [Annoyance]
+
+My annotation is based on the emotions evoked by each line of the stanza. Here's a brief explanation for each line:
+
+* Line 1: The use of "Advent'rous" and "Merchant" creates a sense of excitement and curiosity, hence [Suspense].
+* Line 2: The image of the merchant searching for something creates a sense of longing and tension, hence [Suspense].
+* Line 3: The mention of the merchant's family being left behind evokes feelings of sadness and loss, hence [Sadness].
+* Line 4: The phrase "Slave to th' Wind" creates a sense of discomfort and unease, hence [Uneasiness].
+* Line 5: The longing eyes and the desire to see something creates a sense of nostalgia and sadness, hence [Nostalgia] [Sadness].
+* Line 6: The use of "rude Tempest" and "wakes him from his Dream" creates a sense of surprise and tension, hence [Suspense].
+* Line 7: The image of the ship being stranded creates a sense of sadness and despair, hence [Sadness].
+* Line 8: The phrase "hopeless Wretch" and "whole Life-time spent" creates a sense of sadness and desperation, hence [Sadness].
+* Line 9: The final line's tone of resignation and frustration evokes feelings of annoyance, hence [Annoyance].
+
+Please note that annotation is subjective, and different annotators may have different interpretations of the same poem.
+Here is my annotation of the given stanza:
+
+Again, I see, the Heavenly Fair despis'd, [Annoyance]
+A Hagg like Hell, with Gold, more highly priz'd; [Uneasiness]
+Mens Faith betray'd, their Prince and Country Sold, [Sadness]
+Their God deny'd, all for the Idol Gold. [Annoyance]
+
+My annotation is based on the emotions evoked by each line of the stanza. Here's a brief explanation for each line:
+
+* Line 1: The use of "despis'd" creates a sense of annoyance and frustration, hence [Annoyance].
+* Line 2: The comparison of a "Hagg" to "Hell" and the emphasis on "Gold" creates a sense of unease and discomfort, hence [Uneasiness].
+* Line 3: The phrase "Mens Faith betray'd" and "their Prince and Country Sold" evokes feelings of sadness and loss, hence [Sadness].
+* Line 4: The final line's tone of disillusionment and frustration evokes feelings of annoyance, hence [Annoyance].
+
+Please note that annotation is subjective, and different annotators may have different interpretations of the same poem.
+Here is my annotation of the given stanza:
+
+Unhappy Wretch , who first found out the Oar , [Sadness]
+What kind of Vengeance rests for thee in store ? [Annoyance]
+If Nebats Son , that Israel led astray , [Sadness]
+Meet a severe Reward at the last Day ? [Annoyance]
+Some strange unheard-of Judgement thou wilt find , [Suspense]
+Who thus hast caus "d to Sin all Humane Kind . [Annoyance]
+
+My annotation is based on the emotions evoked by each line of the stanza. Here's a brief explanation for each line:
+
+* Line 1: The phrase "Unhappy Wretch" creates a sense of sadness and pity, hence [Sadness].
+* Line 2: The question "What kind of Vengeance rests for thee in store?" creates a sense of frustration and annoyance, hence [Annoyance].
+* Line 3: The phrase "Nebats Son, that Israel led astray" evokes feelings of sadness and regret, hence [Sadness].
+* Line 4: The question "Meet a severe Reward at the last Day?" creates a sense of frustration and annoyance, hence [Annoyance].
+* Line 5: The phrase "Some strange unheard-of Judgement thou wilt find" creates a sense of suspense and curiosity, hence [Suspense].
+* Line 6: The phrase "Who thus hast caus'd to Sin all Humane Kind" creates a sense of frustration and annoyance, hence [Annoyance].
+
+Please note that annotation is subjective, and different annotators may have different interpretations of the same poem.

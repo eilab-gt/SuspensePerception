@@ -1,0 +1,32 @@
+This is a guidelines manual for annotators to label aesthetic emotions in poetry. The manual provides a set of 9 labels to categorize emotions evoked by reading poems, along with examples and instructions for annotating. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - to be used with another label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Label emotions after reading each individual line (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Do not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If changing the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness
+
+The gold standard examples provided serve as an orientation for the annotators, and the manual encourages annotators to use these examples as a reference when in doubt.
+Based on the guidelines, I would annotate the stanza as follows:
+
+who shall say I am not [Beauty/Joy]
+the happy genius of my household ? [Beauty/Joy]
+
+The reason for this annotation is that the line evokes a sense of confidence and happiness, with the speaker declaring themselves to be the "happy genius" of their household. The tone is uplifting and joyful, which matches the criteria for the Beauty/Joy label.

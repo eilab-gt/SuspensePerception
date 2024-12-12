@@ -1,0 +1,144 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. The guide provides 9 labels for annotating emotions, along with examples and instructions for annotators. Here's a summary of the guide:
+
+**Labels:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with another label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions:**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually, not sentence.
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. You can use up to two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard:**
+
+The guide provides examples for each label, which serve as an orientation for annotators. When in doubt, refer to the gold standard examples.
+
+**Annotation Task:**
+
+The guide provides a stanza for annotation, and annotators are asked to label the emotions they experience while reading the poem, following the instructions and guidelines provided.
+Here is the annotated stanza:
+
+What passion cannot Music raise and quell ? [Awe/Sublime]
+When Jubal struck the chorded shell , [Beauty/Joy]
+His listening brethren stood around , [Beauty/Joy]
+And , wondering , on their faces fell [Beauty/Joy]
+To worship that celestial sound . [Awe/Sublime]
+Less than a God they thought there could not dwell [Awe/Sublime]
+Within the hollow of that shell , [Beauty/Joy]
+That spoke so sweetly and so well . [Beauty/Joy]
+What passion cannot Music raise and quell ? [Awe/Sublime]
+
+Rationale:
+
+* The first line evokes a sense of awe and sublimity, as it asks a rhetorical question about the power of music.
+* The second and third lines create a sense of beauty and joy, as they describe the scene of Jubal playing the chorded shell and his brethren gathering around in wonder.
+* The fourth line continues the sense of beauty and joy, as it describes the brethren's reaction to the music.
+* The fifth line returns to a sense of awe and sublimity, as it describes the brethren's worship of the celestial sound.
+* The sixth line maintains the sense of awe and sublimity, as it describes the brethren's thoughts about the shell.
+* The seventh and eighth lines return to a sense of beauty and joy, as they describe the shell's sweet and beautiful sound.
+* The final line repeats the question of the first line, again evoking a sense of awe and sublimity.
+Here is the annotated stanza:
+
+The trumpet "s loud clangour [Vitality]
+Excites us to arms , [Vitality]
+With shrill notes of anger , [Annoyance]
+And mortal alarms . [Suspense]
+The double double double beat [Vitality]
+Of the thundering drum [Vitality]
+Cries , hark ! the foes come ; [Suspense]
+Charge , charge ! " tis too late to retreat . [Suspense]
+
+Rationale:
+
+* The first line evokes a sense of vitality, as it describes the trumpet's loud clangour exciting us to arms.
+* The second line continues the sense of vitality, as it emphasizes the excitement and energy of the moment.
+* The third line shifts to a sense of annoyance, as the shrill notes of anger create a sense of discomfort.
+* The fourth line creates a sense of suspense, as the mortal alarms suggest danger and uncertainty.
+* The fifth and sixth lines return to a sense of vitality, as the thundering drumbeat energizes and motivateses.
+* The seventh and eighth lines create a sense of suspense, as the cries and charge of the foes create a sense of urgency and danger.
+Here is the annotated stanza:
+
+The soft complaining flute [Beauty/Joy]
+In dying notes discovers [Sadness]
+The woes of hopeless lovers , [Sadness]
+Whose dirge is whisper "d by the warbling lute . [Beauty/Joy]
+
+Rationale:
+
+* The first line evokes a sense of beauty and joy, as the soft complaining flute creates a soothing atmosphere.
+* The second line shifts to a sense of sadness, as the dying notes suggest a sense of loss and despair.
+* The third line continues the sense of sadness, as the woes of hopeless lovers evoke feelings of sorrow.
+* The fourth line returns to a sense of beauty and joy, as the warbling lute creates a sense of musical beauty.
+
+Note: The annotation is subjective and may vary depending on the individual reader's emotional response to the poem.
+Here is the annotated stanza:
+
+Sharp violins proclaim [Suspense]
+Their jealous pangs , and desperation , [Sadness]
+Fury , frantic indignation , [Annoyance]
+Depth of pains , and height of passion , [Sadness]
+For the fair , disdainful dame . [Beauty/Joy]
+
+Rationale:
+
+* The first line creates a sense of suspense, as the sharp violins proclaim something dramatic.
+* The second line evokes feelings of sadness, as the jealous pangs and desperation suggest a sense of pain and suffering.
+* The third line shifts to a sense of annoyance, as the fury and frantic indignation create a sense of frustration.
+* The fourth line returns to a sense of sadness, as the depth of pains and height of passion evoke feelings of sorrow.
+* The fifth line ends on a note of beauty and joy, as the fair, disdainful dame suggests a sense of admiration and appreciation.
+
+Note: The annotation is subjective and may vary depending on the individual reader's emotional response to the poem.
+Here is the annotated stanza:
+
+But oh ! what art can teach , [Awe/Sublime]
+What human voice can reach , [Awe/Sublime]
+The sacred organ "s praise ? [Beauty/Joy]
+Notes inspiring holy love , [Beauty/Joy]
+Notes that wing their heavenly ways [Vitality]
+To mend the choirs above . [Vitality]
+
+Rationale:
+
+* The first two lines evoke a sense of awe and sublimity, as the speaker questions the power of art and human voice to reach the divine.
+* The third line shifts to a sense of beauty and joy, as the sacred organ's praise is described.
+* The fourth line continues the sense of beauty and joy, as the notes inspire holy love.
+* The fifth line conveys a sense of vitality, as the notes wing their heavenly ways.
+* The sixth line ends on a note of vitality, as the choirs above are mended.
+
+Note: The annotation is subjective and may vary depending on the individual reader's emotional response to the poem.
+Here is the annotated stanza:
+
+Orpheus could lead the savage race ; [Awe/Sublime]
+And trees uprooted left their place , [Awe/Sublime]
+Sequacious of the lyre : [Beauty/Joy]
+But bright Cecilia raised the wonder higher : [Beauty/Joy]
+When to her organ vocal breath was given , [Vitality]
+An angel heard , and straight appear "d , [Awe/Sublime]
+Mistaking earth for heaven . [Awe/Sublime]
+
+Rationale:
+
+* The first two lines evoke a sense of awe and sublimity, as Orpheus's power is described.
+* The third line shifts to a sense of beauty and joy, as the lyre is mentioned.
+* The fourth line continues the sense of beauty and joy, as Cecilia's wonder is raised higher.
+* The fifth line conveys a sense of vitality, as Cecilia's organ is given vocal breath.
+* The sixth line returns to a sense of awe and sublimity, as an angel appears.
+* The seventh line ends on a note of awe and sublimity, as the angel mistakes earth for heaven.
+
+Note: The annotation is subjective and may vary depending on the individual reader's emotional response to the poem.

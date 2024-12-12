@@ -1,0 +1,179 @@
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference. 
+
+The given stanza is:
+?o
+baby
+i
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. ?o
+- This line is quite ambiguous, but it seems to evoke a sense of uneasiness or uncertainty. I choose the label "Uneasiness" as it is the closest match.
+2. baby
+- This line is quite simple and innocent-sounding. I choose the label "Beauty/Joy" as it evokes a sense of warmth and happiness.
+3. i
+- This line is short and enigmatic, but it seems to be a continuation of the previous line in a poetic sense. I choose the label "Beauty/Joy" as it maintains the positive and uplifting tone of the previous line.
+
+So, the annotated stanza would be:
+?o - Uneasiness
+baby - Beauty/Joy
+i - Beauty/Joy
+To annotate the given line, I will follow the guidelines and use the provided examples as a reference.
+
+The given line is:
+wouldn"t like
+
+Based on the guidelines, I will label the emotion for this line:
+
+- This line seems to evoke a sense of annoyance or frustration, as it implies a negative feeling towards something. I choose the label "Annoyance" as it is the closest match.
+
+So, the annotated line would be:
+wouldn"t like - Annoyance
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference.
+
+The given stanza is:
+Death if Death
+were
+good:for
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. Death if Death
+- This line seems to be a thought-provoking and somewhat morbid concept. I choose the label "Annoyance" as it implies a sense of discomfort or frustration with the idea of death.
+2. were
+- This line is a question and seems to be a continuation of the previous line. I choose the label "Annoyance" as it maintains the sense of discomfort or frustration.
+3. good:for
+- This line seems to be a statement that questions the value of death. I choose the label "Annoyance" as it implies a sense of frustration or discontent with the idea of death being good.
+
+So, the annotated stanza would be:
+Death if Death - Annoyance
+were - Annoyance
+good:for - Annoyance
+To annotate the given line, I will follow the guidelines and use the provided examples as a reference.
+
+The given line is:
+when(instead of stopping to think)you
+
+Based on the guidelines, I will label the emotion for this line:
+
+- This line seems to be a thought-provoking and somewhat philosophical concept. I choose the label "Vitality" as it conveys a sense of movement, energy, and a call to action, rather than a sense of frustration or discomfort.
+
+So, the annotated line would be:
+when(instead of stopping to think)you - Vitality
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference.
+
+The given stanza is:
+begin to feel of it,dying
+"s miraculous
+why?be
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. begin to feel of it,dying
+- This line seems to be a poignant and introspective concept. I choose the label "Sadness" as it conveys a sense of loss and mortality.
+2. "s miraculous
+- This line seems to be a phrase that contradicts the previous line, implying a sense of wonder or awe. I choose the label "Awe/Sublime" as it conveys a sense of something greater than oneself.
+3. why?be
+- This line seems to be a question that seeks to understand the previous line's statement. I choose the label "Vitality" as it conveys a sense of curiosity and inquiry, which is a driving force for exploration and discovery.
+
+So, the annotated stanza would be:
+begin to feel of it,dying - Sadness
+"s miraculous - Awe/Sublime
+why?be - Vitality
+To annotate the given line, I will follow the guidelines and use the provided examples as a reference.
+
+The given line is:
+cause dying is
+
+Based on the guidelines, I will label the emotion for this line:
+
+- This line seems to be a poignant and introspective concept. I choose the label "Sadness" as it conveys a sense of loss and mortality.
+
+So, the annotated line would be:
+cause dying is - Sadness
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference.
+
+The given stanza is:
+perfectly natural;perfectly
+putting
+it mildly lively(but
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. perfectly natural;perfectly
+- This line seems to be a statement that is trying to downplay or minimize something. I choose the label "Uneasiness" as it implies a sense of discomfort or unease with the idea of something being "perfectly natural".
+2. putting
+- This line seems to be a phrase that is used to soften or mitigate the impact of the previous statement. I choose the label "Vitality" as it conveys a sense of energy and movement, which is in contrast to the more subdued tone of the previous line.
+3. it mildly lively(but
+- This line seems to be a phrase that is trying to add a sense of levity or humor to the previous statement. I choose the label "Humor" as it implies a sense of playfulness and lightheartedness.
+
+So, the annotated stanza would be:
+perfectly natural;perfectly - Uneasiness
+putting - Vitality
+it mildly lively(but - Humor
+To annotate the given line, I will follow the guidelines and use the provided examples as a reference.
+
+The given line is:
+Death
+
+Based on the guidelines, I will label the emotion for this line:
+
+- This line seems to be a concept that is often associated with a sense of finality and mortality. I choose the label "Sadness" as it conveys a sense of loss and mourning.
+
+So, the annotated line would be:
+Death - Sadness
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference.
+
+The given stanza is:
+is strictly
+scientific
+&amp; artificial &amp;
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. is strictly
+- This line seems to be a statement that is trying to convey a sense of precision or objectivity. I choose the label "Vitality" as it conveys a sense of energy and movement, which is in contrast to the more subdued tone of the previous line.
+2. scientific
+- This line seems to be a word that is associated with a sense of detachment or objectivity. I choose the label "Uneasiness" as it implies a sense of discomfort or unease with the idea of something being "scientific" or overly rational.
+3. &amp; artificial &amp;
+- This line seems to be a phrase that is trying to add a sense of irony or contradiction to the previous statement. I choose the label "Humor" as it implies a sense of playfulness and lightheartedness.
+
+So, the annotated stanza would be:
+is strictly - Vitality
+scientific - Uneasiness
+&amp; artificial &amp; - Humor
+To annotate the given line, I will follow the guidelines and use the provided examples as a reference.
+
+The given line is:
+evil &amp; legal)
+
+Based on the guidelines, I will label the emotions for this line:
+
+- This line seems to be a phrase that is trying to convey a sense of contradiction or paradox. I choose the label "Humor" as it implies a sense of playfulness and lightheartedness, and the use of the ampersand (&) suggests a tongue-in-cheek tone.
+
+So, the annotated line would be:
+evil &amp; legal) - Humor
+To annotate the given stanza, I will follow the guidelines and use the provided examples as a reference.
+
+The given stanza is:
+we thank thee
+god
+almighty for dying
+(forgive us,o life!the sin of Death
+
+Based on the guidelines, I will label the emotions for each line:
+
+1. we thank thee
+- This line seems to be a phrase that is trying to convey a sense of irony or sarcasm. I choose the label "Humor" as it implies a sense of playfulness and lightheartedness.
+2. god
+- This line seems to be a word that is associated with a sense of reverence or awe. I choose the label "Awe/Sublime" as it implies a sense of something greater than oneself.
+3. almighty for dying
+- This line seems to be a phrase that is trying to convey a sense of irony or contradiction. I choose the label "Humor" as it implies a sense of playfulness and lightheartedness.
+4. (forgive us,o life!the sin of Death
+- This line seems to be a phrase that is trying to convey a sense of desperation or pleading. I choose the label "Sadness" as it implies a sense of sorrow or regret.
+
+So, the annotated stanza would be:
+we thank thee - Humor
+god - Awe/Sublime
+almighty for dying - Humor
+(forgive us,o life!the sin of Death - Sadness

@@ -1,0 +1,19 @@
+Here is the annotation of the stanza:
+
+I was angry with my friend :
+[Sadness]
+I told my wrath , my wrath did end .
+[Sadness]
+I was angry with my foe :
+[Sadness]
+I told it not , my wrath did grow .
+
+The annotator feels sadness while reading this stanza, specifically a sense of sorrow or disappointment. The poem describes the speaker's anger and its consequences, which evokes a sense of sadness.
+Here is the annotation of the stanza:
+
+And I watered it in fears [Sadness]
+Night and morning with my tears , [Sadness]
+And I sunned it with smiles [Beauty/Joy]
+And with soft deceitful wiles .
+
+The annotator feels sadness while reading the first two lines, as the speaker is expressing a sense of fear and tears. The third line, "And I sunned it with smiles", evokes a sense of beauty and joy, as the speaker is describing a nurturing and loving action. The fourth line, "And with soft deceitful wiles", suggests uneasiness, as the speaker's actions are described as deceitful.

@@ -1,0 +1,46 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the subjective emotions they experience while reading poems. The guideline provides 9 labels for annotating emotions, each with its own set of items to help annotators identify the corresponding label. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. Humor (found it funny/amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem.
+* Label your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the emotion most dominant while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+The gold standard provides examples for each label to serve as an orientation for annotators. When in doubt, refer to the gold standard.
+
+The task is to annotate the given stanza:
+
+"I met a traveller from an antique land
+Who said : Two vast and trunkless legs of stone
+Stand in the desert ... Near them , on the sand ,
+Half sunk , a shattered visage lies , whose frown ,
+And wrinkled lip , and sneer of cold command ,
+Tell that its sculptor well those passions read
+Which yet survive , stamped on these lifeless things ,
+The hand that mocked them , and the heart that fed :
+And on the pedestal these words appear :
+‘ My name is Ozymandias , king of kings :
+Look on my works , ye Mighty , and despair ! ’
+Nothing beside remains . Round the decay
+Of that colossal wreck , boundless and bare
+The lone and level sands stretch far away ."
+
+Please annotate the stanza using the provided labels and instructions.

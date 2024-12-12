@@ -1,0 +1,49 @@
+To annotate the given stanza, I will go through each line and label the corresponding emotions.
+
+1. Some say the world will end in fire,
+- Annoyance (The idea of the world ending is a concerning and frustrating thought)
+- Suspense (The uncertainty of the world's fate sparks curiosity)
+
+2. Some say in ice.
+- Annoyance (Similar to the previous line, the idea of the world ending in ice is also concerning)
+- Suspense (The uncertainty remains)
+
+3. From what I’ve tasted of desire
+- Beauty/Joy (The word "desire" evokes a sense of pleasure and attraction)
+- Vitality (The idea of experiencing desire is invigorating)
+
+4. I hold with those who favor fire.
+- Awe/Sublime (The speaker's confidence in their choice of fire as the end of the world is inspiring and awe-inspiring)
+- Vitality (The speaker's conviction and passion are energizing)
+
+5. But if it had to perish twice,
+- Annoyance (The idea of the world perishing twice is a frustrating thought)
+- Suspense (The uncertainty of the situation remains)
+
+6. I think I know enough of hate
+- Sadness (The speaker's experience with hate is a sad and regretful one)
+- Annoyance (The speaker's knowledge of hate is a concerning and frustrating aspect)
+
+7. To say that for destruction ice
+- Annoyance (The idea of destruction is a concerning and frustrating thought)
+- Suspense (The uncertainty of the situation remains)
+
+8. Is also great
+- Awe/Sublime (The speaker's acknowledgment of ice as a destructive force is awe-inspiring and impressive)
+- Vitality (The speaker's conviction and passion are energizing)
+
+9. And would suffice.
+- Annoyance (The idea that ice would be enough to destroy the world is a concerning and frustrating thought)
+- Suspense (The uncertainty of the situation remains)
+
+So, the annotated stanza would be:
+
+1. Some say the world will end in fire, [Annoyance] [Suspense]
+2. Some say in ice. [Annoyance] [Suspense]
+3. From what I’ve tasted of desire [Beauty/Joy] [Vitality]
+4. I hold with those who favor fire. [Awe/Sublime] [Vitality]
+5. But if it had to perish twice, [Annoyance] [Suspense]
+6. I think I know enough of hate [Sadness] [Annoyance]
+7. To say that for destruction ice [Annoyance] [Suspense]
+8. Is also great [Awe/Sublime] [Vitality]
+9. And would suffice. [Annoyance] [Suspense]

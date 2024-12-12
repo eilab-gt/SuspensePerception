@@ -1,0 +1,117 @@
+This is a guidelines document for annotating aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with examples and instructions for annotators. The labels are:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (always used with another label: Beauty/Joy or Sadness)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem.
+* Label each line individually (not sentence).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* Do not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+The gold standard examples provided serve as an orientation for the annotators, and can be used as a reference when in doubt.
+
+The task is to annotate the given stanza:
+
+"The sun is warm , the sky is clear ,
+The waves are dancing fast and bright ,
+Blue isles and snowy mountains wear
+The purple noon "s transparent might ,
+The breath of the moist earth is light ,
+Around its unexpanded buds ;
+Like many a voice of one delight ,
+The winds , the birds , the ocean floods ,
+The City "s voice itself , is soft like Solitude "s ."
+
+Annotators should read the stanza, identify the emotions evoked, and label each line with the corresponding emotion(s) from the provided list.
+Based on the guidelines provided, I will annotate the given stanza:
+
+"I see the Deep "s untrampled floor
+[Beauty/Joy] [Awe/Sublime]
+With green and purple seaweeds strown ; [Beauty/Joy] [Awe/Sublime]
+I see the waves upon the shore , [Beauty/Joy] [Awe/Sublime]
+Like light dissolved in star-showers , thrown : [Beauty/Joy] [Awe/Sublime]
+I sit upon the sands alone ,— [Sadness]
+The lightning of the noontide ocean [Vitality]
+Is flashing round me , and a tone [Vitality]
+Arises from its measured motion , [Vitality]
+How sweet ! did any heart now share in my emotion . [Beauty/Joy] [Nostalgia]"
+
+Here's my annotation:
+
+* Lines 1-4: I felt a sense of beauty and joy, and also a sense of awe and sublimity, as the description of the ocean floor and waves is vivid and evocative.
+* Line 5: The tone shifts to one of sadness, as the speaker is sitting alone on the sands.
+* Lines 6-8: The description of the lightning and its motion is invigorating and vital, conveying a sense of energy and movement.
+* Line 9: The final line evokes a sense of beauty and joy, and also nostalgia, as the speaker reflects on sharing their emotion with others.
+Here is the annotated stanza:
+
+Alas ! I have nor hope nor health , [Sadness]
+Nor peace within nor calm around , [Sadness]
+Nor that content surpassing wealth [Sadness]
+The sage in meditation found , [Beauty/Joy]
+And walked with inward glory crowned — [Beauty/Joy]
+Nor fame , nor power , nor love , nor leisure . [Sadness]
+Others I see whom these surround — [Nostalgia] [Sadness]
+Smiling they live , and call life pleasure ;— [Beauty/Joy]
+To me that cup has been dealt in another measure . [Sadness]
+
+Here's my annotation:
+
+* Lines 1-4: The tone is sad, as the speaker laments the lack of hope, health, peace, and contentment.
+* Lines 5-6: The image of the sage in meditation is beautiful and joyful, conveying a sense of inner peace and glory.
+* Line 7: The tone returns to sadness, as the speaker feels a sense of longing for the things they lack.
+* Line 8: The nostalgia label is added, as the speaker seems to be reminiscing about others who have what they lack, and this nostalgia is tinged with sadness.
+* Line 9: The final line is again sad, as the speaker reflects on their own circumstances.
+Here is the annotated stanza:
+
+Yet now despair itself is mild , [Sadness]
+Even as the winds and waters are ; [Sadness]
+I could lie down like a tired child , [Sadness]
+And weep away the life of care [Sadness]
+Which I have borne and yet must bear , [Sadness]
+Till death like sleep might steal on me , [Sadness] [Suspense]
+And I might feel in the warm air [Beauty/Joy]
+My cheek grow cold , and hear the sea [Uneasiness]
+Breathe o'er my dying brain its last monotony . [Sadness]
+
+Here's my annotation:
+
+* Lines 1-5: The tone is sad, as the speaker describes their despair and emotional exhaustion.
+* Line 6: The introduction of death adds a sense of suspense, as the speaker contemplates their own mortality.
+* Line 7: The image of feeling the warm air is a brief moment of beauty and joy, but it's fleeting.
+* Line 8: The sound of the sea is unsettling and creates a sense of uneasiness.
+* Line 9: The final line returns to sadness, as the speaker's "dying brain" is a poignant and melancholic image.
+Here is the annotated stanza:
+
+Some might lament that I were cold, [Sadness]
+As I, when this sweet day is gone, [Sadness] [Nostalgia]
+Which my lost heart, too soon grown old, [Sadness]
+Insults with this untimely moan; [Sadness]
+They might lament — for I am one [Sadness]
+Whom men love not,— and yet regret, [Sadness]
+Unlike this day, which, when the sun [Beauty/Joy]
+Shall on its stainless glory set, [Beauty/Joy]
+Will linger, though enjoyed, like joy in memory yet. [Nostalgia] [Beauty/Joy]
+
+Here's my annotation:
+
+* Lines 1-5: The tone is sad, as the speaker describes their emotional pain and regret.
+* Line 6: The phrase "Whom men love not" adds to the sense of sadness and isolation.
+* Line 7: The image of the sun is a moment of beauty and joy, a contrast to the speaker's emotional pain.
+* Line 8: The final line is a nostalgic reflection on the joy of the past, with a sense of beauty and joy.
+
+Note: I've used the label "Nostalgia" in addition to "Sadness" in lines 2 and 8, as the poem evokes a sense of longing for the past.

@@ -1,0 +1,50 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the emotions evoked by a poem. The guideline provides 9 labels for annotating emotions, each with its own set of items to help annotators identify the corresponding emotion. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate each line individually, not sentence by sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+The gold standard examples provided serve as an orientation for annotators, and they should be referred to when in doubt.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Not one of all the purple host [Suspense]
+Who took the flag to-day [Suspense]
+Can tell the definition , [Vitality]
+So clear , of victory , [Vitality]
+
+Rationale:
+
+* The first two lines create a sense of suspense, as they set up a question or a mystery that needs to be resolved. Therefore, I chose the label "Suspense".
+* The third and fourth lines seem to provide a sense of clarity and definition, which is invigorating and inspiring. Therefore, I chose the label "Vitality".
+Based on the guidelines, I would annotate the stanza as follows:
+
+As he , defeated , dying , [Sadness]
+On whose forbidden ear [Sadness]
+The distant strains of triumph [Suspense]
+Break , agonized and clear ! [Sadness] [Suspense]
+
+Rationale:
+
+* The first line creates a sense of sadness, as it describes a defeated and dying person. Therefore, I chose the label "Sadness".
+* The second line continues to evoke a sense of sadness, as it describes a "forbidden ear", which implies a sense of isolation or restriction. Therefore, I chose the label "Sadness" again.
+* The third line creates a sense of suspense, as it introduces a contrast between the "distant strains of triumph" and the defeated and dying person. This contrast sparks my interest and creates a sense of tension. Therefore, I chose the label "Suspense".
+* The fourth line combines the sense of sadness and suspense, as it describes the "agonized and clear" breaking of the triumphant strains. This line reinforces the sense of sadness and adds to the sense of suspense. Therefore, I chose both labels "Sadness" and "Suspense".

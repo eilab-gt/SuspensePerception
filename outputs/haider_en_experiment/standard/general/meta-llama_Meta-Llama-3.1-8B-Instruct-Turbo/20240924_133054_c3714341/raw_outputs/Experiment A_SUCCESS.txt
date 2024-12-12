@@ -1,0 +1,51 @@
+To annotate the given stanza, I will apply the guidelines provided. 
+
+Success is counted sweetest
+By those who ne'er succeed .
+To comprehend a nectar
+Requires sorest need .
+
+- The first line "Success is counted sweetest" makes me feel that success is valued by those who have not achieved it, which evokes a sense of nostalgia for those who have not succeeded. However, the word "sweetest" also implies a sense of beauty or joy. Therefore, I will label it as [Nostalgia] [Beauty/Joy].
+- The second line "By those who ne'er succeed" reinforces the idea that success is valued by those who have not achieved it, which makes me feel nostalgic. I will add [Nostalgia] to the previous label.
+- The third line "To comprehend a nectar" is a metaphor that suggests something complex or difficult to understand. It makes me feel that there is a sense of uneasiness or discomfort in understanding the concept of nectar. Therefore, I will label it as [Uneasiness].
+- The fourth line "Requires sorest need" implies that the comprehension of nectar requires a strong need or desire, which evokes a sense of awe or a sense of greatness. Therefore, I will label it as [Awe/Sublime].
+
+The annotated stanza is:
+Success is counted sweetest [Nostalgia] [Beauty/Joy]
+By those who ne'er succeed [Nostalgia]
+To comprehend a nectar [Uneasiness]
+Requires sorest need [Awe/Sublime]
+To annotate the given stanza, I will apply the guidelines provided. 
+
+Not one of all the purple host
+Who took the flag to-day
+Can tell the definition ,
+So clear , of victory ,
+
+- The first line "Not one of all the purple host" creates a sense of awe or a sense of greatness, as it implies a large and impressive group of people. Therefore, I will label it as [Awe/Sublime].
+- The second line "Who took the flag to-day" suggests a sense of pride and accomplishment, which evokes a sense of beauty or joy. Therefore, I will label it as [Beauty/Joy].
+- The third line "Can tell the definition , of victory" implies that the concept of victory is complex and difficult to define, which makes me feel a sense of uneasiness or discomfort. Therefore, I will label it as [Uneasiness].
+- The fourth line "So clear , of victory" suggests that the definition of victory is not clear, which reinforces the sense of uneasiness. I will add [Uneasiness] to the previous label.
+
+The annotated stanza is:
+Not one of all the purple host [Awe/Sublime]
+Who took the flag to-day [Beauty/Joy]
+Can tell the definition , [Uneasiness] [Uneasiness]
+of victory , [Uneasiness]
+To annotate the given stanza, I will apply the guidelines provided. 
+
+As he , defeated , dying ,
+On whose forbidden ear
+The distant strains of triumph
+Break , agonized and clear !
+
+- The first line "As he , defeated , dying ," creates a sense of sadness or mourning, as the speaker is describing someone who is defeated and dying. Therefore, I will label it as [Sadness].
+- The second line "On whose forbidden ear" suggests that the person is being forced to listen to something, which creates a sense of uneasiness or discomfort. Therefore, I will label it as [Uneasiness].
+- The third line "The distant strains of triumph" implies that the person is being forced to hear the sounds of victory, which creates a sense of irony and uneasiness. I will add [Uneasiness] to the previous label.
+- The fourth line "Break , agonized and clear !" suggests that the sounds of triumph are painful and distressing, which reinforces the sense of uneasiness and sadness. I will add [Sadness] to the previous label.
+
+The annotated stanza is:
+As he , defeated , dying , [On Sadness]
+On whose forbidden ear [Uneasiness]
+The distant strains of triumph [Uneasiness] [Sadness]
+Break , agonized and clear ! [Uneasiness] [Sadness]

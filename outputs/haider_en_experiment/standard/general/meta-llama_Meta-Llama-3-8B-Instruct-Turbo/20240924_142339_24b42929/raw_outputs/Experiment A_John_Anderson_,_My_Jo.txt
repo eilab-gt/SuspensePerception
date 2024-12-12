@@ -1,0 +1,24 @@
+Here is the annotation of the stanza:
+
+1. John Anderson , my jo , John , [Beauty/Joy]
+2. When we were first acquent ; [Beauty/Joy]
+3. Your locks were like the raven , [Beauty/Joy]
+4. Your bonie brow was brent ; [Beauty/Joy]
+5. But now your brow is beld , John , [Sadness]
+6. Your locks are like the snaw ; [Sadness]
+7. But blessings on your frosty pow , [Beauty/Joy]
+8. John Anderson , my jo . [Beauty/Joy]
+
+Note: The annotator's emotions are subjective and may vary. The above annotation is based on the guidelines provided.
+Here is the annotation of the stanza:
+
+1. John Anderson , my jo , John , [Beauty/Joy]
+2. We clamb the hill thegither ; [Beauty/Joy]
+3. And mony a cantie day , John , [Beauty/Joy]
+4. We "ve had wi ’ ane anither : [Beauty/Joy]
+5. Now we maun totter down , John , [Sadness]
+6. And hand in hand we "ll go , [Beauty/Joy]
+7. And sleep thegither at the foot , [Beauty/Joy]
+8. John Anderson , my jo . [Beauty/Joy]
+
+Note: The annotator's emotions are subjective and may vary. The above annotation is based on the guidelines provided.

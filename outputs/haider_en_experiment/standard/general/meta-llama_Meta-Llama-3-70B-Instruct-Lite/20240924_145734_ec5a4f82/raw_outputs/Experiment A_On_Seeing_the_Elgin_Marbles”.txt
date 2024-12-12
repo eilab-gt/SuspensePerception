@@ -1,0 +1,23 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides 9 labels for different emotions, along with examples and instructions for annotating. Here's a summary of the labels and their corresponding emotions:
+
+1. **Annoyance**: feeling annoyed, frustrated, or angry while reading the line/stanza.
+2. **Awe/Sublime**: feeling overwhelmed, inspired, or in awe of something grand or sublime.
+3. **Beauty/Joy**: feeling pleasure, happiness, or joy while reading the line/stanza.
+4. **Humor**: feeling amused, entertained, or finding the line/stanza funny.
+5. **Nostalgia**: feeling sentimental longing for the past, often accompanied by beauty/joy or sadness.
+6. **Sadness**: feeling sad, touched, or moved to tears while reading the line/stanza.
+7. **Suspense**: feeling gripped, interested, or curious about the line/stanza.
+8. **Uneasiness**: feeling uncomfortable, disturbed, or unsettled while reading the line/stanza.
+9. **Vitality**: feeling invigorated, inspired, or energized by the line/stanza.
+
+The instructions for annotating emphasize the importance of:
+
+* Labeling emotions after reading each individual line (not sentence)
+* Reading the entire stanza before annotating each line
+* Using as few emotions as possible
+* Choosing at least one label per line, but no more than two
+* Selecting the dominant emotion and, if necessary, an additional emotion
+* Changing the dominant emotion within a stanza only when unavoidable
+* Using nostalgia with an additional label (beauty/joy or sadness)
+
+The gold standard examples provided serve as a reference for annotators, helping them to understand how to apply the labels in different contexts.

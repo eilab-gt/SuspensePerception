@@ -1,0 +1,32 @@
+Here is the annotation of the stanza:
+
+1. "Let the world 's sharpness , like a clasping knife ,"
+	* Annoyance (annoys me, angers me, felt frustrated)
+2. "Shut in upon itself and do no harm"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+3. "In this close hand of Love , now soft and warm ,"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. "And let us hear no sound of human strife"
+	* Sadness (makes me sad/touches me)
+5. "After the click of the shutting . Life to life —"
+	* Vitality (found it invigorating/spurs me on/inspires me)
+6. "I lean upon thee , Dear , without alarm ,"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+7. "And feel as safe as guarded by a charm"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+8. "Against the stab of worldlings , who if rife"
+	* Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. "Are weak to injure . Very-whitely still"
+	* Sadness (makes me sad/touches me)
+10. "The lilies of our lives may reassure"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+11. "Their blossoms from their roots , accessible"
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+12. "Alone to heavenly dews that drop not fewer"
+	* Vitality (found it invigorating/spurs me on/inspires me)
+13. "Growing straight , out of man "s reach , on the hill ."
+	* Vitality (found it invigorating/spurs me on/inspires me)
+14. "God only , who made us rich , can make us poor ."
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+
+Note: The labels are based on the annotator's subjective emotions while reading the poem. The labels may vary depending on individual perspectives and experiences.

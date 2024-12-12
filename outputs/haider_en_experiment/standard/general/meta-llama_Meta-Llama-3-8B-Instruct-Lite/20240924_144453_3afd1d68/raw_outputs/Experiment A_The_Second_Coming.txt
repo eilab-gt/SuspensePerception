@@ -1,0 +1,30 @@
+Here is the annotation of the given stanza:
+
+* "Turning and turning in the widening gyre" [Awe/Sublime]
+* "The falcon cannot hear the falconer;" [Awe/Sublime]
+* "Things fall apart; the centre cannot hold;" [Sadness] [Annoyance]
+* "Mere anarchy is loosed upon the world," [Sadness] [Annoyance]
+* "The blood-dimmed tide is loosed, and everywhere" [Sadness] [Annoyance]
+* "The ceremony of innocence is drowned;" [Sadness] [Annoyance]
+* "The best lack all conviction, while the worst" [Sadness] [Annoyance]
+* "Are full of passionate intensity." [Sadness] [Annoyance]
+
+Note: The dominant emotion in this stanza is Sadness/Annoyance, with a sense of Awe/Sublime in the first two lines. The rest of the lines evoke a sense of despair, chaos, and hopelessness, which are all related to the dominant emotion of Sadness/Annoyance.
+Here is the annotation of the given stanza:
+
+* "Surely some revelation is at hand;" [Awe/Sublime]
+* "Surely the Second Coming is at hand." [Awe/Sublime]
+* "The Second Coming! Hardly are those words out" [Suspense]
+* "When a vast image out of Spiritus Mundi" [Awe/Sublime]
+* "Troubles my sight: somewhere in sands of the desert" [Uneasiness] [Suspense]
+* "A shape with lion body and the head of a man," [Uneasiness] [Suspense]
+* "A gaze blank and pitiless as the sun," [Uneasiness] [Suspense]
+* "Is moving its slow thighs, while all about it" [Uneasiness] [Suspense]
+* "Reel shadows of the indignant desert birds." [Uneasiness] [Suspense]
+* "The darkness drops again; but now I know" [Sadness]
+* "That twenty centuries of stony sleep" [Sadness]
+* "Were vexed to nightmare by a rocking cradle," [Sadness]
+* "And what rough beast, its hour come round at last," [Uneasiness]
+* "Slouches towards Bethlehem to be born?" [Uneasiness]
+
+Note: The dominant emotions in this stanza are Awe/Sublime, Suspense, and Uneasiness, with a sense of Sadness and Discomfort in the last few lines.

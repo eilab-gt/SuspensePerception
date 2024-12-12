@@ -1,0 +1,60 @@
+To annotate the given stanza, we will go through each line and assign the corresponding label according to the guidelines provided.
+
+1. "Of this world's theatre in which we stay,"
+   - This line can be annotated with 'Sadness' as it sets a melancholic tone for the rest of the stanza.
+
+2. "My love like the spectator ydly sits"
+   - This line can be annotated with 'Annoyance' as the speaker seems to be observing the speaker's emotions from a distance, which might be seen as annoying or frustrating.
+
+3. "Beholding me that all the pageants play,"
+   - This line can be annotated with 'Annoyance' as it continues the idea of the speaker being observed and controlled.
+
+4. "Disguysing diversly my troubled wits."
+   - This line can be annotated with 'Annoyance' as it implies that the speaker's emotions are being manipulated or controlled.
+
+5. "Sometimes I joy when glad occasion fits,"
+   - This line can be annotated with 'Beauty/Joy' as the speaker mentions joy, which is a positive emotion.
+
+6. "And mask in myrth lyke to a comedy:"
+   - This line can be annotated with 'Beauty/Joy' as it continues the idea of joy and happiness.
+
+7. "Soone after when my joy to sorrow flits,"
+   - This line can be annotated with 'Sadness' as it implies a shift from happiness to sadness.
+
+8. "I waile and make my woes a tragedy."
+   - This line can be annotated with 'Sadness' as it explicitly mentions wailing and woes, which are associated with sadness.
+
+9. "Yet she, beholding me with constant eye,"
+   - This line can be annotated with 'Uneasiness' as it implies that the speaker's emotions are being constantly observed.
+
+10. "Delights not in my merth nor rues my smart:"
+    - This line can be annotated with 'Uneasiness' as it implies that the speaker's emotions are not being acknowledged or validated.
+
+11. "But when I laugh she mocks, and when I cry"
+    - This line can be annotated with 'Annoyance' as it implies that the speaker's emotions are being mocked.
+
+12. "She laughs and hardens evermore her heart."
+    - This line can be annotated with 'Annoyance' as it implies that the speaker's emotions are being ignored or dismissed.
+
+13. "What then can move her? if nor merth nor mone,"
+    - This line can be annotated with 'Uneasiness' as it implies that the speaker is unsure what can move the person they are addressing.
+
+14. "She is no woman, but a senceless stone."
+    - This line can be annotated with 'Annoyance' as it implies that the person they are addressing is heartless and unresponsive.
+
+The annotated stanza would be:
+
+1. Of this world's theatre in which we stay, [Sadness]
+2. My love like the spectator ydly sits [Annoyance]
+3. Beholding me that all the pageants play, [Annoyance]
+4. Disguysing diversly my troubled wits. [Annoyance]
+5. Sometimes I joy when glad occasion fits, [Beauty/Joy]
+6. And mask in myrth lyke to a comedy: [Beauty/Joy]
+7. Soone after when my joy to sorrow flits, [Sadness]
+8. I waile and make my woes a tragedy. [Sadness]
+9. Yet she, beholding me with constant eye, [Uneasiness]
+10. Delights not in my merth nor rues my smart: [Uneasiness]
+11. But when I laugh she mocks, and when I cry [Annoyance]
+12. She laughs and hardens evermore her heart. [Annoyance]
+13. What then can move her? if nor merth nor mone, [Uneasiness]
+14. She is no woman, but a senceless stone. [Annoyance]

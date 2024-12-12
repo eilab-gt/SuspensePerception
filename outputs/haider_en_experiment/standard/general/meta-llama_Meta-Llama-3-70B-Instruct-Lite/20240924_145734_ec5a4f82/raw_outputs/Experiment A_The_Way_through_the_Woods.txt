@@ -1,0 +1,63 @@
+This is a comprehensive guideline for annotating aesthetic emotions in poetry. The guidelines provide a clear framework for annotators to label their subjective emotions while reading poems. Here's a breakdown of the guidelines:
+
+**Labels and Categories**
+
+The guidelines provide 9 labels, each corresponding to a specific category of emotion:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (to be used with another label: Beauty/Joy or Sadness)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+**Instructions for Annotating**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually (not sentence).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. Do not use more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+11. Nostalgia always has to be used with an additional label: Beauty/Joy or Sadness.
+
+**Gold Standard**
+
+The guidelines provide examples for each label, serving as an orientation for annotators. These examples demonstrate how to apply the labels in different contexts.
+
+**Annotating the Stanza**
+
+The guidelines provide a sample stanza for annotation, and the annotator is expected to apply the labels according to the instructions and guidelines provided.
+
+Overall, these guidelines provide a clear and structured approach to annotating aesthetic emotions in poetry, ensuring consistency and reliability in the annotation process.
+To annotate the stanza, I will follow the guidelines provided. Here is my annotation:
+
+Yet, if you enter the woods [Beauty/Joy]
+Of a summer evening late, [Beauty/Joy]
+When the night-air cools on the trout-ringed pools [Beauty/Joy]
+Where the otter whistles his mate, [Beauty/Joy]
+(They fear not men in the woods, [Suspense]
+Because they see so few.) [Suspense]
+You will hear the beat of a horse’s feet, [Vitality]
+And the swish of a skirt in the dew, [Vitality]
+Steadily cantering through [Vitality]
+The misty solitudes, [Beauty/Joy]
+As though they perfectly knew [Suspense]
+The old lost road through the woods. [Nostalgia] [Sadness]
+But there is no road through the woods. [Sadness]
+
+My annotation is based on the emotions I feel while reading each line. I have chosen the labels that best match my emotions, using the guidelines provided. Here's a brief explanation for each line:
+
+* Lines 1-4: I feel a sense of beauty and joy, as the description of the woods is peaceful and serene.
+* Line 5-6: I feel a sense of suspense, as the phrase "They fear not men in the woods" creates a sense of uncertainty.
+* Lines 7-9: I feel a sense of vitality, as the description of the horse's feet and the swish of a skirt creates a sense of energy and movement.
+* Line 10: I feel a sense of beauty and joy again, as the description of the misty solitudes is peaceful and serene.
+* Line 11: I feel a sense of suspense, as the phrase "As though they perfectly knew" creates a sense of uncertainty.
+* Lines 12-13: I feel a sense of nostalgia and sadness, as the phrase "The old lost road through the woods" evokes a sense of longing and loss, and the final line "But there is no road through the woods" reinforces this feeling of sadness.

@@ -1,0 +1,112 @@
+To annotate the given stanza, we will go through each line and choose the most dominant emotion for each line, using the provided guidelines.
+
+1. I wandered lonely as a Cloud
+   - The word "lonely" suggests a sense of sadness, but the word "Cloud" can also evoke a sense of freedom and lightness. However, the overall tone of the line is more melancholic, so I would choose: Sadness.
+
+2. That floats on high over Vales and Hills ,
+   - The image of a cloud floating over hills and vales is peaceful and serene. It doesn't evoke any strong emotions, but it sets a calm tone for the rest of the stanza. I would choose: Beauty/Joy.
+
+3. When all at once I saw a crowd
+   - The word "crowd" suggests a sense of excitement and energy. It's a sudden change from the peaceful tone of the previous line. I would choose: Vitality.
+
+4. A host of dancing Daffodills ;
+   - The image of dancing daffodils is joyful and lively. It's a beautiful and pleasant scene. I would choose: Beauty/Joy.
+
+5. Along the Lake , beneath the trees ,
+   - This line continues the peaceful and serene tone of the previous line. It's a description of a beautiful natural setting. I would choose: Beauty/Joy.
+
+6. Ten thousand dancing in the breeze .
+   - The image of ten thousand dancing daffodils in the breeze is a vivid and joyful scene. It's a celebration of nature's beauty. I would choose: Beauty/Joy.
+
+So, the annotated stanza would be:
+
+1. I wandered lonely as a Cloud [Sadness]
+2. That floats on high over Vales and Hills , [Beauty/Joy]
+3. When all at once I saw a crowd [Vitality]
+4. A host of dancing Daffodills ; [Beauty/Joy]
+5. Along the Lake , beneath the trees , [Beauty/Joy]
+6. Ten thousand dancing in the breeze . [Beauty/Joy]
+To annotate the given stanza, we will go through each line and choose the most dominant emotion for each line, using the provided guidelines.
+
+1. Continuous as the stars that shine
+   - The image of stars shining is beautiful and peaceful. It doesn't evoke any strong emotions, but it sets a calm tone for the rest of the stanza. I would choose: Beauty/Joy.
+
+2. And twinkle on the milky way,
+   - The image of stars twinkling on the milky way is also beautiful and peaceful. It's a continuation of the previous line and maintains the calm tone. I would choose: Beauty/Joy.
+
+3. They stretched in never-ending line
+   - The word "never-ending" suggests a sense of vastness and infinity. It's a beautiful and awe-inspiring image. I would choose: Awe/Sublime.
+
+4. Along the margin of a bay:
+   - The image of a bay is peaceful and serene. It's a continuation of the previous line and maintains the calm tone. I would choose: Beauty/Joy.
+
+5. Ten thousand saw I at a glance,
+   - The number "ten thousand" is impressive and suggests a sense of wonder. It's a moment of surprise and excitement. I would choose: Vitality.
+
+6. Tossing their heads in sprightly dance.
+   - The image of stars tossing their heads in a sprightly dance is joyful and lively. It's a beautiful and carefree scene. I would choose: Beauty/Joy.
+
+So, the annotated stanza would be:
+
+1. Continuous as the stars that shine [Beauty/Joy]
+2. And twinkle on the milky way, [Beauty/Joy]
+3. They stretched in never-ending line [Awe/Sublime]
+4. Along the margin of a bay: [Beauty/Joy]
+5. Ten thousand saw I at a glance, [Vitality]
+6. Tossing their heads in sprightly dance. [Beauty/Joy]
+To annotate the given stanza, we will go through each line and choose the most dominant emotion for each line, using the provided guidelines.
+
+1. The waves beside them danced , but they
+   - The image of waves dancing is joyful and lively. It's a beautiful and carefree scene. I would choose: Beauty/Joy.
+
+2. Outdid the sparkling waves in glee :—
+   - The word "glee" suggests a sense of happiness and joy. It's a continuation of the previous line and maintains the joyful tone. I would choose: Beauty/Joy.
+
+3. A Poet could not but be gay
+   - The word "gay" suggests a sense of happiness and joy. It's a continuation of the previous line and maintains the joyful tone. I would choose: Beauty/Joy.
+
+4. In such a laughing company :
+   - The image of a laughing company suggests a sense of joy and camaraderie. It's a continuation of the previous line and maintains the joyful tone. I would choose: Beauty/Joy.
+
+5. I gazed — and gazed — but little thought
+   - The phrase "gazed — and gazed" suggests a sense of wonder and awe. It's a moment of introspection and contemplation. I would choose: Awe/Sublime.
+
+6. What wealth the shew to me had brought :
+   - The word "wealth" suggests a sense of abundance and richness. It's a moment of realization and appreciation. I would choose: Beauty/Joy.
+
+So, the annotated stanza would be:
+
+1. The waves beside them danced , but they [Beauty/Joy]
+2. Outdid the sparkling waves in glee :— [Beauty/Joy]
+3. A Poet could not but be gay [Beauty/Joy]
+4. In such a laughing company : [Beauty/Joy]
+5. I gazed — and gazed — but little thought [Awe/Sublime]
+6. What wealth the shew to me had brought : [Beauty/Joy]
+To annotate the given stanza, we will go through each line and choose the most dominant emotion for each line, using the provided guidelines.
+
+1. For oft when on my couch I lie
+   - The phrase "vacant or in pensive mood" suggests a sense of introspection and contemplation. It's a moment of quiet reflection. I would choose: Beauty/Joy.
+
+2. In vacant or in pensive mood ,
+   - The phrase "vacant or in pensive mood" suggests a sense of introspection and contemplation. It's a continuation of the previous line and maintains the quiet reflection tone. I would choose: Beauty/Joy.
+
+3. They flash upon that inward eye
+   - The phrase "flash upon" suggests a sense of sudden insight or revelation. It's a moment of clarity. I would choose: Vitality.
+
+4. Which is the essence of solitude ,
+   - The phrase "essence of solitude" suggests a sense of peace and tranquility. It's a moment of calm and reflection. I would choose: Beauty/Joy.
+
+5. And then my heart with pleasure fills ,
+   - The phrase "with pleasure fills" suggests a sense of joy and happiness. It's a moment of delight. I would choose: Beauty/Joy.
+
+6. And dances with the Daffodils .
+   - The image of dancing daffodils is joyful and lively. It's a beautiful and carefree scene. I would choose: Beauty/Joy.
+
+So, the annotated stanza would be:
+
+1. For oft when on my couch I lie [Beauty/Joy]
+2. In vacant or in pensive mood , [Beauty/Joy]
+3. They flash upon that inward eye [Vitality]
+4. Which is the bliss of solitude , [Beauty/Joy]
+5. And then my heart with pleasure fills , [Beauty/Joy]
+6. And dances with the Daffodils . [Beauty/Joy]

@@ -1,0 +1,47 @@
+To annotate the given stanza, we will go through each line and identify the dominant emotion. We will use the guidelines provided to label each line accordingly.
+
+1. The expense of spirit in a waste of shame
+   - This line evokes a sense of sadness and uneasiness due to the mention of shame. 
+   Label: Sadness, Uneasiness
+
+2. Is lust in action : and till action , lust
+   - This line also evokes a sense of uneasiness due to the mention of lust.
+   Label: Uneasiness
+
+3. Is perjur "d , murderous , bloody , full of blame ,
+   - This line evokes a sense of uneasiness and annoyance due to the strong negative adjectives used.
+   Label: Uneasiness, Annoyance
+
+4. Savage , extreme , rude , cruel , not to trust ;
+   - This line also evokes a sense of uneasiness and annoyance due to the strong negative adjectives used.
+   Label: Uneasiness, Annoyance
+
+5. Enjoy "d no sooner but despised straight ;
+   - This line evokes a sense of uneasiness and annoyance due to the mention of being despised.
+   Label: Uneasiness, Annoyance
+
+6. Past reason hunted ; and no sooner had ,
+   - This line evokes a sense of uneasiness and annoyance due to the mention of being hunted.
+   Label: Uneasiness, Annoyance
+
+7. Past reason hated , as a swallow "d bait ,
+   - This line evokes a sense of uneasiness and annoyance due to the mention of being hated and used as bait.
+   Label: Uneasiness, Annoyance
+
+8. On purpose laid to make the taker mad :
+   - This line evokes a sense of uneasiness and annoyance due to the mention of being made mad.
+   Label: Uneasiness, Annoyance
+
+9. Mad in pursuit and in possession so ;
+   - This line evokes a sense of uneasiness and annoyance due to the mention of being mad.
+   Label: Uneasiness, Annoyance
+
+10. All this the world well knows ; yet none knows well
+    - This line evokes a sense of uneasiness and annoyance due to the mention of the world knowing something that is not being acted upon.
+    Label: Uneasiness, Annoyance
+
+11. To shun the heaven that leads men to this hell .
+    - This line evokes a sense of uneasiness and annoyance due to the mention of a heaven leading to hell.
+    Label: Uneasiness, Annoyance
+
+Overall, the dominant emotion in this stanza is uneasiness, with annoyance being a close second. The lines evoke a sense of discomfort and unease due to the strong negative adjectives and themes used.

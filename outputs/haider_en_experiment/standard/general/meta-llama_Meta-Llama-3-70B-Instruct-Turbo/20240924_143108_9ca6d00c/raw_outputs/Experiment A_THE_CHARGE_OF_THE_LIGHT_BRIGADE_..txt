@@ -1,0 +1,117 @@
+Based on the guidelines, I would annotate the stanza as follows:
+
+Half a league , half a league , [Suspense]
+Half a league onward , [Suspense]
+All in the valley of Death [Awe/Sublime]
+Rode the six hundred . [Awe/Sublime]
+‘ Forward , the Light Brigade ! ’ [Vitality]
+‘ Charge for the guns ! ’ he said : [Vitality]
+Into the valley of Death [Awe/Sublime]
+Rode the six hundred . [Awe/Sublime]
+
+My reasoning is as follows:
+
+* Lines 1-2: The repetition of "Half a league" creates a sense of anticipation and tension, which is why I chose the label "Suspense".
+* Line 3: The phrase "valley of Death" evokes a sense of grandeur and solemnity, which is why I chose the label "Awe/Sublime".
+* Line 4: The image of the six hundred riding into the valley of Death is also awe-inspiring, so I chose the same label.
+* Lines 5-6: The commands "Forward" and "Charge" convey a sense of energy and urgency, which is why I chose the label "Vitality".
+* Lines 7-8: The repetition of the phrase "Into the valley of Death" and "Rode the six hundred" reinforces the sense of awe and grandeur, so I chose the same label again.
+
+Note that I chose only one or two labels per line, as per the instructions, and tried to capture the dominant emotion in each line.
+Here is the annotated stanza:
+
+‘ Forward , the Light Brigade ! ’ [Vitality]
+Was there a man dismay "d ? [Sadness]
+Not tho ’ the soldier knew [Suspense]
+Some one had blunder "d : [Uneasiness]
+Their "s not to make reply , [Vitality]
+Their "s not to reason why , [Vitality]
+Their "s but to do and die : [Vitality]
+Into the valley of Death [Awe/Sublime]
+Rode the six hundred . [Awe/Sublime]
+
+My reasoning is as follows:
+
+* Line 1: The command "Forward, the Light Brigade!" conveys a sense of energy and urgency, which is why I chose the label "Vitality".
+* Line 2: The question "Was there a man dismay'd?" suggests a sense of sadness or concern, which is why I chose the label "Sadness".
+* Line 3: The phrase "Not tho' the soldier knew" creates a sense of tension and uncertainty, which is why I chose the label "Suspense".
+* Line 4: The phrase "Some one had blunder'd" implies a sense of mistake or error, which can be unsettling, so I chose the label "Uneasiness".
+* Lines 5-7: The repetition of "Their's not to..." creates a sense of determination and resolve, which is why I chose the label "Vitality" for these lines.
+* Lines 8-9: The image of riding into the valley of Death is awe-inspiring and solemn, which is why I chose the label "Awe/Sublime" for these lines.
+Here is the annotated stanza:
+
+Cannon to right of them , [Suspense]
+Cannon to left of them , [Suspense]
+Cannon in front of them [Suspense]
+Volley "d and thunder "d ; [Uneasiness]
+Storm "d at with shot and shell , [Uneasiness]
+Boldly they rode and well , [Vitality]
+Into the jaws of Death , [Awe/Sublime]
+Into the mouth of Hell [Awe/Sublime]
+Rode the six hundred . [Awe/Sublime]
+
+My reasoning is as follows:
+
+* Lines 1-3: The description of cannons surrounding the soldiers creates a sense of tension and suspense, which is why I chose the label "Suspense".
+* Line 4: The phrase "Volley'd and thunder'd" creates a sense of chaos and disturbance, which is why I chose the label "Uneasiness".
+* Line 5: The phrase "Storm'd at with shot and shell" continues the sense of chaos and disturbance, which is why I chose the label "Uneasiness".
+* Line 6: The phrase "Boldly they rode and well" suggests a sense of courage and determination, which is why I chose the label "Vitality".
+* Lines 7-9: The image of riding into the jaws of Death and the mouth of Hell is awe-inspiring and solemn, which is why I chose the label "Awe/Sublime".
+Here is the annotated stanza:
+
+Flash'd all their sabres bare, [Vitality]
+Flash'd as they turn'd in air, [Vitality]
+Sabring the gunners there, [Vitality]
+Charging an army, while [Vitality]
+All the world wonder'd: [Awe/Sublime]
+Plunged in the battery-smoke [Uneasiness]
+Right thro' the line they broke; [Vitality]
+Cossack and Russian [Uneasiness]
+Reel'd from the sabre-stroke [Uneasiness]
+Shatter'd and sunder'd. [Uneasiness]
+Then they rode back, but not [Sadness]
+Not the six hundred. [Sadness]
+
+My reasoning is as follows:
+
+* Lines 1-4: The description of the cavalry charge creates a sense of energy and movement, which is why I chose the label "Vitality".
+* Line 5: The phrase "All the world wonder'd" suggests a sense of awe and amazement, which is why I chose the label "Awe/Sublime".
+* Line 6: The image of being "Plunged in the battery-smoke" creates a sense of discomfort and unease, which is why I chose the label "Uneasiness".
+* Lines 7-9: The description of the Cossack and Russian soldiers reeling from the sabre-stroke creates a sense of chaos and disturbance, which is why I chose the label "Uneasiness".
+* Lines 10-11: The phrase "Then they rode back, but not / Not the six hundred" suggests a sense of sadness and loss, which is why I chose the label "Sadness".
+Here is the annotated stanza:
+
+Cannon to right of them , [Uneasiness]
+Cannon to left of them , [Uneasiness]
+Cannon behind them [Uneasiness]
+Volley "d and thunder "d ; [Vitality]
+Storm "d at with shot and shell , [Vitality]
+While horse and hero fell , [Sadness]
+They that had fought so well [Vitality]
+Came thro ’ the jaws of Death , [Awe/Sublime]
+Back from the mouth of Hell , [Awe/Sublime]
+All that was left of them , [Sadness]
+Left of six hundred . [Sadness]
+
+My reasoning is as follows:
+
+* Lines 1-3: The description of cannons surrounding the soldiers creates a sense of unease and discomfort, which is why I chose the label "Uneasiness".
+* Lines 4-5: The description of the volley and storm creates a sense of energy and movement, which is why I chose the label "Vitality".
+* Line 6: The phrase "While horse and hero fell" creates a sense of sadness and loss, which is why I chose the label "Sadness".
+* Line 7: The phrase "They that had fought so well" creates a sense of admiration and respect, which is why I chose the label "Vitality".
+* Lines 8-9: The description of coming back from the jaws of Death and the mouth of Hell creates a sense of awe and wonder, which is why I chose the label "Awe/Sublime".
+* Lines 10-11: The phrase "All that was left of them" and "Left of six hundred" creates a sense of sadness and loss, which is why I chose the label "Sadness".
+Here is the annotated stanza:
+
+When can their glory fade ? [Vitality]
+O the wild charge they made ! [Vitality]
+All the world wondered . [Awe/Sublime]
+Honor the charge they made ! [Vitality]
+Honor the Light Brigade , [Vitality]
+Noble six hundred ! [Vitality]
+
+My reasoning is as follows:
+
+* Lines 1-2: The phrase "When can their glory fade" and "O the wild charge they made" creates a sense of energy and movement, which is why I chose the label "Vitality".
+* Line 3: The phrase "All the world wondered" creates a sense of awe and amazement, which is why I chose the label "Awe/Sublime".
+* Lines 4-6: The repetition of "Honor" and the phrase "Noble six hundred" creates a sense of admiration and respect, which is why I chose the label "Vitality". The overall tone of these lines is one of praise and celebration, which is consistent with the "Vitality" label.

@@ -1,0 +1,66 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides clear instructions and examples to help annotators identify and categorize their subjective emotions while reading poems. Here's a summary of the guidelines:
+
+**Labels and Categories:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. Humor (found it funny/amusing)
+5. Nostalgia (makes me nostalgic) - always used with another label: Beauty/Joy or Sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating:**
+
+1. Reflect your current feelings while reading the poem.
+2. Label your emotions after reading each individual line (not sentence!).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. You should not use more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard:**
+
+The guide provides examples for each label, which serve as an orientation for annotators. These examples can be used as a reference when in doubt.
+
+By following these guidelines, annotators can ensure consistency and accuracy in labeling aesthetic emotions in poetry, ultimately contributing to a better understanding of how readers experience and respond to poetry.
+Based on the guidelines, I would annotate the stanza as follows:
+
+But Love these Thoughts , like Mists , did soon disperse , [Beauty/Joy]
+Enlarg "d his Fancy , and set free his Muse , [Vitality]
+Biding him more Illustrious Subjects choose ; [Vitality]
+The Acts of Gods , and God-like Men reherse . [Awe/Sublime]
+From thence new Raptures did his Breast inspire , [Beauty/Joy]
+His scarce Warm-Heart converted was to Fire . [Vitality]
+
+Here's my reasoning:
+
+* The first line has a sense of beauty and joy, with the use of the word "Love" and the comparison of thoughts to "Mists" which creates a sense of lightness and airiness.
+* The second line has a sense of vitality, with the idea of the poet's "Fancy" being set free and his "Muse" being inspired.
+* The third line continues the theme of vitality, with the poet choosing "Illustrious Subjects" to write about.
+* The fourth line has a sense of awe and sublimity, with the reference to "The Acts of Gods" and "God-like Men" which creates a sense of grandeur and majesty.
+* The fifth line returns to a sense of beauty and joy, with the idea of "new Raptures" inspiring the poet's breast.
+* The sixth line has a sense of vitality, with the image of the poet's "Warm-Heart" being converted to "Fire", which suggests a sense of passion and energy.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Th' exalted Poet rais'd by this new Flame, [Vitality]
+With Vigor flys, where late he crept along, [Vitality]
+And Acts Divine, in a Diviner Song, [Awe/Sublime]
+Commits to the eternal Trompe of Fame. [Vitality]
+And thus Alexis does prove Love to be, [Beauty/Joy]
+As the Worlds Soul, the Soul of Poetry. [Awe/Sublime]
+
+Here's my reasoning:
+
+* The first line has a sense of vitality, with the image of the poet being "rais'd" and "flys" suggesting a sense of energy and movement.
+* The second line continues the theme of vitality, with the idea of the poet moving with "Vigor" and "flys" suggesting a sense of power and strength.
+* The third line has a sense of awe and sublimity, with the reference to "Acts Divine" and "Diviner Song" creating a sense of grandeur and majesty.
+* The fourth line has a sense of vitality, with the idea of the poet committing to "the eternal Trompe of Fame" suggesting a sense of ambition and drive.
+* The fifth line has a sense of beauty and joy, with the idea of Alexis "proving Love to be" suggesting a sense of warmth and connection.
+* The sixth line has a sense of awe and sublimity, with the reference to "the Worlds Soul, the Soul of Poetry" creating a sense of grandeur and majesty.

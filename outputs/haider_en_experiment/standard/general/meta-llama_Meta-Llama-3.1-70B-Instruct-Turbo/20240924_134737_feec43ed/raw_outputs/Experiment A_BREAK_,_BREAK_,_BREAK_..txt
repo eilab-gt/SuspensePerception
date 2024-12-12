@@ -1,0 +1,115 @@
+To annotate the given stanza, let's follow the guidelines provided. 
+
+The stanza is:
+Break , break , break ,
+On thy cold gray stones , O Sea !
+And I would that my tongue could utter
+The thoughts that arise in me .
+
+After reading the entire stanza, the dominant emotion seems to be one of sadness or longing, as the speaker is addressing the sea and expressing a desire to express their thoughts, but is unable to do so. 
+
+For the first line, "Break , break , break ,", the emotion is likely one of frustration or sadness, so the label would be:
+• Annoyance (annoys me, angers me, felt frustrated) or • Sadness (makes me sad/touches me)
+
+For the second line, "On thy cold gray stones , O Sea !", the emotion is still one of sadness, but there's also a sense of awe or respect for the sea, so the labels would be:
+• Sadness (makes me sad/touches me) and possibly • Awe/Sublime (found it overwhelming/sense of greatness)
+
+For the third line, "And I would that my tongue could utter", the emotion is one of longing or frustration, so the label would be:
+• Sadness (makes me sad/touches me)
+
+For the fourth line, "The thoughts that arise in me .", the emotion is still one of sadness or introspection, so the label would be:
+• Sadness (makes me sad/touches me)
+
+So, the annotated stanza would be:
+Break , break , break , [Sadness]
+On thy cold gray stones , O Sea ! [Sadness] [Awe/Sublime]
+And I would that my tongue could utter [Sadness]
+The thoughts that arise in me . [Sadness]
+To annotate the given stanza, let's follow the guidelines provided.
+
+The stanza is:
+O well for the fisherman "s boy ,
+That he shouts with his sister at play !
+O well for the sailor lad ,
+That he sings in his boat on the bay !
+
+After reading the entire stanza, the dominant emotion seems to be one of joy or happiness, as the speaker is expressing a sense of contentment and well-being for the fisherman's boy and the sailor lad.
+
+For the first line, "O well for the fisherman "s boy ,", the emotion is one of happiness or joy, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+For the second line, "That he shouts with his sister at play !", the emotion is still one of joy, as the image of the boy playing with his sister is a happy one, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+For the third line, "O well for the sailor lad ,", the emotion is again one of happiness or joy, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+For the fourth line, "That he sings in his boat on the bay !", the emotion is still one of joy, as the image of the sailor lad singing is a happy one, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+So, the annotated stanza would be:
+O well for the fisherman "s boy , [Beauty/Joy]
+That he shouts with his sister at play ! [Beauty/Joy]
+O well for the sailor lad , [Beauty/Joy]
+That he sings in his boat on the bay ! [Beauty/Joy]
+
+Note that there is a sense of wistfulness or nostalgia in the speaker's tone, but it's not strong enough to warrant the use of the Nostalgia label, especially since the overall emotion is one of joy and happiness.
+To annotate the given stanza, let's follow the guidelines provided.
+
+The stanza is:
+And the stately ships go on
+To their haven under the hill ;
+But O for the touch of a vanish "d hand ,
+And the sound of a voice that is still !
+
+After reading the entire stanza, the dominant emotion seems to be one of sadness or longing, as the speaker is expressing a sense of loss and yearning for something that is no longer present.
+
+For the first line, "And the stately ships go on", the emotion is one of calmness or serenity, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+For the second line, "To their haven under the hill ;", the emotion is still one of calmness or serenity, so the label would be:
+• Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+For the third line, "But O for the touch of a vanish "d hand ,", the emotion shifts to one of sadness or longing, as the speaker is expressing a desire for something that is no longer present, so the label would be:
+• Sadness (makes me sad/touches me)
+
+For the fourth line, "And the sound of a voice that is still !", the emotion is still one of sadness or longing, as the speaker is expressing a desire for something that is no longer present, so the label would be:
+• Sadness (makes me sad/touches me)
+
+Additionally, the speaker's yearning for something that is no longer present suggests a sense of nostalgia, so the label:
+• Nostalgia (makes me nostalgic) could be added to the third and fourth lines, in combination with the Sadness label.
+
+So, the annotated stanza would be:
+And the stately ships go on [Beauty/Joy]
+To their haven under the hill ; [Beauty/Joy]
+But O for the touch of a vanish "d hand , [Sadness] [Nostalgia]
+And the sound of a voice that is still ! [Sadness] [Nostalgia]
+To annotate the given stanza, let's follow the guidelines provided.
+
+The stanza is:
+Break , break , break ,
+At the foot of thy crags , O Sea !
+But the tender grace of a day that is dead
+Will never come back to me .
+
+After reading the entire stanza, the dominant emotion seems to be one of sadness or loss, as the speaker is expressing a sense of longing for something that is gone.
+
+For the first line, "Break , break , break ,", the emotion is one of intensity or urgency, but it's not clear what the speaker is feeling, so we'll wait for the next lines to determine the dominant emotion.
+
+For the second line, "At the foot of thy crags , O Sea !", the emotion is one of awe or respect for the power of the sea, so the label would be:
+• Awe/Sublime (found it overwhelming/sense of greatness)
+
+For the third line, "But the tender grace of a day that is dead", the emotion shifts to one of sadness or loss, as the speaker is expressing a sense of longing for something that is gone, so the label would be:
+• Sadness (makes me sad/touches me)
+
+For the fourth line, "Will never come back to me .", the emotion is still one of sadness or loss, as the speaker is expressing a sense of finality and irreversibility, so the label would be:
+• Sadness (makes me sad/touches me)
+
+Additionally, the speaker's longing for something that is gone suggests a sense of nostalgia, so the label:
+• Nostalgia (makes me nostalgic) could be added to the third and fourth lines, in combination with the Sadness label.
+
+So, the annotated stanza would be:
+Break , break , break , [No label]
+At the foot of thy crags , O Sea ! [Awe/Sublime]
+But the tender grace of a day that is dead [Sadness] [Nostalgia]
+Will never come back to me . [Sadness] [Nostalgia]

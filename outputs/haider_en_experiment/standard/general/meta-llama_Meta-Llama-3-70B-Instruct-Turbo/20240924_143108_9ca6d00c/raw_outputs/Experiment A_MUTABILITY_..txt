@@ -1,0 +1,49 @@
+Based on the guidelines and examples provided, I will annotate the given stanza:
+
+The flower that smiles to-day [Beauty/Joy]
+To-morrow dies ; [Sadness]
+All that we wish to stay [Sadness]
+Tempts and then flies . [Sadness]
+What is this world "s delight ? [Suspense]
+Lightning that mocks the night , [Awe/Sublime]
+Brief even as bright . [Beauty/Joy]
+
+Here's my reasoning for each line:
+
+* "The flower that smiles to-day" evokes a sense of beauty and joy, so it's labeled as [Beauty/Joy].
+* "To-morrow dies ;" is a sad and melancholic statement, so it's labeled as [Sadness].
+* "All that we wish to stay" and "Tempts and then flies ." both convey a sense of longing and loss, so they're labeled as [Sadness].
+* "What is this world "s delight ?" is a question that sparks curiosity and interest, so it's labeled as [Suspense].
+* "Lightning that mocks the night ," is a powerful and awe-inspiring image, so it's labeled as [Awe/Sublime].
+* "Brief even as bright ." is a bittersweet statement that acknowledges the fleeting nature of beauty, so it's labeled as [Beauty/Joy].
+
+Note that I've tried to follow the guidelines and choose the most dominant emotion for each line, while also considering the context of the entire stanza.
+Here is the annotated stanza:
+
+Virtue , how frail it is ! [Sadness]
+Friendship how rare ! [Sadness]
+Love , how it sells poor bliss [Sadness]
+For proud despair ! [Sadness]
+But we , though soon they fall , [Vitality]
+Survive their joy , and all [Vitality]
+Which ours we call . [Beauty/Joy]
+
+Here's my reasoning for each line:
+
+* "Virtue , how frail it is !" is a melancholic statement that evokes feelings of sadness, so it's labeled as [Sadness].
+* "Friendship how rare !" is a similar sentiment, also labeled as [Sadness].
+* "Love , how it sells poor bliss For proud despair !" is a poignant and sorrowful statement, labeled as [Sadness].
+* "But we , though soon they fall ," is a phrase that suggests resilience and vitality, so it's labeled as [Vitality].
+* "Survive their joy , and all" continues this theme of vitality and perseverance, also labeled as [Vitality].
+* "Which ours we call ." is a phrase that suggests a sense of ownership and appreciation, evoking feelings of beauty and joy, so it's labeled as [Beauty/Joy].
+
+Note that I've tried to follow the guidelines and choose the most dominant emotion for each line, while also considering the context of the entire stanza.
+Here is the annotated stanza:
+
+Whilst skies are blue and bright , [Beauty/Joy]
+Whilst flowers are gay , [Beauty/Joy]
+Whilst eyes that change ere night [Sadness]
+Make glad the day ; [Beauty/Joy]
+Whilst yet the calm hours creep , [Beauty/Joy]
+Dream thou — and from thy sleep [Vitality]
+Then wake to weep .

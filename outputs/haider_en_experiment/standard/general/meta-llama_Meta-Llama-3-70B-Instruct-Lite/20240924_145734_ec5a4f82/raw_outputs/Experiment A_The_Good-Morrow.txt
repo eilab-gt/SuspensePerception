@@ -1,0 +1,67 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides clear instructions and examples to help annotators choose the correct label for their subjective emotions while reading poems. Here's a breakdown of the guide:
+
+**Labels and Categories**
+
+The guide provides 9 labels, each corresponding to a category of emotion:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (to be used with another label: Beauty/Joy or Sadness)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+**Instructions for Annotating**
+
+The guide provides the following instructions for annotating:
+
+* Annotate your current feelings while reading the poem.
+* Label your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: Beauty/Joy or Sadness.
+
+**Gold Standard Examples**
+
+The guide provides examples for each label, serving as an orientation for annotators. These examples help annotators understand how to apply the labels in practice.
+
+**Annotating the Stanza**
+
+The guide provides a stanza for annotators to practice labeling their emotions. The annotators are encouraged to follow the instructions and guidelines provided in the manual to label their emotions while reading the stanza.
+Please go ahead and annotate the stanza using the guidelines and labels provided. Remember to follow the instructions and choose the labels that best match your emotions while reading the poem.
+
+Here is the stanza again:
+
+And now good-morrow to our waking souls,
+Which watch not one another out of fear;
+For love, all love of other sights controls,
+And makes one little room an everywhere.
+Let sea-discoverers to new worlds have gone,
+Let maps to other, worlds on worlds have shown,
+Let us possess one world, each hath one, and is one.
+
+Please label each line with the corresponding emotion(s) you feel while reading it.
+Here is the annotated stanza:
+
+My face in thine eye, thine in mine appears, [Beauty/Joy]
+And true plain hearts do in the faces rest; [Beauty/Joy]
+Where can we find two better hemispheres, [Beauty/Joy]
+Without sharp north, without declining west? [Beauty/Joy]
+Whatever dies, was not mixed equally; [Sadness]
+If our two loves be one, or, thou and I [Beauty/Joy]
+Love so alike, that none do slacken, none can die. [Vitality]
+
+I chose the following labels:
+
+* Beauty/Joy: lines 1-4, because they evoke a sense of happiness and joy, and the language is beautiful and pleasing.
+* Sadness: line 5, because it mentions death and has a more melancholic tone.
+* Vitality: line 6, because it conveys a sense of energy and movement, and the idea of love being strong and unbroken.

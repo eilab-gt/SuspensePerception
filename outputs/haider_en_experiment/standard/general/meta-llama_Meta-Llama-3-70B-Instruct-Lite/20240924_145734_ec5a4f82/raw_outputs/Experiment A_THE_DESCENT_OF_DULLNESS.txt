@@ -1,0 +1,67 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. The guide provides 9 labels for annotators to use when reading poems, along with examples and instructions to ensure consistency and accuracy. Here's a breakdown of the guide:
+
+**Labels and Descriptions**
+
+1. **Annoyance**: Feeling annoyed, frustrated, or angry while reading the line/stanza.
+2. **Awe/Sublime**: Feeling overwhelmed, inspired, or in awe of something grand or sublime.
+3. **Beauty/Joy**: Feeling pleasure, happiness, or joy while reading the line/stanza.
+4. **Humor**: Finding the line/stanza funny or amusing.
+5. **Nostalgia**: Feeling nostalgic, sentimental, or longing for something in the past (must be used with another label: Beauty/Joy or Sadness).
+6. **Sadness**: Feeling sad, touched, or moved to sorrow.
+7. **Suspense**: Feeling gripped, interested, or curious about the line/stanza.
+8. **Uneasiness**: Feeling uncomfortable, unsettled, disturbed, or frightened by the line/stanza.
+9. **Vitality**: Feeling invigorated, inspired, or energized by the line/stanza.
+
+**Instructions for Annotating**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually (not sentence).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. Do not use more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard Examples**
+
+The guide provides examples for each label to serve as an orientation for annotators. These examples can be used as a reference when in doubt.
+
+**Annotating the Given Stanza**
+
+The guide concludes with a stanza for annotators to practice labeling. The stanza is:
+
+"In vain, in vain — the all-composing Hour
+Resistless falls: the Muse obeys the Pow'r.
+She comes! she comes! the sable Throne behold
+Of Night primæval and of Chaos old!
+Before her, Fancy's gilded clouds decay,
+And all its varying Rain-bows die away.
+Wit shoots in vain its momentary fires,
+The meteor drops, and in a flash expires.
+As one by one, at dread Medea's strain,
+The sick'ning stars fade off th' ethereal plain;
+As Argus' eyes by Hermes' wand opprest,
+Clos'd one by one to everlasting rest;
+Thus at her felt approach, and secret might,
+Art after Art goes out, and all is Night.
+See skulking Truth to her old cavern fled,
+Mountains of Casuistry heap'd o'er her head!
+Philosophy, that lean'd on Heav'n before,
+Shrinks to her second cause, and is no more.
+Physic of Metaphysic begs defence,
+And Metaphysic calls for aid on Sense!
+See Mystery to Mathematics fly!
+In vain! they gaze, turn giddy, rave, and die.
+Religion blushing veils her sacred fires,
+And unawares Morality expires.
+For public Flame, nor private, dares to shine;
+Nor human Spark is left, nor Glimpse divine!
+Lo! thy dread Empire, CHAOS! is restor'd;
+Light dies before thy uncreating word;
+Thy hand, great Anarch! lets the curtain fall,
+And universal Darkness buries All."
+
+Annotators are encouraged to label this stanza using the provided labels and instructions.

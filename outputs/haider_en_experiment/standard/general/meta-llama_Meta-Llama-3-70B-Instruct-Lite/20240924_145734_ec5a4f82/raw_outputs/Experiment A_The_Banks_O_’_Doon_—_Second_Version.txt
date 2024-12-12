@@ -1,0 +1,64 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides 9 labels for annotators to choose from, each corresponding to a specific category of emotion. The labels are:
+
+1. Annoyance
+2. Awe/Sublime
+3. Beauty/Joy
+4. Humor
+5. Nostalgia (always used with an additional label: Beauty/Joy or Sadness)
+6. Sadness
+7. Suspense
+8. Uneasiness
+9. Vitality
+
+For each label, the guide provides a brief description and examples to help annotators understand when to use each label. The guide also provides instructions for annotating, including:
+
+* Annotate each line individually, not sentence by sentence
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line, but no more than two
+* Choose the dominant emotion while reading the stanza, and add another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If changing the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+
+The guide also provides a "Gold Standard" section with examples of annotated poems to serve as an orientation for annotators. These examples demonstrate how to apply the labels to specific lines of poetry.
+
+The final section of the guide provides a stanza for annotators to practice labeling. The stanza is:
+
+"Ye flowery banks o’ bonie Doon,
+How can ye blume sae fair?
+How can ye chant, ye little birds,
+And I sae fu’ o care!
+Thou'll break my heart, thou bonie bird,
+That sings upon the bough!
+Thou minds me o’ the happy days
+When my fause Luve was true.
+Thou'll break my heart, thou bonie bird,
+That sings beside thy mate;
+For sae I sat, and sae I sang,
+And wist na o’ my fate."
+
+Annotators are encouraged to label each line of this stanza using the provided labels and guidelines.
+Here is the annotated stanza:
+
+Aft hae I rov'd by bonie Doon, [Beauty/Joy]
+To see the woodbine twine; [Beauty/Joy]
+And ilka bird sang o' its Luve, [Beauty/Joy]
+And sae did I o' mine. [Beauty/Joy]
+Wi' lightsome heart I pu'd a rose, [Beauty/Joy]
+Upon its thorny tree; [Beauty/Joy]
+But my fause Luver staw my rose, [Sadness]
+And left the thorn wi' me. [Sadness]
+Wi' lightsome heart I pu'd a rose, [Beauty/Joy]
+Upon a morn in June; [Beauty/Joy]
+And sae I flourished on the morn, [Vitality]
+And sae was pu'd or noon. [Vitality]
+
+Here's a breakdown of the annotations:
+
+* Lines 1-4: The language and imagery evoke a sense of beauty and joy, with a focus on the natural world and the speaker's emotional response to it.
+* Lines 5-6: The speaker's heart is "lightsome" and they pick a rose, which suggests a sense of beauty and joy. However, the rose is on a thorny tree, which introduces a hint of sadness.
+* Lines 7-8: The speaker's "fause Luver" (false lover) takes the rose and leaves the thorn, which is a clear symbol of sadness and heartache.
+* Lines 9-10: The speaker's heart is again "lightsome" and they pick another rose, which suggests a return to a sense of beauty and joy. The image of flourishing on the morning suggests vitality and energy.
+* Line 11: The final line continues the theme of beauty and joy, with a sense of vitality and energy.
+
+Overall, this stanza is dominated by emotions of beauty and joy, with a secondary theme of sadness and heartache. The vitality and energy of the final lines suggest a sense of hope and renewal.

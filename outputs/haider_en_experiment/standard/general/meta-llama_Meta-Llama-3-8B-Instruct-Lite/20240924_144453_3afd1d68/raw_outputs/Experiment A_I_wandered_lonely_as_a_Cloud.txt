@@ -1,0 +1,40 @@
+Here is the annotated stanza:
+
+* I wandered lonely as a Cloud [Vitality]
+* That floats on high over Vales and Hills , [Vitality]
+* When all at once I saw a crowd [Suspense]
+* A host of dancing Daffodills ; [Vitality]
+* Along the Lake , beneath the trees , [Vitality]
+* Ten thousand dancing in the breeze . [Vitality]
+
+Note: The dominant emotion in this stanza is Vitality, which is evoked by the image of the dancing daffodils and the sense of movement and energy in the poem. The suspense label is used for the line "When all at once I saw a crowd", as it creates a sense of surprise and wonder.
+Here is the annotated stanza:
+
+* Continuous as the stars that shine [Vitality]
+* And twinkle on the milky way, [Vitality]
+* They stretched in never-ending line [Vitality]
+* Along the margin of a bay: [Vitality]
+* Ten thousand saw I at a glance, [Suspense]
+* Tossing their heads in sprightly dance. [Vitality]
+
+Note: The dominant emotion in this stanza is Vitality, which is evoked by the image of the stars and the dancing figures. The suspense label is used for the line "Ten thousand saw I at a glance", as it creates a sense of wonder and surprise.
+Here is the annotated stanza:
+
+* The waves beside them danced , but they [Vitality]
+* Outdid the sparkling waves in glee :— [Vitality]
+* A Poet could not but be gay [Vitality]
+* In such a laughing company : [Vitality]
+* I gazed — and gazed — but little thought [Suspense]
+* What wealth the shew to me had brought : [Vitality]
+
+Note: The dominant emotion in this stanza is Vitality, which is evoked by the image of the dancing waves and the joyful atmosphere. The suspense label is used for the line "I gazed — and gazed — but little thought", as it creates a sense of curiosity and wonder.
+Here is the annotated stanza:
+
+* For oft when on my couch I lie [Vitality]
+* In vacant or in pensive mood , [Vitality]
+* They flash upon that inward eye [Vitality]
+* Which is the bliss of solitude , [Vitality]
+* And then my heart with pleasure fills , [Beauty/Joy]
+* And dances with the Daffodils . [Vitality]
+
+Note: The dominant emotion in this stanza is Vitality, which is evoked by the image of the speaker's heart filling with pleasure and dancing with the Daffodils. The beauty/joy label is used for the line "And then my heart with pleasure fills , And dances with the Daffodils ." as it describes a feeling of joy and happiness.

@@ -1,0 +1,67 @@
+Based on the guidelines, I would annotate the stanza as follows:
+
+I wandered lonely as a Cloud [Sadness]
+That floats on high over Vales and Hills , [Beauty/Joy]
+When all at once I saw a crowd [Suspense]
+A host of dancing Daffodills ; [Beauty/Joy]
+Along the Lake , beneath the trees , [Beauty/Joy]
+Ten thousand dancing in the breeze . [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line "I wandered lonely as a Cloud" evokes a sense of sadness and isolation, so I chose the label "Sadness".
+* The second line "That floats on high over Vales and Hills" creates a sense of beauty and wonder, so I chose the label "Beauty/Joy".
+* The third line "When all at once I saw a crowd" creates a sense of surprise and curiosity, so I chose the label "Suspense".
+* The fourth and fifth lines "A host of dancing Daffodills ; / Along the Lake , beneath the trees" continue to evoke a sense of beauty and joy, so I chose the label "Beauty/Joy" again.
+* The final line "Ten thousand dancing in the breeze" reinforces the sense of beauty and joy, so I chose the label "Beauty/Joy" once more.
+
+Note that I've chosen to use the label "Beauty/Joy" multiple times, as the poem's imagery and language evoke a strong sense of beauty and wonder throughout the stanza.
+Here is the annotated stanza:
+
+Continuous as the stars that shine [Beauty/Joy]
+And twinkle on the milky way, [Beauty/Joy]
+They stretched in never-ending line [Beauty/Joy]
+Along the margin of a bay: [Beauty/Joy]
+Ten thousand saw I at a glance, [Suspense]
+Tossing their heads in sprightly dance. [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first four lines create a sense of beauty and wonder, evoking a sense of awe at the vastness and beauty of the natural world. I chose the label "Beauty/Joy" for each of these lines.
+* The fifth line "Ten thousand saw I at a glance" creates a sense of surprise and curiosity, so I chose the label "Suspense".
+* The final line "Tossing their heads in sprightly dance" returns to the theme of beauty and joy, so I chose the label "Beauty/Joy" again.
+
+Overall, the dominant emotion in this stanza is "Beauty/Joy", with a brief moment of "Suspense" in the fifth line.
+Here is the annotated stanza:
+
+The waves beside them danced , but they [Beauty/Joy]
+Outdid the sparkling waves in glee :— [Beauty/Joy]
+A Poet could not but be gay [Beauty/Joy]
+In such a laughing company : [Beauty/Joy]
+I gazed — and gazed — but little thought [Suspense]
+What wealth the shew to me had brought : [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first four lines create a sense of joy and beauty, evoking a feeling of happiness and playfulness. I chose the label "Beauty/Joy" for each of these lines.
+* The fifth line "I gazed — and gazed — but little thought" creates a sense of curiosity and suspense, so I chose the label "Suspense".
+* The final line "What wealth the shew to me had brought" returns to the theme of beauty and joy, so I chose the label "Beauty/Joy" again.
+
+Overall, the dominant emotion in this stanza is "Beauty/Joy", with a brief moment of "Suspense" in the fifth line.
+Here is the annotated stanza:
+
+For oft when on my couch I lie [Beauty/Joy]
+In vacant or in pensive mood , [Sadness]
+They flash upon that inward eye [Beauty/Joy]
+Which is the bliss of solitude , [Beauty/Joy]
+And then my heart with pleasure fills , [Beauty/Joy]
+And dances with the Daffodils . [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line "For oft when on my couch I lie" creates a sense of relaxation and calmness, which I associate with beauty and joy, so I chose the label "Beauty/Joy".
+* The second line "In vacant or in pensive mood" creates a sense of sadness and melancholy, so I chose the label "Sadness".
+* The third and fourth lines "They flash upon that inward eye / Which is the bliss of solitude" create a sense of beauty and joy again, as the speaker finds happiness in their solitude, so I chose the label "Beauty/Joy" again.
+* The final two lines "And then my heart with pleasure fills , / And dances with the Daffodils" create a sense of joy and happiness, so I chose the label "Beauty/Joy" again.
+
+Overall, the dominant emotion in this stanza is "Beauty/Joy", with a brief moment of "Sadness" in the second line.

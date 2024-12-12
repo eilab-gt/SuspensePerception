@@ -1,0 +1,82 @@
+This is a guidelines document for annotators to label aesthetic emotions in poetry. The document provides a set of 9 labels with corresponding items to help annotators identify and categorize their subjective emotions while reading poems. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The guidelines instruct annotators to:
+
+* Label their emotions after reading each individual line (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If changing the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+* Nostalgia should always be used with an additional label: beauty/joy or sadness
+
+The document also provides examples of annotated poems to serve as a gold standard for annotators.
+Here is the annotated stanza:
+
+If you can dream—and not make dreams your master; [Vitality]
+If you can think—and not make thoughts your aim; [Vitality]
+If you can meet with Triumph and Disaster [Suspense]
+And treat those two impostors just the same; [Vitality]
+If you can bear to hear the truth you’ve spoken [Sadness]
+Twisted by knaves to make a trap for fools, [Annoyance]
+Or watch the things you gave your life to, broken, [Sadness]
+And stoop and build ’em up with worn-out tools: [Vitality]
+
+Rationale:
+
+* The first two lines evoke a sense of vitality, as they encourage the reader to think and dream without being controlled by their thoughts and dreams.
+* The third line creates a sense of suspense, as it introduces the idea of meeting with triumph and disaster.
+* The fourth line returns to a sense of vitality, as it advises the reader to treat triumph and disaster equally.
+* The fifth line evokes sadness, as it mentions the pain of hearing the truth being twisted.
+* The sixth line annoys, as it describes the act of twisting the truth as a trap for fools.
+* The seventh line again evokes sadness, as it describes the pain of seeing things broken.
+* The eighth line returns to a sense of vitality, as it encourages the reader to build things back up with worn-out tools.
+Here is the annotated stanza:
+
+If you can make one heap of all your winnings [Vitality]
+And risk it on one turn of pitch-and-toss, [Suspense]
+And lose, and start again at your beginnings [Sadness]
+And never breathe a word about your loss; [Annoyance]
+If you can force your heart and nerve and sinew [Vitality]
+To serve your turn long after they are gone, [Vitality]
+And so hold on when there is nothing in you [Vitality]
+Except the Will which says to them: ‘Hold on!’ [Vitality]
+
+Rationale:
+
+* The first line evokes a sense of vitality, as it encourages the reader to take risks and make bold moves.
+* The second line creates a sense of suspense, as it introduces the idea of risk and uncertainty.
+* The third line evokes sadness, as it mentions the possibility of loss.
+* The fourth line annoys, as it advises the reader to keep quiet about their losses.
+* The fifth and sixth lines evoke vitality, as they encourage the reader to persevere and hold on even when things are tough.
+* The seventh and eighth lines also evoke vitality, as they emphasize the importance of willpower and determination.
+Here is the annotated stanza:
+
+If you can talk with crowds and keep your virtue, [Vitality]
+Or walk with Kings—nor lose the common touch, [Vitality]
+If neither foes nor loving friends can hurt you, [Vitality]
+If all men count with you, but none too much; [Vitality]
+If you can fill the unforgiving minute [Vitality]
+With sixty seconds’ worth of distance run, [Vitality]
+Yours is the Earth and everything that’s in it, [Awe/Sublime]
+And—which is more—you’ll be a Man, my son! [Vitality]
+
+Rationale:
+
+* The first four lines evoke a sense of vitality, as they encourage the reader to be confident and self-assured in their interactions with others.
+* The fifth and sixth lines also evoke vitality, as they emphasize the importance of making the most of one's time and opportunities.
+* The seventh line evokes a sense of awe and sublimity, as it describes the vastness and wonder of the world.
+* The eighth line returns to a sense of vitality, as it concludes the poem with a message of empowerment and self-actualization.

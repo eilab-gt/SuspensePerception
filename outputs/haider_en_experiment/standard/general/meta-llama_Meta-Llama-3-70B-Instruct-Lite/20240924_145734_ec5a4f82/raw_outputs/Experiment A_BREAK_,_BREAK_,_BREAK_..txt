@@ -1,0 +1,65 @@
+This is a guideline for annotating aesthetic emotions in poetry. The goal is to achieve agreement among annotators on the subjective emotions evoked by a poem. The guideline provides 9 labels for annotating emotions, each with its own set of items to help annotators identify the corresponding emotion. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem
+* Label each line individually (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Do not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+
+The gold standard examples provided serve as an orientation for the annotators, and can be referred to in case of doubt.
+
+The task is to annotate the given stanza:
+
+"Break, break, break,
+On thy cold gray stones, O Sea!
+And I would that my tongue could utter
+The thoughts that arise in me."
+
+Please follow the guidelines and instructions to annotate the stanza with the corresponding emotions.
+Based on the guidelines, I would annotate the stanza as follows:
+
+O well for the fisherman "s boy , [Beauty/Joy]
+That he shouts with his sister at play ! [Beauty/Joy]
+O well for the sailor lad , [Beauty/Joy]
+That he sings in his boat on the bay ! [Beauty/Joy]
+
+The dominant emotion evoked by this stanza is Beauty/Joy, as the language used is playful and carefree, evoking a sense of happiness and joy. The use of words like "shouts", "play", and "sings" creates a lively and upbeat atmosphere, which contributes to the overall feeling of beauty and joy.
+Based on the guidelines, I would annotate the stanza as follows:
+
+And the stately ships go on [Beauty/Joy]
+To their haven under the hill ; [Beauty/Joy]
+But O for the touch of a vanish "d hand , [Sadness] [Nostalgia]
+And the sound of a voice that is still ! [Sadness] [Nostalgia]
+
+The dominant emotion evoked by the first two lines is Beauty/Joy, as the language used is stately and serene, evoking a sense of calmness and beauty. The use of words like "stately" and "haven" creates a sense of peace and tranquility, which contributes to the overall feeling of beauty and joy.
+
+The dominant emotion evoked by the last two lines is Sadness, as the language used is nostalgic and longing, evoking a sense of loss and yearning. The use of words like "vanish'd" and "still" creates a sense of melancholy and nostalgia, which contributes to the overall feeling of sadness. The label Nostalgia is added to indicate that the sadness is accompanied by a sentimental longing for something or someone from the past.
+Based on the guidelines, I would annotate the stanza as follows:
+
+Break , break , break , [Sadness]
+At the foot of thy crags , O Sea ! [Awe/Sublime]
+But the tender grace of a day that is dead [Sadness] [Nostalgia]
+Will never come back to me . [Sadness] [Nostalgia]
+
+The dominant emotion evoked by the first line is Sadness, as the repetition of "break" creates a sense of despair and hopelessness.
+
+The dominant emotion evoked by the second line is Awe/Sublime, as the image of the sea and the crags creates a sense of grandeur and power.
+
+The dominant emotion evoked by the last two lines is Sadness, as the language used is nostalgic and melancholic, evoking a sense of loss and longing. The label Nostalgia is added to indicate that the sadness is accompanied by a sentimental longing for something or someone from the past.

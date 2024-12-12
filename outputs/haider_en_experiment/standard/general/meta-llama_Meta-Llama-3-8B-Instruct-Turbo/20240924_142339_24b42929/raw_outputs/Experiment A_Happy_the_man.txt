@@ -1,0 +1,20 @@
+Here is the annotation of the stanza:
+
+1. Happy the man, and happy he alone,
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+2. He who can call today his own:
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+3. He who, secure within, can say,
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+4. Tomorrow do thy worst, for I have lived today.
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+5. Be fair or foul or rain or shine
+	* Vitality (found it invigorating/spurs me on/inspires me)
+6. The joys I have possessed, in spite of fate, are mine.
+	* Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+7. Not Heaven itself upon the past has power,
+	* Vitality (found it invigorating/spurs me on/inspires me)
+8. But what has been, has been, and I have had my hour.
+	* Vitality (found it invigorating/spurs me on/inspires me)
+
+Note: The annotator may choose to use fewer emotions, but in this case, the dominant emotions of beauty/joy and vitality are present throughout the stanza.

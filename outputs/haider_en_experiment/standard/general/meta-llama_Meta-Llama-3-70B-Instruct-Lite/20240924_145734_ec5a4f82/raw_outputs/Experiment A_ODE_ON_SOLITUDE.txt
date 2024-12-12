@@ -1,0 +1,92 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. It provides clear instructions and examples for annotators to label their subjective emotions while reading poems. Here's a breakdown of the guide:
+
+**Labels and Categories**
+
+The guide provides 9 labels for annotating aesthetic emotions, each with its own category and items to help annotators identify the corresponding emotion:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating**
+
+The guide provides clear instructions for annotators:
+
+* Annotate each line individually, not by sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line, but no more than two.
+* Choose the dominant emotion while reading the stanza, and add another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+
+**Gold Standard Examples**
+
+The guide provides examples for each label, serving as an orientation for annotators. These examples help illustrate how to apply the labels in practice.
+
+**Annotation Task**
+
+The guide concludes with an annotation task, providing a stanza for annotators to practice labeling their aesthetic emotions.
+Based on the provided guidelines, I would annotate the stanza as follows:
+
+Whose herds with milk, [Beauty/Joy]
+whose fields with bread, [Beauty/Joy]
+Whose flocks supply him with attire, [Beauty/Joy]
+Whose trees in summer yield him shade, [Beauty/Joy]
+In winter fire. [Vitality]
+
+Rationale:
+
+* The stanza describes a peaceful and idyllic scene, which evokes feelings of beauty and joy.
+* The use of words like "milk", "bread", "shade", and "fire" creates a sense of comfort and warmth, which adds to the overall feeling of beauty and joy.
+* The last line "In winter fire" suggests a sense of vitality and energy, as fire is often associated with passion and movement.
+
+Note: The annotation is subjective and may vary depending on individual perspectives and emotions.
+Based on the provided guidelines, I would annotate the stanza as follows:
+
+Blest, who can unconcern'dly find [Beauty/Joy]
+Hours, days, and years slide soft away, [Beauty/Joy]
+In health of body, peace of mind, [Beauty/Joy]
+Quiet by day, [Vitality]
+
+Rationale:
+
+* The stanza describes a state of contentment and peace, which evokes feelings of beauty and joy.
+* The use of words like "blest", "unconcern'dly", "health", "peace", and "quiet" creates a sense of serenity and calmness, which adds to the overall feeling of beauty and joy.
+* The last line "Quiet by day" suggests a sense of vitality and energy, as it implies a sense of movement and activity.
+
+Note: The annotation is subjective and may vary depending on individual perspectives and emotions.
+Based on the provided guidelines, I would annotate the stanza as follows:
+
+Sound sleep by night ; [Beauty/Joy]
+study and ease , [Beauty/Joy]
+Together mixt ; sweet recreation ; [Beauty/Joy]
+And Innocence , which most does please [Vitality]
+With meditation . [Vitality]
+
+Rationale:
+
+* The stanza describes a peaceful and serene atmosphere, which evokes feelings of beauty and joy.
+* The use of words like "sound sleep", "ease", "sweet recreation", and "innocence" creates a sense of calmness and serenity, which adds to the overall feeling of beauty and joy.
+* The last two lines "And Innocence , which most does please / With meditation" suggest a sense of vitality and inspiration, as they imply a sense of reflection and contemplation.
+
+Note: The annotation is subjective and may vary depending on individual perspectives and emotions.
+Based on the provided guidelines, I would annotate the stanza as follows:
+
+Thus let me live , unseen , unknown , [Sadness]
+Thus unlamented let me die , [Sadness]
+Steal from the world , and not a stone [Uneasiness]
+Tell where I lie . [Sadness]
+
+Rationale:
+
+* The stanza has a melancholic and introspective tone, which evokes feelings of sadness and uneasiness.
+* The use of words like "unseen", "unknown", "unlamented", and "steal" creates a sense of isolation and disconnection, which adds to the overall feeling of sadness and uneasiness.
+* The last line "Tell where I lie" suggests a sense of resignation and acceptance, which reinforces the feeling of sadness.
+
+Note: The annotation is subjective and may vary depending on individual perspectives and emotions.

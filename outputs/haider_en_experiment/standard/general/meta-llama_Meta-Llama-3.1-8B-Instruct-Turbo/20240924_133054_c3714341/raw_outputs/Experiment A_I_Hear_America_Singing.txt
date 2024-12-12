@@ -1,0 +1,51 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion for each line, using the guidelines provided. I will also use the "gold standard" examples to help guide my decisions.
+
+1. I hear America singing , the varied carols I hear ,
+- This line evokes a sense of wonder and joy, but it's not overwhelming, so I choose: Beauty/Joy
+
+2. Those of mechanics , each one singing his as it should be blithe and strong ,
+- This line emphasizes the idea of people singing with strength and joy, so I choose: Beauty/Joy
+
+3. The carpenter singing his as he measures his plank or beam ,
+- This line also emphasizes the idea of a person singing with joy, so I choose: Beauty/Joy
+
+4. The mason singing his as he makes ready for work , or leaves off work ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+5. The boatman singing what belongs to him in his boat , the deckhand
+- This line emphasizes the idea of a person singing with joy, so I choose: Beauty/Joy
+
+6. singing on the steamboat deck ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+7. The shoemaker singing as he sits on his bench , the hatter singing as
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+8. he stands ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+9. The wood-cutter "s song , the ploughboy "s on his way in the morning ,
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+10. or at noon intermission or at sundown ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+11. The delicious singing of the mother , or of the young wife at work ,
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+12. or of the girl sewing or washing ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+13. Each singing what belongs to him or her and to none else ,
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+14. The day what belongs to the day — at night the party of young
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+15. fellows , robust , friendly ,
+- This line continues the theme of people singing with joy, so I choose: Beauty/Joy
+
+16. Singing with open mouths their strong melodious songs .
+- This line emphasizes the idea of people singing with joy, so I choose: Beauty/Joy
+
+Overall, the dominant emotion in this stanza is Beauty/Joy, as it emphasizes the idea of people singing with joy and happiness.

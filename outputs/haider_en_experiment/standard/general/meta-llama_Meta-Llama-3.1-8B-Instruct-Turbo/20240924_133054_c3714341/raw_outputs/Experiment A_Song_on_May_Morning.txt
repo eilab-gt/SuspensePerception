@@ -1,0 +1,56 @@
+To annotate the given stanza, I will go through each line and apply the guidelines. I will choose the label that best matches my subjective emotion while reading each line.
+
+1. NOW the bright morning-star, Day’s harbinger,
+- This line evokes a sense of beauty and joy. The use of the word "bright" and the image of the morning-star creates a positive atmosphere.
+   Label: Beauty/Joy
+
+2. Comes dancing from the East, and leads with her
+- The image of the morning-star "dancing" creates a sense of movement and energy, which can be associated with vitality.
+   Label: Vitality
+
+3. The flowery May, who from her green lap throws
+- The description of "flowery May" and the image of flowers being thrown creates a sense of beauty and joy.
+   Label: Beauty/Joy
+
+4. The yellow cowslip and the pale primrose.
+- The description of the flowers creates a sense of beauty and joy.
+   Label: Beauty/Joy
+
+5. Hail, bounteous May, that dost inspire
+- The use of the word "bounteous" and the idea of inspiration creates a sense of awe and joy.
+   Label: Awe/Sublime and Beauty/Joy
+
+6. Mirth, and youth, and warm desire!
+- The mention of "mirth" and "warm desire" creates a sense of joy and vitality.
+   Label: Beauty/Joy and Vitality
+
+7. Woods and groves are of thy dressing;
+- The use of the word "dressing" and the image of woods and groves creates a sense of beauty and joy.
+   Label: Beauty/Joy
+
+8. Hill and dale doth boast thy blessing.
+- The use of the word "blessing" and the image of hills and dale creates a sense of awe and joy.
+   Label: Awe/Sublime and Beauty/Joy
+
+9. Thus we salute thee with our early song,
+- The idea of "salute" and "early song" creates a sense of joy and vitality.
+   Label: Beauty/Joy and Vitality
+
+10. And welcome thee, and wish thee long.
+- The idea of "welcome" and "wish" creates a sense of joy and vitality.
+   Label: Beauty/Joy and Vitality
+
+The annotated stanza would look like this:
+
+1. NOW the bright morning-star, Day’s harbinger, [Beauty/Joy]
+2. Comes dancing from the East, and leads with her [Vitality]
+3. The flowery May, who from her green lap throws [Beauty/Joy]
+4. The yellow cowslip and the pale primrose. [Beauty/Joy]
+5. Hail, bounteous May, that dost inspire [Awe/Sublime] [Beauty/Joy]
+6. Mirth, and youth, and warm desire! [Beauty/Joy] [Vitality]
+7. Woods and groves are of thy dressing; [Beauty/Joy]
+8. Hill and dale doth boast thy blessing. [Awe/Sublime] [Beauty/Joy]
+9. Thus we salute thee with our early song, [Beauty/Joy] [Vitality]
+10. And welcome thee, and wish thee long. [Beauty/Joy] [Vitality]
+
+Please note that the labels can be subjective, and different annotators may have different interpretations.

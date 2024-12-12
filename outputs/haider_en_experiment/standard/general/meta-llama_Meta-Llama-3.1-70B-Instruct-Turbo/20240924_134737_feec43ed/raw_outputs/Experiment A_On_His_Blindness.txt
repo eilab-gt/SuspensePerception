@@ -1,0 +1,76 @@
+To annotate the given stanza, we will follow the guidelines provided. We will read the entire stanza before annotating each line and use as few emotions as possible.
+
+1. WHEN I consider how my light is spent
+   - This line evokes a sense of introspection and contemplation about the speaker's life. The word "spent" implies a sense of loss or waste. This line can be annotated with [Sadness] as it touches on the speaker's regret or disappointment.
+
+2. Ere half my days in this dark world and wide,
+   - This line continues the theme of introspection and regret. The phrase "dark world" creates an image of a bleak and unforgiving environment. This line can be annotated with [Sadness] as it reinforces the speaker's melancholy mood.
+
+3. And that one Talent which is death to hide
+   - This line introduces the idea of a wasted talent, which is a source of regret for the speaker. The phrase "death to hide" implies a sense of urgency and importance. This line can be annotated with [Annoyance] as it expresses the speaker's frustration with their inability to utilize their talent.
+
+4. Lodged with me useless, though my soul more bent
+   - This line emphasizes the speaker's sense of regret and frustration. The word "useless" reinforces the idea of wasted potential, and the phrase "my soul more bent" implies a strong desire to utilize the talent. This line can be annotated with [Annoyance] as it expresses the speaker's frustration and [Sadness] as it touches on their regret.
+
+The annotated stanza would be:
+
+WHEN I consider how my light is spent [Sadness]
+Ere half my days in this dark world and wide, [Sadness]
+And that one Talent which is death to hide [Annoyance]
+Lodged with me useless, though my soul more bent [Annoyance] [Sadness]
+To annotate the given stanza, we will follow the guidelines provided. We will read the entire stanza before annotating each line and use as few emotions as possible.
+
+1. To serve therewith my Maker, and present
+   - This line evokes a sense of duty and responsibility towards one's creator. The speaker seems to be contemplating their purpose and accountability. This line can be annotated with [Sadness] as it touches on the speaker's introspection and sense of obligation.
+
+2. My true account, lest He returning chide,
+   - This line reinforces the idea of accountability and the fear of being reprimanded. The word "chide" implies a sense of disapproval or scolding. This line can be annotated with [Annoyance] as it expresses the speaker's frustration and anxiety.
+
+3. “Doth God exact day-labour, light denied?”
+   - This line is a rhetorical question that expresses the speaker's doubt and uncertainty. The phrase "light denied" implies a sense of darkness or lack of understanding. This line can be annotated with [Uneasiness] as it creates a sense of discomfort and unease.
+
+4. I fondly ask. But Patience, to prevent
+   - This line introduces a sense of self-reflection and caution. The speaker seems to be advising themselves to be patient and cautious. This line can be annotated with [Vitality] as it conveys a sense of self-encouragement and resilience.
+
+The annotated stanza would be:
+
+To serve therewith my Maker, and present [Sadness]
+My true account, lest He returning chide, [Annoyance]
+“Doth God exact day-labour, light denied?” [Uneasiness]
+I fondly ask. But Patience, to prevent [Vitality]
+To annotate the given stanza, we will follow the guidelines provided. We will read the entire stanza before annotating each line and use as few emotions as possible.
+
+1. That murmur, soon replies, “God doth not need
+   - This line introduces a sense of reassurance and calm. The phrase "God doth not need" implies a sense of divine self-sufficiency. This line can be annotated with [Vitality] as it conveys a sense of confidence and trust.
+
+2. Either man’s work or his own gifts. Who best
+   - This line reinforces the idea of divine self-sufficiency and emphasizes the importance of humility. The phrase "Who best" implies a sense of comparison and evaluation. This line can be annotated with [Sadness] as it touches on the idea of human limitations and inadequacy.
+
+3. Bear his mild yoke, they serve him best. His state
+   - This line introduces a sense of submission and obedience. The phrase "Bear his mild yoke" implies a sense of gentle guidance and direction. This line can be annotated with [Vitality] as it conveys a sense of purpose and direction.
+
+The annotated stanza would be:
+
+That murmur, soon replies, “God doth not need [Vitality]
+Either man’s work or his own gifts. Who best [Sadness]
+Bear his mild yoke, they serve him best. His state [Vitality]
+
+Note: The dominant emotion in this stanza seems to be [Vitality], with [Sadness] being a secondary emotion that adds a layer of complexity to the overall mood.
+To annotate the given stanza, we will follow the guidelines provided. We will read the entire stanza before annotating each line and use as few emotions as possible.
+
+1. Is kingly: thousands at his bidding speed,
+   - This line introduces a sense of grandeur and power. The phrase "thousands at his bidding" implies a sense of authority and control. This line can be annotated with [Awe/Sublime] as it evokes a sense of awe and reverence.
+
+2. And post o’er land and ocean without rest;
+   - This line reinforces the idea of power and authority, emphasizing the scope of the king's influence. The phrase "without rest" implies a sense of tireless effort and dedication. This line can be annotated with [Vitality] as it conveys a sense of energy and dynamism.
+
+3. They also serve who only stand and wait.”
+   - This line introduces a sense of humility and patience. The phrase "they also serve" implies a sense of equality and shared purpose, while "who only stand and wait" suggests a sense of quiet dedication. This line can be annotated with [Vitality] as it conveys a sense of inner strength and resilience.
+
+The annotated stanza would be:
+
+Is kingly: thousands at his bidding speed, [Awe/Sublime]
+And post o’er land and ocean without rest; [Vitality]
+They also serve who only stand and wait.” [Vitality]
+
+Note: The dominant emotion in this stanza seems to be [Vitality], with [Awe/Sublime] being a secondary emotion that adds a sense of grandeur and power to the overall mood.

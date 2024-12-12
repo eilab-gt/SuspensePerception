@@ -1,0 +1,32 @@
+Here is the annotation of the stanza:
+
+1. How do I love thee? Let me count the ways.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+2. I love thee to the depth and breadth and height
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+3. My soul can reach, when feeling out of sight
+	* Awe/Sublime (found it overwhelming/sense of greatness)
+4. For the ends of being and ideal grace.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+5. I love thee to the level of every day"s
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+6. Most quiet need, by sun and candle-light.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+7. I love thee freely, as men strive for right.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+8. I love thee purely, as they turn from praise.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+9. I love thee with the passion put to use
+	* Vitality (found it invigorating/spurs me on/inspires me)
+10. In my old griefs, and with my childhood"s faith.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+11. I love thee with a love I seemed to lose
+	* Sadness (makes me sad/touches me)
+12. With my lost saints. I love thee with the breath,
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+13. Smiles, tears, of all my life; and, if God choose,
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+14. I shall but love thee better after death.
+	* Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+
+Note: I've used the guidelines to label the emotions, and I've tried to be as accurate as possible. However, please keep in mind that annotating emotions is subjective, and different annotators might have different opinions.

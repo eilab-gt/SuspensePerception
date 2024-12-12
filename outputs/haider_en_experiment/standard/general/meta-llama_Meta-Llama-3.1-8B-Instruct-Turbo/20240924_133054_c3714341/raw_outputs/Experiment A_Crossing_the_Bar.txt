@@ -1,0 +1,100 @@
+To annotate the given emotion in the stanza, let's go through each line:
+
+1. "Sunset and evening star," 
+- This line evokes a sense of beauty and peacefulness. It's a serene image, with the sunset and the star, which can make the reader feel calm and appreciative of nature. 
+- Label: Beauty/Joy
+
+2. "And one clear call for me!"
+- This line is an invitation or a call to something, which can create a sense of anticipation or curiosity. It's not explicitly evoking any strong emotions like sadness, annoyance, or uneasiness.
+- Label: Suspense
+
+3. "And may there be no moaning of the bar,"
+- This line creates a sense of hope and a desire for a peaceful departure. The phrase "moaning of the bar" suggests a sense of sadness or longing, but in this context, it's more about the speaker's wish for a smooth and quiet departure.
+- Label: Beauty/Joy
+
+4. "When I put out to sea,"
+- This line creates a sense of movement and a new beginning. It's a transition to the next part of the poem, and the speaker is leaving the shore.
+- Label: Vitality
+
+So, the annotated stanza would be:
+ 
+Sunset and evening star, [Beauty/Joy]
+And one clear call for me! [Suspense]
+And may there be no moaning of the bar, [Beauty/Joy]
+When I put out to sea, [Vitality]
+To annotate the given emotion in the stanza, let's go through each line:
+
+1. "But such a tide as moving seems asleep,"
+- This line creates a sense of calmness and serenity, which can evoke a feeling of peacefulness. It's a gentle and soothing image.
+- Label: Beauty/Joy
+
+2. "Too full for sound and foam,"
+- This line suggests that the tide is so full that it's silent and still, which adds to the peaceful atmosphere. The phrase "too full" also implies a sense of abundance, which can be pleasing to the reader.
+- Label: Beauty/Joy
+
+3. "When that which drew from out the boundless deep"
+- This line creates a sense of movement and energy, as the tide is moving from the deep ocean. However, the phrase "boundless deep" also suggests a sense of vastness and mystery, which can be awe-inspiring.
+- Label: Awe/Sublime
+
+4. "Turns again home."
+- This line suggests a sense of return and completion, as the tide is turning back to its source. It's a sense of closure and resolution, which can be satisfying and peaceful.
+- Label: Beauty/Joy
+
+So, the annotated stanza would be:
+ 
+But such a tide as moving seems asleep, [Beauty/Joy]
+Too full for sound and foam, [Beauty/Joy]
+When that which drew from out the boundless deep [Awe/Sublime]
+Turns again home. [Beauty/Joy]
+To annotate the given emotion in the stanza, let's go through each line:
+
+1. "Twilight and evening bell,"
+- This line creates a sense of calmness and serenity, which can evoke a feeling of peacefulness. It's a gentle and soothing image.
+- Label: Beauty/Joy
+
+2. "And after that the dark!"
+- This line creates a sense of transition and movement, as the twilight and evening give way to darkness. It's a sense of change and possibly a little uncertainty.
+- Label: Suspense
+
+3. "And may there be no sadness of farewell,"
+- This line creates a sense of hope and a desire for a peaceful departure. The phrase "sadness" is used, but in this context, it's more about the speaker's wish for a smooth and quiet farewell.
+- Label: Beauty/Joy
+
+4. "When I embark;"
+- This line creates a sense of movement and a new beginning. It's a transition to the next part of the poem, and the speaker is leaving the shore.
+- Label: Vitality
+
+So, the annotated stanza would be:
+ 
+Twilight and evening bell, [Beauty/Joy]
+And after that the dark! [Suspense]
+And may there be no sadness of farewell, [Beauty/Joy]
+When I embark; [Vitality]
+
+Note that the dominant emotion in this stanza is Beauty/Joy, as it's the most consistent throughout the lines. The other emotions (Suspense and Vitality) are secondary and add to the overall meaning of the stanza.
+To annotate the given emotion in the stanza, let's go through each line:
+
+1. "For tho’ from out our bourne of Time and Place"
+- This line creates a sense of distance and separation, as the speaker is leaving their current time and place. It's a sense of movement and transition.
+- Label: Suspense
+
+2. "The flood may bear me far,"
+- This line creates a sense of uncertainty and possibility, as the speaker is being carried by the flood to an unknown destination. It's a sense of adventure and uncertainty.
+- Label: Suspense
+
+3. "I hope to see my Pilot face to face"
+- This line creates a sense of hope and longing, as the speaker is looking forward to meeting their Pilot. It's a sense of reassurance and guidance.
+- Label: Beauty/Joy
+
+4. "When I have crost the bar."
+- This line creates a sense of completion and achievement, as the speaker has successfully crossed the bar and is now on the other side. It's a sense of accomplishment and relief.
+- Label: Vitality
+
+So, the annotated stanza would be:
+ 
+For tho’ from out our bourne of Time and Place [Suspense]
+The flood may bear me far, [Suspense]
+I hope to see my Pilot face to face [Beauty/Joy]
+When I have crost the bar. [Vitality]
+
+So, the dominant emotion in this stanza is Suspense, as it's the most consistent throughout the lines. The other emotions (Beauty/Joy and Vitality) are secondary and add to the overall meaning of the stanza.

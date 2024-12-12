@@ -152,7 +152,7 @@ def run_experiment(
     """
     results = []
     total_experiments = sum(len(versions) for versions in version_prompts.values())
-
+    
     with tqdm(total=total_experiments, desc="Overall Progress") as pbar:
         for exp_name, prompt in prompts.items():
             print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")

@@ -1,0 +1,38 @@
+Based on the guidelines, I will annotate the given stanza:
+
+John Anderson, my jo, John, [Beauty/Joy]
+When we were first acquent; [Nostalgia] [Beauty/Joy]
+Your locks were like the raven, [Beauty/Joy]
+Your bonie brow was brent; [Beauty/Joy]
+But now your brow is beld, John, [Sadness]
+Your locks are like the snaw; [Sadness]
+But blessings on your frosty pow, [Beauty/Joy]
+John Anderson, my jo. [Nostalgia] [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line is a gentle and affectionate address, which evokes a sense of beauty and joy.
+* The second line triggers nostalgia, as it refers to a past time, and is accompanied by a sense of beauty and joy.
+* The third and fourth lines continue to evoke beauty and joy, as they describe the subject's appearance.
+* The fifth and sixth lines introduce a sense of sadness, as they describe the effects of aging.
+* The seventh line is a blessing, which returns to a sense of beauty and joy.
+* The final line is again nostalgic, and accompanied by beauty and joy.
+
+Note that I've used a combination of labels to capture the complex emotions evoked by the stanza.
+Here is the annotated stanza:
+
+John Anderson, my jo, John, [Beauty/Joy] [Nostalgia]
+We clamb the hill thegither; [Beauty/Joy] [Nostalgia]
+And mony a cantie day, John, [Beauty/Joy] [Nostalgia]
+We've had wi' ane anither: [Beauty/Joy] [Nostalgia]
+Now we maun totter down, John, [Sadness]
+And hand in hand we'll go, [Beauty/Joy] [Nostalgia]
+And sleep thegither at the foot, [Beauty/Joy] [Nostalgia]
+John Anderson, my jo. [Beauty/Joy] [Nostalgia]
+
+Here's my reasoning:
+
+* The first four lines evoke a sense of beauty and joy, as they describe a happy past time spent together. The nostalgia label is added because the poem is looking back on past experiences.
+* The fifth line introduces a sense of sadness, as it describes the decline of old age.
+* The sixth and seventh lines return to a sense of beauty and joy, as they describe the comfort of companionship in old age. The nostalgia label is still present, as the poem is still looking back on past experiences.
+* The final line is a repetition of the first line, and again evokes a sense of beauty and joy, with nostalgia.

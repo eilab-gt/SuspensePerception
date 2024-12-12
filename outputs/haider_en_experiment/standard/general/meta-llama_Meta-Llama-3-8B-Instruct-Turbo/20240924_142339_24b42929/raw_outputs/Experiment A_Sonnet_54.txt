@@ -1,0 +1,18 @@
+Here is the annotation of the stanza:
+
+1. Of this worlds theatre in which we stay, [Vitality]
+2. My love like the spectator ydly sits [Vitality]
+3. Beholding me that all the pageants play, [Vitality]
+4. Disguysing diversly my troubled wits. [Uneasiness]
+5. Sometimes I joy when glad occasion fits, [Beauty/Joy]
+6. And mask in myrth lyke to a comedy: [Beauty/Joy]
+7. Soone after when my joy to sorrow flits, [Sadness]
+8. I waile and make my woes a tragedy. [Sadness]
+9. Yet she, beholding me with constant eye, [Sadness]
+10. Delights not in my merth nor rues my smart: [Sadness]
+11. But when I laugh she mocks, and when I cry [Humor]
+12. She laughs and hardens evermore her heart. [Sadness]
+13. What then can move her? if nor merth nor mone, [Sadness]
+14. She is no woman, but a senceless stone. [Sadness]
+
+Note: The annotator's emotions are subjective and may vary from person to person.

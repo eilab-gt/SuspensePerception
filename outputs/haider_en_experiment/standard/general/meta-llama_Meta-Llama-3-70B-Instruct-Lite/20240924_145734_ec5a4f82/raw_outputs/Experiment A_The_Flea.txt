@@ -1,0 +1,86 @@
+This is a comprehensive guide for annotating aesthetic emotions in poetry. The guide provides a set of 9 labels for annotating emotions, along with examples and instructions for annotators. Here's a summary of the guide:
+
+**Labels:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) (must be used with another label: beauty/joy or sadness)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating:**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually (not sentence).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. Do not use more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard:**
+
+The guide provides examples for each label, which serve as an orientation for annotators. These examples are highlighted in the text.
+
+**Annotation Task:**
+
+The annotator is asked to annotate the following stanza:
+
+"Marke but this flea , and marke in this ,
+How little that which thou deny"st me is ;
+It suck "d me first , and now sucks thee ,
+And in this flea , our two bloods mingled bee ;
+Thou know"st that this cannot be said
+A sinne , nor shame , nor losse of maidenhead ,
+Yet this enjoyes before it wooe ,
+And pamper "d swells with one blood made of two ,
+And this , alas , is more then wee would doe ."
+
+The annotator should follow the instructions and guidelines provided to label the emotions evoked by this stanza.
+Based on the guidelines provided, I will annotate the given stanza:
+
+Oh stay , three lives in one flea , [Beauty/Joy] [Vitality]
+Where wee almost , yea more then maryed are . [Beauty/Joy] [Vitality]
+This flea is you and I , and this [Beauty/Joy] [Vitality]
+Our mariage bed , and mariage temple is ; [Beauty/Joy] [Vitality]
+Though parents grudge , and you , w"are met , [Annoyance] [Sadness]
+And cloysterd in these living walls of Jet . [Uneasiness]
+Though use make you apt to kill mee , [Uneasiness] [Annoyance]
+Let not to that , selfe murder added bee , [Uneasiness] [Annoyance]
+And sacrilege , three sinnes in killing three . [Uneasiness] [Annoyance]
+
+Here's my reasoning for each line:
+
+1. The first four lines evoke a sense of beauty and joy, as well as vitality, as they describe the union of two people in a flea.
+2. The fifth line introduces a sense of annoyance and sadness, as it mentions the grudge of parents.
+3. The sixth line creates uneasiness, as it describes being enclosed in living walls of jet.
+4. The seventh line increases the uneasiness and annoyance, as it mentions the possibility of killing.
+5. The eighth line maintains the uneasiness and annoyance, as it adds the concept of self-murder.
+6. The ninth line continues the uneasiness and annoyance, as it describes the sacrilege of killing three.
+Here is the annotated stanza:
+
+Cruell and sodaine , hast thou since [Annoyance] [Sadness]
+Purpled thy naile , in blood of innocence ? [Annoyance] [Sadness]
+Wherein could this flea guilty bee , [Beauty/Joy] [Vitality]
+Except in that drop which it suckt from thee ? [Beauty/Joy] [Vitality]
+Yet thou triumph"st , and saist that thou [Annoyance] [Sadness]
+Find"st not thy selfe , nor mee the weaker now ; [Annoyance] [Sadness]
+‘ Tis true , then learne how false , feares bee ; [Suspense]
+Just so much honor , when thou yeeld"st to mee , [Beauty/Joy] [Vitality]
+Will wast , as this flea "s death tooke life from thee . [Uneasiness] [Sadness]
+
+Here's my reasoning for each line:
+
+1. The first two lines evoke a sense of annoyance and sadness, as they describe cruelty and bloodshed.
+2. The third and fourth lines create a sense of beauty and joy, as well as vitality, as they describe the flea's innocence.
+3. The fifth and sixth lines return to a sense of annoyance and sadness, as they describe triumph and weakness.
+4. The seventh line creates a sense of suspense, as it mentions false fears.
+5. The eighth line returns to a sense of beauty and joy, as well as vitality, as it describes honor and yielding.
+6. The ninth line ends with a sense of uneasiness and sadness, as it describes the flea's death and the taking of life.

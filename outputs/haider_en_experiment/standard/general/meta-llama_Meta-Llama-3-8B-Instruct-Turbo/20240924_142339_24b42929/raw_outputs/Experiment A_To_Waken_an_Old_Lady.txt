@@ -1,0 +1,35 @@
+Here is the annotation of the stanza:
+
+OLD age is
+• Annoyance (found it frustrating)
+a flight of small
+• Beauty/Joy (found it beautiful)
+cheeping birds
+• Vitality (found it invigorating)
+skimming
+• Beauty/Joy (found it beautiful)
+bare trees above a snow glaze.
+Gaining and failing
+• Uneasiness (found it unsettling)
+they are buffeted
+• Uneasiness (found it unsettling)
+by a dark wind--
+• Suspense (found it gripping)
+But what?
+On harsh weedstalks
+• Beauty/Joy (found it beautiful)
+the flock has rested,
+• Vitality (found it invigorating)
+the snow
+• Beauty/Joy (found it beautiful)
+is covered with broken
+• Uneasiness (found it unsettling)
+seedhusks
+• Uneasiness (found it unsettling)
+and the wind tempered
+• Vitality (found it invigorating)
+by a shrill
+• Beauty/Joy (found it beautiful)
+piping of plenty.
+
+Note: The annotator's subjective emotions are reflected in the chosen labels, and the guidelines are followed to ensure consistency and accuracy.

@@ -1,0 +1,67 @@
+Here is the annotation of the given stanza:
+
+* The sun is warm, the sky is clear , (Vitality) (The warmth and clarity of the sun and sky evoke a sense of energy and vitality)
+* The waves are dancing fast and bright , (Vitality) (The dancing waves add to the sense of energy and movement)
+* Blue isles and snowy mountains wear (Beauty/Joy) (The description of the landscape is beautiful and evokes a sense of joy)
+* The purple noon "s transparent might , (Awe/Sublime) (The use of the word "purple" and "transparent might" suggests a sense of grandeur and awe)
+* The breath of the moist earth is light , (Beauty/Joy) (The description of the earth's breath as "light" is beautiful and evokes a sense of joy)
+* Around its unexpanded buds ; (Beauty/Joy) (The description of the buds as "unexpanded" suggests a sense of potential and beauty)
+* Like many a voice of one delight , (Vitality) (The comparison of the voices to "one delight" suggests a sense of unity and energy)
+* The winds , the birds , the ocean floods , (Vitality) (The description of the natural elements as "winds", "birds", and "ocean floods" suggests a sense of movement and energy)
+* The City "s voice itself , is soft like Solitude "s . (Awe/Sublime) (The comparison of the city's voice to solitude's voice suggests a sense of quiet contemplation and awe)
+
+Note: The annotator may choose to use a combination of labels to describe their emotions, as the poem evokes a range of emotions and reactions.
+Here is the annotation of the given stanza:
+
+* I see the Deep "s untrampled floor (Vitality) (The description of the deep's untrampled floor evokes a sense of vastness and energy)
+* With green and purple seaweeds strown ; (Beauty/Joy) (The use of the words "green" and "purple" and the image of seaweeds creates a sense of beauty and joy)
+* I see the waves upon the shore , (Vitality) (The description of the waves upon the shore creates a sense of movement and energy)
+* Like light dissolved in star-showers , thrown : (Beauty/Joy) (The comparison of the waves to "light dissolved in star-showers" is beautiful and evokes a sense of joy)
+* I sit upon the sands alone ,— (Sadness) (The speaker's isolation and solitude evokes a sense of sadness)
+* The lightning of the noontide ocean (Awe/Sublime) (The description of the lightning of the noontide ocean is awe-inspiring and evokes a sense of the sublime)
+* Is flashing round me , (Vitality) (The flashing of the lightning creates a sense of energy and movement)
+* and a tone (Vitality) (The creation of a tone from the motion of the ocean is invigorating and evokes a sense of vitality)
+* Arises from its measured motion , (Vitality) (The creation of a tone from the measured motion of the ocean is invigorating and evokes a sense of vitality)
+* How sweet ! did any heart now share in my emotion . (Beauty/Joy) (The speaker's emotional response to the beauty of the scene is sweet and evokes a sense of joy)
+
+Note: The annotator may choose to use a combination of labels to describe their emotions, as the poem evokes a range of emotions and reactions.
+Here is the annotation of the given stanza:
+
+* Alas ! I have nor hope nor health , (Sadness) (The speaker's lack of hope and health evokes a sense of sadness)
+* Nor peace within nor calm around , (Sadness) (The speaker's lack of peace and calm also evokes a sense of sadness)
+* Nor that content surpassing wealth (Vitality) (The speaker's longing for contentment and wealth is a driving force, evoking a sense of vitality)
+* The sage in meditation found , (Awe/Sublime) (The image of the sage in meditation is awe-inspiring and evokes a sense of the sublime)
+* And walked with inward glory crowned — (Vitality) (The image of the sage walking with inward glory is invigorating and evokes a sense of vitality)
+* Nor fame , nor power , nor love , nor leisure . (Sadness) (The speaker's lack of fame, power, love, and leisure is a source of sadness)
+* Others I see whom these surround — (Sadness) (The speaker's observation of others who have these things is a source of sadness)
+* Smiling they live , and call life pleasure ;— (Beauty/Joy) (The image of others living and finding pleasure in life is beautiful and evokes a sense of joy)
+* To me that cup has been dealt in another measure . (Sadness) (The speaker's sense of sadness and disappointment is emphasized by the realization that their cup has been dealt in a different measure)
+
+Note: The annotator may choose to use a combination of labels to describe their emotions, as the poem evokes a range of emotions and reactions.
+Here is the annotation of the given stanza:
+
+* Yet now despair itself is mild , (Sadness) (The speaker's despair is mild, indicating a sense of sadness)
+* Even as the winds and waters are ; (Awe/Sublime) (The speaker is in awe of the natural world, feeling a sense of the sublime)
+* I could lie down like a tired child , (Sadness) (The speaker feels tired and worn out, evoking a sense of sadness)
+* And weep away the life of care (Sadness) (The speaker wants to escape the burdens of life, which is a source of sadness)
+* Which I have borne and yet must bear , (Sadness) (The speaker feels the weight of their responsibilities, which is a source of sadness)
+* Till death like sleep might steal on me , (Vitality) (The speaker longs for death to come, which is a source of vitality and a desire for release)
+* And I might feel in the warm air (Beauty/Joy) (The speaker imagines a peaceful and serene atmosphere, which is beautiful and joyful)
+* My cheek grow cold , (Sadness) (The speaker's cheek growing cold is a source of sadness)
+* and hear the sea (Awe/Sublime) (The speaker is in awe of the sea, feeling a sense of the sublime)
+* Breathe o"er my dying brain its last monotony . (Vitality) (The speaker imagines the sea's monotony, which is a source of vitality and a desire for release)
+
+Note: The annotator may choose to use a combination of labels to describe their emotions, as the poem evokes a range of emotions and reactions.
+Here is the annotation of the given stanza:
+
+* Some might lament that I were cold , (Sadness) (The speaker anticipates that others might feel sad or disappointed if they were in their situation)
+* As I , when this sweet day is gone , (Sadness) (The speaker is already feeling sad about the passing of the day)
+* Which my lost heart , too soon grown old , (Sadness) (The speaker's heart is already old and worn out, which is a source of sadness)
+* Insults with this untimely moan ; (Sadness) (The speaker's sadness is intensified by the fact that it is premature and unwarranted)
+* They might lament — for I am one (Sadness) (The speaker expects that others will lament their situation, which is a source of sadness)
+* Whom men love not ,— and yet regret , (Sadness) (The speaker is not loved by others, which is a source of sadness, and this regret is a source of additional sadness)
+* Unlike this day , which , when the sun (Vitality) (The speaker is looking forward to the future, when the sun will set, which is a source of vitality and energy)
+* Shall on its stainless glory set , (Vitality) (The speaker is anticipating the beauty and grandeur of the sunset, which is a source of vitality)
+* Will linger , though enjoyed , like joy in memory yet . (Beauty/Joy) (The speaker is looking forward to the memory of the day, which will be a source of beauty and joy)
+
+Note: The annotator may choose to use a combination of labels to describe their emotions, as the poem evokes a range of emotions and reactions.

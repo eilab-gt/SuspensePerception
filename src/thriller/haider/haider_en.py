@@ -298,9 +298,5 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
        poem_tuples.append((poem_title, poem_text))
        poem_text = []
     
-    # texts["Experiment A"].append(poem_tuples[0])
-    # texts["Experiment A"].append(poem_tuples[1])
-    texts["Experiment A"].append(poem_tuples[8])
-    texts["Experiment A"].append(poem_tuples[53])
-
+    texts["Experiment A"]=poem_tuples
     return prompts, texts

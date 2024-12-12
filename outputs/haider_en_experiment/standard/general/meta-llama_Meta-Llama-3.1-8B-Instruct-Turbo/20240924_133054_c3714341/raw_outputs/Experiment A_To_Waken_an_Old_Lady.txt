@@ -1,0 +1,31 @@
+To annotate the given stanza, I will apply the guidelines provided. 
+
+1. Read the entire stanza before annotating each line.
+2. Label your emotions after reading each individual line.
+3. Use as few emotions as possible.
+4. Choose at least one label per line.
+5. You should not use more than two labels per line.
+6. Choose the emotion most dominant while reading the stanza.
+7. Choose another emotion if necessary.
+
+Here's the annotated stanza:
+
+OLD age is [Vitality]
+A flight of small [Vitality]
+cheeping birds [Vitality]
+skimming [Vitality]
+bare trees above a snow glaze. [Vitality]
+Gaining and failing [Vitality]
+they are buffeted [Uneasiness]
+by a dark wind-- [Uneasiness]
+But what? [Suspense]
+On harsh weedstalks [Uneasiness]
+the flock has rested, [Vitality]
+the snow [Vitality]
+is covered with broken [Vitality]
+seedhusks [Vitality]
+and the wind tempered [Vitality]
+by a shrill [Vitality]
+piping of plenty. [Vitality]
+
+The dominant emotion in the stanza is Vitality, as it evokes a sense of movement, energy, and life, even in the context of old age. The Uneasiness is present in lines 7-8, where the birds are "buffeted by a dark wind," and the Suspense is present in line 9, where the reader is left wondering "But what?" The other lines are dominated by the emotion of Vitality, which is also reflected in the imagery of the birds flying, the snow, and the wind.

@@ -1,0 +1,74 @@
+To annotate the given stanza, I will go through each line and label the emotions that I experience while reading it.
+
+1. When my love swears that she is made of truth ,
+   - Annoyance (I feel annoyed that she might be lying)
+   - Beauty/Joy (I also feel a sense of beauty in the poetic language)
+
+2. I do believe her , though I know she lies ,
+   - Annoyance (I feel frustrated that she is lying)
+   - Humor (I also find the situation amusing)
+
+3. That she might think me some untutor "d youth ,
+   - Beauty/Joy (I appreciate the poetic language)
+   - Humor (I find the situation amusing)
+
+4. Unskilful in the world "s false forgeries ,
+   - Annoyance (I feel annoyed that the world is full of forgeries)
+   - Humor (I find the situation amusing)
+
+5. Thus vainly thinking that she thinks me young ,
+   - Annoyance (I feel annoyed that she thinks me young)
+   - Beauty/Joy (I appreciate the poetic language)
+
+6. Although I know my years be past the best ,
+   - Sadness (I feel sad that my years are past the best)
+   - Annoyance (I feel annoyed that she is trying to deceive me)
+
+7. I smiling credit her false-speaking tongue ,
+   - Humor (I find the situation amusing)
+   - Beauty/Joy (I appreciate the poetic language)
+
+8. Outfacing faults in love with love "s ill rest .
+   - Beauty/Joy (I appreciate the poetic language)
+   - Vitality (I feel invigorated by the idea of love)
+
+9. But wherefore says my love that she is young ?
+   - Annoyance (I feel annoyed that she is trying to deceive me)
+   - Humor (I find the situation amusing)
+
+10. And wherefore say not I that I am old ?
+   - Annoyance (I feel annoyed that she is trying to deceive me)
+   - Sadness (I feel sad that I am old)
+
+11. O , love "s best habit is a soothing tongue ,
+   - Beauty/Joy (I appreciate the poetic language)
+   - Vitality (I feel invigorated by the idea of love)
+
+12. And age , in love , loves not to have years told .
+   - Sadness (I feel sad that age is a factor in love)
+   - Annoyance (I feel annoyed that she is trying to deceive me)
+
+13. Therefore , I "ll lie with love , and love with me ,
+   - Humor (I find the situation amusing)
+   - Vitality (I feel invigorated by the idea of love)
+
+14. Since that our faults in love thus smother "d be .
+   - Humor (I find the situation amusing)
+   - Vitality (I feel invigorated by the idea of love)
+
+The annotated stanza would be:
+
+1. When my love swears that she is made of truth , [Annoyance] [Beauty/Joy]
+2. I do believe her , though I know she lies , [Annoyance] [Humor]
+3. That she might think me some untutor "d youth , [Beauty/Joy] [Humor]
+4. Unskilful in the world "s false forgeries , [Annoyance] [Humor]
+5. Thus vainly thinking that she thinks me young , [Annoyance] [Beauty/Joy]
+6. Although I know my years be past the best , [Sadness] [Annoyance]
+7. I smiling credit her false-speaking tongue , [Humor] [Beauty/Joy]
+8. Outfacing faults in love with love "s ill rest . [Beauty/Joy] [Vitality]
+9. But wherefore says my love that she is young ? [Annoyance] [Humor]
+10. And wherefore say not I that I am old ? [Annoyance] [Sadness]
+11. O , love "s best habit is a soothing tongue , [Beauty/Joy] [Vitality]
+12. And age , in love , loves not to have years told . [Sadness] [Annoyance]
+13. Therefore , I "ll lie with love , and love with me , [Humor] [Vitality]
+14. Since that our faults in love thus smother "d be . [Humor] [Vitality]

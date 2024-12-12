@@ -1,0 +1,45 @@
+To annotate the given stanza, we will follow the guidelines provided. We will label each line with the corresponding emotions.
+
+1. Of this worlds theatre in which we stay,
+   - Awe/Sublime (the use of "theatre" and "worlds" creates a sense of grandeur and vastness)
+
+2. My love like the spectator ydly sits
+   - Beauty/Joy (the image of the loved one sitting idly creates a sense of peacefulness and calm)
+
+3. Beholding me that all the pageants play,
+   - Awe/Sublime (the use of "pageants" and "play" creates a sense of grandeur and spectacle)
+
+4. Disguysing diversly my troubled wits.
+   - Uneasiness (the use of "troubled wits" creates a sense of discomfort and unease)
+
+5. Sometimes I joy when glad occasion fits,
+   - Beauty/Joy (the use of "joy" creates a sense of happiness and delight)
+
+6. And mask in myrth lyke to a comedy:
+   - Humor (the use of "comedy" creates a sense of amusement and lightheartedness)
+
+7. Soone after when my joy to sorrow flits,
+   - Sadness (the use of "sorrow" creates a sense of sadness and melancholy)
+
+8. I waile and make my woes a tragedy.
+   - Sadness (the use of "waile" and "woes" creates a sense of sadness and despair)
+
+9. Yet she, beholding me with constant eye,
+   - Suspense (the use of "constant eye" creates a sense of being watched and observed)
+
+10. Delights not in my merth nor rues my smart:
+    - Uneasiness (the use of "nor rues" creates a sense of discomfort and unease)
+
+11. But when I laugh she mocks, and when I cry
+    - Annoyance (the use of "mocks" creates a sense of frustration and annoyance)
+
+12. She laughs and hardens evermore her heart.
+    - Annoyance (the use of "harden" creates a sense of frustration and annoyance)
+
+13. What then can move her? if nor merth nor mone,
+    - Suspense (the use of "what then" creates a sense of curiosity and intrigue)
+
+14. She is no woman, but a senceless stone.
+    - Uneasiness (the use of "senceless stone" creates a sense of discomfort and unease)
+
+Note: The annotations are subjective and based on the guidelines provided. Different annotators may interpret the emotions differently.

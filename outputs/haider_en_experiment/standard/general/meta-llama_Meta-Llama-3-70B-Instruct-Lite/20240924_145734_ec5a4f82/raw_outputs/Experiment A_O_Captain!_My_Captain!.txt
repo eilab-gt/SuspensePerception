@@ -1,0 +1,63 @@
+This is a guidelines document for annotating aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with examples and instructions for annotators. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) (must be used with another label: beauty/joy or sadness)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate your current feelings while reading the poem
+* Label each line individually (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* You should not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+
+The gold standard examples provided are meant to serve as an orientation for annotators, and can be used as a reference when in doubt.
+
+The task is to annotate the following stanza:
+
+O Captain! my Captain! our fearful trip is done,
+The ship has weather’d every rack, the prize we sought is won,
+The port is near, the bells I hear, the people all exulting,
+While follow eyes the steady keel, the vessel grim and daring;
+But O heart! heart! heart!
+O the bleeding drops of red,
+Where on the deck my Captain lies,
+Fallen cold and dead.
+
+Please annotate the stanza using the provided labels and instructions.
+Here is the annotated stanza:
+
+O Captain! my Captain! rise up and hear the bells; [Vitality]
+Rise up—for you the flag is flung—for you the bugle trills, [Vitality]
+For you bouquets and ribbon’d wreaths—for you the shores a-crowding, [Beauty/Joy]
+For you they call, the swaying mass, their eager faces turning; [Vitality]
+Here Captain! dear father! [Sadness]
+This arm beneath your head! [Sadness]
+It is some dream that on the deck, [Suspense]
+You’ve fallen cold and dead. [Sadness]
+
+Note: The dominant emotion in this stanza is Sadness, but there are also elements of Vitality and Beauty/Joy. The use of "O Captain! my Captain!" and "Rise up—for you the flag is flung—for you the bugle trills" suggests a sense of urgency and energy, which is why I chose Vitality for those lines. The image of "bouquets and ribbon'd wreaths" is beautiful and joyful, which is why I chose Beauty/Joy for that line. The rest of the stanza is more somber and sad, with the speaker mourning the loss of their captain.
+Here is the annotated stanza:
+
+My Captain does not answer, his lips are pale and still, [Sadness]
+My father does not feel my arm, he has no pulse nor will, [Sadness]
+The ship is anchor’d safe and sound, its voyage closed and done, [Vitality]
+From fearful trip the victor ship comes in with object won; [Vitality]
+Exult O shores, and ring O bells! [Beauty/Joy]
+But I with mournful tread, [Sadness]
+Walk the deck my Captain lies, [Sadness]
+Fallen cold and dead. [Sadness]
+
+Note: The dominant emotion in this stanza is Sadness, but there are also elements of Vitality and Beauty/Joy. The lines "The ship is anchor’d safe and sound, its voyage closed and done" and "From fearful trip the victor ship comes in with object won" suggest a sense of accomplishment and victory, which is why I chose Vitality for those lines. The line "Exult O shores, and ring O bells!" is joyful and celebratory, which is why I chose Beauty/Joy for that line. The rest of the stanza is more somber and sad, with the speaker mourning the loss of their captain.

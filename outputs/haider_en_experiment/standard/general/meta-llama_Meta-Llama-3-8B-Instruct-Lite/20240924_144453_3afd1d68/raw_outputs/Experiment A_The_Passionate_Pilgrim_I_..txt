@@ -1,0 +1,61 @@
+Here are the guidelines for labeling aesthetic emotions in poetry:
+
+**Labels:**
+
+1. **Annoyance** (annoys me, angers me, felt frustrated)
+2. **Awe/Sublime** (found it overwhelming/sense of greatness)
+3. **Beauty/Joy** (found it beautiful/pleasing/makes me happy/joyful)
+4. **Humor** (found it funny/amusing)
+5. **Nostalgia** (makes me nostalgic) - use with + beauty/joy or + sadness
+6. **Sadness** (makes me sad/touches me)
+7. **Suspense** (found it gripping/sparked my interest)
+8. **Uneasiness** (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. **Vitality** (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating:**
+
+1. The annotation should reflect your current feelings while reading the poem.
+2. Label your emotions after reading each individual line (not sentence!).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible!
+5. Choose at least one label per line.
+6. You should not use more than two labels per line.
+7. Choose the emotion most dominant while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard:**
+
+The following examples serve as an orientation for the annotators. The exemplarily emotion is highlighted.
+
+**Examples:**
+
+1. **Annoyance**: "In every cry of every Man, [Sadness] [Annoyance]"
+2. **Awe/Sublime**: "The moving waters at their priestlike task [Awe / Sublime]"
+3. **Beauty/Joy**: "i carry your heart with me(i carry it in [Beauty/Joy]"
+4. **Humor**: "I'm Nobody! Who are you? [Humor]"
+5. **Nostalgia**: "Thou'll break my heart, thou bonnie bird, [Sadness] [Nostalgia] [Sadness]"
+6. **Sadness**: "I felt a Funeral, in my Brain, [Sadness]"
+7. **Suspense**: "The Second Coming! Hardly are those words out [Uneasiness] [Suspense]"
+8. **Uneasiness**: "To wait in heavy harness [Uneasiness]"
+9. **Vitality**: "Be fair or foul or rain or shine [Vitality]"
+
+**Annotate the stanza:**
+
+When my love swears that she is made of truth ,
+I do believe her , though I know she lies ,
+That she might think me some untutor "d youth ,
+Unskilful in the world "s false forgeries ,
+Thus vainly thinking that she thinks me young ,
+Although I know my years be past the best ,
+I smiling credit her false-speaking tongue ,
+Outfacing faults in love with love "s ill rest .
+But wherefore says my love that she is young ?
+And wherefore say not I that I am old ?
+O , love "s best habit is a soothing tongue ,
+And age , in love , loves not to have years told .
+Therefore , I "ll lie with love , and love with me ,
+Since that our faults in love thus smother "d be .
+
+Please label your emotions after reading each line, considering the guidelines above.

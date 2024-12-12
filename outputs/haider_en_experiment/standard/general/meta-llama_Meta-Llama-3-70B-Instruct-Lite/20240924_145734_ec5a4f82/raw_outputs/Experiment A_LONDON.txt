@@ -1,0 +1,60 @@
+To annotate the given stanza, I will follow the guidelines provided. Here's my annotation:
+
+I wandered through each chartered street , [Sadness]
+Near where the chartered Thames does flow , [Sadness]
+A mark in every face I meet , [Sadness] [Annoyance]
+Marks of weakness , marks of woe . [Sadness] [Annoyance]
+
+My reasoning for each line is as follows:
+
+* The first line evokes a sense of sadness, as the speaker is wandering through a desolate, "chartered" street, implying a sense of confinement and restriction.
+* The second line continues to evoke sadness, as the speaker is near the Thames, which may symbolize a sense of isolation or disconnection.
+* The third line adds a sense of annoyance, as the speaker notes the marks of weakness and woe on every face they meet, implying a sense of frustration and despair.
+* The fourth line reinforces the sadness and annoyance, as the speaker emphasizes the marks of weakness and woe, suggesting a sense of hopelessness and desperation.
+
+Note that I've chosen to use two labels for the third and fourth lines, as the emotions of sadness and annoyance are both present and intertwined.
+Here is the annotated stanza:
+
+In every cry of every man , [Sadness] [Annoyance]
+In every infant "s cry of fear , [Sadness] [Annoyance]
+In every voice , in every ban , [Sadness] [Annoyance]
+The mind-forged manacles I hear : [Sadness] [Annoyance]
+
+My reasoning for each line is as follows:
+
+* The first line evokes sadness and annoyance, as it describes the cries of every man, implying a sense of universal suffering and frustration.
+* The second line continues to evoke sadness and annoyance, as it focuses on the cry of fear in every infant, suggesting a sense of helplessness and despair.
+* The third line reinforces the sadness and annoyance, as it mentions the voice in every ban, implying a sense of oppression and frustration.
+* The fourth line maintains the sadness and annoyance, as it describes the mind-forged manacles, suggesting a sense of confinement and hopelessness.
+
+Note that I've chosen to use two labels for each line, as the emotions of sadness and annoyance are both present and intertwined.
+Here is the annotated stanza:
+
+How the chimney-sweeper "s cry [Sadness] [Annoyance]
+Every blackening church appalls , [Sadness] [Annoyance]
+And the hapless soldier "s sigh [Sadness] [Annoyance]
+Runs in blood down palace-walls . [Sadness] [Annoyance]
+
+My reasoning for each line is as follows:
+
+* The first line evokes sadness and annoyance, as it describes the cry of the chimney-sweeper, implying a sense of suffering and frustration.
+* The second line continues to evoke sadness and annoyance, as it describes the blackening church, suggesting a sense of desecration and despair.
+* The third line reinforces the sadness and annoyance, as it mentions the hapless soldier's sigh, implying a sense of hopelessness and desperation.
+* The fourth line maintains the sadness and annoyance, as it describes the blood running down palace walls, suggesting a sense of violence and chaos.
+
+Note that I've chosen to use two labels for each line, as the emotions of sadness and annoyance are both present and intertwined.
+Here is the annotated stanza:
+
+But most , through midnight streets I hear [Sadness] [Annoyance]
+How the youthful harlot "s curse [Sadness] [Annoyance]
+Blasts the new-born infant "s tear , [Sadness] [Annoyance]
+And blights with plagues the marriage-hearse . [Sadness] [Annoyance]
+
+My reasoning for each line is as follows:
+
+* The first line evokes sadness and annoyance, as it describes the midnight streets and the sounds of curses and tears, implying a sense of despair and frustration.
+* The second line continues to evoke sadness and annoyance, as it describes the youthful harlot's curse, suggesting a sense of moral decay and corruption.
+* The third line reinforces the sadness and annoyance, as it mentions the new-born infant's tear, implying a sense of innocence and vulnerability.
+* The fourth line maintains the sadness and annoyance, as it describes the plague-ridden marriage-hearse, suggesting a sense of disease and decay.
+
+Note that I've chosen to use two labels for each line, as the emotions of sadness and annoyance are both present and intertwined.

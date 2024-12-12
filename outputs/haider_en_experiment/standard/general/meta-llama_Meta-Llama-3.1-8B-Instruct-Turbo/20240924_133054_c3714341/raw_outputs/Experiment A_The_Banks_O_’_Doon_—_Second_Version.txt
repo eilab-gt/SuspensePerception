@@ -1,0 +1,152 @@
+To annotate the given stanza, we need to go through each line and determine the dominant emotion it evokes. 
+
+1. Ye flowery banks o ’ bonie Doon ,
+- The line creates a peaceful and serene atmosphere, which can be associated with the emotion of Beauty/Joy. The use of "flowery" and "bonie" creates a positive image, evoking a sense of beauty.
+
+Label: Beauty/Joy
+
+2. How can ye blume sae fair ?
+- The question in the line creates a sense of curiosity, which can be associated with the emotion of Suspense. The use of "blume" (an archaic spelling of "bloom") adds to the poetic and mysterious tone.
+
+Label: Suspense
+
+3. How can ye chant , ye little birds ,
+- The line is similar to the previous one, creating a sense of curiosity and Suspense. The use of "chant" and "little birds" adds to the whimsical and poetic tone.
+
+Label: Suspense
+
+4. And I sae fu ’ o care !
+- The line expresses a sense of sadness and longing, which can be associated with the emotion of Sadness. The use of "fu'" (an archaic spelling of "full") and "care" emphasizes the speaker's emotional state.
+
+Label: Sadness
+
+5. Thou "ll break my heart , thou bonie bird ,
+- The line is similar to the previous one, expressing a sense of sadness and longing. The use of "bonie bird" creates a sense of beauty and nostalgia.
+
+Label: Sadness
+
+6. That sings upon the bough !
+- The line is similar to the previous one, emphasizing the speaker's emotional response to the bird's song. The use of "bough" creates a sense of natural beauty.
+
+Label: Beauty/Joy
+
+7. Thou minds me o ’ the happy days
+- The line expresses a sense of nostalgia, which can be associated with the emotion of Nostalgia. The use of "happy days" creates a positive image.
+
+Label: Nostalgia + Beauty/Joy
+
+8. When my fause Luve was true .
+- The line expresses a sense of sadness and longing, which can be associated with the emotion of Sadness. The use of "fause" (an archaic spelling of "false") emphasizes the speaker's emotional pain.
+
+Label: Sadness
+
+9. Thou "ll break my heart , thou bonie bird ,
+- The line is similar to line 5, expressing a sense of sadness and longing. The use of "bonie bird" creates a sense of beauty and nostalgia.
+
+Label: Sadness
+
+10. That sings beside thy mate ;
+- The line is similar to line 6, emphasizing the speaker's emotional response to the bird's song. The use of "mate" creates a sense of companionship.
+
+Label: Beauty/Joy
+
+11. For sae I sat , and sae I sang ,
+- The line expresses a sense of sadness and longing, which can be associated with the emotion of Sadness. The use of "sae" (an archaic spelling of "so") emphasizes the speaker's emotional state.
+
+Label: Sadness
+
+12. And wist na o ’ my fate .
+- The line expresses a sense of uncertainty and curiosity, which can be associated with the emotion of Suspense. The use of "wist" (an archaic spelling of "wist" or "knew") creates a sense of longing.
+
+Label: Suspense
+
+The annotated stanza would be:
+
+1. Beauty/Joy
+2. Suspense
+3. Suspense
+4. Sadness
+5. Sadness
+6. Beauty/Joy
+7. Nostalgia + Beauty/Joy
+8. Sadness
+9. Sadness
+10. Beauty/Joy
+11. Sadness
+12. Suspense
+To annotate the given stanza, we need to go through each line and determine the dominant emotion it evokes.
+
+1. Aft hae I rov "d by bonie Doon ,
+- The line creates a sense of nostalgia and longing, which can be associated with the emotion of Sadness. The use of "bonie Doon" creates a sense of beauty and nostalgia.
+
+Label: Sadness
+
+2. To see the woodbine twine ;
+- The line creates a sense of wonder and curiosity, which can be associated with the emotion of Suspense. The use of "woodbine" creates a sense of natural beauty.
+
+Label: Suspense
+
+3. And ilka bird sang o ’ its Luve ,
+- The line expresses a sense of joy and happiness, which can be associated with the emotion of Beauty/Joy. The use of "ilka" (an archaic spelling of "each") and "Luve" (an archaic spelling of "love") creates a sense of love and beauty.
+
+Label: Beauty/Joy
+
+4. And sae did I o ’ mine .
+- The line is similar to the previous one, expressing a sense of joy and happiness. The use of "sae" (an archaic spelling of "so") emphasizes the speaker's emotional state.
+
+Label: Beauty/Joy
+
+5. Wi ’ lightsome heart I pu "d a rose ,
+- The line expresses a sense of hope and positivity, which can be associated with the emotion of Vitality. The use of "lightsome" (an archaic spelling of "light-hearted") creates a sense of joy and happiness.
+
+Label: Vitality
+
+6. Upon its thorny tree ;
+- The line creates a sense of contrast and irony, which can be associated with the emotion of Uneasiness. The use of "thorny" creates a sense of danger and unease.
+
+Label: Uneasiness
+
+7. But my fause Luver staw my rose ,
+- The line expresses a sense of sadness and loss, which can be associated with the emotion of Sadness. The use of "fause" (an archaic spelling of "false") emphasizes the speaker's emotional pain.
+
+Label: Sadness
+
+8. And left the thorn wi ’ me .
+- The line is similar to the previous one, expressing a sense of sadness and loss. The use of "thorn" creates a sense of pain and suffering.
+
+Label: Sadness
+
+9. Wi ’ lightsome heart I pu "d a rose ,
+- The line is similar to line 5, expressing a sense of hope and positivity. The use of "lightsome" creates a sense of joy and happiness.
+
+Label: Vitality
+
+10. Upon a morn in June ;
+- The line creates a sense of beauty and wonder, which can be associated with the emotion of Beauty/Joy. The use of "morn" and "June" creates a sense of natural beauty.
+
+Label: Beauty/Joy
+
+11. And sae I flourished on the morn ,
+- The line expresses a sense of joy and happiness, which can be associated with the emotion of Beauty/Joy. The use of "sae" emphasizes the speaker's emotional state.
+
+Label: Beauty/Joy
+
+12. And sae was pu "d or noon .
+- The line is similar to the previous one, expressing a sense of joy and happiness. The use of "sae" emphasizes the speaker's emotional state.
+
+Label: Beauty/Joy
+
+The annotated stanza would be:
+
+1. Sadness
+2. Suspense
+3. Beauty/Joy
+4. Beauty/Joy
+5. Vitality
+6. Uneasiness
+7. Sadness
+8. Sadness
+9. Vitality
+10. Beauty/Joy
+11. Beauty/Joy
+12. Beauty/Joy

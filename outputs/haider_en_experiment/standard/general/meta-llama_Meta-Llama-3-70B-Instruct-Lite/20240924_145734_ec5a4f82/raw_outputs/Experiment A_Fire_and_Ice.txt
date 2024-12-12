@@ -1,0 +1,46 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides a set of 9 labels, each corresponding to a specific category of emotion, along with examples and instructions for annotating. Here's a breakdown of the guide:
+
+**Labels and their corresponding emotions:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for annotating:**
+
+1. Annotate your current feelings while reading the poem.
+2. Label each line individually (not sentence).
+3. Read the entire stanza before annotating each line.
+4. Use as few emotions as possible.
+5. Choose at least one label per line.
+6. You should not use more than two labels per line.
+7. Choose the dominant emotion while reading the stanza.
+8. Choose another emotion if necessary.
+9. Only change the dominant emotion within a stanza if unavoidable.
+10. If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+
+**Gold Standard:**
+
+The guide provides examples for each label, serving as an orientation for annotators. These examples demonstrate how to apply the labels in practice.
+
+**Task:**
+
+Annotate the provided stanza:
+
+"Some say the world will end in fire,
+Some say in ice.
+From what I’ve tasted of desire
+I hold with those who favor fire.
+But if it had to perish twice,
+I think I know enough of hate
+To say that for destruction ice
+Is also great
+And would suffice."
+
+Please follow the instructions and guidelines to annotate this stanza with the corresponding emotions.

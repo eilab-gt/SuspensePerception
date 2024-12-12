@@ -1,0 +1,16 @@
+Here is the annotation of the given stanza:
+
+* "Music, when soft voices die" - Annoyance (annoys me, angers me, felt frustrated)
+* "Vibrates in the memory —" - Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+* "Odours, when sweet violets sicken" - Sadness (makes me sad/touches me)
+* "Live within the sense they quicken" - Awe/Sublime (found it overwhelming/sense of greatness)
+
+Note: The annotator's emotions may vary, but based on the guidelines, these labels seem to be a good fit for the given stanza.
+Here is the annotation of the given stanza:
+
+* "Rose leaves, when the rose is dead," - Annoyance (annoys me, angers me, felt frustrated)
+* "Are heaped for the beloved "s bed ;" - Beauty/Joy (found it beautiful/pleasing/makes me happy/joyful)
+* "And so thy thoughts, when thou art gone," - Sadness (makes me sad/touches me)
+* "Love itself shall slumber on." - Awe/Sublime (found it overwhelming/sense of greatness)
+
+Note: The annotator's emotions may vary, but based on the guidelines, these labels seem to be a good fit for the given stanza.

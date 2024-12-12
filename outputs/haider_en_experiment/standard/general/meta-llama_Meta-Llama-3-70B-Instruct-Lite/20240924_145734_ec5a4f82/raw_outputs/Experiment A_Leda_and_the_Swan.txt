@@ -1,0 +1,51 @@
+To annotate the given stanza, I will follow the guidelines provided. Here's my annotation:
+
+A sudden blow: the great wings beating still [Suspense]
+Above the staggering girl, her thighs caressed [Uneasiness]
+By the dark webs, her nape caught in his bill, [Uneasiness]
+He holds her helpless breast upon his breast. [Uneasiness]
+
+My reasoning for each line is as follows:
+
+* "A sudden blow: the great wings beating still" - This line creates a sense of suddenness and intensity, which sparks my interest and keeps me in suspense, hence the label [Suspense].
+* "Above the staggering girl, her thighs caressed" - This line creates a sense of unease and discomfort, as it implies a potentially threatening or violent situation, hence the label [Uneasiness].
+* "By the dark webs, her nape caught in his bill," - This line continues to create a sense of unease and discomfort, with the image of being trapped or caught, hence the label [Uneasiness].
+* "He holds her helpless breast upon his breast." - This line reinforces the sense of unease and discomfort, with the implication of vulnerability and potential harm, hence the label [Uneasiness].
+
+Overall, the dominant emotion in this stanza is [Uneasiness], with [Suspense] playing a secondary role in the first line.
+Here is the annotated stanza:
+
+How can those terrified vague fingers push [Uneasiness]
+The feathered glory from her loosening thighs? [Suspense]
+And how can body, laid in that white rush, [Suspense]
+But feel the strange heart beating where it lies? [Suspense]
+
+My reasoning for each line is as follows:
+
+* "How can those terrified vague fingers push" - This line creates a sense of unease and discomfort, with the image of "terrified" fingers, hence the label [Uneasiness].
+* "The feathered glory from her loosening thighs?" - This line creates a sense of suspense and curiosity, with the image of something being revealed or uncovered, hence the label [Suspense].
+* "And how can body, laid in that white rush," - This line continues to create a sense of suspense and curiosity, with the image of a body in a rush, hence the label [Suspense].
+* "But feel the strange heart beating where it lies?" - This line reinforces the sense of suspense and curiosity, with the image of a heart beating in an unexpected place, hence the label [Suspense].
+
+Overall, the dominant emotion in this stanza is [Suspense], with [Uneasiness] playing a secondary role in the first line.
+Here is the annotated stanza:
+
+A shudder in the loins engenders there [Suspense]
+The broken wall, the burning roof and tower [Uneasiness]
+And Agamemnon dead. [Sadness]
+Being so caught up, [Suspense]
+So mastered by the brute blood of the air, [Uneasiness]
+Did she put on his knowledge with his power [Vitality]
+Before the indifferent beak could let her drop? [Suspense]
+
+My reasoning for each line is as follows:
+
+* "A shudder in the loins engenders there" - This line creates a sense of suspense and curiosity, with the image of a shudder and something being engendered, hence the label [Suspense].
+* "The broken wall, the burning roof and tower" - This line creates a sense of unease and discomfort, with the image of destruction and chaos, hence the label [Uneasiness].
+* "And Agamemnon dead." - This line evokes a sense of sadness, with the image of death, hence the label [Sadness].
+* "Being so caught up," - This line continues to create a sense of suspense and curiosity, with the image of being caught up in something, hence the label [Suspense].
+* "So mastered by the brute blood of the air," - This line reinforces the sense of unease and discomfort, with the image of being mastered by something brutal, hence the label [Uneasiness].
+* "Did she put on his knowledge with his power" - This line creates a sense of vitality and inspiration, with the image of gaining knowledge and power, hence the label [Vitality].
+* "Before the indifferent beak could let her drop?" - This line ends with a sense of suspense and curiosity, with the image of something being about to happen, hence the label [Suspense].
+
+Overall, the dominant emotion in this stanza is [Suspense], with [Uneasiness] and [Vitality] playing secondary roles.

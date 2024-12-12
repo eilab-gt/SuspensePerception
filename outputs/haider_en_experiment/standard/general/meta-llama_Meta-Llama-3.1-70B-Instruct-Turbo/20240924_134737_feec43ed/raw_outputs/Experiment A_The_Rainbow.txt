@@ -1,0 +1,18 @@
+Based on the guidelines provided, I will annotate the given stanza with the corresponding labels.
+
+My heart leaps up when I behold [Vitality] [Beauty/Joy]
+A rainbow in the sky: [Beauty/Joy]
+So was it when my life began; [Nostalgia] [Beauty/Joy]
+So is it now I am a man; [Nostalgia] [Beauty/Joy]
+So be it when I shall grow old, [Nostalgia] [Beauty/Joy]
+Or let me die! [Vitality]
+The Child is father of the Man; [Vitality] [Beauty/Joy]
+And I could wish my days to be [Vitality]
+Bound each to each by natural piety. [Vitality] [Beauty/Joy]
+
+Explanation:
+- The first line "My heart leaps up when I behold" evokes a sense of energy and vitality, hence the label [Vitality]. It also has a beautiful and joyful tone, so [Beauty/Joy] is added.
+- The second line "A rainbow in the sky" is a beautiful image, hence [Beauty/Joy].
+- The next four lines express a sense of nostalgia and a longing for a connection between different stages of life, hence [Nostalgia] is used in addition to [Beauty/Joy].
+- The line "Or let me die!" has a sense of vitality and a strong desire, hence [Vitality].
+- The last three lines express a sense of energy, movement, and a desire for a meaningful life, hence [Vitality]. The overall tone is also beautiful and joyful, so [Beauty/Joy] is added to the last line.

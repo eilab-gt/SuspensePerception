@@ -1,0 +1,56 @@
+To annotate the given stanza, I will go through each line and choose the most dominant emotion for each line, keeping in mind the instructions and the provided examples. 
+
+1. Earth has not anything to show more fair:
+   - This line evokes a sense of awe and beauty, so I will choose: [Beauty/Joy]
+
+2. Dull would he be of soul who could pass by
+   - This line does not evoke a strong emotion, but it is a contrast to the previous line, so I will choose: [Beauty/Joy] (continuing the dominant emotion from the previous line)
+
+3. A sight so touching in its majesty:
+   - This line reinforces the awe and beauty of the previous lines, so I will choose: [Awe/Sublime]
+
+4. This City now doth, like a garment, wear
+   - This line is a metaphor that adds to the beauty of the city, so I will choose: [Beauty/Joy]
+
+5. The beauty of the morning: silent, bare,
+   - This line emphasizes the beauty of the city in the morning, so I will choose: [Beauty/Joy]
+
+6. Ships, towers, domes, theatres, and temples lie
+   - This line is a list of grand structures, which adds to the sense of awe and beauty, so I will choose: [Awe/Sublime]
+
+7. Open unto the fields, and to the sky;
+   - This line emphasizes the grandeur of the city, so I will choose: [Awe/Sublime]
+
+8. All bright and glittering in the smokeless air.
+   - This line adds to the sense of the city's beauty and grandeur, so I will choose: [Beauty/Joy]
+
+9. Never did sun more beautifully steep
+   - This line emphasizes the beauty of the sun, so I will choose: [Beauty/Joy]
+
+10. In his first splendour, valley, rock, or hill;
+   - This line adds to the sense of the city's beauty and grandeur, so I will choose: [Awe/Sublime]
+
+11. Ne’er saw I, never felt, a calm so deep!
+   - This line emphasizes the sense of awe and wonder, so I will choose: [Awe/Sublime]
+
+12. The river glideth at his own sweet will:
+   - This line adds to the sense of peace and calm, so I will choose: [Vitality]
+
+13. Dear God! the very houses seem asleep;
+And all that mighty heart is lying still!
+   - This line emphasizes the sense of peace and calm, so I will choose: [Vitality]
+
+The annotated stanza is:
+1. [Beauty/Joy]
+2. [Beauty/Joy]
+3. [Awe/Sublime]
+4. [Beauty/Joy]
+5. [Beauty/Joy]
+6. [Awe/Sublime]
+7. [Awe/Sublime]
+8. [Beauty/Joy]
+9. [Beauty/Joy]
+10. [Awe/Sublime]
+11. [Awe/Sublime]
+12. [Vitality]
+13. [Vitality]

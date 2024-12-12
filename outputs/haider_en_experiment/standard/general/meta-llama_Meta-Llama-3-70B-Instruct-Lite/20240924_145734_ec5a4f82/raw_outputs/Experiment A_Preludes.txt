@@ -1,0 +1,114 @@
+This is a guidelines document for annotators to label aesthetic emotions in poetry. The document provides a set of 9 labels for annotating emotions, along with examples and instructions for annotating. Here is a summary of the guidelines:
+
+**Labels:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for Annotating:**
+
+* Annotate your emotions after reading each individual line (not sentence!).
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible!
+* Choose at least one label per line.
+* You should not use more than two labels per line.
+* Choose the emotion most dominant while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza, if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Notice that nostalgia always has to be used with an additional label: beauty/joy or sadness
+
+**Gold Standard:**
+
+The document provides examples for each label, which serve as an orientation for the annotators. The examples are highlighted to show the correct labeling.
+
+**Task:**
+
+Annotate the provided stanza:
+
+"The winter evening settles down
+With smell of steaks in passageways .
+Six o"clock .
+The burnt-out ends of smoky days .
+And now a gusty shower wraps
+The grimy scraps
+Of withered leaves about your feet
+And newspapers from vacant lots ;
+The showers beat
+On broken blinds and chimney-pots ,
+And at the corner of the street
+A lonely cab-horse steams and stamps .
+And then the lighting of the lamps ."
+
+Please follow the guidelines and instructions to annotate the emotions in this stanza.
+Based on the guidelines, I will annotate the provided stanza:
+
+The morning comes to consciousness [Uneasiness]
+Of faint stale smells of beer [Uneasiness]
+From the sawdust-trampled street [Uneasiness]
+With all its muddy feet that press [Uneasiness]
+To early coffee-stands . [Beauty/Joy]
+With the other masquerades [Uneasiness]
+That time resumes , [Suspense]
+One thinks of all the hands [Sadness]
+That are raising dingy shades [Uneasiness]
+In a thousand furnished rooms . [Uneasiness]
+
+Here's my annotation:
+
+* Line 1: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "faint stale smells of beer" creates a sense of discomfort and unease.
+* Line 2: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The "sawdust-trampled street" and "muddy feet" evoke a sense of dirtiness and disorder.
+* Line 3: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "muddy feet" and "press" creates a sense of discomfort and unease.
+* Line 4: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) - The mention of "early coffee-stands" creates a sense of warmth and comfort.
+* Line 5: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The "other masquerades" creates a sense of unease and uncertainty.
+* Line 6: Suspense (found it gripping/sparked my interest) - The phrase "time resumes" creates a sense of anticipation and curiosity.
+* Line 7: Sadness (makes me sad/touches me) - The image of "all the hands" and "raising dingy shades" creates a sense of melancholy and sadness.
+* Line 8: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "dingy shades" creates a sense of discomfort and unease.
+* Line 9: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "thousand furnished rooms" creates a sense of overwhelming and discomfort.
+
+Note: The annotations are subjective and may vary depending on individual perspectives.
+Here is the annotated stanza:
+
+* Line 1: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "tossed a blanket from the bed" creates a sense of disorder and mess.
+* Line 2: Sadness (makes me sad/touches me) - The phrase "You lay upon your back, and waited" creates a sense of melancholy and sadness.
+* Line 3: Suspense (found it gripping/sparked my interest) - The phrase "You dozed, and watched the night revealing" creates a sense of anticipation and curiosity.
+* Line 4: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "thousand sordid images" creates a sense of discomfort and unease.
+* Line 5: Sadness (makes me sad/touches me) - The phrase "Of which your soul was constituted" creates a sense of sadness and introspection.
+* Line 6: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "flickered against the ceiling" creates a sense of discomfort and unease.
+* Line 7: Suspense (found it gripping/sparked my interest) - The phrase "And when all the world came back" creates a sense of anticipation and curiosity.
+* Line 8: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) - The image of "the light crept up between the shutters" creates a sense of beauty and wonder.
+* Line 9: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) - The image of "you heard the sparrows in the gutters" creates a sense of beauty and joy.
+* Line 10: Suspense (found it gripping/sparked my interest) - The phrase "You had such a vision of the street" creates a sense of anticipation and curiosity.
+* Line 11: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "Sitting along the bed's edge, where" creates a sense of discomfort and unease.
+* Line 12: Sadness (makes me sad/touches me) - The phrase "You curled the papers from your hair" creates a sense of sadness and introspection.
+* Line 13: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "Or clasped the yellow soles of feet" creates a sense of discomfort and unease.
+* Line 14: Sadness (makes me sad/touches me) - The phrase "In the palms of both soiled hands" creates a sense of sadness and introspection.
+
+Note: The annotations are subjective and may vary depending on individual perspectives.
+Here is the annotated stanza:
+
+* Line 1: Awe/Sublime (found it overwhelming/sense of greatness) - The image of "His soul stretched tight across the skies" creates a sense of awe and wonder.
+* Line 2: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "That fade behind a city block" creates a sense of discomfort and unease.
+* Line 3: Sadness (makes me sad/touches me) - The phrase "Or trampled by insistent feet" creates a sense of sadness and empathy.
+* Line 4: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The image of "At four and five and six o'clock" creates a sense of discomfort and unease.
+* Line 5: Humor (found it funny/ amusing) - The phrase "And short square fingers stuffing pipes" creates a sense of humor and amusement.
+* Line 6: Sadness (makes me sad/touches me) - The phrase "And evening newspapers, and eyes" creates a sense of sadness and introspection.
+* Line 7: Suspense (found it gripping/sparked my interest) - The phrase "Assured of certain certainties" creates a sense of suspense and curiosity.
+* Line 8: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The phrase "The conscience of a blackened street" creates a sense of discomfort and unease.
+* Line 9: Vitality (found it invigorating/spurs me on/inspires me) - The phrase "Impatient to assume the world" creates a sense of vitality and energy.
+* Line 10: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) - The phrase "I am moved by fancies that are curled" creates a sense of beauty and joy.
+* Line 11: Awe/Sublime (found it overwhelming/sense of greatness) - The phrase "Around these images, and cling" creates a sense of awe and wonder.
+* Line 12: Sadness (makes me sad/touches me) - The phrase "The notion of some infinitely gentle" creates a sense of sadness and empathy.
+* Line 13: Humor (found it funny/ amusing) - The phrase "Infinitely suffering thing" creates a sense of humor and irony.
+* Line 14: Vitality (found it invigorating/spurs me on/inspires me) - The phrase "Wipe your hand across your mouth, and laugh" creates a sense of vitality and energy.
+* Line 15: Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful) - The phrase "The worlds revolve like ancient women" creates a sense of beauty and joy.
+* Line 16: Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful) - The phrase "Gathering fuel in vacant lots" creates a sense of discomfort and unease.
+
+Note: The annotations are subjective and may vary depending on individual perspectives.

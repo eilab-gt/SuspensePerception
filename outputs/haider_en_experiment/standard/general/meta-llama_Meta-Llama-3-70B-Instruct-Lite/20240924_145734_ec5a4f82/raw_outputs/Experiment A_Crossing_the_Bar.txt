@@ -1,0 +1,72 @@
+This is a guidelines document for annotators to label aesthetic emotions in poetry. The document provides a set of 9 labels with corresponding items to help annotators identify and categorize their subjective emotions while reading poems. The labels are:
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic) - always used with an additional label: beauty/joy or sadness
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+The instructions for annotating are:
+
+* Annotate after reading each individual line (not sentence)
+* Read the entire stanza before annotating each line
+* Use as few emotions as possible
+* Choose at least one label per line
+* Do not use more than two labels per line
+* Choose the dominant emotion while reading the stanza
+* Choose another emotion if necessary
+* Only change the dominant emotion within a stanza if unavoidable
+* If changing the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness
+
+The document also provides examples of annotated poems to serve as a gold standard for the annotators. These examples demonstrate how to apply the labels to specific lines in a poem.
+Please annotate the stanza below using the guidelines provided:
+
+But such a tide as moving seems asleep,
+Too full for sound and foam,
+When that which drew from out the boundless deep
+Turns again home.
+
+Here is the annotated stanza:
+
+But such a tide as moving seems asleep, [Awe/Sublime]
+Too full for sound and foam, [Beauty/Joy]
+When that which drew from out the boundless deep [Awe/Sublime]
+Turns again home. [Vitality]
+
+Rationale:
+
+* The first line evokes a sense of awe and sublimity, as the description of the tide creates a sense of grandeur and power.
+* The second line is beautiful and joyful, as the phrase "Too full for sound and foam" creates a sense of abundance and energy.
+* The third line again evokes a sense of awe and sublimity, as the description of the boundless deep creates a sense of vastness and mystery.
+* The fourth line is invigorating and inspiring, as the phrase "Turns again home" suggests a sense of movement and return, implying a sense of completion and fulfillment.
+Here is the annotated stanza:
+
+Twilight and evening bell, [Beauty/Joy]
+And after that the dark! [Uneasiness]
+And may there be no sadness of farewell, [Sadness]
+When I embark; [Vitality]
+
+Rationale:
+
+* The first line is beautiful and joyful, as the phrase "Twilight and evening bell" creates a sense of peacefulness and serenity.
+* The second line is unsettling and disturbing, as the phrase "And after that the dark!" creates a sense of foreboding and uncertainty.
+* The third line is sad, as the phrase "may there be no sadness of farewell" suggests a sense of loss and longing.
+* The fourth line is invigorating and inspiring, as the phrase "When I embark" suggests a sense of movement and new beginnings.
+Here is the annotated stanza:
+
+For tho’ from out our bourne of Time and Place [Awe/Sublime]
+The flood may bear me far, [Vitality]
+I hope to see my Pilot face to face [Beauty/Joy]
+When I have crost the bar. [Vitality]
+
+Rationale:
+
+* The first line is overwhelming and sublime, as the phrase "our bourne of Time and Place" creates a sense of grandeur and vastness.
+* The second line is invigorating and inspiring, as the phrase "The flood may bear me far" suggests a sense of movement and energy.
+* The third line is beautiful and joyful, as the phrase "I hope to see my Pilot face to face" creates a sense of longing and hope.
+* The fourth line is invigorating and inspiring, as the phrase "When I have crost the bar" suggests a sense of accomplishment and triumph.

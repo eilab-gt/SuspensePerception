@@ -1,0 +1,47 @@
+This is a comprehensive guide for annotators to label aesthetic emotions in poetry. The guide provides a set of 9 labels, each corresponding to a specific category of emotion, along with examples and instructions for annotating. Here's a breakdown of the guide:
+
+**Labels and their corresponding emotions:**
+
+1. Annoyance (annoys me, angers me, felt frustrated)
+2. Awe/Sublime (found it overwhelming/sense of greatness)
+3. Beauty/Joy (found it beautiful/ pleasing/ makes me happy/ joyful)
+4. Humor (found it funny/ amusing)
+5. Nostalgia (makes me nostalgic)
+6. Sadness (makes me sad/touches me)
+7. Suspense (found it gripping/sparked my interest)
+8. Uneasiness (found it ugly/unsettling/disturbing/frightening/distasteful)
+9. Vitality (found it invigorating/spurs me on/inspires me)
+
+**Instructions for annotating:**
+
+* Annotate each line individually, not sentence by sentence.
+* Read the entire stanza before annotating each line.
+* Use as few emotions as possible.
+* Choose at least one label per line.
+* You can use up to two labels per line.
+* Choose the dominant emotion while reading the stanza.
+* Choose another emotion if necessary.
+* Only change the dominant emotion within a stanza if unavoidable.
+* If you change the non-dominant emotion within a stanza, remember to keep labeling the dominant emotion additionally to the new emotion.
+* Nostalgia always has to be used with an additional label: beauty/joy or sadness.
+
+**Gold Standard Examples:**
+
+The guide provides examples for each label, which serve as an orientation for annotators. These examples demonstrate how to apply the labels to specific lines of poetry.
+
+By following these guidelines and examples, annotators can ensure consistency and accuracy in labeling aesthetic emotions in poetry.
+To annotate the stanza, I would label the emotions as follows:
+
+Rose leaves , when the rose is dead , [Sadness]
+Are heaped for the beloved "s bed ; [Beauty/Joy]
+And so thy thoughts , when thou art gone , [Nostalgia] [Sadness]
+Love itself shall slumber on . [Beauty/Joy]
+
+Here's my reasoning:
+
+* The first line "Rose leaves , when the rose is dead" evokes a sense of sadness and loss, so I labeled it with [Sadness].
+* The second line "Are heaped for the beloved "s bed" suggests a sense of beauty and love, so I labeled it with [Beauty/Joy].
+* The third line "And so thy thoughts , when thou art gone" has a nostalgic tone, evoking a sense of longing for something or someone that is no longer present. I labeled it with [Nostalgia] and [Sadness] because it's a bittersweet feeling.
+* The fourth line "Love itself shall slumber on" suggests a sense of beauty and joy again, so I labeled it with [Beauty/Joy].
+
+Note that these labels are subjective and may vary depending on individual interpretations.
