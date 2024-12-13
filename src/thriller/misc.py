@@ -4,6 +4,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 # TODO: move to api.py and utils.py then delete this file
 
 import sys
+import os
 import typing
 from pathlib import Path
 from src.thriller.api import generate_response, save_raw_api_output
@@ -11,6 +12,7 @@ import openai
 from together import Together
 import re
 from tqdm import tqdm
+from utils import is_roman
 import logging
 import json
 import pdb
@@ -193,37 +195,38 @@ def run_experiment(
                                         messages.pop(1)
                                     else:
                                         break
-            
-                            raw_responses.append(raw_response)
 
-                            if raw_response:
-                                messages.append(
-                                    {"role": "assistant", "content": raw_response}
-                                )
+                            parsed_response = {"value": float("nan")}
 
-                                parsed_response = parse_response(
-                                    raw_response, parse_model_config
-                                )
-                                
-                                if experiment_series == "haider_en":
-                                    parsed_responses.append(parsed_response.values()) #appending instead of extending to distinguish one stanza from the next
-                                else:
-                                    parsed_responses.extend(parsed_response.values())
-
-                            else:
-                                messages.append(
-                                    {"role": "assistant", "content": "No response."}
-                                )
-
+                            if not raw_response:
+                                raw_response = "Error - No Response: Input Too Long"
                                 print(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
                                 )
-                                # Don't add anything to parsed_responses for failed responses
+                            elif not is_roman(raw_response):
+                                raw_response = "Error - No Response: Input is Invalid"
+                                print(
+                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
+                                )
+                            else:
+                                parsed_response = parse_response(
+                                    raw_response, parse_model_config
+                                )
                             
+                            raw_responses.append(raw_response) 
+                            messages.append(
+                                {"role": "assistant", "content": raw_response}
+                            )
+
+                            if experiment_series == "haider_en":
+                                parsed_responses.append(parsed_response.values()) #appending instead of extending to distinguish one stanza from the next
+                            else:
+                                parsed_responses.extend(parsed_response.values())
+
                             if TQDM_ACTIVE:
                                 inner_pbar.update(1)
 
-                        raw_responses = "\n".join(raw_responses)
+                        raw_responses = "\n####################################################################################################\n".join(raw_responses)
                         parsed_responses_dict = {}
                         for i, response in enumerate(parsed_responses):
                             converted_value = safe_int_conversion(response)
@@ -248,39 +251,8 @@ def run_experiment(
                             output_path=output_path,
                         )
 
-                elif isinstance(version_text, str):
-                    messages = [
-                        {"role": "system", "content": prompt},
-                        {"role": "user", "content": version_text},
-                    ]
-
-                    raw_response = generate_response(messages, model_config)
-
-                    if raw_response:
-                        parsed_response = parse_response(
-                            raw_response, parse_model_config
-                        )
-
-                        result = {
-                            "experiment_name": exp_name,
-                            "version": version_name,
-                            "raw_response": raw_response,
-                            "parsed_response": parsed_response,
-                        }
-
-                        results.append(result)
-
-                        save_raw_api_output(
-                            output=raw_response,
-                            filename=f"{exp_name}_{version_name.replace(' ', '_')}.json",
-                            output_path=output_path,
-                        )
-
-                    else:
-                        print(
-                            f"Failed to get response for {exp_name} version: {version_name}"
-                        )
-
+                else:
+                    raise ValueError("Experiment should be in list format.")
                 pbar.update(1)
 
     return results
