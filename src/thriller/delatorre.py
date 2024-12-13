@@ -5,7 +5,7 @@ Define Delatorre experiments from Delatorre, P. et al. 2018. Confronting a parad
 from src.thriller.misc import apply_substitutions
 
 
-experiment_prompt = """After each paragraph, rate how suspensful you found the preceding paragraph to be on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
+experiment_prompt = """Rate the following paragraph for its suspensefulness on a 9-point scale, where 1 is "not suspensful" and 9 is "very suspensful".
 """
 
 journalistic_template = """1 What you are about to read is the story of a real event that took place at the UCSF Benioff Children’s Hospital, in San Francisco, California, on 24 February 2008. On that day, since 8 a.m., an eight year old boy called Robert Bent and the entire medical team treating him were all ready for his imminent liver transplant. Just the day before a suitable donor had been found, and they were now awaiting the arrival of the organ. However, they were not sure if Robert would survive the wait as his situation was critical. {reveal}This is the story of what happened.
@@ -148,14 +148,14 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
 
     texts = {
         "Experiment": [
-            ("Journalistic Good Not Revealed", journalistic_good_notrevealed.strip().split("\n")),
-            ("Journalistic Good Revealed", journalistic_good_revealed.strip().split("\n")),
-            ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed.strip().split("\n")),
-            ("Journalistic Bad Revealed", journalistic_bad_revealed.strip().split("\n")),
-            ("Novel Good Not Revealed", novel_good_notrevealed.strip().split("\n")),
-            ("Novel Good Revealed", novel_good_revealed.strip().split("\n")),
-            ("Novel Bad Not Revealed", novel_bad_notrevealed.strip().split("\n")),
-            ("Novel Bad Revealed", novel_bad_revealed.strip().split("\n")),
+            ("Journalistic Good Not Revealed", journalistic_good_notrevealed.strip().split("\n\n")),
+            ("Journalistic Good Revealed", journalistic_good_revealed.strip().split("\n\n")),
+            ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed.strip().split("\n\n")),
+            ("Journalistic Bad Revealed", journalistic_bad_revealed.strip().split("\n\n")),
+            ("Novel Good Not Revealed", novel_good_notrevealed.strip().split("\n\n")),
+            ("Novel Good Revealed", novel_good_revealed.strip().split("\n\n")),
+            ("Novel Bad Not Revealed", novel_bad_notrevealed.strip().split("\n\n")),
+            ("Novel Bad Revealed", novel_bad_revealed.strip().split("\n\n")),
         ],
     }
 

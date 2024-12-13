@@ -5,11 +5,11 @@ Functions related to file I/O such as loading configuration files and saving out
 import io
 import json
 from pathlib import Path
-
 import pandas as pd
 import yaml
 from datetime import datetime
 import uuid
+import unicodedata as ud
 
 
 def save_test_output(test_name: str, output: str) -> None:
@@ -77,3 +77,11 @@ def generate_experiment_id() -> str:
         str: A unique experiment ID combining timestamp and UUID.
     """
     return f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
+
+
+def is_roman(s):
+    try:
+        s.encode("iso-8859-1")
+        return True
+    except:
+        return False

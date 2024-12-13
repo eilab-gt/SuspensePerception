@@ -10,17 +10,17 @@ model:
     "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
     "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
     "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
-    "google/gemma-2-27b-it",
-    "google/gemma-2-9b-it",
-    "google/gemma-2b-it",
-    "mistralai/Mistral-7B-Instruct-v0.3",
-    "mistralai/Mistral-7B-Instruct-v0.2",
-    "mistralai/Mistral-7B-Instruct-v0.1",
-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
-    "mistralai/Mixtral-8x22B-Instruct-v0.1",
-    "Qwen/Qwen1.5-72B-Chat",
-    "Qwen/Qwen1.5-110B-Chat",
-    "Qwen/Qwen2-72B-Instruct",
+    # "google/gemma-2-27b-it",
+    # "google/gemma-2-9b-it",
+    # "google/gemma-2b-it",
+    # "mistralai/Mistral-7B-Instruct-v0.3",
+    # "mistralai/Mistral-7B-Instruct-v0.2",
+    # "mistralai/Mistral-7B-Instruct-v0.1",
+    # "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    # "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    # "Qwen/Qwen1.5-72B-Chat",
+    # "Qwen/Qwen1.5-110B-Chat",
+    # "Qwen/Qwen2-72B-Instruct",
   ]
   max_tokens: 100
   temperature: 1.0
@@ -32,7 +32,7 @@ parse_model:
   api_type: "together"
   name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
   prompt: >
-    The following text rates the suspense of a sentence. Extract the suspense rating from the text. Extract only the numerical value and none of the text. Ignore any additional commentary or analysis provided after the rating. If the value is formatted to be a ratio such as 5/10 extract only the numerator. Structure your response to only include the value in the following format: ```value```
+    The following text provides a numerical rating of a passage. Extract numerical value in the text and nothing else. Structure your output as a single word in the format: ```value```
   max_tokens: 100
   temperature: 0.0 # Parser should always be deterministic
   top_p: 0.9

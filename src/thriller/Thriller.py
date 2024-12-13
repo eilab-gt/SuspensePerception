@@ -38,6 +38,7 @@ import src.thriller.haider.haider_en as haider_en
 
 def main(args):
     logging.basicConfig(level=logging.WARNING)
+
     # Load configuration if provided
     config = load_config(args.config) if args.config else {}
 
