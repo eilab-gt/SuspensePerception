@@ -148,6 +148,8 @@ def run_experiment(
             print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
 
             for version_name, version_text in version_prompts[exp_name]:
+                if isinstance(version_text, str):
+                    version_text = [version_text]
                 if isinstance(version_text, list):
                     with tqdm(
                         total=len(version_text), desc=f"{exp_name} - {version_name}"
