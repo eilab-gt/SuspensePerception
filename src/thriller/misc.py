@@ -95,6 +95,7 @@ def parse_response(
 
     values = re.findall(r"\w+: \d+", content)
     if values:
+        values = [value.split(":") for value in values]
         return {key: int(value) for key, value in values}
 
     values = re.findall(r"\d+", content)
