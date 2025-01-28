@@ -14,8 +14,8 @@ model:
     # "mistralai/Mistral-7B-Instruct-v0.3",
     # "mistralai/Mixtral-8x7B-Instruct-v0.1",
     # "Qwen/Qwen2-72B-Instruct",
-    # "deepseek-ai/DeepSeek-V3",
-    # "microsoft/WizardLM-2-8x22B", 
+    "deepseek-ai/DeepSeek-V3",
+    "microsoft/WizardLM-2-8x22B", 
   ]
   max_tokens: 250
   temperature: 0.0
@@ -25,9 +25,10 @@ model:
   stream: true
 parse_model:
   api_type: "together"
-  name: "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
+  name: "meta-llama/Llama-3-8b-chat-hf"
   prompt: >
-    The text below is the output of a question and answer prompt to a language model. There are only two questions (Q1, Q2). For each question you should try to extract only the numerical scaled version of the answer given, and none of the description text for the number. If the number is not present, you must use infer it based on the answer's text.  
+    The text below is the output of a question and answer prompt to a language model. There are only two questions (Q1, Q2). For each question the answer is one of the following choices:
+
     Q1:
     1. Not very likely
     2. Somewhat likely
@@ -46,7 +47,7 @@ parse_model:
     6. Very suspenseful
     7. Extremely suspenseful
     
-    When generating you should structure your response to this prompt by using the format: ```Q1: answer\nQ2: answer``` and exclude all other questions mentioned.
+    Extract the numerical response from the answer. When generating you should structure your response to this prompt by using the format: ```Q1: answer\nQ2: answer``` and exclude all other questions mentioned.
   max_tokens: 100
   temperature: 0.0 # Parser should be deterministic
   top_p: 0.9
