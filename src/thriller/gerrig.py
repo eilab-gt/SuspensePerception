@@ -51,7 +51,7 @@ Use the passage above to answer the following questions:
 6. Very suspenseful
 7. Extremely suspenseful
 
-Answer Question 1, and then answer Question 2.
+Answer Question 1, and then answer Question 2 by selecting one of the options listed.
 """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
@@ -205,24 +205,18 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
 
     texts = {
         "Experiment A": [
-            ("Pen Not Mentioned", experiment_A_pen_not_mentioned),
-            ("Pen Mentioned Removed", experiment_A_pen_mentioned_removed),
             ("Pen Mentioned Not Removed", experiment_A_pen_mentioned_not_removed),
+            ("Pen Mentioned Removed", experiment_A_pen_mentioned_removed),
+            ("Pen Not Mentioned", experiment_A_pen_not_mentioned),
         ],
         "Experiment B": [
             ("Unused Comb", experiment_B_unused_comb),
             ("Used Comb", experiment_B_used_comb),
         ],
         "Experiment C": [
+            ("Prior Solution Mentioned and Removed",experiment_C_prior_solution_mentioned_and_removed),
+            ("Prior Solution Mentioned Not Removed", experiment_C_prior_solution_mentioned_not_removed),
             ("Prior Solution Not Mentioned", experiment_C_prior_solution_not_mentioned),
-            (
-                "Prior Solution Mentioned and Removed",
-                experiment_C_prior_solution_mentioned_and_removed,
-            ),
-            (
-                "Prior Solution Mentioned Not Removed",
-                experiment_C_prior_solution_mentioned_not_removed,
-            ),
         ],
     }
 

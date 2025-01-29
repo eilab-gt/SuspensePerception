@@ -183,7 +183,7 @@ def run_experiment(
                                         break
 
                             parsed_response = {"value": float("nan")}
-                            if not raw_response:
+                            if not raw_response or raw_response.isspace():
                                 raw_response = "Error - No Response: Input Too Long"
                                 print(
                                     f"Failed to get response for {exp_name} segment {i} version: {version_name}"
