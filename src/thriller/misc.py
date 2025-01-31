@@ -13,7 +13,6 @@ from together import Together
 import re
 from tqdm import tqdm
 import logging
-from utils import is_roman
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -186,12 +185,7 @@ def run_experiment(
                             if not raw_response or raw_response.isspace():
                                 raw_response = "Error - No Response: Input Too Long"
                                 print(
-                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
-                                )
-                            elif not is_roman(raw_response):
-                                raw_response = "Error - No Response: Input is Invalid"
-                                print(
-                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
+                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}. Input Too Long"
                                 )
                             else:
                                 parsed_response = parse_response(

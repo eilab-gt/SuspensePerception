@@ -77,11 +77,3 @@ def generate_experiment_id() -> str:
         str: A unique experiment ID combining timestamp and UUID.
     """
     return f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:8]}"
-
-
-def is_roman(s):
-    try:
-        s.encode("iso-8859-1")
-        return True
-    except:
-        return False
