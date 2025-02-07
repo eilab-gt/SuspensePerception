@@ -1,0 +1,49 @@
+ Question 1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?" - 3, Somewhat
+The passage describes an anticipation of sorts for the meeting between Albert and the Judge, but it is not a strong emotional response, rather a sense of obligation and mild curiosity about the purpose of the meeting.
+
+Question 2: "To what extent do you want to learn more about events yet to come in the passage?" - 4, Neutral or Uncertain
+The passage does not provide enough information about future events to generate a strong desire to learn more.
+
+Question 3: "To what extent did you feel surprised by any information or events in the passage?" - 2, Slightly surprised
+The passage contains some unexpected information, such as the fact that Albert is named after his uncle and that he was born on his uncle's birthday. However, these surprises are minor and do not significantly impact the overall understanding of the passage.
+####################################################################################################
+ Question 1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?" - 2, Slightly
+The passage describes the daily routine of Albert and his uncle, so there is no significant event or information that would generate strong anticipation or excitement.
+
+Question 2: "To what extent do you want to learn more about events yet to come in the passage?" - 3, Somewhat
+The passage provides enough information about the characters and their daily lives, but there are some gaps in the story that could be explored further, such as the reason for the uncle's "crushing disappointment" and the significance of the "heavy loss" he suffered later in life.
+
+Question 3: "To what extent did you feel surprised by any information or events in the passage?" - 2, Slightly
+The passage contains some unexpected information, such as the fact that Albert and his uncle only occupy the upper floor of their house and that the ground floor is let to a glass engraver. However, these surprises are minor and do not significantly impact the overall understanding of the passage.
+####################################################################################################
+ Question 1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?" - 4, Neutral or Uncertain
+The passage is a narrative of past events, so there is no anticipation or excitement for future events.
+
+Question 2: "To what extent do you want to learn more about events yet to come in the passage?" - 1, Not at all
+As the passage is a narrative of past events, there is no desire to learn more about future events.
+
+Question 3: "To what extent did you feel surprised by any information or events in the passage?" - 5, Moderately surprised
+The passage contains some unexpected information, such as the sudden return of Marguerite to pursue her singing career and the revelation of her husband's financial troubles. The passage also contains some emotional moments, such as Doctor Engelhardt's grief over Marguerite's illness and death. However, these surprises and emotional moments are not so extreme as to be shocking or overwhelming.
+####################################################################################################
+ Question 1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?" - 2, Slightly
+There is some anticipation for the events that are about to unfold in the story, such as Albert's visit to his uncle and the celebration of his uncle's birthday.
+
+Question 2: "To what extent do you want to learn more about events yet to come in the passage?" - 3, Somewhat
+There is some interest in learning more about the events that will take place in the story, such as the interaction between Albert and his uncle and the significance of the uncle's birthday.
+
+Question 3: "To what extent did you feel surprised by any information or events in the passage?" - 1, No surprise
+There is no particularly surprising information or events in the passage. It is a straightforward description of Albert's visit to his uncle and the preparations for his uncle's birthday.
+####################################################################################################
+ Question 1: To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?
+
+* Not at all
+
+Question 2: To what extent do you want to learn more about events yet to come in the passage?
+
+* Somewhat
+
+Question 3: To what extent did you feel surprised by any information or events in the passage?
+
+* Slightly surprised - The fact that Mrs. Parmenter, a "fine lady," shows up at their door and is familiar with the Doctor and his past.
+
+Overall, the passage does not elicit strong feelings of anticipation or excitement, but there is a sense of warmth and familiarity as the characters interact with each other. The revelation of Mrs. Parmenter's familiarity with the Doctor and his past is slightly surprising, but it does not significantly impact the overall tone of the passage. The reader may want to learn more about the history between Mrs. Parmenter and the Doctor, as well as the significance of the Doctor's past and his relationship with Marguerite Theisinger.

@@ -124,7 +124,7 @@ def run_experiment(
     model_config: dict[str, typing.Any],
     parse_model_config: dict[str, typing.Any],
     prompts: dict[str, str],
-    version_prompts: dict[str, str | list[str]],
+    version_prompts:  dict[str, Union[str, list[str]]],
 ) -> list[dict[str, str]]:
     # TODO: move to utils.py
     """
