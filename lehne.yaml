@@ -1,15 +1,17 @@
 experiment:
   experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment/standard/general/"
+  output_dir: "./outputs/lehne_experiment/nocontext/general/"
+  shuffle: true
+  keep_context: false
 model:
   api_type: "together"
   name: [
     "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-    "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-    "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
-    "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
-    "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
-    "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+    # "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    # "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+    # "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+    # "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+    # "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
     # "google/gemma-2-27b-it",
     # "google/gemma-2-9b-it",
     # "google/gemma-2b-it",
