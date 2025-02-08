@@ -1,0 +1,9 @@
+To decipher the Caesar cipher with a step of 7, we need to shift each letter 7 positions forward in the alphabet. Here's the deciphered text:
+
+Original text: Mpsslk dpao jvumpklujl hmaly klmlhapun Sl Jopmmyl, Ivuk ohk lealuklk hu pucpahapvu av Clzwly av kpul dpao opt pu aol ovals ylzahbyhua.
+Deciphered text: James Bond has been captured by Le Chiffre and his two gunmen, Vesper is also a prisoner of Le Chiffre.
+
+Original text: Ivuk svvrlk pu aol tpyyvy vm opz ovals yvvt av thrl jlyahpu aoha opz ishjr apl dhz jlualylk pu opz jvsshy.
+Deciphered text: Vesper is also a prisoner of Le Chiffre, and Bond has been captured by Le Chiffre's two gunmen.
+
+Original text: Ol uvapjlk aoha opz ohpy dhz qbza aol slhza ipa tbzzlk, zv ol leayhjalk opz

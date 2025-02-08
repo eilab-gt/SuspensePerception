@@ -1,0 +1,13 @@
+To decipher the Caesar cipher, I will shift each letter by 7 positions back in the alphabet.
+
+Deciphering the first line: "Mpsslk dpao jvumpklujl hmaly klmlhapun Sl Jopmmyl, Ivuk ohk lealuklk hu pucpahapvu av Clzwly av kpul dpao opt pu aol ovals ylzahbyhua."
+- Mp -> Lk
+- Ssl -> Rr
+- K -> N
+- D -> C
+- P -> O
+- ...and so on
+Deciphered line: "Lkrc nbbv ifmgnlwwl hmy lbmjlhmnq L Hjmym, Eka gaa qlgg gq ltbvl lg lwahlzbyqg."
+
+Deciphered excerpt:
+"Lkrc nbbv ifmgnlwwl hmy lbmjlhmnq L Hjmym, Eka gaa qlgg gq ltbvl lg lwahlzbyqg. Eka gaa wvmg gq lwahlzbyqg hz lbbg vyq wlgwwyg qy gs

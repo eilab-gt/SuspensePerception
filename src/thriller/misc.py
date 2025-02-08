@@ -14,6 +14,7 @@ import re
 from tqdm import tqdm
 import logging
 from utils import is_roman
+from typing import Dict, Union, List
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -95,7 +96,7 @@ def parse_response(
 
     values = re.findall(r"\w+: \d+", content)
     if values:
-        return {key: int(value) for key, value in values}
+        return {key.strip(): int(value.strip()) for item in values for key, value in [item.split(':')]}
 
     values = re.findall(r"\d+", content)
     if values:
@@ -161,8 +162,8 @@ def run_experiment(
                         raw_responses = []
                         parsed_responses = []
 
-                        for i, paragraph in version_text:
-                            messages.append({"role": "user", "content": prompt + paragraph})
+                        for i, paragraph in enumerate(version_text):
+                            messages.append({"role": "user", "content": prompt + str(paragraph)})
 
                             raw_response = ""
 

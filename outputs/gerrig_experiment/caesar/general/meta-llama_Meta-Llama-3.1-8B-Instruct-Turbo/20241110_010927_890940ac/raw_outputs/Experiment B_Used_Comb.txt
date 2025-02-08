@@ -1,0 +1,43 @@
+To decipher the passage, we need to shift each letter by 7 positions in the alphabet. Here's the decoded passage:
+
+The original passage is in English, but it has been encrypted using a Caesar cipher with a step of 7. To decrypt it, we will shift each letter back by 7 positions in the alphabet.
+
+Here's the decoded passage:
+
+The original passage is in English, but it has been encrypted using a Caesar cipher with a step of 7. To decrypt it, we will shift each letter back by 7 positions in the alphabet.
+
+Original passage:
+M - N
+p - q
+s - u
+s - u
+l - o
+k - r
+d - e
+a - b
+o - p
+j - k
+v - v
+u - v
+m - n
+p - q
+k - r
+l - o
+u - v
+j - k
+l - o
+j - k
+u - v
+l - o
+h - i
+m - n
+a - b
+l - o
+y - z
+k - r
+l - o
+m - n
+a - b
+l - o
+y - z
+S -

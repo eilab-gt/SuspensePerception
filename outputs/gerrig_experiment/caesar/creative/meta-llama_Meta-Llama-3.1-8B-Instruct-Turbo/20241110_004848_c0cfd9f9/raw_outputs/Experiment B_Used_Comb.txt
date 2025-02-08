@@ -1,0 +1,35 @@
+To decipher the Caesar cipher with a step of 7, I will shift each letter in the text 7 places forward in the alphabet.
+
+A -> H
+B -> I
+C -> J
+D -> K
+E -> L
+F -> M
+G -> N
+H -> O
+I -> P
+J -> Q
+K -> R
+L -> S
+M -> T
+N -> U
+O -> V
+P -> W
+Q -> X
+R -> Y
+S -> Z
+T -> A
+U -> B
+V -> C
+W -> D
+X -> E
+Y -> F
+Z -> G
+
+Using the given text, I will apply this shift:
+
+    Mpsslk dpao jvumpklujl hmaly klmlhapun Sl Jopmmyl, Ivuk ohk lealuklk hu pucpahapvu av Clzwly av kpul dpao opt pu aol ovals ylzahbyhua.
+ Becomes: Renerging the situation of which James Bond, I've lost a great deal of money to Le Chiffre and his two men.
+
+    Ivuk svvrlk pu aol tpyyvy vm

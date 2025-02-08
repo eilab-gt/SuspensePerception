@@ -1,0 +1,10 @@
+To answer the questions, I will first decipher the Caesar ciphered passage.
+
+Deciphering the passage with a step of 7, I get:
+
+"James Bond had been sent to ruin a criminal figure named Le Chiffre by, as it happens, causing Le Chiffre to lose a considerable amount of money gambling. Along the way, Bond had acquired a lady interest named Vesper. Although Bond had, in fact, brought about the gambling losses, Le Chiffre had laid a successful trap for Bond. Bond and Vesper are now the prisoners of Le Chiffre and his two gunmen. 'Good luck,' Bond said. 'We'll need it.' The two men laughed, and Bond's voice was cold and menacing. 'You're a hard man to kill, Le Chiffre. You've got a lot of lives left. But I'll give you one chance to get out of this alive. Just tell me where the money is, and I'll let you go free.'"
+
+Now, I can answer the questions:
+
+***Question 1: "How likely is it that Bond will escape from Le Chiffre?"***
+I would choose option 1. Not very likely. Bond and Vesper are now prisoners
