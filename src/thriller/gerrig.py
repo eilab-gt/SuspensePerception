@@ -3,9 +3,13 @@ Defines experiments from Gerrig, R.J. and Bernardo, A.B.I. 1994. Readers as prob
 """
 
 from src.thriller.misc import apply_substitutions
-from src.thriller.adversarial_augmentation_gerrig import process_and_augment_stories
+from src.thriller.adversarial_augmentation_gerrig import process_and_augment_stories, apply_caesar
+
 adversarial = True
+cipher = False
+caesar_step = 7
 reduction = False
+
 # Define substitution dictionaries
 default_substitutions = {
     "author_firstname": "Ian",
@@ -16,6 +20,7 @@ default_substitutions = {
     "book_title_C": "tenth James Bond novel, 'On Her Majesty's Secret Service'",
     "villain_A": "Le Chiffre",
     "villain_C": "Blofeld",
+    "caesar_step": str(caesar_step),
 }
 
 alternative_substitutions = {
@@ -27,6 +32,7 @@ alternative_substitutions = {
     "book_title_C": "tenth Charles Mers novel, 'Twenty Miles to the Sea'",
     "villain_A": "Chifrex",
     "villain_C": "Kalweitz",
+    "caesar_step": str(caesar_step),
 }
 
 
@@ -55,6 +61,32 @@ Use the passage above to answer the following questions:
 
 Answer Question 1, and then answer Question 2.
 """
+
+if cipher:
+    common_prompt_template = """The following is an excerpt from {author_firstname} {author_lastname}'s {book_title}. The excerpt has been caesar ciphered with a step of {caesar_step}. In this book, {hero_firstname} {hero_lastname} has been assigned to ‘ruin’ a criminal figure named {villain} by, as it happens, causing {villain} to lose a considerable amount of money gambling. Along the way, {hero_lastname} has acquired a lady interest named Vesper. Although {hero_lastname} has, in fact, brought about the gambling losses, {villain} has laid a successful trap for {hero_lastname}. {hero_lastname} and Vesper are now the prisoners of {villain} and his two gunmen.
+
+    Use the passage above to answer the following questions after deciphering the exerpt:
+
+    ***Question 1: "How likely is it that {hero_lastname} will escape from {villain}?"***
+    1. Not very likely
+    2. Somewhat likely
+    3. Slightly likely
+    4. Neutral or Uncertain
+    5. Moderately likely
+    6. Very likely
+    7. Extremely likely
+
+    ***Question 2: "How suspenseful do you find this passage to be?"***
+    1. Not very suspenseful
+    2. Somewhat suspenseful
+    3. Slightly suspenseful
+    4. Neutral or Uncertain
+    5. Moderately suspenseful
+    6. Very suspenseful
+    7. Extremely suspenseful
+
+    Answer Question 1, and then answer Question 2.
+    """
 
 common_experiment_A_template = """{villain} was standing in the doorway of a room on the right. He crooked a finger at {hero_lastname} in a silent, spidery summons.
 Vesper was being led down a passage towards the back of the house. {hero_lastname} suddenly decided. With a backward kick which connected with the thin man’s shins and brought a whistle of pain from him, {hero_lastname} hurled himself down the passage after her. His plan was to do as much damage as possible to the two gunmen and be able to exchange a few hurried words with the girl.
@@ -227,6 +259,7 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
             ),
         ],
     }
+
     if adversarial:
         texts = {
             "Experiment A": [
@@ -249,6 +282,33 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
                     process_and_augment_stories([experiment_C_prior_solution_mentioned_not_removed]),
                 ),
             ],
+        }
+        print(texts)
+
+    elif cipher:
+        texts = {
+            "Experiment A": [
+                ("Pen Not Mentioned", [apply_caesar(experiment_A_pen_not_mentioned, caesar_step)]),
+                ("Pen Mentioned Removed", [apply_caesar(experiment_A_pen_mentioned_removed, caesar_step)]),
+                ("Pen Mentioned Not Removed", [apply_caesar(experiment_A_pen_mentioned_not_removed, caesar_step)]),
+            ],
+            "Experiment B": [
+                ("Unused Comb", [apply_caesar(experiment_B_unused_comb, caesar_step)]),
+                ("Used Comb", [apply_caesar(experiment_B_used_comb, caesar_step)]),
+            ],
+            "Experiment C": [
+                ("Prior Solution Not Mentioned", [apply_caesar(experiment_C_prior_solution_not_mentioned, caesar_step)]),
+                (
+                    "Prior Solution Mentioned and Removed",
+                    [apply_caesar(experiment_C_prior_solution_mentioned_and_removed, caesar_step)],
+                ),
+                (
+                    "Prior Solution Mentioned Not Removed",
+                    [apply_caesar(experiment_C_prior_solution_mentioned_not_removed, caesar_step)],
+                ),
+            ],
+        }
+        print(texts)
                 }
         print(texts)
     if reduction:

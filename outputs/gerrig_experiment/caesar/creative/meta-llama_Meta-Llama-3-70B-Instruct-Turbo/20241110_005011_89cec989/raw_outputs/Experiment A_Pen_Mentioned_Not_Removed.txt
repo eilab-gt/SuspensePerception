@@ -1,0 +1,7 @@
+After deciphering the excerpt using a Caesar cipher with a step of 7, I get:
+
+"I said goodbye to the feeling of surprise. The shock of being caught was only just wearing off, and I was still going through the motions of trying to make sense of it all. Le Chiffre was being surprisingly courteous, considering. He was even offering me a drink, a rare courtesy from a man who was about to take great pleasure in causing me a lot of pain. I refused, of course. The last thing I wanted was to cloud my judgment with alcohol.
+'You're a very lucky man, Mr Bond,' Le Chiffre said, his eyes glinting with amusement. 'You've made a remarkable recovery from your little accident. I'm afraid it's going to be your last.'
+I didn't bother to reply. I was too busy thinking about Vesper, and how I was going to get us out of this mess. Le Chiffre's two gunmen were still standing behind him, their guns trained on us. I knew I had to come up with something fast, or we'd both be dead within the hour.
+
+'It's all very simple, Mr Bond,' Le Chiffre continued, his voice dripping

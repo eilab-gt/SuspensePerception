@@ -1,0 +1,8 @@
+To decipher the Caesar cipher with a step of 7, I'll shift each letter by 7 positions forward in the alphabet.
+
+Here's the deciphered text:
+
+"Since Jimmy Bond had a lot of cash on him, you can be sure that he would be the main figure. He was, however, not nearly so confident. Along the way, Bond had acquired a lovely lady, Vesper. Although Bond had, in fact, brought about the gambling losses, Le Chiffre had laid a successful trap for Bond. Bond and Vesper were now the prisoners of Le Chiffre and his two henchmen.
+
+Le Chiffre's nervous glance at Bond's empty wallet made Bond go white. Bond knew his opponent was well-informed about his losses, but Bond was quick to spot the situation. He knew that Vesper had been watching Le Chiffe's reaction, and his men were gathering around him. Bond's eyes met Le Chiffre's and he said, "There's no other way out." 
+The next move was now up to Bond. Suddenly, Vesper's eyes locked on Le Chiffre's. Bond knew he was beaten. 'You've won,' he said, 'You're entitled to

@@ -6,3 +6,9 @@ pre-commit
 matplotlib
 seaborn
 tiktoken
+spacy
+nlpaug
+vaderSentiment
+textattack
+nltk
+torch

@@ -1,0 +1,45 @@
+To decipher the Caesar cipher with a step of 7, I will shift each letter 7 positions forward in the alphabet. Here's the deciphered text:
+
+Original letter  | Deciphered letter
+-------------------|----------------
+S                | M
+L                | R
+J                | O
+O                | D
+M                | E
+M                | E
+Y                | L
+L                | R
+A                | G
+H                | E
+Z                | K
+H                | E
+U                | N
+P                | Q
+U                | N
+N                | O
+A                | G
+O                | D
+L                | R
+K                | T
+V                | W
+V                | W
+Y                | O
+V                | W
+A                | G
+O                | D
+L                | R
+A                | G
+O                | D
+L                | R
+K                | T
+V                | W
+E                | E
+C                | J
+R                | S
+I                | P
+M                | E
+I                | P
+N                | O
+F                | Q
+F                | R
