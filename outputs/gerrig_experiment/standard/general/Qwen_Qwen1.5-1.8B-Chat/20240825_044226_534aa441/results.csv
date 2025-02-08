@@ -1,9 +1,0 @@
-experiment_name,version,response
-Experiment A,Pen Not Mentioned,{'Q1': 5}
-Experiment A,Pen Mentioned Removed,"{'Q1': 6, 'Q2': 6}"
-Experiment A,Pen Mentioned Not Removed,"{'Q1': 5, 'Q2': 5}"
-Experiment B,Unused Comb,"{'Q1': 5, 'Q2': 5}"
-Experiment B,Used Comb,{'Q1': 1}
-Experiment C,Prior Solution Not Mentioned,"{'Q1': 1, 'Q2': 6}"
-Experiment C,Prior Solution Mentioned and Removed,"{'Q1': 1, 'Q2': 7}"
-Experiment C,Prior Solution Mentioned Not Removed,"{'Q1': 1, 'Q2': 6}"
