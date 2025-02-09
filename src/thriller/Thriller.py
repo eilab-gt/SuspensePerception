@@ -61,7 +61,7 @@ def main(args):
     if augmentation_config is None:
         raise ValueError("Augmentation configuration not found in the configuration file")
 
-    # # Load API key from secret .env file for model
+    # Load API key from secret .env file for model
     model_api_key = ""
     model_api_type = model_config.get("api_type")
     if not model_api_type:
@@ -131,9 +131,7 @@ def main(args):
     # Augmentation needs to be done here
     # Each experiment key is a list of tuples
     for experiment in version_prompts:
-        print(type(version_prompts[experiment][0][1]))
         version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)[0]) for key, story in version_prompts[experiment]]
-        print(type(version_prompts[experiment][0][1]))
     # Run the experiment
     model_names = model_config.get("name")
     total_models = len(model_names)
