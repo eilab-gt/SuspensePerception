@@ -27,6 +27,10 @@ from src.thriller.utils import (
     process_and_save_results,
     generate_experiment_id,
 )
+from src.thriller.adversarial import (
+    process_and_augment_stories,
+    get_default_augmentation_config
+)
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
@@ -45,6 +49,7 @@ def main(args):
     model_config = config.get("model", None)
     experiment_config = config.get("experiment", None)
     parse_model_config = config.get("parse_model", None)
+    augmentation_config = config.get("augmentation", None)
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
@@ -53,8 +58,10 @@ def main(args):
         )
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
+    if augmentation_config is None:
+        raise ValueError("Augmentation configuration not found in the configuration file")
 
-    # Load API key from secret .env file for model
+    # # Load API key from secret .env file for model
     model_api_key = ""
     model_api_type = model_config.get("api_type")
     if not model_api_type:
@@ -119,6 +126,14 @@ def main(args):
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
 
+    augmentation_config = get_default_augmentation_config() | augmentation_config
+
+    # Augmentation needs to be done here
+    # Each experiment key is a list of tuples
+    for experiment in version_prompts:
+        print(type(version_prompts[experiment][0][1]))
+        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)[0]) for key, story in version_prompts[experiment]]
+        print(type(version_prompts[experiment][0][1]))
     # Run the experiment
     model_names = model_config.get("name")
     total_models = len(model_names)

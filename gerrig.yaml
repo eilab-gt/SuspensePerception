@@ -57,3 +57,53 @@ parse_model:
   repetition_penalty: 1.0
   stop: ["<|eot_id|>"]
   stream: true
+augmentation:
+  synonym_replacement: 
+    enabled: true
+    aug_p: 0.8
+    aug_src: "wordnet"
+    model_path: "bert-base-uncased"
+    aug_min: 20
+    aug_max: 50
+    stopwords: null
+  distraction_insertion:
+    enabled: true
+    distraction: "He looked for his hidden watch. He couldn't find it."
+  swap_words:
+    enabled: true
+    num_swaps: 30
+  shuffle_sentences:
+    enabled: true
+    shuffle_n_times: 100
+  introduce_typos:
+    enabled: true
+    aug_char_p: 0.8
+    aug_word_p: 0.8
+  word_swap_embedding:
+    enabled: true
+    max_candidates: 5
+  change_character_names:
+    enabled: true
+    name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+  context_removal:
+    enabled: true
+    sentiment_threshold: 0.5
+  word_swap_homoglyph:
+    enabled: true
+    max_swaps: 100
+  sentence_paraphrase:
+    enabled: true
+    src_lang: "en"
+    mid_lang: "fr"
+  augmentation_order: [
+    # "distraction_insertion",
+    # "swap_words",
+    # "shuffle_sentences",
+    # "introduce_typos",
+    # "word_swap_embedding",
+    # "change_character_names",
+    # "context_removal",
+    # "word_swap_homoglyph",
+    # "sentence_paraphrase",
+    # "synonym_replacement",
+  ]

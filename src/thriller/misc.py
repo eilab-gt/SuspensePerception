@@ -6,6 +6,9 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 import sys
 import os
 import typing
+from typing import (
+    Union
+)
 from pathlib import Path
 from src.thriller.api import generate_response, save_raw_api_output
 import openai

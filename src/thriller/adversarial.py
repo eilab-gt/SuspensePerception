@@ -172,10 +172,10 @@ def distraction_insertion(text: str, params: dict) -> str:
     Insert distraction sentences into the text that simultaneously
     introduces and removes a topic/solution from the text.
     """
-    distraction = params.get(distraction, '')
+    distraction = params.get('distraction', '')
     sentences = text.split('.')
     midpoint = len(sentences) // 2
-    sentences.insert(distraction, midpoint)
+    sentences.insert(midpoint, distraction)
     text = ". ".join(sentences)
     return text
 
@@ -277,13 +277,8 @@ def augment_texts(
 
     return augmented_stories
 
-
-def process_and_augment_stories(stories):
-    # Normalize the stories using a hypothetical normalize function
-    normalized_stories = normalize_stories(stories)
-
-    # Configuration for augmentation
-    augmentation_config = {
+def get_default_augmentation_config():
+    return {
         'synonym_replacement': {
             'enabled': True,
             'aug_p': 0.8,
@@ -297,44 +292,60 @@ def process_and_augment_stories(stories):
             'enabled': True,
             'distraction': "He looked for his hidden watch. He couldn't find it.",
         },
-        'augmentation_order': [
-            'distraction_insertion',
-            'swap_words' : {
+        'swap_words' : {
                 'enabled' : True,
                 'num_swaps' : 30
-            },
-            'shuffle_sentences': {
-                'enabled': True,
-                'shuffle_n_times': 100
-            },
-            'introduce_typos': {
-                'enabled': True,
-                'aug_char_p': 0.8,
-                'aug_word_p': 0.8,
-            },
-            'word_swap_embedding': {
-                'enabled': True,
-                'max_candidates': 5
-            },
-            'change_character_names': {
-                'enabled': True,
-                'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
-            },
-            'context_removal': {
-                'enabled': True,
-                'sentiment_threshold': 0.5
-            },
-            'word_swap_homoglyph': {
-                'enabled': True,
-                'max_swaps': 100
-            },
-            'sentence_paraphrase': {
-                'enabled': True,
-                'src_lang': 'en',
-                'mid_lang': 'fr'
-            }
+        },
+        'shuffle_sentences': {
+            'enabled': True,
+            'shuffle_n_times': 100
+        },
+        'introduce_typos': {
+            'enabled': True,
+            'aug_char_p': 0.8,
+            'aug_word_p': 0.8,
+        },
+        'word_swap_embedding': {
+            'enabled': True,
+            'max_candidates': 5
+        },
+        'change_character_names': {
+            'enabled': True,
+            'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
+        },
+        'context_removal': {
+            'enabled': True,
+            'sentiment_threshold': 0.5
+        },
+        'word_swap_homoglyph': {
+            'enabled': True,
+            'max_swaps': 100
+        },
+        'sentence_paraphrase': {
+            'enabled': True,
+            'src_lang': 'en',
+            'mid_lang': 'fr'
+        },
+        # Commented out, but left here to show available augmentations
+        # By default all of them are disabled
+        'augmentation_order': [
+            # 'distraction_insertion',
+            # 'swap_words',
+            # 'shuffle_sentences',
+            # 'introduce_typos',
+            # 'word_swap_embedding',
+            # 'change_character_names',
+            # 'context_removal',
+            # 'word_swap_homoglyph',
+            # 'sentence_paraphrase',
+            # 'synonym_replacement',
         ]
     }
 
+def process_and_augment_stories(stories, augmentation_config):
+    # Normalize the stories using a hypothetical normalize function
+    normalized_stories = normalize_stories(stories)
+
+    # Configuration for augmentation
     augmented_stories = augment_texts(normalized_stories, augmentation_config)
     return augmented_stories
