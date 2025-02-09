@@ -52,10 +52,24 @@ def generate_response(
             stop=model_config["stop"],
             stream=model_config["stream"],
         )
-
         content = ""
-        for chunk in response:
-            content += chunk.choices[0].delta.content or ""
+        try:
+            for chunk in response:
+                if chunk.choices and 'finish_reason' in chunk.choices[0]:
+                    finish_reason = chunk.choices[0].finish_reason
+                    if finish_reason not in ['length', 'stop', 'eos', 'tool_calls', 'error']:
+                        print(f"Invalid finish_reason: {finish_reason}")
+                        finish_reason = 'eos'
+                content += getattr(chunk.choices[0].delta, 'content', '') or "" 
+            print("IAM HERE", chunk.choices[0].delta.content)
+            print("DONEE", content)
+        except AttributeError as e:
+            print("AttributeError encountered:", e)
+        except IndexError as e:
+            print("IndexError encountered:", e)
+        except Exception as e:
+            print("An error occurred:", e)
+
         return content
 
     else:

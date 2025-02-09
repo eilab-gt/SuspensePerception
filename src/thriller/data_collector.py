@@ -81,30 +81,31 @@ def validate_response(value: int, valid_range: tuple) -> tuple[int, bool]:
     Returns:
     tuple: (validated_value, followed_instructions)
     """
-    if (
-        value is None
-        or np.isnan(value)
-        or value < valid_range[0]
-        or value > valid_range[1]
-    ):
+    logger.debug(f"Validating response: {value} against range {valid_range}")
+
+    if value is None:
+        logger.warning(f"Received None value for validation.")
         return None, False
+    
+    try:
+        if np.isnan(value):  # Ensure value is checked safely
+            logger.warning(f"Received NaN value for validation.")
+            return None, False
+    except TypeError:
+        logger.warning(f"TypeError: Value {value} is not a number.")
+        return None, False
+
+    if value < valid_range[0] or value > valid_range[1]:
+        logger.warning(f"Value {value} is out of valid range {valid_range}.")
+        return None, False
+
     return value, True
 
 
-def parse_response(
-    response: str, paper_name: str, experiment_name: str
-) -> tuple[int, int, bool]:
-    """
-    Parse the response string and extract values based on the experiment.
 
-    Args:
-    response (str): The response string from the language model.
-    paper_name (str): The name of the paper (e.g., 'gerrig').
-    experiment_name (str): The name of the experiment.
+def parse_response(response: str, paper_name: str, experiment_name: str) -> tuple[int, int, bool]:
+    logger.debug(f"Raw response received: {response}")
 
-    Returns:
-    tuple: (Q1 value, Q2 value, followed instructions)
-    """
     limits = get_response_limits(paper_name, experiment_name)
     followed_instructions = True
 
@@ -121,11 +122,15 @@ def parse_response(
             q2 = int(numbers[1]) if len(numbers) > 1 else None
             followed_instructions = False
 
+        logger.debug(f"Extracted Q1: {q1}, Q2: {q2} from response: {response}")
+
         q1, followed_q1 = validate_response(q1, limits["Q1"])
         q2, followed_q2 = validate_response(q2, limits["Q2"])
+
+        logger.debug(f"Validated Q1: {q1} (followed: {followed_q1}), Q2: {q2} (followed: {followed_q2})")
+
         followed_instructions = followed_instructions and followed_q1 and followed_q2
     else:
-        # Placeholder for other experiments
         q1, q2 = None, None
         followed_instructions = False
 

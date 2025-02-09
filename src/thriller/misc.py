@@ -120,6 +120,17 @@ def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
         template = template.replace(f"{{{key}}}", value)
     return template
 
+def truncate_messages(messages, max_tokens=4096):
+    """
+    Ensures the total token count of messages does not exceed max_tokens.
+    """
+    total_tokens = sum(len(msg["content"].split()) for msg in messages)
+    
+    while total_tokens > max_tokens and len(messages) > 2:
+        messages.pop(1)  # Remove the oldest user message
+        total_tokens = sum(len(msg["content"].split()) for msg in messages)
+
+    return messages
 
 def run_experiment(
     output_path: Path,
@@ -171,17 +182,18 @@ def run_experiment(
                             # Try get LLM response. If context window too large, retry with 1 less message
                             for _ in range(10):
                                 try:
+                                    messages = truncate_messages(messages, max_tokens=4096)
                                     raw_response = generate_response(
                                         messages, model_config
                                     )
+                                    print(raw_response, "JSKSJAAJKKJA")
                                     break
                                 except Exception as e:
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
                                     if len(messages) >= 4:
                                         messages.pop(1)
-                                        messages.pop(1)
                                     else:
-                                        break
+                                       break
 
                             parsed_response = {"value": float("nan")}
                             if not raw_response or raw_response.isspace():
