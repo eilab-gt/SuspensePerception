@@ -155,9 +155,13 @@ def apply_word_swap_homoglyph(text: str, params: dict) -> str:
 
 
 def apply_sentence_paraphrase(text: str, params: dict) -> str:
+    pass
+
+
+def apply_backtranslation(text: str, params: dict) -> str:
     transformation = BackTranslation(
         src_lang=params.get('src_lang', 'en'),
-        mid_lang=params.get('mid_lang', 'fr')
+        target_lang=params.get('target_lang', 'fr')
     )
     attacked_text = AttackedText(text)
     transformed_texts = transformation(attacked_text)
@@ -223,6 +227,7 @@ augmentation_functions = {
     'word_swap_embedding': apply_word_swap_embedding,
     'word_swap_homoglyph': apply_word_swap_homoglyph,
     'sentence_paraphrase': apply_sentence_paraphrase,
+    'backtranslation': apply_backtranslation,
     'distraction_insertion': distraction_insertion,
     'swap_words' : swap_words_in_sentences,
 }
@@ -326,6 +331,7 @@ def get_default_augmentation_config():
             'src_lang': 'en',
             'mid_lang': 'fr'
         },
+
         # Commented out, but left here to show available augmentations
         # By default all of them are disabled
         'augmentation_order': [
@@ -338,6 +344,7 @@ def get_default_augmentation_config():
             # 'context_removal',
             # 'word_swap_homoglyph',
             # 'sentence_paraphrase',
+            # 'backtranslation',
             # 'synonym_replacement',
         ]
     }
