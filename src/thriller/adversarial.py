@@ -365,9 +365,5 @@ def process_and_augment_stories(story, augmentation_config):
 
     # Configuration for augmentation
     augmented_story = augment_texts(normalized_story, augmentation_config)
-
-    with open("test.txt", "w") as f:
-        f.write(str(augmented_story))
-    exit()
     
     return augmented_story
