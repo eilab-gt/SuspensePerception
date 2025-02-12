@@ -17,6 +17,8 @@ from typing import List, Dict, Any, Union
 import torch
 import difflib
 import textattack
+from misc import generate_response
+
 import nltk
 nltk.download('averaged_perceptron_tagger_eng')
 nltk.download("punkt_tab")
@@ -155,7 +157,16 @@ def apply_word_swap_homoglyph(text: str, params: dict) -> str:
 
 
 def apply_sentence_paraphrase(text: str, params: dict) -> str:
-    pass
+    prompt = params.get("prompt", "Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.")
+    messages = [
+        {"role": "system", "content": prompt},
+        {"role": "user", "content": text},
+    ]
+    transformed_texts = generate_response(messages, params)
+    if transformed_texts:
+        return transformed_texts
+    logger.warning("Paragraph returned no transformations, using original text.")
+    return text
 
 
 def apply_backtranslation(text: str, params: dict) -> str:
@@ -328,8 +339,20 @@ def get_default_augmentation_config():
         },
         'sentence_paraphrase': {
             'enabled': True,
+            'api_type': "together",
+            'name': "meta-llama/Llama-3-8b-chat-hf",
+            'prompt': 'Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.',
+            'max_tokens': 1000,
+            'temperature': 0.0,
+            'top_p': 0.9,
+            'repetition_penalty': 1.0,
+            'stop': ["<|eot_id|>"],
+            'stream': True
+        },
+        'backtranslation': {
+            'enabled': True,
             'src_lang': 'en',
-            'mid_lang': 'fr'
+            'target_lang': 'fr'
         },
 
         # Commented out, but left here to show available augmentations

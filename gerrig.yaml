@@ -114,6 +114,6 @@ augmentation:
     # "context_removal",
     # "word_swap_homoglyph",
     # "sentence_paraphrase",
-    "backtranslation",
+    # "backtranslation",
     # "synonym_replacement",
   ]
