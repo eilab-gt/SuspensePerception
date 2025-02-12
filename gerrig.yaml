@@ -48,7 +48,7 @@ parse_model:
     7. Extremely suspenseful
     
     Extract the numerical response from the answer. When generating you should structure your response to this prompt by using the format: ```Q1: answer\nQ2: answer``` and exclude all other questions mentioned.
-  max_tokens: 100
+  max_tokens: 250
   temperature: 0.0 # Parser should be deterministic
   top_p: 0.9
   repetition_penalty: 1.0

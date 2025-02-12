@@ -16,7 +16,7 @@ model:
     # "deepseek-ai/DeepSeek-V3", # no response
     # "microsoft/WizardLM-2-8x22B", # no response
   ]
-  max_tokens: 100
+  max_tokens: 250
   temperature: 0.0
   top_p: 0.9
   repetition_penalty: 1.0
@@ -27,7 +27,7 @@ parse_model:
   name: "meta-llama/Llama-3-8b-chat-hf"
   prompt: >
     The following text provides a numerical rating of a passage. Extract numerical value in the text and nothing else. Structure your output as a single word in the format: ```value```
-  max_tokens: 100
+  max_tokens: 250
   temperature: 0.0 # Parser should always be deterministic
   top_p: 0.9
   repetition_penalty: 1.0

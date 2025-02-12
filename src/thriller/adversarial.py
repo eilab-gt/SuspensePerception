@@ -245,37 +245,24 @@ augmentation_functions = {
 
 
 # Normalize input data to ensure consistent structure
-def normalize_stories(data: Union[List[Any], str]) -> List[List[str]]:
+def normalize_stories(data: Union[List[Any], str]) -> List[str]:
     if isinstance(data, list):
-        if all(isinstance(item, str) for item in data):
-            return [data]
-        elif all(isinstance(item, list) for item in data):
-            return data
-        else:
-            raise ValueError("List items must be either all strings or all lists.")
+        return data
     elif isinstance(data, str):
-        return [[data]]
+        return [data]
     else:
         raise ValueError("Unsupported data format")
 
 
 # Main augmentation function
-def augment_texts(
-    stories: List[str],
-    config: Dict[str, Any]
-) -> List[List[str]]:
-    augmented_stories = []
-    for story in stories:
-        i =0
-        # Assuming there's only one passage per story
-        if story:  # Check if the story is not empty
-            passage = story[0]  # Get the first passage
-            augmented_passage = passage
-                # Apply augmentations in the specified order
+def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
+    augumented_story = []
+
+    for passage in story:
+        augmented_passage = passage
+        if passage:
             for augmentation in config.get('augmentation_order', []):
                 try:
-                    i+=1
-                    print(augmentation)
                     aug_params = config.get(augmentation, {})
                     if aug_params.get('enabled', False):
                         logger.info(f"Applying {augmentation}: {aug_params}")
@@ -285,13 +272,13 @@ def augment_texts(
                             logger.error(f"Augmentation function for '{augmentation}' not found.")
                 except Exception as e:
                     logger.error(f"Error augmenting passage: {e}")
-            # Add the augmented passage to the augmented stories
-            augmented_stories.append([augmented_passage])  # Wrap it in a list
         else:
             logger.warning("Empty story encountered; skipping.")
-            augmented_stories.append([passage])  # Append original passage if story is empty
+            
+        augumented_story.append(augmented_passage)
 
-    return augmented_stories
+    return augumented_story
+
 
 def get_default_augmentation_config():
     return {
@@ -372,10 +359,15 @@ def get_default_augmentation_config():
         ]
     }
 
-def process_and_augment_stories(stories, augmentation_config):
-    # Normalize the stories using a hypothetical normalize function
-    normalized_stories = normalize_stories(stories)
+def process_and_augment_stories(story, augmentation_config):
+    # Normalize the story using a hypothetical normalize function
+    normalized_story = normalize_stories(story)
 
     # Configuration for augmentation
-    augmented_stories = augment_texts(normalized_stories, augmentation_config)
-    return augmented_stories
+    augmented_story = augment_texts(normalized_story, augmentation_config)
+
+    with open("test.txt", "w") as f:
+        f.write(str(augmented_story))
+    exit()
+    
+    return augmented_story
