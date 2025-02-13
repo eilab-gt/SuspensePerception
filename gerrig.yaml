@@ -17,11 +17,11 @@ model:
     # "deepseek-ai/DeepSeek-V3", # no response
     # "microsoft/WizardLM-2-8x22B", # no response
   ]
-  max_tokens: 250
+  max_tokens: 20000
   temperature: 0.0
   top_p: 0.9
   repetition_penalty: 1.0
-  stop: ["<|eot_id|>"]
+  stop: ["<|endoftext|>"]
   stream: true
 parse_model:
   api_type: "together"
@@ -52,7 +52,7 @@ parse_model:
   temperature: 0.0 # Parser should be deterministic
   top_p: 0.9
   repetition_penalty: 1.0
-  stop: ["<|eot_id|>"]
+  stop: ["<|endoftext|>"]
   stream: true
 augmentation:
   synonym_replacement: 
