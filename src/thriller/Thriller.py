@@ -127,7 +127,7 @@ def main(args):
     # Augmentation needs to be done here
     # Each experiment key is a list of tuples
     for experiment in version_prompts:
-        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)[0]) for key, story in version_prompts[experiment]]
+        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)) for key, story in version_prompts[experiment]]
 
     # Run the experiment
     model_names = model_config.get("name")

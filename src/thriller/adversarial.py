@@ -365,5 +365,5 @@ def process_and_augment_stories(story, augmentation_config):
 
     # Configuration for augmentation
     augmented_story = augment_texts(normalized_story, augmentation_config)
-    
+
     return augmented_story
