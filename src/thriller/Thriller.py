@@ -135,8 +135,6 @@ def main(args):
         if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
             prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
 
-    print(version_prompts)
-    print(prompts)
     # Run the experiment
     model_names = model_config.get("name")
     total_models = len(model_names)

@@ -95,4 +95,5 @@ augmentation:
     # "sentence_paraphrase",
     # "backtranslation",
     # "synonym_replacement",
+    # "caesar_cipher",
   ]
