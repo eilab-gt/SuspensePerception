@@ -9,7 +9,7 @@ augmentations=(
     "change_character_names"
     "context_removal"
     "word_swap_homoglyph"
-    "sentence_paraphrase"
+    # "sentence_paraphrase"
     "synonym_replacement"
     "antonym_replacement"
     "caesar_cypher"
@@ -17,25 +17,28 @@ augmentations=(
 )
 
 experiments=(
-    # gerrig.yaml
-    # delatorre.yaml
+    gerrig.yaml
+    delatorre.yaml
     # brewer.yaml
-    lehne.yaml
+    # lehne.yaml
 )
 
-i=0
-for experiment in "${experiments[@]}"; do
-    for augmentation in "${augmentations[@]}"; do
+for ((j=0; j<3; j++)); do
+    for experiment in "${experiments[@]}"; do
+        for augmentation in "${augmentations[@]}"; do
 
-        experiment_name="${experiment%.yaml}"
+            experiment_name="${experiment%.yaml}"
 
-        OUTPUT_DIR="outputs/${experiment_name}_experiment/adversarial/${augmentation}/e3/"
+            OUTPUT_DIR="outputs/${experiment_name}_experiment/adversarial/${augmentation}/e${j}/"
 
-        export EXPERIMENT="${experiment}"
-        export OVERRIDES="augmentation.augmentation_order=[\"$augmentation\"] experiment.output_dir=\"${OUTPUT_DIR}\""
-        echo "Running experiment $EXPERIMENT with augmentation $OVERRIDES"
-        i=$((i + 1))
+            JOBNAME="${experiment_name}_${augmentation}"
 
-        sbatch slurm/entrypoint.sh
+            export EXPERIMENT="${experiment}"
+            export OVERRIDES="augmentation.augmentation_order=[\"$augmentation\"] experiment.output_dir=\"${OUTPUT_DIR}\""
+            echo "Running experiment $EXPERIMENT with augmentation $OVERRIDES"
+
+            sbatch -J$JOBNAME --dependency=singleton slurm/entrypoint.sh
+
+        done
     done
 done

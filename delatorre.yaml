@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "delatorre"
-  output_dir: "./outputs/delatorre_experiment/final/e1/"
+  output_dir: "./outputs/delatorre_experiment/adversarial/e1/"
 model:
   api_type: "together"
   name: [
@@ -84,7 +84,7 @@ augmentation:
     src_lang: "en"
     target_lang: "fr"
   augmentation_order: [
-    # "distraction_insertion",
+    "distraction_insertion",
     # "swap_words",
     # "shuffle_sentences",
     # "introduce_typos",

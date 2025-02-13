@@ -18,6 +18,7 @@ import torch
 import difflib
 import textattack
 from misc import generate_response
+import re
 
 import nltk
 nltk.download('averaged_perceptron_tagger_eng')
@@ -195,10 +196,12 @@ def distraction_insertion(text: str, params: dict) -> str:
     return text
 
 
-def apply_caesar(text: str, step: int, alphabets: tuple = (string.ascii_lowercase, string.ascii_uppercase, string.digits)) -> str:
+def apply_caesar(text: str, params : dict) -> str:
     """
     Caesar cipher the text
     """
+    step = params.get('step', 3)
+    alphabets = params.get('alphabets', (string.ascii_lowercase, string.ascii_uppercase, string.digits))
 
     def shift(alphabet):
         return alphabet[step:] + alphabet[:step]
@@ -241,6 +244,7 @@ augmentation_functions = {
     'backtranslation': apply_backtranslation,
     'distraction_insertion': distraction_insertion,
     'swap_words' : swap_words_in_sentences,
+    'caesar_cipher': apply_caesar
 }
 
 
@@ -258,9 +262,23 @@ def normalize_stories(data: Union[List[Any], str]) -> List[str]:
 def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
     augumented_story = []
 
+    passage = ""
+
     for passage in story:
         augmented_passage = passage
+
         if passage:
+
+            leading_numbers = []
+            # Save leading numbers for later:
+            for m in re.finditer(r"(?<=^)(\d+)(?=\s+[^\s])", augmented_passage):
+                leading_numbers.append(m)
+
+            # Remove leading numbers:
+            for m in leading_numbers[::-1]:
+                augmented_passage = augmented_passage[:m.start()] + " " + augmented_passage[m.end():]
+
+
             for augmentation in config.get('augmentation_order', []):
                 try:
                     aug_params = config.get(augmentation, {})
@@ -275,7 +293,14 @@ def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
         else:
             logger.warning("Empty story encountered; skipping.")
             
+        # Add leading numbers back:
+        for m in leading_numbers:
+            to_add = m.group() + " " if augmented_passage[m.start()] != " " else m.group()
+            augmented_passage = augmented_passage[:m.start()] + to_add + augmented_passage[m.start():]
+        
         augumented_story.append(augmented_passage)
+
+    print(augumented_story)
 
     return augumented_story
 
@@ -340,6 +365,11 @@ def get_default_augmentation_config():
             'enabled': True,
             'src_lang': 'en',
             'target_lang': 'fr'
+        },
+        'caesar_cipher': {
+            'enabled': True,
+            'step': 3,
+            'alphabets': (string.ascii_lowercase, string.ascii_uppercase, string.digits)
         },
 
         # Commented out, but left here to show available augmentations
