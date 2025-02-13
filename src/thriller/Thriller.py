@@ -27,6 +27,10 @@ from src.thriller.utils import (
     process_and_save_results,
     generate_experiment_id,
 )
+from src.thriller.adversarial import (
+    process_and_augment_stories,
+    get_default_augmentation_config
+)
 
 import src.thriller.gerrig as gerrig
 import src.thriller.lehne as lehne
@@ -39,12 +43,13 @@ def main(args):
     logging.basicConfig(level=logging.WARNING)
 
     # Load configuration if provided
-    config = load_config(args.config) if args.config else {}
+    config = load_config(args) if args.config else {}
 
     # Load model and experiment configurations from the configuration file
     model_config = config.get("model", None)
     experiment_config = config.get("experiment", None)
     parse_model_config = config.get("parse_model", None)
+    augmentation_config = config.get("augmentation", None)
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
@@ -53,6 +58,8 @@ def main(args):
         )
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
+    if augmentation_config is None:
+        raise ValueError("Augmentation configuration not found in the configuration file")
 
     # Load API key from secret .env file for model
     model_api_key = ""
@@ -119,6 +126,17 @@ def main(args):
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
 
+    augmentation_config = get_default_augmentation_config() | augmentation_config
+
+    # Augmentation needs to be done here
+    # Each experiment key is a list of tuples
+    for experiment in version_prompts:
+        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)) for key, story in version_prompts[experiment]]
+        if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
+            prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
+
+    print(version_prompts)
+    print(prompts)
     # Run the experiment
     model_names = model_config.get("name")
     total_models = len(model_names)
@@ -156,6 +174,9 @@ def parse_arguments():
 
     parser.add_argument(
         "-c", "--config", type=str, help="Path to the configuration file"
+    )
+    parser.add_argument(
+        "-o", "--overrides", nargs="*", help="Overrides for the configuration file"
     )
 
     return parser.parse_args()
