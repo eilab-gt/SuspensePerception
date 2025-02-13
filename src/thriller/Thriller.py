@@ -53,9 +53,7 @@ def main(args):
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
-        raise ValueError(
-            "Parse model configuration not found in the configuration file"
-        )
+        raise ValueError("Parse model configuration not found in the configuration file")
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
     if augmentation_config is None:
@@ -119,19 +117,18 @@ def main(args):
     elif experiment_series == "bentz":
         experiment = bentz
     if not experiment:
-        raise ValueError(
-            "Valid experiment series not found (must be gerrig, lehne, or delatorre)"
-        )
+        raise ValueError("Valid experiment series not found (must be gerrig, lehne, or delatorre)")
 
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
 
-    augmentation_config = get_default_augmentation_config() | augmentation_config
+    augmentation_config = get_default_augmentation_config() | augmentation_config # Merge configs. Replace default arguments with user ones
 
     # Augmentation needs to be done here
     # Each experiment key is a list of tuples
     for experiment in version_prompts:
-        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)[0]) for key, story in version_prompts[experiment]]
+        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)) for key, story in version_prompts[experiment]]
+
     # Run the experiment
     model_names = model_config.get("name")
     total_models = len(model_names)
