@@ -70,7 +70,6 @@ def apply_synonym_replacement(text: str, params: dict) -> tuple:
             diffs.append(f"Original: {s[2:]}")
         elif s[0] == '+':
             diffs.append(f"Changed to: {s[2:]}")
-    print(diffs)
     return augmented_text
 
 
@@ -299,8 +298,6 @@ def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
             augmented_passage = augmented_passage[:m.start()] + to_add + augmented_passage[m.start():]
         
         augumented_story.append(augmented_passage)
-
-    print(augumented_story)
 
     return augumented_story
 

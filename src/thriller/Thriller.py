@@ -53,9 +53,7 @@ def main(args):
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
-        raise ValueError(
-            "Parse model configuration not found in the configuration file"
-        )
+        raise ValueError("Parse model configuration not found in the configuration file")
     if experiment_config is None:
         raise ValueError("Experiment configuration not found in the configuration file")
     if augmentation_config is None:
@@ -119,9 +117,7 @@ def main(args):
     elif experiment_series == "bentz":
         experiment = bentz
     if not experiment:
-        raise ValueError(
-            "Valid experiment series not found (must be gerrig, lehne, or delatorre)"
-        )
+        raise ValueError("Valid experiment series not found (must be gerrig, lehne, or delatorre)")
 
     # Generate experiment texts
     prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)

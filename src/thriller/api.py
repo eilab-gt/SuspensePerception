@@ -61,8 +61,6 @@ def generate_response(
                         print(f"Invalid finish_reason: {finish_reason}")
                         finish_reason = 'eos'
                 content += getattr(chunk.choices[0].delta, 'content', '') or "" 
-            print("IAM HERE", chunk.choices[0].delta.content)
-            print("DONEE", content)
         except AttributeError as e:
             print("AttributeError encountered:", e)
         except IndexError as e:

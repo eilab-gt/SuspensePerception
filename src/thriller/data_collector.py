@@ -452,9 +452,7 @@ def main():
         print(f"Log file: {log_file}")
     except Exception as e:
         logger.error(f"An error occurred: {str(e)}", exc_info=True)
-        print(
-            f"\nAn error occurred during data collection. Please check the log file for details: {log_file}"
-        )
+        print(f"\nAn error occurred during data collection. Please check the log file for details: {log_file}")
 
 
 if __name__ == "__main__":
