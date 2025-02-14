@@ -1,9 +1,0 @@
- Question 1: Somewhat Liked
-Question 2: Somewhat Interested
-Question 3: Somewhat Satisfied
-Question 4: Somewhat Complete
-Question 5: Somewhat Arranged Correctly
-Question 6: Somewhat
-Question 7: Somewhat Understandable
-Question 8: Not Violent
-Question 9: Some Insight

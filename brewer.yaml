@@ -4,16 +4,16 @@
     "meta-llama/Llama-3-8b-chat-hf",
     "meta-llama/Llama-3-70b-chat-hf",
     "meta-llama/Llama-2-7b-chat-hf",
-    "meta-llama/Llama-2-13b-chat-hf",
-    #"google/gemma-2-9b-it",
-    #"google/gemma-2-27b-it",
-    #"mistralai/Mistral-7B-Instruct-v0.3",
-   #"mistralai/Mixtral-8x7B-Instruct-v0.1",
-    #"Qwen/Qwen2-72B-Instruct",
+    #"meta-llama/Llama-2-13b-chat-hf",
+    "google/gemma-2-9b-it",
+    "google/gemma-2-27b-it",
+    "mistralai/Mistral-7B-Instruct-v0.3",
+    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "Qwen/Qwen2-72B-Instruct",
    #"deepseek-ai/DeepSeek-V3",
    #"microsoft/WizardLM-2-8x22B", 
   ]
-    max_tokens: 2000
+    max_tokens: 4000
     temperature: 0.0  # top_k: 50
     top_p: 0.9
     repetition_penalty: 1.0
@@ -22,7 +22,35 @@
   parse_model:
     api_type: "together"
     name: "meta-llama/Llama-3-8b-chat-hf"
-    prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
+    prompt: "The following is a series of question for the passage you have just read. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```
+    For each question the answer is one of the following choices:
+    Q1: 
+    1. Not at all
+    2. Slightly
+    3. Somewhat
+    4. Neutral or Uncertain
+    5. Moderately
+    6. Very much
+    7. Extremely
+
+    Q2: 
+    1. Not at all
+    2. Slightly
+    3. Somewhat
+    4. Neutral or Uncertain
+    5. Moderately
+    6. Very much
+    7. Extremely
+
+    Q3: 
+    1. No surprise
+    2. Slightly surprised
+    3. Somewhat surprised
+    4. Neutral or Uncertain
+    5. Moderately surprised
+    6. Very surprised
+    7. Extremely surprised
+    "
     max_tokens: 500
     temperature: 0.0  # top_k: 50
     top_p: 0.9
@@ -31,4 +59,4 @@
     stream: true
   experiment:
     experiment_series: "brewer"
-    output_dir: "./outputs/brewer_experiment/final/paper/exp3"
+    output_dir: "./outputs/brewer_experiment/final/paper/exp1"

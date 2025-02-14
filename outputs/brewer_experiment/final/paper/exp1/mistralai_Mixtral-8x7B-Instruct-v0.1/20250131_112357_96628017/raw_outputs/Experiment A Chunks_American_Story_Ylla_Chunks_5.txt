@@ -1,5 +1,0 @@
- Question 1: Neutral or Uncertain
-Question 2: Moderately
-Question 3: Somewhat
-Question 4: Very much
-Question 5: Some irony

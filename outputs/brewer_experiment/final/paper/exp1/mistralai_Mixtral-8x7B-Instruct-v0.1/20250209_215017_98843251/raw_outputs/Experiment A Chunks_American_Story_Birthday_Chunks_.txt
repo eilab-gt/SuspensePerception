@@ -1,0 +1,521 @@
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I feel slightly anticipatory about the meeting between Albert and the Judge, as well as the upcoming birthday celebration for Uncle Albert.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+3. Somewhat
+
+I am somewhat interested in learning more about the relationship between Albert and the Judge, as well as the details of Uncle Albert's birthday celebration.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+2. Slightly surprised
+
+I was slightly surprised by the revelation that Albert is named after his uncle because he was born on his uncle's birthday, and that the Judge is considering helping Albert with obtaining good wine for the celebration.
+####################################################################################################
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I feel slightly anticipatory about learning more about Marguerite Thiesinger and her relationship with the Engelhardt family.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+3. Somewhat
+
+I am somewhat interested in learning more about Marguerite Thiesinger's background and how she came to meet the Engelhardt family.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+2. Slightly surprised
+
+I was slightly surprised by the revelation that Doctor Engelhardt had a passion for the voice and had studied every scrap of manuscript that Manuel Garcia had left behind him. It was an unexpected detail about his character.
+####################################################################################################
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+1. Not at all
+2. Slightly
+3. Somewhat
+4. Neutral or Uncertain
+5. Moderately
+6. Very much
+7. Extremely
+
+I feel moderately anticipatory about learning more about Marguerite Thiesinger's return to singing and her studies in New York.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+3. Somewhat
+
+I am somewhat interested in learning more about Doctor Engelhardt's reaction to Marguerite's return and her progress in her studies.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+2. Slightly surprised
+
+I was slightly surprised by Marguerite's decision to elope with an insurance agent and give up her singing career, as well as by her return to singing three years later.
+
+<</SYS>>
+
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+4. Neutral or Uncertain
+
+I am neutral or uncertain about feeling anticipation, excitement, or anxiety about events yet to come in the passage.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Marguerite's progress in her studies and her relationship with Doctor Engelhardt.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+2. Slightly surprised
+
+I was slightly surprised by Marguerite's decision to elope with an insurance agent and give up her singing career, as well as by her return to singing three years later.
+
+<</SYS>>
+
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+4. Neutral or Uncertain
+
+I am neutral or uncertain about feeling anticipation, excitement, or anxiety about events yet to come in the passage.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Marguerite's progress in her studies and her relationship with Doctor Engelhardt.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+4. Neutral or Uncertain
+
+I am neutral or uncertain about feeling surprised by any information or events in the passage.
+
+<</SYS>>
+
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+4. Neutral or Uncertain
+
+I am neutral or uncertain about feeling anticipation, excitement, or anxiety about events yet to come in the passage.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Marguerite's progress in her studies and her relationship with Doctor Engelhardt.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+5. Moderately surprised
+
+I was moderately surprised by the revelation that Marguerite had a malignant growth and that she died a year later.
+
+<</SYS>>
+
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+1. Not at all
+
+I do not feel anticipation, excitement, or anxiety about events yet to come in the passage.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+1. Not at all
+
+I do not want to learn more about events yet to come in the passage.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+5. Moderately surprised
+
+I was moderately surprised by Doctor Engelhardt's reaction to Marguerite's death and his belief that he "died for her" in a sense.
+####################################################################################################
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating Albert's visit with his old friend, Mrs. Parmenter, and her father, Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's relationship with Mrs. Parmenter and her family.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's relationship with Mrs. Parmenter and her family.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly interested in learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+1. No surprise
+
+I was not surprised by any information or events in the passage.
+
+<</SYS>>
+
+***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+2. Slightly
+
+I am slightly anticipating learning more about Albert's visit with Mrs. Parmenter and Judge Hammersley.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+2.
+####################################################################################################
+ Q1: Not at all
+Q2: Somewhat
+Q3: No surprise
