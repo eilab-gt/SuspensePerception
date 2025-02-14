@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "lehne"
-  output_dir: "./outputs/lehne_experiment/adversarial/e1/"
+  output_dir: "./outputs/lehne_experiment/final/e4/"
 model:
   api_type: "together"
   name: [
@@ -13,8 +13,8 @@ model:
     "mistralai/Mistral-7B-Instruct-v0.3",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "Qwen/Qwen2-72B-Instruct",
-    # "deepseek-ai/DeepSeek-V3", # no response
-    # "microsoft/WizardLM-2-8x22B", # no response
+    "deepseek-ai/DeepSeek-V3",
+    "microsoft/WizardLM-2-8x22B",
   ]
   max_tokens: 250
   temperature: 0.0
