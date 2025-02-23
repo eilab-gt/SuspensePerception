@@ -7,6 +7,7 @@ from pathlib import Path
 import openai
 from together import Together
 import tiktoken
+import os
 
 
 def generate_response(
@@ -24,25 +25,43 @@ def generate_response(
     Return:
         LLM model's response
     """
-    api_type = model_config.get("api_type", None)
 
+    hostname_url = None
+    api_key = "EMPTY"
+    api_type = model_config.api_type
+    if model_config.api_type == "openai" and "VLLM_HOSTNAME_URL" in os.environ:
+        hostname_url = os.environ["VLLM_HOSTNAME_URL"]
+    else:
+        api_key = os.environ[f"{model_config.api_type.upper()}_API_KEY"]
+    
     if api_type == "openai":
-        response = openai.ChatCompletion.create(
-            model=model_config["name"],
-            messages=messages,
-            max_tokens=model_config["max_tokens"],
-            temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-        )
+        if hostname_url is not None:
+            client = openai.OpenAI(
+                api_key="EMPTY",
+                base_url=model_config["vllm_hostname_url"],
+            )
+        else:
+            client = openai.Openai(
+                api_key=api_key
+            )
 
-        return response["choices"][0]["message"]["content"]
-
-    elif api_type == "together":
-        client = Together(api_key=model_config["api_key"])
         response = client.chat.completions.create(
             model=model_config["name"],
+            messages=messages,
+            extra_body={
+                'max_tokens': model_config["max_tokens"],
+                'temperature': model_config["temperature"],
+                'top_p': model_config.get("top_p", None),
+                'top_k': model_config.get("top_k", None),
+                'repetition_penalty': model_config["repetition_penalty"],
+            }
+        )
+        return response.choices[0].message.content
+
+    elif api_type == "together":
+        client = Together(api_key=api_key)
+        response = client.chat.completions.create(
+            model=model_config.name,
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
@@ -72,7 +91,6 @@ def generate_response(
 
     else:
         raise ValueError(f"Unsupported API type: {api_type}")
-
 
 def save_raw_api_output(output: str, filename: str, output_path: Path) -> None:
     """

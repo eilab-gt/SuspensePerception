@@ -21,8 +21,8 @@ from misc import generate_response
 import re
 
 import nltk
-nltk.download('averaged_perceptron_tagger_eng')
-nltk.download("punkt_tab")
+nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
@@ -305,7 +305,6 @@ def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
 def get_default_augmentation_config():
     return {
         'synonym_replacement': {
-            'enabled': True,
             'aug_p': 0.8,
             'aug_src': 'wordnet',
             'model_path':'bert-base-uncased',
@@ -314,7 +313,6 @@ def get_default_augmentation_config():
             'stopwords': None,
         },
         'distraction_insertion': {
-            'enabled': True,
             'distraction': "He looked for his hidden watch. He couldn't find it.",
         },
         'swap_words' : {
@@ -322,32 +320,25 @@ def get_default_augmentation_config():
                 'num_swaps' : 30
         },
         'shuffle_sentences': {
-            'enabled': True,
             'shuffle_n_times': 100
         },
         'introduce_typos': {
-            'enabled': True,
             'aug_char_p': 0.8,
             'aug_word_p': 0.8,
         },
         'word_swap_embedding': {
-            'enabled': True,
             'max_candidates': 5
         },
         'change_character_names': {
-            'enabled': True,
             'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
         },
         'context_removal': {
-            'enabled': True,
             'sentiment_threshold': 0.5
         },
         'word_swap_homoglyph': {
-            'enabled': True,
             'max_swaps': 100
         },
         'sentence_paraphrase': {
-            'enabled': True,
             'api_type': "together",
             'name': "meta-llama/Llama-3-8b-chat-hf",
             'prompt': 'Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.',
@@ -359,12 +350,10 @@ def get_default_augmentation_config():
             'stream': True
         },
         'backtranslation': {
-            'enabled': True,
             'src_lang': 'en',
             'target_lang': 'fr'
         },
         'caesar_cipher': {
-            'enabled': True,
             'step': 3,
             'alphabets': (string.ascii_lowercase, string.ascii_uppercase, string.digits)
         },

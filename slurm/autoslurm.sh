@@ -1,18 +1,18 @@
 #!/bin/bash
 
 augmentations=(
-    "distraction_insertion"
-    "swap_words"
-    "shuffle_sentences"
-    "introduce_typos"
-    "word_swap_embedding"
-    "change_character_names"
-    "context_removal"
-    "word_swap_homoglyph"
-    # "sentence_paraphrase"
-    "synonym_replacement"
-    "antonym_replacement"
-    "caesar_cypher"
+    # "distraction_insertion"
+    # "swap_words"
+    # "shuffle_sentences"
+    # "introduce_typos"
+    # "word_swap_embedding"
+    # "change_character_names"
+    # "context_removal"
+    # "word_swap_homoglyph"
+    # # "sentence_paraphrase"
+    # "synonym_replacement"
+    # "antonym_replacement"
+    # "caesar_cypher"
     "" # no augmentation
 )
 
@@ -37,7 +37,7 @@ for ((j=0; j<3; j++)); do
             export OVERRIDES="augmentation.augmentation_order=[\"$augmentation\"] experiment.output_dir=\"${OUTPUT_DIR}\""
             echo "Running experiment $EXPERIMENT with augmentation $OVERRIDES"
 
-            sbatch -J$JOBNAME --dependency=singleton slurm/entrypoint.sh
+            # sbatch -J$JOBNAME --dependency=singleton slurm/entrypoint.sh
 
         done
     done

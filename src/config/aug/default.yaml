@@ -1,0 +1,52 @@
+synonym_replacement: 
+  aug_p: 0.8
+  aug_src: "wordnet"
+  model_path: "bert-base-uncased"
+  aug_min: 20
+  aug_max: 50
+  stopwords: null
+distraction_insertion:
+  distraction: "He looked for his hidden watch. He couldn't find it."
+swap_words:
+  num_swaps: 30
+shuffle_sentences:
+  shuffle_n_times: 100
+introduce_typos:
+  aug_char_p: 0.8
+  aug_word_p: 0.8
+word_swap_embedding:
+  max_candidates: 5
+change_character_names:
+  name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+context_removal:
+  sentiment_threshold: 0.5
+word_swap_homoglyph:
+  max_swaps: 100
+sentence_paraphrase:
+  api_type: "together"
+  name: "meta-llama/Llama-3-8b-chat-hf"
+  prompt: >
+    Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.
+  max_tokens: 1000
+  temperature: 0.0
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true
+backtranslation:
+  src_lang: "en"
+  target_lang: "fr"
+augmentation_order: [
+  # "distraction_insertion",
+  # "swap_words",
+  # "shuffle_sentences",
+  # "introduce_typos",
+  # "word_swap_embedding",
+  # "change_character_names",
+  # "context_removal",
+  # "word_swap_homoglyph",
+  # "sentence_paraphrase",
+  # "backtranslation",
+  # "synonym_replacement",
+  # "caesar_cipher",
+]

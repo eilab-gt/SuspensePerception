@@ -1,0 +1,14 @@
+# @package _global_
+
+text:
+  experiment_series: "brewer"
+model:
+  stop: [ "<|eot_id|>" ]
+parse_model:
+    prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
+    max_tokens: 500
+    temperature: 0.0  # top_k: 50
+    top_p: 0.9
+    repetition_penalty: 1.0
+    stop: [ "<|eot_id|>" ]
+    stream: true

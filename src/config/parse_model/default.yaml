@@ -1,0 +1,9 @@
+api_type: "together"
+name: "meta-llama/Llama-3-8b-chat-hf"
+prompt: ???
+max_tokens: 500
+temperature: 0.0  # top_k: 50
+top_p: 0.9
+repetition_penalty: 1.0
+stop: ???
+stream: true

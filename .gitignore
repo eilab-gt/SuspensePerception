@@ -165,3 +165,6 @@ cython_debug/
 requirements.yaml
 Katze_suspense_data.csv
 katze_results.csv
+
+# SLURM
+slurm-*.out

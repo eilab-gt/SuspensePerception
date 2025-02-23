@@ -32,7 +32,6 @@ def safe_int_conversion(value):
         return int(value) if value.isdigit() else None
     return None
 
-
 def parse_response(
     response: str, model_config: dict[str, typing.Any]
 ) -> dict[str, str]:
@@ -46,19 +45,37 @@ def parse_response(
     Return:
         The response split as a dictionary between question-answer pairs
     """
-    api_type = model_config.get("api_type", None)
+    api_type = model_config.api_type
 
-    prompt = model_config.get("prompt")
+    prompt = model_config.prompt
 
     messages = [
         {"role": "system", "content": prompt},
         {"role": "user", "content": response},
     ]
 
+    hostname_url = None
+    api_key = "EMPTY"
+    api_type = model_config.api_type
+    if model_config.api_type == "openai" and "VLLM_HOSTNAME_URL" in os.environ:
+        hostname_url = os.environ["VLLM_HOSTNAME_URL"]
+    else:
+        api_key = os.environ[f"{model_config.api_type.upper()}_API_KEY"]
+
     content = ""
 
     if api_type == "openai":
-        parsed_response = openai.ChatCompletion.create(
+        if hostname_url is not None:
+            client = openai.OpenAI(
+                api_key="EMPTY",
+                base_url=model_config["vllm_hostname_url"],
+            )
+        else:
+            client = openai.Openai(
+                api_key=api_key
+            )
+
+        parsed_response = client.chat.completions.create(
             model=model_config["name"],
             messages=messages,
             max_tokens=model_config["max_tokens"],
@@ -71,7 +88,7 @@ def parse_response(
         content = parsed_response["choices"][0]["message"]["content"]
 
     elif api_type == "together":
-        client = Together(api_key=model_config["api_key"])
+        client = Together(api_key=api_key)
         parsed_response = client.chat.completions.create(
             model=model_config["name"],
             messages=messages,
@@ -155,9 +172,9 @@ def run_experiment(
     results = []
     total_experiments = sum(len(versions) for versions in version_prompts.values())
 
-    with tqdm(total=total_experiments, desc="Overall Progress") as pbar:
+    with tqdm(total=total_experiments, position=1, desc="Overall Progress", leave=True) as pbar:
         for exp_name, prompt in prompts.items():
-            print(f"\nRunning experiment {exp_name} with {model_config.get('name')}")
+            print(f"\nRunning experiment {exp_name} with {model_config.name}")
 
             for version_name, version_text in version_prompts[exp_name]:
                 if isinstance(version_text, str):
@@ -187,15 +204,17 @@ def run_experiment(
                                     )
                                     break
                                 except Exception as e:
-                                    # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
+                                    logging.error(f"Error occurred: {e}", stack_info=True) # This is almost guaranteed to spam
                                     if len(messages) >= 4:
                                         messages.pop(1)
                                     else:
                                        break
+                                
 
                             parsed_response = {"value": float("nan")}
                             if not raw_response or raw_response.isspace():
                                 raw_response = "Error - No Response: Input Too Long"
+                                exit()
                                 print(f"Failed to get response for {exp_name} segment {i} version: {version_name}. Input Too Long")
                             else:
                                 parsed_response = parse_response(

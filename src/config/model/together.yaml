@@ -1,0 +1,20 @@
+api_type: "together"
+name: [
+  "meta-llama/Llama-3-8b-chat-hf",
+  "meta-llama/Llama-3-70b-chat-hf",
+  "meta-llama/Llama-2-7b-chat-hf",
+  # "meta-llama/Llama-2-13b-chat-hf", # no response
+  "google/gemma-2-9b-it",
+  "google/gemma-2-27b-it",
+  "mistralai/Mistral-7B-Instruct-v0.3",
+  "mistralai/Mixtral-8x7B-Instruct-v0.1",
+  "Qwen/Qwen2-72B-Instruct",
+  "deepseek-ai/DeepSeek-V3",
+  "microsoft/WizardLM-2-8x22B",
+]
+max_tokens: 250
+temperature: 0.0
+top_p: 0.9
+repetition_penalty: 1.0
+stop: ["<|eot_id|>"]
+stream: true

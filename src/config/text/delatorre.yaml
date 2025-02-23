@@ -1,0 +1,17 @@
+# @package _global_
+
+text:
+  experiment_series: "delatorre"
+model:
+  stop: ["<|eot_id|>"]
+parse_model:
+  api_type: "together"
+  name: "meta-llama/Llama-3-8b-chat-hf"
+  prompt: >
+    The following text provides a numerical rating of a passage. Extract numerical value in the text and nothing else. Structure your output as a single word in the format: ```value```
+  max_tokens: 250
+  temperature: 0.0 # Parser should always be deterministic
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: ["<|eot_id|>"]
+  stream: true

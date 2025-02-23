@@ -10,9 +10,23 @@ import pandas as pd
 import yaml
 from datetime import datetime
 import uuid
-import unicodedata as ud
 import ast
+import os
 
+# This class is 100% autocomplete generated
+class dotdict(dict):
+    """dot.notation access to dictionary attributes"""
+    __getattr__ = dict.get
+    __setattr__ = dict.__setitem__
+    __delattr__ = dict.__delitem__
+
+    @staticmethod
+    def from_nested_dict(data):
+        """Construct nested dotdict from nested dictionary"""
+        if not isinstance(data, dict):
+            return data
+        else:
+            return dotdict({key: dotdict.from_nested_dict(data[key]) for key in data})
 
 def save_test_output(test_name: str, output: str) -> None:
     """
@@ -39,17 +53,42 @@ def load_config(args: Namespace) -> io.TextIOWrapper:
     argdict = {}
 
     if args.config:
-        config_path = args.config
+        config_path = os.path.join("config", "experiment", args.config)
+        if not config_path.endswith(".yaml"):
+            config_path += ".yaml"
         with open(config_path, "r") as f:
             argdict = yaml.safe_load(f)
+    else:
+        raise ValueError("Configuration file not provided")
+    if args.augmentation:
+        aug_config_path = os.path.join("config", "augmentation", args.augmentation)
+        if not aug_config_path.endswith(".yaml"):
+            aug_config_path += ".yaml"
+        with open(aug_config_path, "r") as f:
+            aug_dict = yaml.safe_load(f)
+            argdict["augmentation"] = aug_dict
+
     if args.overrides:
         for override in args.overrides:
-            key, value = override.split("=")
-            key_hierarchy = key.split(".")
-            temp_dict = argdict
-            for k in key_hierarchy[:-1]:
-                temp_dict = temp_dict[k]
-            temp_dict[key_hierarchy[-1]] = ast.literal_eval(value)
+            try:
+                key, value = override.split("=")
+                key_hierarchy = key.split(".")
+                temp_dict = argdict
+                for k in key_hierarchy[:-1]:
+                    temp_dict = temp_dict[k]
+                temp_dict[key_hierarchy[-1]] = ast.literal_eval(value)
+            except KeyError:
+                raise ValueError(f"Key {key_hierarchy} not found in configuration file")
+            
+    if "model" not in argdict:
+        raise ValueError("Model configuration not found in the configuration file")
+    if "parse_model" not in argdict:
+        raise ValueError("Parse model configuration not found in the configuration file")
+    if "experiment" not in argdict:
+        raise ValueError("Experiment configuration not found in the configuration file")
+    if "augmentation" not in argdict:
+        raise ValueError("Augmentation configuration not found in the configuration file")
+    
     return argdict
 
 def process_and_save_results(
