@@ -1,0 +1,31 @@
+ Paragraph 1:
+
+Question 1: 4 - Neutral or Uncertain
+Question 2: 3 - Somewhat
+Question 3: 2 - Slightly
+Question 4: 1 - No surprise
+Question 5: 1 - No irony
+
+Paragraph 2:
+
+Question 1: 4 - Neutral or Uncertain
+Question 2: 5 - Moderately
+Question 3: 6 - Very much
+Question 4: 2 - Slightly surprised
+Question 5: 1 - No irony
+
+Paragraph 3:
+
+Question 1: 3 - Somewhat
+Question 2: 1 - Not at all
+Question 3: 1 - Not at all
+Question 4: 4 - Neutral or Uncertain
+Question 5: 1 - No irony
+
+Paragraph 4:
+
+Question 1: 3 - Somewhat
+Question 2: 1 - Not at all
+Question 3: 1 - Not at all
+Question 4: 2 - Slightly surprised
+Question 5: 1 - No irony

@@ -1,62 +1,98 @@
-  model:
-    api_type: "together"
-    name: [
+experiment:
+  experiment_series: "brewer"
+  output_dir: "./outputs/brewer_experiment/final/e4/"
+model:
+  api_type: "together"
+  name: [
     "meta-llama/Llama-3-8b-chat-hf",
     "meta-llama/Llama-3-70b-chat-hf",
     "meta-llama/Llama-2-7b-chat-hf",
-    #"meta-llama/Llama-2-13b-chat-hf",
+    # "meta-llama/Llama-2-13b-chat-hf", # no response
     "google/gemma-2-9b-it",
     "google/gemma-2-27b-it",
     "mistralai/Mistral-7B-Instruct-v0.3",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
     "Qwen/Qwen2-72B-Instruct",
-   #"deepseek-ai/DeepSeek-V3",
-   #"microsoft/WizardLM-2-8x22B", 
+    "deepseek-ai/DeepSeek-V3",
+    "microsoft/WizardLM-2-8x22B",
   ]
-    max_tokens: 4000
-    temperature: 0.0  # top_k: 50
-    top_p: 0.9
-    repetition_penalty: 1.0
-    stop: [ "<|eot_id|>" ]
-    stream: true
-  parse_model:
+  max_tokens: 2000
+  temperature: 0.0  # top_k: 50
+  top_p: 0.9
+  repetition_penalty: 1.0
+  stop: [ "<|eot_id|>" ]
+  stream: true
+parse_model:
     api_type: "together"
     name: "meta-llama/Llama-3-8b-chat-hf"
-    prompt: "The following is a series of question for the passage you have just read. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```
-    For each question the answer is one of the following choices:
-    Q1: 
-    1. Not at all
-    2. Slightly
-    3. Somewhat
-    4. Neutral or Uncertain
-    5. Moderately
-    6. Very much
-    7. Extremely
-
-    Q2: 
-    1. Not at all
-    2. Slightly
-    3. Somewhat
-    4. Neutral or Uncertain
-    5. Moderately
-    6. Very much
-    7. Extremely
-
-    Q3: 
-    1. No surprise
-    2. Slightly surprised
-    3. Somewhat surprised
-    4. Neutral or Uncertain
-    5. Moderately surprised
-    6. Very surprised
-    7. Extremely surprised
-    "
+    prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
     max_tokens: 500
     temperature: 0.0  # top_k: 50
     top_p: 0.9
     repetition_penalty: 1.0
     stop: [ "<|eot_id|>" ]
     stream: true
-  experiment:
-    experiment_series: "brewer"
-    output_dir: "./outputs/brewer_experiment/final/paper/exp1"
+augmentation:
+  synonym_replacement: 
+    enabled: true
+    aug_p: 0.8
+    aug_src: "wordnet"
+    model_path: "bert-base-uncased"
+    aug_min: 20
+    aug_max: 50
+    stopwords: null
+  distraction_insertion:
+    enabled: true
+    distraction: "He looked for his hidden watch. He couldn't find it."
+  swap_words:
+    enabled: true
+    num_swaps: 30
+  shuffle_sentences:
+    enabled: true
+    shuffle_n_times: 100
+  introduce_typos:
+    enabled: true
+    aug_char_p: 0.8
+    aug_word_p: 0.8
+  word_swap_embedding:
+    enabled: true
+    max_candidates: 5
+  change_character_names:
+    enabled: true
+    name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+  context_removal:
+    enabled: true
+    sentiment_threshold: 0.5
+  word_swap_homoglyph:
+    enabled: true
+    max_swaps: 100
+  sentence_paraphrase:
+    enabled: true
+    api_type: "together"
+    name: "meta-llama/Llama-3-8b-chat-hf"
+    prompt: >
+      Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.
+    max_tokens: 1000
+    temperature: 0.0
+    top_p: 0.9
+    repetition_penalty: 1.0
+    stop: ["<|eot_id|>"]
+    stream: true
+  backtranslation:
+    enabled: true
+    src_lang: "en"
+    target_lang: "fr"
+  augmentation_order: [
+    # "distraction_insertion",
+    # "swap_words",
+    # "shuffle_sentences",
+    # "introduce_typos",
+    # "word_swap_embedding",
+    # "change_character_names",
+    # "context_removal",
+    # "word_swap_homoglyph",
+    # "sentence_paraphrase",
+    # "backtranslation",
+    # "synonym_replacement",
+    # "caesar_cipher",
+  ]

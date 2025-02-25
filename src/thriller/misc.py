@@ -6,6 +6,7 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 import sys
 import os
 import typing
+from typing import Union
 from pathlib import Path
 from src.thriller.api import generate_response, save_raw_api_output
 import openai
@@ -13,8 +14,6 @@ from together import Together
 import re
 from tqdm import tqdm
 import logging
-from typing import Union
-from utils import is_roman
 
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
@@ -186,7 +185,6 @@ def run_experiment(
                                     raw_response = generate_response(
                                         messages, model_config
                                     )
-                                    print(raw_response, "JSKSJAAJKKJA")
                                     break
                                 except Exception as e:
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
@@ -199,14 +197,7 @@ def run_experiment(
                             parsed_response = {"value": float("nan")}
                             if not raw_response or raw_response.isspace():
                                 raw_response = "Error - No Response: Input Too Long"
-                                print(
-                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
-                                )
-                            elif not is_roman(raw_response):
-                                raw_response = "Error - No Response: Input is Invalid"
-                                print(
-                                    f"Failed to get response for {exp_name} segment {i} version: {version_name}"
-                                )
+                                print(f"Failed to get response for {exp_name} segment {i} version: {version_name}. Input Too Long")
                             else:
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config
@@ -227,9 +218,7 @@ def run_experiment(
                             converted_value = safe_int_conversion(response)
                             parsed_responses_dict[str(i)] = converted_value
                             if converted_value is None:
-                                logging.warning(
-                                    f"Non-numeric response encountered at index {i}: '{response}'"
-                                )
+                                logging.warning(f"Non-numeric response encountered at index {i}: '{response}'")
 
                         result = {
                             "experiment_name": exp_name,
