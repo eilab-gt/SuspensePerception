@@ -1,0 +1,37 @@
+ ***A1:*** 5 - Moderately, as the passage describes many intriguing events and places that create anticipation and excitement.
+
+***A2:*** 6 - Very much, as the passage introduces many events and places that spark curiosity and a desire to learn more.
+
+***A3:*** 4 - Neutral or Uncertain, as there were no specific surprising events mentioned in the passage.
+####################################################################################################
+ ***A1:*** 3 - Somewhat, as the character's thoughts and actions create a sense of curiosity about his next moves.
+
+***A2:*** 4 - Neutral or Uncertain, as the passage does not introduce any significant future events to spark a strong desire to learn more.
+
+***A3:*** 3 - Somewhat surprised, as the character's sudden laughter and thoughts about the penny create a sense of surprise.
+####################################################################################################
+ ***A1:*** 5 - Moderately, as the character's thoughts about his hunger and potential death create a sense of anticipation and anxiety.
+
+***A2:*** 5 - Moderately, as the character's thoughts about reading Hamlet or Huckleberry Finn spark curiosity and a desire to learn more about his reading list.
+
+***A3:*** 4 - Neutral or Uncertain, as the passage does not contain any surprising events, but the character's thoughts about death create a sense of surprise.
+####################################################################################################
+ ***A1:*** 4 - Neutral or Uncertain, as the character's thoughts about food and potential future plans create a sense of curiosity, but no strong anticipation or excitement.
+
+***A2:*** 4 - Neutral or Uncertain, as the character's thoughts about visiting the Salvation Army and singing to God create a sense of curiosity, but no strong desire to learn more.
+
+***A3:*** 3 - Somewhat surprised, as the character's thoughts about writing an application for permission to live create a sense of surprise. 
+
+The passage does not contain any unexpected events, but the character's unique perspective and thoughts contribute to a sense of surprise.
+####################################################################################################
+ ***Q1: "To what extent do you feel anticipation, excitement, or anxiety about events yet to come in the passage?"***
+
+2 - Slightly, as the character's actions and thoughts about finding work and writing an application create a sense of curiosity about what will happen next.
+
+***Q2: "To what extent do you want to learn more about events yet to come in the passage?"***
+
+2 - Slightly, as the character's actions and thoughts about finding work and writing an application create a sense of curiosity, but the passage does not introduce any significant future events to spark a strong desire to learn more.
+
+***Q3: "To what extent did you feel surprised by any information or events in the passage?"***
+
+5 - Moderately surprised, as the character's sudden death at the end of the passage is unexpected and creates a sense of surprise.

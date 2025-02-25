@@ -1,0 +1,29 @@
+ ***A1:*** 5 - Moderately, as the passage describes many intriguing events and places that create anticipation and excitement.
+
+***A2:*** 6 - Very much, as the passage introduces many events and places that spark curiosity and a desire to learn more.
+
+***A3:*** 4 - Neutral or Uncertain, as there were no specific surprising events mentioned in the passage.
+####################################################################################################
+ ***A1:*** 3 - Somewhat, as the character's thoughts and actions create a sense of curiosity about his day and his experiences.
+
+***A2:*** 4 - Neutral or Uncertain, as the passage does not introduce any specific future events that would spark a strong desire to learn more.
+
+***A3:*** 3 - Somewhat surprised, as the character's sudden laughter and the discovery of the old penny create a sense of surprise.
+####################################################################################################
+ ***A1:*** 5 - Moderately, as the character's thoughts about his hunger and the need to read more books create a sense of anticipation and anxiety about his situation.
+
+***A2:*** 5 - Moderately, as the character's thoughts about reading more books and finding work create a desire to learn more about his potential future actions.
+
+***A3:*** 4 - Neutral or Uncertain, as the passage does not contain any surprising events, but the character's thoughts about dying and starvation create a sense of solemnity.
+####################################################################################################
+ ***A1:*** 4 - Neutral or Uncertain, as the character's thoughts about buying food and potential future actions create a sense of anticipation, but the overall tone is contemplative and reflective.
+
+***A2:*** 4 - Neutral or Uncertain, as the passage does not introduce any specific future events that would spark a strong desire to learn more, but the character's thoughts about applying for permission to live and visiting the Salvation Army create some curiosity.
+
+***A3:*** 3 - Somewhat surprised, as the character's thoughts about writing an application for permission to live and his contemplative tone create a sense of surprise.
+####################################################################################################
+  ***A1:*** 5 - Moderately, as the character's thoughts about writing an application and finding work create a sense of anticipation and anxiety about his future actions.
+
+***A2:*** 5 - Moderately, as the character's thoughts about writing an application and finding work create a desire to learn more about his potential future actions.
+
+***A3:*** 4 - Neutral or Uncertain, as the passage does not contain any surprising events, but the character's thoughts about his life and his decision to stop deceiving himself create a sense of reflection and contemplation.

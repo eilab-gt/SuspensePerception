@@ -190,6 +190,7 @@ def run_experiment(
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
                                     if len(messages) >= 4:
                                         messages.pop(1)
+                                        messages.pop(1)
                                     else:
                                        break
 
