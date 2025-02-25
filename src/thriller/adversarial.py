@@ -11,6 +11,7 @@ from textattack.transformations import (
     WordSwapRandomCharacterSubstitution,
     BackTranslation
 )
+from textattack.augmentation import Augmenter
 from textattack.shared.attacked_text import AttackedText
 import logging
 from typing import List, Dict, Any, Union
@@ -21,8 +22,8 @@ from misc import generate_response
 import re
 
 import nltk
-nltk.download('averaged_perceptron_tagger_eng')
-nltk.download("punkt_tab")
+nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
@@ -137,23 +138,24 @@ def apply_word_swap_embedding(text: str, params: dict) -> str:
     transformation = WordSwapEmbedding(
         max_candidates=params.get('max_candidates', 5)
     )
-    attacked_text = AttackedText(text)
-    transformed_texts = transformation(attacked_text)
-    if transformed_texts:
-        return transformed_texts[0].text  # Get the first transformed text
-    logger.warning("Word swap embedding returned no transformations, using original text.")
-    return text
+    pct_words_to_swap = params.get('pct_words_to_swap', 0.1)
+
+    augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
+    augmented_text = augmenter.augment(text)
+    
+    return augmented_text
 
 
 def apply_word_swap_homoglyph(text: str, params: dict) -> str:
     # Initialize without unsupported parameters
     transformation = WordSwapHomoglyphSwap()  # No parameters here
-    attacked_text = AttackedText(text)
-    transformed_texts = transformation(attacked_text)
-    if transformed_texts:
-        return transformed_texts[0].text  # Get the first transformed text
-    logger.warning("Word swap homoglyph returned no transformations, using original text.")
-    return text
+    
+    pct_words_to_swap = params.get('pct_words_to_swap', 0.1)
+
+    augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
+    augmented_text = augmenter.augment(text)
+
+    return augmented_text
 
 
 def apply_sentence_paraphrase(text: str, params: dict) -> str:
@@ -188,10 +190,30 @@ def distraction_insertion(text: str, params: dict) -> str:
     introduces and removes a topic/solution from the text.
     """
     distraction = params.get('distraction', '')
+    budget = params.get('distractions_per_sentence', 0.2)
+    min_sentences = params.get('min_sentences', 1)
+    max_sentences = params.get('max_sentences', 20)
     sentences = text.split('.')
-    midpoint = len(sentences) // 2
-    sentences.insert(midpoint, distraction)
-    text = ". ".join(sentences)
+    
+    number_of_distractions = max(min(int(len(sentences) * budget), max_sentences), min_sentences)
+
+    candidates = np.arange(0, len(sentences), dtype=np.long)
+    distraction_indices = np.random.choice(candidates, number_of_distractions, replace=False)
+    distraction_indices.sort()
+
+    new_sentences = []
+
+    i = 0
+    for j, sentence in enumerate(sentences):
+        new_sentences.append(sentence)
+        if i in distraction_indices:
+            new_sentences.append(distraction)
+        i += 1
+
+
+
+    text = ". ".join(new_sentences)
+
     return text
 
 

@@ -45,6 +45,9 @@ augmentation:
   distraction_insertion:
     enabled: true
     distraction: "He looked for his hidden watch. He couldn't find it."
+    distractions_per_sentence: 0.2
+    min_sentences: 1
+    max_sentences: 20
   swap_words:
     enabled: true
     num_swaps: 30

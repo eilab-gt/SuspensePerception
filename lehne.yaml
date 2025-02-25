@@ -45,6 +45,9 @@ augmentation:
   distraction_insertion:
     enabled: true
     distraction: "He looked for his hidden watch. He couldn't find it."
+    distractions_per_sentence: 0.2
+    min_sentences: 1
+    max_sentences: 20
   swap_words:
     enabled: true
     num_swaps: 30
@@ -58,6 +61,7 @@ augmentation:
   word_swap_embedding:
     enabled: true
     max_candidates: 5
+    pct_words_to_swap: 0.1
   change_character_names:
     enabled: true
     name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
@@ -67,6 +71,7 @@ augmentation:
   word_swap_homoglyph:
     enabled: true
     max_swaps: 100
+    pct_words_to_swap: 0.1
   sentence_paraphrase:
     enabled: true
     api_type: "together"

@@ -16,6 +16,8 @@ import logging
 from dotenv import load_dotenv
 
 
+
+
 # Add the project root directory to Python path
 project_root = str(Path(__file__).resolve().parent.parent.parent)
 if project_root not in sys.path:
@@ -130,6 +132,9 @@ def main(args):
         version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)) for key, story in version_prompts[experiment]]
         if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
             prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
+
+        print(version_prompts[experiment])
+    exit()
 
     # Run the experiment
     model_names = model_config.get("name")
