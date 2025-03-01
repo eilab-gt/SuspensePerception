@@ -123,6 +123,11 @@ def apply_shuffle_sentences(text: str, params: dict) -> str:
     return ' '.join(sentences)
 
 
+def apply_shuffle_passages(text: str, params: dict) -> str:
+    # TODO
+    return text
+
+
 def apply_context_removal(text: str, params: dict) -> str:
     threshold = params.get('sentiment_threshold', 0.5)
     doc = nlp(text)
@@ -189,30 +194,33 @@ def distraction_insertion(text: str, params: dict) -> str:
     Insert distraction sentences into the text that simultaneously
     introduces and removes a topic/solution from the text.
     """
-    distraction = params.get('distraction', '')
-    budget = params.get('distractions_per_sentence', 0.2)
-    min_sentences = params.get('min_sentences', 1)
-    max_sentences = params.get('max_sentences', 20)
-    sentences = text.split('.')
+    # TODO
+    # distractions = params.get('distractions', '')
+    # budget = params.get('distractions_per_sentence', 0.2)
+    # min_sentences = params.get('min_sentences', 1)
+    # max_sentences = params.get('max_sentences', 20)
+
+    # random.shuffle(distractions)
+
+    # sentences = text.split('.')
     
-    number_of_distractions = max(min(int(len(sentences) * budget), max_sentences), min_sentences)
+    # number_of_distractions = max(min(int(len(sentences) * budget), max_sentences), min_sentences)
+    # candidates = np.arange(0, len(sentences), dtype=np.int64)
+    # distraction_indices = np.random.choice(candidates, number_of_distractions, replace=False)
+    # distraction_indices.sort()
 
-    candidates = np.arange(0, len(sentences), dtype=np.long)
-    distraction_indices = np.random.choice(candidates, number_of_distractions, replace=False)
-    distraction_indices.sort()
+    # new_sentences = []
 
-    new_sentences = []
+    # i = 0
+    # j = 0
+    # for sentence in sentences:
+    #     new_sentences.append(sentence)
+    #     if i in distraction_indices:
+    #         new_sentences.append(distractions[j])
+    #         j += 1
+    #     i += 1
 
-    i = 0
-    for j, sentence in enumerate(sentences):
-        new_sentences.append(sentence)
-        if i in distraction_indices:
-            new_sentences.append(distraction)
-        i += 1
-
-
-
-    text = ". ".join(new_sentences)
+    # text = ". ".join(new_sentences)
 
     return text
 
@@ -258,6 +266,7 @@ augmentation_functions = {
     'introduce_typos': apply_introduce_typos,
     'change_character_names': apply_change_character_names,
     'shuffle_sentences': apply_shuffle_sentences,
+    'shuffle_passages': apply_shuffle_passages,
     'context_removal': apply_context_removal,
     'word_swap_embedding': apply_word_swap_embedding,
     'word_swap_homoglyph': apply_word_swap_homoglyph,
@@ -337,13 +346,42 @@ def get_default_augmentation_config():
         },
         'distraction_insertion': {
             'enabled': True,
-            'distraction': "He looked for his hidden watch. He couldn't find it.",
+            'distractions': [
+                "He looked for his hidden watch, but couldn't find it.",
+                "She reached for the letter on the table, but it wasn't there.",
+                "He felt for his keys in his pocket, but found nothing.",
+                "The cat sat on the windowsill, or at least he thought it had.",
+                "She turned the page of the book, but there was no text.",
+                "He grabbed his phone to check the time, but his hands were empty.",
+                "The wind carried the sound of bells, but no bells were ringing.",
+                "She opened the drawer for the scissors, but it was empty.",
+                "He stepped onto the path that had been there yesterday, but now it was gone.",
+                "The reflection in the mirror blinked, but he hadn't moved.",
+                "She picked up the pen to write, but there was no ink.",
+                "He searched his bag for his wallet, but he must have left it at home.",
+                "The clock chimed midnight, yet there was no clock in the room.",
+                "She reached out to grab the railing, but her hand met only air.",
+                "He pulled his coat tighter, but realized he wasn't wearing one.",
+                "The photograph on the desk showed a familiar face, but the next time he looked, it was blank.",
+                "She put the teacup back on the shelf, but she had never taken it down.",
+                "He felt the weight of the book in his hands, until he didn't.",
+                "The candle flickered, but there was no flame.",
+                "She tucked the loose strand of hair behind her ear, but it wasn't there.",
+                "The footprints in the snow led nowhere, then disappeared.",
+            ],
+            'distractions_per_sentence': 0.2,
+            'min_sentences': 1,
+            'max_sentences': 20,
         },
         'swap_words' : {
                 'enabled' : True,
                 'num_swaps' : 30
         },
         'shuffle_sentences': {
+            'enabled': True,
+            'shuffle_n_times': 100
+        },
+        'shuffle_passages': {
             'enabled': True,
             'shuffle_n_times': 100
         },
@@ -397,6 +435,7 @@ def get_default_augmentation_config():
             # 'distraction_insertion',
             # 'swap_words',
             # 'shuffle_sentences',
+            # 'shuffle_passages',
             # 'introduce_typos',
             # 'word_swap_embedding',
             # 'change_character_names',
