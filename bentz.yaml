@@ -42,6 +42,7 @@ augmentation:
     aug_min: 20
     aug_max: 50
     stopwords: null
+    is_per_passage: True
   distraction_insertion:
     enabled: true
     distractions: [
@@ -70,31 +71,38 @@ augmentation:
     distractions_per_sentence: 0.2
     min_sentences: 1
     max_sentences: 20
+    is_per_passage: False
   swap_words:
     enabled: true
     num_swaps: 30
+    is_per_passage: True
   shuffle_sentences:
     enabled: true
     shuffle_n_times: 100
-  shuffle_passages:
-    enabled: true
-    shuffle_n_times: 100
+    is_per_passage: False
   introduce_typos:
     enabled: true
     aug_char_p: 0.8
     aug_word_p: 0.8
+    is_per_passage: True
   word_swap_embedding:
     enabled: true
     max_candidates: 5
+    pct_words_to_swap: 0.9
+    is_per_passage: True
   change_character_names:
     enabled: true
     name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+    is_per_passage: True
   context_removal:
     enabled: true
     sentiment_threshold: 0.5
+    is_per_passage: True
   word_swap_homoglyph:
     enabled: true
     max_swaps: 100
+    pct_words_to_swap: 0.1
+    is_per_passage: True
   sentence_paraphrase:
     enabled: true
     api_type: "together"
@@ -107,15 +115,17 @@ augmentation:
     repetition_penalty: 1.0
     stop: ["<|eot_id|>"]
     stream: true
+    is_per_passage: True
   backtranslation:
     enabled: true
     src_lang: "en"
     target_lang: "fr"
+    is_per_passage: True
+  has_passage_numbers: False
   augmentation_order: [
     # "distraction_insertion",
     # "swap_words",
     # "shuffle_sentences",
-    # 'shuffle_passages',
     # "introduce_typos",
     # "word_swap_embedding",
     # "change_character_names",
