@@ -115,12 +115,27 @@ def apply_change_character_names(text: str, params: dict) -> str:
 
 
 def apply_shuffle_sentences(text: str, params: dict) -> str:
+    # Split text into paragraphs
+    paragraphs = text.split("\n\n")  # Assuming paragraphs are separated by double newlines
+    
+    # Split each paragraph into sentences using regex
+    paragraph_sentences = [re.split(r'(?<=[.!?])\s+', p) for p in paragraphs]
+    
+    # Flatten all sentences into a list and shuffle
+    all_sentences = [sentence for p in paragraph_sentences for sentence in p]
     shuffle_n_times = params.get('shuffle_n_times', 1)
-    doc = nlp(text)
-    sentences = [sent.text for sent in doc.sents]
     for _ in range(shuffle_n_times):
-        random.shuffle(sentences)
-    return ' '.join(sentences)
+        random.shuffle(all_sentences)
+    
+    # Reconstruct paragraphs with the same number of sentences
+    new_paragraphs = []
+    index = 0
+    for sentences in paragraph_sentences:
+        new_paragraphs.append(" ".join(all_sentences[index:index + len(sentences)]))
+        index += len(sentences)
+    
+    # Join paragraphs back into a string with double newlines
+    return "\n\n".join(new_paragraphs)
 
 
 def apply_context_removal(text: str, params: dict) -> str:
@@ -189,32 +204,34 @@ def distraction_insertion(text: str, params: dict) -> str:
     Insert distraction sentences into the text that simultaneously
     introduces and removes a topic/solution from the text.
     """
-    distraction = params.get('distraction', '')
+    distractions = params.get('distractions', [])
     budget = params.get('distractions_per_sentence', 0.2)
     min_sentences = params.get('min_sentences', 1)
     max_sentences = params.get('max_sentences', 20)
-    sentences = text.split('.')
+
+    # Split paragraphs while keeping them
+    paragraphs = text.split("\n\n")
+    all_sentences = [re.split(r'(?<=[.!?])\s+', para) for para in paragraphs]
     
-    number_of_distractions = max(min(int(len(sentences) * budget), max_sentences), min_sentences)
+    # Flatten to count total sentences
+    sentence_list = [sent for para in all_sentences for sent in para if sent]
 
-    candidates = np.arange(0, len(sentences), dtype=np.long)
-    distraction_indices = np.random.choice(candidates, number_of_distractions, replace=False)
-    distraction_indices.sort()
+    number_of_distractions = min(max(min(int(len(sentence_list) * budget), max_sentences), min_sentences), len(distractions))
 
-    new_sentences = []
+    # Select random distraction sentences without repetition
+    chosen_distractions = random.sample(distractions, number_of_distractions)
 
-    i = 0
-    for j, sentence in enumerate(sentences):
-        new_sentences.append(sentence)
-        if i in distraction_indices:
-            new_sentences.append(distraction)
-        i += 1
+    # Insert them at random positions
+    for distraction in chosen_distractions:
+        insert_para = random.randint(0, len(all_sentences) - 1)
+        insert_sent = random.randint(0, len(all_sentences[insert_para]))
 
+        all_sentences[insert_para].insert(insert_sent, distraction)
 
+    # Reconstruct paragraphs
+    text = "\n\n".join(" ".join(para) for para in all_sentences)
 
-    text = ". ".join(new_sentences)
-
-    return text
+    return text 
 
 
 def apply_caesar(text: str, params : dict) -> str:
@@ -281,47 +298,90 @@ def normalize_stories(data: Union[List[Any], str]) -> List[str]:
 
 # Main augmentation function
 def augment_texts(story: List[str], config: Dict[str, Any]) -> List[str]:
-    augumented_story = []
+    augmented_story = []
 
-    passage = ""
+    augmentations = config.get('augmentation_order', [])
+    if not augmentations:
+        return story
+    
+    augmentation = augmentations[0]
+    aug_params = config.get(augmentation, {})
+
+    is_aug_enabled = aug_params.get('enabled', False)
+    if not is_aug_enabled:
+        return story
+    
+    # If augumentation applied to whole story, merge passages together
+    is_per_passage = aug_params.get('is_per_passage', True)
+    if not is_per_passage:
+        story = ["\n\n".join(story)]
 
     for passage in story:
         augmented_passage = passage
 
         if passage:
-
-            leading_numbers = []
-            # Save leading numbers for later:
-            for m in re.finditer(r"(?<=^)(\d+)(?=\s+[^\s])", augmented_passage):
-                leading_numbers.append(m)
-
-            # Remove leading numbers:
-            for m in leading_numbers[::-1]:
-                augmented_passage = augmented_passage[:m.start()] + " " + augmented_passage[m.end():]
-
-
-            for augmentation in config.get('augmentation_order', []):
-                try:
-                    aug_params = config.get(augmentation, {})
-                    if aug_params.get('enabled', False):
-                        logger.info(f"Applying {augmentation}: {aug_params}")
-                        if augmentation in augmentation_functions:
-                            augmented_passage = augmentation_functions[augmentation](augmented_passage, aug_params)
-                        else:
-                            logger.error(f"Augmentation function for '{augmentation}' not found.")
-                except Exception as e:
-                    logger.error(f"Error augmenting passage: {e}")
+            try:
+                logger.info(f"Applying {augmentation}: {aug_params}")
+                if augmentation in augmentation_functions:
+                    augmented_passage = augmentation_functions[augmentation](augmented_passage, aug_params)
+                else:
+                    logger.error(f"Augmentation function for '{augmentation}' not found.")
+            except Exception as e:
+                logger.error(f"Error augmenting passage: {e}")
         else:
             logger.warning("Empty story encountered; skipping.")
-            
-        # Add leading numbers back:
-        for m in leading_numbers:
-            to_add = m.group() + " " if augmented_passage[m.start()] != " " else m.group()
-            augmented_passage = augmented_passage[:m.start()] + to_add + augmented_passage[m.start():]
-        
-        augumented_story.append(augmented_passage)
 
-    return augumented_story
+        augmented_story.append(augmented_passage)
+
+    # If augumentation applied to whole story, unmerge passages
+    if not is_per_passage:
+        augmented_story = augmented_story[0].strip().split("\n\n")
+
+    return augmented_story
+
+
+
+    # augumented_story = []
+
+    # passage = ""
+
+    # for passage in story:
+    #     augmented_passage = passage
+
+    #     if passage:
+
+    #         leading_numbers = []
+    #         # Save leading numbers for later:
+    #         for m in re.finditer(r"(?<=^)(\d+)(?=\s+[^\s])", augmented_passage):
+    #             leading_numbers.append(m)
+
+    #         # Remove leading numbers:
+    #         for m in leading_numbers[::-1]:
+    #             augmented_passage = augmented_passage[:m.start()] + " " + augmented_passage[m.end():]
+
+
+    #         for augmentation in config.get('augmentation_order', []):
+    #             try:
+    #                 aug_params = config.get(augmentation, {})
+    #                 if aug_params.get('enabled', False):
+    #                     logger.info(f"Applying {augmentation}: {aug_params}")
+    #                     if augmentation in augmentation_functions:
+    #                         augmented_passage = augmentation_functions[augmentation](augmented_passage, aug_params)
+    #                     else:
+    #                         logger.error(f"Augmentation function for '{augmentation}' not found.")
+    #             except Exception as e:
+    #                 logger.error(f"Error augmenting passage: {e}")
+    #     else:
+    #         logger.warning("Empty story encountered; skipping.")
+            
+    #     # Add leading numbers back:
+    #     for m in leading_numbers:
+    #         to_add = m.group() + " " if augmented_passage[m.start()] != " " else m.group()
+    #         augmented_passage = augmented_passage[:m.start()] + to_add + augmented_passage[m.start():]
+        
+    #     augumented_story.append(augmented_passage)
+
+    # return augumented_story
 
 
 def get_default_augmentation_config():
@@ -334,39 +394,73 @@ def get_default_augmentation_config():
             'aug_min': 20,
             'aug_max': 50,
             'stopwords': None,
+            'is_per_passage': True,
         },
         'distraction_insertion': {
             'enabled': True,
-            'distraction': "He looked for his hidden watch. He couldn't find it.",
+            'distractions': [
+                "He looked for his hidden watch, but couldn't find it.",
+                "She reached for the letter on the table, but it wasn't there.",
+                "He felt for his keys in his pocket, but found nothing.",
+                "The cat sat on the windowsill, or at least he thought it had.",
+                "She turned the page of the book, but there was no text.",
+                "He grabbed his phone to check the time, but his hands were empty.",
+                "The wind carried the sound of bells, but no bells were ringing.",
+                "She opened the drawer for the scissors, but it was empty.",
+                "He stepped onto the path that had been there yesterday, but now it was gone.",
+                "The reflection in the mirror blinked, but he hadn't moved.",
+                "She picked up the pen to write, but there was no ink.",
+                "He searched his bag for his wallet, but he must have left it at home.",
+                "The clock chimed midnight, yet there was no clock in the room.",
+                "She reached out to grab the railing, but her hand met only air.",
+                "He pulled his coat tighter, but realized he wasn't wearing one.",
+                "The photograph on the desk showed a familiar face, but the next time he looked, it was blank.",
+                "She put the teacup back on the shelf, but she had never taken it down.",
+                "He felt the weight of the book in his hands, until he didn't.",
+                "The candle flickered, but there was no flame.",
+                "She tucked the loose strand of hair behind her ear, but it wasn't there.",
+                "The footprints in the snow led nowhere, then disappeared.",
+            ],
+            'distractions_per_sentence': 0.2,
+            'min_sentences': 1,
+            'max_sentences': 20,
+            'is_per_passage': False,
         },
         'swap_words' : {
-                'enabled' : True,
-                'num_swaps' : 30
+            'enabled' : True,
+            'num_swaps' : 30,
+            'is_per_passage': True,
         },
         'shuffle_sentences': {
             'enabled': True,
-            'shuffle_n_times': 100
+            'shuffle_n_times': 100,
+            'is_per_passage': False,
         },
         'introduce_typos': {
             'enabled': True,
             'aug_char_p': 0.8,
             'aug_word_p': 0.8,
+            'is_per_passage': True,
         },
         'word_swap_embedding': {
             'enabled': True,
-            'max_candidates': 5
+            'max_candidates': 5,
+            'is_per_passage': True,
         },
         'change_character_names': {
             'enabled': True,
-            'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan']
+            'name_list': ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan'],
+            'is_per_passage': True,
         },
         'context_removal': {
             'enabled': True,
-            'sentiment_threshold': 0.5
+            'sentiment_threshold': 0.5,
+            'is_per_passage': True,
         },
         'word_swap_homoglyph': {
             'enabled': True,
-            'max_swaps': 100
+            'max_swaps': 100,
+            'is_per_passage': True,
         },
         'sentence_paraphrase': {
             'enabled': True,
@@ -378,18 +472,23 @@ def get_default_augmentation_config():
             'top_p': 0.9,
             'repetition_penalty': 1.0,
             'stop': ["<|eot_id|>"],
-            'stream': True
+            'stream': True,
+            'is_per_passage': True,
         },
         'backtranslation': {
             'enabled': True,
             'src_lang': 'en',
-            'target_lang': 'fr'
+            'target_lang': 'fr',
+            'is_per_passage': True,
         },
         'caesar_cipher': {
             'enabled': True,
             'step': 3,
-            'alphabets': (string.ascii_lowercase, string.ascii_uppercase, string.digits)
+            'alphabets': (string.ascii_lowercase, string.ascii_uppercase, string.digits),
+            'is_per_passage': True,
         },
+
+        'has_passage_numbers': False,
 
         # Commented out, but left here to show available augmentations
         # By default all of them are disabled
@@ -414,5 +513,12 @@ def process_and_augment_stories(story, augmentation_config):
 
     # Configuration for augmentation
     augmented_story = augment_texts(normalized_story, augmentation_config)
+
+    # Add passage numbers if set
+    has_passage_numbers = augmentation_config.get('has_passage_numbers', False)
+    if has_passage_numbers:
+        for i, augmented_passage in enumerate(augmented_story):
+            augmented_passage = f"{str(i + 1)} {augmented_passage}"
+            augmented_story[i] = augmented_passage
 
     return augmented_story
