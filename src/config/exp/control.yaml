@@ -1,0 +1,11 @@
+# @package _global_
+
+experiment:
+  output_dir: benchmark/
+  texts: 
+    - gerrig
+    - delatorre
+    - lehne
+    - brewer
+  augs:
+    - none

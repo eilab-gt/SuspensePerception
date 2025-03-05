@@ -1,0 +1,9 @@
+api_type: "openai"
+name:
+  - OLMo-7B-Instruct-hf
+max_tokens: 250
+temperature: 0.0
+top_p: 0.9
+repetition_penalty: 1.0
+stop: ["<|eot_id|>"]
+stream: true
