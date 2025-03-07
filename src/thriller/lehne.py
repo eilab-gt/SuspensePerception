@@ -4,7 +4,7 @@ Define experiments from Lehne, M. and Koelsch, S. 2015. Toward a general psychol
 
 common_prompt_template = """The following is E. T. A. Hoffmann's "The Sandman". 
 
-After each paragraph, rate how suspensful you found it to be on a 10-point scale, where 1 is "not suspensful" and 10 is "very suspensful".
+After each paragraph, rate how suspenseful you found it to be on a 10-point scale, where 1 is "not suspenseful" and 10 is "very suspenseful".
 """
 
 

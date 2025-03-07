@@ -1,6 +1,6 @@
 experiment:
   experiment_series: "delatorre"
-  output_dir: "./outputs/delatorre_experiment/final/e4/"
+  output_dir: "./outputs/delatorre_experiment/prompt_engineering"
 model:
   api_type: "together"
   name: [
