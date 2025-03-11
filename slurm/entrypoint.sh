@@ -11,4 +11,5 @@ cd ~/flash/thriller
 source ~/miniconda3/bin/activate
 conda activate thriller
 
+export DRY_RUN=true
 srun python src/thriller/Thriller.py -c $EXPERIMENT -o $OVERRIDES

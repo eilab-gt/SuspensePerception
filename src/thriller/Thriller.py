@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 from tqdm import tqdm
 import logging
-
+import json
 from dotenv import load_dotenv
 
 
@@ -133,8 +133,22 @@ def main(args):
         if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
             prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
 
-        print(version_prompts[experiment])
-    exit()
+    if os.environ["DRY_RUN"] and os.environ["DRY_RUN"] == "true":
+        print("Dry run enabled. Skipping experiment execution.")
+
+        # Save the prompts to a file
+        augmentation = augmentation_config.get("augmentation_order", [])
+        augmentation = "control" if augmentation[0] == "" else augmentation[0]
+        for experiment in version_prompts:
+            filename = f"prompts/{experiment_series}/{augmentation}/{experiment}.json"
+            os.makedirs(os.path.dirname(filename), exist_ok=True)
+            j = {"prompts": prompts[experiment], "version_prompts": version_prompts[experiment]}
+            with open(filename, "w"):
+                json.dump(j, open(filename, "w"))
+        
+        print("Prompts saved to file. Exiting.")
+        exit(0)
+
 
     # Run the experiment
     model_names = model_config.get("name")

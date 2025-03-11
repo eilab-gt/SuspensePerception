@@ -23,7 +23,7 @@ experiments=(
     # lehne.yaml
 )
 
-for ((j=0; j<3; j++)); do
+for ((j=0; j<1; j++)); do
     for experiment in "${experiments[@]}"; do
         for augmentation in "${augmentations[@]}"; do
 
