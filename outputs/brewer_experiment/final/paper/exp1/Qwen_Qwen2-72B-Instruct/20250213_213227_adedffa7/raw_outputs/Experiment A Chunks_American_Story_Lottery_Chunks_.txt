@@ -1,0 +1,59 @@
+Q1: 3. Somewhat
+Q2: 5. Moderately
+Q3: 1. No surprise
+
+The passage describes a seemingly ordinary summer day in a small village, with a focus on the gathering of the community for an event that takes place annually. The anticipation and excitement are somewhat present as the villagers prepare for the lottery, but there is no indication of anxiety. The desire to learn more about the events to come is moderate, as the lottery's purpose and outcome are not yet revealed. There is no surprise in the information given, as it describes a routine and familiar scene.
+
+Q1: 4. Neutral or Uncertain
+Q2: 6. Very much
+Q3: 1. No surprise
+
+The children's behavior and the gathering of stones hint at an underlying tension or purpose that is not yet clear, which creates a neutral to uncertain feeling of anticipation. The desire to learn more is high because the text has introduced an event, the lottery, without explaining its significance or outcome. There is still no surprise, as the text continues to describe expected behaviors and preparations.
+####################################################################################################
+Q1: 5. Moderately
+Q2: 6. Very much
+Q3: 3. Somewhat surprised
+
+The introduction of Mr. Summers and the black box, along with the villagers' reaction to it, creates a moderate sense of anticipation and curiosity about the significance of the box and the lottery. The desire to learn more is high due to the mysterious nature of the event and the villagers' adherence to tradition. The mention of the black box's history and its importance to the tradition is somewhat surprising, as it highlights the villagers' reluctance to change despite the box's deteriorating condition.
+
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 4. Neutral or Uncertain
+
+The detailed description of the black box and its history increases the anticipation and excitement for the events to come, as it becomes clear that the lottery is a significant and long-standing tradition. The extreme desire to learn more is driven by the growing sense of the lottery's importance and the villagers' commitment to it. There is no surprise in this section, as it continues to build on the established tradition and the villagers' adherence to it.
+####################################################################################################
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 3. Somewhat surprised
+
+The detailed description of the preparations for the lottery, including the substitution of slips of paper for wood chips and the various locations where the black box is stored, heightens the anticipation and curiosity about the event. The desire to learn more is extremely high due to the intricate rituals and the sense of tradition that surrounds the lottery. The information about the evolution of the lottery's rituals is somewhat surprising, as it reveals the changes that have occurred over time and the villagers' selective adherence to tradition.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 4. Neutral or Uncertain
+
+The anticipation and excitement are at their peak as the lottery is about to begin, with the detailed rituals and the official's role in the event. The extreme desire to learn more is driven by the suspense and the sense of the lottery's importance to the community. There is no surprise in this section, as it continues to build on the established tradition and the villagers' commitment to the lottery. The neutral or uncertain feeling of surprise comes from the anticipation of the lottery's outcome, which has not yet been revealed.
+####################################################################################################
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 3. Somewhat surprised
+
+The arrival of Mrs. Hutchinson adds a sense of normalcy and community to the event, but the underlying tension of the lottery is still present, creating a strong anticipation for what is to come. The desire to learn more is extremely high, as the dynamics between the characters and the unfolding of the lottery's process are intriguing. The information about Mrs. Hutchinson's late arrival and the casual interaction among the villagers is somewhat surprising, as it contrasts with the serious nature of the lottery.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 4. Neutral or Uncertain
+
+The mention of Clyde Dunbar's absence due to his broken leg and the question of who will draw for him intensifies the anticipation and excitement for the events to come. The extreme desire to learn more is driven by the suspense of the lottery and the unfolding of its rules and procedures. There is a neutral or uncertain feeling of surprise, as the text continues to build on the established tradition and the villagers' adherence to it without revealing any unexpected events.
+####################################################################################################
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 6. Very surprised
+
+The unfolding of the lottery and the selection of the Hutchinson family, particularly Tessie, as the "winner" creates an extreme sense of anticipation and excitement, as the true nature of the lottery becomes apparent. The desire to learn more is at its peak, as the consequences of the lottery are about to be revealed. The information about the lottery's outcome and the villagers' reaction to it is very surprising, as it exposes the dark and violent tradition that has been hinted at throughout the passage.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 7. Extremely surprised
+
+The villagers' sudden turn to violence and the stoning of Tessie Hutchinson is a shocking and disturbing event, creating an extreme sense of anticipation and excitement for the resolution of the story. The extreme desire to learn more is driven by the need to understand the villagers' actions and the full implications of the lottery. The information about the villagers' willingness to participate in the stoning and the brutal end of Tessie Hutchinson is extremely surprising, as it reveals the full horror of the tradition and the villagers' adherence to it.

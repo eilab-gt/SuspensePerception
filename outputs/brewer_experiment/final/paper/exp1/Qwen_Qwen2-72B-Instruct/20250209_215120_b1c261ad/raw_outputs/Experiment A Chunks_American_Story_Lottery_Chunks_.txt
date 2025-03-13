@@ -1,0 +1,65 @@
+Q1: 3. Somewhat
+Q2: 5. Moderately
+Q3: 1. No surprise
+
+The passage describes a seemingly ordinary summer day in a small village, with a focus on the gathering of the community for an unspecified event. The anticipation and curiosity are mild, as the event has not yet been explained, but the detail about the lottery and the gathering of the villagers suggests something significant is about to happen. There is no surprise since the events described are consistent with a typical gathering in a small community.
+
+Q1: 4. Neutral or Uncertain
+Q2: 6. Very much
+Q3: 1. No surprise
+
+The children's behavior and the gathering of stones hint at an unusual event, but without more context, it is unclear what the stones are for. The curiosity to learn more about the purpose of the gathering and the role of the stones is high, but there is still no element of surprise as the narrative has not revealed anything unexpected.
+
+Q1: 5. Moderately
+Q2: 6. Very much
+Q3: 1. No surprise
+
+The description of the villagers' interactions and the detail about the lottery taking place on June 27th build a sense of anticipation and curiosity about the nature of the lottery and its significance to the community. However, there is still no surprise as the events are unfolding in a predictable manner for a small village gathering.
+####################################################################################################
+Q1: 5. Moderately
+Q2: 6. Very much
+Q3: 2. Slightly surprised
+
+The introduction of Mr. Summers and the black box, along with the villagers' reaction to it, creates a moderate sense of anticipation and curiosity about the significance of the box and the lottery. The slight surprise comes from the villagers' reluctance to replace the box, despite its poor condition, indicating the importance of tradition in their community.
+
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 3. Somewhat surprised
+
+The detailed description of the black box and its history, along with Mr. Summers' repeated suggestions for a new one, heightens the anticipation and curiosity about the upcoming lottery. The somewhat surprised feeling comes from the villagers' strong attachment to the old box, despite its dilapidated state, suggesting a deep-rooted tradition that is not easily changed.
+####################################################################################################
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 3. Somewhat surprised
+
+The detailed description of the preparation for the lottery, including the substitution of slips of paper for wood chips and the various locations where the black box is stored, increases the anticipation and curiosity about the event. The somewhat surprised feeling comes from the revelation that parts of the ritual have been forgotten or changed over time, indicating a shift in tradition.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 4. Neutral or Uncertain
+
+The anticipation and curiosity are at their peak as the lottery is about to begin, with the detailed process of organizing the participants and the formalities involved. There is no surprise in this section, as it continues to build on the established tradition and ritual of the lottery. The neutral feeling regarding surprise is due to the passage not introducing any unexpected events or information at this point.
+####################################################################################################
+Q1: 6. Very much
+Q2: 7. Extremely
+Q3: 2. Slightly surprised
+
+The arrival of Mrs. Hutchinson adds a sense of normalcy and community to the event, but the underlying tension of the lottery and the anticipation of its start are palpable. The slight surprise comes from the casual and almost festive atmosphere despite the serious nature of the event that is about to unfold.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 3. Somewhat surprised
+
+As the lottery is about to begin, the anticipation and excitement are at their peak. The curiosity to learn more about the event and its outcome is extremely high. The somewhat surprised feeling comes from the fact that even with someone missing (Clyde Dunbar), the community is eager to proceed, indicating a strong adherence to tradition and the routine nature of the lottery.
+####################################################################################################
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 6. Very surprised
+
+The tension and anticipation are at their peak as the lottery progresses, with the Hutchinson family being the focus of the community's attention. The extreme desire to learn more about the events to come is driven by the unfolding drama and the suspense of the lottery's outcome. The very surprising turn of events comes from the revelation of the lottery's true nature, which is far more sinister than initially anticipated.
+
+Q1: 7. Extremely
+Q2: 7. Extremely
+Q3: 7. Extremely surprised
+
+As the story reaches its climax, the extreme anticipation and excitement are mixed with anxiety about the violent and tragic events that are about to unfold. The extreme desire to learn more is driven by the need to understand the full implications of the lottery and the community's response. The extremely surprising events come from the shocking and brutal conclusion of the lottery, which reveals the dark and primitive undercurrents of the seemingly peaceful village.

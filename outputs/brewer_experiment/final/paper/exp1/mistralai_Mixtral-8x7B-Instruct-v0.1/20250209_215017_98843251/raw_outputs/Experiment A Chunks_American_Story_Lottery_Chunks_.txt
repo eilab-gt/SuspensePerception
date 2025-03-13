@@ -1,0 +1,19 @@
+ Q1: Not at all
+Q2: Slightly
+Q3: No surprise
+####################################################################################################
+ Q1: Not at all
+Q2: Neutral or Uncertain
+Q3: No surprise
+####################################################################################################
+Error - No Response: Input is Invalid
+####################################################################################################
+ Q1: Not at all
+Q2: Slightly
+Q3: No surprise
+####################################################################################################
+ Q1: Somewhat
+Q2: Neutral or Uncertain
+Q3: Somewhat surprised 
+
+The level of anticipation and excitement is somewhat elevated as the lottery ceremony is about to commence. The reader, like the villagers, wants to learn more about the outcome of the lottery but is also somewhat surprised by the violence and injustice of the tradition.

@@ -1,0 +1,19 @@
+ Q1: Not at all
+Q2: Slightly
+Q3: No surprise
+####################################################################################################
+ Q1: Not at all
+Q2: Neutral or Uncertain
+Q3: No surprise
+####################################################################################################
+Error - No Response: Input is Invalid
+####################################################################################################
+ Q1: Slightly
+Q2: Neutral or Uncertain
+Q3: No surprise
+####################################################################################################
+ Q1: Extremely
+Q2: Very much
+Q3: Somewhat surprised 
+
+The level of anticipation, excitement, and anxiety is extremely high as the lottery is about to take place and everyone is waiting for the result. The reader also wants to learn more about the events yet to come in the passage, particularly the outcome of the lottery. The reader is somewhat surprised by the violent and sudden turn of events, as the villagers turn on Tessie Hutchinson after the lottery.
