@@ -3,7 +3,8 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=6
-#SBATCH --qos="short"
+#SBATCH --qos=short
+#SBATCH --partition=ei-lab
 
 echo "Starting job $SLURM_JOB_ID"
 
@@ -11,4 +12,5 @@ cd ~/flash/thriller
 source ~/miniconda3/bin/activate
 conda activate thriller
 
+# export DRY_RUN=1
 srun python src/thriller/Thriller.py -c $EXPERIMENT -o $OVERRIDES

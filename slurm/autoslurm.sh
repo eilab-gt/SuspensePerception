@@ -12,7 +12,7 @@ augmentations=(
     # "sentence_paraphrase"
     "synonym_replacement"
     "antonym_replacement"
-    "caesar_cypher"
+    "caesar_cipher"
     "" # no augmentation
 )
 
@@ -22,6 +22,8 @@ experiments=(
     # brewer.yaml
     # lehne.yaml
 )
+
+# export DRY_RUN=1
 
 for ((j=0; j<3; j++)); do
     for experiment in "${experiments[@]}"; do
