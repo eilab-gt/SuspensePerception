@@ -1,0 +1,10 @@
+To answer the questions, I'll first decrypt the text using a Caesar cipher with a step of 3.
+
+Decrypted text:
+
+The following is an excerpt from Ian Fleming's first James Bond novel, 'Casino Royale'. In this book, James Bond has been assigned to ‘ruin’ a criminal figure named Le Chiffre by, as it happens, causing Le Chiffre to lose a considerable amount of money gambling. Along the way, Bond has acquired a lady interest named Vesper. Although Bond has, in fact, brought about the gambling losses, Le Chiffre has laid a successful trap for Bond. Bond and Vesper are now the prisoners of Le Chiffre and his two gunmen.
+
+***Question 1: "How likely is it that Bond will escape from Le Chiffre?"***
+I would answer: 1. Not very likely
+
+Bond and Vesper are prisoners of Le Chiffre and his gunmen, and they seem to be in a precarious situation

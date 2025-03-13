@@ -1,0 +1,11 @@
+To answer the questions, I'll first decrypt the text using a Caesar cipher with a step of 3.
+
+Decrypted text:
+
+The following is an excerpt from Ian Fleming's tenth James Bond novel, 'On Her Majesty's Secret Service'. In this book, James Bond has been assigned to ‘ruin’ a criminal figure named Blofeld by, as it happens, causing Blofeld to lose a considerable amount of money gambling. Along the way, Bond has acquired a lady interest named Vesper. Although Bond has, in fact, brought about the gambling losses, Blofeld has laid a successful trap for Bond. Bond and Vesper are now the prisoners of Blofeld and his two gunmen.
+
+***Question 1: "How likely is it that Bond will escape from Blofeld?"***
+
+I would answer: 1. Not very likely
+
+Bond and Vesper are prisoners of Blofeld and his gunmen, and Blofeld seems to have a plan to keep them captive. The situation doesn't look
