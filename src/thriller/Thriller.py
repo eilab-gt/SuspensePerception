@@ -133,7 +133,7 @@ def main(args):
         if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
             prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
 
-    if os.environ["DRY_RUN"] and os.environ["DRY_RUN"] == "true":
+    if os.environ["DRY_RUN"] and os.environ["DRY_RUN"] == "1":
         print("Dry run enabled. Skipping experiment execution.")
 
         # Save the prompts to a file

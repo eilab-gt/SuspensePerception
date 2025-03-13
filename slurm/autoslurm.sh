@@ -12,7 +12,7 @@ augmentations=(
     # "sentence_paraphrase"
     "synonym_replacement"
     "antonym_replacement"
-    "caesar_cypher"
+    "caesar_cipher"
     "" # no augmentation
 )
 
@@ -23,7 +23,9 @@ experiments=(
     # lehne.yaml
 )
 
-for ((j=0; j<1; j++)); do
+# export DRY_RUN=1
+
+for ((j=0; j<3; j++)); do
     for experiment in "${experiments[@]}"; do
         for augmentation in "${augmentations[@]}"; do
 

@@ -43,6 +43,11 @@ augmentation:
     aug_max: 50
     stopwords: null
     is_per_passage: True
+  antonym_replacement:
+    enabled: true
+    aug_p: 0.8
+    aug_min: 1
+    aug_max: 50
   distraction_insertion:
     enabled: true
     distractions: [

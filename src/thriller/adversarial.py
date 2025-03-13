@@ -158,6 +158,9 @@ def apply_word_swap_embedding(text: str, params: dict) -> str:
     augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
     augmented_text = augmenter.augment(text)
     
+    while type(augmented_text) != str:
+        augmented_text = augmented_text[0]
+
     return augmented_text
 
 
@@ -169,6 +172,9 @@ def apply_word_swap_homoglyph(text: str, params: dict) -> str:
 
     augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
     augmented_text = augmenter.augment(text)
+
+    while type(augmented_text) != str:
+        augmented_text = augmented_text[0]
 
     return augmented_text
 
