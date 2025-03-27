@@ -149,13 +149,13 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     texts = {
         "Experiment": [
             ("Journalistic Good Not Revealed", journalistic_good_notrevealed.strip().split("\n\n")),
-            # ("Journalistic Good Revealed", journalistic_good_revealed.strip().split("\n\n")),
-            # ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed.strip().split("\n\n")),
-            # ("Journalistic Bad Revealed", journalistic_bad_revealed.strip().split("\n\n")),
-            # ("Novel Good Not Revealed", novel_good_notrevealed.strip().split("\n\n")),
-            # ("Novel Good Revealed", novel_good_revealed.strip().split("\n\n")),
-            # ("Novel Bad Not Revealed", novel_bad_notrevealed.strip().split("\n\n")),
-            # ("Novel Bad Revealed", novel_bad_revealed.strip().split("\n\n")),
+            ("Journalistic Good Revealed", journalistic_good_revealed.strip().split("\n\n")),
+            ("Journalistic Bad Not Revealed", journalistic_bad_notrevealed.strip().split("\n\n")),
+            ("Journalistic Bad Revealed", journalistic_bad_revealed.strip().split("\n\n")),
+            ("Novel Good Not Revealed", novel_good_notrevealed.strip().split("\n\n")),
+            ("Novel Good Revealed", novel_good_revealed.strip().split("\n\n")),
+            ("Novel Bad Not Revealed", novel_bad_notrevealed.strip().split("\n\n")),
+            ("Novel Bad Revealed", novel_bad_revealed.strip().split("\n\n")),
         ],
     }
 
