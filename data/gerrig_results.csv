@@ -1,98 +1,98 @@
 experiment_name,version,attack,0,0,1,1,mean_score,mean_score
 ,,,mean,std,mean,std,mean,std
-Experiment A,Pen Mentioned Not Removed,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment A,Pen Mentioned Not Removed,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,swap_words,1.0,0.0,6.666666666666667,0.5773502691896257,3.8333333333333335,0.28867513459481287
-Experiment A,Pen Mentioned Not Removed,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Not Removed,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment A,Pen Mentioned Not Removed,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment A,Pen Mentioned Removed,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,swap_words,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Mentioned Removed,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment A,Pen Mentioned Removed,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment A,Pen Not Mentioned,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,swap_words,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment A,Pen Not Mentioned,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment A,Pen Not Mentioned,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,caesar_cipher,1.0,0.0,6.0,,1.8333333333333333,1.4433756729740643
-Experiment B,Unused Comb,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,swap_words,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Unused Comb,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment B,Unused Comb,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment B,Used Comb,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,shuffle_sentences,1.0,0.0,6.0,0.0,3.5,0.0
-Experiment B,Used Comb,swap_words,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment B,Used Comb,word_swap_embedding,1.0,,6.0,,3.5,
-Experiment B,Used Comb,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,change_character_names,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,context_removal,1.0,0.0,6.666666666666667,0.5773502691896258,3.8333333333333335,0.2886751345948129
-Experiment C,Prior Solution Mentioned Not Removed,control,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned Not Removed,swap_words,1.0,0.0,6.666666666666667,0.5773502691896258,3.8333333333333335,0.2886751345948129
-Experiment C,Prior Solution Mentioned Not Removed,synonym_replacement,1.0,0.0,6.333333333333333,0.5773502691896257,3.6666666666666665,0.28867513459481287
-Experiment C,Prior Solution Mentioned Not Removed,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment C,Prior Solution Mentioned Not Removed,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,antonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,change_character_names,1.0,0.0,6.333333333333333,0.5773502691896257,3.6666666666666665,0.28867513459481287
-Experiment C,Prior Solution Mentioned and Removed,context_removal,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,control,1.0,0.0,6.666666666666667,0.5773502691896258,3.8333333333333335,0.2886751345948129
-Experiment C,Prior Solution Mentioned and Removed,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,swap_words,1.0,0.0,6.0,0.0,3.5,0.0
-Experiment C,Prior Solution Mentioned and Removed,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Mentioned and Removed,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment C,Prior Solution Mentioned and Removed,word_swap_homoglyph,1.0,0.0,6.333333333333333,0.5773502691896257,3.6666666666666665,0.28867513459481287
-Experiment C,Prior Solution Not Mentioned,antonym_replacement,1.0,0.0,6.333333333333333,0.5773502691896257,3.6666666666666665,0.28867513459481287
-Experiment C,Prior Solution Not Mentioned,caesar_cipher,1.0,0.0,,,1.0,0.0
-Experiment C,Prior Solution Not Mentioned,change_character_names,1.0,0.0,6.0,0.0,3.5,0.0
-Experiment C,Prior Solution Not Mentioned,context_removal,1.0,0.0,6.333333333333333,0.5773502691896258,3.6666666666666665,0.2886751345948129
-Experiment C,Prior Solution Not Mentioned,control,1.0,0.0,6.0,0.0,3.5,0.0
-Experiment C,Prior Solution Not Mentioned,distraction_insertion,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Not Mentioned,introduce_typos,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Not Mentioned,shuffle_sentences,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Not Mentioned,swap_words,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Not Mentioned,synonym_replacement,1.0,0.0,7.0,0.0,4.0,0.0
-Experiment C,Prior Solution Not Mentioned,word_swap_embedding,1.0,,7.0,,4.0,
-Experiment C,Prior Solution Not Mentioned,word_swap_homoglyph,1.0,0.0,7.0,0.0,4.0,0.0
+Experiment A,Pen Mentioned Not Removed,antonym_replacement,3.5185185185185186,0.27962349760262023,5.777777777777778,0.0,4.648148148148148,0.1398117488013099
+Experiment A,Pen Mentioned Not Removed,caesar_cipher,2.814814814814815,0.2566001196398338,5.875,0.0,4.0740740740740735,0.1283000598199169
+Experiment A,Pen Mentioned Not Removed,change_character_names,3.6296296296296298,0.16972502573910517,5.7407407407407405,0.06415002990995826,4.685185185185185,0.0641500299099587
+Experiment A,Pen Mentioned Not Removed,context_removal,3.7407407407407405,0.320750149549792,5.805555555555556,0.17347216662217793,4.722222222222222,0.2939723678960657
+Experiment A,Pen Mentioned Not Removed,control,3.233333333333333,0.30550504633038944,5.900000000000001,0.0,4.566666666666666,0.15275252316519466
+Experiment A,Pen Mentioned Not Removed,distraction_insertion,3.0,0.11111111111111105,5.62962962962963,0.06415002990995858,4.314814814814815,0.0641500299099587
+Experiment A,Pen Mentioned Not Removed,introduce_typos,3.592592592592593,0.25660011963983353,5.893518518518519,0.2992832659054444,4.666666666666667,0.16666666666666674
+Experiment A,Pen Mentioned Not Removed,shuffle_sentences,4.185185185185185,0.06415002990995897,6.111111111111111,0.0,5.148148148148148,0.03207501495497923
+Experiment A,Pen Mentioned Not Removed,swap_words,3.592592592592592,0.06415002990995838,6.111111111111111,0.0,4.851851851851852,0.03207501495497948
+Experiment A,Pen Mentioned Not Removed,synonym_replacement,3.074074074074074,0.44905020936970896,6.1157407407407405,0.00801875373874503,4.5740740740740735,0.25660011963983376
+Experiment A,Pen Mentioned Not Removed,word_swap_embedding,3.888888888888889,0.0,6.0,0.11111111111111072,4.944444444444445,0.05555555555555536
+Experiment A,Pen Mentioned Not Removed,word_swap_homoglyph,3.407407407407407,0.25660011963983376,5.666666666666667,0.0,4.537037037037037,0.12830005981991632
+Experiment A,Pen Mentioned Removed,antonym_replacement,3.2962962962962963,0.35717225040714656,5.851851851851852,0.06415002990995883,4.5740740740740735,0.21032993873334369
+Experiment A,Pen Mentioned Removed,caesar_cipher,3.185185185185185,0.4490502093697091,6.0,0.0,4.314814814814815,0.2245251046848547
+Experiment A,Pen Mentioned Removed,change_character_names,3.6666666666666665,0.1924500897298753,5.703703703703703,0.06415002990995826,4.685185185185184,0.1283000598199169
+Experiment A,Pen Mentioned Removed,context_removal,3.0,0.2939723678960656,5.8842592592592595,0.00801875373874503,4.388888888888888,0.14698618394803292
+Experiment A,Pen Mentioned Removed,control,2.9,0.17320508075688756,5.966666666666666,0.15275252316519472,4.433333333333334,0.16072751268321614
+Experiment A,Pen Mentioned Removed,distraction_insertion,3.185185185185185,0.2566001196398338,6.111111111111111,0.0,4.648148148148148,0.12830005981991682
+Experiment A,Pen Mentioned Removed,introduce_typos,3.111111111111111,0.0,6.0,0.0,4.555555555555555,0.0
+Experiment A,Pen Mentioned Removed,shuffle_sentences,3.7777777777777772,0.19245008972987535,6.166666666666667,0.07216878364870329,4.7407407407407405,0.11564811108145191
+Experiment A,Pen Mentioned Removed,swap_words,3.6296296296296298,0.12830005981991688,6.0,0.11111111111111072,4.814814814814814,0.03207501495497903
+Experiment A,Pen Mentioned Removed,synonym_replacement,3.444444444444444,0.1924500897298751,6.083333333333333,0.07216878364870329,4.648148148148148,0.1283000598199172
+Experiment A,Pen Mentioned Removed,word_swap_embedding,3.2222222222222228,0.19245008972987535,6.0,0.0,4.611111111111112,0.09622504486493792
+Experiment A,Pen Mentioned Removed,word_swap_homoglyph,2.888888888888889,0.0,6.0,0.0,4.444444444444445,0.0
+Experiment A,Pen Not Mentioned,antonym_replacement,3.407407407407407,0.2566001196398336,5.7407407407407405,0.06415002990995826,4.5740740740740735,0.11564811108145207
+Experiment A,Pen Not Mentioned,caesar_cipher,2.9629629629629632,0.2566001196398338,6.0,0.0,4.203703703703703,0.12830005981991682
+Experiment A,Pen Not Mentioned,change_character_names,3.2592592592592595,0.3207501495497921,5.703703703703703,0.06415002990995826,4.481481481481481,0.12830005981991652
+Experiment A,Pen Not Mentioned,context_removal,3.1481481481481484,0.4206598774666872,5.851851851851852,0.06415002990995845,4.5,0.20030840419244395
+Experiment A,Pen Not Mentioned,control,3.1666666666666665,0.2309401076758502,5.866666666666667,0.05773502691896301,4.516666666666667,0.10408329997330627
+Experiment A,Pen Not Mentioned,distraction_insertion,2.8518518518518516,0.2566001196398337,5.62962962962963,0.06415002990995858,4.2407407407407405,0.11564811108145191
+Experiment A,Pen Not Mentioned,introduce_typos,2.888888888888889,0.4006168083848878,5.444444444444444,0.11111111111111126,4.166666666666667,0.24216105241892652
+Experiment A,Pen Not Mentioned,shuffle_sentences,4.0740740740740735,0.06415002990995826,6.041666666666667,0.07216878364870329,5.037037037037037,0.03207501495497903
+Experiment A,Pen Not Mentioned,swap_words,3.925925925925926,0.12830005981991688,5.9259259259259265,0.06415002990995826,4.851851851851852,0.16037507477489588
+Experiment A,Pen Not Mentioned,synonym_replacement,3.7037037037037037,0.12830005981991688,6.0,0.11111111111111072,4.851851851851852,0.03207501495497948
+Experiment A,Pen Not Mentioned,word_swap_embedding,4.148148148148148,0.320750149549792,6.0,0.0,5.074074074074074,0.16037507477489574
+Experiment A,Pen Not Mentioned,word_swap_homoglyph,3.2962962962962963,0.0641500299099586,5.7407407407407405,0.06415002990995806,4.518518518518518,0.03207501495497903
+Experiment B,Unused Comb,antonym_replacement,2.4444444444444446,0.0,6.0,0.0,4.222222222222222,0.0
+Experiment B,Unused Comb,caesar_cipher,2.888888888888889,0.0,5.916666666666667,0.07216878364870309,4.12962962962963,0.03207501495497948
+Experiment B,Unused Comb,change_character_names,2.7777777777777772,0.0,5.962962962962963,0.06415002990995826,4.37037037037037,0.032075014954979546
+Experiment B,Unused Comb,context_removal,2.6666666666666665,0.11111111111111127,6.0,0.0,4.333333333333333,0.05555555555555591
+Experiment B,Unused Comb,control,2.3,0.0,6.099999999999999,0.0,4.2,0.0
+Experiment B,Unused Comb,distraction_insertion,2.4814814814814814,0.25660011963983337,6.0740740740740735,0.06415002990995826,4.277777777777778,0.1469861839480325
+Experiment B,Unused Comb,introduce_typos,2.888888888888889,0.0,5.888888888888889,0.0,4.388888888888889,0.0
+Experiment B,Unused Comb,shuffle_sentences,4.333333333333333,0.0,6.111111111111111,0.0,5.222222222222222,0.0
+Experiment B,Unused Comb,swap_words,3.0370370370370368,0.2566001196398338,5.9259259259259265,0.06415002990995826,4.481481481481482,0.16037507477489588
+Experiment B,Unused Comb,synonym_replacement,2.7037037037037037,0.2566001196398338,6.0740740740740735,0.06415002990995826,4.388888888888888,0.14698618394803292
+Experiment B,Unused Comb,word_swap_embedding,2.6666666666666665,0.19245008972987535,6.0740740740740735,0.06415002990995806,4.37037037037037,0.0641500299099587
+Experiment B,Unused Comb,word_swap_homoglyph,2.555555555555556,0.1924500897298751,6.0740740740740735,0.06415002990995826,4.314814814814815,0.11564811108145216
+Experiment B,Used Comb,antonym_replacement,2.6666666666666665,0.0,5.888888888888889,0.11111111111111083,4.277777777777778,0.05555555555555536
+Experiment B,Used Comb,caesar_cipher,2.888888888888889,0.0,6.0476190476190474,0.08247860988423215,4.166666666666667,0.0
+Experiment B,Used Comb,change_character_names,2.8518518518518516,0.3207501495497923,5.851851851851852,0.0641500299099587,4.351851851851852,0.12830005981991677
+Experiment B,Used Comb,context_removal,2.4444444444444446,0.222222222222222,6.0,0.0,4.203703703703703,0.1156481110814519
+Experiment B,Used Comb,control,2.566666666666667,0.11547005383792529,6.066666666666666,0.11547005383792494,4.316666666666666,0.11547005383792494
+Experiment B,Used Comb,distraction_insertion,2.4444444444444446,0.1924500897298751,5.962962962962963,0.06415002990995826,4.203703703703703,0.06415002990995826
+Experiment B,Used Comb,introduce_typos,2.7407407407407405,0.06415002990995845,5.962962962962963,0.06415002990995826,4.351851851851852,0.06415002990995883
+Experiment B,Used Comb,shuffle_sentences,3.185185185185185,0.320750149549792,5.796296296296297,0.08018753738744831,4.462962962962963,0.1398117488013101
+Experiment B,Used Comb,swap_words,2.7777777777777772,0.19245008972987535,5.888888888888889,0.11111111111111126,4.333333333333333,0.05555555555555591
+Experiment B,Used Comb,synonym_replacement,2.4444444444444446,0.0,5.851851851851852,0.06415002990995883,4.148148148148148,0.03207501495497961
+Experiment B,Used Comb,word_swap_embedding,3.0,0.0,5.814814814814814,0.06415002990995897,4.407407407407407,0.03207501495497903
+Experiment B,Used Comb,word_swap_homoglyph,2.7407407407407405,0.06415002990995845,5.962962962962963,0.06415002990995826,4.351851851851852,0.06415002990995883
+Experiment C,Prior Solution Mentioned Not Removed,antonym_replacement,3.2222222222222228,0.19245008972987535,5.7407407407407405,0.06415002990995806,4.481481481481482,0.06415002990995806
+Experiment C,Prior Solution Mentioned Not Removed,caesar_cipher,3.592592592592593,0.12830005981991663,5.708333333333333,0.07216878364870329,4.388888888888889,0.05555555555555591
+Experiment C,Prior Solution Mentioned Not Removed,change_character_names,2.8518518518518516,0.1697250257391054,5.541666666666667,0.18162078931419523,4.185185185185185,0.16972502573910506
+Experiment C,Prior Solution Mentioned Not Removed,context_removal,3.4814814814814814,0.16972502573910486,5.703703703703703,0.1697250257391058,4.592592592592593,0.08486251286955288
+Experiment C,Prior Solution Mentioned Not Removed,control,3.2000000000000006,0.0,5.855555555555555,0.06758625033664684,4.5,0.050000000000000044
+Experiment C,Prior Solution Mentioned Not Removed,distraction_insertion,2.7407407407407405,0.06415002990995826,6.0,0.0,4.37037037037037,0.03207501495497993
+Experiment C,Prior Solution Mentioned Not Removed,introduce_typos,3.0,0.0,6.0,0.0,4.5,0.0
+Experiment C,Prior Solution Mentioned Not Removed,shuffle_sentences,3.1481481481481484,0.06415002990995841,6.0,0.0,4.5740740740740735,0.03207501495497903
+Experiment C,Prior Solution Mentioned Not Removed,swap_words,3.111111111111111,0.11111111111111116,5.6157407407407405,0.05613127617121396,4.314814814814816,0.1283000598199169
+Experiment C,Prior Solution Mentioned Not Removed,synonym_replacement,3.185185185185185,0.12830005981991696,5.888888888888889,0.11111111111111094,4.537037037037037,0.0848625128695522
+Experiment C,Prior Solution Mentioned Not Removed,word_swap_embedding,2.888888888888889,0.0,5.958333333333333,0.07216878364870309,4.407407407407407,0.0641500299099587
+Experiment C,Prior Solution Mentioned Not Removed,word_swap_homoglyph,3.0,0.0,6.0,0.0,4.5,0.0
+Experiment C,Prior Solution Mentioned and Removed,antonym_replacement,2.814814814814815,0.2796234976026204,6.037037037037037,0.12830005981991652,4.4259259259259265,0.08486251286955233
+Experiment C,Prior Solution Mentioned and Removed,caesar_cipher,3.2592592592592595,0.06415002990995845,5.583333333333333,0.14433756729740638,4.166666666666667,0.05555555555555591
+Experiment C,Prior Solution Mentioned and Removed,change_character_names,2.6435185185185186,0.32165099430892125,5.583333333333333,0.2886751345948129,4.0717592592592595,0.29871875751371046
+Experiment C,Prior Solution Mentioned and Removed,context_removal,3.111111111111111,0.0,6.0,0.0,4.555555555555555,0.0
+Experiment C,Prior Solution Mentioned and Removed,control,2.533333333333333,0.20816659994661363,6.1000000000000005,0.09999999999999987,4.316666666666666,0.1040832999733065
+Experiment C,Prior Solution Mentioned and Removed,distraction_insertion,3.111111111111111,0.0,5.7407407407407405,0.06415002990995826,4.4259259259259265,0.03207501495497903
+Experiment C,Prior Solution Mentioned and Removed,introduce_typos,2.814814814814815,0.06415002990995838,6.0740740740740735,0.06415002990995806,4.444444444444445,0.0
+Experiment C,Prior Solution Mentioned and Removed,shuffle_sentences,3.7407407407407405,0.23129622216290371,5.768518518518519,0.11226255234242716,4.7407407407407405,0.11564811108145173
+Experiment C,Prior Solution Mentioned and Removed,swap_words,3.1481481481481484,0.12830005981991696,5.8842592592592595,0.00801875373874503,4.462962962962963,0.160375074774896
+Experiment C,Prior Solution Mentioned and Removed,synonym_replacement,3.0,0.1924500897298752,6.037037037037037,0.12830005981991632,4.518518518518518,0.03207501495497903
+Experiment C,Prior Solution Mentioned and Removed,word_swap_embedding,2.7777777777777772,0.0,5.814814814814814,0.0641500299099587,4.296296296296297,0.03207501495497923
+Experiment C,Prior Solution Mentioned and Removed,word_swap_homoglyph,3.0,0.0,6.0,0.19245008972987515,4.5,0.09622504486493728
+Experiment C,Prior Solution Not Mentioned,antonym_replacement,3.1481481481481484,0.12830005981991688,5.814814814814816,0.1283000598199169,4.481481481481481,0.1283000598199169
+Experiment C,Prior Solution Not Mentioned,caesar_cipher,3.2592592592592595,0.23129622216290355,5.75,0.125,4.2407407407407405,0.1697250257391058
+Experiment C,Prior Solution Not Mentioned,change_character_names,3.074074074074074,0.12830005981991688,5.421296296296297,0.04009376869372406,4.222222222222222,0.0
+Experiment C,Prior Solution Not Mentioned,context_removal,2.888888888888889,0.0,5.518518518518519,0.06415002990995826,4.203703703703703,0.03207501495497903
+Experiment C,Prior Solution Not Mentioned,control,3.0,0.0,5.766666666666667,0.152752523165195,4.383333333333334,0.07637626158259753
+Experiment C,Prior Solution Not Mentioned,distraction_insertion,3.2222222222222228,0.0,5.666666666666667,0.0,4.444444444444445,0.0
+Experiment C,Prior Solution Not Mentioned,introduce_typos,3.3333333333333335,0.11111111111111116,5.7407407407407405,0.06415002990995826,4.537037037037037,0.03207501495497923
+Experiment C,Prior Solution Not Mentioned,shuffle_sentences,3.8518518518518516,0.16972502573910517,5.666666666666667,0.19245008972987546,4.7592592592592595,0.06415002990995806
+Experiment C,Prior Solution Not Mentioned,swap_words,2.6666666666666665,0.19245008972987546,5.9259259259259265,0.06415002990995826,4.296296296296297,0.1283000598199172
+Experiment C,Prior Solution Not Mentioned,synonym_replacement,3.074074074074074,0.12830005981991688,5.666666666666667,0.0,4.37037037037037,0.06415002990995858
+Experiment C,Prior Solution Not Mentioned,word_swap_embedding,2.888888888888889,0.19245008972987535,5.666666666666667,0.0,4.277777777777778,0.09622504486493792
+Experiment C,Prior Solution Not Mentioned,word_swap_homoglyph,3.0370370370370368,0.06415002990995826,5.777777777777779,0.11111111111111126,4.407407407407407,0.03207501495497923
