@@ -1,4 +1,3 @@
-import json
 from pathlib import Path
 from unittest.mock import mock_open, patch
 
@@ -6,13 +5,8 @@ import pytest
 import together
 
 from src.thriller.api import generate_response, save_raw_api_output
+from src.thriller.utils import save_test_output
 
-
-def save_test_output(test_name, output):
-    output_dir = Path("Thriller/tests/outputs")
-    output_dir.mkdir(parents=True, exist_ok=True)
-    with open(output_dir / f"{test_name}.json", "w") as f:
-        json.dump(output, f, indent=2)
 
 
 def test_generate_response_openai(mock_openai):
@@ -84,22 +78,3 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     output = {"response": "test"}
     save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
 
-    # The write method is called multiple times; verify each call
-    # expected_calls = [
-    #     call().write("{\n"),
-    #     call().write('  "response": "test"\n'),
-    #     call().write("}"),
-    # ]
-
-    # # Adjust the expected calls to match the actual behavior of json.dump
-    # actual_calls = [
-    #     call().write("{"),
-    #     call().write("\n  "),
-    #     call().write('"response"'),
-    #     call().write(": "),
-    #     call().write('"test"'),
-    #     call().write("\n"),
-    #     call().write("}"),
-    # ]
-
-    # mock_file().write.assert_has_calls(actual_calls, any_order=True)

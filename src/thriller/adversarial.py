@@ -18,7 +18,7 @@ from typing import List, Dict, Any, Union
 import torch
 import difflib
 import textattack
-from misc import generate_response
+from .misc import generate_response
 import re
 
 import nltk

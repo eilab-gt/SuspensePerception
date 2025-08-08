@@ -84,17 +84,6 @@ def test_thriller(
     assert call_args["model_config"]["api_type"] == "together"
     mock_process_and_save_results.assert_called_once()
 
-    # The following assertions are not be relevant while an API key error is to be expected.
-    # Uncomment to check these even when an error is raised, or once I figure out how to auth to API w/o incurring cost
-    # # Assert that the configuration was loaded
-    # mock_load_config.assert_called_once()
-    # # Assert that run_experiment was called
-    # mock_run_experiment.assert_called_once()
-    # call_args = mock_run_experiment.call_args[1]
-    # assert 'model_config' in call_args
-    # assert call_args['model_config']['api_key'] == "TOGETHER_API_KEY"
-    # assert call_args['model_config']['api_type'] == "together"
-    # mock_process_and_save_results.assert_called_once()
 
 
 def test_parse_arguments():
