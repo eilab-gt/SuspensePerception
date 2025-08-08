@@ -1,0 +1,5 @@
+# @package _global_
+
+text:
+  experiment_series: "default"
+  output_dir: ???

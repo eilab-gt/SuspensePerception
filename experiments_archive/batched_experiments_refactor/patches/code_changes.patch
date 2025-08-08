@@ -1,0 +1,500 @@
+diff --git a/bentz.yaml b/bentz.yaml
+deleted file mode 100644
+index f683ed5a..00000000
+--- a/bentz.yaml
++++ /dev/null
+@@ -1,138 +0,0 @@
+-experiment:
+-  experiment_series: "bentz"
+-  output_dir: "./outputs/bentz_experiment/final/e1/"
+-model:
+-  api_type: "together"
+-  name: [
+-    "meta-llama/Llama-3-8b-chat-hf",
+-    "meta-llama/Llama-3-70b-chat-hf",
+-    "meta-llama/Llama-2-7b-chat-hf",
+-    # "meta-llama/Llama-2-13b-chat-hf", # no response
+-    "google/gemma-2-9b-it",
+-    "google/gemma-2-27b-it",
+-    "mistralai/Mistral-7B-Instruct-v0.3",
+-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+-    "Qwen/Qwen2-72B-Instruct",
+-    "deepseek-ai/DeepSeek-V3",
+-    "microsoft/WizardLM-2-8x22B",
+-  ]
+-  max_tokens: 250
+-  temperature: 1.0
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|eot_id|>"]
+-  stream: true
+-parse_model:
+-  api_type: "together"
+-  name: "meta-llama/Llama-3-8b-chat-hf"
+-  prompt: >
+-    The following text provides a numerical rating of a passage. Extract numerical value in the text and nothing else. Structure your output as a single word in the format: ```value```
+-  max_tokens: 250
+-  temperature: 0.0 # Parser should always be deterministic
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|eot_id|>"]
+-  stream: true
+-augmentation:
+-  synonym_replacement: 
+-    enabled: true
+-    aug_p: 0.8
+-    aug_src: "wordnet"
+-    model_path: "bert-base-uncased"
+-    aug_min: 20
+-    aug_max: 50
+-    stopwords: null
+-    is_per_passage: True
+-  distraction_insertion:
+-    enabled: true
+-    distractions: [
+-      "He looked for his hidden watch, but couldn't find it.",
+-      "She reached for the letter on the table, but it wasn't there.",
+-      "He felt for his keys in his pocket, but found nothing.",
+-      "The cat sat on the windowsill, or at least he thought it had.",
+-      "She turned the page of the book, but there was no text.",
+-      "He grabbed his phone to check the time, but his hands were empty.",
+-      "The wind carried the sound of bells, but no bells were ringing.",
+-      "She opened the drawer for the scissors, but it was empty.",
+-      "He stepped onto the path that had been there yesterday, but now it was gone.",
+-      "The reflection in the mirror blinked, but he hadn't moved.",
+-      "She picked up the pen to write, but there was no ink.",
+-      "He searched his bag for his wallet, but he must have left it at home.",
+-      "The clock chimed midnight, yet there was no clock in the room.",
+-      "She reached out to grab the railing, but her hand met only air.",
+-      "He pulled his coat tighter, but realized he wasn't wearing one.",
+-      "The photograph on the desk showed a familiar face, but the next time he looked, it was blank.",
+-      "She put the teacup back on the shelf, but she had never taken it down.",
+-      "He felt the weight of the book in his hands, until he didn't.",
+-      "The candle flickered, but there was no flame.",
+-      "She tucked the loose strand of hair behind her ear, but it wasn't there.",
+-      "The footprints in the snow led nowhere, then disappeared.",
+-    ]
+-    distractions_per_sentence: 0.2
+-    min_sentences: 1
+-    max_sentences: 20
+-    is_per_passage: False
+-  swap_words:
+-    enabled: true
+-    num_swaps: 30
+-    is_per_passage: True
+-  shuffle_sentences:
+-    enabled: true
+-    shuffle_n_times: 100
+-    is_per_passage: False
+-  introduce_typos:
+-    enabled: true
+-    aug_char_p: 0.8
+-    aug_word_p: 0.8
+-    is_per_passage: True
+-  word_swap_embedding:
+-    enabled: true
+-    max_candidates: 5
+-    pct_words_to_swap: 0.9
+-    is_per_passage: True
+-  change_character_names:
+-    enabled: true
+-    name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+-    is_per_passage: True
+-  context_removal:
+-    enabled: true
+-    sentiment_threshold: 0.5
+-    is_per_passage: True
+-  word_swap_homoglyph:
+-    enabled: true
+-    max_swaps: 100
+-    pct_words_to_swap: 0.1
+-    is_per_passage: True
+-  sentence_paraphrase:
+-    enabled: true
+-    api_type: "together"
+-    name: "meta-llama/Llama-3-8b-chat-hf"
+-    prompt: >
+-      Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.
+-    max_tokens: 1000
+-    temperature: 0.0
+-    top_p: 0.9
+-    repetition_penalty: 1.0
+-    stop: ["<|eot_id|>"]
+-    stream: true
+-    is_per_passage: True
+-  backtranslation:
+-    enabled: true
+-    src_lang: "en"
+-    target_lang: "fr"
+-    is_per_passage: True
+-  has_passage_numbers: False
+-  augmentation_order: [
+-    # "distraction_insertion",
+-    # "swap_words",
+-    # "shuffle_sentences",
+-    # "introduce_typos",
+-    # "word_swap_embedding",
+-    # "change_character_names",
+-    # "context_removal",
+-    # "word_swap_homoglyph",
+-    # "sentence_paraphrase",
+-    # "backtranslation",
+-    # "synonym_replacement",
+-    # "caesar_cipher",
+-  ]
+diff --git a/brewer.yaml b/brewer.yaml
+deleted file mode 100644
+index e818f213..00000000
+--- a/brewer.yaml
++++ /dev/null
+@@ -1,137 +0,0 @@
+-experiment:
+-  experiment_series: "brewer"
+-  output_dir: "./outputs/brewer_experiment/final/e4/"
+-model:
+-  api_type: "together"
+-  name: [
+-    "meta-llama/Llama-3-8b-chat-hf",
+-    "meta-llama/Llama-3-70b-chat-hf",
+-    "meta-llama/Llama-2-7b-chat-hf",
+-    # "meta-llama/Llama-2-13b-chat-hf", # no response
+-    "google/gemma-2-9b-it",
+-    "google/gemma-2-27b-it",
+-    "mistralai/Mistral-7B-Instruct-v0.3",
+-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+-    "Qwen/Qwen2-72B-Instruct",
+-    "deepseek-ai/DeepSeek-V3",
+-    "microsoft/WizardLM-2-8x22B",
+-  ]
+-  max_tokens: 2000
+-  temperature: 0.0  # top_k: 50
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: [ "<|eot_id|>" ]
+-  stream: true
+-parse_model:
+-    api_type: "together"
+-    name: "meta-llama/Llama-3-8b-chat-hf"
+-    prompt: "The following is a series of question and answers. For each question, extract only the number answer given and none of the text. Structure your response in the following format: ```Q1: number\nQ2: number```"
+-    max_tokens: 500
+-    temperature: 0.0  # top_k: 50
+-    top_p: 0.9
+-    repetition_penalty: 1.0
+-    stop: [ "<|eot_id|>" ]
+-    stream: true
+-augmentation:
+-  synonym_replacement: 
+-    enabled: true
+-    aug_p: 0.8
+-    aug_src: "wordnet"
+-    model_path: "bert-base-uncased"
+-    aug_min: 20
+-    aug_max: 50
+-    stopwords: null
+-    is_per_passage: True
+-  distraction_insertion:
+-    enabled: true
+-    distractions: [
+-      "He looked for his hidden watch, but couldn't find it.",
+-      "She reached for the letter on the table, but it wasn't there.",
+-      "He felt for his keys in his pocket, but found nothing.",
+-      "The cat sat on the windowsill, or at least he thought it had.",
+-      "She turned the page of the book, but there was no text.",
+-      "He grabbed his phone to check the time, but his hands were empty.",
+-      "The wind carried the sound of bells, but no bells were ringing.",
+-      "She opened the drawer for the scissors, but it was empty.",
+-      "He stepped onto the path that had been there yesterday, but now it was gone.",
+-      "The reflection in the mirror blinked, but he hadn't moved.",
+-      "She picked up the pen to write, but there was no ink.",
+-      "He searched his bag for his wallet, but he must have left it at home.",
+-      "The clock chimed midnight, yet there was no clock in the room.",
+-      "She reached out to grab the railing, but her hand met only air.",
+-      "He pulled his coat tighter, but realized he wasn't wearing one.",
+-      "The photograph on the desk showed a familiar face, but the next time he looked, it was blank.",
+-      "She put the teacup back on the shelf, but she had never taken it down.",
+-      "He felt the weight of the book in his hands, until he didn't.",
+-      "The candle flickered, but there was no flame.",
+-      "She tucked the loose strand of hair behind her ear, but it wasn't there.",
+-      "The footprints in the snow led nowhere, then disappeared.",
+-    ]
+-    distractions_per_sentence: 0.2
+-    min_sentences: 1
+-    max_sentences: 20
+-    is_per_passage: False
+-  swap_words:
+-    enabled: true
+-    num_swaps: 30
+-    is_per_passage: True
+-  shuffle_sentences:
+-    enabled: true
+-    shuffle_n_times: 100
+-    is_per_passage: False
+-  introduce_typos:
+-    enabled: true
+-    aug_char_p: 0.8
+-    aug_word_p: 0.8
+-    is_per_passage: True
+-  word_swap_embedding:
+-    enabled: true
+-    max_candidates: 5
+-    pct_words_to_swap: 0.9
+-    is_per_passage: True
+-  change_character_names:
+-    enabled: true
+-    name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+-    is_per_passage: True
+-  context_removal:
+-    enabled: true
+-    sentiment_threshold: 0.5
+-    is_per_passage: True
+-  word_swap_homoglyph:
+-    enabled: true
+-    max_swaps: 100
+-    pct_words_to_swap: 0.1
+-    is_per_passage: True
+-  sentence_paraphrase:
+-    enabled: true
+-    api_type: "together"
+-    name: "meta-llama/Llama-3-8b-chat-hf"
+-    prompt: >
+-      Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.
+-    max_tokens: 1000
+-    temperature: 0.0
+-    top_p: 0.9
+-    repetition_penalty: 1.0
+-    stop: ["<|eot_id|>"]
+-    stream: true
+-    is_per_passage: True
+-  backtranslation:
+-    enabled: true
+-    src_lang: "en"
+-    target_lang: "fr"
+-    is_per_passage: True
+-  has_passage_numbers: True
+-  augmentation_order: [
+-    # "distraction_insertion",
+-    # "swap_words",
+-    # "shuffle_sentences",
+-    # "introduce_typos",
+-    # "word_swap_embedding",
+-    # "change_character_names",
+-    # "context_removal",
+-    # "word_swap_homoglyph",
+-    # "sentence_paraphrase",
+-    # "backtranslation",
+-    # "synonym_replacement",
+-    # "caesar_cipher",
+-  ]
+diff --git a/delatorre.yaml b/delatorre.yaml
+deleted file mode 100644
+index e4a0c79e..00000000
+--- a/delatorre.yaml
++++ /dev/null
+@@ -1,144 +0,0 @@
+-experiment:
+-  experiment_series: "delatorre"
+-  output_dir: "./outputs/delatorre_experiment/final/e4/"
+-model:
+-  api_type: "together"
+-  name: [
+-    "meta-llama/Llama-3-8b-chat-hf",
+-    "meta-llama/Llama-3-70b-chat-hf",
+-    "meta-llama/Llama-2-7b-chat-hf",
+-    # "meta-llama/Llama-2-13b-chat-hf", # no response
+-    "google/gemma-2-9b-it",
+-    "google/gemma-2-27b-it",
+-    "mistralai/Mistral-7B-Instruct-v0.3",
+-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+-    "Qwen/Qwen2-72B-Instruct",
+-    "deepseek-ai/DeepSeek-V3",
+-    "microsoft/WizardLM-2-8x22B",
+-  ]
+-  max_tokens: 500
+-  temperature: 0.0
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|eot_id|>"]
+-  stream: true
+-parse_model:
+-  api_type: "together"
+-  name: "meta-llama/Llama-3-8b-chat-hf"
+-  prompt: >
+-    The following text provides a numerical rating of a passage. Extract numerical value in the text and nothing else. Structure your output as a single word in the format: ```value```
+-  max_tokens: 250
+-  temperature: 0.0 # Parser should always be deterministic
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|eot_id|>"]
+-  stream: true
+-augmentation:
+-  synonym_replacement: 
+-    enabled: true
+-    aug_p: 0.8
+-    aug_src: "wordnet"
+-    model_path: "bert-base-uncased"
+-    aug_min: 20
+-    aug_max: 50
+-    stopwords: null
+-    is_per_passage: True
+-  antonym_replacement:
+-    enabled: true
+-    aug_p: 0.8
+-    aug_min: 1
+-    aug_max: 50
+-  distraction_insertion:
+-    enabled: true
+-    distractions: [
+-      "He looked for his hidden watch, but couldn't find it.",
+-      "She reached for the letter on the table, but it wasn't there.",
+-      "He felt for his keys in his pocket, but found nothing.",
+-      "The cat sat on the windowsill, or at least he thought it had.",
+-      "She turned the page of the book, but there was no text.",
+-      "He grabbed his phone to check the time, but his hands were empty.",
+-      "The wind carried the sound of bells, but no bells were ringing.",
+-      "She opened the drawer for the scissors, but it was empty.",
+-      "He stepped onto the path that had been there yesterday, but now it was gone.",
+-      "The reflection in the mirror blinked, but he hadn't moved.",
+-      "She picked up the pen to write, but there was no ink.",
+-      "He searched his bag for his wallet, but he must have left it at home.",
+-      "The clock chimed midnight, yet there was no clock in the room.",
+-      "She reached out to grab the railing, but her hand met only air.",
+-      "He pulled his coat tighter, but realized he wasn't wearing one.",
+-      "The photograph on the desk showed a familiar face, but the next time he looked, it was blank.",
+-      "She put the teacup back on the shelf, but she had never taken it down.",
+-      "He felt the weight of the book in his hands, until he didn't.",
+-      "The candle flickered, but there was no flame.",
+-      "She tucked the loose strand of hair behind her ear, but it wasn't there.",
+-      "The footprints in the snow led nowhere, then disappeared.",
+-    ]
+-    distractions_per_sentence: 0.2
+-    min_sentences: 1
+-    max_sentences: 20
+-    is_per_passage: False
+-  swap_words:
+-    enabled: true
+-    num_swaps: 30
+-    is_per_passage: True
+-  shuffle_sentences:
+-    enabled: true
+-    shuffle_n_times: 100
+-    is_per_passage: False
+-  introduce_typos:
+-    enabled: true
+-    aug_char_p: 0.8
+-    aug_word_p: 0.8
+-    is_per_passage: True
+-  word_swap_embedding:
+-    enabled: true
+-    max_candidates: 5
+-    pct_words_to_swap: 0.9
+-    is_per_passage: True
+-  change_character_names:
+-    enabled: true
+-    name_list: ["Alex", "Jordan", "Taylor", "Riley", "Morgan"]
+-    is_per_passage: True
+-  context_removal:
+-    enabled: true
+-    sentiment_threshold: 0.5
+-    is_per_passage: True
+-  word_swap_homoglyph:
+-    enabled: true
+-    max_swaps: 100
+-    pct_words_to_swap: 0.1
+-    is_per_passage: True
+-  sentence_paraphrase:
+-    enabled: true
+-    api_type: "together"
+-    name: "meta-llama/Llama-3-8b-chat-hf"
+-    prompt: >
+-      Paraphrase the following passage in the driest and most stripped-down manner possible. Retain only the core actions and events, eliminating any descriptive or expressive language. The result should read as plainly as possible while preserving the essential meaning.
+-    max_tokens: 1000
+-    temperature: 0.0
+-    top_p: 0.9
+-    repetition_penalty: 1.0
+-    stop: ["<|eot_id|>"]
+-    stream: true
+-    is_per_passage: True
+-  backtranslation:
+-    enabled: true
+-    src_lang: "en"
+-    target_lang: "fr"
+-    is_per_passage: True
+-  has_passage_numbers: True
+-  augmentation_order: [
+-    # "distraction_insertion",
+-    # "swap_words",
+-    # "shuffle_sentences",
+-    # "introduce_typos",
+-    # "word_swap_embedding",
+-    # "change_character_names",
+-    # "context_removal",
+-    # "word_swap_homoglyph",
+-    # "sentence_paraphrase",
+-    # "backtranslation",
+-    # "synonym_replacement",
+-    # "caesar_cipher",
+-  ]
+-  
+\ No newline at end of file
+diff --git a/gerrig.yaml b/gerrig.yaml
+deleted file mode 100644
+index c54e6146..00000000
+--- a/gerrig.yaml
++++ /dev/null
+@@ -1,159 +0,0 @@
+-experiment:
+-  experiment_series: "gerrig"
+-  use_alternative: false
+-  output_dir: "./outputs/gerrig_experiment/final/e4/"
+-model:
+-  api_type: "together"
+-  name: [
+-    "meta-llama/Llama-3-8b-chat-hf",
+-    "meta-llama/Llama-3-70b-chat-hf",
+-    "meta-llama/Llama-2-7b-chat-hf",
+-    # "meta-llama/Llama-2-13b-chat-hf", # no response
+-    "google/gemma-2-9b-it",
+-    "google/gemma-2-27b-it",
+-    "mistralai/Mistral-7B-Instruct-v0.3",
+-    "mistralai/Mixtral-8x7B-Instruct-v0.1",
+-    "Qwen/Qwen2-72B-Instruct",
+-    "deepseek-ai/DeepSeek-V3",
+-    "microsoft/WizardLM-2-8x22B",
+-  ]
+-  max_tokens: 200
+-  temperature: 0.0
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|endoftext|>"]
+-  stream: true
+-parse_model:
+-  api_type: "together"
+-  name: "meta-llama/Llama-3-8b-chat-hf"
+-  prompt: >
+-    The text below is the output of a question and answer prompt to a language model. There are only two questions (Q1, Q2). For each question the answer is one of the following choices:
+-
+-    Q1:
+-    1. Not very likely
+-    2. Somewhat likely
+-    3. Slightly likely
+-    4. Neutral or Uncertain
+-    5. Moderately likely
+-    6. Very likely
+-    7. Extremely likely
+-
+-    Q2:
+-    1. Not very suspenseful
+-    2. Somewhat suspenseful
+-    3. Slightly suspenseful
+-    4. Neutral or Uncertain
+-    5. Moderately suspenseful
+-    6. Very suspenseful
+-    7. Extremely suspenseful
+-    
+-    Extract the numerical response from the answer. When generating you should structure your response to this prompt by using the format: ```Q1: answer\nQ2: answer``` and exclude all other questions mentioned.
+-  max_tokens: 250
+-  temperature: 0.0 # Parser should be deterministic
+-  top_p: 0.9
+-  repetition_penalty: 1.0
+-  stop: ["<|endoftext|>"]
+-  stream: true
