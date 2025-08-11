@@ -288,24 +288,168 @@ def main():
     plt.savefig(output_dir / f"{target.lower()}_change_heatmap.png", dpi=300, bbox_inches='tight')
     plt.close()
     
-    # Visualization 3: Change direction
-    llm_ratings_change_direction = np.where(llm_ratings_change > 0, 1, np.where(llm_ratings_change < 0, -1, llm_ratings_change))
-    human_ratings_change_direction = np.where(human_ratings_change > 0, 1, np.where(human_ratings_change < 0, -1, human_ratings_change))
+    # Visualization 3: Model consensus on change direction
+    # Calculate direction changes for each model (excluding human)
+    model_directions = []
+    model_names_only = model_names[:-1]  # Exclude "H" (human)
     
-    max_diff = np.max(np.abs(llm_ratings_change_direction - human_ratings_change_direction))
-    agreement_matrix = 1 - (np.abs(llm_ratings_change_direction - human_ratings_change_direction) / max_diff)
+    for i in range(len(model_names_only)):
+        directions = []
+        for j in range(1, llm_ratings_arr.shape[1]):
+            change = llm_ratings_arr[i, j] - llm_ratings_arr[i, j-1]
+            if change > 0.1:  # Threshold for meaningful change
+                directions.append(1)  # Increase
+            elif change < -0.1:
+                directions.append(-1)  # Decrease
+            else:
+                directions.append(0)  # No change
+        model_directions.append(directions)
     
-    plt.figure(figsize=figsize)
-    ax = sns.heatmap(agreement_matrix, vmin=0, vmax=1, annot=llm_ratings_change_direction, cmap="viridis", 
-                     cbar=True, linewidths=0.0, xticklabels=range(2, llm_ratings_change_direction.shape[1] + 2), 
-                     yticklabels=model_names)
-    ax.collections[0].colorbar.ax.set_title("% Agreement", fontsize=cbar_fontsize)
+    # Calculate human direction changes
+    human_directions = []
+    for j in range(1, len(human_ratings)):
+        change = human_ratings[j] - human_ratings[j-1]
+        if change > 0.1:
+            human_directions.append(1)
+        elif change < -0.1:
+            human_directions.append(-1)
+        else:
+            human_directions.append(0)
     
-    plt.title(f"{target} Average Ratings Change Direction by Model", fontsize=label_fontsize)
-    plt.xlabel("Passage", fontsize=label_fontsize)
-    plt.ylabel("Model", fontsize=label_fontsize)
-    plt.yticks(rotation=0)
-    plt.savefig(output_dir / f"{target.lower()}_direction_heatmap.png", dpi=300, bbox_inches='tight')
+    # Calculate consensus for each transition
+    consensus_data = []
+    num_transitions = min(len(human_directions), llm_ratings_arr.shape[1] - 1)
+    
+    for transition_idx in range(num_transitions):
+        # Get all model predictions for this transition
+        predictions = [model_directions[i][transition_idx] for i in range(len(model_directions))]
+        
+        # Calculate consensus
+        increase_count = predictions.count(1)
+        decrease_count = predictions.count(-1)
+        no_change_count = predictions.count(0)
+        total_models = len(predictions)
+        
+        # Determine consensus
+        if increase_count > total_models * 0.6:  # 60% threshold for consensus
+            consensus = "Increase"
+            consensus_value = 1
+            confidence = increase_count / total_models
+        elif decrease_count > total_models * 0.6:
+            consensus = "Decrease"
+            consensus_value = -1
+            confidence = decrease_count / total_models
+        elif no_change_count > total_models * 0.6:
+            consensus = "No Change"
+            consensus_value = 0
+            confidence = no_change_count / total_models
+        else:
+            consensus = "No Consensus"
+            consensus_value = None
+            confidence = max(increase_count, decrease_count, no_change_count) / total_models
+        
+        # Agreement with human
+        human_dir = human_directions[transition_idx] if transition_idx < len(human_directions) else 0
+        human_label = "Increase" if human_dir > 0 else ("Decrease" if human_dir < 0 else "No Change")
+        agrees_with_human = (consensus_value == human_dir) if consensus_value is not None else False
+        
+        consensus_data.append({
+            'Transition': f'P{transition_idx+1}→P{transition_idx+2}',
+            'Consensus': consensus,
+            'Confidence': confidence,
+            'Human': human_label,
+            'Agreement': agrees_with_human,
+            'Models_Up': increase_count,
+            'Models_Down': decrease_count,
+            'Models_Same': no_change_count
+        })
+    
+    # Create visualization with appropriate sizing
+    if num_transitions > 20:  # For Lehne with many transitions
+        fig_width = max(16, num_transitions * 0.4)
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(fig_width, 10), height_ratios=[3, 1])
+    else:  # For Delatorre with fewer transitions
+        fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(14, 8), height_ratios=[3, 1])
+    
+    # Main consensus bar plot
+    transitions = [d['Transition'] for d in consensus_data]
+    x_pos = np.arange(len(transitions))
+    
+    # Color bars based on consensus
+    colors = []
+    heights = []
+    labels = []
+    for d in consensus_data:
+        if d['Consensus'] == 'Increase':
+            colors.append('#2ecc71' if d['Agreement'] else '#27ae60')  # Green (lighter if agrees with human)
+            heights.append(d['Confidence'])
+            labels.append(f"↑ {d['Confidence']:.0%}")
+        elif d['Consensus'] == 'Decrease':
+            colors.append('#e74c3c' if d['Agreement'] else '#c0392b')  # Red
+            heights.append(-d['Confidence'])
+            labels.append(f"↓ {d['Confidence']:.0%}")
+        elif d['Consensus'] == 'No Change':
+            colors.append('#95a5a6' if d['Agreement'] else '#7f8c8d')  # Gray
+            heights.append(d['Confidence'] * 0.5)
+            labels.append(f"− {d['Confidence']:.0%}")
+        else:  # No consensus
+            colors.append('#f39c12')  # Orange
+            heights.append(0)
+            labels.append("NC")
+    
+    bars = ax1.bar(x_pos, heights, color=colors, alpha=0.8, edgecolor='black', linewidth=1.0)
+    
+    # Add value labels on bars (skip some if too many)
+    label_freq = max(1, num_transitions // 20)  # Show labels less frequently if many transitions
+    for i, (bar, label) in enumerate(zip(bars, labels)):
+        if i % label_freq == 0 or num_transitions <= 20:
+            height = bar.get_height()
+            if height != 0:
+                ax1.text(bar.get_x() + bar.get_width()/2, height/2, label,
+                        ha='center', va='center', fontsize=9 if num_transitions > 20 else 11, fontweight='bold')
+            else:
+                ax1.text(bar.get_x() + bar.get_width()/2, 0.02, label,
+                        ha='center', va='bottom', fontsize=9 if num_transitions > 20 else 11, fontweight='bold')
+    
+    ax1.set_ylim(-1.1, 1.1)
+    ax1.axhline(y=0, color='black', linestyle='-', linewidth=0.5)
+    ax1.set_xticks(x_pos[::max(1, num_transitions // 30)])  # Show fewer x-labels if many transitions
+    ax1.set_xticklabels([transitions[i] for i in range(0, len(transitions), max(1, num_transitions // 30))], 
+                        rotation=45 if num_transitions > 15 else 0, ha='right')
+    ax1.set_ylabel('Consensus Strength', fontsize=12)
+    ax1.set_title(f'Model Consensus on Rating Changes: {target}', fontsize=16, fontweight='bold')
+    ax1.grid(axis='y', alpha=0.3, linestyle='--')
+    
+    # Add legend
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='#2ecc71', label='Consensus: Increase', alpha=0.8),
+        Patch(facecolor='#e74c3c', label='Consensus: Decrease', alpha=0.8),
+        Patch(facecolor='#95a5a6', label='Consensus: No Change', alpha=0.8),
+        Patch(facecolor='#f39c12', label='No Clear Consensus', alpha=0.8)
+    ]
+    ax1.legend(handles=legend_elements, loc='upper right', fontsize=10)
+    
+    # Bottom panel: Model vote distribution
+    vote_data = np.array([[d['Models_Up'], d['Models_Down'], d['Models_Same']] for d in consensus_data]).T
+    
+    # Stack plot for vote distribution
+    ax2.bar(x_pos, vote_data[0], color='#2ecc71', alpha=0.6, label='Increase')
+    ax2.bar(x_pos, vote_data[1], bottom=vote_data[0], color='#e74c3c', alpha=0.6, label='Decrease')
+    ax2.bar(x_pos, vote_data[2], bottom=vote_data[0]+vote_data[1], color='#95a5a6', alpha=0.6, label='No Change')
+    
+    ax2.set_xticks(x_pos[::max(1, num_transitions // 30)])
+    ax2.set_xticklabels([transitions[i] for i in range(0, len(transitions), max(1, num_transitions // 30))],
+                        rotation=45 if num_transitions > 15 else 0, ha='right')
+    ax2.set_ylabel('Model Count', fontsize=10)
+    ax2.set_xlabel('Passage Transition', fontsize=12)
+    ax2.legend(loc='upper right', fontsize=9, ncol=3)
+    ax2.set_ylim(0, len(model_directions))
+    
+    plt.tight_layout()
+    
+    # Save figure
+    plt.savefig(output_dir / f"{target.lower()}_consensus.png", dpi=300, bbox_inches='tight')
     plt.close()
     
     # Visualization 4: Adversarial attack analysis (if available)
