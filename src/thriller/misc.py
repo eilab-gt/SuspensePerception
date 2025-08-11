@@ -1,7 +1,7 @@
 """
 Code that is explicitly related to the execution and parsing of API calls for experiments
 """
-# TODO: move to api.py and utils.py then delete this file
+# Note: Consider refactoring - these functions could be reorganized into api.py and utils.py
 
 import sys
 import os
@@ -36,7 +36,7 @@ def safe_int_conversion(value):
 def parse_response(
     response: str, model_config: dict[str, typing.Any]
 ) -> dict[str, str]:
-    # TODO: move to api.py
+    # Note: Consider moving to api.py in future refactoring
     """
     Process a LLM response into a key value pair
     Args:
@@ -106,7 +106,7 @@ def parse_response(
 
 
 def apply_substitutions(template: str, substitutions: dict[str, str]) -> str:
-    # TODO: move to utils.py
+    # Note: Consider moving to utils.py in future refactoring
     """
     Apply substitutions to a given template
     Args:
@@ -138,7 +138,7 @@ def run_experiment(
     prompts: dict[str, str],
     version_prompts:  dict[str, Union[str, list[str]]],
 ) -> list[dict[str, str]]:
-    # TODO: move to utils.py
+    # Note: Consider moving to utils.py in future refactoring
     """
     Run the experiment with the given configuration and save the results
     Args:

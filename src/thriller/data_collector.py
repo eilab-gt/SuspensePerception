@@ -9,7 +9,6 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
 
 import pandas as pd
-from pathlib import Path
 import matplotlib.pyplot as plt
 import seaborn as sns
 import ast
@@ -27,7 +26,7 @@ def generate_uid():
 
 # Set up logging
 uid = generate_uid()
-output_dir = Path("./collected_data") / uid
+output_dir = Path("./analysis_results/data_collector/runs") / uid
 output_dir.mkdir(parents=True, exist_ok=True)
 log_file = output_dir / f"{uid}_data_collector.log"
 
