@@ -399,17 +399,15 @@ def main():
     
     bars = ax1.bar(x_pos, heights, color=colors, alpha=0.8, edgecolor='black', linewidth=1.0)
     
-    # Add value labels on bars (skip some if too many)
-    label_freq = max(1, num_transitions // 20)  # Show labels less frequently if many transitions
+    # Add value labels on ALL bars - don't skip any
     for i, (bar, label) in enumerate(zip(bars, labels)):
-        if i % label_freq == 0 or num_transitions <= 20:
-            height = bar.get_height()
-            if height != 0:
-                ax1.text(bar.get_x() + bar.get_width()/2, height/2, label,
-                        ha='center', va='center', fontsize=9 if num_transitions > 20 else 11, fontweight='bold')
-            else:
-                ax1.text(bar.get_x() + bar.get_width()/2, 0.02, label,
-                        ha='center', va='bottom', fontsize=9 if num_transitions > 20 else 11, fontweight='bold')
+        height = bar.get_height()
+        if height != 0:
+            ax1.text(bar.get_x() + bar.get_width()/2, height/2, label,
+                    ha='center', va='center', fontsize=7 if num_transitions > 40 else (8 if num_transitions > 20 else 11), fontweight='bold')
+        else:
+            ax1.text(bar.get_x() + bar.get_width()/2, 0.02, label,
+                    ha='center', va='bottom', fontsize=7 if num_transitions > 40 else (8 if num_transitions > 20 else 11), fontweight='bold')
     
     ax1.set_ylim(-1.1, 1.1)
     ax1.axhline(y=0, color='black', linestyle='-', linewidth=0.5)
@@ -433,18 +431,49 @@ def main():
     # Bottom panel: Model vote distribution
     vote_data = np.array([[d['Models_Up'], d['Models_Down'], d['Models_Same']] for d in consensus_data]).T
     
-    # Stack plot for vote distribution
-    ax2.bar(x_pos, vote_data[0], color='#2ecc71', alpha=0.6, label='Increase')
-    ax2.bar(x_pos, vote_data[1], bottom=vote_data[0], color='#e74c3c', alpha=0.6, label='Decrease')
-    ax2.bar(x_pos, vote_data[2], bottom=vote_data[0]+vote_data[1], color='#95a5a6', alpha=0.6, label='No Change')
+    # Stack plot for vote distribution with count labels
+    bars1 = ax2.bar(x_pos, vote_data[0], color='#2ecc71', alpha=0.6, label='Increase')
+    bars2 = ax2.bar(x_pos, vote_data[1], bottom=vote_data[0], color='#e74c3c', alpha=0.6, label='Decrease')
+    bars3 = ax2.bar(x_pos, vote_data[2], bottom=vote_data[0]+vote_data[1], color='#95a5a6', alpha=0.6, label='No Change')
+    
+    # Add count labels on EVERY bar segment - don't skip any
+    for i, (b1, b2, b3) in enumerate(zip(bars1, bars2, bars3)):
+        # Label for "Increase" segment
+        if vote_data[0][i] > 0:
+            height1 = b1.get_height()
+            ax2.text(b1.get_x() + b1.get_width()/2, height1/2, 
+                    str(int(vote_data[0][i])),
+                    ha='center', va='center', fontsize=6 if num_transitions > 40 else (7 if num_transitions > 20 else 8), 
+                    fontweight='bold', color='white')
+        
+        # Label for "Decrease" segment
+        if vote_data[1][i] > 0:
+            height2 = b2.get_height()
+            y_pos2 = vote_data[0][i] + height2/2
+            ax2.text(b2.get_x() + b2.get_width()/2, y_pos2,
+                    str(int(vote_data[1][i])),
+                    ha='center', va='center', fontsize=6 if num_transitions > 40 else (7 if num_transitions > 20 else 8),
+                    fontweight='bold', color='white')
+        
+        # Label for "No Change" segment
+        if vote_data[2][i] > 0:
+            height3 = b3.get_height()
+            y_pos3 = vote_data[0][i] + vote_data[1][i] + height3/2
+            ax2.text(b3.get_x() + b3.get_width()/2, y_pos3,
+                    str(int(vote_data[2][i])),
+                    ha='center', va='center', fontsize=6 if num_transitions > 40 else (7 if num_transitions > 20 else 8),
+                    fontweight='bold', color='white')
     
     ax2.set_xticks(x_pos[::max(1, num_transitions // 30)])
     ax2.set_xticklabels([transitions[i] for i in range(0, len(transitions), max(1, num_transitions // 30))],
                         rotation=45 if num_transitions > 15 else 0, ha='right')
-    ax2.set_ylabel('Model Count', fontsize=10)
+    ax2.set_ylabel('Model Votes', fontsize=10)
     ax2.set_xlabel('Passage Transition', fontsize=12)
+    ax2.set_title('Vote Distribution (# of models per direction)', fontsize=10, style='italic')
     ax2.legend(loc='upper right', fontsize=9, ncol=3)
     ax2.set_ylim(0, len(model_directions))
+    # Remove y-axis ticks for cleaner look since we have count labels
+    ax2.set_yticks([])
     
     plt.tight_layout()
     

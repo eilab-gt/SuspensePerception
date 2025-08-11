@@ -367,17 +367,44 @@ def main():
         # Bottom panel: Model vote distribution
         vote_data = np.array([[d['Models_Up'], d['Models_Down'], d['Models_Same']] for d in consensus_data]).T
         
-        # Stack plot for vote distribution
-        ax2.bar(x_pos, vote_data[0], color='#2ecc71', alpha=0.6, label='Increase')
-        ax2.bar(x_pos, vote_data[1], bottom=vote_data[0], color='#e74c3c', alpha=0.6, label='Decrease')
-        ax2.bar(x_pos, vote_data[2], bottom=vote_data[0]+vote_data[1], color='#95a5a6', alpha=0.6, label='No Change')
+        # Stack plot for vote distribution with count labels
+        bars1 = ax2.bar(x_pos, vote_data[0], color='#2ecc71', alpha=0.6, label='Increase')
+        bars2 = ax2.bar(x_pos, vote_data[1], bottom=vote_data[0], color='#e74c3c', alpha=0.6, label='Decrease')
+        bars3 = ax2.bar(x_pos, vote_data[2], bottom=vote_data[0]+vote_data[1], color='#95a5a6', alpha=0.6, label='No Change')
+        
+        # Add count labels on each bar segment
+        for i, (b1, b2, b3) in enumerate(zip(bars1, bars2, bars3)):
+            # Label for "Increase" segment
+            if vote_data[0][i] > 0:
+                height1 = b1.get_height()
+                ax2.text(b1.get_x() + b1.get_width()/2, height1/2, 
+                        str(int(vote_data[0][i])),
+                        ha='center', va='center', fontsize=9, fontweight='bold', color='white')
+            
+            # Label for "Decrease" segment
+            if vote_data[1][i] > 0:
+                height2 = b2.get_height()
+                y_pos2 = vote_data[0][i] + height2/2
+                ax2.text(b2.get_x() + b2.get_width()/2, y_pos2,
+                        str(int(vote_data[1][i])),
+                        ha='center', va='center', fontsize=9, fontweight='bold', color='white')
+            
+            # Label for "No Change" segment
+            if vote_data[2][i] > 0:
+                height3 = b3.get_height()
+                y_pos3 = vote_data[0][i] + vote_data[1][i] + height3/2
+                ax2.text(b3.get_x() + b3.get_width()/2, y_pos3,
+                        str(int(vote_data[2][i])),
+                        ha='center', va='center', fontsize=9, fontweight='bold', color='white')
         
         ax2.set_xticks(x_pos)
         ax2.set_xticklabels(transitions)
-        ax2.set_ylabel('Model Count', fontsize=10)
+        ax2.set_ylabel('Model Votes', fontsize=10)
         ax2.set_xlabel('Passage Transition', fontsize=12)
+        ax2.set_title('Vote Distribution (# of models)', fontsize=10, style='italic')
         ax2.legend(loc='upper right', fontsize=9, ncol=3)
         ax2.set_ylim(0, len(model_directions))
+        ax2.set_yticks([])  # Remove y-axis ticks since we have labels
         
         plt.tight_layout()
         
