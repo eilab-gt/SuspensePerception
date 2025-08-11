@@ -136,11 +136,7 @@ def main():
         for llm, ratings in llm_data.items():
             steps = np.array(range(len(ratings)))
             mean_ratings = np.array(ratings)
-            std_dev = np.std(mean_ratings)
-            min_ci = 0.1
-            lower_bound = mean_ratings - np.maximum(std_dev, min_ci)
-            upper_bound = mean_ratings + np.maximum(std_dev, min_ci)
-            plt.fill_between(steps, lower_bound, upper_bound, alpha=0.2)
+            # Removed fill_between for shaded areas
             
             # Get shortened model name
             if 'gemma-2-27b' in llm:
@@ -164,11 +160,7 @@ def main():
         
         steps2 = np.array(range(len(ratings)))
         mean_ratings2 = np.array(stepwise_story_averages[story])
-        std_dev2 = np.std(mean_ratings2)
-        min_ci2 = 0.1
-        lower_bound2 = mean_ratings2 - np.maximum(std_dev2, min_ci2)
-        upper_bound2 = mean_ratings2 + np.maximum(std_dev2, min_ci2)
-        plt.fill_between(steps2, lower_bound2, upper_bound2, alpha=0.2)
+        # Removed fill_between for shaded areas
         sns.lineplot(x=steps2, y=mean_ratings2, label="Average", marker="o", linewidth=3, color='blue')
         
         human_steps = np.array(range(5))
