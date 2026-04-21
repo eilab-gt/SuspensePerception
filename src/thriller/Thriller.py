@@ -7,6 +7,8 @@ Use Example:
 """
 
 import argparse
+import copy
+from dataclasses import dataclass
 import os
 import sys
 from pathlib import Path
@@ -41,17 +43,70 @@ import src.thriller.delatorre as delatorre
 import src.thriller.bentz as bentz
 
 
-def main(args):
-    logging.basicConfig(level=logging.WARNING)
+EXPERIMENT_MODULES = {
+    "gerrig": gerrig,
+    "lehne": lehne,
+    "brewer": brewer,
+    "delatorre": delatorre,
+    "bentz": bentz,
+}
 
-    # Load configuration if provided
-    config = load_config(args) if args.config else {}
+API_KEY_ENV_VARS = {
+    "together": "TOGETHER_API_KEY",
+    "openai": "OPENAI_API_KEY",
+    "anthropic": "ANTHROPIC_API_KEY",
+}
 
-    # Load model and experiment configurations from the configuration file
+
+@dataclass
+class PreparedExperiment:
+    model_config: dict
+    parse_model_config: dict
+    experiment_config: dict
+    augmentation_config: dict
+    experiment_series: str
+    prompts: dict
+    version_prompts: dict
+
+
+def attach_api_key(model_config: dict, label: str) -> None:
+    api_type = model_config.get("api_type")
+    if not api_type:
+        raise ValueError(f"API type not specified in the {label} configuration")
+
+    env_var = API_KEY_ENV_VARS.get(api_type)
+    if not env_var:
+        raise ValueError(
+            f"Unsupported API type in the {label} configuration: {api_type}"
+        )
+
+    api_key = os.getenv(env_var)
+    if not api_key:
+        raise ValueError(f"API key for {api_type} must be provided via {env_var}")
+
+    model_config["api_key"] = api_key
+
+
+def attach_api_keys(model_config: dict, parse_model_config: dict) -> None:
+    attach_api_key(model_config, "model")
+    attach_api_key(parse_model_config, "parse_model")
+
+
+def get_experiment_module(experiment_series: str):
+    experiment = EXPERIMENT_MODULES.get(experiment_series)
+    if not experiment:
+        valid = ", ".join(sorted(EXPERIMENT_MODULES))
+        raise ValueError(f"Valid experiment series not found (must be one of: {valid})")
+    return experiment
+
+
+def prepare_experiment_config(config: dict) -> PreparedExperiment:
+    config = copy.deepcopy(config)
     model_config = config.get("model", None)
     experiment_config = config.get("experiment", None)
     parse_model_config = config.get("parse_model", None)
     augmentation_config = config.get("augmentation", None)
+
     if model_config is None:
         raise ValueError("Model configuration not found in the configuration file")
     if parse_model_config is None:
@@ -61,108 +116,101 @@ def main(args):
     if augmentation_config is None:
         raise ValueError("Augmentation configuration not found in the configuration file")
 
-    # Load API key from secret .env file for model
-    model_api_key = ""
-    model_api_type = model_config.get("api_type")
-    if not model_api_type:
-        raise ValueError("API type not specified in the configuration")
-    if model_api_type == "together":
-        model_api_key = os.getenv("TOGETHER_API_KEY")
-        if not model_api_key:
-            raise ValueError("API key for TogetherAI must be provided in the .env file")
-    elif model_api_type == "openai":
-        model_api_key = os.getenv("OPENAI_API_KEY")
-        if not model_api_key:
-            raise ValueError("API key for OpenAI must be provided in the .env file")
-    elif model_api_type == "anthropic":
-        model_api_key = os.getenv("ANTHROPIC_API_KEY")
-        if not model_api_key:
-            raise ValueError("API key for Anthropic must be provided in the .env file")
-    else:
-        raise ValueError("API type must be provided in the configuration file")
-    model_config["api_key"] = model_api_key
+    attach_api_keys(model_config, parse_model_config)
 
-    # Load API key from secret .env file for parse model
-    parse_model_api_key = ""
-    parse_model_api_type = parse_model_config.get("api_type")
-    if parse_model_api_type == "together":
-        parse_model_api_key = os.getenv("TOGETHER_API_KEY")
-        if not parse_model_api_key:
-            raise ValueError("API key for TogetherAI must be provided in the .env file")
-    elif parse_model_api_type == "openai":
-        parse_model_api_key = os.getenv("OPENAI_API_KEY")
-        if not parse_model_api_key:
-            raise ValueError("API key for OpenAI must be provided in the .env file")
-    elif parse_model_api_type == "anthropic":
-        parse_model_api_key = os.getenv("ANTHROPIC_API_KEY")
-        if not parse_model_api_key:
-            raise ValueError("API key for Anthropic must be provided in the .env file")
-    else:
-        raise ValueError("API type must be provided in the configuration file")
-    parse_model_config["api_key"] = parse_model_api_key
-
-    # Ensure output directory exists
-    output_path = Path(experiment_config["output_dir"])
-    output_path.mkdir(parents=True, exist_ok=True)
-
-    # Determine experiment series
-    experiment = None
     experiment_series = experiment_config.get("experiment_series")
-    if experiment_series == "gerrig":
-        experiment = gerrig
-    elif experiment_series == "lehne":
-        experiment = lehne
-    elif experiment_series == "brewer":
-        experiment = brewer
-    elif experiment_series == "delatorre":
-        experiment = delatorre
-    elif experiment_series == "bentz":
-        experiment = bentz
-    if not experiment:
-        raise ValueError("Valid experiment series not found (must be gerrig, lehne, or delatorre)")
-
-    # Generate experiment texts
-    prompts, version_prompts = experiment.generate_experiment_texts(experiment_config)
+    experiment_module = get_experiment_module(experiment_series)
+    prompts, version_prompts = experiment_module.generate_experiment_texts(
+        experiment_config
+    )
 
     augmentation_config = get_default_augmentation_config() | augmentation_config
+    augmentation_order = augmentation_config.get("augmentation_order", [])
 
-    # Augmentation needs to be done here
-    # Each experiment key is a list of tuples
-    for experiment in version_prompts:
-        version_prompts[experiment] = [(key, process_and_augment_stories(story, augmentation_config)) for key, story in version_prompts[experiment]]
-        if 'caesar_cipher' in augmentation_config.get('augmentation_order', {}):
-            prompts[experiment] = prompts[experiment] + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
+    for exp_name in version_prompts:
+        version_prompts[exp_name] = [
+            (key, process_and_augment_stories(story, augmentation_config))
+            for key, story in version_prompts[exp_name]
+        ]
+        if "caesar_cipher" in augmentation_order:
+            prompts[exp_name] = (
+                prompts[exp_name]
+                + "\nThis text has been encrypted using a Caesar cipher with a step of 3."
+            )
 
-    # print(version_prompts['Experiment'])
-    # exit()
-    if os.environ["DRY_RUN"] and os.environ["DRY_RUN"] == "1":
-        print("Dry run enabled. Skipping experiment execution.")
-        print("Prompts saved to file. Exiting.")
-        exit(0)
+    return PreparedExperiment(
+        model_config=model_config,
+        parse_model_config=parse_model_config,
+        experiment_config=experiment_config,
+        augmentation_config=augmentation_config,
+        experiment_series=experiment_series,
+        prompts=prompts,
+        version_prompts=version_prompts,
+    )
 
-    # Save the prompts to a file
-    augmentation = augmentation_config.get("augmentation_order", [])
-    augmentation = "control" if augmentation[0] == "" else augmentation[0]
-    for experiment in version_prompts:
-        filename = f"prompts/{experiment_series}/{augmentation}/{experiment}.json"
-        os.makedirs(os.path.dirname(filename), exist_ok=True)
-        j = {"prompts": prompts[experiment], "version_prompts": version_prompts[experiment]}
-        with open(filename, "w"):
-            json.dump(j, open(filename, "w"))
-    
 
-    # Run the experiment
+def write_prompt_snapshots(
+    experiment_series: str,
+    prompts: dict,
+    version_prompts: dict,
+    augmentation_config: dict,
+    prompt_root: Path = Path("prompts"),
+) -> None:
+    augmentation_order = augmentation_config.get("augmentation_order", [])
+    augmentation = augmentation_order[0] if augmentation_order else "control"
+    augmentation = "control" if augmentation == "" else augmentation
+
+    for exp_name in version_prompts:
+        filename = prompt_root / experiment_series / augmentation / f"{exp_name}.json"
+        filename.parent.mkdir(parents=True, exist_ok=True)
+        snapshot = {
+            "prompts": prompts[exp_name],
+            "version_prompts": version_prompts[exp_name],
+        }
+        with open(filename, "w") as f:
+            json.dump(snapshot, f)
+
+
+def get_model_names(model_config: dict) -> list[str]:
     model_names = model_config.get("name")
-    total_models = len(model_names)
+    if isinstance(model_names, str):
+        return [model_names]
+    return list(model_names)
 
-    with tqdm(total=total_models, desc="Overall Progress") as pbar:
+
+def run_config(
+    config: dict,
+    write_prompts: bool = True,
+    dry_run: bool = False,
+) -> list[Path]:
+    prepared = prepare_experiment_config(config)
+
+    if write_prompts:
+        write_prompt_snapshots(
+            experiment_series=prepared.experiment_series,
+            prompts=prepared.prompts,
+            version_prompts=prepared.version_prompts,
+            augmentation_config=prepared.augmentation_config,
+        )
+
+    if dry_run:
+        print("Dry run enabled. Skipping experiment execution.")
+        if write_prompts:
+            print("Prompts saved to file. Exiting.")
+        else:
+            print("Prompt snapshots disabled. Exiting.")
+        return []
+
+    output_path = Path(prepared.experiment_config["output_dir"])
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    model_names = get_model_names(prepared.model_config)
+    output_paths = []
+    with tqdm(total=len(model_names), desc="Overall Progress") as pbar:
         for model_name in model_names:
-            cur_model_config = model_config.copy()
+            cur_model_config = prepared.model_config.copy()
             cur_model_config["name"] = model_name
-            # Generate a unique experiment ID for each model run
             experiment_id = generate_experiment_id()
-
-            # Create a subfolder structure: model_name/experiment_id
             cur_output_path = output_path / model_name.replace("/", "_") / experiment_id
             cur_output_path.mkdir(parents=True, exist_ok=True)
 
@@ -170,17 +218,25 @@ def main(args):
             results = run_experiment(
                 output_path=cur_output_path,
                 model_config=cur_model_config,
-                parse_model_config=parse_model_config,
-                prompts=prompts,
-                version_prompts=version_prompts,
+                parse_model_config=prepared.parse_model_config,
+                prompts=prepared.prompts,
+                version_prompts=prepared.version_prompts,
             )
 
-            # Process and save results
             process_and_save_results(results, cur_output_path)
+            output_paths.append(cur_output_path)
 
             pbar.update(1)
 
     tqdm.write("\nExperiment completed successfully!")
+    return output_paths
+
+
+def main(args):
+    logging.basicConfig(level=logging.WARNING)
+    config = load_config(args) if args.config else {}
+    dry_run = os.getenv("DRY_RUN") == "1"
+    run_config(config, write_prompts=not dry_run, dry_run=dry_run)
 
 
 def parse_arguments():

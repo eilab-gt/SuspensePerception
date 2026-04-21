@@ -2,6 +2,24 @@
 
 This directory contains utility scripts for running experiments and managing the project.
 
+## Benchmark runner
+
+`run_benchmark.py` plans and runs paper-style benchmark suites with explicit
+model overrides, repeat-aware output directories, manifest files, and safety
+checks for partial outputs.
+
+Preview the Qwen final-main plan without writing outputs:
+
+```bash
+uv run python scripts/run_benchmark.py --suite final-main --dry-run
+```
+
+Run with API preflight and resume support:
+
+```bash
+uv run python scripts/run_benchmark.py --suite final-main --preflight-api --resume
+```
+
 ## Directories
 
 ### slurm/

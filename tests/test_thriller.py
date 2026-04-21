@@ -1,29 +1,24 @@
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 
 from src.thriller.Thriller import main as main_func
 from src.thriller.Thriller import parse_arguments
+from src.thriller.Thriller import run_config
 from src.thriller.utils import save_test_output
 
 
-@patch("together.Together")
-@patch("src.thriller.misc.run_experiment")
-@patch("src.thriller.utils.process_and_save_results")
-@patch("src.thriller.utils.load_config")
-@patch("os.getenv")
+@patch("src.thriller.Thriller.run_experiment", return_value=[])
+@patch("src.thriller.Thriller.process_and_save_results")
+@patch("src.thriller.Thriller.write_prompt_snapshots")
+@patch("src.thriller.Thriller.load_config")
+@patch("src.thriller.Thriller.os.getenv")
 def test_thriller(
-    mock_together,
     mock_getenv,
     mock_load_config,
+    mock_write_prompt_snapshots,
     mock_process_and_save_results,
     mock_run_experiment,
 ):
-    # Mock the API key in the environment
-    mock_together_instance = MagicMock()
-    mock_together.return_value = mock_together_instance
-    mock_together_instance.chat.completions.create.return_value = MagicMock(
-        choices=[MagicMock(message=MagicMock(content="This is a mocked response."))]
-    )
     mock_getenv.return_value = "TOGETHER_API_KEY"
     mock_config = {
         "model": {
@@ -35,34 +30,27 @@ def test_thriller(
             "top_p": 0.9,
             "repetition_penalty": 1.0,
         },
+        "parse_model": {
+            "api_type": "together",
+            "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            "prompt": "Parse the response.",
+            "max_tokens": 50,
+            "temperature": 0.0,
+            "top_p": 0.9,
+            "repetition_penalty": 1.0,
+        },
         "experiment": {
             "experiment_series": "gerrig",
+            "use_alternative": False,
             "output_dir": "./outputs/",
         },
+        "augmentation": {"augmentation_order": []},
     }
     mock_load_config.return_value = mock_config
 
     test_args = [
         "--config",
         "config.yaml",
-        "--api_type",
-        "together",
-        "--model",
-        "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-        "--max_tokens",
-        "50",
-        "--temperature",
-        "0.7",
-        "--top_k",
-        "50",
-        "--top_p",
-        "0.9",
-        "--repetition_penalty",
-        "1.0",
-        "--experiment_series",
-        "gerrig",
-        "--output_dir",
-        "./outputs/",
     ]
 
     with patch("sys.argv", ["pytest"] + test_args):
@@ -83,6 +71,50 @@ def test_thriller(
     assert call_args["model_config"]["api_key"] == "TOGETHER_API_KEY"
     assert call_args["model_config"]["api_type"] == "together"
     mock_process_and_save_results.assert_called_once()
+    mock_write_prompt_snapshots.assert_called_once()
+
+
+@patch("src.thriller.Thriller.run_experiment")
+@patch("src.thriller.Thriller.write_prompt_snapshots")
+@patch("src.thriller.Thriller.os.getenv")
+def test_run_config_dry_run_skips_writes_and_execution(
+    mock_getenv,
+    mock_write_prompt_snapshots,
+    mock_run_experiment,
+):
+    mock_getenv.return_value = "TOGETHER_API_KEY"
+    config = {
+        "model": {
+            "api_type": "together",
+            "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            "max_tokens": 50,
+            "temperature": 0.7,
+            "top_k": 50,
+            "top_p": 0.9,
+            "repetition_penalty": 1.0,
+        },
+        "parse_model": {
+            "api_type": "together",
+            "name": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+            "prompt": "Parse the response.",
+            "max_tokens": 50,
+            "temperature": 0.0,
+            "top_p": 0.9,
+            "repetition_penalty": 1.0,
+        },
+        "experiment": {
+            "experiment_series": "gerrig",
+            "use_alternative": False,
+            "output_dir": "./outputs/",
+        },
+        "augmentation": {"augmentation_order": []},
+    }
+
+    output_paths = run_config(config, write_prompts=False, dry_run=True)
+
+    assert output_paths == []
+    mock_write_prompt_snapshots.assert_not_called()
+    mock_run_experiment.assert_not_called()
 
 
 
@@ -91,52 +123,22 @@ def test_parse_arguments():
         "test_parse_arguments_input",
         {
             "test_args": [
-                "--model",
-                "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-                "--max_tokens",
-                "50",
-                "--temperature",
-                "0.7",
-                "--top_k",
-                "50",
-                "--top_p",
-                "0.9",
-                "--repetition_penalty",
-                "1.0",
-                "--experiment_series",
-                "gerrig",
-                "--output_dir",
-                "./outputs/",
+                "--config",
+                "configs/gerrig.yaml",
+                "--overrides",
+                "model.temperature=0.7",
             ]
         },
     )
     test_args = [
-        "--model",
-        "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
-        "--max_tokens",
-        "50",
-        "--temperature",
-        "0.7",
-        "--top_k",
-        "50",
-        "--top_p",
-        "0.9",
-        "--repetition_penalty",
-        "1.0",
-        "--experiment_series",
-        "gerrig",
-        "--output_dir",
-        "./outputs/",
+        "--config",
+        "configs/gerrig.yaml",
+        "--overrides",
+        "model.temperature=0.7",
     ]
 
     with patch("sys.argv", ["pytest"] + test_args):
         args = parse_arguments()
 
-    assert args.model == "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
-    assert args.max_tokens == 50
-    assert args.temperature == 0.7
-    assert args.top_k == 50
-    assert args.top_p == 0.9
-    assert args.repetition_penalty == 1.0
-    assert args.experiment_series == "gerrig"
-    assert args.output_dir == "./outputs/"
+    assert args.config == "configs/gerrig.yaml"
+    assert args.overrides == ["model.temperature=0.7"]

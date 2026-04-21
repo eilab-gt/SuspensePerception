@@ -13,17 +13,17 @@ def response():
 @pytest.fixture(scope="session")
 def mock_openai():
     with patch("openai.ChatCompletion.create") as mock_create:
-        mock_create.return_value = {"choices": [{"message": {"content": response()}}]}
+        mock_create.return_value = {"choices": [{"message": {"content": mock_response}}]}
         yield mock_create
 
 
 @pytest.fixture(scope="session")
 def mock_together():
-    mock_response = MagicMock()
-    mock_response.choices = [MagicMock(message=MagicMock(content=mock_response))]
+    response_obj = MagicMock()
+    response_obj.choices = [MagicMock(message=MagicMock(content=mock_response))]
 
     mock_client = MagicMock()
-    mock_client.chat.completions.create.return_value = mock_response
+    mock_client.chat.completions.create.return_value = response_obj
 
     with patch("together.Together", return_value=mock_client):
         yield mock_client

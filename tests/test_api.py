@@ -1,4 +1,3 @@
-from pathlib import Path
 from unittest.mock import mock_open, patch
 
 import pytest
@@ -38,7 +37,7 @@ def test_generate_response_together(mock_together):
         "temperature": 0.7,
     }
 
-    with patch("together.Together", return_value=mock_together):
+    with patch("src.thriller.api.Together", return_value=mock_together):
         try:
             result = generate_response(messages, model_config)
             # Assert the result
@@ -77,4 +76,3 @@ def test_save_raw_api_output(mock_mkdir, mock_file):
     )
     output = {"response": "test"}
     save_raw_api_output(output=output, filename="test.json", output_path="./outputs/")
-

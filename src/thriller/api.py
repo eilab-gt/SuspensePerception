@@ -9,6 +9,51 @@ from together import Together
 import tiktoken
 
 
+def _optional_request_args(
+    model_config: dict[str, typing.Any], keys: tuple[str, ...]
+) -> dict[str, typing.Any]:
+    return {
+        key: model_config[key]
+        for key in keys
+        if key in model_config and model_config[key] is not None
+    }
+
+
+def _extract_choice_content(response) -> str:
+    if isinstance(response, dict):
+        return response["choices"][0]["message"]["content"]
+
+    choices = getattr(response, "choices", None)
+    if choices:
+        choice = choices[0]
+        message = getattr(choice, "message", None)
+        if message is not None:
+            content = getattr(message, "content", None)
+            if isinstance(content, str):
+                return content
+
+        delta = getattr(choice, "delta", None)
+        if delta is not None:
+            content = getattr(delta, "content", None)
+            if isinstance(content, str):
+                return content
+
+    content = ""
+    try:
+        iterator = iter(response)
+    except TypeError:
+        return content
+
+    for chunk in iterator:
+        chunk_choices = getattr(chunk, "choices", None)
+        if not chunk_choices:
+            continue
+        delta = getattr(chunk_choices[0], "delta", None)
+        content += getattr(delta, "content", "") or ""
+
+    return content
+
+
 def generate_response(
     messages: list[dict[str, str]], model_config: dict[str, typing.Any]
 ) -> str:
@@ -32,12 +77,10 @@ def generate_response(
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
+            **_optional_request_args(model_config, ("top_p", "stop")),
         )
 
-        return response["choices"][0]["message"]["content"]
+        return _extract_choice_content(response)
 
     elif api_type == "together":
         client = Together(api_key=model_config["api_key"])
@@ -46,29 +89,12 @@ def generate_response(
             messages=messages,
             max_tokens=model_config["max_tokens"],
             temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-            stop=model_config["stop"],
-            stream=model_config["stream"],
+            **_optional_request_args(
+                model_config,
+                ("top_p", "top_k", "repetition_penalty", "stop", "stream"),
+            ),
         )
-        content = ""
-        try:
-            for chunk in response:
-                if chunk.choices and 'finish_reason' in chunk.choices[0]:
-                    finish_reason = chunk.choices[0].finish_reason
-                    if finish_reason not in ['length', 'stop', 'eos', 'tool_calls', 'error']:
-                        print(f"Invalid finish_reason: {finish_reason}")
-                        finish_reason = 'eos'
-                content += getattr(chunk.choices[0].delta, 'content', '') or "" 
-        except AttributeError as e:
-            print("AttributeError encountered:", e)
-        except IndexError as e:
-            print("IndexError encountered:", e)
-        except Exception as e:
-            print("An error occurred:", e)
-
-        return content
+        return _extract_choice_content(response)
 
     else:
         raise ValueError(f"Unsupported API type: {api_type}")

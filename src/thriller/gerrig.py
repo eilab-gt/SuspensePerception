@@ -85,11 +85,14 @@ def generate_experiment_texts(experiment_config: dict[str, str]):
     Return:
         Experiment prompts and version prompts
     """
-    substitutions = (
-        alternative_substitutions
-        if experiment_config["use_alternative"]
-        else default_substitutions
-    )
+    if "use_alternative" in experiment_config:
+        substitutions = (
+            alternative_substitutions
+            if experiment_config.get("use_alternative")
+            else default_substitutions
+        )
+    else:
+        substitutions = experiment_config
 
     # Get experiment prompts
 

@@ -83,12 +83,12 @@ def validate_response(value: int, valid_range: tuple) -> tuple[int, bool]:
     logger.debug(f"Validating response: {value} against range {valid_range}")
 
     if value is None:
-        logger.warning(f"Received None value for validation.")
+        logger.warning("Received None value for validation.")
         return None, False
     
     try:
         if np.isnan(value):  # Ensure value is checked safely
-            logger.warning(f"Received NaN value for validation.")
+            logger.warning("Received NaN value for validation.")
             return None, False
     except TypeError:
         logger.warning(f"TypeError: Value {value} is not a number.")
