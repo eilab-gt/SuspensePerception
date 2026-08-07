@@ -178,15 +178,20 @@ def mock_generate_response(messages, model_config):
     exp_name = messages[0]["content"].split(" prompt")[0].strip()
     version_text = messages[1]["content"]
     for version_name, v_text in version_prompts[exp_name]:
-        if v_text == version_text:
+        if version_text.endswith(v_text):
             response = mock_responses.get((exp_name, version_name), "")
             return f"Response: {response}"  # Add a key that can be parsed
     return ""
 
 
-@patch("src.thriller.api.generate_response", side_effect=mock_generate_response)
-@patch("src.thriller.api.save_raw_api_output")
-def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
+@patch("src.thriller.misc.parse_response", return_value={"Q1": "1", "Q2": "2"})
+@patch("src.thriller.misc.generate_response", side_effect=mock_generate_response)
+@patch("src.thriller.misc.save_raw_api_output")
+def test_run_experiment(
+    mock_save_raw_api_output,
+    mock_generate_response,
+    mock_parse_response,
+):
     model_config = {
         "name": "gpt-3",
         "max_tokens": 50,
@@ -195,18 +200,33 @@ def test_run_experiment(mock_save_raw_api_output, mock_generate_response):
         "top_p": 0.9,
         "repetition_penalty": 1.0,
     }
+    parse_model_config = {
+        "api_type": "together",
+        "name": "parser",
+        "max_tokens": 50,
+        "temperature": 0.0,
+    }
     output_path = Path("/fake/path")
 
-    results = run_experiment(output_path, model_config, prompts, version_prompts)
+    results = run_experiment(
+        output_path,
+        model_config,
+        parse_model_config,
+        prompts,
+        version_prompts,
+    )
 
-    assert results == expected_results
+    assert len(results) == len(expected_results)
+    assert all(result["parsed_response"] == {"0": 1, "1": 2} for result in results)
     assert mock_generate_response.call_count == 8
     assert mock_save_raw_api_output.call_count == 8
+    assert mock_parse_response.call_count == 8
 
     save_test_output(
         "test_run_experiment",
         {
             "model_config": model_config,
+            "parse_model_config": parse_model_config,
             "prompts": prompts,
             "version_prompts": version_prompts,
             "results": results,

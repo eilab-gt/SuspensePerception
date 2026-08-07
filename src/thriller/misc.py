@@ -4,13 +4,10 @@ Code that is explicitly related to the execution and parsing of API calls for ex
 # Note: Consider refactoring - these functions could be reorganized into api.py and utils.py
 
 import sys
-import os
 import typing
 from typing import Union
 from pathlib import Path
 from src.thriller.api import generate_response, save_raw_api_output
-import openai
-from together import Together
 import re
 from tqdm import tqdm
 import logging
@@ -55,40 +52,10 @@ def parse_response(
         {"role": "user", "content": response},
     ]
 
-    content = ""
-
-    if api_type == "openai":
-        parsed_response = openai.ChatCompletion.create(
-            model=model_config["name"],
-            messages=messages,
-            max_tokens=model_config["max_tokens"],
-            temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-        )
-
-        content = parsed_response["choices"][0]["message"]["content"]
-
-    elif api_type == "together":
-        client = Together(api_key=model_config["api_key"])
-        parsed_response = client.chat.completions.create(
-            model=model_config["name"],
-            messages=messages,
-            max_tokens=model_config["max_tokens"],
-            temperature=model_config["temperature"],
-            top_p=model_config.get("top_p", None),
-            top_k=model_config.get("top_k", None),
-            repetition_penalty=model_config["repetition_penalty"],
-            stop=model_config["stop"],
-            stream=model_config["stream"],
-        )
-
-        for chunk in parsed_response:
-            content += chunk.choices[0].delta.content or ""
-
-    else:
+    if api_type not in {"openai", "together"}:
         raise ValueError(f"Unsupported API type: {api_type}")
+
+    content = generate_response(messages, model_config)
 
     if not content:
         return {}
@@ -177,6 +144,7 @@ def run_experiment(
                             messages.append({"role": "user", "content": prompt + paragraph})
 
                             raw_response = ""
+                            last_error = None
 
                             # Try get LLM response. If context window too large, retry with 1 less message
                             for _ in range(10):
@@ -186,18 +154,27 @@ def run_experiment(
                                         messages, model_config
                                     )
                                     break
-                                except Exception as e:
+                                except Exception as exc:
                                     # logging.error(f"Error occurred: {e}") # This is almost guaranteed to spam
+                                    last_error = exc
                                     if len(messages) >= 4:
                                         messages.pop(1)
                                         messages.pop(1)
                                     else:
-                                       break
+                                        raise RuntimeError(
+                                            f"Failed to get response for {exp_name} "
+                                            f"segment {i} version: {version_name}"
+                                        ) from exc
 
                             parsed_response = {"value": float("nan")}
                             if not raw_response or raw_response.isspace():
-                                raw_response = "Error - No Response: Input Too Long"
-                                print(f"Failed to get response for {exp_name} segment {i} version: {version_name}. Input Too Long")
+                                if last_error is not None:
+                                    raise RuntimeError(
+                                        f"Failed to get response for {exp_name} "
+                                        f"segment {i} version: {version_name}"
+                                    ) from last_error
+                                raw_response = "Error - No Response: Empty Response"
+                                print(f"Failed to get response for {exp_name} segment {i} version: {version_name}. Empty Response")
                             else:
                                 parsed_response = parse_response(
                                     raw_response, parse_model_config

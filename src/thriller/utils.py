@@ -5,12 +5,13 @@ Functions related to file I/O such as loading configuration files and saving out
 from argparse import Namespace
 import io
 import json
+import os
 from pathlib import Path
+from typing import Union
 import pandas as pd
 import yaml
 from datetime import datetime
 import uuid
-import unicodedata as ud
 import ast
 
 
@@ -21,13 +22,16 @@ def save_test_output(test_name: str, output: str) -> None:
         test_name: name of the test and file to save to
         output: test output
     """
-    output_dir = Path("Thriller/tests/outputs")
+    if os.getenv("THRILLER_SAVE_TEST_OUTPUT") != "1":
+        return
+
+    output_dir = Path("tests/outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
     with open(output_dir / f"{test_name}.json", "w") as f:
         json.dump(output, f, indent=2)
 
 
-def load_config(args: Namespace) -> io.TextIOWrapper:
+def load_config(args: Union[Namespace, str]) -> io.TextIOWrapper:
     """
     Open and return the configuration file
     Args:
@@ -35,6 +39,9 @@ def load_config(args: Namespace) -> io.TextIOWrapper:
     Return:
         Opened configuration file
     """
+
+    if isinstance(args, str):
+        args = Namespace(config=args, overrides=None)
 
     argdict = {}
 

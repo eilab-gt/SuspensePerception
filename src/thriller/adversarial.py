@@ -1,52 +1,91 @@
 import random
-import numpy as np
-import string
-import spacy
-import nlpaug.augmenter.word as naw
-import nlpaug.augmenter.char as nac
-from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
-from textattack.transformations import (
-    WordSwapEmbedding,
-    WordSwapHomoglyphSwap,
-    WordSwapRandomCharacterSubstitution,
-    BackTranslation
-)
-from textattack.augmentation import Augmenter
-from textattack.shared.attacked_text import AttackedText
-import logging
-from typing import List, Dict, Any, Union
-import torch
 import difflib
-import textattack
-from .misc import generate_response
+import importlib
+import logging
 import re
+import string
+from typing import List, Dict, Any, Union
 
-import nltk
-nltk.download('averaged_perceptron_tagger_eng', quiet=True)
-nltk.download("punkt_tab", quiet=True)
+import numpy as np
+
+from .misc import generate_response
 
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load spaCy model
-nlp = spacy.load('en_core_web_sm')
+_nlp = None
+_sentiment_analyzer = None
 
-# Initialize sentiment analyzer
-analyzer = SentimentIntensityAnalyzer()
+
+def _require_module(module_name: str, feature: str, install_hint: str):
+    try:
+        return importlib.import_module(module_name)
+    except ImportError as exc:
+        raise ImportError(
+            f"{feature} requires the optional dependency '{module_name}'. "
+            f"Install it with `{install_hint}`."
+        ) from exc
+
+
+def _get_spacy_model():
+    global _nlp
+    if _nlp is None:
+        spacy = _require_module("spacy", "spaCy-based augmentations", "uv run --extra nlp python -m spacy download en_core_web_sm")
+        try:
+            _nlp = spacy.load("en_core_web_sm")
+        except OSError as exc:
+            raise RuntimeError(
+                "spaCy-based augmentations require the 'en_core_web_sm' model. "
+                "Install it with `uv run --extra nlp python -m spacy download en_core_web_sm`."
+            ) from exc
+    return _nlp
+
+
+def _get_sentiment_analyzer():
+    global _sentiment_analyzer
+    if _sentiment_analyzer is None:
+        sentiment_module = _require_module(
+            "vaderSentiment.vaderSentiment",
+            "context_removal",
+            "uv run --extra nlp pytest tests/",
+        )
+        _sentiment_analyzer = sentiment_module.SentimentIntensityAnalyzer()
+    return _sentiment_analyzer
+
+
+def _get_nltk():
+    nltk = _require_module("nltk", "swap_words", "uv run --extra nlp pytest tests/")
+    nltk.download("punkt_tab", quiet=True)
+    return nltk
 
 # Set random seed for reproducibility
 def set_random_seed(seed: int):
     random.seed(seed)
     np.random.seed(seed)
-    torch.manual_seed(seed)
-    if torch.cuda.is_available():
-        torch.cuda.manual_seed_all(seed)
-    textattack.shared.utils.set_seed(seed)
+    try:
+        torch = importlib.import_module("torch")
+    except ImportError:
+        torch = None
+    if torch is not None:
+        torch.manual_seed(seed)
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(seed)
+    try:
+        textattack = importlib.import_module("textattack")
+    except ImportError:
+        textattack = None
+    if textattack is not None:
+        textattack.shared.utils.set_seed(seed)
 set_random_seed(42)
 
 
 def apply_synonym_replacement(text: str, params: dict) -> tuple:
+    naw = _require_module(
+        "nlpaug.augmenter.word",
+        "synonym_replacement",
+        "uv pip install nlpaug",
+    )
     aug = naw.SynonymAug(
         aug_src=params.get('aug_src', 'wordnet'),
         aug_p=params.get('aug_p', 0.3),
@@ -75,6 +114,11 @@ def apply_synonym_replacement(text: str, params: dict) -> tuple:
 
 
 def apply_antonym_replacement(text: str, params: dict) -> str:
+    naw = _require_module(
+        "nlpaug.augmenter.word",
+        "antonym_replacement",
+        "uv pip install nlpaug",
+    )
     aug = naw.AntonymAug(
         aug_p=params.get('aug_p', 0.1),
         aug_min=params.get('aug_min', 1),
@@ -88,6 +132,11 @@ def apply_antonym_replacement(text: str, params: dict) -> str:
 
 
 def apply_introduce_typos(text: str, params: dict) -> str:
+    nac = _require_module(
+        "nlpaug.augmenter.char",
+        "introduce_typos",
+        "uv pip install nlpaug",
+    )
     typo_aug = nac.KeyboardAug(
         aug_char_p=params.get('aug_char_p', 0.1),
         aug_word_p=params.get('aug_word_p', 0.3),
@@ -106,6 +155,7 @@ def apply_introduce_typos(text: str, params: dict) -> str:
 
 def apply_change_character_names(text: str, params: dict) -> str:
     name_list = params.get('name_list', ['Alex', 'Jordan', 'Taylor', 'Riley', 'Morgan'])
+    nlp = _get_spacy_model()
     doc = nlp(text)
     names_in_text = {ent.text for ent in doc.ents if ent.label_ == 'PERSON'}
     name_mapping = {name: random.choice(name_list) for name in names_in_text}
@@ -140,6 +190,8 @@ def apply_shuffle_sentences(text: str, params: dict) -> str:
 
 def apply_context_removal(text: str, params: dict) -> str:
     threshold = params.get('sentiment_threshold', 0.5)
+    nlp = _get_spacy_model()
+    analyzer = _get_sentiment_analyzer()
     doc = nlp(text)
     new_sentences = []
     for sent in doc.sents:
@@ -150,30 +202,56 @@ def apply_context_removal(text: str, params: dict) -> str:
 
 
 def apply_word_swap_embedding(text: str, params: dict) -> str:
-    transformation = WordSwapEmbedding(
-        max_candidates=params.get('max_candidates', 5)
+    textattack_transformations = _require_module(
+        "textattack.transformations",
+        "word_swap_embedding",
+        "uv pip install textattack",
+    )
+    textattack_augmentation = _require_module(
+        "textattack.augmentation",
+        "word_swap_embedding",
+        "uv pip install textattack",
     )
     pct_words_to_swap = params.get('pct_words_to_swap', 0.1)
 
-    augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
+    transformation = textattack_transformations.WordSwapEmbedding(
+        max_candidates=params.get('max_candidates', 5)
+    )
+    augmenter = textattack_augmentation.Augmenter(
+        transformation=transformation,
+        pct_words_to_swap=pct_words_to_swap,
+    )
     augmented_text = augmenter.augment(text)
     
-    while type(augmented_text) != str:
+    while not isinstance(augmented_text, str):
         augmented_text = augmented_text[0]
 
     return augmented_text
 
 
 def apply_word_swap_homoglyph(text: str, params: dict) -> str:
+    textattack_transformations = _require_module(
+        "textattack.transformations",
+        "word_swap_homoglyph",
+        "uv pip install textattack",
+    )
+    textattack_augmentation = _require_module(
+        "textattack.augmentation",
+        "word_swap_homoglyph",
+        "uv pip install textattack",
+    )
     # Initialize without unsupported parameters
-    transformation = WordSwapHomoglyphSwap()  # No parameters here
+    transformation = textattack_transformations.WordSwapHomoglyphSwap()
     
     pct_words_to_swap = params.get('pct_words_to_swap', 0.1)
 
-    augmenter = Augmenter(transformation=transformation, pct_words_to_swap=pct_words_to_swap)
+    augmenter = textattack_augmentation.Augmenter(
+        transformation=transformation,
+        pct_words_to_swap=pct_words_to_swap,
+    )
     augmented_text = augmenter.augment(text)
 
-    while type(augmented_text) != str:
+    while not isinstance(augmented_text, str):
         augmented_text = augmented_text[0]
 
     return augmented_text
@@ -193,11 +271,21 @@ def apply_sentence_paraphrase(text: str, params: dict) -> str:
 
 
 def apply_backtranslation(text: str, params: dict) -> str:
-    transformation = BackTranslation(
+    textattack_transformations = _require_module(
+        "textattack.transformations",
+        "backtranslation",
+        "uv pip install textattack",
+    )
+    textattack_attacked_text = _require_module(
+        "textattack.shared.attacked_text",
+        "backtranslation",
+        "uv pip install textattack",
+    )
+    transformation = textattack_transformations.BackTranslation(
         src_lang=params.get('src_lang', 'en'),
         target_lang=params.get('target_lang', 'fr')
     )
-    attacked_text = AttackedText(text)
+    attacked_text = textattack_attacked_text.AttackedText(text)
     transformed_texts = transformation(attacked_text)
     if transformed_texts:
         return transformed_texts[0].text  # Get the first transformed text
@@ -258,6 +346,7 @@ def apply_caesar(text: str, params : dict) -> str:
 
   
 def swap_words_in_sentences(text: str, params: dict)  -> str:
+    nltk = _get_nltk()
     sentences = nltk.sent_tokenize(text)
     swapped_sentences = []
     num_swaps = params.get('num_swaps', 2)
